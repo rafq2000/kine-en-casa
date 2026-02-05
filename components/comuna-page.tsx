@@ -91,9 +91,9 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
-        name: `KineEnCasa - ${data.nombre}`,
+        name: `KINEUM - Kinesiología a Domicilio ${data.nombre}`,
         description: data.descripcion,
-        url: `https://kineencasa.cl/kinesiologo-a-domicilio-${data.slug}`,
+        url: `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}`,
         telephone: "+56999679593",
         address: {
             "@type": "PostalAddress",
@@ -107,8 +107,8 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
         parentOrganization: {
             "@type": "Organization",
-            name: "KineEnCasa",
-            url: "https://kineencasa.cl",
+            name: "KINEUM",
+            url: "https://kineum.cl",
         },
     }
 
@@ -127,14 +127,10 @@ export default function ComunaPage({ data }: ComunaPageProps) {
 
     return (
         <div className="min-h-screen bg-slate-50">
-            {/* Schema.org structured data */}
+            {/* Schema.org structured data - LocalBusiness only, FAQ is in layout.tsx */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-            />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
             {/* WhatsApp floating button */}
