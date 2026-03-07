@@ -38,6 +38,43 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 
 export default function HomePage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?",
+        acceptedAnswer: { "@type": "Answer", text: "El precio de una sesión de kinesiología a domicilio en el sector oriente de Santiago varía según el tipo de tratamiento y la comuna. Ofrecemos evaluación inicial gratuita. Contáctanos al +56 9 9967 9593 para una cotización personalizada." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Qué comunas atienden en el sector oriente de Santiago?",
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida y Macul. Todos los tratamientos se realizan directamente en tu hogar." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Trabajan con Fonasa o Isapre?",
+        acceptedAnswer: { "@type": "Answer", text: "Emitimos boletas que pueden ser reembolsadas por tu Isapre. También aceptamos pacientes Fonasa con modalidad libre elección. Consulta los detalles de tu plan de salud." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Qué tipos de kinesiología ofrecen a domicilio?",
+        acceptedAnswer: { "@type": "Answer", text: "Ofrecemos kinesiología geriátrica, respiratoria, traumatológica, neurológica, rehabilitación postquirúrgica y educación familiar. Nuestros kinesiólogos tienen más de 5 años de experiencia." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Cuánto dura una sesión de kinesiología a domicilio?",
+        acceptedAnswer: { "@type": "Answer", text: "Cada sesión tiene una duración de 60 minutos aproximadamente. El tiempo puede variar según las necesidades específicas del paciente y el tipo de tratamiento." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Atienden adultos mayores con movilidad reducida?",
+        acceptedAnswer: { "@type": "Answer", text: "Sí, somos especialistas en atención a adultos mayores con movilidad reducida. Llevamos todo el equipamiento necesario a tu hogar y adaptamos cada sesión a las capacidades del paciente." }
+      }
+    ]
+  }
+
   const services = [
     {
       title: "Kinesiología Geriátrica",
@@ -166,6 +203,10 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-slate-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <WhatsAppButton />
 
       <header className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white shadow-2xl sticky top-0 z-50 backdrop-blur-sm border-b border-slate-700">
@@ -187,9 +228,9 @@ export default function HomePage() {
               <a href="#planes" className="hover:text-amber-400 transition-colors font-medium text-slate-200">
                 Membresías
               </a>
-              <a href="#nosotros" className="hover:text-amber-400 transition-colors font-medium text-slate-200">
-                Expertise
-              </a>
+              <Link href="/nosotros" className="hover:text-amber-400 transition-colors font-medium text-slate-200">
+                Equipo Clínico
+              </Link>
               <a href="#contacto" className="hover:text-amber-400 transition-colors font-medium text-slate-200">
                 Contacto
               </a>
@@ -609,7 +650,7 @@ export default function HomePage() {
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 font-serif leading-tight">
                 ¿Por qué elegir
                 <br />
-                <span className="text-amber-700">KineEnCasa?</span>
+                <span className="text-amber-700">KINEUM?</span>
               </h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Somos un equipo de kinesiólogos profesionales especializados en atención domiciliaria. Entendemos que la
@@ -794,16 +835,31 @@ export default function HomePage() {
             </a>
           </div>
 
-          <div className="mt-10 text-center">
-            <p className="text-slate-600 mb-4">
-              También atendemos en: <strong>La Florida, Peñalolén, Macul, San Joaquín y Santiago Centro</strong>
-            </p>
+          <div className="mt-12 text-center">
+            <h4 className="text-xl font-bold text-slate-900 mb-6 font-serif">Más comunas en nuestra red de atención:</h4>
+            <div className="flex flex-wrap justify-center gap-3 mb-8">
+              {[
+                { name: 'La Florida', slug: 'la-florida' },
+                { name: 'Peñalolén', slug: 'penalolen' },
+                { name: 'Macul', slug: 'macul' },
+                { name: 'San Joaquín', slug: 'san-joaquin' },
+                { name: 'Santiago Centro', slug: 'santiago-centro' },
+              ].map((comuna) => (
+                <a
+                  key={comuna.slug}
+                  href={`/kinesiologo-a-domicilio-${comuna.slug}`}
+                  className="bg-white border border-slate-200 text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-sm"
+                >
+                  {comuna.name}
+                </a>
+              ))}
+            </div>
             <Button
               className="bg-emerald-600 hover:bg-emerald-700 text-white"
               onClick={() => window.open("https://wa.me/56999679593?text=Hola, ¿atienden kinesiología a domicilio en mi comuna?", "_blank")}
             >
               <MessageCircle className="h-4 w-4 mr-2" />
-              Consultar Cobertura
+              Consultar otra comuna
             </Button>
           </div>
         </div>
@@ -829,7 +885,7 @@ export default function HomePage() {
             <Link href="/blog/neuroplasticidad-recuperacion-acv" className="group cursor-pointer block">
               <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/neurological-physiotherapy.png"
                   alt="Recovery Science"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -855,7 +911,7 @@ export default function HomePage() {
             <Link href="/blog/ergonomia-home-office-guia-2024" className="group cursor-pointer block">
               <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/placeholder.jpg"
                   alt="Ergonomics"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -881,7 +937,7 @@ export default function HomePage() {
             <Link href="/blog/sarcopenia-fuerza-es-salud" className="group cursor-pointer block">
               <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/physiotherapist-elderly-exercise.png"
                   alt="Elderly Care"
                   className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                 />

@@ -160,7 +160,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                     <Home className="h-8 w-8 text-white" />
                                 </div>
                                 <div>
-                                    <h1 className="text-3xl font-bold font-serif text-white">KineEnCasa</h1>
+                                    <h1 className="text-3xl font-bold font-serif text-white">KINEUM</h1>
                                     <p className="text-sm text-slate-200">Rehabilitación Profesional</p>
                                 </div>
                             </Link>
@@ -539,7 +539,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     {/* Características */}
                     <div className="mt-12 max-w-4xl mx-auto">
                         <h3 className="text-2xl font-bold text-slate-900 text-center mb-8 font-serif">
-                            ¿Por qué elegir KineEnCasa en {data.nombre}?
+                            ¿Por qué elegir KINEUM en {data.nombre}?
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             {data.caracteristicas.map((caracteristica, index) => (
