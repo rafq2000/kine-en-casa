@@ -6,7 +6,19 @@ import Image from 'next/image'
 export const metadata: Metadata = {
     title: 'Nuestro Equipo Clínico | KINEUM',
     description: 'Conoce a los kinesiólogos certificados de KINEUM. Profesionales inscritos en la Superintendencia de Salud. Kinesiología a domicilio en Santiago.',
-    keywords: ['equipo clínico', 'kinesiólogos certificados', 'registro minsal', 'kinesiologos santiago oriente'],
+    keywords: [
+        "kineum",
+        "kinesiólogos certificados santiago",
+        "equipo kineum",
+        "kinesiólogos a domicilio santiago",
+        "fisioterapeutas certificados",
+        "kineum opiniones",
+        "kinesiólogos superintendencia salud",
+        "kinesiólogos experiencia santiago",
+    ],
+    alternates: {
+        canonical: 'https://kineum.cl/nosotros',
+    },
 }
 
 export default function NosotrosPage() {

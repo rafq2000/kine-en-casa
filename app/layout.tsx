@@ -21,10 +21,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: "Kinesiología a Domicilio Premium Santiago | KINEUM",
-    template: "%s | KINEUM - Clinical Home Care",
   },
   description:
-    "KINEUM: Rehabilitación clínica de precisión en su hogar. Kinesiólogos especialistas en Las Condes, Vitacura, Providencia, Lo Barnechea. Tecnología avanzada + Atención experta. ☎ +56 9 9967 9593",
+    "Kinesiólogos a domicilio en Santiago: rehabilitación clínica de precisión en su hogar. Las Condes, Vitacura, Providencia y todo el sector oriente. ☎ +56 9 9967 9593",
   keywords: [
     "kinesiólogo a domicilio",
     "kinesiología a domicilio",
@@ -73,9 +72,6 @@ export const metadata: Metadata = {
       "Kinesiología clínica en su hogar. Las Condes, Vitacura, Providencia. ☎ +56 9 9967 9593",
     images: ["/og-image.jpg"],
   },
-  alternates: {
-    canonical: siteUrl,
-  },
   verification: {
     google: "google3150a05fdaef1b10",
   },
@@ -102,7 +98,8 @@ const localBusinessSchema = {
   paymentAccepted: "Efectivo, Transferencia, Tarjeta de Crédito, Tarjeta de Débito",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Santiago",
+    streetAddress: "Av. Apoquindo 4501",
+    addressLocality: "Las Condes",
     addressRegion: "Región Metropolitana",
     addressCountry: "CL",
   },
@@ -150,6 +147,21 @@ const localBusinessSchema = {
     {
       "@type": "City",
       name: "La Florida",
+      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
+    },
+    {
+      "@type": "City",
+      name: "Macul",
+      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
+    },
+    {
+      "@type": "City",
+      name: "San Joaquín",
+      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
+    },
+    {
+      "@type": "City",
+      name: "Santiago Centro",
       containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
     },
   ],
@@ -226,7 +238,7 @@ const localBusinessSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "127",
+    reviewCount: "147",
     bestRating: "5",
     worstRating: "1",
   },

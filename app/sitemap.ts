@@ -30,6 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const baseRoutes = [
         '',
         '/nosotros',
+        '/como-funciona',
+        '/precios',
+        '/testimonios',
+        '/blog',
         '/ejercicios',
         '/servicios/respiratoria',
         '/servicios/geriatrica',
@@ -40,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const allRoutes = [...baseRoutes, ...localRoutes].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
-        changeFrequency: 'daily' as const,
+        changeFrequency: 'weekly' as const,
         priority: route === '' ? 1 : 0.9,
     }))
 

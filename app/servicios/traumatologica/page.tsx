@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: 'Kinesiología Traumatológica a Domicilio | Fracturas y Prótesis | KINEUM',
     description: 'Rehabilitación de lesiones musculares y esqueléticas en casa. Recuperación de prótesis de cadera, rodilla, esguinces y fracturas en Santiago.',
     keywords: ['kinesiología traumatológica domicilio', 'rehabilitación fractura cadera', 'kine prótesis rodilla', 'tratamiento lumbago domicilio', 'esguince tobillo kine'],
+    alternates: {
+        canonical: 'https://kineum.cl/servicios/traumatologica',
+    },
 }
 
 export default function TraumaPage() {

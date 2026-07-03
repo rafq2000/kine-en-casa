@@ -26,3 +26,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# local logs & exports
+build_error.log
+error.log
+tsc.log
+https___kineum.cl_-Performance-on-Search-*/

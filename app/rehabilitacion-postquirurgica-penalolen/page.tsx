@@ -22,11 +22,18 @@ const pageData = {
 
 export const metadata: Metadata = {
     title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Recuperación postquirúrgica especializada a domicilio en Peñalolén. Kinesiólogos expertos para una rehabilitación segura y efectiva. Agende hoy al +56 9 9967 9593.`,
+    description: `Kine postquirúrgico a domicilio en Peñalolén. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
     keywords: [
         `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
         `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
         `kinesiólogo a domicilio ${pageData.nombre}`,
+        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
+        `kine post artroscopia ${pageData.nombre}`,
+        `recuperación prótesis cadera ${pageData.nombre}`,
+        `kine post operación columna ${pageData.nombre}`,
+        `rehabilitación post cirugía hombro ${pageData.nombre}`,
+        `kine post cesárea ${pageData.nombre}`,
+        `recuperación post hospitalización ${pageData.nombre}`,
     ],
     alternates: {
         canonical: `https://kineum.cl/rehabilitacion-postquirurgica-penalolen`,

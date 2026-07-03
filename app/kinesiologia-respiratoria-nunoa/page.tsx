@@ -22,11 +22,19 @@ const pageData = {
 
 export const metadata: Metadata = {
     title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kinesiología respiratoria pediátrica y adulto a domicilio en Ñuñoa. Tratamiento experto para bronquitis, neumonía, y EPOC. Agende hoy al +56 9 9967 9593.`,
+    description: `Kine respiratorio infantil y adulto a domicilio en Ñuñoa. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
     keywords: [
         `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
         `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
         `kinesiólogo a domicilio ${pageData.nombre}`,
+        `kine respiratorio bebé ${pageData.nombre}`,
+        `kinesiología respiratoria infantil ${pageData.nombre}`,
+        `KTR a domicilio ${pageData.nombre}`,
+        `tratamiento EPOC ${pageData.nombre}`,
+        `rehabilitación post COVID ${pageData.nombre}`,
+        `kine respiratorio isapre ${pageData.nombre}`,
+        `bronquitis tratamiento kine ${pageData.nombre}`,
+        `neumonía rehabilitación ${pageData.nombre}`,
     ],
     alternates: {
         canonical: `https://kineum.cl/kinesiologia-respiratoria-nunoa`,

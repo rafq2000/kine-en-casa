@@ -1,7 +1,32 @@
+import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Play, AlertCircle, CheckCircle2 } from "lucide-react"
 import { exercises } from "@/lib/exercises-data"
+
+export const metadata: Metadata = {
+    title: "Ejercicios Terapéuticos de Kinesiología en Casa | KINEUM",
+    description:
+        "Biblioteca de ejercicios terapéuticos guiados por kinesiólogos: fortalecimiento, movilidad, equilibrio y respiración para hacer en casa de forma segura.",
+    keywords: [
+        "ejercicios kinesiología en casa",
+        "ejercicios terapéuticos a domicilio",
+        "ejercicios rehabilitación rodilla",
+        "ejercicios adulto mayor equilibrio",
+        "ejercicios respiratorios kinesiología",
+    ],
+    alternates: {
+        canonical: "https://kineum.cl/ejercicios",
+    },
+    openGraph: {
+        title: "Ejercicios Terapéuticos de Kinesiología en Casa | KINEUM",
+        description:
+            "Guías visuales de ejercicios de rehabilitación creadas por kinesiólogos de KINEUM.",
+        url: "https://kineum.cl/ejercicios",
+        type: "website",
+        locale: "es_CL",
+    },
+}
 
 export default function ExercisesPage() {
     return (

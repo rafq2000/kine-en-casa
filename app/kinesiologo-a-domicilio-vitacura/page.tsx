@@ -35,6 +35,9 @@ export const metadata: Metadata = {
         "rehabilitación vitacura",
         "kinesiologo adulto mayor vitacura",
     ],
+    alternates: {
+        canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
+    },
     openGraph: {
         title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | KINEUM`,
         description: `Rehabilitación kinesiológica en Vitacura. Profesionales de excelencia en su hogar.`,

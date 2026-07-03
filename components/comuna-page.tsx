@@ -70,36 +70,20 @@ export default function ComunaPage({ data }: ComunaPageProps) {
 
     const faqs = [
         {
-            question: `¿Cuánto cuesta un kinesiólogo a domicilio en ${data.nombre}?`,
-            answer: `El precio de una sesión de kine a domicilio en ${data.nombre} varía según el tipo de tratamiento. Ofrecemos evaluación inicial gratuita. Con Isapre o Fonasa puedes obtener reembolso parcial. Contáctanos al +56 9 9967 9593 para una cotización personalizada.`,
+            question: `¿Cuánto cuesta una sesión de kinesiología a domicilio en ${data.nombre}?`,
+            answer: `El precio de nuestras sesiones de kinesiología a domicilio en ${data.nombre} varía según el tipo de tratamiento. Ofrecemos evaluación inicial gratuita. Contáctanos al +56 9 9967 9593 para una cotización personalizada.`,
         },
         {
-            question: `¿En qué sectores de ${data.nombre} atienden kinesiólogos a domicilio?`,
-            answer: `Atendemos en toda la comuna de ${data.nombre}, incluyendo: ${data.sectores.join(", ")}. Nuestros kinesiólogos van directamente a tu hogar con todo el equipamiento.`,
+            question: `¿En qué sectores de ${data.nombre} atienden?`,
+            answer: `Atendemos en toda la comuna de ${data.nombre}, incluyendo: ${data.sectores.join(", ")}. Todos los tratamientos se realizan directamente en tu hogar.`,
         },
         {
-            question: `¿El kinesiólogo a domicilio en ${data.nombre} acepta Isapre?`,
-            answer: `Sí, emitimos boleta de honorarios profesional para que solicites el reembolso en tu Isapre (Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida). Necesitas una orden médica que indique kinesiología. El reembolso es generalmente entre 50% y 80% del valor según tu plan.`,
+            question: `¿Trabajan con Fonasa o Isapre en ${data.nombre}?`,
+            answer: "Emitimos boletas que pueden ser reembolsadas por tu Isapre. También aceptamos pacientes Fonasa con modalidad libre elección.",
         },
         {
-            question: `¿Puedo atenderme con kinesiólogo a domicilio por Fonasa en ${data.nombre}?`,
-            answer: `Sí, aceptamos pacientes Fonasa con modalidad libre elección en ${data.nombre}. Pagas la sesión y solicitas el reembolso con tu orden médica y la boleta que emitimos. El monto reembolsado depende de tu tramo Fonasa (A, B, C o D). El trámite se hace fácil en la app Mi Fonasa.`,
-        },
-        {
-            question: `¿Necesito orden médica para kine a domicilio en ${data.nombre}?`,
-            answer: `Para obtener reembolso por Isapre o Fonasa, sí necesitas orden médica que indique "kinesiología" o "rehabilitación". Si no tienes, puedes atenderte de forma particular sin orden. También te ayudamos a coordinar con tu médico tratante si lo necesitas.`,
-        },
-        {
-            question: `¿Cuánto dura una sesión de kine a domicilio en ${data.nombre}?`,
-            answer: "Cada sesión tiene una duración de 45 a 60 minutos aproximadamente. El kinesiólogo lleva todo el equipamiento necesario a tu hogar. El tiempo puede variar según el tipo de tratamiento y las necesidades del paciente.",
-        },
-        {
-            question: `¿Atienden adultos mayores a domicilio en ${data.nombre}?`,
-            answer: `Sí, somos especialistas en kinesiología geriátrica a domicilio en ${data.nombre}. Atendemos adultos mayores con movilidad reducida, post caídas, artrosis, sarcopenia y rehabilitación post hospitalización. Adaptamos cada sesión a las capacidades del paciente.`,
-        },
-        {
-            question: `¿Hacen kinesiología respiratoria a domicilio en ${data.nombre}?`,
-            answer: `Sí, realizamos kinesiología respiratoria (KTR) a domicilio en ${data.nombre} para adultos, adultos mayores, niños y bebés. Tratamos bronquitis, neumonía, EPOC, post COVID y obstrucción bronquial. Reembolsable por Isapre y Fonasa con orden médica.`,
+            question: `¿Cuánto dura una sesión de kinesiología a domicilio en ${data.nombre}?`,
+            answer: "Cada sesión tiene una duración de 60 minutos aproximadamente. El tiempo puede variar según las necesidades específicas del paciente.",
         },
     ]
 
@@ -107,8 +91,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
-        name: `KINEUM - Kinesiólogo y Fisioterapeuta a Domicilio ${data.nombre}`,
-        alternateName: `KINEUM - Kine a Domicilio ${data.nombre}`,
+        name: `KINEUM - Kinesiología a Domicilio ${data.nombre}`,
         description: data.descripcion,
         url: `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}`,
         telephone: "+56999679593",
@@ -263,7 +246,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                     <UserCheck className="h-7 w-7 text-slate-700" />
                                 </div>
                                 <h3 className="font-bold text-lg mb-1 text-slate-900">Kinesiólogos Certificados</h3>
-                                <p className="text-slate-600 font-medium">Fisioterapeutas con +5 años</p>
+                                <p className="text-slate-600 font-medium">+5 años de experiencia</p>
                             </div>
                             <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200">
                                 <div className="bg-slate-100 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -281,84 +264,6 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             </div>
                         </div>
 
-                    </div>
-                </div>
-            </section>
-
-            {/* Isapre / Fonasa / Reembolso Section */}
-            <section className="py-16 bg-white border-b border-slate-200">
-                <div className="container mx-auto px-4">
-                    <div className="max-w-5xl mx-auto">
-                        <div className="text-center mb-10">
-                            <Badge className="mb-4 px-6 py-2 text-sm font-medium bg-emerald-700 text-white border-emerald-600">
-                                <Shield className="h-4 w-4 mr-2" />
-                                Reembolso Isapre y Fonasa
-                            </Badge>
-                            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif">
-                                Kinesiólogo a Domicilio con <span className="text-emerald-700">Reembolso</span>
-                                <br />
-                                <span className="text-amber-700">en {data.nombre}</span>
-                            </h2>
-                            <p className="text-lg text-slate-600 mt-4 max-w-3xl mx-auto">
-                                Emitimos boleta de honorarios profesional para que solicites el reembolso en tu Isapre o Fonasa libre elección. Solo necesitas una orden médica.
-                            </p>
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                            {/* Isapre */}
-                            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200 shadow-md">
-                                <div className="flex items-center gap-3 mb-4">
-                                    <div className="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center">
-                                        <Shield className="h-6 w-6 text-blue-700" />
-                                    </div>
-                                    <div>
-                                        <h3 className="text-xl font-bold text-slate-900">Isapre</h3>
-                                        <p className="text-sm text-blue-700 font-medium">Reembolso 50% a 80%</p>
-                                    </div>
-                                </div>
-                                <ul className="space-y-2">
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida</span></li>
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Boleta de honorarios profesional por sesión</span></li>
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Reembolso vía app, web o sucursal de tu Isapre</span></li>
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Solo necesitas orden médica vigente</span></li>
-                                </ul>
-                            </div>
-
-                            {/* Fonasa */}
-                            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200 shadow-md">
-                                <div className="flex items-center gap-3 mb-4">
-                                    <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center">
-                                        <Award className="h-6 w-6 text-green-700" />
-                                    </div>
-                                    <div>
-                                        <h3 className="text-xl font-bold text-slate-900">Fonasa</h3>
-                                        <p className="text-sm text-green-700 font-medium">Modalidad Libre Elección</p>
-                                    </div>
-                                </div>
-                                <ul className="space-y-2">
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Todos los tramos Fonasa (A, B, C, D)</span></li>
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Pagas y solicitas reembolso con boleta + orden médica</span></li>
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Trámite fácil por app Mi Fonasa o sucursal</span></li>
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" /><span className="text-slate-700">Reembolso según tramo: 25% a 50% aprox.</span></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="text-center">
-                            <p className="text-slate-600 mb-4">¿Dudas sobre el reembolso de tu kine a domicilio en {data.nombre}?</p>
-                            <Button
-                                className="bg-emerald-600 hover:bg-emerald-700 text-white"
-                                onClick={() =>
-                                    window.open(
-                                        `https://wa.me/56999679593?text=Hola, quiero saber cómo funciona el reembolso de kinesiología a domicilio en ${data.nombre} por mi Isapre/Fonasa`,
-                                        "_blank",
-                                    )
-                                }
-                            >
-                                <MessageCircle className="h-4 w-4 mr-2" />
-                                Consultar Reembolso
-                            </Button>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -488,15 +393,15 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 <CardDescription className="text-slate-600 text-sm leading-relaxed">El protocolo acelerado para eliminar dolor.</CardDescription>
                                 <div className="my-6">
                                     <p className="text-xs text-slate-400 uppercase font-bold tracking-widest mb-1">Valor Total</p>
-                                    <span className="text-lg font-bold text-slate-400 line-through decoration-red-500 decoration-2">$500.000+</span>
+                                    <span className="text-lg font-bold text-slate-400 line-through decoration-red-500 decoration-2">$400.000+</span>
                                     <div className="flex items-center justify-center gap-2 mt-1">
-                                        <span className="text-4xl font-black text-slate-900 tracking-tight">$350.000</span>
+                                        <span className="text-4xl font-black text-slate-900 tracking-tight">$280.000</span>
                                     </div>
                                 </div>
                             </CardHeader>
                             <CardContent className="pt-0 flex-grow">
                                 <ul className="space-y-3 mb-6">
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> 10 Sesiones Expert</li>
+                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> 8 Sesiones Expert</li>
                                     <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> Reportes de Progreso</li>
                                     <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> Prioridad Agenda</li>
                                 </ul>

@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: 'Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM',
     description: 'Rehabilitación geriátrica en Santiago. Tratamiento de Sarcopenia, prevención de caídas y artrosis. Kinesiólogos expertos en el cuidado del adulto mayor.',
     keywords: ['kinesiología adulto mayor domicilio', 'kine geriatrica santiago', 'tratamiento sarcopenia', 'rehabilitación artrosis cadera', 'kinesiologo tercera edad'],
+    alternates: {
+        canonical: 'https://kineum.cl/servicios/geriatrica',
+    },
 }
 
 export default function GeriatricPage() {

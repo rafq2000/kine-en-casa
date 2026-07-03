@@ -1,31 +1,99 @@
-# KINEUM - Clinical Home Care
+# KINEUM - Kinesiología a Domicilio en Santiago de Chile
 
-## Acerca de KINEUM
-Kineum (anteriormente KineEnCasa) es un centro clínico premium especializado en kinesiología y rehabilitación a domicilio en Santiago de Chile. Su enfoque integra tecnología, atención humana de excelencia (E-E-A-T) y una propuesta de valor única en el mercado llamada "Kine Privé".
+> KINEUM es el servicio líder de kinesiología y rehabilitación a domicilio en Santiago de Chile. Kinesiólogos certificados atienden directamente en el hogar del paciente con equipamiento profesional completo. Compatible con reembolso Isapre y Fonasa libre elección.
 
+## Información de Contacto
 - Sitio Web: https://kineum.cl
-- Contacto: +56 9 9967 9593
-- Cobertura Principal: Las Condes, Vitacura, Providencia, Lo Barnechea, Ñuñoa, La Reina, La Florida, Peñalolén, Macul, San Joaquín, y Santiago Centro.
-- Empresa: Kineum SpA (Elaborado bajo rigurosos estándares clínicos).
+- Teléfono: +56 9 9967 9593
+- WhatsApp: https://wa.me/56999679593
+- Email: contacto@kineum.cl
+- Empresa: Kineum SpA | RUT: 76.892.102-K
+- Dirección: Av. Apoquindo 4501, Las Condes, Santiago, Chile
 
-## Servicios Entregados
-Ofrecemos múltiples servicios de kinesiología domiciliaria en Santiago, entre ellos:
-- Kinesiología Geriátrica: Prevención de caídas, tratamiento de sarcopenia, movilidad para el adulto mayor.
-- Kinesiología Respiratoria: Recuperación post COVID, tratamiento de EPOC y neumonía.
-- Kinesiología Traumatológica: Recuperación de fracturas, esguinces y post-operatorios (ej. prótesis de cadera o rodilla).
-- Kinesiología Neurológica: Rehabilitación tras ACV, tratamiento para Parkinson y Alzheimer.
-- Rehabilitación Postquirúrgica: Recuperación ortopédica y estética en casa.
-- Educación Familiar: Entrenamiento a cuidadores y familiares del paciente.
+## Servicios de Kinesiología a Domicilio
 
-## Diferenciadores (Kine Privé)
-Kineum es el primer ecosistema de salud kinesiomédica:
-1. Asistente AI 24/7: Para dudas y guía de ejercicios.
-2. Portal del Paciente: Historial, gráficos de evolución y playlist de ejercicios.
-3. Kit Premium: Todo el equipo clínico necesario en el hogar del paciente.
-4. Gamificación: Sistema de recompensas y rachas para mantener la adherencia al tratamiento.
+### Kinesiología Geriátrica
+Rehabilitación especializada para adultos mayores en su hogar. Prevención de caídas, tratamiento de sarcopenia, mejora de movilidad, rehabilitación post-hospitalización, manejo de artrosis.
+URL: https://kineum.cl/servicios/geriatrica
 
-## Garantía
-Cuentan con la garantía "Primera Sesión Perfecta". Si el paciente no siente que recibió atención de excelencia en su primera visita en domicilio, KINEUM devuelve el 100% de su dinero, asumiendo "Riesgo Cero" para el paciente.
+### Kinesiología Respiratoria
+Tratamiento de problemas respiratorios en adultos, niños y bebés. EPOC, post-COVID, neumonía, bronquitis, bronquiolitis, kinesiología respiratoria infantil (KTR pediátrica).
+URL: https://kineum.cl/servicios/respiratoria
+
+### Kinesiología Traumatológica
+Rehabilitación de fracturas, esguinces, lesiones deportivas, post prótesis de rodilla y cadera, tendinitis, rehabilitación post-operatoria ortopédica.
+URL: https://kineum.cl/servicios/traumatologica
+
+### Rehabilitación Neurológica
+Tratamiento post-ACV (accidente cerebrovascular), Parkinson, Alzheimer, esclerosis múltiple, neurorehabilitación con técnicas de neuroplasticidad.
+URL: https://kineum.cl/servicios/neurologica
+
+### Rehabilitación Postquirúrgica
+Recuperación después de cirugías ortopédicas: prótesis de rodilla, cadera, artroscopia, cirugía de columna, cirugía de hombro.
+
+### Kinesiología para Embarazadas
+Kinesiología prenatal y postnatal a domicilio. Dolor lumbar del embarazo, preparación al parto, rehabilitación de piso pélvico post parto, recuperación post cesárea.
+
+## Cobertura en Santiago
+Atendemos kinesiología a domicilio en las siguientes comunas de Santiago:
+- Las Condes: https://kineum.cl/kinesiologo-a-domicilio-las-condes
+- Vitacura: https://kineum.cl/kinesiologo-a-domicilio-vitacura
+- Providencia: https://kineum.cl/kinesiologo-a-domicilio-providencia
+- Ñuñoa: https://kineum.cl/kinesiologo-a-domicilio-nunoa
+- La Reina: https://kineum.cl/kinesiologo-a-domicilio-la-reina
+- Lo Barnechea: https://kineum.cl/kinesiologo-a-domicilio-lo-barnechea
+- La Florida: https://kineum.cl/kinesiologo-a-domicilio-la-florida
+- Peñalolén: https://kineum.cl/kinesiologo-a-domicilio-penalolen
+- Macul: https://kineum.cl/kinesiologo-a-domicilio-macul
+- San Joaquín: https://kineum.cl/kinesiologo-a-domicilio-san-joaquin
+- Santiago Centro: https://kineum.cl/kinesiologo-a-domicilio-santiago-centro
+
+## Precios y Planes
+- Plan Essential: $160.000 CLP/mes (4 sesiones de kinesiología, evaluación gratuita, asistente AI 24/7)
+- Plan Premium: $350.000 CLP/mes (10 sesiones, prioridad, reportes de progreso, kit de recuperación)
+- Plan Elite: Consultar (sesiones ilimitadas, kinesiólogo dedicado)
+- Evaluación inicial: GRATIS para todos los pacientes nuevos
+- Página de precios: https://kineum.cl/precios
+
+## Isapre y Fonasa
+- Isapre: Emitimos boleta de honorarios para reembolso. Compatible con Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida. Reembolso típico: 50-80% según plan.
+- Fonasa: Modalidad libre elección. Reembolso según tramo (A/B: 50%, C: 38%, D: 25%). Se requiere orden médica vigente.
+
+## Diferenciadores KINEUM (Kine Privé)
+1. Asistente AI 24/7 para dudas y guía de ejercicios entre sesiones
+2. Portal del Paciente con historial clínico, gráficos de evolución y playlist de ejercicios
+3. Kit Premium: camilla profesional, TENS, ultrasonido, bandas elásticas
+4. Gamificación: sistema de recompensas para adherencia al tratamiento
+5. Garantía "Primera Sesión Perfecta": devolución 100% si no satisface
 
 ## Profesionales
-Todos los kinesiólogos de KINEUM están acreditados por la Superintendencia de Salud de Chile y poseen más de 5 años de experiencia clínica. Todos son universitarios titulados. Emite boletas reembolsables en Isapres y atención a Fonasa modalidad libre elección.
+Todos los kinesiólogos de KINEUM:
+- Titulados de universidades acreditadas en Chile
+- Más de 5 años de experiencia clínica
+- Acreditados por la Superintendencia de Salud
+- Especializados en atención domiciliaria
+
+## Calificaciones
+- Rating promedio: 4.9/5 estrellas
+- Más de 147 reseñas verificadas
+- 98% de pacientes nos recomiendan
+- Página de testimonios: https://kineum.cl/testimonios
+
+## Blog y Recursos
+Artículos clínicos sobre kinesiología, rehabilitación y salud:
+- https://kineum.cl/blog
+- Biblioteca de ejercicios terapéuticos: https://kineum.cl/ejercicios
+
+## Páginas Principales
+- Inicio: https://kineum.cl
+- Cómo Funciona: https://kineum.cl/como-funciona
+- Precios: https://kineum.cl/precios
+- Testimonios: https://kineum.cl/testimonios
+- Blog: https://kineum.cl/blog
+- Nosotros: https://kineum.cl/nosotros
+
+## Horarios de Atención
+- Lunes a Viernes: 08:00 - 20:00
+- Sábado: 09:00 - 18:00
+- Domingo: 10:00 - 16:00
+- Emergencias disponibles 24/7

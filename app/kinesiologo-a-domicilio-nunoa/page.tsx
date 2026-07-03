@@ -35,6 +35,9 @@ export const metadata: Metadata = {
         "rehabilitación irarrázaval",
         "kinesiologo barrio italia",
     ],
+    alternates: {
+        canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
+    },
     openGraph: {
         title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | KINEUM`,
         description: `Expertos en kinesiología a su hogar en Ñuñoa. Agenda online.`,

@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: 'Kinesiología Respiratoria a Domicilio Santiago [Infantil y Adulto] | KINEUM',
     description: 'Tratamiento respiratorio a domicilio en Las Condes y Vitacura. Especialistas en Bronquitis, Neumonía, EPOC y KTR Infantil. Agende hoy.',
     keywords: ['kinesiología respiratoria domicilio', 'kine respiratorio infantil', 'neumonía tratamiento casa', 'ktr domicilio santiago', 'bronquitis niños kinesiolgia'],
+    alternates: {
+        canonical: 'https://kineum.cl/servicios/respiratoria',
+    },
 }
 
 export default function RespiratoryPage() {

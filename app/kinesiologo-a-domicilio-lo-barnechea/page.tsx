@@ -35,6 +35,9 @@ export const metadata: Metadata = {
         "rehabilitacion el huinganal",
         "fisioterapia lo barnechea",
     ],
+    alternates: {
+        canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
+    },
     openGraph: {
         title: `Kinesiólogo a Domicilio en La Dehesa y ${comunaData.nombre} | KINEUM`,
         description: `Servicio kinesiológico premium en Lo Barnechea. La Dehesa, Los Trapenses.`,

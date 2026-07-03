@@ -20,6 +20,16 @@ export async function generateMetadata({ params }: BlogPostProps) {
     return {
         title: `${post.title} | KINEUM Journal`,
         description: post.subtitle,
+        alternates: {
+            canonical: `https://kineum.cl/blog/${post.slug}`,
+        },
+        openGraph: {
+            title: `${post.title} | KINEUM Journal`,
+            description: post.subtitle,
+            url: `https://kineum.cl/blog/${post.slug}`,
+            type: "article",
+            locale: "es_CL",
+        },
     }
 }
 
