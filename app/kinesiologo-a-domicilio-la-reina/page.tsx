@@ -26,7 +26,7 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | KINEUM`,
+    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Kine Isapre y Fonasa | KINEUM`,
     description: `Kinesiología a domicilio en ${comunaData.nombre}. Especialistas en rehabilitación en La Reina Alta, Príncipe de Gales y Plaza Egaña.`,
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | KINEUM`,
+        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Kine Isapre y Fonasa | KINEUM`,
         description: `Recuperación kinesiológica en su hogar en La Reina. Agende su sesión.`,
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
