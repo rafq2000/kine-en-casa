@@ -1,4 +1,4 @@
-import { getPostBySlug } from "@/lib/blog-data"
+import { getPostBySlug, blogPosts } from "@/lib/blog-data"
 import { notFound } from "next/navigation"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -10,6 +10,10 @@ interface BlogPostProps {
     params: Promise<{
         slug: string
     }>
+}
+
+export function generateStaticParams() {
+    return blogPosts.map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({ params }: BlogPostProps) {
@@ -29,6 +33,7 @@ export async function generateMetadata({ params }: BlogPostProps) {
             url: `https://kineum.cl/blog/${post.slug}`,
             type: "article",
             locale: "es_CL",
+            images: [{ url: `https://kineum.cl${post.image}` }],
         },
     }
 }
@@ -43,8 +48,41 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
     const Icon = post.icon
 
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.subtitle,
+        image: `https://kineum.cl${post.image}`,
+        datePublished: post.dateISO,
+        dateModified: post.dateISO,
+        inLanguage: "es-CL",
+        author: {
+            "@type": "Organization",
+            name: post.author,
+            url: "https://kineum.cl/nosotros",
+        },
+        publisher: {
+            "@type": "Organization",
+            name: "KINEUM",
+            url: "https://kineum.cl",
+            logo: {
+                "@type": "ImageObject",
+                url: "https://kineum.cl/logo.png",
+            },
+        },
+        mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": `https://kineum.cl/blog/${post.slug}`,
+        },
+    }
+
     return (
         <div className="min-h-screen bg-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
             {/* Blog Header */}
             <header className="bg-slate-950 py-20 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
@@ -111,12 +149,24 @@ export default async function BlogPost({ params }: BlogPostProps) {
                             Nuestros especialistas integran esta evidencia clínica en cada plan de tratamiento personalizado.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white">
-                                Agendar Evaluación
+                            <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white">
+                                <a
+                                    href={`https://wa.me/56999679593?text=${encodeURIComponent(`Hola, leí "${post.title}" y quiero agendar una evaluación`)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Agendar Evaluación Gratuita
+                                </a>
                             </Button>
-                            <Button variant="outline" size="lg" className="border-slate-300">
-                                <Share2 className="h-4 w-4 mr-2" />
-                                Compartir Artículo
+                            <Button asChild variant="outline" size="lg" className="border-slate-300">
+                                <a
+                                    href={`https://wa.me/?text=${encodeURIComponent(`${post.title} — https://kineum.cl/blog/${post.slug}`)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Share2 className="h-4 w-4 mr-2" />
+                                    Compartir Artículo
+                                </a>
                             </Button>
                         </div>
                     </div>

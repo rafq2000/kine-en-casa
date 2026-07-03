@@ -56,7 +56,7 @@ const blogSchema = {
     description: post.subtitle,
     url: `https://kineum.cl/blog/${post.slug}`,
     author: { "@type": "Person", name: post.author },
-    datePublished: post.date,
+    datePublished: post.dateISO,
   })),
 }
 
