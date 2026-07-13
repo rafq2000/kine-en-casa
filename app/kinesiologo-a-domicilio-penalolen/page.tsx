@@ -4,11 +4,17 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Peñalolén",
     slug: "penalolen",
-    descripcion: "Servicio de kinesiología a domicilio en Peñalolén con kinesiólogos profesionales certificados. Cobertura total y atención personalizada.",
-    poblacion: "Atendemos a cientos de pacientes en Peñalolén que buscan rehabilitación premium sin salir de casa.",
+    descripcion: "Kinesiología a domicilio en Peñalolén: desde Peñalolén Alto y la Comunidad Ecológica hasta Lo Hermida y San Luis. Sin recargo por subir al sector precordillera; llevamos todo el equipamiento.",
+    poblacion: "Peñalolén es extensa y con poca oferta de rehabilitación propia: en vez de bajar a Ñuñoa o La Reina, el kinesiólogo llega a tu casa con camilla, equipos y el tratamiento completo.",
     sectores: [
-        "Todo Peñalolén",
-        "Sectores residenciales",
+        "Peñalolén Alto",
+        "Comunidad Ecológica",
+        "San Luis",
+        "Lo Hermida",
+        "Consistorial",
+        "Avenida Grecia",
+        "Quilín Oriente",
+        "Peñalolén Nuevo",
     ],
     caracteristicas: [
         "Cobertura total en Peñalolén",

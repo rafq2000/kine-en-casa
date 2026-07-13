@@ -4,11 +4,17 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "San Joaquín",
     slug: "san-joaquin",
-    descripcion: "Servicio de kinesiología a domicilio en San Joaquín con kinesiólogos profesionales certificados. Cobertura total y atención personalizada.",
-    poblacion: "Atendemos a cientos de pacientes en San Joaquín que buscan rehabilitación premium sin salir de casa.",
+    descripcion: "Kinesiología a domicilio en San Joaquín: cobertura completa desde Vicuña Mackenna hasta Santa Rosa, incluyendo los sectores de Metro San Joaquín, Pedrero y La Castrina. Rehabilitación profesional sin salir de casa.",
+    poblacion: "San Joaquín es una comuna donde casi no hay centros de rehabilitación: nuestros kinesiólogos llegan con camilla y equipamiento completo, ahorrándote traslados a comunas vecinas.",
     sectores: [
-        "Todo San Joaquín",
-        "Sectores residenciales",
+        "Metro San Joaquín",
+        "Pedrero",
+        "La Castrina",
+        "El Pinar",
+        "Eje Santa Rosa",
+        "Eje Vicuña Mackenna",
+        "Sector Campus San Joaquín",
+        "Barrio Aníbal Pinto",
     ],
     caracteristicas: [
         "Cobertura total en San Joaquín",

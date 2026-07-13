@@ -4,11 +4,17 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Macul",
     slug: "macul",
-    descripcion: "Servicio de kinesiología a domicilio en Macul con kinesiólogos profesionales certificados. Cobertura total y atención personalizada.",
-    poblacion: "Atendemos a cientos de pacientes en Macul que buscan rehabilitación premium sin salir de casa.",
+    descripcion: "Kinesiología a domicilio en Macul: atendemos Villa Macul, Quilín, Santa Julia, Rodrigo de Araya y todo el eje Vicuña Mackenna. Kinesiólogos certificados con equipamiento completo en tu casa.",
+    poblacion: "Macul combina barrios residenciales consolidados con muchos adultos mayores que agradecen no tener que trasladarse: llevamos la rehabilitación completa a su living, cerca del campus San Joaquín UC y de todo el eje Vicuña Mackenna.",
     sectores: [
-        "Todo Macul",
-        "Sectores residenciales",
+        "Villa Macul",
+        "Quilín",
+        "Santa Julia",
+        "Rodrigo de Araya",
+        "Macul Centro",
+        "Los Presidentes",
+        "Eje Vicuña Mackenna (Metro Macul)",
+        "Sector Campus San Joaquín",
     ],
     caracteristicas: [
         "Cobertura total en Macul",

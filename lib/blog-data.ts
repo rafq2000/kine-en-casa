@@ -272,9 +272,114 @@ export const blogPosts = [
       <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con orden del pediatra puedes usar <a href="/blog/kinesiologia-fonasa-libre-eleccion">bono Fonasa MLE</a> (código domiciliario 0601106, ver nuestra <a href="/blog/codigos-fonasa-kinesiologia-2026">guía de códigos Fonasa</a>) o <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> la boleta que emitimos. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
 
       <h2>Cobertura en Santiago</h2>
-      <p>Atendemos KTR infantil y de adultos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
+      <p>Atendemos KTR infantil y de adultos en <a href="/kinesiologia-respiratoria-las-condes">Las Condes</a>, <a href="/kinesiologia-respiratoria-vitacura">Vitacura</a>, <a href="/kinesiologia-respiratoria-providencia">Providencia</a>, <a href="/kinesiologia-respiratoria-nunoa">Ñuñoa</a>, <a href="/kinesiologia-respiratoria-la-reina">La Reina</a>, <a href="/kinesiologia-respiratoria-lo-barnechea">Lo Barnechea</a>, <a href="/kinesiologia-respiratoria-penalolen">Peñalolén</a>, <a href="/kinesiologia-respiratoria-la-florida">La Florida</a>, <a href="/kinesiologia-respiratoria-macul">Macul</a>, <a href="/kinesiologia-respiratoria-san-joaquin">San Joaquín</a> y <a href="/kinesiologia-respiratoria-santiago-centro">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
 
       <p><strong>¿Tu pediatra indicó KTR y quieres atención hoy?</strong> <a href="https://wa.me/56999679593?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> — en invierno priorizamos los casos respiratorios infantiles y coordinamos en el día.</p>
+    `
+  },
+
+  {
+    slug: "kinesiologia-piso-pelvico-post-parto-domicilio",
+    title: "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026",
+    subtitle: "Cuándo empezar, qué se trabaja en cada etapa y por qué la rehabilitación en casa es ideal con un recién nacido.",
+    author: "Dra. Javiera Méndez",
+    date: "13 Julio, 2026",
+    dateISO: "2026-07-13",
+    readTime: "7 min lectura",
+    category: "Salud Mujer",
+    image: "/images/blog-piso-pelvico-post-parto.jpg",
+    icon: Shield,
+    content: `<p class="lead">Acabas de tener a tu bebé y entre lactancia, noches sin dormir y controles del recién nacido, ir a un centro de rehabilitación es casi imposible. Por eso la kinesiología de piso pélvico <strong>a domicilio</strong> se ha vuelto el formato preferido de las mamás en Santiago: la especialista llega a tu casa, en el horario de la siesta del bebé.</p>
+
+      <h2>¿Toda mujer necesita evaluación post parto?</h2>
+      <p>Idealmente sí, y esto no es marketing: el embarazo —independiente de si el parto fue vaginal o cesárea— somete al piso pélvico y al abdomen a nueve meses de presión y cambios hormonales. Las guías internacionales recomiendan al menos <strong>una evaluación de piso pélvico entre las 6 y 8 semanas post parto</strong>, cuando el médico ya dio el alta obstétrica.</p>
+
+      <h2>Señales de que necesitas tratamiento (no solo evaluación)</h2>
+      <ul>
+        <li>Escapes de orina al toser, reír, estornudar o retomar el ejercicio.</li>
+        <li>Sensación de peso o "bulto" en la zona vaginal (posible prolapso).</li>
+        <li>Diástasis abdominal: separación de los rectos que no cierra después de los 3 meses.</li>
+        <li>Dolor en las relaciones sexuales o molestias en la cicatriz (episiotomía o cesárea).</li>
+        <li>Urgencia miccional o dificultad para retener gases.</li>
+        <li>Dolor lumbar o pélvico persistente al cargar al bebé.</li>
+      </ul>
+      <p>Ninguna de estas señales es "normal aunque frecuente": todas tienen tratamiento kinesiológico con buena evidencia.</p>
+
+      <h2>Cómo es el tratamiento a domicilio, etapa por etapa</h2>
+      <ul>
+        <li><strong>Evaluación (sesión 1):</strong> historia del embarazo y parto, evaluación funcional del piso pélvico, diástasis, postura y respiración. Definimos objetivos realistas contigo.</li>
+        <li><strong>Fase de reconexión (semanas 1-4):</strong> respiración diafragmática coordinada con el piso pélvico, activación del transverso abdominal, higiene postural para lactancia y porteo.</li>
+        <li><strong>Fase de fortalecimiento (semanas 4-10):</strong> entrenamiento progresivo del piso pélvico y el core profundo — mucho más que "ejercicios de Kegel" genéricos, que la mitad de las mujeres ejecuta mal sin guía.</li>
+        <li><strong>Retorno al ejercicio (desde semana 10-12):</strong> progresión segura hacia impacto (trotar, saltar, crossfit) con el piso pélvico preparado para la carga.</li>
+      </ul>
+
+      <h2>Ventajas del formato domiciliario con recién nacido</h2>
+      <ul>
+        <li><strong>El bebé se queda contigo:</strong> no necesitas quién lo cuide; puedes amamantar antes o durante la visita.</li>
+        <li><strong>Privacidad total:</strong> el tratamiento de piso pélvico es íntimo; tu dormitorio es más cómodo que un box clínico.</li>
+        <li><strong>Entrenamos en tu entorno real:</strong> cómo cargar la cuna, la postura en TU sillón de lactancia, las escaleras de TU casa.</li>
+        <li><strong>Cero traslados en puerperio:</strong> tu cuerpo está en recuperación; el descanso también es parte del tratamiento.</li>
+      </ul>
+
+      <h2>Precios y reembolso</h2>
+      <p>La kinesiología de piso pélvico se paga igual que cualquier atención kinesiológica: con orden médica puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar en tu Isapre</a> (típicamente 50-80%) o usar <a href="/blog/kinesiologia-fonasa-libre-eleccion">Fonasa Libre Elección</a>. La evaluación inicial en KINEUM es <strong>gratuita</strong> y nuestros <a href="/precios">packs de sesiones</a> cubren el tratamiento completo. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+
+      <h2>Preguntas frecuentes</h2>
+      <h3>¿Puedo empezar si tuve cesárea?</h3>
+      <p>Sí. La cesárea también requiere rehabilitación: cicatriz, diástasis y piso pélvico (el embarazo ya hizo su parte). El inicio es igual: tras el alta obstétrica de las 6 semanas.</p>
+      <h3>¿Cuántas sesiones necesitaré?</h3>
+      <p>Una evaluación + 6 a 12 sesiones es lo habitual según los hallazgos. Los casos de incontinencia leve suelen resolverse en 8-10 semanas de trabajo constante.</p>
+      <h3>¿Y si mi parto fue hace años?</h3>
+      <p>Nunca es tarde: el piso pélvico responde al entrenamiento a cualquier edad. Muchas de nuestras pacientes consultan años después, cuando los síntomas aumentan con la menopausia.</p>
+
+      <p><strong>¿Quieres partir con tu evaluación gratuita?</strong> <a href="https://wa.me/56999679593?text=Hola,%20quiero%20evaluaci%C3%B3n%20de%20piso%20p%C3%A9lvico%20post%20parto%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y nuestra especialista coordina contigo (también atendemos <a href="/blog/suelo-pelvico-mujer">incontinencia y prolapsos fuera del post parto</a>).</p>
+    `
+  },
+  {
+    slug: "drenaje-linfatico-post-operatorio-domicilio",
+    title: "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar",
+    subtitle: "Abdominoplastia, liposucción, prótesis de rodilla o cadera: cómo el drenaje acelera tu recuperación sin salir de casa.",
+    author: "Klga. María José Pérez",
+    date: "13 Julio, 2026",
+    dateISO: "2026-07-13",
+    readTime: "6 min lectura",
+    category: "Post-Quirúrgico",
+    image: "/images/blog-drenaje-post-operatorio.jpg",
+    icon: Heart,
+    content: `<p class="lead">Después de una cirugía —plástica u ortopédica— el cuerpo se inflama: es parte normal de la cicatrización. El problema es cuando ese edema se estanca, duele, tira la piel y retrasa la recuperación. Ahí entra el drenaje linfático manual post operatorio, y hacerlo <strong>a domicilio</strong> no es un lujo: recién operado, lo último que deberías hacer es viajar por Santiago.</p>
+
+      <h2>¿Para qué cirugías está indicado?</h2>
+      <ul>
+        <li><strong>Cirugía plástica:</strong> abdominoplastia, liposucción, lipoescultura, mamoplastia, BBL. Es donde el drenaje es casi protocolo estándar, indicado por el propio cirujano.</li>
+        <li><strong>Cirugía ortopédica:</strong> prótesis de rodilla y cadera, artroscopias, cirugías de tobillo. El edema post quirúrgico limita el rango de movimiento; drenarlo acelera la <a href="/blog/protesis-rodilla-recuperacion">rehabilitación de la prótesis</a>.</li>
+        <li><strong>Cirugía de mama con extracción de ganglios:</strong> aquí el drenaje es parte del manejo formal del linfedema, siempre coordinado con el equipo oncológico.</li>
+      </ul>
+
+      <h2>Qué hace (y qué no hace) el drenaje post operatorio</h2>
+      <p><strong>Sí:</strong> reduce el edema y la sensación de tirantez, alivia el dolor por presión, mejora la calidad de la cicatriz, ayuda a prevenir fibrosis en cirugías estéticas y devuelve movilidad antes.</p>
+      <p><strong>No:</strong> no es un masaje fuerte (la técnica correcta es suave y rítmica), no "rompe" fibrosis instaladas con dolor extremo —eso es otra técnica y otro momento—, y no reemplaza las indicaciones de tu cirujano (faja, reposo, medicamentos).</p>
+
+      <h2>¿Cuándo empezar y cuántas sesiones?</h2>
+      <ul>
+        <li><strong>Inicio:</strong> según indicación del cirujano; habitualmente entre el día 3 y 7 post operatorio en cirugía plástica, y tras el alta en ortopédica.</li>
+        <li><strong>Frecuencia típica:</strong> 2 a 3 sesiones por semana las primeras 2-3 semanas, luego se espacia.</li>
+        <li><strong>Total:</strong> entre 6 y 12 sesiones en la mayoría de los casos estéticos; en ortopedia se integra a las sesiones de rehabilitación.</li>
+      </ul>
+
+      <h2>Seguridad primero: cuándo NO se hace</h2>
+      <p>Sospecha de trombosis venosa profunda, infección activa de la herida, fiebre o insuficiencia cardíaca descompensada son contraindicaciones. Por eso siempre evaluamos antes de tratar y trabajamos coordinados con tu cirujano. Si notas una pantorrilla hinchada, caliente y dolorosa, consulta a urgencias antes de cualquier masaje.</p>
+
+      <h2>¿Por qué a domicilio?</h2>
+      <ul>
+        <li>Recién operado no deberías manejar ni andar en taxi por Santiago: cada traslado es dolor e inflamación extra.</li>
+        <li>Con faja post quirúrgica y drenajes, la comodidad de tu cama es parte del tratamiento.</li>
+        <li>Sesiones coordinadas con tus horarios de medicamentos y curaciones.</li>
+      </ul>
+
+      <h2>Precio y reembolso</h2>
+      <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y trabajamos con <a href="/blog/kinesiologia-fonasa-libre-eleccion">Fonasa Libre Elección</a> cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+
+      <p><strong>¿Tienes cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu protocolo desde la primera semana (lee también nuestra <a href="/blog/drenaje-linfatico-manual">guía general de drenaje linfático</a>).</p>
     `
   },
 
@@ -732,7 +837,7 @@ export const blogPosts = [
       <h2>¿Cuántas sesiones se necesitan?</h2>
       <p>En edemas post-quirúrgicos, típicamente 5 a 10 sesiones combinadas con ejercicio activo y educación de autocuidado. En linfedema crónico, el tratamiento es por fases y se complementa con prendas de compresión.</p>
 
-      <p>Realizamos drenaje linfático a domicilio, ideal para pacientes recién operados que no deben trasladarse. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20drenaje%20linf%C3%A1tico">Consulta por WhatsApp</a> o revisa nuestros <a href="/precios">planes de sesiones</a>.</p>
+      <p>Realizamos drenaje linfático a domicilio, ideal para pacientes recién operados que no deben trasladarse: mira nuestra <a href="/blog/drenaje-linfatico-post-operatorio-domicilio">guía de drenaje post operatorio a domicilio</a>. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20drenaje%20linf%C3%A1tico">Consulta por WhatsApp</a> o revisa nuestros <a href="/precios">planes de sesiones</a>.</p>
     `
   },
   {
@@ -835,7 +940,7 @@ export const blogPosts = [
         <li><strong>Reeducación de hábitos:</strong> manejo del estreñimiento, técnica al toser y al cargar peso.</li>
       </ul>
 
-      <p>La atención domiciliaria hace este tratamiento mucho más accesible y privado, especialmente en el post-parto. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20kinesiolog%C3%ADa%20de%20piso%20p%C3%A9lvico">Agenda tu evaluación con nuestra especialista</a>.</p>
+      <p>La atención domiciliaria hace este tratamiento mucho más accesible y privado, especialmente en el post-parto: revisa nuestra <a href="/blog/kinesiologia-piso-pelvico-post-parto-domicilio">guía completa de piso pélvico post parto a domicilio</a>. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20kinesiolog%C3%ADa%20de%20piso%20p%C3%A9lvico">Agenda tu evaluación con nuestra especialista</a>.</p>
     `
   },
   {

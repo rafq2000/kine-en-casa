@@ -4,11 +4,17 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Santiago Centro",
     slug: "santiago-centro",
-    descripcion: "Servicio de kinesiología a domicilio en Santiago Centro con kinesiólogos profesionales certificados. Cobertura total y atención personalizada.",
-    poblacion: "Atendemos a cientos de pacientes en Santiago Centro que buscan rehabilitación premium sin salir de casa.",
+    descripcion: "Kinesiología a domicilio en Santiago Centro: subimos a tu departamento en Lastarria, Barrio Brasil, Yungay, República o Parque Almagro con camilla y equipamiento completo. Ideal para quienes viven en edificios sin necesidad de trasladarse.",
+    poblacion: "En Santiago Centro la mayoría vive en departamentos y depende del metro: te evitamos el viaje con todo el tratamiento en tu propio hogar, en horarios compatibles con tu trabajo.",
     sectores: [
-        "Todo Santiago Centro",
-        "Sectores residenciales",
+        "Barrio Lastarria",
+        "Barrio Brasil",
+        "Barrio Yungay",
+        "Barrio República",
+        "Parque Almagro",
+        "Barrio Matta",
+        "Santa Ana",
+        "Parque Forestal",
     ],
     caracteristicas: [
         "Cobertura total en Santiago Centro",

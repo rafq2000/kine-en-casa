@@ -4,11 +4,17 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "La Florida",
     slug: "la-florida",
-    descripcion: "Servicio de kinesiología a domicilio en La Florida con kinesiólogos profesionales certificados. Cobertura total y atención personalizada.",
-    poblacion: "Atendemos a cientos de pacientes en La Florida que buscan rehabilitación premium sin salir de casa.",
+    descripcion: "Kinesiología a domicilio en La Florida: cobertura desde Bellavista de La Florida y Walker Martínez hasta Trinidad, Los Quillayes y La Florida Alto. Rehabilitación completa en tu casa, sin traslados por Vicuña Mackenna.",
+    poblacion: "La Florida es una de las comunas más pobladas de Santiago y sus centros de rehabilitación siempre están llenos: con atención domiciliaria partes tu tratamiento esta misma semana, con hora fija y sin salas de espera.",
     sectores: [
-        "Todo La Florida",
-        "Sectores residenciales",
+        "Bellavista de La Florida",
+        "Walker Martínez",
+        "Trinidad",
+        "Los Quillayes",
+        "Rojas Magallanes",
+        "Santa Raquel",
+        "Gerónimo de Alderete",
+        "La Florida Alto",
     ],
     caracteristicas: [
         "Cobertura total en La Florida",
