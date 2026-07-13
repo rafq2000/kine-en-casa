@@ -1,4 +1,4 @@
-import { Brain, TrendingUp, Users, Activity, Heart, Zap, Shield, Smile, CircleDollarSign, FileText, Building2 } from "lucide-react";
+import { Brain, TrendingUp, Users, Activity, Heart, Zap, Shield, Smile, CircleDollarSign, FileText, Building2, Baby, ClipboardList } from "lucide-react";
 
 export const blogPosts = [
   // ── Artículos pilar (intención de búsqueda comercial) ──
@@ -101,6 +101,7 @@ export const blogPosts = [
         <li>El arancel Fonasa es <strong>menor</strong> que el precio de mercado de una sesión a domicilio premium, por lo que el bono cubre una parte del valor total y la diferencia se paga como particular.</li>
         <li>Aun así, para tratamientos largos (10+ sesiones) el ahorro acumulado es relevante. Combínalo con nuestros <a href="/precios">packs con descuento</a> para minimizar el costo final.</li>
       </ul>
+      <p>¿Quieres saber exactamente qué códigos aparecen en tu bono (incluido el de atención domiciliaria)? Revisa nuestra <a href="/blog/codigos-fonasa-kinesiologia-2026">guía de códigos Fonasa de kinesiología 2026</a>.</p>
 
       <h2>Preguntas frecuentes</h2>
       <h3>¿Puedo usar Fonasa si el kinesiólogo va a mi casa?</h3>
@@ -173,6 +174,107 @@ export const blogPosts = [
       <p>Sí, boleta electrónica el mismo día del pago, enviada a tu correo.</p>
 
       <p><strong>¿Quieres saber cuánto recuperarías con tu plan?</strong> Escríbenos por <a href="https://wa.me/56999679593?text=Hola,%20quiero%20saber%20c%C3%B3mo%20reembolsar%20con%20mi%20Isapre">WhatsApp al +56 9 9967 9593</a> con el nombre de tu isapre y te orientamos sin costo, o agenda tu <a href="/como-funciona">evaluación gratuita</a>.</p>
+    `
+  },
+
+  {
+    slug: "codigos-fonasa-kinesiologia-2026",
+    title: "Códigos Fonasa de Kinesiología 2026: Aranceles y Cómo Usar tu Bono",
+    subtitle: "Los códigos oficiales del arancel MLE —incluido el 0601106 de atención domiciliaria— explicados de una vez.",
+    author: "Equipo Clínico KINEUM",
+    date: "13 Julio, 2026",
+    dateISO: "2026-07-13",
+    readTime: "6 min lectura",
+    category: "Precios y Reembolsos",
+    image: "/images/blog-codigos-fonasa-kinesiologia-2026.jpg",
+    icon: ClipboardList,
+    content: `<p class="lead">Si tu médico te indicó kinesiología y eres de Fonasa, estos son los códigos que aparecerán en tu bono. Y hay uno que casi nadie conoce: existe un código específico para la <strong>kinesiología a domicilio</strong>. Aquí está la lista completa del arancel de Modalidad Libre Elección (MLE) y cómo usarla sin perderte.</p>
+
+      <h2>Los códigos Fonasa de kinesiología (arancel MLE 2026)</h2>
+      <ul>
+        <li><strong>06-01-101 — Evaluación kinesiológica integral:</strong> la primera consulta donde el kinesiólogo evalúa tu caso y define el plan de tratamiento.</li>
+        <li><strong>06-01-105 — Atención kinesiológica integral ambulatoria:</strong> la sesión estándar en centro o consulta. Es el código más usado en los bonos de kinesiología.</li>
+        <li><strong>06-01-106 — Atención kinesiológica integral domiciliaria:</strong> la sesión de kinesiología <strong>en tu casa</strong>. Sí: Fonasa contempla expresamente la atención a domicilio, con un arancel levemente superior al ambulatorio.</li>
+        <li><strong>06-01-103 — Atención kinesiológica integral en pacientes hospitalizados.</strong></li>
+        <li><strong>06-01-104 — Atención kinesiológica integral UPC</strong> (unidades de cuidados intensivos e intermedios).</li>
+        <li><strong>06-08-101 — Telerehabilitación: evaluación kinesiológica integral</strong> (por videollamada).</li>
+        <li><strong>06-08-102 — Telerehabilitación: atención kinesiológica integral.</strong></li>
+      </ul>
+
+      <h2>¿Cuánto cuesta cada sesión con bono?</h2>
+      <p>El valor final depende del <strong>nivel de inscripción del prestador</strong> en Fonasa (nivel 1, 2 o 3): a mayor nivel, mayor arancel y mayor copago. Como referencia, la bonificación de Fonasa para la sesión ambulatoria (0601105) ronda los <strong>$3.500</strong>, y el copago del paciente va aproximadamente desde los $3.500 en prestadores nivel 1 hasta cerca de $8.000 en nivel 3. La sesión domiciliaria (0601106) tiene un arancel mayor, y la diferencia con el valor comercial del servicio a domicilio se paga como particular.</p>
+      <p><strong>Importante:</strong> los valores exactos se actualizan cada año por resolución de Fonasa. Antes de comprar tu bono, verifica el valor vigente en el <a href="https://www.fonasa.gob.cl/cotiza-tu-bono/" target="_blank" rel="noopener noreferrer">cotizador oficial de Fonasa</a> ingresando el código de la prestación.</p>
+
+      <h2>Cómo usar estos códigos, paso a paso</h2>
+      <ul>
+        <li><strong>1. Orden médica:</strong> tu médico debe indicar el número de sesiones (por ejemplo, "10 sesiones de kinesiterapia motora"). Sin orden no hay bono.</li>
+        <li><strong>2. Identifica el código correcto:</strong> ambulatoria (0601105) si vas a un centro; domiciliaria (0601106) si el kinesiólogo va a tu casa.</li>
+        <li><strong>3. Compra el bono</strong> en mi.fonasa.cl, en sucursal o coordínalo con tu prestador. Necesitas que el kinesiólogo esté inscrito en Fonasa, como todos los profesionales de KINEUM.</li>
+        <li><strong>4. Guarda tus bonos:</strong> si además tienes seguro complementario, puedes reembolsar el copago.</li>
+      </ul>
+
+      <h2>Preguntas frecuentes</h2>
+      <h3>¿Puedo usar el código domiciliario 0601106 con cualquier kinesiólogo?</h3>
+      <p>Solo con kinesiólogos inscritos en Fonasa MLE. En KINEUM emitimos la documentación correspondiente y te guiamos en el proceso; revisa nuestra <a href="/blog/kinesiologia-fonasa-libre-eleccion">guía completa de kinesiología con Fonasa</a>.</p>
+      <h3>¿El bono cubre la sesión completa a domicilio?</h3>
+      <p>Cubre la prestación según arancel MLE. Los servicios domiciliarios premium (equipamiento completo, kinesiólogo especialista, horarios extendidos) tienen un valor comercial mayor al arancel; la diferencia se paga como particular y puedes complementar con <a href="/blog/reembolso-isapre-kinesiologia">seguros complementarios</a>. Mira nuestros <a href="/precios">planes y precios</a>.</p>
+      <h3>¿Estos códigos sirven para kinesiología respiratoria infantil?</h3>
+      <p>Sí, la atención kinesiológica integral incluye la kinesiterapia respiratoria con orden del pediatra. En invierno es la prestación más demandada: revisa nuestra guía de <a href="/blog/kinesiologia-respiratoria-infantil-domicilio">kinesiología respiratoria infantil a domicilio</a>.</p>
+
+      <p><strong>¿Tienes tu orden médica y quieres atenderte en casa con Fonasa?</strong> <a href="https://wa.me/56999679593?text=Hola,%20tengo%20orden%20m%C3%A9dica%20Fonasa%20y%20quiero%20atenderme%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te confirmamos el proceso completo en 5 minutos.</p>
+    `
+  },
+  {
+    slug: "kinesiologia-respiratoria-infantil-domicilio",
+    title: "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres",
+    subtitle: "Bronquiolitis, mocos que no salen y tos de invierno: cuándo sirve la KTR, cuándo es urgencia y por qué en casa funciona mejor.",
+    author: "Equipo Clínico KINEUM",
+    date: "13 Julio, 2026",
+    dateISO: "2026-07-13",
+    readTime: "7 min lectura",
+    category: "Respiratorio",
+    image: "/images/blog-ktr-infantil-domicilio.jpg",
+    icon: Baby,
+    content: `<p class="lead">Es invierno en Santiago, tu hijo lleva noches tosiendo, el pediatra le indicó "KTR" y lo último que quieres es llevarlo con fiebre a una sala de espera llena de otros niños enfermos. Buenas noticias: la kinesiología respiratoria infantil se puede hacer completa en tu casa, con bono Fonasa o reembolso Isapre.</p>
+
+      <h2>¿Qué es la KTR (kinesiterapia respiratoria) infantil?</h2>
+      <p>Es un conjunto de técnicas manuales e instrumentales que ayudan a los niños a <strong>movilizar y eliminar las secreciones</strong> que sus vías respiratorias aún no saben expulsar solas. En menores de 2 años es especialmente útil porque no saben toser con eficacia ni sonarse. El kinesiólogo también monitorea la saturación de oxígeno y educa a los padres sobre señales de alarma.</p>
+
+      <h2>¿Cuándo está indicada?</h2>
+      <ul>
+        <li><strong>Bronquiolitis</strong> (el clásico virus respiratorio sincicial del invierno) con abundantes secreciones, según indicación del pediatra.</li>
+        <li><strong>Bronquitis obstructiva</strong> ("SBO") con hipersecreción.</li>
+        <li><strong>Neumonía en recuperación,</strong> para acelerar la limpieza bronquial.</li>
+        <li><strong>Post alta hospitalaria</strong> por cuadros respiratorios.</li>
+        <li><strong>Niños con patología crónica</strong> (fibrosis quística, daño pulmonar, prematuros con displasia) como parte de su manejo habitual.</li>
+      </ul>
+      <p>La KTR se realiza <strong>con indicación médica</strong>: el pediatra define si corresponde y con qué frecuencia. Si tu hijo aún no tiene evaluación médica, ese es siempre el primer paso.</p>
+
+      <h2>Señales de URGENCIA: no llames al kine, ve a urgencias</h2>
+      <ul>
+        <li>Respiración muy rápida, quejido o hundimiento de las costillas al respirar (retracción).</li>
+        <li>Labios o piel azulada (cianosis).</li>
+        <li>Rechazo total del alimento o mamadera en lactantes.</li>
+        <li>Somnolencia excesiva o irritabilidad inconsolable.</li>
+        <li>Fiebre alta persistente en menores de 3 meses.</li>
+      </ul>
+      <p>Ante cualquiera de estos signos, acude a un servicio de urgencia de inmediato. La KTR complementa el tratamiento médico, nunca lo reemplaza.</p>
+
+      <h2>¿Por qué a domicilio funciona tan bien en niños?</h2>
+      <ul>
+        <li><strong>Cero exposición cruzada:</strong> un niño con bronquiolitis en sala de espera puede contagiar y contagiarse. En casa, riesgo cero.</li>
+        <li><strong>El niño coopera más:</strong> en su ambiente, con sus juguetes y sus padres cerca, la sesión es menos estresante y más efectiva.</li>
+        <li><strong>Educación real a los padres:</strong> el kinesiólogo enseña aseo nasal, posiciones para dormir y técnicas de apoyo con lo que tienes en tu casa.</li>
+        <li><strong>Horarios flexibles:</strong> atendemos de lunes a domingo, porque los mocos no respetan el calendario.</li>
+      </ul>
+
+      <h2>¿Cuánto cuesta y cómo se paga?</h2>
+      <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con orden del pediatra puedes usar <a href="/blog/kinesiologia-fonasa-libre-eleccion">bono Fonasa MLE</a> (código domiciliario 0601106, ver nuestra <a href="/blog/codigos-fonasa-kinesiologia-2026">guía de códigos Fonasa</a>) o <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> la boleta que emitimos. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
+
+      <h2>Cobertura en Santiago</h2>
+      <p>Atendemos KTR infantil y de adultos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
+
+      <p><strong>¿Tu pediatra indicó KTR y quieres atención hoy?</strong> <a href="https://wa.me/56999679593?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> — en invierno priorizamos los casos respiratorios infantiles y coordinamos en el día.</p>
     `
   },
 
