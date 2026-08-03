@@ -4,8 +4,8 @@ export const blogPosts = [
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
-    title: "¿Cuánto Cuesta la Kinesiología a Domicilio en Santiago? Precios 2026",
-    subtitle: "Valores reales por sesión, packs de 4 y 10 sesiones, y cuánto recuperas con tu Isapre y seguro complementario.",
+    title: "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026",
+    subtitle: "Sesión individual: $30.000–$45.000. Packs desde $35.000 por sesión. Valores reales 2026 y cuánto recuperas con tu Isapre y seguro complementario.",
     author: "Equipo Clínico KINEUM",
     date: "02 Julio, 2026",
     dateISO: "2026-07-02",
