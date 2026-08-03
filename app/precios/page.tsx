@@ -26,7 +26,7 @@ import { SiteFooter } from "@/components/site-footer"
 export const metadata: Metadata = {
   title: "Precios Kinesiologia a Domicilio Santiago 2026 | KINEUM",
   description:
-    "Precios de kinesiologia a domicilio en Santiago desde $160.000/mes. Planes con 4, 10 o sesiones ilimitadas. Reembolso Isapre (50-80%) y Fonasa libre eleccion. Evaluacion inicial gratis. +56 9 9967 9593",
+    "Precios de kinesiologia a domicilio en Santiago desde $160.000/mes. Planes con 4, 10 o sesiones ilimitadas. Reembolso Isapre (50-80%) y seguros complementarios. Evaluacion inicial gratis. +56 9 9967 9593",
   keywords: [
     "precio kinesiologo a domicilio",
     "cuanto cuesta kinesiologo domicilio",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "precio kine a domicilio",
     "valor kinesiologo a domicilio santiago",
     "kinesiologo a domicilio precio isapre",
-    "kinesiologo a domicilio precio fonasa",
+    "kinesiologo particular a domicilio precio",
     "cuanto sale kinesiologo a domicilio",
     "precio sesion kinesiologia santiago",
     "kinesiologo domicilio reembolso isapre",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Precios Kinesiologia a Domicilio Santiago 2026 | KINEUM",
     description:
-      "Planes desde $160.000/mes con evaluacion gratis. Reembolso Isapre hasta 80% y Fonasa libre eleccion. Consulta nuestros precios.",
+      "Planes desde $160.000/mes con evaluacion gratis. Reembolso Isapre hasta 80% y seguros complementarios. Consulta nuestros precios.",
     url: "https://kineum.cl/precios",
     type: "website",
     locale: "es_CL",
@@ -134,7 +134,7 @@ const faqSchema = {
       name: "Cuanto cuesta un kinesiologo a domicilio en Santiago?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "En KINEUM, el Plan Essential de 4 sesiones mensuales cuesta $160.000 CLP/mes y el Plan Premium de 10 sesiones cuesta $350.000 CLP/mes. Ambos incluyen evaluacion inicial gratuita. Ademas, puedes solicitar reembolso por Isapre (50-80%) o Fonasa libre eleccion (25-50%), reduciendo significativamente el costo real.",
+        text: "En KINEUM, el Plan Essential de 4 sesiones mensuales cuesta $160.000 CLP/mes y el Plan Premium de 10 sesiones cuesta $350.000 CLP/mes. Ambos incluyen evaluacion inicial gratuita. Ademas, puedes solicitar reembolso por Isapre (50-80%) y seguros complementarios, reduciendo significativamente el costo real.",
       },
     },
     {
@@ -147,10 +147,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Fonasa cubre la kinesiologia a domicilio?",
+      name: "Puedo usar mi seguro complementario para la kinesiologia a domicilio?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Si. En KINEUM trabajamos con Fonasa modalidad libre eleccion. Pagas la sesion y luego solicitas el reembolso con tu orden medica y nuestra boleta. El monto reembolsado depende de tu tramo (A, B, C o D), generalmente entre un 25% y 50%. El tramite se realiza facilmente desde la app Mi Fonasa.",
+        text: "Si. Emitimos boleta de honorarios por cada sesion, que puedes presentar en tu seguro complementario (Metlife, Chilena Consolidada, BICE, Zurich y otros) para reembolsar el copago que tu Isapre no cubrio. Combinando ambos, muchos pacientes recuperan la mayor parte del valor.",
       },
     },
     {
@@ -219,7 +219,7 @@ const plans = [
       "4 sesiones de 60 min a domicilio",
       "Evaluacion inicial gratuita",
       "Seguimiento de evolucion basico",
-      "Boleta para reembolso Isapre/Fonasa",
+      "Boleta para reembolso Isapre",
       "Asistente AI 24/7",
     ],
     popular: false,
@@ -244,7 +244,7 @@ const plans = [
       "Reportes de progreso detallados",
       "Kit de recuperacion incluido",
       "Portal del paciente con ejercicios",
-      "Boleta para reembolso Isapre/Fonasa",
+      "Boleta para reembolso Isapre",
       "Asistente AI 24/7",
     ],
     popular: true,
@@ -269,7 +269,7 @@ const plans = [
       "Red de especialistas preferente",
       "Todo el pack Premium incluido",
       "Consultas ilimitadas entre sesiones",
-      "Boleta para reembolso Isapre/Fonasa",
+      "Boleta para reembolso Isapre",
     ],
     popular: false,
     gradient: "from-slate-700 to-slate-900",
@@ -302,9 +302,9 @@ const faqs = [
       "El porcentaje de reembolso depende de tu plan de salud. En general, las Isapres reembolsan entre un 50% y 80% del valor de cada sesion. Por ejemplo, en el Plan Premium ($35.000/sesion), podrias recuperar entre $17.500 y $28.000 por sesion, dejando tu costo real entre $7.000 y $17.500.",
   },
   {
-    question: "Fonasa cubre kinesiologia a domicilio?",
+    question: "Puedo usar mi seguro complementario?",
     answer:
-      "Si, trabajamos con Fonasa modalidad libre eleccion. Pagas la sesion y solicitas reembolso con tu orden medica y nuestra boleta de honorarios. El reembolso varia segun tu tramo (A, B, C o D), cubriendo entre un 25% y 50% del valor. El tramite se hace facilmente en la app Mi Fonasa.",
+      "Si. Con la boleta de honorarios que emitimos por cada sesion puedes reembolsar primero en tu Isapre y luego presentar el copago restante en tu seguro complementario (Metlife, Chilena Consolidada, BICE, Zurich y otros). Combinando ambos, muchos pacientes recuperan la mayor parte del valor del tratamiento.",
   },
   {
     question: "La evaluacion inicial tiene costo?",
@@ -314,7 +314,7 @@ const faqs = [
   {
     question: "Que necesito para pedir el reembolso?",
     answer:
-      "Necesitas una orden medica vigente que indique 'kinesiologia' o 'rehabilitacion', y la boleta de honorarios que emitimos despues de cada sesion. Con ambos documentos, presentas el reembolso en tu Isapre (app, web o sucursal) o en Fonasa (app Mi Fonasa).",
+      "Necesitas una orden medica vigente que indique 'kinesiologia' o 'rehabilitacion', y la boleta de honorarios que emitimos despues de cada sesion. Con ambos documentos, presentas el reembolso en tu Isapre (app, web o sucursal) y luego el copago en tu seguro complementario si tienes uno.",
   },
   {
     question: "Puedo cambiar de plan durante el mes?",
@@ -445,8 +445,8 @@ export default function PreciosPage() {
 
           <p className="text-xl md:text-2xl text-slate-700 mb-8 leading-relaxed max-w-4xl mx-auto">
             Planes desde <strong>$160.000/mes</strong> con evaluacion inicial{" "}
-            <strong>gratuita</strong>. Reembolso por Isapre (50-80%) y Fonasa libre eleccion
-            (25-50%). Sin costo de traslado, sin esperas.
+            <strong>gratuita</strong>. Reembolso por Isapre (50-80%) y seguros
+            complementarios. Sin costo de traslado, sin esperas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -569,7 +569,7 @@ export default function PreciosPage() {
 
           <p className="text-center text-slate-500 mt-10 text-sm max-w-2xl mx-auto">
             Todos los planes incluyen equipamiento profesional completo (camilla, TENS, ultrasonido,
-            bandas elasticas) y boleta de honorarios para reembolso Isapre y Fonasa.
+            bandas elasticas) y boleta de honorarios para reembolso Isapre y seguros complementarios.
           </p>
         </div>
       </section>
@@ -672,48 +672,48 @@ export default function PreciosPage() {
         </div>
       </section>
 
-      {/* Fonasa Section */}
+      {/* Seguros Complementarios Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
                 <FileText className="h-4 w-4 mr-2" />
-                Fonasa Libre Eleccion
+                Seguros Complementarios
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
-                Kinesiologia a Domicilio con Fonasa
+                Recupera Aun Mas con tu Seguro Complementario
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-                Tambien trabajamos con Fonasa modalidad libre eleccion. Pagas la sesion y solicitas
-                el reembolso segun tu tramo.
+                Si ademas de tu Isapre tienes un seguro complementario, puedes reembolsar el copago
+                restante y reducir el costo final al minimo.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-slate-50 rounded-2xl p-8 border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">
-                  Reembolso segun Tramo Fonasa
+                  Seguros con los que trabajan nuestros pacientes
                 </h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center py-3 border-b border-slate-200">
-                    <span className="text-slate-700 font-medium">Tramo A y B</span>
-                    <Badge className="bg-emerald-50 text-emerald-700">Hasta 50%</Badge>
+                    <span className="text-slate-700 font-medium">Metlife / Chilena Consolidada</span>
+                    <Badge className="bg-emerald-50 text-emerald-700">Copago 50-100%</Badge>
                   </div>
                   <div className="flex justify-between items-center py-3 border-b border-slate-200">
-                    <span className="text-slate-700 font-medium">Tramo C</span>
-                    <Badge className="bg-amber-50 text-amber-700">Hasta 38%</Badge>
+                    <span className="text-slate-700 font-medium">BICE Vida / Zurich</span>
+                    <Badge className="bg-emerald-50 text-emerald-700">Copago 50-100%</Badge>
                   </div>
                   <div className="flex justify-between items-center py-3">
-                    <span className="text-slate-700 font-medium">Tramo D</span>
-                    <Badge className="bg-amber-50 text-amber-700">Hasta 25%</Badge>
+                    <span className="text-slate-700 font-medium">Seguros de empresa (colectivos)</span>
+                    <Badge className="bg-amber-50 text-amber-700">Segun poliza</Badge>
                   </div>
                 </div>
               </div>
 
               <div className="bg-slate-50 rounded-2xl p-8 border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">
-                  Como solicitar tu reembolso Fonasa
+                  Como funciona el doble reembolso
                 </h3>
                 <ol className="space-y-4">
                   <li className="flex items-start">
@@ -738,7 +738,7 @@ export default function PreciosPage() {
                       3
                     </span>
                     <span className="text-slate-700">
-                      Ingresa a la <strong>app Mi Fonasa</strong> y sube la boleta + orden medica
+                      Reembolsa primero en tu <strong>Isapre</strong> (50-80% del valor)
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -746,7 +746,7 @@ export default function PreciosPage() {
                       4
                     </span>
                     <span className="text-slate-700">
-                      Recibe tu <strong>reembolso</strong> en pocos dias habiles
+                      Presenta el copago en tu <strong>seguro complementario</strong> y recupera el resto
                     </span>
                   </li>
                 </ol>
@@ -828,7 +828,7 @@ export default function PreciosPage() {
                   </td>
                 </tr>
                 <tr className="border-t border-slate-100">
-                  <td className="p-5 text-slate-700 font-medium">Reembolso Isapre/Fonasa</td>
+                  <td className="p-5 text-slate-700 font-medium">Reembolso Isapre</td>
                   <td className="p-5 text-center text-slate-600">Si</td>
                   <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
                     Si (boleta de honorarios)
@@ -938,7 +938,7 @@ export default function PreciosPage() {
             </span>
             <span className="flex items-center gap-2">
               <Check className="h-4 w-4 text-emerald-400" />
-              Reembolso Isapre y Fonasa
+              Reembolso Isapre y seguros
             </span>
             <span className="flex items-center gap-2">
               <Clock className="h-4 w-4 text-amber-400" />

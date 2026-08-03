@@ -22,7 +22,7 @@ import { SiteFooter } from "@/components/site-footer"
 export const metadata: Metadata = {
   title: "Como Funciona | Kinesiologo a Domicilio Santiago | KINEUM",
   description:
-    "Agenda tu kinesiologo a domicilio en Santiago en 4 pasos simples. Evaluacion inicial gratuita, plan personalizado y reembolso Isapre y Fonasa libre eleccion. Llama al +56 9 9967 9593.",
+    "Agenda tu kinesiologo a domicilio en Santiago en 4 pasos simples. Evaluacion inicial gratuita, plan personalizado y reembolso Isapre y seguros complementarios. Llama al +56 9 9967 9593.",
   keywords: [
     "como funciona kinesiologo a domicilio",
     "pedir kinesiologo a domicilio santiago",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "kinesiologia a domicilio como funciona",
     "kine a domicilio santiago proceso",
     "evaluacion kinesiologica a domicilio",
-    "kinesiologo a domicilio isapre fonasa",
+    "kinesiologo a domicilio isapre",
     "kinesiologo a domicilio reembolso",
   ],
   alternates: {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Como Funciona | Kinesiologo a Domicilio Santiago | KINEUM",
     description:
-      "4 pasos simples para recibir kinesiologia profesional en tu hogar. Evaluacion gratuita, reembolso Isapre y Fonasa.",
+      "4 pasos simples para recibir kinesiologia profesional en tu hogar. Evaluacion gratuita y reembolso Isapre.",
     url: "https://kineum.cl/como-funciona",
     siteName: "KINEUM",
     locale: "es_CL",
@@ -53,7 +53,7 @@ const howToSchema = {
   "@type": "HowTo",
   name: "Como agendar un kinesiologo a domicilio en Santiago",
   description:
-    "Proceso paso a paso para solicitar kinesiologia a domicilio con KINEUM en Santiago de Chile. Evaluacion inicial gratuita y reembolso Isapre/Fonasa.",
+    "Proceso paso a paso para solicitar kinesiologia a domicilio con KINEUM en Santiago de Chile. Evaluacion inicial gratuita y reembolso Isapre.",
   totalTime: "PT5M",
   estimatedCost: {
     "@type": "MonetaryAmount",
@@ -116,7 +116,7 @@ const faqSchema = {
       name: "Necesito orden medica para pedir kinesiologo a domicilio?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Para la evaluacion inicial no necesitas orden medica. Sin embargo, si deseas reembolso por Isapre o Fonasa libre eleccion, necesitaras una orden medica vigente.",
+        text: "Para la evaluacion inicial no necesitas orden medica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitaras una orden medica vigente.",
       },
     },
     {
@@ -137,10 +137,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Como funciona el reembolso con Isapre y Fonasa?",
+      name: "Como funciona el reembolso con Isapre?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Emitimos boleta de honorarios por cada sesion. Con tu orden medica y la boleta, solicitas el reembolso directamente en tu Isapre o en Fonasa libre eleccion (tramo B, C o D). El porcentaje de reembolso depende de tu plan.",
+        text: "Emitimos boleta de honorarios por cada sesion. Con tu orden medica y la boleta, solicitas el reembolso directamente en tu Isapre (habitualmente 50-80% segun plan) y luego el copago restante en tu seguro complementario si tienes uno.",
       },
     },
     {
@@ -192,7 +192,7 @@ const steps = [
     title: "Sesiones en tu Hogar con Seguimiento",
     description:
       "Realizamos cada sesion con equipamiento profesional en la comodidad de tu hogar. Reevaluamos tu progreso periodicamente y ajustamos el tratamiento si es necesario.",
-    detail: "Emitimos boleta para reembolso Isapre/Fonasa.",
+    detail: "Emitimos boleta para reembolso Isapre.",
     color: "emerald",
   },
 ]
@@ -225,7 +225,7 @@ const faqs = [
   {
     question: "Necesito orden medica para pedir kinesiologo a domicilio?",
     answer:
-      "Para la evaluacion inicial no necesitas orden medica. Sin embargo, si deseas reembolso por Isapre o Fonasa libre eleccion, necesitaras una orden medica vigente emitida por tu doctor.",
+      "Para la evaluacion inicial no necesitas orden medica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitaras una orden medica vigente emitida por tu doctor.",
   },
   {
     question: "La evaluacion inicial realmente es gratis?",
@@ -238,9 +238,9 @@ const faqs = [
       "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, La Florida, Penalolen, Macul, San Joaquin y Santiago Centro, entre otras comunas del sector oriente y sur.",
   },
   {
-    question: "Como funciona el reembolso con Isapre y Fonasa?",
+    question: "Como funciona el reembolso con Isapre?",
     answer:
-      "Emitimos boleta de honorarios por cada sesion. Con tu orden medica vigente y la boleta, solicitas el reembolso directamente en tu Isapre o en Fonasa libre eleccion (tramo B, C o D). El porcentaje de devolucion depende de tu plan de salud.",
+      "Emitimos boleta de honorarios por cada sesion. Con tu orden medica vigente y la boleta, solicitas el reembolso directamente en tu Isapre (habitualmente 50-80% segun plan) y luego el copago restante en tu seguro complementario si tienes uno.",
   },
   {
     question: "Cuantas sesiones necesitare?",
@@ -276,7 +276,7 @@ export default function ComoFuncionaPage() {
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
               En 4 pasos simples recibes kinesiologia profesional en tu hogar en Santiago.
-              Sin traslados, sin esperas, con reembolso Isapre y Fonasa.
+              Sin traslados, sin esperas, con reembolso Isapre y seguros complementarios.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -394,7 +394,7 @@ export default function ComoFuncionaPage() {
           </div>
         </section>
 
-        {/* Reembolso Isapre y Fonasa */}
+        {/* Reembolso Isapre y Seguros */}
         <section className="py-20 md:py-28">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
@@ -403,7 +403,7 @@ export default function ComoFuncionaPage() {
                   Reembolso Garantizado
                 </Badge>
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                  Reembolso Isapre y Fonasa Libre Eleccion
+                  Reembolso Isapre y Seguros Complementarios
                 </h2>
                 <p className="text-lg text-slate-600 max-w-2xl mx-auto">
                   Recupera parte del costo de tus sesiones de kinesiologia a domicilio a traves de tu seguro de salud.
@@ -435,15 +435,15 @@ export default function ComoFuncionaPage() {
                 <Card className="border-slate-200 shadow-sm">
                   <CardContent className="p-8">
                     <ShieldCheck className="w-10 h-10 text-amber-500 mb-4" />
-                    <h3 className="text-xl font-bold text-slate-900 mb-4">Fonasa Libre Eleccion</h3>
+                    <h3 className="text-xl font-bold text-slate-900 mb-4">Seguros Complementarios</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" />
-                        <span>Disponible para tramos B, C y D de Fonasa</span>
+                        <span>Metlife, Chilena Consolidada, BICE, Zurich y seguros de empresa</span>
                       </li>
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" />
-                        <span>Bono de atencion kinesiologica en modalidad libre eleccion</span>
+                        <span>Reembolsa el copago que tu Isapre no cubrio</span>
                       </li>
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" />
@@ -525,7 +525,7 @@ export default function ComoFuncionaPage() {
                 <Check className="w-4 h-4" /> Evaluacion gratis
               </span>
               <span className="flex items-center gap-2">
-                <Check className="w-4 h-4" /> Reembolso Isapre/Fonasa
+                <Check className="w-4 h-4" /> Reembolso Isapre/Seguros
               </span>
               <span className="flex items-center gap-2">
                 <Check className="w-4 h-4" /> Kinesiologos titulados

@@ -78,8 +78,8 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             answer: `Atendemos en toda la comuna de ${data.nombre}, incluyendo: ${data.sectores.join(", ")}. Todos los tratamientos se realizan directamente en tu hogar.`,
         },
         {
-            question: `¿Trabajan con Fonasa o Isapre en ${data.nombre}?`,
-            answer: "Emitimos boletas que pueden ser reembolsadas por tu Isapre. También aceptamos pacientes Fonasa con modalidad libre elección.",
+            question: `¿Trabajan con Isapre en ${data.nombre}?`,
+            answer: "Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre (habitualmente 50-80% según plan) y también en tu seguro complementario.",
         },
         {
             question: `¿Cuánto dura una sesión de kinesiología a domicilio en ${data.nombre}?`,

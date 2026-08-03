@@ -54,8 +54,8 @@ export default function HomePage() {
       },
       {
         "@type": "Question",
-        name: "¿Trabajan con Fonasa o Isapre?",
-        acceptedAnswer: { "@type": "Answer", text: "Emitimos boletas que pueden ser reembolsadas por tu Isapre. También aceptamos pacientes Fonasa con modalidad libre elección. Consulta los detalles de tu plan de salud." }
+        name: "¿Trabajan con Isapre?",
+        acceptedAnswer: { "@type": "Answer", text: "Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre (habitualmente 50-80% según plan) y también en tu seguro complementario. Consulta los detalles de tu plan de salud." }
       },
       {
         "@type": "Question",
@@ -985,8 +985,8 @@ export default function HomePage() {
               <p className="text-slate-600">Atendemos Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul y Santiago Centro. Todos los tratamientos se realizan directamente en tu hogar.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
-              <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Fonasa o Isapre?</h3>
-              <p className="text-slate-600">Emitimos boletas que pueden ser reembolsadas por tu Isapre. También aceptamos pacientes Fonasa con modalidad libre elección. Consulta los detalles de tu plan de salud.</p>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
+              <p className="text-slate-600">Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre (habitualmente 50-80% según plan) y también en tu seguro complementario. Consulta los detalles de tu plan de salud.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué tipos de kinesiología ofrecen a domicilio?</h3>

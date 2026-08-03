@@ -21,20 +21,19 @@ const comunaData = {
         "Kinesiólogos con equipamiento avanzado",
         "Atención post-operatoria especializada",
         "KTR infantil y adulto",
-        "Reembolso Isapre y Fonasa libre elección",
+        "Reembolso Isapre y seguros complementarios",
         "Disponibilidad inmediata",
     ],
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Kine Isapre y Fonasa | KINEUM`,
-    description: `Kinesiólogo a domicilio en Santiago Centro. Rehabilitación post operatoria, respiratoria, geriátrica y neurológica. Isapre y Fonasa. Evaluación gratis.`,
+    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
+    description: `Kinesiólogo a domicilio en Santiago Centro. Rehabilitación post operatoria, respiratoria, geriátrica y neurológica. Reembolso Isapre. Evaluación gratis.`,
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
         `kinesiólogo a domicilio ${comunaData.nombre} isapre`,
-        `kinesiólogo a domicilio ${comunaData.nombre} fonasa`,
         `kine ${comunaData.nombre} reembolso`,
         `kinesiólogo adulto mayor ${comunaData.nombre}`,
         `kine respiratorio ${comunaData.nombre}`,
@@ -55,8 +54,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Kine Isapre y Fonasa | KINEUM`,
-        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar. Reembolso Isapre y Fonasa.`,
+        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
+        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar. Reembolso Isapre.`,
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

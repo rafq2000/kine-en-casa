@@ -5,7 +5,7 @@ export const blogPosts = [
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
     title: "¿Cuánto Cuesta la Kinesiología a Domicilio en Santiago? Precios 2026",
-    subtitle: "Valores reales por sesión, packs de 4 y 10 sesiones, y cuánto recuperas con Isapre o Fonasa.",
+    subtitle: "Valores reales por sesión, packs de 4 y 10 sesiones, y cuánto recuperas con tu Isapre y seguro complementario.",
     author: "Equipo Clínico KINEUM",
     date: "02 Julio, 2026",
     dateISO: "2026-07-02",
@@ -13,7 +13,7 @@ export const blogPosts = [
     category: "Precios y Reembolsos",
     image: "/images/blog-precios-kinesiologia-2026.jpg",
     icon: CircleDollarSign,
-    content: `<p class="lead">Si estás cotizando un kinesiólogo a domicilio en Santiago, lo primero que quieres saber es el precio. Aquí te lo respondemos sin rodeos, con valores actualizados a 2026, y te explicamos cómo bajar el costo real hasta un 80% usando tu Isapre o Fonasa.</p>
+    content: `<p class="lead">Si estás cotizando un kinesiólogo a domicilio en Santiago, lo primero que quieres saber es el precio. Aquí te lo respondemos sin rodeos, con valores actualizados a 2026, y te explicamos cómo bajar el costo real hasta un 80% usando tu Isapre y seguro complementario.</p>
 
       <h2>Precio de una sesión de kinesiología a domicilio en Santiago (2026)</h2>
       <p>En Santiago, una sesión individual de kinesiología a domicilio cuesta en general entre <strong>$30.000 y $45.000 CLP</strong>, dependiendo de tres factores:</p>
@@ -32,11 +32,14 @@ export const blogPosts = [
       </ul>
       <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong> y acceso a nuestro asistente AI 24/7 para dudas entre sesiones. Puedes ver el detalle completo en nuestra <a href="/precios">página de precios</a>.</p>
 
-      <h2>Cuánto recuperas con Isapre o Fonasa</h2>
+      <h2>Cuánto recuperas con Isapre y seguros complementarios</h2>
       <p>El precio de lista no es el costo final. Con la documentación correcta:</p>
       <ul>
         <li><strong>Isapre:</strong> emitimos boleta de honorarios que puedes enviar a reembolso. Según tu plan (Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida), recuperas típicamente entre un <strong>50% y un 80%</strong> del valor. Lee nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía completa de reembolso Isapre</a>.</li>
-        <li><strong>Fonasa:</strong> con la Modalidad Libre Elección y orden médica vigente, puedes recuperar parte del valor según tu tramo. Te explicamos el paso a paso en la <a href="/blog/kinesiologia-fonasa-libre-eleccion">guía de kinesiología con Fonasa</a>.</li>
+        <li><strong>Seguro complementario:</strong> si además tienes un seguro (Metlife, Chilena Consolidada, BICE, Zurich o colectivo de empresa), puedes reembolsar el copago que la Isapre no cubrió y recuperar la mayor parte del valor.</li>
+      </ul>
+      <p><em>¿Eres de Fonasa?</em> Igual puedes atenderte con nosotros de forma particular — muchos de nuestros pacientes lo hacen por la conveniencia de la atención en casa. KINEUM no emite bonos Fonasa.</p>
+      <ul>
       </ul>
       <p>Ejemplo real: una paciente de Ñuñoa con plan Isapre al 70% de reembolso pagó el Plan Premium de $350.000 y recuperó $245.000. Costo final del tratamiento completo de 10 sesiones: <strong>$105.000</strong>, es decir, $10.500 por sesión a domicilio.</p>
 
@@ -67,7 +70,7 @@ export const blogPosts = [
   {
     slug: "kinesiologia-fonasa-libre-eleccion",
     title: "Kinesiología con Fonasa: Guía de Libre Elección 2026",
-    subtitle: "Paso a paso para atenderte con kinesiólogo a domicilio usando Fonasa Modalidad Libre Elección.",
+    subtitle: "Cómo funciona la Modalidad Libre Elección para kinesiología, paso a paso y sin letra chica.",
     author: "Equipo Clínico KINEUM",
     date: "28 Junio, 2026",
     dateISO: "2026-06-28",
@@ -76,6 +79,7 @@ export const blogPosts = [
     image: "/images/blog-fonasa-kinesiologia.jpg",
     icon: FileText,
     content: `<p class="lead">Sí, puedes atenderte con kinesiólogo siendo de Fonasa, y también a domicilio. La clave se llama <strong>Modalidad Libre Elección (MLE)</strong>. Aquí te explicamos quiénes pueden usarla, cuánto cubre y el paso a paso exacto para no perder el beneficio.</p>
+      <p><em>Transparencia primero: esta es una guía informativa sobre el sistema Fonasa MLE. En KINEUM atendemos de forma particular, con boleta de honorarios reembolsable en Isapres y seguros complementarios; no emitimos bonos Fonasa.</em></p>
 
       <h2>¿Qué es la Modalidad Libre Elección de Fonasa?</h2>
       <p>La MLE permite a los afiliados de Fonasa de los tramos B, C y D atenderse con prestadores privados inscritos en Fonasa —como kinesiólogos particulares— pagando un copago según arancel. El tramo A solo puede atenderse en la red pública, salvo excepciones.</p>
@@ -84,15 +88,15 @@ export const blogPosts = [
       <ul>
         <li><strong>Orden médica vigente:</strong> el médico debe indicar el diagnóstico y la cantidad de sesiones de kinesiología (por ejemplo, "10 sesiones de kinesiterapia motora"). Sin orden médica no se puede emitir el bono.</li>
         <li><strong>Ser tramo B, C o D</strong> de Fonasa (los tramos se definen por ingreso).</li>
-        <li><strong>Prestador inscrito:</strong> el kinesiólogo debe estar inscrito en Fonasa y acreditado por la Superintendencia de Salud, como todos los profesionales de KINEUM.</li>
+        <li><strong>Prestador inscrito:</strong> el kinesiólogo o centro debe estar inscrito en Fonasa MLE y acreditado por la Superintendencia de Salud.</li>
       </ul>
 
-      <h2>Paso a paso para atenderte a domicilio con Fonasa</h2>
+      <h2>Paso a paso para usar Fonasa MLE en kinesiología</h2>
       <ul>
         <li><strong>1. Consigue la orden médica.</strong> Puede ser de tu traumatólogo, neurólogo, broncopulmonar o médico general, física o electrónica.</li>
-        <li><strong>2. Contáctanos por WhatsApp</strong> al <a href="https://wa.me/56999679593">+56 9 9967 9593</a> con una foto de la orden. Verificamos la indicación y agendamos la evaluación gratuita.</li>
-        <li><strong>3. Compra el bono</strong> de kinesiología (puedes hacerlo en línea en mi.fonasa.cl, en sucursales o lo coordinamos contigo). El bono define tu copago según el arancel MLE.</li>
-        <li><strong>4. Recibe tu tratamiento en casa.</strong> El kinesiólogo registra cada sesión; el número de sesiones debe coincidir con la orden médica.</li>
+        <li><strong>2. Busca un prestador inscrito en Fonasa MLE</strong> que ofrezca atención domiciliaria (puedes verificar la inscripción en el buscador de prestadores de fonasa.gob.cl).</li>
+        <li><strong>3. Compra el bono</strong> de kinesiología (en línea en mi.fonasa.cl o en sucursales). El bono define tu copago según el arancel MLE.</li>
+        <li><strong>4. Recibe tu tratamiento.</strong> El kinesiólogo registra cada sesión; el número de sesiones debe coincidir con la orden médica.</li>
       </ul>
 
       <h2>¿Cuánto cubre Fonasa por una sesión de kinesiología?</h2>
@@ -113,7 +117,7 @@ export const blogPosts = [
       <h3>¿Sirve para kinesiología respiratoria infantil (KTR)?</h3>
       <p>Sí, la kinesiterapia respiratoria con orden del pediatra o broncopulmonar es una de las prestaciones más solicitadas en <a href="/servicios/respiratoria">nuestro servicio respiratorio</a>, especialmente en invierno.</p>
 
-      <p><strong>¿Tienes tu orden médica a mano?</strong> Envíanosla por <a href="https://wa.me/56999679593?text=Hola,%20tengo%20orden%20m%C3%A9dica%20y%20soy%20Fonasa">WhatsApp</a> y te confirmamos de inmediato cómo usar tu Fonasa con kinesiología a domicilio en tu comuna.</p>
+      <p><strong>¿Prefieres la comodidad de atenderte en casa sin trámites de bono?</strong> En KINEUM atendemos de forma particular con <a href="/blog/reembolso-isapre-kinesiologia">boleta reembolsable en Isapre y seguros complementarios</a>, evaluación inicial gratuita y <a href="/precios">packs que bajan el valor por sesión</a>. <a href="https://wa.me/56999679593?text=Hola,%20quiero%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>
     `
   },
   {
@@ -209,19 +213,19 @@ export const blogPosts = [
       <ul>
         <li><strong>1. Orden médica:</strong> tu médico debe indicar el número de sesiones (por ejemplo, "10 sesiones de kinesiterapia motora"). Sin orden no hay bono.</li>
         <li><strong>2. Identifica el código correcto:</strong> ambulatoria (0601105) si vas a un centro; domiciliaria (0601106) si el kinesiólogo va a tu casa.</li>
-        <li><strong>3. Compra el bono</strong> en mi.fonasa.cl, en sucursal o coordínalo con tu prestador. Necesitas que el kinesiólogo esté inscrito en Fonasa, como todos los profesionales de KINEUM.</li>
+        <li><strong>3. Compra el bono</strong> en mi.fonasa.cl o en sucursal. Necesitas que el prestador esté inscrito en Fonasa MLE (verifícalo en el buscador de fonasa.gob.cl).</li>
         <li><strong>4. Guarda tus bonos:</strong> si además tienes seguro complementario, puedes reembolsar el copago.</li>
       </ul>
 
       <h2>Preguntas frecuentes</h2>
       <h3>¿Puedo usar el código domiciliario 0601106 con cualquier kinesiólogo?</h3>
-      <p>Solo con kinesiólogos inscritos en Fonasa MLE. En KINEUM emitimos la documentación correspondiente y te guiamos en el proceso; revisa nuestra <a href="/blog/kinesiologia-fonasa-libre-eleccion">guía completa de kinesiología con Fonasa</a>.</p>
+      <p>Solo con kinesiólogos inscritos en Fonasa MLE. <strong>En KINEUM atendemos de forma particular</strong> (no emitimos bonos Fonasa): nuestra boleta de honorarios es reembolsable en Isapres y seguros complementarios. Más detalles en la <a href="/blog/kinesiologia-fonasa-libre-eleccion">guía de Modalidad Libre Elección</a>.</p>
       <h3>¿El bono cubre la sesión completa a domicilio?</h3>
-      <p>Cubre la prestación según arancel MLE. Los servicios domiciliarios premium (equipamiento completo, kinesiólogo especialista, horarios extendidos) tienen un valor comercial mayor al arancel; la diferencia se paga como particular y puedes complementar con <a href="/blog/reembolso-isapre-kinesiologia">seguros complementarios</a>. Mira nuestros <a href="/precios">planes y precios</a>.</p>
+      <p>Cubre solo la prestación según arancel MLE, que es bastante menor al valor de mercado de una sesión domiciliaria con equipamiento completo. Por eso muchos pacientes optan directamente por la vía particular con <a href="/blog/reembolso-isapre-kinesiologia">reembolso Isapre + seguro complementario</a>, que termina siendo más simple. Mira nuestros <a href="/precios">planes y precios</a>.</p>
       <h3>¿Estos códigos sirven para kinesiología respiratoria infantil?</h3>
       <p>Sí, la atención kinesiológica integral incluye la kinesiterapia respiratoria con orden del pediatra. En invierno es la prestación más demandada: revisa nuestra guía de <a href="/blog/kinesiologia-respiratoria-infantil-domicilio">kinesiología respiratoria infantil a domicilio</a>.</p>
 
-      <p><strong>¿Tienes tu orden médica y quieres atenderte en casa con Fonasa?</strong> <a href="https://wa.me/56999679593?text=Hola,%20tengo%20orden%20m%C3%A9dica%20Fonasa%20y%20quiero%20atenderme%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te confirmamos el proceso completo en 5 minutos.</p>
+      <p><strong>¿Tienes orden médica y quieres atenderte en tu casa sin trámites?</strong> <a href="https://wa.me/56999679593?text=Hola,%20tengo%20orden%20m%C3%A9dica%20y%20quiero%20atenderme%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>: atención particular con evaluación gratuita y boleta reembolsable en tu Isapre y seguro complementario.</p>
     `
   },
   {
@@ -235,7 +239,7 @@ export const blogPosts = [
     category: "Respiratorio",
     image: "/images/blog-ktr-infantil-domicilio.jpg",
     icon: Baby,
-    content: `<p class="lead">Es invierno en Santiago, tu hijo lleva noches tosiendo, el pediatra le indicó "KTR" y lo último que quieres es llevarlo con fiebre a una sala de espera llena de otros niños enfermos. Buenas noticias: la kinesiología respiratoria infantil se puede hacer completa en tu casa, con bono Fonasa o reembolso Isapre.</p>
+    content: `<p class="lead">Es invierno en Santiago, tu hijo lleva noches tosiendo, el pediatra le indicó "KTR" y lo último que quieres es llevarlo con fiebre a una sala de espera llena de otros niños enfermos. Buenas noticias: la kinesiología respiratoria infantil se puede hacer completa en tu casa, con boleta reembolsable en tu Isapre y seguro complementario.</p>
 
       <h2>¿Qué es la KTR (kinesiterapia respiratoria) infantil?</h2>
       <p>Es un conjunto de técnicas manuales e instrumentales que ayudan a los niños a <strong>movilizar y eliminar las secreciones</strong> que sus vías respiratorias aún no saben expulsar solas. En menores de 2 años es especialmente útil porque no saben toser con eficacia ni sonarse. El kinesiólogo también monitorea la saturación de oxígeno y educa a los padres sobre señales de alarma.</p>
@@ -269,7 +273,7 @@ export const blogPosts = [
       </ul>
 
       <h2>¿Cuánto cuesta y cómo se paga?</h2>
-      <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con orden del pediatra puedes usar <a href="/blog/kinesiologia-fonasa-libre-eleccion">bono Fonasa MLE</a> (código domiciliario 0601106, ver nuestra <a href="/blog/codigos-fonasa-kinesiologia-2026">guía de códigos Fonasa</a>) o <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> la boleta que emitimos. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
+      <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con la orden del pediatra puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> (típicamente 50-80%) la boleta que emitimos, y el copago restante en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
 
       <h2>Cobertura en Santiago</h2>
       <p>Atendemos KTR infantil y de adultos en <a href="/kinesiologia-respiratoria-las-condes">Las Condes</a>, <a href="/kinesiologia-respiratoria-vitacura">Vitacura</a>, <a href="/kinesiologia-respiratoria-providencia">Providencia</a>, <a href="/kinesiologia-respiratoria-nunoa">Ñuñoa</a>, <a href="/kinesiologia-respiratoria-la-reina">La Reina</a>, <a href="/kinesiologia-respiratoria-lo-barnechea">Lo Barnechea</a>, <a href="/kinesiologia-respiratoria-penalolen">Peñalolén</a>, <a href="/kinesiologia-respiratoria-la-florida">La Florida</a>, <a href="/kinesiologia-respiratoria-macul">Macul</a>, <a href="/kinesiologia-respiratoria-san-joaquin">San Joaquín</a> y <a href="/kinesiologia-respiratoria-santiago-centro">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
@@ -322,7 +326,7 @@ export const blogPosts = [
       </ul>
 
       <h2>Precios y reembolso</h2>
-      <p>La kinesiología de piso pélvico se paga igual que cualquier atención kinesiológica: con orden médica puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar en tu Isapre</a> (típicamente 50-80%) o usar <a href="/blog/kinesiologia-fonasa-libre-eleccion">Fonasa Libre Elección</a>. La evaluación inicial en KINEUM es <strong>gratuita</strong> y nuestros <a href="/precios">packs de sesiones</a> cubren el tratamiento completo. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+      <p>La kinesiología de piso pélvico se paga igual que cualquier atención kinesiológica: con orden médica puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar en tu Isapre</a> (típicamente 50-80%) y el copago restante en tu seguro complementario. La evaluación inicial en KINEUM es <strong>gratuita</strong> y nuestros <a href="/precios">packs de sesiones</a> cubren el tratamiento completo. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
 
       <h2>Preguntas frecuentes</h2>
       <h3>¿Puedo empezar si tuve cesárea?</h3>
@@ -377,7 +381,7 @@ export const blogPosts = [
       </ul>
 
       <h2>Precio y reembolso</h2>
-      <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y trabajamos con <a href="/blog/kinesiologia-fonasa-libre-eleccion">Fonasa Libre Elección</a> cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+      <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y en tu seguro complementario cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
 
       <p><strong>¿Tienes cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu protocolo desde la primera semana (lee también nuestra <a href="/blog/drenaje-linfatico-manual">guía general de drenaje linfático</a>).</p>
     `

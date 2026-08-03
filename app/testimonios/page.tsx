@@ -303,8 +303,8 @@ export default function TestimoniosPage() {
                             <div className="bg-purple-50 p-3 rounded-xl">
                                 <Award className="h-6 w-6 text-purple-500" />
                             </div>
-                            <div className="text-sm font-medium text-slate-900">Isapre y Fonasa</div>
-                            <div className="text-xs text-slate-500">reembolso garantizado</div>
+                            <div className="text-sm font-medium text-slate-900">Isapre y Seguros</div>
+                            <div className="text-xs text-slate-500">boleta reembolsable</div>
                         </div>
                     </div>
                 </div>
@@ -464,7 +464,7 @@ export default function TestimoniosPage() {
                         </a>
                     </div>
                     <p className="text-slate-500 text-sm mt-6">
-                        Evaluacion gratuita - Reembolso Isapre y Fonasa - Sin compromiso
+                        Evaluacion gratuita - Reembolso Isapre - Sin compromiso
                     </p>
                 </div>
             </section>
