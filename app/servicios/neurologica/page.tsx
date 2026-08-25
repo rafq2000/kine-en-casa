@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { WhatsAppButton } from '@/components/whatsapp-button'
 import { Check, Brain } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
     title: 'Neurorehabilitación a Domicilio Santiago | ACV y Parkinson | KINEUM',
@@ -60,6 +61,8 @@ export default function NeuroPage() {
                     </div>
                 </div>
             </section>
+
+            <ComunasPorEspecialidad especialidadSlug="rehabilitacion-neurologica" />
         </div>
     )
 }

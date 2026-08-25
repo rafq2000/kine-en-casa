@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { WhatsAppButton } from '@/components/whatsapp-button'
 import { Check, Activity } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
     title: 'Kinesiología Traumatológica a Domicilio | Fracturas y Prótesis | KINEUM',
@@ -57,6 +58,8 @@ export default function TraumaPage() {
                     </div>
                 </div>
             </section>
+
+            <ComunasPorEspecialidad especialidadSlug="kinesiologia-traumatologica" />
         </div>
     )
 }

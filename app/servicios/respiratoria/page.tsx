@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { WhatsAppButton } from '@/components/whatsapp-button'
 import { Check, Calendar, Activity, Shield } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
     title: 'Kinesiología Respiratoria a Domicilio Santiago [Infantil y Adulto] | KINEUM',
@@ -72,6 +73,8 @@ export default function RespiratoryPage() {
                     </div>
                 </div>
             </section>
+
+            <ComunasPorEspecialidad especialidadSlug="kinesiologia-respiratoria" />
         </div>
     )
 }

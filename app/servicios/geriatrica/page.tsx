@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { WhatsAppButton } from '@/components/whatsapp-button'
 import { Check, Heart, User } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
     title: 'Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM',
@@ -65,6 +66,8 @@ export default function GeriatricPage() {
                     </div>
                 </div>
             </section>
+
+            <ComunasPorEspecialidad especialidadSlug="kinesiologia-geriatrica" />
         </div>
     )
 }
