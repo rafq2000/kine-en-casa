@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "La Reina",
-    slug: "la-reina",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en La Reina. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en La Reina.",
-    sectores: [
-        "Todo La Reina"
-    ],
-    caracteristicas: [
-        "Cobertura total en La Reina",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "la-reina"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-la-reina"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en La Reina. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en La Reina | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica La Reina",
+            "kinesiología traumatológica a domicilio La Reina",
+            "kinesiólogo traumatológico La Reina",
+            "kinesiólogo a domicilio La Reina",
+            "kinesiología a domicilio La Reina",
+            "esguince de tobillo La Reina",
+            "lumbago y dolor de espalda La Reina",
+            "tendinopatías de hombro La Reina",
+            "fracturas en recuperación La Reina",
+            "kinesiólogo La Reina Alta",
+            "kinesiólogo Príncipe de Gales",
+            "kinesiólogo Avenida Ossa"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-la-reina`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en La Reina. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-la-reina`,
+        title: "Kinesiología Traumatológica a Domicilio en La Reina | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

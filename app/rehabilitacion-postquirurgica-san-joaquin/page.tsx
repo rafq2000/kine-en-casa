@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "San Joaquín",
-    slug: "san-joaquin",
-    especialidad: "Rehabilitación Postquirúrgica",
-    descripcion: "Recuperación postquirúrgica especializada a domicilio en San Joaquín. Kinesiólogos expertos para una rehabilitación segura y efectiva.",
-    poblacion: "Especialistas en Rehabilitación Postquirúrgica disponibles en San Joaquín.",
-    sectores: [
-        "Todo San Joaquín"
-    ],
-    caracteristicas: [
-        "Cobertura total en San Joaquín",
-        "Especialistas en Rehabilitación Postquirúrgica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-postquirurgica"
+const COMUNA = "san-joaquin"
+const URL = "https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine postquirúrgico a domicilio en San Joaquín. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
+    title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín | KINEUM",
+    description:
+        "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
-        `kine post artroscopia ${pageData.nombre}`,
-        `recuperación prótesis cadera ${pageData.nombre}`,
-        `kine post operación columna ${pageData.nombre}`,
-        `rehabilitación post cirugía hombro ${pageData.nombre}`,
-        `kine post cesárea ${pageData.nombre}`,
-        `recuperación post hospitalización ${pageData.nombre}`,
+            "rehabilitación postquirúrgica San Joaquín",
+            "rehabilitación postquirúrgica a domicilio San Joaquín",
+            "kinesiólogo post operatorio San Joaquín",
+            "kinesiólogo a domicilio San Joaquín",
+            "kinesiología a domicilio San Joaquín",
+            "prótesis de rodilla San Joaquín",
+            "prótesis de cadera San Joaquín",
+            "artroscopia de rodilla u hombro San Joaquín",
+            "cirugía de columna San Joaquín",
+            "kinesiólogo Metro San Joaquín",
+            "kinesiólogo Pedrero",
+            "kinesiólogo La Castrina"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Recuperación postquirúrgica especializada a domicilio en San Joaquín. Kinesiólogos expertos para una rehabilitación segura y efectiva.`,
-        url: `https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin`,
+        title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín | KINEUM",
+        description:
+            "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

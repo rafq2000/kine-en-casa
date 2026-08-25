@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Santiago Centro",
-    slug: "santiago-centro",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en Santiago Centro. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en Santiago Centro.",
-    sectores: [
-        "Todo Santiago Centro"
-    ],
-    caracteristicas: [
-        "Cobertura total en Santiago Centro",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "santiago-centro"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-santiago-centro"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en Santiago Centro. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en Santiago Centro | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica Santiago Centro",
+            "kinesiología traumatológica a domicilio Santiago Centro",
+            "kinesiólogo traumatológico Santiago Centro",
+            "kinesiólogo a domicilio Santiago Centro",
+            "kinesiología a domicilio Santiago Centro",
+            "esguince de tobillo Santiago Centro",
+            "lumbago y dolor de espalda Santiago Centro",
+            "tendinopatías de hombro Santiago Centro",
+            "fracturas en recuperación Santiago Centro",
+            "kinesiólogo Barrio Lastarria",
+            "kinesiólogo Barrio Brasil",
+            "kinesiólogo Barrio Yungay"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-santiago-centro`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en Santiago Centro. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-santiago-centro`,
+        title: "Kinesiología Traumatológica a Domicilio en Santiago Centro | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Las Condes",
-    slug: "las-condes",
-    especialidad: "Kinesiología Geriátrica",
-    descripcion: "Rehabilitación geriátrica para el adulto mayor a domicilio en Las Condes. Tratamiento de Sarcopenia, prevención de caídas y artrosis.",
-    poblacion: "Especialistas en Kinesiología Geriátrica disponibles en Las Condes.",
-    sectores: [
-        "Todo Las Condes"
-    ],
-    caracteristicas: [
-        "Cobertura total en Las Condes",
-        "Especialistas en Kinesiología Geriátrica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-geriatrica"
+const COMUNA = "las-condes"
+const URL = "https://kineum.cl/kinesiologia-geriatrica-las-condes"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kinesiólogo geriátrico a domicilio en Las Condes. Tratamiento sarcopenia, prevención de caídas, artrosis y rehabilitación adulto mayor. Reembolso Isapre.`,
+    title: "Kinesiología Geriátrica a Domicilio en Las Condes | KINEUM",
+    description:
+        "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kinesiólogo adulto mayor ${pageData.nombre}`,
-        `prevención caídas adulto mayor ${pageData.nombre}`,
-        `tratamiento sarcopenia ${pageData.nombre}`,
-        `rehabilitación artrosis ${pageData.nombre}`,
-        `kine tercera edad ${pageData.nombre}`,
-        `fisioterapia geriátrica ${pageData.nombre}`,
-        `kinesiólogo adulto mayor isapre ${pageData.nombre}`,
-        `rehabilitación post hospitalización ${pageData.nombre}`,
+            "kinesiología geriátrica Las Condes",
+            "kinesiología geriátrica a domicilio Las Condes",
+            "kinesiólogo para adulto mayor Las Condes",
+            "kinesiólogo a domicilio Las Condes",
+            "kinesiología a domicilio Las Condes",
+            "sarcopenia y pérdida de fuerza Las Condes",
+            "prevención de caídas Las Condes",
+            "artrosis de rodilla y cadera Las Condes",
+            "recuperación post hospitalización Las Condes",
+            "kinesiólogo El Golf",
+            "kinesiólogo Escuela Militar",
+            "kinesiólogo Manquehue"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-geriatrica-las-condes`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación geriátrica para el adulto mayor a domicilio en Las Condes. Tratamiento de Sarcopenia, prevención de caídas y artrosis.`,
-        url: `https://kineum.cl/kinesiologia-geriatrica-las-condes`,
+        title: "Kinesiología Geriátrica a Domicilio en Las Condes | KINEUM",
+        description:
+            "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

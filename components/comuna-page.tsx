@@ -26,6 +26,8 @@ import {
 } from "lucide-react"
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
+import { especialidades } from "@/lib/especialidades-data"
+import { comunas } from "@/lib/comunas-data"
 
 interface ComunaData {
     nombre: string
@@ -555,8 +557,71 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 </div>
             </section>
 
+            {/* Servicios kinésicos específicos en esta comuna */}
+            <section className="py-20 bg-white border-t border-slate-100">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-5xl mx-auto">
+                        <div className="text-center mb-12">
+                            <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
+                                <Stethoscope className="h-4 w-4 mr-2" />
+                                Especialidades
+                            </Badge>
+                            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 font-serif">
+                                Servicios kinesiológicos en {data.nombre}
+                            </h2>
+                            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                                Cada especialidad tiene su propio protocolo. Revisa la que necesitas para ver en detalle
+                                qué tratamos y cómo es la sesión en tu casa.
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {especialidades.map((e) => (
+                                <Link
+                                    key={e.slug}
+                                    href={`/${e.slug}-${data.slug}`}
+                                    className="group bg-slate-50 rounded-xl p-6 border border-slate-200 hover:border-amber-300 hover:shadow-md transition-all"
+                                >
+                                    <h3 className="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors mb-2">
+                                        {e.nombre}
+                                    </h3>
+                                    <p className="text-sm text-slate-600 leading-relaxed mb-3">
+                                        {e.condiciones
+                                            .slice(0, 3)
+                                            .map((c) => c.titulo)
+                                            .join(" · ")}
+                                    </p>
+                                    <span className="inline-flex items-center text-sm font-medium text-amber-700">
+                                        Ver en {data.nombre}
+                                        <ChevronRight className="h-4 w-4 ml-1" />
+                                    </span>
+                                </Link>
+                            ))}
+                        </div>
+
+                        <div className="mt-12 pt-10 border-t border-slate-200">
+                            <h3 className="text-lg font-bold text-slate-900 mb-4">
+                                Kinesiología a domicilio en otras comunas
+                            </h3>
+                            <div className="flex flex-wrap gap-2">
+                                {comunas
+                                    .filter((c) => c.slug !== data.slug)
+                                    .map((c) => (
+                                        <Link
+                                            key={c.slug}
+                                            href={`/kinesiologo-a-domicilio-${c.slug}`}
+                                            className="bg-slate-50 rounded-lg px-4 py-2 border border-slate-200 text-sm text-slate-700 hover:border-amber-300 hover:text-amber-700 transition-colors"
+                                        >
+                                            {c.nombre}
+                                        </Link>
+                                    ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* FAQ Section */}
-            <section id="faq" className="py-20 bg-white">
+            <section id="faq" className="py-20 bg-slate-50">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">

@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "San Joaquín",
-    slug: "san-joaquin",
-    especialidad: "Kinesiología Geriátrica",
-    descripcion: "Rehabilitación geriátrica para el adulto mayor a domicilio en San Joaquín. Tratamiento de Sarcopenia, prevención de caídas y artrosis.",
-    poblacion: "Especialistas en Kinesiología Geriátrica disponibles en San Joaquín.",
-    sectores: [
-        "Todo San Joaquín"
-    ],
-    caracteristicas: [
-        "Cobertura total en San Joaquín",
-        "Especialistas en Kinesiología Geriátrica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-geriatrica"
+const COMUNA = "san-joaquin"
+const URL = "https://kineum.cl/kinesiologia-geriatrica-san-joaquin"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kinesiólogo geriátrico a domicilio en San Joaquín. Tratamiento sarcopenia, prevención de caídas, artrosis y rehabilitación adulto mayor. Reembolso Isapre.`,
+    title: "Kinesiología Geriátrica a Domicilio en San Joaquín | KINEUM",
+    description:
+        "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kinesiólogo adulto mayor ${pageData.nombre}`,
-        `prevención caídas adulto mayor ${pageData.nombre}`,
-        `tratamiento sarcopenia ${pageData.nombre}`,
-        `rehabilitación artrosis ${pageData.nombre}`,
-        `kine tercera edad ${pageData.nombre}`,
-        `fisioterapia geriátrica ${pageData.nombre}`,
-        `kinesiólogo adulto mayor isapre ${pageData.nombre}`,
-        `rehabilitación post hospitalización ${pageData.nombre}`,
+            "kinesiología geriátrica San Joaquín",
+            "kinesiología geriátrica a domicilio San Joaquín",
+            "kinesiólogo para adulto mayor San Joaquín",
+            "kinesiólogo a domicilio San Joaquín",
+            "kinesiología a domicilio San Joaquín",
+            "sarcopenia y pérdida de fuerza San Joaquín",
+            "prevención de caídas San Joaquín",
+            "artrosis de rodilla y cadera San Joaquín",
+            "recuperación post hospitalización San Joaquín",
+            "kinesiólogo Metro San Joaquín",
+            "kinesiólogo Pedrero",
+            "kinesiólogo La Castrina"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-geriatrica-san-joaquin`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación geriátrica para el adulto mayor a domicilio en San Joaquín. Tratamiento de Sarcopenia, prevención de caídas y artrosis.`,
-        url: `https://kineum.cl/kinesiologia-geriatrica-san-joaquin`,
+        title: "Kinesiología Geriátrica a Domicilio en San Joaquín | KINEUM",
+        description:
+            "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

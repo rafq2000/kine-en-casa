@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Santiago Centro",
-    slug: "santiago-centro",
-    especialidad: "Rehabilitación Postquirúrgica",
-    descripcion: "Recuperación postquirúrgica especializada a domicilio en Santiago Centro. Kinesiólogos expertos para una rehabilitación segura y efectiva.",
-    poblacion: "Especialistas en Rehabilitación Postquirúrgica disponibles en Santiago Centro.",
-    sectores: [
-        "Todo Santiago Centro"
-    ],
-    caracteristicas: [
-        "Cobertura total en Santiago Centro",
-        "Especialistas en Rehabilitación Postquirúrgica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-postquirurgica"
+const COMUNA = "santiago-centro"
+const URL = "https://kineum.cl/rehabilitacion-postquirurgica-santiago-centro"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine postquirúrgico a domicilio en Santiago Centro. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
+    title: "Rehabilitación Postquirúrgica a Domicilio en Santiago Centro | KINEUM",
+    description:
+        "Kinesiólogo Post Operatorio a domicilio en Santiago Centro: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
-        `kine post artroscopia ${pageData.nombre}`,
-        `recuperación prótesis cadera ${pageData.nombre}`,
-        `kine post operación columna ${pageData.nombre}`,
-        `rehabilitación post cirugía hombro ${pageData.nombre}`,
-        `kine post cesárea ${pageData.nombre}`,
-        `recuperación post hospitalización ${pageData.nombre}`,
+            "rehabilitación postquirúrgica Santiago Centro",
+            "rehabilitación postquirúrgica a domicilio Santiago Centro",
+            "kinesiólogo post operatorio Santiago Centro",
+            "kinesiólogo a domicilio Santiago Centro",
+            "kinesiología a domicilio Santiago Centro",
+            "prótesis de rodilla Santiago Centro",
+            "prótesis de cadera Santiago Centro",
+            "artroscopia de rodilla u hombro Santiago Centro",
+            "cirugía de columna Santiago Centro",
+            "kinesiólogo Barrio Lastarria",
+            "kinesiólogo Barrio Brasil",
+            "kinesiólogo Barrio Yungay"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-postquirurgica-santiago-centro`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Recuperación postquirúrgica especializada a domicilio en Santiago Centro. Kinesiólogos expertos para una rehabilitación segura y efectiva.`,
-        url: `https://kineum.cl/rehabilitacion-postquirurgica-santiago-centro`,
+        title: "Rehabilitación Postquirúrgica a Domicilio en Santiago Centro | KINEUM",
+        description:
+            "Kinesiólogo Post Operatorio a domicilio en Santiago Centro: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

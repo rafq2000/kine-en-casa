@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Las Condes",
-    slug: "las-condes",
-    especialidad: "Rehabilitación Neurológica",
-    descripcion: "Rehabilitación neurológica a domicilio en Las Condes. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.",
-    poblacion: "Especialistas en Rehabilitación Neurológica disponibles en Las Condes.",
-    sectores: [
-        "Todo Las Condes"
-    ],
-    caracteristicas: [
-        "Cobertura total en Las Condes",
-        "Especialistas en Rehabilitación Neurológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-neurologica"
+const COMUNA = "las-condes"
+const URL = "https://kineum.cl/rehabilitacion-neurologica-las-condes"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Neurorehabilitación a domicilio en Las Condes. Kinesiólogos expertos en ACV, Parkinson, Alzheimer y esclerosis múltiple. Reembolso Isapre.`,
+    title: "Rehabilitación Neurológica a Domicilio en Las Condes | KINEUM",
+    description:
+        "Neurorehabilitación a Domicilio a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación ACV ${pageData.nombre}`,
-        `kinesiólogo Parkinson ${pageData.nombre}`,
-        `neurorehabilitación ${pageData.nombre}`,
-        `kine Alzheimer ${pageData.nombre}`,
-        `esclerosis múltiple rehabilitación ${pageData.nombre}`,
-        `terapia neurológica domicilio ${pageData.nombre}`,
-        `rehabilitación post ACV isapre ${pageData.nombre}`,
+            "rehabilitación neurológica Las Condes",
+            "rehabilitación neurológica a domicilio Las Condes",
+            "neurorehabilitación a domicilio Las Condes",
+            "kinesiólogo a domicilio Las Condes",
+            "kinesiología a domicilio Las Condes",
+            "secuelas de ACV Las Condes",
+            "enfermedad de Parkinson Las Condes",
+            "esclerosis múltiple Las Condes",
+            "alzheimer y otras demencias Las Condes",
+            "kinesiólogo El Golf",
+            "kinesiólogo Escuela Militar",
+            "kinesiólogo Manquehue"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-neurologica-las-condes`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación neurológica a domicilio en Las Condes. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.`,
-        url: `https://kineum.cl/rehabilitacion-neurologica-las-condes`,
+        title: "Rehabilitación Neurológica a Domicilio en Las Condes | KINEUM",
+        description:
+            "Neurorehabilitación a Domicilio a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Providencia",
-    slug: "providencia",
-    especialidad: "Rehabilitación Postquirúrgica",
-    descripcion: "Recuperación postquirúrgica especializada a domicilio en Providencia. Kinesiólogos expertos para una rehabilitación segura y efectiva.",
-    poblacion: "Especialistas en Rehabilitación Postquirúrgica disponibles en Providencia.",
-    sectores: [
-        "Todo Providencia"
-    ],
-    caracteristicas: [
-        "Cobertura total en Providencia",
-        "Especialistas en Rehabilitación Postquirúrgica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-postquirurgica"
+const COMUNA = "providencia"
+const URL = "https://kineum.cl/rehabilitacion-postquirurgica-providencia"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine postquirúrgico a domicilio en Providencia. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
+    title: "Rehabilitación Postquirúrgica a Domicilio en Providencia | KINEUM",
+    description:
+        "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
-        `kine post artroscopia ${pageData.nombre}`,
-        `recuperación prótesis cadera ${pageData.nombre}`,
-        `kine post operación columna ${pageData.nombre}`,
-        `rehabilitación post cirugía hombro ${pageData.nombre}`,
-        `kine post cesárea ${pageData.nombre}`,
-        `recuperación post hospitalización ${pageData.nombre}`,
+            "rehabilitación postquirúrgica Providencia",
+            "rehabilitación postquirúrgica a domicilio Providencia",
+            "kinesiólogo post operatorio Providencia",
+            "kinesiólogo a domicilio Providencia",
+            "kinesiología a domicilio Providencia",
+            "prótesis de rodilla Providencia",
+            "prótesis de cadera Providencia",
+            "artroscopia de rodilla u hombro Providencia",
+            "cirugía de columna Providencia",
+            "kinesiólogo Pedro de Valdivia",
+            "kinesiólogo Manuel Montt",
+            "kinesiólogo Tobalaba"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-postquirurgica-providencia`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Recuperación postquirúrgica especializada a domicilio en Providencia. Kinesiólogos expertos para una rehabilitación segura y efectiva.`,
-        url: `https://kineum.cl/rehabilitacion-postquirurgica-providencia`,
+        title: "Rehabilitación Postquirúrgica a Domicilio en Providencia | KINEUM",
+        description:
+            "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Lo Barnechea",
-    slug: "lo-barnechea",
-    especialidad: "Rehabilitación Postquirúrgica",
-    descripcion: "Recuperación postquirúrgica especializada a domicilio en Lo Barnechea. Kinesiólogos expertos para una rehabilitación segura y efectiva.",
-    poblacion: "Especialistas en Rehabilitación Postquirúrgica disponibles en Lo Barnechea.",
-    sectores: [
-        "Todo Lo Barnechea"
-    ],
-    caracteristicas: [
-        "Cobertura total en Lo Barnechea",
-        "Especialistas en Rehabilitación Postquirúrgica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-postquirurgica"
+const COMUNA = "lo-barnechea"
+const URL = "https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine postquirúrgico a domicilio en Lo Barnechea. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
+    title: "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea | KINEUM",
+    description:
+        "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
-        `kine post artroscopia ${pageData.nombre}`,
-        `recuperación prótesis cadera ${pageData.nombre}`,
-        `kine post operación columna ${pageData.nombre}`,
-        `rehabilitación post cirugía hombro ${pageData.nombre}`,
-        `kine post cesárea ${pageData.nombre}`,
-        `recuperación post hospitalización ${pageData.nombre}`,
+            "rehabilitación postquirúrgica Lo Barnechea",
+            "rehabilitación postquirúrgica a domicilio Lo Barnechea",
+            "kinesiólogo post operatorio Lo Barnechea",
+            "kinesiólogo a domicilio Lo Barnechea",
+            "kinesiología a domicilio Lo Barnechea",
+            "prótesis de rodilla Lo Barnechea",
+            "prótesis de cadera Lo Barnechea",
+            "artroscopia de rodilla u hombro Lo Barnechea",
+            "cirugía de columna Lo Barnechea",
+            "kinesiólogo La Dehesa",
+            "kinesiólogo Los Trapenses",
+            "kinesiólogo El Arrayán"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Recuperación postquirúrgica especializada a domicilio en Lo Barnechea. Kinesiólogos expertos para una rehabilitación segura y efectiva.`,
-        url: `https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea`,
+        title: "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea | KINEUM",
+        description:
+            "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

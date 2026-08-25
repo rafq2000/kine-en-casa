@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Providencia",
-    slug: "providencia",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en Providencia. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en Providencia.",
-    sectores: [
-        "Todo Providencia"
-    ],
-    caracteristicas: [
-        "Cobertura total en Providencia",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "providencia"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-providencia"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en Providencia. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en Providencia | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica Providencia",
+            "kinesiología traumatológica a domicilio Providencia",
+            "kinesiólogo traumatológico Providencia",
+            "kinesiólogo a domicilio Providencia",
+            "kinesiología a domicilio Providencia",
+            "esguince de tobillo Providencia",
+            "lumbago y dolor de espalda Providencia",
+            "tendinopatías de hombro Providencia",
+            "fracturas en recuperación Providencia",
+            "kinesiólogo Pedro de Valdivia",
+            "kinesiólogo Manuel Montt",
+            "kinesiólogo Tobalaba"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-providencia`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en Providencia. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-providencia`,
+        title: "Kinesiología Traumatológica a Domicilio en Providencia | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

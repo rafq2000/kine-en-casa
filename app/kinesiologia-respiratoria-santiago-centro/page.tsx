@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Santiago Centro",
-    slug: "santiago-centro",
-    especialidad: "Kinesiología Respiratoria",
-    descripcion: "Kinesiología respiratoria pediátrica y adulto a domicilio en Santiago Centro. Tratamiento experto para bronquitis, neumonía, y EPOC.",
-    poblacion: "Especialistas en Kinesiología Respiratoria disponibles en Santiago Centro.",
-    sectores: [
-        "Todo Santiago Centro"
-    ],
-    caracteristicas: [
-        "Cobertura total en Santiago Centro",
-        "Especialistas en Kinesiología Respiratoria",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-respiratoria"
+const COMUNA = "santiago-centro"
+const URL = "https://kineum.cl/kinesiologia-respiratoria-santiago-centro"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine respiratorio infantil y adulto a domicilio en Santiago Centro. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
+    title: "Kinesiología Respiratoria a Domicilio en Santiago Centro | KINEUM",
+    description:
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kine respiratorio bebé ${pageData.nombre}`,
-        `kinesiología respiratoria infantil ${pageData.nombre}`,
-        `KTR a domicilio ${pageData.nombre}`,
-        `tratamiento EPOC ${pageData.nombre}`,
-        `rehabilitación post COVID ${pageData.nombre}`,
-        `kine respiratorio isapre ${pageData.nombre}`,
-        `bronquitis tratamiento kine ${pageData.nombre}`,
-        `neumonía rehabilitación ${pageData.nombre}`,
+            "kinesiología respiratoria Santiago Centro",
+            "kinesiología respiratoria a domicilio Santiago Centro",
+            "kinesiólogo respiratorio (ktr) Santiago Centro",
+            "kinesiólogo a domicilio Santiago Centro",
+            "kinesiología a domicilio Santiago Centro",
+            "bronquiolitis y virus respiratorios Santiago Centro",
+            "bronquitis obstructiva (SBO) Santiago Centro",
+            "neumonía en recuperación Santiago Centro",
+            "ePOC y asma Santiago Centro",
+            "kinesiólogo Barrio Lastarria",
+            "kinesiólogo Barrio Brasil",
+            "kinesiólogo Barrio Yungay"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-respiratoria-santiago-centro`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Kinesiología respiratoria pediátrica y adulto a domicilio en Santiago Centro. Tratamiento experto para bronquitis, neumonía, y EPOC.`,
-        url: `https://kineum.cl/kinesiologia-respiratoria-santiago-centro`,
+        title: "Kinesiología Respiratoria a Domicilio en Santiago Centro | KINEUM",
+        description:
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

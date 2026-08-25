@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Ñuñoa",
-    slug: "nunoa",
-    especialidad: "Kinesiología Respiratoria",
-    descripcion: "Kinesiología respiratoria pediátrica y adulto a domicilio en Ñuñoa. Tratamiento experto para bronquitis, neumonía, y EPOC.",
-    poblacion: "Especialistas en Kinesiología Respiratoria disponibles en Ñuñoa.",
-    sectores: [
-        "Todo Ñuñoa"
-    ],
-    caracteristicas: [
-        "Cobertura total en Ñuñoa",
-        "Especialistas en Kinesiología Respiratoria",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-respiratoria"
+const COMUNA = "nunoa"
+const URL = "https://kineum.cl/kinesiologia-respiratoria-nunoa"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine respiratorio infantil y adulto a domicilio en Ñuñoa. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
+    title: "Kinesiología Respiratoria a Domicilio en Ñuñoa | KINEUM",
+    description:
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kine respiratorio bebé ${pageData.nombre}`,
-        `kinesiología respiratoria infantil ${pageData.nombre}`,
-        `KTR a domicilio ${pageData.nombre}`,
-        `tratamiento EPOC ${pageData.nombre}`,
-        `rehabilitación post COVID ${pageData.nombre}`,
-        `kine respiratorio isapre ${pageData.nombre}`,
-        `bronquitis tratamiento kine ${pageData.nombre}`,
-        `neumonía rehabilitación ${pageData.nombre}`,
+            "kinesiología respiratoria Ñuñoa",
+            "kinesiología respiratoria a domicilio Ñuñoa",
+            "kinesiólogo respiratorio (ktr) Ñuñoa",
+            "kinesiólogo a domicilio Ñuñoa",
+            "kinesiología a domicilio Ñuñoa",
+            "bronquiolitis y virus respiratorios Ñuñoa",
+            "bronquitis obstructiva (SBO) Ñuñoa",
+            "neumonía en recuperación Ñuñoa",
+            "ePOC y asma Ñuñoa",
+            "kinesiólogo Plaza Ñuñoa",
+            "kinesiólogo Avenida Irarrázaval",
+            "kinesiólogo Simón Bolívar"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-respiratoria-nunoa`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Kinesiología respiratoria pediátrica y adulto a domicilio en Ñuñoa. Tratamiento experto para bronquitis, neumonía, y EPOC.`,
-        url: `https://kineum.cl/kinesiologia-respiratoria-nunoa`,
+        title: "Kinesiología Respiratoria a Domicilio en Ñuñoa | KINEUM",
+        description:
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

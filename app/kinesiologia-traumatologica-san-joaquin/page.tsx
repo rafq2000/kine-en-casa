@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "San Joaquín",
-    slug: "san-joaquin",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en San Joaquín. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en San Joaquín.",
-    sectores: [
-        "Todo San Joaquín"
-    ],
-    caracteristicas: [
-        "Cobertura total en San Joaquín",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "san-joaquin"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-san-joaquin"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en San Joaquín. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en San Joaquín | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica San Joaquín",
+            "kinesiología traumatológica a domicilio San Joaquín",
+            "kinesiólogo traumatológico San Joaquín",
+            "kinesiólogo a domicilio San Joaquín",
+            "kinesiología a domicilio San Joaquín",
+            "esguince de tobillo San Joaquín",
+            "lumbago y dolor de espalda San Joaquín",
+            "tendinopatías de hombro San Joaquín",
+            "fracturas en recuperación San Joaquín",
+            "kinesiólogo Metro San Joaquín",
+            "kinesiólogo Pedrero",
+            "kinesiólogo La Castrina"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-san-joaquin`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en San Joaquín. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-san-joaquin`,
+        title: "Kinesiología Traumatológica a Domicilio en San Joaquín | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

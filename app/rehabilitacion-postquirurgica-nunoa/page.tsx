@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Ñuñoa",
-    slug: "nunoa",
-    especialidad: "Rehabilitación Postquirúrgica",
-    descripcion: "Recuperación postquirúrgica especializada a domicilio en Ñuñoa. Kinesiólogos expertos para una rehabilitación segura y efectiva.",
-    poblacion: "Especialistas en Rehabilitación Postquirúrgica disponibles en Ñuñoa.",
-    sectores: [
-        "Todo Ñuñoa"
-    ],
-    caracteristicas: [
-        "Cobertura total en Ñuñoa",
-        "Especialistas en Rehabilitación Postquirúrgica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-postquirurgica"
+const COMUNA = "nunoa"
+const URL = "https://kineum.cl/rehabilitacion-postquirurgica-nunoa"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine postquirúrgico a domicilio en Ñuñoa. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
+    title: "Rehabilitación Postquirúrgica a Domicilio en Ñuñoa | KINEUM",
+    description:
+        "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
-        `kine post artroscopia ${pageData.nombre}`,
-        `recuperación prótesis cadera ${pageData.nombre}`,
-        `kine post operación columna ${pageData.nombre}`,
-        `rehabilitación post cirugía hombro ${pageData.nombre}`,
-        `kine post cesárea ${pageData.nombre}`,
-        `recuperación post hospitalización ${pageData.nombre}`,
+            "rehabilitación postquirúrgica Ñuñoa",
+            "rehabilitación postquirúrgica a domicilio Ñuñoa",
+            "kinesiólogo post operatorio Ñuñoa",
+            "kinesiólogo a domicilio Ñuñoa",
+            "kinesiología a domicilio Ñuñoa",
+            "prótesis de rodilla Ñuñoa",
+            "prótesis de cadera Ñuñoa",
+            "artroscopia de rodilla u hombro Ñuñoa",
+            "cirugía de columna Ñuñoa",
+            "kinesiólogo Plaza Ñuñoa",
+            "kinesiólogo Avenida Irarrázaval",
+            "kinesiólogo Simón Bolívar"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-postquirurgica-nunoa`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Recuperación postquirúrgica especializada a domicilio en Ñuñoa. Kinesiólogos expertos para una rehabilitación segura y efectiva.`,
-        url: `https://kineum.cl/rehabilitacion-postquirurgica-nunoa`,
+        title: "Rehabilitación Postquirúrgica a Domicilio en Ñuñoa | KINEUM",
+        description:
+            "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

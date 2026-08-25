@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Providencia",
-    slug: "providencia",
-    especialidad: "Kinesiología Geriátrica",
-    descripcion: "Rehabilitación geriátrica para el adulto mayor a domicilio en Providencia. Tratamiento de Sarcopenia, prevención de caídas y artrosis.",
-    poblacion: "Especialistas en Kinesiología Geriátrica disponibles en Providencia.",
-    sectores: [
-        "Todo Providencia"
-    ],
-    caracteristicas: [
-        "Cobertura total en Providencia",
-        "Especialistas en Kinesiología Geriátrica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-geriatrica"
+const COMUNA = "providencia"
+const URL = "https://kineum.cl/kinesiologia-geriatrica-providencia"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kinesiólogo geriátrico a domicilio en Providencia. Tratamiento sarcopenia, prevención de caídas, artrosis y rehabilitación adulto mayor. Reembolso Isapre.`,
+    title: "Kinesiología Geriátrica a Domicilio en Providencia | KINEUM",
+    description:
+        "Kinesiólogo para Adulto Mayor a domicilio en Providencia: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kinesiólogo adulto mayor ${pageData.nombre}`,
-        `prevención caídas adulto mayor ${pageData.nombre}`,
-        `tratamiento sarcopenia ${pageData.nombre}`,
-        `rehabilitación artrosis ${pageData.nombre}`,
-        `kine tercera edad ${pageData.nombre}`,
-        `fisioterapia geriátrica ${pageData.nombre}`,
-        `kinesiólogo adulto mayor isapre ${pageData.nombre}`,
-        `rehabilitación post hospitalización ${pageData.nombre}`,
+            "kinesiología geriátrica Providencia",
+            "kinesiología geriátrica a domicilio Providencia",
+            "kinesiólogo para adulto mayor Providencia",
+            "kinesiólogo a domicilio Providencia",
+            "kinesiología a domicilio Providencia",
+            "sarcopenia y pérdida de fuerza Providencia",
+            "prevención de caídas Providencia",
+            "artrosis de rodilla y cadera Providencia",
+            "recuperación post hospitalización Providencia",
+            "kinesiólogo Pedro de Valdivia",
+            "kinesiólogo Manuel Montt",
+            "kinesiólogo Tobalaba"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-geriatrica-providencia`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación geriátrica para el adulto mayor a domicilio en Providencia. Tratamiento de Sarcopenia, prevención de caídas y artrosis.`,
-        url: `https://kineum.cl/kinesiologia-geriatrica-providencia`,
+        title: "Kinesiología Geriátrica a Domicilio en Providencia | KINEUM",
+        description:
+            "Kinesiólogo para Adulto Mayor a domicilio en Providencia: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

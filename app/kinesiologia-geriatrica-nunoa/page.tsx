@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Ñuñoa",
-    slug: "nunoa",
-    especialidad: "Kinesiología Geriátrica",
-    descripcion: "Rehabilitación geriátrica para el adulto mayor a domicilio en Ñuñoa. Tratamiento de Sarcopenia, prevención de caídas y artrosis.",
-    poblacion: "Especialistas en Kinesiología Geriátrica disponibles en Ñuñoa.",
-    sectores: [
-        "Todo Ñuñoa"
-    ],
-    caracteristicas: [
-        "Cobertura total en Ñuñoa",
-        "Especialistas en Kinesiología Geriátrica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-geriatrica"
+const COMUNA = "nunoa"
+const URL = "https://kineum.cl/kinesiologia-geriatrica-nunoa"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kinesiólogo geriátrico a domicilio en Ñuñoa. Tratamiento sarcopenia, prevención de caídas, artrosis y rehabilitación adulto mayor. Reembolso Isapre.`,
+    title: "Kinesiología Geriátrica a Domicilio en Ñuñoa | KINEUM",
+    description:
+        "Kinesiólogo para Adulto Mayor a domicilio en Ñuñoa: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kinesiólogo adulto mayor ${pageData.nombre}`,
-        `prevención caídas adulto mayor ${pageData.nombre}`,
-        `tratamiento sarcopenia ${pageData.nombre}`,
-        `rehabilitación artrosis ${pageData.nombre}`,
-        `kine tercera edad ${pageData.nombre}`,
-        `fisioterapia geriátrica ${pageData.nombre}`,
-        `kinesiólogo adulto mayor isapre ${pageData.nombre}`,
-        `rehabilitación post hospitalización ${pageData.nombre}`,
+            "kinesiología geriátrica Ñuñoa",
+            "kinesiología geriátrica a domicilio Ñuñoa",
+            "kinesiólogo para adulto mayor Ñuñoa",
+            "kinesiólogo a domicilio Ñuñoa",
+            "kinesiología a domicilio Ñuñoa",
+            "sarcopenia y pérdida de fuerza Ñuñoa",
+            "prevención de caídas Ñuñoa",
+            "artrosis de rodilla y cadera Ñuñoa",
+            "recuperación post hospitalización Ñuñoa",
+            "kinesiólogo Plaza Ñuñoa",
+            "kinesiólogo Avenida Irarrázaval",
+            "kinesiólogo Simón Bolívar"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-geriatrica-nunoa`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación geriátrica para el adulto mayor a domicilio en Ñuñoa. Tratamiento de Sarcopenia, prevención de caídas y artrosis.`,
-        url: `https://kineum.cl/kinesiologia-geriatrica-nunoa`,
+        title: "Kinesiología Geriátrica a Domicilio en Ñuñoa | KINEUM",
+        description:
+            "Kinesiólogo para Adulto Mayor a domicilio en Ñuñoa: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

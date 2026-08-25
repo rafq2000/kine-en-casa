@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Lo Barnechea",
-    slug: "lo-barnechea",
-    especialidad: "Rehabilitación Neurológica",
-    descripcion: "Rehabilitación neurológica a domicilio en Lo Barnechea. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.",
-    poblacion: "Especialistas en Rehabilitación Neurológica disponibles en Lo Barnechea.",
-    sectores: [
-        "Todo Lo Barnechea"
-    ],
-    caracteristicas: [
-        "Cobertura total en Lo Barnechea",
-        "Especialistas en Rehabilitación Neurológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-neurologica"
+const COMUNA = "lo-barnechea"
+const URL = "https://kineum.cl/rehabilitacion-neurologica-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Neurorehabilitación a domicilio en Lo Barnechea. Kinesiólogos expertos en ACV, Parkinson, Alzheimer y esclerosis múltiple. Reembolso Isapre.`,
+    title: "Rehabilitación Neurológica a Domicilio en Lo Barnechea | KINEUM",
+    description:
+        "Neurorehabilitación a Domicilio a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación ACV ${pageData.nombre}`,
-        `kinesiólogo Parkinson ${pageData.nombre}`,
-        `neurorehabilitación ${pageData.nombre}`,
-        `kine Alzheimer ${pageData.nombre}`,
-        `esclerosis múltiple rehabilitación ${pageData.nombre}`,
-        `terapia neurológica domicilio ${pageData.nombre}`,
-        `rehabilitación post ACV isapre ${pageData.nombre}`,
+            "rehabilitación neurológica Lo Barnechea",
+            "rehabilitación neurológica a domicilio Lo Barnechea",
+            "neurorehabilitación a domicilio Lo Barnechea",
+            "kinesiólogo a domicilio Lo Barnechea",
+            "kinesiología a domicilio Lo Barnechea",
+            "secuelas de ACV Lo Barnechea",
+            "enfermedad de Parkinson Lo Barnechea",
+            "esclerosis múltiple Lo Barnechea",
+            "alzheimer y otras demencias Lo Barnechea",
+            "kinesiólogo La Dehesa",
+            "kinesiólogo Los Trapenses",
+            "kinesiólogo El Arrayán"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-neurologica-lo-barnechea`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación neurológica a domicilio en Lo Barnechea. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.`,
-        url: `https://kineum.cl/rehabilitacion-neurologica-lo-barnechea`,
+        title: "Rehabilitación Neurológica a Domicilio en Lo Barnechea | KINEUM",
+        description:
+            "Neurorehabilitación a Domicilio a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

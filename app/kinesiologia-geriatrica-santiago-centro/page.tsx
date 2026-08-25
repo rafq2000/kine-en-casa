@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Santiago Centro",
-    slug: "santiago-centro",
-    especialidad: "Kinesiología Geriátrica",
-    descripcion: "Rehabilitación geriátrica para el adulto mayor a domicilio en Santiago Centro. Tratamiento de Sarcopenia, prevención de caídas y artrosis.",
-    poblacion: "Especialistas en Kinesiología Geriátrica disponibles en Santiago Centro.",
-    sectores: [
-        "Todo Santiago Centro"
-    ],
-    caracteristicas: [
-        "Cobertura total en Santiago Centro",
-        "Especialistas en Kinesiología Geriátrica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-geriatrica"
+const COMUNA = "santiago-centro"
+const URL = "https://kineum.cl/kinesiologia-geriatrica-santiago-centro"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kinesiólogo geriátrico a domicilio en Santiago Centro. Tratamiento sarcopenia, prevención caídas, artrosis y rehabilitación adulto mayor. Reembolso Isapre.`,
+    title: "Kinesiología Geriátrica a Domicilio en Santiago Centro | KINEUM",
+    description:
+        "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kinesiólogo adulto mayor ${pageData.nombre}`,
-        `prevención caídas adulto mayor ${pageData.nombre}`,
-        `tratamiento sarcopenia ${pageData.nombre}`,
-        `rehabilitación artrosis ${pageData.nombre}`,
-        `kine tercera edad ${pageData.nombre}`,
-        `fisioterapia geriátrica ${pageData.nombre}`,
-        `kinesiólogo adulto mayor isapre ${pageData.nombre}`,
-        `rehabilitación post hospitalización ${pageData.nombre}`,
+            "kinesiología geriátrica Santiago Centro",
+            "kinesiología geriátrica a domicilio Santiago Centro",
+            "kinesiólogo para adulto mayor Santiago Centro",
+            "kinesiólogo a domicilio Santiago Centro",
+            "kinesiología a domicilio Santiago Centro",
+            "sarcopenia y pérdida de fuerza Santiago Centro",
+            "prevención de caídas Santiago Centro",
+            "artrosis de rodilla y cadera Santiago Centro",
+            "recuperación post hospitalización Santiago Centro",
+            "kinesiólogo Barrio Lastarria",
+            "kinesiólogo Barrio Brasil",
+            "kinesiólogo Barrio Yungay"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-geriatrica-santiago-centro`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Geriátrica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación geriátrica para el adulto mayor a domicilio en Santiago Centro. Tratamiento de Sarcopenia, prevención de caídas y artrosis.`,
-        url: `https://kineum.cl/kinesiologia-geriatrica-santiago-centro`,
+        title: "Kinesiología Geriátrica a Domicilio en Santiago Centro | KINEUM",
+        description:
+            "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

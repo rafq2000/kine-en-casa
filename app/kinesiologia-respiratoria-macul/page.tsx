@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Macul",
-    slug: "macul",
-    especialidad: "Kinesiología Respiratoria",
-    descripcion: "Kinesiología respiratoria pediátrica y adulto a domicilio en Macul. Tratamiento experto para bronquitis, neumonía, y EPOC.",
-    poblacion: "Especialistas en Kinesiología Respiratoria disponibles en Macul.",
-    sectores: [
-        "Todo Macul"
-    ],
-    caracteristicas: [
-        "Cobertura total en Macul",
-        "Especialistas en Kinesiología Respiratoria",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-respiratoria"
+const COMUNA = "macul"
+const URL = "https://kineum.cl/kinesiologia-respiratoria-macul"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine respiratorio infantil y adulto a domicilio en Macul. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
+    title: "Kinesiología Respiratoria a Domicilio en Macul | KINEUM",
+    description:
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kine respiratorio bebé ${pageData.nombre}`,
-        `kinesiología respiratoria infantil ${pageData.nombre}`,
-        `KTR a domicilio ${pageData.nombre}`,
-        `tratamiento EPOC ${pageData.nombre}`,
-        `rehabilitación post COVID ${pageData.nombre}`,
-        `kine respiratorio isapre ${pageData.nombre}`,
-        `bronquitis tratamiento kine ${pageData.nombre}`,
-        `neumonía rehabilitación ${pageData.nombre}`,
+            "kinesiología respiratoria Macul",
+            "kinesiología respiratoria a domicilio Macul",
+            "kinesiólogo respiratorio (ktr) Macul",
+            "kinesiólogo a domicilio Macul",
+            "kinesiología a domicilio Macul",
+            "bronquiolitis y virus respiratorios Macul",
+            "bronquitis obstructiva (SBO) Macul",
+            "neumonía en recuperación Macul",
+            "ePOC y asma Macul",
+            "kinesiólogo Villa Macul",
+            "kinesiólogo Quilín",
+            "kinesiólogo Santa Julia"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-respiratoria-macul`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Kinesiología respiratoria pediátrica y adulto a domicilio en Macul. Tratamiento experto para bronquitis, neumonía, y EPOC.`,
-        url: `https://kineum.cl/kinesiologia-respiratoria-macul`,
+        title: "Kinesiología Respiratoria a Domicilio en Macul | KINEUM",
+        description:
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Lo Barnechea",
-    slug: "lo-barnechea",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en Lo Barnechea. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en Lo Barnechea.",
-    sectores: [
-        "Todo Lo Barnechea"
-    ],
-    caracteristicas: [
-        "Cobertura total en Lo Barnechea",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "lo-barnechea"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en Lo Barnechea. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en Lo Barnechea | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica Lo Barnechea",
+            "kinesiología traumatológica a domicilio Lo Barnechea",
+            "kinesiólogo traumatológico Lo Barnechea",
+            "kinesiólogo a domicilio Lo Barnechea",
+            "kinesiología a domicilio Lo Barnechea",
+            "esguince de tobillo Lo Barnechea",
+            "lumbago y dolor de espalda Lo Barnechea",
+            "tendinopatías de hombro Lo Barnechea",
+            "fracturas en recuperación Lo Barnechea",
+            "kinesiólogo La Dehesa",
+            "kinesiólogo Los Trapenses",
+            "kinesiólogo El Arrayán"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-lo-barnechea`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en Lo Barnechea. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-lo-barnechea`,
+        title: "Kinesiología Traumatológica a Domicilio en Lo Barnechea | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

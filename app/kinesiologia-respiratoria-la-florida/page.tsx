@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "La Florida",
-    slug: "la-florida",
-    especialidad: "Kinesiología Respiratoria",
-    descripcion: "Kinesiología respiratoria pediátrica y adulto a domicilio en La Florida. Tratamiento experto para bronquitis, neumonía, y EPOC.",
-    poblacion: "Especialistas en Kinesiología Respiratoria disponibles en La Florida.",
-    sectores: [
-        "Todo La Florida"
-    ],
-    caracteristicas: [
-        "Cobertura total en La Florida",
-        "Especialistas en Kinesiología Respiratoria",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-respiratoria"
+const COMUNA = "la-florida"
+const URL = "https://kineum.cl/kinesiologia-respiratoria-la-florida"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine respiratorio infantil y adulto a domicilio en La Florida. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
+    title: "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
+    description:
+        "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kine respiratorio bebé ${pageData.nombre}`,
-        `kinesiología respiratoria infantil ${pageData.nombre}`,
-        `KTR a domicilio ${pageData.nombre}`,
-        `tratamiento EPOC ${pageData.nombre}`,
-        `rehabilitación post COVID ${pageData.nombre}`,
-        `kine respiratorio isapre ${pageData.nombre}`,
-        `bronquitis tratamiento kine ${pageData.nombre}`,
-        `neumonía rehabilitación ${pageData.nombre}`,
+            "kinesiología respiratoria La Florida",
+            "kinesiología respiratoria a domicilio La Florida",
+            "kinesiólogo respiratorio (ktr) La Florida",
+            "kinesiólogo a domicilio La Florida",
+            "kinesiología a domicilio La Florida",
+            "bronquiolitis y virus respiratorios La Florida",
+            "bronquitis obstructiva (SBO) La Florida",
+            "neumonía en recuperación La Florida",
+            "ePOC y asma La Florida",
+            "kinesiólogo Bellavista de La Florida",
+            "kinesiólogo Walker Martínez",
+            "kinesiólogo Trinidad"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-respiratoria-la-florida`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Kinesiología respiratoria pediátrica y adulto a domicilio en La Florida. Tratamiento experto para bronquitis, neumonía, y EPOC.`,
-        url: `https://kineum.cl/kinesiologia-respiratoria-la-florida`,
+        title: "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
+        description:
+            "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

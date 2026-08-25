@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "La Reina",
-    slug: "la-reina",
-    especialidad: "Kinesiología Respiratoria",
-    descripcion: "Kinesiología respiratoria pediátrica y adulto a domicilio en La Reina. Tratamiento experto para bronquitis, neumonía, y EPOC.",
-    poblacion: "Especialistas en Kinesiología Respiratoria disponibles en La Reina.",
-    sectores: [
-        "Todo La Reina"
-    ],
-    caracteristicas: [
-        "Cobertura total en La Reina",
-        "Especialistas en Kinesiología Respiratoria",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-respiratoria"
+const COMUNA = "la-reina"
+const URL = "https://kineum.cl/kinesiologia-respiratoria-la-reina"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine respiratorio infantil y adulto a domicilio en La Reina. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
+    title: "Kinesiología Respiratoria a Domicilio en La Reina | KINEUM",
+    description:
+        "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kine respiratorio bebé ${pageData.nombre}`,
-        `kinesiología respiratoria infantil ${pageData.nombre}`,
-        `KTR a domicilio ${pageData.nombre}`,
-        `tratamiento EPOC ${pageData.nombre}`,
-        `rehabilitación post COVID ${pageData.nombre}`,
-        `kine respiratorio isapre ${pageData.nombre}`,
-        `bronquitis tratamiento kine ${pageData.nombre}`,
-        `neumonía rehabilitación ${pageData.nombre}`,
+            "kinesiología respiratoria La Reina",
+            "kinesiología respiratoria a domicilio La Reina",
+            "kinesiólogo respiratorio (ktr) La Reina",
+            "kinesiólogo a domicilio La Reina",
+            "kinesiología a domicilio La Reina",
+            "bronquiolitis y virus respiratorios La Reina",
+            "bronquitis obstructiva (SBO) La Reina",
+            "neumonía en recuperación La Reina",
+            "ePOC y asma La Reina",
+            "kinesiólogo La Reina Alta",
+            "kinesiólogo Príncipe de Gales",
+            "kinesiólogo Avenida Ossa"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-respiratoria-la-reina`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Kinesiología respiratoria pediátrica y adulto a domicilio en La Reina. Tratamiento experto para bronquitis, neumonía, y EPOC.`,
-        url: `https://kineum.cl/kinesiologia-respiratoria-la-reina`,
+        title: "Kinesiología Respiratoria a Domicilio en La Reina | KINEUM",
+        description:
+            "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

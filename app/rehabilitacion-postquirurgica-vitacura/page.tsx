@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Vitacura",
-    slug: "vitacura",
-    especialidad: "Rehabilitación Postquirúrgica",
-    descripcion: "Recuperación postquirúrgica especializada a domicilio en Vitacura. Kinesiólogos expertos para una rehabilitación segura y efectiva.",
-    poblacion: "Especialistas en Rehabilitación Postquirúrgica disponibles en Vitacura.",
-    sectores: [
-        "Todo Vitacura"
-    ],
-    caracteristicas: [
-        "Cobertura total en Vitacura",
-        "Especialistas en Rehabilitación Postquirúrgica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-postquirurgica"
+const COMUNA = "vitacura"
+const URL = "https://kineum.cl/rehabilitacion-postquirurgica-vitacura"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine postquirúrgico a domicilio en Vitacura. Rehabilitación post cirugía rodilla, cadera, hombro, columna y artroscopia. Reembolso Isapre.`,
+    title: "Rehabilitación Postquirúrgica a Domicilio en Vitacura | KINEUM",
+    description:
+        "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación post cirugía rodilla ${pageData.nombre}`,
-        `kine post artroscopia ${pageData.nombre}`,
-        `recuperación prótesis cadera ${pageData.nombre}`,
-        `kine post operación columna ${pageData.nombre}`,
-        `rehabilitación post cirugía hombro ${pageData.nombre}`,
-        `kine post cesárea ${pageData.nombre}`,
-        `recuperación post hospitalización ${pageData.nombre}`,
+            "rehabilitación postquirúrgica Vitacura",
+            "rehabilitación postquirúrgica a domicilio Vitacura",
+            "kinesiólogo post operatorio Vitacura",
+            "kinesiólogo a domicilio Vitacura",
+            "kinesiología a domicilio Vitacura",
+            "prótesis de rodilla Vitacura",
+            "prótesis de cadera Vitacura",
+            "artroscopia de rodilla u hombro Vitacura",
+            "cirugía de columna Vitacura",
+            "kinesiólogo Santa María de Manquehue",
+            "kinesiólogo Jardín del Este",
+            "kinesiólogo Lo Curro"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-postquirurgica-vitacura`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Postquirúrgica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Recuperación postquirúrgica especializada a domicilio en Vitacura. Kinesiólogos expertos para una rehabilitación segura y efectiva.`,
-        url: `https://kineum.cl/rehabilitacion-postquirurgica-vitacura`,
+        title: "Rehabilitación Postquirúrgica a Domicilio en Vitacura | KINEUM",
+        description:
+            "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "La Florida",
-    slug: "la-florida",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en La Florida. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en La Florida.",
-    sectores: [
-        "Todo La Florida"
-    ],
-    caracteristicas: [
-        "Cobertura total en La Florida",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "la-florida"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-la-florida"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en La Florida. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en La Florida | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica La Florida",
+            "kinesiología traumatológica a domicilio La Florida",
+            "kinesiólogo traumatológico La Florida",
+            "kinesiólogo a domicilio La Florida",
+            "kinesiología a domicilio La Florida",
+            "esguince de tobillo La Florida",
+            "lumbago y dolor de espalda La Florida",
+            "tendinopatías de hombro La Florida",
+            "fracturas en recuperación La Florida",
+            "kinesiólogo Bellavista de La Florida",
+            "kinesiólogo Walker Martínez",
+            "kinesiólogo Trinidad"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-la-florida`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en La Florida. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-la-florida`,
+        title: "Kinesiología Traumatológica a Domicilio en La Florida | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

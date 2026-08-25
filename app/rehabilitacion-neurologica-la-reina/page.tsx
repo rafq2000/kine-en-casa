@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "La Reina",
-    slug: "la-reina",
-    especialidad: "Rehabilitación Neurológica",
-    descripcion: "Rehabilitación neurológica a domicilio en La Reina. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.",
-    poblacion: "Especialistas en Rehabilitación Neurológica disponibles en La Reina.",
-    sectores: [
-        "Todo La Reina"
-    ],
-    caracteristicas: [
-        "Cobertura total en La Reina",
-        "Especialistas en Rehabilitación Neurológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-neurologica"
+const COMUNA = "la-reina"
+const URL = "https://kineum.cl/rehabilitacion-neurologica-la-reina"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Neurorehabilitación a domicilio en La Reina. Kinesiólogos expertos en ACV, Parkinson, Alzheimer y esclerosis múltiple. Reembolso Isapre.`,
+    title: "Rehabilitación Neurológica a Domicilio en La Reina | KINEUM",
+    description:
+        "Neurorehabilitación a Domicilio a domicilio en La Reina: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación ACV ${pageData.nombre}`,
-        `kinesiólogo Parkinson ${pageData.nombre}`,
-        `neurorehabilitación ${pageData.nombre}`,
-        `kine Alzheimer ${pageData.nombre}`,
-        `esclerosis múltiple rehabilitación ${pageData.nombre}`,
-        `terapia neurológica domicilio ${pageData.nombre}`,
-        `rehabilitación post ACV isapre ${pageData.nombre}`,
+            "rehabilitación neurológica La Reina",
+            "rehabilitación neurológica a domicilio La Reina",
+            "neurorehabilitación a domicilio La Reina",
+            "kinesiólogo a domicilio La Reina",
+            "kinesiología a domicilio La Reina",
+            "secuelas de ACV La Reina",
+            "enfermedad de Parkinson La Reina",
+            "esclerosis múltiple La Reina",
+            "alzheimer y otras demencias La Reina",
+            "kinesiólogo La Reina Alta",
+            "kinesiólogo Príncipe de Gales",
+            "kinesiólogo Avenida Ossa"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-neurologica-la-reina`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación neurológica a domicilio en La Reina. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.`,
-        url: `https://kineum.cl/rehabilitacion-neurologica-la-reina`,
+        title: "Rehabilitación Neurológica a Domicilio en La Reina | KINEUM",
+        description:
+            "Neurorehabilitación a Domicilio a domicilio en La Reina: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

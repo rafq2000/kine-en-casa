@@ -1,52 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Vitacura",
-    slug: "vitacura",
-    especialidad: "Rehabilitación Neurológica",
-    descripcion: "Rehabilitación neurológica a domicilio en Vitacura. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.",
-    poblacion: "Especialistas en Rehabilitación Neurológica disponibles en Vitacura.",
-    sectores: [
-        "Todo Vitacura"
-    ],
-    caracteristicas: [
-        "Cobertura total en Vitacura",
-        "Especialistas en Rehabilitación Neurológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "rehabilitacion-neurologica"
+const COMUNA = "vitacura"
+const URL = "https://kineum.cl/rehabilitacion-neurologica-vitacura"
 
 export const metadata: Metadata = {
-    title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Neurorehabilitación a domicilio en Vitacura. Kinesiólogos expertos en ACV, Parkinson, Alzheimer y esclerosis múltiple. Reembolso Isapre.`,
+    title: "Rehabilitación Neurológica a Domicilio en Vitacura | KINEUM",
+    description:
+        "Neurorehabilitación a Domicilio a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación ACV ${pageData.nombre}`,
-        `kinesiólogo Parkinson ${pageData.nombre}`,
-        `neurorehabilitación ${pageData.nombre}`,
-        `kine Alzheimer ${pageData.nombre}`,
-        `esclerosis múltiple rehabilitación ${pageData.nombre}`,
-        `terapia neurológica domicilio ${pageData.nombre}`,
-        `rehabilitación post ACV isapre ${pageData.nombre}`,
+            "rehabilitación neurológica Vitacura",
+            "rehabilitación neurológica a domicilio Vitacura",
+            "neurorehabilitación a domicilio Vitacura",
+            "kinesiólogo a domicilio Vitacura",
+            "kinesiología a domicilio Vitacura",
+            "secuelas de ACV Vitacura",
+            "enfermedad de Parkinson Vitacura",
+            "esclerosis múltiple Vitacura",
+            "alzheimer y otras demencias Vitacura",
+            "kinesiólogo Santa María de Manquehue",
+            "kinesiólogo Jardín del Este",
+            "kinesiólogo Lo Curro"
     ],
     alternates: {
-        canonical: `https://kineum.cl/rehabilitacion-neurologica-vitacura`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Rehabilitación Neurológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación neurológica a domicilio en Vitacura. Apoyo kinesiológico experto post-ACV, Parkinson y enfermedades neurodegenerativas.`,
-        url: `https://kineum.cl/rehabilitacion-neurologica-vitacura`,
+        title: "Rehabilitación Neurológica a Domicilio en Vitacura | KINEUM",
+        description:
+            "Neurorehabilitación a Domicilio a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

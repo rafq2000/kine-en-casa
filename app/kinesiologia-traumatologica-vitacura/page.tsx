@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Vitacura",
-    slug: "vitacura",
-    especialidad: "Kinesiología Traumatológica",
-    descripcion: "Rehabilitación traumatológica a domicilio en Vitacura. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.",
-    poblacion: "Especialistas en Kinesiología Traumatológica disponibles en Vitacura.",
-    sectores: [
-        "Todo Vitacura"
-    ],
-    caracteristicas: [
-        "Cobertura total en Vitacura",
-        "Especialistas en Kinesiología Traumatológica",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-traumatologica"
+const COMUNA = "vitacura"
+const URL = "https://kineum.cl/kinesiologia-traumatologica-vitacura"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine traumatológico a domicilio en Vitacura. Rehabilitación esguinces, fracturas, prótesis rodilla, lumbago y lesiones deportivas. Reembolso Isapre.`,
+    title: "Kinesiología Traumatológica a Domicilio en Vitacura | KINEUM",
+    description:
+        "Kinesiólogo Traumatológico a domicilio en Vitacura: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `rehabilitación prótesis rodilla ${pageData.nombre}`,
-        `kine post operación ${pageData.nombre}`,
-        `esguince tobillo rehabilitación ${pageData.nombre}`,
-        `lumbago tratamiento ${pageData.nombre}`,
-        `kine deportivo ${pageData.nombre}`,
-        `fractura cadera rehabilitación ${pageData.nombre}`,
-        `tendinitis hombro kine ${pageData.nombre}`,
-        `ciática tratamiento ${pageData.nombre}`,
+            "kinesiología traumatológica Vitacura",
+            "kinesiología traumatológica a domicilio Vitacura",
+            "kinesiólogo traumatológico Vitacura",
+            "kinesiólogo a domicilio Vitacura",
+            "kinesiología a domicilio Vitacura",
+            "esguince de tobillo Vitacura",
+            "lumbago y dolor de espalda Vitacura",
+            "tendinopatías de hombro Vitacura",
+            "fracturas en recuperación Vitacura",
+            "kinesiólogo Santa María de Manquehue",
+            "kinesiólogo Jardín del Este",
+            "kinesiólogo Lo Curro"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-traumatologica-vitacura`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Traumatológica a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Rehabilitación traumatológica a domicilio en Vitacura. Recupérese de esguinces, fracturas y lesiones deportivas sin salir de casa.`,
-        url: `https://kineum.cl/kinesiologia-traumatologica-vitacura`,
+        title: "Kinesiología Traumatológica a Domicilio en Vitacura | KINEUM",
+        description:
+            "Kinesiólogo Traumatológico a domicilio en Vitacura: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }

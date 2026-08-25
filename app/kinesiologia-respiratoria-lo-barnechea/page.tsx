@@ -1,53 +1,42 @@
 import type { Metadata } from "next"
-import ComunaPage from "@/components/comuna-page"
+import EspecialidadComunaPage from "@/components/especialidad-comuna-page"
 
-const pageData = {
-    nombre: "Lo Barnechea",
-    slug: "lo-barnechea",
-    especialidad: "Kinesiología Respiratoria",
-    descripcion: "Kinesiología respiratoria pediátrica y adulto a domicilio en Lo Barnechea. Tratamiento experto para bronquitis, neumonía, y EPOC.",
-    poblacion: "Especialistas en Kinesiología Respiratoria disponibles en Lo Barnechea.",
-    sectores: [
-        "Todo Lo Barnechea"
-    ],
-    caracteristicas: [
-        "Cobertura total en Lo Barnechea",
-        "Especialistas en Kinesiología Respiratoria",
-        "Asistente AI 24/7 y Portal de Paciente",
-        "Kit Premium en Domicilio",
-        "Reembolso Isapre",
-        "Disponibilidad inmediata",
-    ],
-}
+const ESPECIALIDAD = "kinesiologia-respiratoria"
+const COMUNA = "lo-barnechea"
+const URL = "https://kineum.cl/kinesiologia-respiratoria-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-    description: `Kine respiratorio infantil y adulto a domicilio en Lo Barnechea. KTR bebés, bronquitis, neumonía, EPOC y rehabilitación post COVID. Reembolso Isapre.`,
+    title: "Kinesiología Respiratoria a Domicilio en Lo Barnechea | KINEUM",
+    description:
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
     keywords: [
-        `${pageData.especialidad.toLowerCase()} a domicilio ${pageData.nombre}`,
-        `${pageData.especialidad.toLowerCase()} ${pageData.nombre}`,
-        `kinesiólogo a domicilio ${pageData.nombre}`,
-        `kine respiratorio bebé ${pageData.nombre}`,
-        `kinesiología respiratoria infantil ${pageData.nombre}`,
-        `KTR a domicilio ${pageData.nombre}`,
-        `tratamiento EPOC ${pageData.nombre}`,
-        `rehabilitación post COVID ${pageData.nombre}`,
-        `kine respiratorio isapre ${pageData.nombre}`,
-        `bronquitis tratamiento kine ${pageData.nombre}`,
-        `neumonía rehabilitación ${pageData.nombre}`,
+            "kinesiología respiratoria Lo Barnechea",
+            "kinesiología respiratoria a domicilio Lo Barnechea",
+            "kinesiólogo respiratorio (ktr) Lo Barnechea",
+            "kinesiólogo a domicilio Lo Barnechea",
+            "kinesiología a domicilio Lo Barnechea",
+            "bronquiolitis y virus respiratorios Lo Barnechea",
+            "bronquitis obstructiva (SBO) Lo Barnechea",
+            "neumonía en recuperación Lo Barnechea",
+            "ePOC y asma Lo Barnechea",
+            "kinesiólogo La Dehesa",
+            "kinesiólogo Los Trapenses",
+            "kinesiólogo El Arrayán"
     ],
     alternates: {
-        canonical: `https://kineum.cl/kinesiologia-respiratoria-lo-barnechea`,
+        canonical: URL,
     },
     openGraph: {
-        title: `Kinesiología Respiratoria a Domicilio en ${pageData.nombre} | KINEUM`,
-        description: `Kinesiología respiratoria pediátrica y adulto a domicilio en Lo Barnechea. Tratamiento experto para bronquitis, neumonía, y EPOC.`,
-        url: `https://kineum.cl/kinesiologia-respiratoria-lo-barnechea`,
+        title: "Kinesiología Respiratoria a Domicilio en Lo Barnechea | KINEUM",
+        description:
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        url: URL,
         type: "website",
         locale: "es_CL",
+        siteName: "KINEUM",
     },
 }
 
 export default function Page() {
-    return <ComunaPage data={pageData} />
+    return <EspecialidadComunaPage especialidadSlug={ESPECIALIDAD} comunaSlug={COMUNA} />
 }
