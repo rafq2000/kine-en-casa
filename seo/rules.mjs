@@ -35,9 +35,19 @@ export const RULES = {
     },
 }
 
+// Excepciones: paginas cuyo slug NO refleja la keyword real que se persigue.
+// Suele pasar cuando el slug usa el termino tecnico y la gente busca otro
+// (nadie busca "neuroplasticidad", buscan "rehabilitacion post ACV").
+const KEYWORD_DECLARADA = {
+    '/blog/neuroplasticidad-recuperacion-acv': 'rehabilitación post ACV en casa',
+    '/blog/sarcopenia-fuerza-es-salud': 'perdida de fuerza adulto mayor',
+    '/blog/suelo-pelvico-mujer': 'piso pélvico incontinencia',
+}
+
 // Keyword principal por patron de URL. Se usa para validar que title y H1 la contengan.
 export function keywordDe(url) {
     const path = url.replace(SITE, '').replace(/\/$/, '') || '/'
+    if (KEYWORD_DECLARADA[path]) return KEYWORD_DECLARADA[path]
     if (path === '/') return 'kinesiólogo a domicilio santiago'
     const m = path.match(/^\/kinesiologo-a-domicilio-(.+)$/)
     if (m) return `kinesiólogo a domicilio ${m[1].replace(/-/g, ' ')}`
