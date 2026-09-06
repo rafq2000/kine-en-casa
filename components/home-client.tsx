@@ -217,7 +217,7 @@ export default function HomePage() {
                 <Activity className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold font-serif text-white tracking-widest">KINEUM</h1>
+                <span className="block text-3xl font-bold font-serif text-white tracking-widest">KINEUM</span>
                 <p className="text-xs text-slate-300 uppercase tracking-widest">Clinical Home Care</p>
               </div>
             </div>
@@ -258,13 +258,15 @@ export default function HomePage() {
                 <Sparkles className="h-4 w-4 mr-2 text-amber-400" />
                 The Future of Recovery
               </Badge>
-              <h2 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 font-serif leading-tight">
-                Elimina tu Dolor y
+              <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 font-serif leading-tight">
+                Kinesiólogo a Domicilio
                 <br />
-                <span className="text-amber-700">Recupera tu Libertad</span>
+                <span className="text-amber-700">en Santiago</span>
                 <br />
-                <span className="text-3xl md:text-4xl text-slate-600 font-sans font-normal block mt-4">Sin Salir de Casa</span>
-              </h2>
+                <span className="text-3xl md:text-4xl text-slate-600 font-sans font-normal block mt-4">
+                  Elimina tu dolor sin salir de casa
+                </span>
+              </h1>
             </div>
 
             <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
