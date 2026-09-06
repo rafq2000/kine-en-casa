@@ -62,7 +62,7 @@ de H1. Esa lista es la entrada para el trabajo con Claude.
 La capa determinista puede correr sola. Registrar la tarea en Windows (una sola vez):
 
 ```
-schtasks /create /tn "KINEUM SEO" /tr "C:\Usersude_\Downloads\kine-en-casa\seo\ciclo-automatico.bat" /sc weekly /d MON,THU /st 09:23
+schtasks /create /tn "KINEUM SEO" /tr "C:\Users\rude_\Downloads\kine-en-casa\seo\ciclo-automatico.bat" /sc weekly /d MON,THU /st 09:23
 ```
 
 Corre lunes y jueves a las 9:23 y deja el registro en `seo/ciclo.log`.
