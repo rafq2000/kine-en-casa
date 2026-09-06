@@ -327,6 +327,10 @@ export const blogPosts = [
       <h2>Ejercicios para el Hogar</h2>
       <p>Nuestros kinesiólogos diseñan rutinas que integran tareas cotidianas (como alcanzar un vaso) convertidas en ejercicios terapéuticos de alta repetición, asegurando que la rehabilitación sea continua y significativa. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a>.</p>
 
+
+      <h2>Qué puede hacer la familia entre sesiones</h2>
+      <p>El kinesiólogo aporta las horas de entrenamiento supervisado, pero la mayoría de las repeticiones ocurren cuando no está. La indicación más importante para la familia suele ser contraintuitiva: no hacer las cosas por la persona. Cada vez que alguien le abotona la camisa para ir más rápido, le quita una repetición al cerebro que está tratando de reaprender.</p>
+      <p>Eso no significa dejarla sola frente a una tarea imposible. Significa graduar la ayuda: permitir que intente, asistir solo en la parte donde se traba, y retirar el apoyo a medida que mejora. Ese ajuste fino es parte de lo que entrenamos con el cuidador en las primeras sesiones.</p>
       <p>¿Un familiar tuvo un ACV recientemente? Los primeros meses son decisivos. <a href="https://wa.me/56999679593?text=Hola,%20necesito%20rehabilitaci%C3%B3n%20post%20ACV">Escríbenos por WhatsApp</a> y evaluamos su caso en su propio hogar, sin costo.</p>
     `
   },
@@ -738,6 +742,10 @@ export const blogPosts = [
 
       <blockquote>"El pulmón se rehabilita igual que una rodilla: con ejercicio específico, progresivo y supervisado."</blockquote>
 
+
+      <h2>Cómo saber si estás progresando</h2>
+      <p>El indicador más útil no es cómo te sientes un día puntual, sino qué puedes hacer sin quedar sin aire. Sirve fijar una referencia concreta al empezar —cuántos pisos de escalera subes antes de detenerte, cuántas cuadras caminas, si puedes hablar mientras caminas— y volver a medirla cada dos semanas.</p>
+      <p>También controlamos la saturación de oxígeno durante el ejercicio. Una caída marcada al esforzarte es un dato clínico relevante que conviene informar al médico tratante, y es una de las razones por las que el reacondicionamiento post neumonía o post COVID debería ser supervisado y no simplemente "empezar a caminar más".</p>
       <p>Realizamos la rehabilitación completa en tu casa, con oxímetro y equipamiento respiratorio profesional. Conoce el servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20necesito%20rehabilitaci%C3%B3n%20respiratoria">agenda por WhatsApp</a>.</p>
     `
   },
@@ -810,6 +818,10 @@ export const blogPosts = [
         <li><strong>Trabajo en equipo con tu dentista:</strong> el plano de relajación nocturno protege los dientes mientras nosotros tratamos la musculatura.</li>
       </ul>
 
+
+      <h2>¿Cuánto demora en ceder?</h2>
+      <p>La mayoría de los pacientes nota alivio de la rigidez matinal en las primeras dos o tres semanas, pero consolidar el cambio toma más: entre 6 y 10 semanas de trabajo constante. La razón es que no basta con soltar la musculatura, hay que cambiar el hábito que la vuelve a tensar cada noche.</p>
+      <p>Un factor que suele decidir el resultado es el estrés. Si el período de mayor apriete coincide con una carga laboral alta o problemas de sueño, conviene abordarlo en paralelo: dormir mal aumenta el bruxismo, y el bruxismo empeora el descanso. Romper ese círculo acelera todo lo demás.</p>
       <p>¿Dolor de cuello crónico que nadie resuelve? Quizás nadie ha mirado tu mandíbula. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20bruxismo%20y%20dolor%20cervical">Agenda una evaluación integral a domicilio</a>.</p>
     `
   },
