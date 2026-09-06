@@ -6,9 +6,9 @@ const COMUNA = "la-reina"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-la-reina"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en La Reina | KINEUM",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en La Reina",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria La Reina",
             "kinesiología respiratoria a domicilio La Reina",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en La Reina | KINEUM",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en La Reina",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

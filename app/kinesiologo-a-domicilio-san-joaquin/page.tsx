@@ -27,8 +27,8 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en San Joaquín. Kinesiología respiratoria, geriátrica, traumatológica y rehabilitación neurológica. Reembolso Isapre.`,
+    title: "Kinesiólogo a Domicilio en San Joaquín y Pedrero | KINEUM",
+    description: "Kinesiólogo a domicilio en San Joaquín: Pedrero, La Castrina, El Pinar y eje Santa Rosa. Evaluación inicial gratuita y atención en tu propia casa.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar. Reembolso Isapre.`,
+        title: "Kinesiólogo a Domicilio en San Joaquín y Pedrero | KINEUM",
+        description: "Kinesiólogo a domicilio en San Joaquín: Pedrero, La Castrina, El Pinar y eje Santa Rosa. Evaluación inicial gratuita y atención en tu propia casa.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

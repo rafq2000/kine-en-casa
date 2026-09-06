@@ -6,9 +6,9 @@ const COMUNA = "la-florida"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-la-florida"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en La Florida",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria La Florida",
             "kinesiología respiratoria a domicilio La Florida",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en La Florida",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

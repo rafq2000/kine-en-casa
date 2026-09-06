@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
-    title: 'Neurorehabilitación a Domicilio Santiago | ACV y Parkinson | KINEUM',
+    title: 'Rehabilitación Neurológica a Domicilio Santiago | KINEUM',
     description: 'Rehabilitación neurológica experta en casa. Especialistas en recuperación post-ACV, Parkinson, Alzheimer y Esclerosis Múltiple. Neuroplasticidad aplicada.',
     keywords: ['neurorehabilitación domicilio', 'kine neurológica santiago', 'recuperación acv', 'tratamiento parkinson kinesiologia', 'fisioterapia neurológica'],
     alternates: {

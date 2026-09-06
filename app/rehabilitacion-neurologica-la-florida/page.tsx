@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-la-florida"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en La Florida",
     description:
-        "Neurorehabilitación a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en La Florida para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica La Florida",
             "rehabilitación neurológica a domicilio La Florida",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en La Florida",
         description:
-            "Neurorehabilitación a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en La Florida para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

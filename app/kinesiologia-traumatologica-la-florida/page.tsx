@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-la-florida"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en La Florida",
     description:
-        "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+        "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
     keywords: [
             "kinesiología traumatológica La Florida",
             "kinesiología traumatológica a domicilio La Florida",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en La Florida",
         description:
-            "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+            "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

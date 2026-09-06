@@ -99,23 +99,49 @@ if (!DRY) {
         let src = readFileSync(full, 'utf8')
         let tocado = false
 
+        // Escapa para insertar dentro de una cadena JS con comillas dobles.
+        const esc = (s) => s.replace(/\\/g, '\\\\').replace(/"/g, '\\"')
+
+        // Reemplaza el valor de un campo de metadata (title/description), tanto el de
+        // nivel superior como el de openGraph, sin depender del texto anterior.
+        function reemplazarCampo(texto, campo, valor) {
+            // Casos: campo: "..."  |  campo:\n  "..."  |  campo: `...`
+            const re = new RegExp(`(\\b${campo}:\\s*\\n?\\s*)(["\`])((?:[^"\`\\\\]|\\\\.)*)\\2`, 'g')
+            let n = 0
+            const out = texto.replace(re, (m, pre, q, val) => {
+                // No tocar campos anidados que no son de metadata (ej. dentro de arrays de datos)
+                n++
+                return `${pre}"${esc(valor)}"`
+            })
+            return { out, n }
+        }
+
         for (const a of lista) {
-            if (a.title_nuevo && a.title_actual && src.includes(a.title_actual)) {
-                src = src.split(a.title_actual).join(a.title_nuevo)
-                tocado = true; okTitle++
-            } else if (a.title_nuevo && a.title_actual) {
-                noEncontrado.push({ url: a.url, campo: 'title', archivo: arch })
+            // Solo aplicable a archivos de metadata de pagina (no a lib/blog-data.ts,
+            // donde el title se compone dinamicamente).
+            const esPageTsx = arch.endsWith('page.tsx')
+
+            if (a.title_nuevo) {
+                if (a.title_actual && src.includes(a.title_actual)) {
+                    src = src.split(a.title_actual).join(a.title_nuevo)
+                    tocado = true; okTitle++
+                } else if (esPageTsx && lista.length === 1) {
+                    const r = reemplazarCampo(src, 'title', a.title_nuevo)
+                    if (r.n > 0) { src = r.out; tocado = true; okTitle++ }
+                    else noEncontrado.push({ url: a.url, campo: 'title', archivo: arch })
+                } else {
+                    noEncontrado.push({ url: a.url, campo: 'title', archivo: arch })
+                }
             }
 
             if (a.description_nueva) {
-                // Busca la description actual leyendo el archivo: patron metadata description
-                const m = src.match(/description:\s*\n?\s*"((?:[^"\\]|\\.)*)"/)
                 if (a.description_actual && src.includes(a.description_actual)) {
                     src = src.split(a.description_actual).join(a.description_nueva)
                     tocado = true; okDesc++
-                } else if (m && lista.length === 1) {
-                    src = src.replace(m[1], a.description_nueva)
-                    tocado = true; okDesc++
+                } else if (esPageTsx && lista.length === 1) {
+                    const r = reemplazarCampo(src, 'description', a.description_nueva)
+                    if (r.n > 0) { src = r.out; tocado = true; okDesc++ }
+                    else noEncontrado.push({ url: a.url, campo: 'description', archivo: arch })
                 } else {
                     noEncontrado.push({ url: a.url, campo: 'description', archivo: arch })
                 }

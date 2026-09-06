@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-providencia"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en Providencia",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+        "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
     keywords: [
             "kinesiología traumatológica Providencia",
             "kinesiología traumatológica a domicilio Providencia",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en Providencia",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+            "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-nunoa"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Ñuñoa | KINEUM",
     description:
-        "Neurorehabilitación a domicilio en Ñuñoa: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en Ñuñoa para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica Ñuñoa",
             "rehabilitación neurológica a domicilio Ñuñoa",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Ñuñoa | KINEUM",
         description:
-            "Neurorehabilitación a domicilio en Ñuñoa: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en Ñuñoa para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

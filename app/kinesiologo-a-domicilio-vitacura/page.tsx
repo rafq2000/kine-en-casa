@@ -26,8 +26,8 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Servicio de kinesiología a domicilio en ${comunaData.nombre}. Expertos en adulto mayor y kinesiología respiratoria. Atendemos Santa María, Lo Curro y Jardín del Este.`,
+    title: "Kinesiólogo a Domicilio en Vitacura y Lo Curro | KINEUM",
+    description: "Rehabilitación a domicilio en Vitacura, Lo Curro, Santa María de Manquehue y Jardín del Este. Especialistas en adulto mayor. Evaluación inicial gratis.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-        description: `Rehabilitación kinesiológica en Vitacura. Profesionales de excelencia en su hogar.`,
+        title: "Kinesiólogo a Domicilio en Vitacura y Lo Curro | KINEUM",
+        description: "Rehabilitación a domicilio en Vitacura, Lo Curro, Santa María de Manquehue y Jardín del Este. Especialistas en adulto mayor. Evaluación inicial gratis.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

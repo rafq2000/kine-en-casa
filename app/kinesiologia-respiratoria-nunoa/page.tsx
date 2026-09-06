@@ -6,9 +6,9 @@ const COMUNA = "nunoa"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-nunoa"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en Ñuñoa | KINEUM",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en Ñuñoa",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria Ñuñoa",
             "kinesiología respiratoria a domicilio Ñuñoa",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en Ñuñoa | KINEUM",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en Ñuñoa",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-la-reina"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en La Reina | KINEUM",
     description:
-        "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+        "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
     keywords: [
             "kinesiología traumatológica La Reina",
             "kinesiología traumatológica a domicilio La Reina",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en La Reina | KINEUM",
         description:
-            "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+            "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

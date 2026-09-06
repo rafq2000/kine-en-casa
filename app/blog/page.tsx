@@ -8,9 +8,9 @@ import { blogPosts } from "@/lib/blog-data"
 import { BookOpen, Clock, Calendar, ArrowRight, ChevronRight, MapPin, Stethoscope } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Blog de Kinesiología y Rehabilitación a Domicilio | KINEUM",
+  title: "Blog de Kinesiología y Rehabilitación en Casa | KINEUM",
   description:
-    "Artículos de kinesiología, rehabilitación y salud. Guías de ejercicios, consejos de kinesiólogos y novedades sobre rehabilitación a domicilio en Santiago.",
+    "Guías escritas por kinesiólogos: rehabilitación tras cirugía, ACV, dolor lumbar, adulto mayor y kinesiología respiratoria, para hacer en casa con seguridad.",
   keywords: [
     "blog kinesiología",
     "artículos rehabilitación",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blog de Kinesiología y Rehabilitación | KINEUM",
     description:
-      "Artículos clínicos sobre rehabilitación, kinesiología respiratoria, geriátrica, traumatológica y neurológica a domicilio.",
+      "Guías escritas por kinesiólogos: rehabilitación tras cirugía, ACV, dolor lumbar, adulto mayor y kinesiología respiratoria, para hacer en casa con seguridad.",
     url: "https://kineum.cl/blog",
     type: "website",
     locale: "es_CL",
@@ -43,7 +43,7 @@ const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
   name: "Blog de Kinesiología KINEUM",
-  description: "Artículos clínicos sobre kinesiología, rehabilitación y salud a domicilio en Santiago de Chile.",
+  description: "Guías escritas por kinesiólogos: rehabilitación tras cirugía, ACV, dolor lumbar, adulto mayor y kinesiología respiratoria, para hacer en casa con seguridad.",
   url: "https://kineum.cl/blog",
   publisher: {
     "@type": "Organization",

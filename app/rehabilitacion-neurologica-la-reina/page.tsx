@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-la-reina"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en La Reina | KINEUM",
     description:
-        "Neurorehabilitación a domicilio en La Reina: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en La Reina para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica La Reina",
             "rehabilitación neurológica a domicilio La Reina",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en La Reina | KINEUM",
         description:
-            "Neurorehabilitación a domicilio en La Reina: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en La Reina para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

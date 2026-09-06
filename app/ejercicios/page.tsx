@@ -5,9 +5,9 @@ import { Play, AlertCircle, CheckCircle2 } from "lucide-react"
 import { exercises } from "@/lib/exercises-data"
 
 export const metadata: Metadata = {
-    title: "Ejercicios Terapéuticos de Kinesiología en Casa | KINEUM",
+    title: "Ejercicios de Kinesiología para Hacer en Casa | KINEUM",
     description:
-        "Biblioteca de ejercicios terapéuticos guiados por kinesiólogos: fortalecimiento, movilidad, equilibrio y respiración para hacer en casa de forma segura.",
+        "Ejercicios de kinesiología para hacer en casa: fuerza, movilidad, equilibrio y respiración, explicados paso a paso por kinesiólogos. Úsalos con seguridad.",
     keywords: [
         "ejercicios kinesiología en casa",
         "ejercicios terapéuticos a domicilio",
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
         canonical: "https://kineum.cl/ejercicios",
     },
     openGraph: {
-        title: "Ejercicios Terapéuticos de Kinesiología en Casa | KINEUM",
+        title: "Ejercicios de Kinesiología para Hacer en Casa | KINEUM",
         description:
-            "Guías visuales de ejercicios de rehabilitación creadas por kinesiólogos de KINEUM.",
+            "Ejercicios de kinesiología para hacer en casa: fuerza, movilidad, equilibrio y respiración, explicados paso a paso por kinesiólogos. Úsalos con seguridad.",
         url: "https://kineum.cl/ejercicios",
         type: "website",
         locale: "es_CL",

@@ -27,8 +27,8 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en Peñalolén. Kinesiología respiratoria, geriátrica, post operatoria y rehabilitación neurológica. Reembolso Isapre.`,
+    title: "Kinesiólogo a Domicilio en Peñalolén y San Luis | KINEUM",
+    description: "Kinesiólogo a domicilio en Peñalolén: Comunidad Ecológica, San Luis, Lo Hermida y Av. Grecia. Evaluación inicial gratuita, sin listas de espera.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar. Reembolso Isapre.`,
+        title: "Kinesiólogo a Domicilio en Peñalolén y San Luis | KINEUM",
+        description: "Kinesiólogo a domicilio en Peñalolén: Comunidad Ecológica, San Luis, Lo Hermida y Av. Grecia. Evaluación inicial gratuita, sin listas de espera.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

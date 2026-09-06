@@ -26,8 +26,8 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiología a domicilio en ${comunaData.nombre}. Especialistas en rehabilitación en La Reina Alta, Príncipe de Gales y Plaza Egaña.`,
+    title: "Kinesiólogo a Domicilio en La Reina y Plaza Egaña | KINEUM",
+    description: "Kinesiólogo a domicilio en La Reina: La Reina Alta, Príncipe de Gales, Av. Ossa y Plaza Egaña. Evaluación inicial gratuita y horas en el día.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-        description: `Recuperación kinesiológica en su hogar en La Reina. Agende su sesión.`,
+        title: "Kinesiólogo a Domicilio en La Reina y Plaza Egaña | KINEUM",
+        description: "Kinesiólogo a domicilio en La Reina: La Reina Alta, Príncipe de Gales, Av. Ossa y Plaza Egaña. Evaluación inicial gratuita y horas en el día.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

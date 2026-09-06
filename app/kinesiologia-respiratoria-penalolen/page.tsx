@@ -6,9 +6,9 @@ const COMUNA = "penalolen"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-penalolen"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en Peñalolén | KINEUM",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en Peñalolén",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Peñalolén: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Peñalolén: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria Peñalolén",
             "kinesiología respiratoria a domicilio Peñalolén",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en Peñalolén | KINEUM",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en Peñalolén",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Peñalolén: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Peñalolén: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

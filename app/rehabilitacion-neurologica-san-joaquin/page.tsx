@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-san-joaquin"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en San Joaquín",
     description:
-        "Neurorehabilitación a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en San Joaquín para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica San Joaquín",
             "rehabilitación neurológica a domicilio San Joaquín",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en San Joaquín",
         description:
-            "Neurorehabilitación a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en San Joaquín para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

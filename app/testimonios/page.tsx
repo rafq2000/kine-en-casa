@@ -7,9 +7,9 @@ import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export const metadata: Metadata = {
-    title: "Opiniones y Testimonios | Kinesiologo a Domicilio Santiago",
+    title: "Opiniones de Kinesiología a Domicilio Santiago | KINEUM",
     description:
-        "Opiniones reales de pacientes de KINEUM. +147 testimonios de kinesiologia a domicilio en Santiago.",
+        "Opiniones reales de pacientes de kinesiología a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa y todo Santiago. Lee sus casos antes de agendar.",
     keywords: [
         "kineum opiniones",
         "kinesiologo a domicilio opiniones santiago",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
         canonical: "https://kineum.cl/testimonios",
     },
     openGraph: {
-        title: "Opiniones y Testimonios de Pacientes | KINEUM Kinesiologia a Domicilio",
+        title: "Opiniones de Kinesiología a Domicilio Santiago | KINEUM",
         description:
-            "4.9/5 estrellas en 147 opiniones. Lea testimonios reales de pacientes que eligieron KINEUM para su rehabilitacion a domicilio en Santiago.",
+            "Opiniones reales de pacientes de kinesiología a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa y todo Santiago. Lee sus casos antes de agendar.",
         url: "https://kineum.cl/testimonios",
         type: "website",
     },

@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-nunoa"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en Ñuñoa | KINEUM",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+        "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
     keywords: [
             "kinesiología traumatológica Ñuñoa",
             "kinesiología traumatológica a domicilio Ñuñoa",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en Ñuñoa | KINEUM",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+            "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

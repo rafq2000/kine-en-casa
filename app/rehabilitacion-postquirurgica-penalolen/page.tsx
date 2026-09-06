@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-postquirurgica-penalolen"
 export const metadata: Metadata = {
     title: "Rehabilitación Postquirúrgica a Domicilio en Peñalolén",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+        "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación postquirúrgica Peñalolén",
             "rehabilitación postquirúrgica a domicilio Peñalolén",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Postquirúrgica a Domicilio en Peñalolén",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+            "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

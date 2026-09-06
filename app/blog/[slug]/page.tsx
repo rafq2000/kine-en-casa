@@ -21,15 +21,20 @@ export async function generateMetadata({ params }: BlogPostProps) {
     const post = getPostBySlug(slug)
     if (!post) return { title: "Artículo no encontrado" }
 
+    // seoTitle/seoDescription son los optimizados para buscador; el title y el
+    // subtitle siguen siendo los editoriales que se ven en la pagina.
+    const seoTitle = (post as any).seoTitle || `${post.title} | KINEUM`
+    const seoDescription = (post as any).seoDescription || post.subtitle
+
     return {
-        title: `${post.title} | KINEUM Journal`,
-        description: post.subtitle,
+        title: seoTitle,
+        description: seoDescription,
         alternates: {
             canonical: `https://kineum.cl/blog/${post.slug}`,
         },
         openGraph: {
-            title: `${post.title} | KINEUM Journal`,
-            description: post.subtitle,
+            title: seoTitle,
+            description: seoDescription,
             url: `https://kineum.cl/blog/${post.slug}`,
             type: "article",
             locale: "es_CL",

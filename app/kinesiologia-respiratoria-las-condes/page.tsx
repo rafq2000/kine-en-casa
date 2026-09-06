@@ -6,9 +6,9 @@ const COMUNA = "las-condes"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-las-condes"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en Las Condes | KINEUM",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en Las Condes",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria Las Condes",
             "kinesiología respiratoria a domicilio Las Condes",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en Las Condes | KINEUM",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en Las Condes",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
-    title: 'Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM',
+    title: 'Kinesiólogo a Domicilio para Adulto Mayor | KINEUM',
     description: 'Rehabilitación geriátrica en Santiago. Tratamiento de Sarcopenia, prevención de caídas y artrosis. Kinesiólogos expertos en el cuidado del adulto mayor.',
     keywords: ['kinesiología adulto mayor domicilio', 'kine geriatrica santiago', 'tratamiento sarcopenia', 'rehabilitación artrosis cadera', 'kinesiologo tercera edad'],
     alternates: {

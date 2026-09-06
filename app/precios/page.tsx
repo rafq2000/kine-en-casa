@@ -24,9 +24,9 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Precios Kinesiologia a Domicilio Santiago 2026 | KINEUM",
+  title: "Precios de Kinesiólogo a Domicilio Santiago 2026 | KINEUM",
   description:
-    "Precios de kinesiologia a domicilio en Santiago desde $160.000/mes. Planes con 4, 10 o sesiones ilimitadas.",
+    "Planes de kinesiología a domicilio en Santiago desde $160.000 al mes. Mira el valor por sesión y lo que pagas realmente tras el reembolso Isapre.",
   keywords: [
     "precio kinesiologo a domicilio",
     "cuanto cuesta kinesiologo domicilio",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/precios",
   },
   openGraph: {
-    title: "Precios Kinesiologia a Domicilio Santiago 2026 | KINEUM",
+    title: "Precios de Kinesiólogo a Domicilio Santiago 2026 | KINEUM",
     description:
-      "Planes desde $160.000/mes con evaluacion gratis. Reembolso Isapre hasta 80% y seguros complementarios. Consulta nuestros precios.",
+      "Planes de kinesiología a domicilio en Santiago desde $160.000 al mes. Mira el valor por sesión y lo que pagas realmente tras el reembolso Isapre.",
     url: "https://kineum.cl/precios",
     type: "website",
     locale: "es_CL",
@@ -96,7 +96,7 @@ const serviceSchema = {
         "@type": "Offer",
         name: "Plan Essential - 4 Sesiones de Kinesiologia a Domicilio",
         description:
-          "4 sesiones mensuales de kinesiologia a domicilio en Santiago. Incluye evaluacion inicial gratuita y seguimiento basico.",
+          "Planes de kinesiología a domicilio en Santiago desde $160.000 al mes. Mira el valor por sesión y lo que pagas realmente tras el reembolso Isapre.",
         price: "160000",
         priceCurrency: "CLP",
         priceValidUntil: "2026-12-31",
@@ -107,7 +107,7 @@ const serviceSchema = {
         "@type": "Offer",
         name: "Plan Premium - 10 Sesiones de Kinesiologia a Domicilio",
         description:
-          "10 sesiones mensuales de kinesiologia a domicilio en Santiago. Incluye evaluacion digital, kit de recuperacion, portal de paciente y prioridad en agendamiento.",
+          "Planes de kinesiología a domicilio en Santiago desde $160.000 al mes. Mira el valor por sesión y lo que pagas realmente tras el reembolso Isapre.",
         price: "350000",
         priceCurrency: "CLP",
         priceValidUntil: "2026-12-31",
@@ -118,7 +118,7 @@ const serviceSchema = {
         "@type": "Offer",
         name: "Plan Elite - Sesiones Ilimitadas de Kinesiologia a Domicilio",
         description:
-          "Sesiones ilimitadas mensuales con kinesiologo dedicado asignado, prioridad absoluta y red de especialistas preferente.",
+          "Planes de kinesiología a domicilio en Santiago desde $160.000 al mes. Mira el valor por sesión y lo que pagas realmente tras el reembolso Isapre.",
         url: "https://kineum.cl/precios",
       },
     ],

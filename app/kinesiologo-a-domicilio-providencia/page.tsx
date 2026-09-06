@@ -27,7 +27,7 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Kinesiología Profesional`,
+    title: "Kinesiólogo a Domicilio en Providencia y Tobalaba | KINEUM",
     description: `Kinesiólogo a domicilio en ${comunaData.nombre}. Rehabilitación geriátrica, respiratoria, traumatológica y neurológica en tu hogar. Evaluación gratis ☎ +56 9 9967 9593. Atendemos ${comunaData.sectores.slice(0, 4).join(", ")} y más.`,
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | KINEUM`,
-        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar.`,
+        title: "Kinesiólogo a Domicilio en Providencia y Tobalaba | KINEUM",
+        description: "Kinesiólogo a domicilio en Providencia: Pedro de Valdivia, Manuel Montt, Los Leones y Tobalaba. Evaluación inicial gratuita y vamos a tu departamento.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

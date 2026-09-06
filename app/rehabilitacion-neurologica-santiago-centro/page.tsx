@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-santiago-centro"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Santiago Centro",
     description:
-        "Neurorehabilitación a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en Santiago Centro para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica Santiago Centro",
             "rehabilitación neurológica a domicilio Santiago Centro",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Santiago Centro",
         description:
-            "Neurorehabilitación a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en Santiago Centro para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

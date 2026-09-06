@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-las-condes"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Las Condes",
     description:
-        "Neurorehabilitación a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en Las Condes para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica Las Condes",
             "rehabilitación neurológica a domicilio Las Condes",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Las Condes",
         description:
-            "Neurorehabilitación a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en Las Condes para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

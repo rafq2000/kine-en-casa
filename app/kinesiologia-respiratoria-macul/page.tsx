@@ -6,9 +6,9 @@ const COMUNA = "macul"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-macul"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en Macul | KINEUM",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en Macul",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria Macul",
             "kinesiología respiratoria a domicilio Macul",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en Macul | KINEUM",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en Macul",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

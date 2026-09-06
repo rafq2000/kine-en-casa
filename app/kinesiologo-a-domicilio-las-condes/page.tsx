@@ -27,8 +27,8 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en ${comunaData.nombre}. Kinesiología respiratoria, motora y neurológica en El Golf, Manquehue y San Carlos. Agende hoy al +56 9 9967 9593.`,
+    title: "Kinesiólogo a Domicilio en Las Condes y El Golf | KINEUM",
+    description: "Kinesiólogo a domicilio en Las Condes: El Golf, Estoril, Manquehue y San Carlos de Apoquindo. Evaluación inicial gratuita y visita el mismo día.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar.`,
+        title: "Kinesiólogo a Domicilio en Las Condes y El Golf | KINEUM",
+        description: "Kinesiólogo a domicilio en Las Condes: El Golf, Estoril, Manquehue y San Carlos de Apoquindo. Evaluación inicial gratuita y visita el mismo día.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

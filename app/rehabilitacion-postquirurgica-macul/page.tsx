@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-postquirurgica-macul"
 export const metadata: Metadata = {
     title: "Rehabilitación Postquirúrgica a Domicilio en Macul | KINEUM",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+        "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación postquirúrgica Macul",
             "rehabilitación postquirúrgica a domicilio Macul",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Postquirúrgica a Domicilio en Macul | KINEUM",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+            "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

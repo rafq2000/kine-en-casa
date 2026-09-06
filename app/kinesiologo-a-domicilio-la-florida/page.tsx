@@ -27,8 +27,8 @@ const comunaData = {
 }
 
 export const metadata: Metadata = {
-    title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en La Florida. Rehabilitación post operatoria, respiratoria infantil, geriátrica y traumatológica. Reembolso Isapre.`,
+    title: "Kinesiólogo a Domicilio en La Florida: Vamos Hoy | KINEUM",
+    description: "Kinesiólogo a domicilio en La Florida: Bellavista de La Florida, Walker Martínez y Los Quillayes. Evaluación gratuita y boleta reembolsable en tu isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-        description: `Kinesiología premium a domicilio en ${comunaData.nombre}. Kinesiólogos certificados a su hogar. Reembolso Isapre.`,
+        title: "Kinesiólogo a Domicilio en La Florida: Vamos Hoy | KINEUM",
+        description: "Kinesiólogo a domicilio en La Florida: Bellavista de La Florida, Walker Martínez y Los Quillayes. Evaluación gratuita y boleta reembolsable en tu isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

@@ -1,0 +1,320 @@
+{
+ "rechazados": [],
+ "noEncontrado": [
+  {
+   "url": "https://kineum.cl/nosotros",
+   "campo": "description",
+   "archivo": "app/nosotros/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/servicios/geriatrica",
+   "campo": "description",
+   "archivo": "app/servicios/geriatrica/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/servicios/respiratoria",
+   "campo": "title",
+   "archivo": "app/servicios/respiratoria/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/servicios/respiratoria",
+   "campo": "description",
+   "archivo": "app/servicios/respiratoria/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/servicios/traumatologica",
+   "campo": "title",
+   "archivo": "app/servicios/traumatologica/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/servicios/traumatologica",
+   "campo": "description",
+   "archivo": "app/servicios/traumatologica/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/servicios/neurologica",
+   "campo": "description",
+   "archivo": "app/servicios/neurologica/page.tsx"
+  },
+  {
+   "url": "https://kineum.cl/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-respiratoria-infantil-domicilio",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-respiratoria-infantil-domicilio",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/protesis-rodilla-recuperacion",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/protesis-rodilla-recuperacion",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/lumbago-agudo-que-hacer",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/lumbago-agudo-que-hacer",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/artrosis-rodilla-ejercicios",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/artrosis-rodilla-ejercicios",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-post-operatorio-domicilio",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-post-operatorio-domicilio",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-post-covid",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-post-covid",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/cervicalgia-mareos",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/cervicalgia-mareos",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/fascitis-plantar-solucion",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/fascitis-plantar-solucion",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/tunel-carpiano-alivio",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/tunel-carpiano-alivio",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/epicondilitis-codo-tenista",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/epicondilitis-codo-tenista",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/fibromialgia-ejercicio",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/fibromialgia-ejercicio",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/escoliosis-en-ninos",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/escoliosis-en-ninos",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/hernia-discal-operacion",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/hernia-discal-operacion",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-manual",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-manual",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
+   "campo": "title",
+   "archivo": "lib/blog-data.ts"
+  },
+  {
+   "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
+   "campo": "description",
+   "archivo": "lib/blog-data.ts"
+  }
+ ]
+}

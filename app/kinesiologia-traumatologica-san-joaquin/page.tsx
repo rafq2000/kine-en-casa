@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-san-joaquin"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en San Joaquín",
     description:
-        "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+        "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
     keywords: [
             "kinesiología traumatológica San Joaquín",
             "kinesiología traumatológica a domicilio San Joaquín",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en San Joaquín",
         description:
-            "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+            "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-respiratoria-santiago-centro"
 export const metadata: Metadata = {
     title: "Kinesiología Respiratoria a Domicilio en Santiago Centro",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria Santiago Centro",
             "kinesiología respiratoria a domicilio Santiago Centro",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Respiratoria a Domicilio en Santiago Centro",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

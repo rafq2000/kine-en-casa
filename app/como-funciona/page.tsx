@@ -20,9 +20,9 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Como Funciona | Kinesiologo a Domicilio Santiago | KINEUM",
+  title: "Cómo Funciona la Kinesiología a Domicilio | KINEUM",
   description:
-    "Agenda tu kinesiologo a domicilio en Santiago en 4 pasos simples. Evaluacion inicial gratuita, plan personalizado y reembolso Isapre y seguros.",
+    "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   keywords: [
     "como funciona kinesiologo a domicilio",
     "pedir kinesiologo a domicilio santiago",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/como-funciona",
   },
   openGraph: {
-    title: "Como Funciona | Kinesiologo a Domicilio Santiago | KINEUM",
+    title: "Cómo Funciona la Kinesiología a Domicilio | KINEUM",
     description:
-      "4 pasos simples para recibir kinesiologia profesional en tu hogar. Evaluacion gratuita y reembolso Isapre.",
+      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
     url: "https://kineum.cl/como-funciona",
     siteName: "KINEUM",
     locale: "es_CL",
@@ -53,7 +53,7 @@ const howToSchema = {
   "@type": "HowTo",
   name: "Como agendar un kinesiologo a domicilio en Santiago",
   description:
-    "Proceso paso a paso para solicitar kinesiologia a domicilio con KINEUM en Santiago de Chile. Evaluacion inicial gratuita y reembolso Isapre.",
+    "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   totalTime: "PT5M",
   estimatedCost: {
     "@type": "MonetaryAmount",
@@ -161,7 +161,7 @@ const steps = [
     icon: MessageCircle,
     title: "Contactanos por WhatsApp o Telefono",
     description:
-      "Escribenos al WhatsApp o llama al +56 9 9967 9593. Cuentanos brevemente que te sucede y coordinamos una visita en el dia y horario que mas te acomode.",
+      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
     detail: "Respondemos en menos de 30 minutos en horario laboral.",
     color: "amber",
   },
@@ -171,7 +171,7 @@ const steps = [
     icon: ClipboardCheck,
     title: "Evaluacion Inicial Gratuita en tu Hogar",
     description:
-      "Un kinesiologo titulado y colegiado va a tu casa. Evalua tu condicion fisica, revisa tus examenes y diagnostico medico. Sin costo y sin compromiso.",
+      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
     detail: "La evaluacion dura aprox. 30 minutos.",
     color: "emerald",
   },
@@ -181,7 +181,7 @@ const steps = [
     icon: UserCheck,
     title: "Plan de Tratamiento Personalizado",
     description:
-      "Disenamos un plan de rehabilitacion con objetivos concretos, cantidad de sesiones estimadas y frecuencia semanal adaptada a tu ritmo de vida y necesidades clinicas.",
+      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
     detail: "Te explicamos todo antes de comenzar. Sin letra chica.",
     color: "amber",
   },
@@ -191,7 +191,7 @@ const steps = [
     icon: CalendarCheck,
     title: "Sesiones en tu Hogar con Seguimiento",
     description:
-      "Realizamos cada sesion con equipamiento profesional en la comodidad de tu hogar. Reevaluamos tu progreso periodicamente y ajustamos el tratamiento si es necesario.",
+      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
     detail: "Emitimos boleta para reembolso Isapre.",
     color: "emerald",
   },
@@ -200,19 +200,19 @@ const steps = [
 const equipment = [
   {
     name: "Camilla Portatil Profesional",
-    description: "Camilla plegable de aluminio con regulacion de altura para tratamiento comodo y seguro.",
+    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   },
   {
     name: "Electroestimulador TENS",
-    description: "Electroterapia analgesica para alivio del dolor muscular, articular y neuropatico.",
+    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   },
   {
     name: "Ultrasonido Terapeutico",
-    description: "Equipo de ultrasonido para reducir inflamacion, acelerar cicatrizacion y tratar contracturas profundas.",
+    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   },
   {
     name: "Bandas Elasticas y Accesorios",
-    description: "Kit completo de bandas de resistencia, pelotas, foam roller y accesorios para ejercicio terapeutico.",
+    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   },
 ]
 

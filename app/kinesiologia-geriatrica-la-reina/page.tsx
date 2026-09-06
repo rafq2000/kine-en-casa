@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-la-reina"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en La Reina | KINEUM",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en La Reina: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+        "Kinesiólogo para Adulto Mayor a domicilio en La Reina: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
     keywords: [
             "kinesiología geriátrica La Reina",
             "kinesiología geriátrica a domicilio La Reina",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en La Reina | KINEUM",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en La Reina: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+            "Kinesiólogo para Adulto Mayor a domicilio en La Reina: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

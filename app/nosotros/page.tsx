@@ -4,7 +4,7 @@ import { Shield, Award, CheckCircle, FileText } from 'lucide-react'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-    title: 'Nuestro Equipo Clínico | KINEUM',
+    title: 'Kinesiólogos Certificados a Domicilio Santiago | KINEUM',
     description: 'Conoce a los kinesiólogos certificados de KINEUM. Profesionales inscritos en la Superintendencia de Salud. Kinesiología a domicilio en Santiago.',
     keywords: [
         "kineum",

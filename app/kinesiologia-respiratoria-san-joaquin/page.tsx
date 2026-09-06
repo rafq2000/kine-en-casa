@@ -6,9 +6,9 @@ const COMUNA = "san-joaquin"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-san-joaquin"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en San Joaquín",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en San Joaquín",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria San Joaquín",
             "kinesiología respiratoria a domicilio San Joaquín",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en San Joaquín",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en San Joaquín",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

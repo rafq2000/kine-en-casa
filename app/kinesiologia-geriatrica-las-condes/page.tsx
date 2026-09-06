@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-las-condes"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en Las Condes | KINEUM",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+        "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
     keywords: [
             "kinesiología geriátrica Las Condes",
             "kinesiología geriátrica a domicilio Las Condes",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en Las Condes | KINEUM",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+            "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

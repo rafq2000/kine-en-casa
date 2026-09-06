@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-lo-barnechea"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en Lo Barnechea | KINEUM",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en Lo Barnechea: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+        "Kinesiólogo para Adulto Mayor a domicilio en Lo Barnechea: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
     keywords: [
             "kinesiología geriátrica Lo Barnechea",
             "kinesiología geriátrica a domicilio Lo Barnechea",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en Lo Barnechea | KINEUM",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en Lo Barnechea: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+            "Kinesiólogo para Adulto Mayor a domicilio en Lo Barnechea: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

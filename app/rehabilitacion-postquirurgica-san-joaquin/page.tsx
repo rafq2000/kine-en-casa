@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin"
 export const metadata: Metadata = {
     title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+        "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación postquirúrgica San Joaquín",
             "rehabilitación postquirúrgica a domicilio San Joaquín",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+            "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-santiago-centro"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en Santiago Centro",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+        "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
     keywords: [
             "kinesiología geriátrica Santiago Centro",
             "kinesiología geriátrica a domicilio Santiago Centro",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en Santiago Centro",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+            "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -6,9 +6,9 @@ const COMUNA = "providencia"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-providencia"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en Providencia",
+    title: "Kinesiología Respiratoria (KTR) a Domicilio en Providencia",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Providencia: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Providencia: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
     keywords: [
             "kinesiología respiratoria Providencia",
             "kinesiología respiratoria a domicilio Providencia",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en Providencia",
+        title: "Kinesiología Respiratoria (KTR) a Domicilio en Providencia",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Providencia: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Providencia: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
         url: URL,
         type: "website",
         locale: "es_CL",

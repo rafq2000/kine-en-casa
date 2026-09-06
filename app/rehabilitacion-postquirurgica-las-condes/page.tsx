@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-postquirurgica-las-condes"
 export const metadata: Metadata = {
     title: "Rehabilitación Postquirúrgica a Domicilio en Las Condes",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+        "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación postquirúrgica Las Condes",
             "rehabilitación postquirúrgica a domicilio Las Condes",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Postquirúrgica a Domicilio en Las Condes",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+            "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-providencia"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Providencia",
     description:
-        "Neurorehabilitación a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+        "Kinesiólogo a domicilio en Providencia para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
     keywords: [
             "rehabilitación neurológica Providencia",
             "rehabilitación neurológica a domicilio Providencia",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Providencia",
         description:
-            "Neurorehabilitación a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+            "Kinesiólogo a domicilio en Providencia para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
         url: URL,
         type: "website",
         locale: "es_CL",

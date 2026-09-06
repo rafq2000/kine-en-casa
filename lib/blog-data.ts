@@ -4,6 +4,8 @@ export const blogPosts = [
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
+    seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? 2026 | KINEUM",
+    seoDescription: "Sesión $30.000 a $45.000 y pack de 10 desde $35.000. Precios reales 2026 en Santiago y cuánto recuperas con tu Isapre. Evaluación inicial gratis.",
     title: "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026",
     subtitle: "Sesión individual: $30.000–$45.000. Packs desde $35.000 por sesión. Valores reales 2026 y cuánto recuperas con tu Isapre y seguro complementario.",
     author: "Equipo Clínico KINEUM",
@@ -66,6 +68,8 @@ export const blogPosts = [
   },
   {
     slug: "reembolso-isapre-kinesiologia",
+    seoTitle: "Reembolso Isapre en Kinesiología: Guía 2026 | KINEUM",
+    seoDescription: "Cuánto cubre cada isapre, qué documentos pedir y cómo recuperar hasta el 80% de tus sesiones de kinesiología a domicilio. Con ejemplo de costo final.",
     title: "Reembolso Isapre en Kinesiología: Guía Completa 2026",
     subtitle: "Cómo recuperar hasta el 80% del valor de tus sesiones de kinesiología a domicilio, isapre por isapre.",
     author: "Equipo Clínico KINEUM",
@@ -126,6 +130,8 @@ export const blogPosts = [
   },
   {
     slug: "kinesiologia-respiratoria-infantil-domicilio",
+    seoTitle: "Kinesiología Respiratoria Infantil: Cuándo Sirve | KINEUM",
+    seoDescription: "Bronquiolitis y tos de invierno: cuándo la KTR ayuda a tu guagua, cuándo es urgencia y cuándo no sirve. Guía clara para padres y atención en casa.",
     title: "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres",
     subtitle: "Bronquiolitis, mocos que no salen y tos de invierno: cuándo sirve la KTR, cuándo es urgencia y por qué en casa funciona mejor.",
     author: "Equipo Clínico KINEUM",
@@ -180,6 +186,8 @@ export const blogPosts = [
 
   {
     slug: "kinesiologia-piso-pelvico-post-parto-domicilio",
+    seoTitle: "Kinesiología de Piso Pélvico Post Parto en Casa | KINEUM",
+    seoDescription: "Cuándo partir después del parto, qué se trabaja semana a semana y cómo reconocer una diástasis abdominal. Guía informativa de recuperación en casa.",
     title: "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026",
     subtitle: "Cuándo empezar, qué se trabaja en cada etapa y por qué la rehabilitación en casa es ideal con un recién nacido.",
     author: "Dra. Javiera Méndez",
@@ -237,6 +245,8 @@ export const blogPosts = [
   },
   {
     slug: "drenaje-linfatico-post-operatorio-domicilio",
+    seoTitle: "Drenaje Linfático Post Operatorio a Domicilio | KINEUM",
+    seoDescription: "Cuántas sesiones necesitas tras una cirugía, cuándo empezar y cómo el drenaje baja el edema sin salir de casa. Kinesiólogos a domicilio en Santiago.",
     title: "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar",
     subtitle: "Abdominoplastia, liposucción, prótesis de rodilla o cadera: cómo el drenaje acelera tu recuperación sin salir de casa.",
     author: "Klga. María José Pérez",
@@ -286,6 +296,8 @@ export const blogPosts = [
   // ── Artículos clínicos originales ──
   {
     slug: "neuroplasticidad-recuperacion-acv",
+    seoTitle: "Rehabilitación Post ACV en Casa: Cuándo Empezar | KINEUM",
+    seoDescription: "Cuándo iniciar la kinesiología tras un ACV, cuántas sesiones se necesitan y qué se hace en casa. Guía para la familia, con evaluación inicial gratis.",
     title: "Neuroplasticidad: Acelerando la recuperación post-ACV",
     subtitle: "Cómo la tecnología y los ejercicios cognitivos potencian la capacidad del cerebro para sanar.",
     author: "Equipo Clínico KINEUM",
@@ -320,6 +332,8 @@ export const blogPosts = [
   },
   {
     slug: "ergonomia-home-office-guia-2024",
+    seoTitle: "Ergonomía en el Home Office sin Dolor de Espalda | KINEUM",
+    seoDescription: "Altura de silla, pantalla y teclado, más las pausas que sí funcionan para evitar el dolor de espalda y cuello desde casa. Guía kinesiológica 2026.",
     title: "Ergonomía en el Home Office: Guía Definitiva",
     subtitle: "Protocolos clínicos para prevenir el dolor lumbar y cervical trabajando desde casa.",
     author: "Dra. Javiera Méndez",
@@ -358,6 +372,8 @@ export const blogPosts = [
   },
   {
     slug: "sarcopenia-fuerza-es-salud",
+    seoTitle: "Sarcopenia en el Adulto Mayor: Tratamiento | KINEUM",
+    seoDescription: "Por qué el adulto mayor pierde fuerza, cómo detectarlo a tiempo y qué ejercicios recuperan masa muscular en casa. Evaluación kinesiológica gratuita.",
     title: "Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital",
     subtitle: "Estrategias para mantener la vitalidad muscular en la tercera edad.",
     author: "Ricardo Tapia",
@@ -396,6 +412,8 @@ export const blogPosts = [
   // ── Biblioteca clínica SEO ──
   {
     slug: "lumbago-agudo-que-hacer",
+    seoTitle: "Lumbago Agudo: Qué Hacer las Primeras 48 Horas | KINEUM",
+    seoDescription: "Reposo o movimiento, cuándo consultar, cómo reconocer una ciática y qué pasa con una hernia. Guía kinesiológica del dolor lumbar, paso a paso.",
     title: "Lumbago Agudo: ¿Reposo o Movimiento?",
     subtitle: "La guía clínica para manejar el dolor de espalda baja en las primeras 48 horas.",
     author: "Equipo KINEUM",
@@ -433,6 +451,8 @@ export const blogPosts = [
   },
   {
     slug: "esguince-tobillo-recuperacion",
+    seoTitle: "Esguince de Tobillo: ¿Cuánto Demora en Sanar? | KINEUM",
+    seoDescription: "Plazos reales por grado de esguince, cuándo volver a apoyar el pie y los ejercicios de propiocepción que evitan que se repita. Rehabilitación en casa.",
     title: "Esguince de Tobillo: Protocolo de Recuperación Acelerada",
     subtitle: "Cómo volver a caminar sin dolor más rápido con carga progresiva y movilidad temprana.",
     author: "Equipo KINEUM",
@@ -470,6 +490,8 @@ export const blogPosts = [
   },
   {
     slug: "ciatica-sintomas-tratamiento",
+    seoTitle: "Ciática o Falsa Ciática: Síntomas y Tratamiento | KINEUM",
+    seoDescription: "Cómo distinguir una ciática real del síndrome del piramidal, qué la alivia de verdad y cuándo consultar. Kinesiología a domicilio en Santiago.",
     title: "Ciática: Diferenciando el Dolor Real de la Falsa Ciática",
     subtitle: "Síndrome del piramidal vs. hernia discal: ¿cuál tienes tú?",
     author: "Klga. María José Pérez",
@@ -508,6 +530,8 @@ export const blogPosts = [
   },
   {
     slug: "tendinitis-hombro-manguito-rotador",
+    seoTitle: "Manguito Rotador: Rehabilitación sin Cirugía | KINEUM",
+    seoDescription: "Por qué duele el hombro al levantar el brazo, qué ejercicios recuperan el manguito rotador y cuándo sí se opera. Kinesiólogo a domicilio Santiago.",
     title: "Tendinitis de Hombro: Salvando tu Manguito Rotador",
     subtitle: "Ejercicios clave para evitar la cirugía en lesiones de hombro.",
     author: "Equipo KINEUM",
@@ -540,6 +564,8 @@ export const blogPosts = [
   },
   {
     slug: "artrosis-rodilla-ejercicios",
+    seoTitle: "Artrosis de Rodilla: Ejercicios que Sí Alivian | KINEUM",
+    seoDescription: "Qué ejercicios bajan el dolor de artrosis de rodilla más que los analgésicos, cuántas veces por semana y cuáles evitar. Guía kinesiológica en casa.",
     title: "Vivir sin Dolor con Artrosis de Rodilla",
     subtitle: "Por qué el ejercicio reduce más el dolor que los analgésicos en la osteoartritis.",
     author: "Ricardo Tapia",
@@ -572,6 +598,8 @@ export const blogPosts = [
   },
   {
     slug: "paralisis-facial-rehabilitacion",
+    seoTitle: "Parálisis Facial: Las Primeras 72 Horas Son Clave | KINEUM",
+    seoDescription: "Qué hacer los primeros días de una parálisis facial, qué ejercicios recuperan la simetría y qué evitar. Rehabilitación a domicilio en Santiago.",
     title: "Parálisis Facial: La Importancia de las Primeras 72 Horas",
     subtitle: "Estimulación temprana para recuperar la simetría y función facial.",
     author: "Equipo KINEUM",
@@ -605,6 +633,8 @@ export const blogPosts = [
   },
   {
     slug: "tunel-carpiano-alivio",
+    seoTitle: "Túnel Carpiano: ¿Se Puede Evitar la Cirugía? | KINEUM",
+    seoDescription: "Cómo liberar el nervio mediano sin pabellón, qué ejercicios y férulas sirven y cuándo la cirugía es inevitable. Kinesiología a domicilio Santiago.",
     title: "Túnel Carpiano: ¿Cirugía o Kinesiología?",
     subtitle: "Estrategias para liberar el nervio mediano sin pasar por pabellón.",
     author: "Dra. Javiera Méndez",
@@ -641,6 +671,8 @@ export const blogPosts = [
   },
   {
     slug: "fascitis-plantar-solucion",
+    seoTitle: "Fascitis Plantar: El Dolor del Primer Paso | KINEUM",
+    seoDescription: "Por qué el primer paso de la mañana duele tanto, qué ejercicios de carga progresiva funcionan y cuánto demora. Kinesiólogo a domicilio en Santiago.",
     title: "Fascitis Plantar: El Dolor del Primer Paso de la Mañana",
     subtitle: "Cómo tratar el dolor de talón crónico con carga progresiva.",
     author: "Equipo KINEUM",
@@ -672,6 +704,8 @@ export const blogPosts = [
   },
   {
     slug: "kinesiologia-post-covid",
+    seoTitle: "Rehabilitación Respiratoria Post Neumonía | KINEUM",
+    seoDescription: "Cómo recuperar la capacidad pulmonar después de una neumonía o una hospitalización, con qué ejercicios y en cuántas semanas. Kinesiología en casa.",
     title: "Rehabilitación Respiratoria Post-COVID y Neumonía",
     subtitle: "Recuperando tu capacidad pulmonar al 100%.",
     author: "Equipo KINEUM",
@@ -709,6 +743,8 @@ export const blogPosts = [
   },
   {
     slug: "drenaje-linfatico-manual",
+    seoTitle: "Drenaje Linfático Manual: Cuándo Está Indicado | KINEUM",
+    seoDescription: "Edema, retención de líquidos y post operatorio: cuándo el drenaje linfático tiene indicación clínica real y cuándo no. Atención a domicilio Santiago.",
     title: "Drenaje Linfático: Más que Estética, es Salud",
     subtitle: "Indicaciones médicas para el edema y la retención de líquidos.",
     author: "Klga. María José Pérez",
@@ -742,6 +778,8 @@ export const blogPosts = [
   },
   {
     slug: "bruxismo-dolor-cervical",
+    seoTitle: "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM",
+    seoDescription: "Por qué apretar los dientes termina en dolor de cuello, qué ejercicios relajan la mandíbula y cuándo consultar. Kinesiología a domicilio Santiago.",
     title: "Bruxismo y Dolor Cervical: La Conexión Oculta",
     subtitle: "Relajando la mandíbula para curar el cuello.",
     author: "Equipo KINEUM",
@@ -777,6 +815,8 @@ export const blogPosts = [
   },
   {
     slug: "fractura-cadera-adulto-mayor",
+    seoTitle: "Fractura de Cadera: ¿Cuándo Vuelve a Caminar? | KINEUM",
+    seoDescription: "Plazos reales semana a semana tras una fractura o prótesis de cadera, qué se logra en cada etapa y cuántas sesiones toma. Rehabilitación en casa.",
     title: "Fractura de Cadera: El Camino para Volver a Caminar",
     subtitle: "Rehabilitación intensiva para recuperar la independencia.",
     author: "Ricardo Tapia",
@@ -809,6 +849,8 @@ export const blogPosts = [
   },
   {
     slug: "suelo-pelvico-mujer",
+    seoTitle: "Piso Pélvico Femenino: Incontinencia y Prolapso | KINEUM",
+    seoDescription: "Cómo se previenen y se tratan la incontinencia y el prolapso con ejercicios de suelo pélvico, y cuándo consultar. Guía informativa de salud femenina.",
     title: "Kinesiología de Piso Pélvico: Salud Femenina Integral",
     subtitle: "Prevención y tratamiento de la incontinencia y los prolapsos.",
     author: "Dra. Javiera Méndez",
@@ -845,6 +887,8 @@ export const blogPosts = [
   },
   {
     slug: "epicondilitis-codo-tenista",
+    seoTitle: "Codo de Tenista: Tratamiento y Recuperación | KINEUM",
+    seoDescription: "Por qué el mouse y el teclado inflaman el codo, qué ejercicios excéntricos lo recuperan y cuánto demora. Kinesiólogo a domicilio en Santiago.",
     title: "Codo de Tenista (Epicondilitis): No Solo para Deportistas",
     subtitle: "Cómo el uso del mouse y el teclado inflaman tu codo.",
     author: "Equipo KINEUM",
@@ -876,6 +920,8 @@ export const blogPosts = [
   },
   {
     slug: "escoliosis-en-ninos",
+    seoTitle: "Escoliosis en Niños: Cuándo Hay que Preocuparse | KINEUM",
+    seoDescription: "Cómo detectar una escoliosis en casa, qué grados requieren corsé o cirugía y qué aporta la kinesiología. Guía para padres con evaluación gratuita.",
     title: "Escoliosis en Niños: Detección y Tratamiento",
     subtitle: "¿Cuándo preocuparse por la columna de tu hijo?",
     author: "Equipo KINEUM",
@@ -913,6 +959,8 @@ export const blogPosts = [
   },
   {
     slug: "hernia-discal-operacion",
+    seoTitle: "Hernia Discal: ¿Se Puede Reabsorber Sola? | KINEUM",
+    seoDescription: "Qué dice la evidencia sobre la reabsorción de las hernias, cuánto demora y cuándo la cirugía es realmente necesaria. Kinesiología a domicilio.",
     title: "Hernia Discal: ¿Se Puede Reabsorber Sola?",
     subtitle: "La evidencia científica sobre la curación natural de las hernias.",
     author: "Equipo KINEUM",
@@ -950,6 +998,8 @@ export const blogPosts = [
   },
   {
     slug: "masaje-descontracturante-vs-terapeutico",
+    seoTitle: "Masaje Descontracturante vs. Terapéutico: ¿Cuál? | KINEUM",
+    seoDescription: "En qué se diferencian, cuál sirve para tu dolor y cuándo necesitas kinesiología y no solo masaje. Atención a domicilio en Santiago, evaluación gratis.",
     title: "Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito?",
     subtitle: "Eligiendo la terapia manual adecuada para tu dolor.",
     author: "Klga. María José Pérez",
@@ -982,6 +1032,8 @@ export const blogPosts = [
   },
   {
     slug: "protesis-rodilla-recuperacion",
+    seoTitle: "Prótesis de Rodilla: Recuperación Semana a Semana | KINEUM",
+    seoDescription: "Cuándo empezar la kinesiología tras la operación, cuántas sesiones toma llegar a 120° y cuándo se suelta el bastón. Rehabilitación en tu casa.",
     title: "Vida Después de la Prótesis de Rodilla",
     subtitle: "Cómo lograr doblar la rodilla a 120° y volver a caminar sin bastón.",
     author: "Equipo KINEUM",
@@ -1014,6 +1066,8 @@ export const blogPosts = [
   },
   {
     slug: "cervicalgia-mareos",
+    seoTitle: "Dolor Cervical y Mareos: Por Qué Se Relacionan | KINEUM",
+    seoDescription: "Cómo saber si tus mareos vienen del cuello, qué los diferencia de un vértigo y cómo se tratan. Kinesiología a domicilio en Santiago, evaluación gratis.",
     title: "Dolor Cervical y Mareos: ¿Están Relacionados?",
     subtitle: "El mareo cervicogénico y cómo tratarlo.",
     author: "Equipo KINEUM",
@@ -1050,6 +1104,8 @@ export const blogPosts = [
   },
   {
     slug: "fibromialgia-ejercicio",
+    seoTitle: "Fibromialgia: Ejercicio para el Dolor Crónico | KINEUM",
+    seoDescription: "Por qué el ejercicio dosificado alivia la fibromialgia, cómo empezar sin recaer y qué evitar en los días malos. Kinesiología a domicilio Santiago.",
     title: "Fibromialgia: Rompiendo el Ciclo de Dolor",
     subtitle: "Ejercicio suave como medicina para el dolor crónico.",
     author: "Dra. Javiera Méndez",
