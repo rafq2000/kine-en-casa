@@ -1,33 +1,48 @@
 import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blog-data'
-import { exercises } from '@/lib/exercises-data'
+import { comunas } from '@/lib/comunas-data'
+import { especialidades } from '@/lib/especialidades-data'
+
+const baseUrl = 'https://kineum.cl'
+
+// Fechas REALES de ultima modificacion de contenido, no la fecha del build.
+// Si todas las URLs cambian de lastmod en cada deploy, Google deja de confiar
+// en la señal y la ignora. Actualizar solo la clave que de verdad cambio.
+const MODIFICADO: Record<string, string> = {
+    '/': '2026-09-06',
+    '/nosotros': '2026-09-06',
+    '/servicios/geriatrica': '2026-09-06',
+    '/servicios/respiratoria': '2026-09-06',
+    '/servicios/neurologica': '2026-09-06',
+    '/servicios/traumatologica': '2026-09-06',
+    '/precios': '2026-09-06',
+    '/como-funciona': '2026-09-06',
+    '/testimonios': '2026-09-06',
+    '/blog': '2026-09-06',
+    '/ejercicios': '2026-09-06',
+    // Paginas locales: ultima reescritura de titulos y descripciones
+    local: '2026-09-06',
+}
+
+// Prioridad segun cercania a la conversion, no todo al mismo nivel:
+// la home y los hubs de servicio valen mas que un post informativo.
+function prioridad(ruta: string): number {
+    if (ruta === '') return 1
+    if (ruta.startsWith('/servicios/')) return 0.9
+    if (ruta.startsWith('/kinesiologo-a-domicilio-')) return 0.9
+    if (ruta === '/precios' || ruta === '/como-funciona') return 0.8
+    if (ruta.startsWith('/blog/')) return 0.6
+    return 0.7
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://kineum.cl'
+    const rutasLocales: string[] = []
+    for (const c of comunas) {
+        rutasLocales.push(`/kinesiologo-a-domicilio-${c.slug}`)
+        for (const e of especialidades) rutasLocales.push(`/${e.slug}-${c.slug}`)
+    }
 
-    const comunas = [
-        'las-condes', 'vitacura', 'providencia', 'nunoa', 'la-reina', 'lo-barnechea',
-        'la-florida', 'penalolen', 'macul', 'san-joaquin', 'santiago-centro'
-    ]
-
-    const especialidades = [
-        'kinesiologia-geriatrica', 'rehabilitacion-postquirurgica', 'kinesiologia-respiratoria',
-        'rehabilitacion-neurologica', 'kinesiologia-traumatologica'
-    ]
-
-    const localRoutes: string[] = []
-
-    // Add pure comuna pages
-    comunas.forEach(comuna => {
-        localRoutes.push(`/kinesiologo-a-domicilio-${comuna}`)
-        // Add matrix pages
-        especialidades.forEach(espec => {
-            localRoutes.push(`/${espec}-${comuna}`)
-        })
-    })
-
-    // Static base routes
-    const baseRoutes = [
+    const rutasBase = [
         '',
         '/nosotros',
         '/como-funciona',
@@ -41,26 +56,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/servicios/traumatologica',
     ]
 
-    const allRoutes = [...baseRoutes, ...localRoutes].map((route) => ({
-        url: `${baseUrl}${route}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: route === '' ? 1 : 0.9,
+    const estaticas = rutasBase.map((ruta) => ({
+        url: `${baseUrl}${ruta}`,
+        lastModified: new Date(MODIFICADO[ruta || '/'] ?? MODIFICADO.local),
+        changeFrequency: 'monthly' as const,
+        priority: prioridad(ruta),
     }))
 
-    // Blog posts
+    const locales = rutasLocales.map((ruta) => ({
+        url: `${baseUrl}${ruta}`,
+        lastModified: new Date(MODIFICADO.local),
+        changeFrequency: 'monthly' as const,
+        priority: prioridad(ruta),
+    }))
+
+    // Cada post lleva su propia fecha de publicacion, que ya vive en blog-data.
     const posts = blogPosts.map((post) => ({
         url: `${baseUrl}/blog/${post.slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.8,
+        lastModified: new Date(post.dateISO),
+        changeFrequency: 'yearly' as const,
+        priority: prioridad(`/blog/${post.slug}`),
     }))
 
-    // Exercises (if you ever make individual pages for them, but for now the list is on /ejercicios)
-    // Since exercises are currently all on one page, we don't need individual entries unless we made dynamic routes for them.
-    // The user asked for "exercises" library, currently it's a single page /ejercicios. 
-    // If we want to rank for specific exercises, it's better to have them as anchors or separate pages. 
-    // Given the current structure, /ejercicios covers it.
-
-    return [...allRoutes, ...posts]
+    return [...estaticas, ...locales, ...posts]
 }
