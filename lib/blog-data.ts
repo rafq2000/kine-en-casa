@@ -298,7 +298,7 @@ export const blogPosts = [
     slug: "neuroplasticidad-recuperacion-acv",
     seoTitle: "Rehabilitación Post ACV en Casa: Cuándo Empezar | KINEUM",
     seoDescription: "Cuándo iniciar la kinesiología tras un ACV, cuántas sesiones se necesitan y qué se hace en casa. Guía para la familia, con evaluación inicial gratis.",
-    title: "Neuroplasticidad: Acelerando la recuperación post-ACV",
+    title: "Rehabilitación post-ACV en casa: el rol de la neuroplasticidad",
     subtitle: "Cómo la tecnología y los ejercicios cognitivos potencian la capacidad del cerebro para sanar.",
     author: "Equipo Clínico KINEUM",
     date: "24 Enero, 2026",
