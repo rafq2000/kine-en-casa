@@ -28,7 +28,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: "Kinesiólogo a Domicilio en Providencia y Tobalaba | KINEUM",
-    description: `Kinesiólogo a domicilio en ${comunaData.nombre}. Rehabilitación geriátrica, respiratoria, traumatológica y neurológica en tu hogar. Evaluación gratis ☎ +56 9 9967 9593. Atendemos ${comunaData.sectores.slice(0, 4).join(", ")} y más.`,
+    description: "Kinesiólogo a domicilio en Providencia: Pedro de Valdivia, Manuel Montt, Los Leones y Tobalaba. Evaluación inicial gratuita y vamos a tu departamento.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,

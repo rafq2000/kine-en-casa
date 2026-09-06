@@ -4,21 +4,23 @@
  "resumen": {
   "porSeveridad": {
    "critica": 0,
-   "alta": 9,
-   "media": 21,
-   "baja": 0
+   "alta": 41,
+   "media": 32,
+   "baja": 33
   },
   "porTipo": {
-   "title-sin-keyword": 9,
    "contenido-corto": 8,
+   "desc-corta": 33,
+   "title-largo": 32,
+   "title-sin-keyword": 4,
    "desc-larga": 1,
-   "lento": 12
+   "title-sufijo": 28
   },
-  "titulosLargos": 0,
+  "titulosLargos": 32,
   "descLargas": 1,
   "h1Malos": 0,
   "contenidoCorto": 8,
-  "ttfbPromedio": 769
+  "ttfbPromedio": 112
  },
  "duplicados": {
   "titles": [],
@@ -29,17 +31,24 @@
  "problemas": [
   {
    "url": "https://kineum.cl/nosotros",
-   "sev": "media",
-   "tipo": "title-sin-keyword",
-   "detalle": "No contiene la raiz de \"equipo kinesiólogos\"",
-   "fix": "Incluir la keyword principal"
-  },
-  {
-   "url": "https://kineum.cl/nosotros",
    "sev": "alta",
    "tipo": "contenido-corto",
-   "detalle": "240 palabras de texto visible",
+   "detalle": "238 palabras de texto visible",
    "fix": "Ampliar a mas de 300"
+  },
+  {
+   "url": "https://kineum.cl/precios",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "107 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/testimonios",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "98 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
    "url": "https://kineum.cl/servicios/respiratoria",
@@ -50,17 +59,24 @@
   },
   {
    "url": "https://kineum.cl/servicios/geriatrica",
-   "sev": "media",
-   "tipo": "title-sin-keyword",
-   "detalle": "No contiene la raiz de \"kinesiología geriatrica a domicilio\"",
-   "fix": "Incluir la keyword principal"
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "61 caracteres: \"Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
    "url": "https://kineum.cl/servicios/geriatrica",
    "sev": "alta",
    "tipo": "contenido-corto",
-   "detalle": "192 palabras de texto visible",
+   "detalle": "193 palabras de texto visible",
    "fix": "Ampliar a mas de 300"
+  },
+  {
+   "url": "https://kineum.cl/servicios/neurologica",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "67 caracteres: \"Neurorehabilitación a Domicilio Santiago | ACV y Parkinson | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
    "url": "https://kineum.cl/servicios/neurologica",
@@ -73,7 +89,7 @@
    "url": "https://kineum.cl/servicios/neurologica",
    "sev": "alta",
    "tipo": "contenido-corto",
-   "detalle": "170 palabras de texto visible",
+   "detalle": "173 palabras de texto visible",
    "fix": "Ampliar a mas de 300"
   },
   {
@@ -84,6 +100,41 @@
    "fix": "Ampliar a mas de 300"
   },
   {
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-las-condes",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "65 caracteres: \"Kinesiólogo a Domicilio en Las Condes | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/rehabilitacion-neurologica-las-condes",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "109 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-vitacura",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "63 caracteres: \"Kinesiólogo a Domicilio en Vitacura | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/rehabilitacion-neurologica-vitacura",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "107 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-providencia",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "65 caracteres: \"Kinesiólogo a Domicilio en Providencia | Kinesiología Profesional\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-providencia",
    "sev": "alta",
    "tipo": "desc-larga",
@@ -91,109 +142,382 @@
    "fix": "Acortar a <= 158"
   },
   {
-   "url": "https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "1236ms",
-   "fix": "Revisar cache/renderizado"
+   "url": "https://kineum.cl/rehabilitacion-neurologica-nunoa",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "104 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
-   "url": "https://kineum.cl/rehabilitacion-postquirurgica-la-florida",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "1232ms",
-   "fix": "Revisar cache/renderizado"
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-la-reina",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "63 caracteres: \"Kinesiólogo a Domicilio en La Reina | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
-   "url": "https://kineum.cl/kinesiologia-respiratoria-la-florida",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2529ms",
-   "fix": "Revisar cache/renderizado"
+   "url": "https://kineum.cl/rehabilitacion-neurologica-la-reina",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "107 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-la-florida",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "65 caracteres: \"Kinesiólogo a Domicilio en La Florida | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-la-florida",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2526ms",
-   "fix": "Revisar cache/renderizado"
-  },
-  {
-   "url": "https://kineum.cl/kinesiologia-traumatologica-la-florida",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2534ms",
-   "fix": "Revisar cache/renderizado"
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "109 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-penalolen",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2523ms",
-   "fix": "Revisar cache/renderizado"
-  },
-  {
-   "url": "https://kineum.cl/kinesiologia-geriatrica-penalolen",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2546ms",
-   "fix": "Revisar cache/renderizado"
-  },
-  {
-   "url": "https://kineum.cl/rehabilitacion-postquirurgica-penalolen",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2537ms",
-   "fix": "Revisar cache/renderizado"
-  },
-  {
-   "url": "https://kineum.cl/kinesiologia-respiratoria-penalolen",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2543ms",
-   "fix": "Revisar cache/renderizado"
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "64 caracteres: \"Kinesiólogo a Domicilio en Peñalolén | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-penalolen",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2530ms",
-   "fix": "Revisar cache/renderizado"
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "108 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
-   "url": "https://kineum.cl/kinesiologia-traumatologica-penalolen",
-   "sev": "media",
-   "tipo": "lento",
-   "detalle": "2539ms",
-   "fix": "Revisar cache/renderizado"
+   "url": "https://kineum.cl/rehabilitacion-neurologica-macul",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "104 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
-   "url": "https://kineum.cl/kinesiologo-a-domicilio-macul",
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-san-joaquin",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "66 caracteres: \"Kinesiólogo a Domicilio en San Joaquín | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/kinesiologo-a-domicilio-santiago-centro",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "70 caracteres: \"Kinesiólogo a Domicilio en Santiago Centro | Reembolso Isapre | KINEUM\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "80 caracteres: \"¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026 | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
    "sev": "media",
-   "tipo": "lento",
-   "detalle": "2519ms",
-   "fix": "Revisar cache/renderizado"
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "69 caracteres: \"Reembolso Isapre en Kinesiología: Guía Completa 2026 | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "101 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-respiratoria-infantil-domicilio",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "81 caracteres: \"Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-respiratoria-infantil-domicilio",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "79 caracteres: \"Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026 | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-post-operatorio-domicilio",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "75 caracteres: \"Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-post-operatorio-domicilio",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "70 caracteres: \"Neuroplasticidad: Acelerando la recuperación post-ACV | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
    "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
    "sev": "media",
-   "tipo": "title-sin-keyword",
-   "detalle": "No contiene la raiz de \"neuroplasticidad recuperacion acv\"",
-   "fix": "Incluir la keyword principal"
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "93 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
    "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
    "sev": "alta",
    "tipo": "contenido-corto",
-   "detalle": "293 palabras de texto visible",
+   "detalle": "292 palabras de texto visible",
    "fix": "Ampliar a mas de 300"
+  },
+  {
+   "url": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "61 caracteres: \"Ergonomía en el Home Office: Guía Definitiva | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "83 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "70 caracteres: \"Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "67 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/lumbago-agudo-que-hacer",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/lumbago-agudo-que-hacer",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "79 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "73 caracteres: \"Esguince de Tobillo: Protocolo de Recuperación Acelerada | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "85 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "73 caracteres: \"Ciática: Diferenciando el Dolor Real de la Falsa Ciática | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "58 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "67 caracteres: \"Tendinitis de Hombro: Salvando tu Manguito Rotador | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
   },
   {
    "url": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
    "sev": "media",
-   "tipo": "title-sin-keyword",
-   "detalle": "No contiene la raiz de \"tendinitis hombro manguito rotador\"",
-   "fix": "Incluir la keyword principal"
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "62 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/artrosis-rodilla-ejercicios",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/artrosis-rodilla-ejercicios",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "81 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "74 caracteres: \"Parálisis Facial: La Importancia de las Primeras 72 Horas | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "66 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/tunel-carpiano-alivio",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/tunel-carpiano-alivio",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "66 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/fascitis-plantar-solucion",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "72 caracteres: \"Fascitis Plantar: El Dolor del Primer Paso de la Mañana | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/fascitis-plantar-solucion",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/fascitis-plantar-solucion",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "59 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-post-covid",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "66 caracteres: \"Rehabilitación Respiratoria Post-COVID y Neumonía | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-post-covid",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
   },
   {
    "url": "https://kineum.cl/blog/kinesiologia-post-covid",
@@ -204,17 +528,101 @@
   },
   {
    "url": "https://kineum.cl/blog/kinesiologia-post-covid",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "42 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/kinesiologia-post-covid",
    "sev": "alta",
    "tipo": "contenido-corto",
-   "detalle": "297 palabras de texto visible",
+   "detalle": "299 palabras de texto visible",
    "fix": "Ampliar a mas de 300"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-manual",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "62 caracteres: \"Drenaje Linfático: Más que Estética, es Salud | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-manual",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/drenaje-linfatico-manual",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "62 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "62 caracteres: \"Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "44 caracteres",
+   "fix": "Ampliar a 110-158"
   },
   {
    "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
    "sev": "alta",
    "tipo": "contenido-corto",
-   "detalle": "291 palabras de texto visible",
+   "detalle": "292 palabras de texto visible",
    "fix": "Ampliar a mas de 300"
+  },
+  {
+   "url": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "68 caracteres: \"Fractura de Cadera: El Camino para Volver a Caminar | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "57 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "70 caracteres: \"Kinesiología de Piso Pélvico: Salud Femenina Integral | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
   },
   {
    "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
@@ -224,11 +632,116 @@
    "fix": "Incluir la keyword principal"
   },
   {
+   "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "61 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/epicondilitis-codo-tenista",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "74 caracteres: \"Codo de Tenista (Epicondilitis): No Solo para Deportistas | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
    "url": "https://kineum.cl/blog/epicondilitis-codo-tenista",
    "sev": "media",
-   "tipo": "title-sin-keyword",
-   "detalle": "No contiene la raiz de \"epicondilitis codo tenista\"",
-   "fix": "Incluir la keyword principal"
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/epicondilitis-codo-tenista",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "52 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/escoliosis-en-ninos",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "61 caracteres: \"Escoliosis en Niños: Detección y Tratamiento | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/escoliosis-en-ninos",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/escoliosis-en-ninos",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "46 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/hernia-discal-operacion",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/hernia-discal-operacion",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "65 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "74 caracteres: \"Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito? | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "51 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/protesis-rodilla-recuperacion",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/protesis-rodilla-recuperacion",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "67 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/cervicalgia-mareos",
+   "sev": "alta",
+   "tipo": "title-largo",
+   "detalle": "62 caracteres: \"Dolor Cervical y Mareos: ¿Están Relacionados? | KINEUM Journal\"",
+   "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+  },
+  {
+   "url": "https://kineum.cl/blog/cervicalgia-mareos",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
   },
   {
    "url": "https://kineum.cl/blog/cervicalgia-mareos",
@@ -236,25 +749,46 @@
    "tipo": "title-sin-keyword",
    "detalle": "No contiene la raiz de \"cervicalgia mareos\"",
    "fix": "Incluir la keyword principal"
+  },
+  {
+   "url": "https://kineum.cl/blog/cervicalgia-mareos",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "39 caracteres",
+   "fix": "Ampliar a 110-158"
+  },
+  {
+   "url": "https://kineum.cl/blog/fibromialgia-ejercicio",
+   "sev": "media",
+   "tipo": "title-sufijo",
+   "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+   "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+  },
+  {
+   "url": "https://kineum.cl/blog/fibromialgia-ejercicio",
+   "sev": "baja",
+   "tipo": "desc-corta",
+   "detalle": "52 caracteres",
+   "fix": "Ampliar a 110-158"
   }
  ],
  "paginas": [
   {
    "url": "https://kineum.cl",
    "status": 200,
-   "ms": 1042,
+   "ms": 79,
    "kb": 136,
-   "title": "Kinesiólogo a Domicilio Santiago: Reembolso Isapre | KINEUM",
-   "lenTitle": 59,
-   "desc": "Kinesiólogo a domicilio en Santiago con reembolso Isapre y seguros complementarios. Evaluación inicial gratuita y cobertura en 11 comunas. Agenda hoy.",
-   "lenDesc": 150,
+   "title": "Kinesiólogo a Domicilio Santiago | Reembolso Isapre | KINEUM",
+   "lenTitle": 60,
+   "desc": "Kinesiólogo a domicilio en Santiago con reembolso Isapre y seguros complementarios. Rehabilitación traumatológica, respiratoria, neurológica y geriátrica.",
+   "lenDesc": 154,
    "canonical": "https://kineum.cl",
    "h1s": [
     "Kinesiólogo a Domicilio en Santiago Elimina tu dolor sin salir de casa"
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 1201,
+   "palabras": 1202,
    "imgs": 10,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -314,10 +848,10 @@
   {
    "url": "https://kineum.cl/nosotros",
    "status": 200,
-   "ms": 507,
+   "ms": 281,
    "kb": 40,
-   "title": "Kinesiólogos Certificados a Domicilio Santiago | KINEUM",
-   "lenTitle": 55,
+   "title": "Nuestro Equipo Clínico | KINEUM",
+   "lenTitle": 31,
    "desc": "Conoce a los kinesiólogos certificados de KINEUM. Profesionales inscritos en la Superintendencia de Salud. Kinesiología a domicilio en Santiago.",
    "lenDesc": 144,
    "canonical": "https://kineum.cl/nosotros",
@@ -326,7 +860,7 @@
    ],
    "nH1": 1,
    "h2n": 2,
-   "palabras": 240,
+   "palabras": 238,
    "imgs": 2,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -343,15 +877,9 @@
    ],
    "problemas": [
     {
-     "sev": "media",
-     "tipo": "title-sin-keyword",
-     "detalle": "No contiene la raiz de \"equipo kinesiólogos\"",
-     "fix": "Incluir la keyword principal"
-    },
-    {
      "sev": "alta",
      "tipo": "contenido-corto",
-     "detalle": "240 palabras de texto visible",
+     "detalle": "238 palabras de texto visible",
      "fix": "Ampliar a mas de 300"
     }
    ]
@@ -359,19 +887,19 @@
   {
    "url": "https://kineum.cl/como-funciona",
    "status": 200,
-   "ms": 1048,
-   "kb": 115,
-   "title": "Cómo Funciona la Kinesiología a Domicilio | KINEUM",
-   "lenTitle": 50,
-   "desc": "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
-   "lenDesc": 155,
+   "ms": 254,
+   "kb": 114,
+   "title": "Como Funciona | Kinesiologo a Domicilio Santiago | KINEUM",
+   "lenTitle": 57,
+   "desc": "Agenda tu kinesiologo a domicilio en Santiago en 4 pasos simples. Evaluacion inicial gratuita, plan personalizado y reembolso Isapre y seguros.",
+   "lenDesc": 143,
    "canonical": "https://kineum.cl/como-funciona",
    "h1s": [
     "Asi de Facil es Agendar tu Kinesiologo a Domicilio"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 835,
+   "palabras": 784,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -414,19 +942,19 @@
   {
    "url": "https://kineum.cl/precios",
    "status": 200,
-   "ms": 1060,
+   "ms": 234,
    "kb": 176,
-   "title": "Precios de Kinesiólogo a Domicilio Santiago 2026 | KINEUM",
-   "lenTitle": 57,
-   "desc": "Planes de kinesiología a domicilio en Santiago desde $160.000 al mes. Mira el valor por sesión y lo que pagas realmente tras el reembolso Isapre.",
-   "lenDesc": 145,
+   "title": "Precios Kinesiologia a Domicilio Santiago 2026 | KINEUM",
+   "lenTitle": 55,
+   "desc": "Precios de kinesiologia a domicilio en Santiago desde $160.000/mes. Planes con 4, 10 o sesiones ilimitadas.",
+   "lenDesc": 107,
    "canonical": "https://kineum.cl/precios",
    "h1s": [
     "Precios Kinesiologia a Domicilio en Santiago"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 1059,
+   "palabras": 1058,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -466,17 +994,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "107 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/testimonios",
    "status": 200,
-   "ms": 1065,
+   "ms": 267,
    "kb": 246,
-   "title": "Opiniones de Kinesiología a Domicilio Santiago | KINEUM",
-   "lenTitle": 55,
-   "desc": "Opiniones reales de pacientes de kinesiología a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa y todo Santiago. Lee sus casos antes de agendar.",
-   "lenDesc": 150,
+   "title": "Opiniones y Testimonios | Kinesiologo a Domicilio Santiago",
+   "lenTitle": 58,
+   "desc": "Opiniones reales de pacientes de KINEUM. +147 testimonios de kinesiologia a domicilio en Santiago.",
+   "lenDesc": 98,
    "canonical": "https://kineum.cl/testimonios",
    "h1s": [
     "Opiniones de Nuestros Pacientes"
@@ -522,17 +1057,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "98 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog",
    "status": 200,
-   "ms": 1051,
+   "ms": 256,
    "kb": 196,
-   "title": "Blog de Kinesiología y Rehabilitación en Casa | KINEUM",
-   "lenTitle": 54,
-   "desc": "Guías escritas por kinesiólogos: rehabilitación tras cirugía, ACV, dolor lumbar, adulto mayor y kinesiología respiratoria, para hacer en casa con seguridad.",
-   "lenDesc": 156,
+   "title": "Blog de Kinesiología y Rehabilitación a Domicilio | KINEUM",
+   "lenTitle": 58,
+   "desc": "Artículos de kinesiología, rehabilitación y salud. Guías de ejercicios, consejos de kinesiólogos y novedades sobre rehabilitación a domicilio en Santiago.",
+   "lenDesc": 154,
    "canonical": "https://kineum.cl/blog",
    "h1s": [
     "Blog de Kinesiología y Rehabilitación"
@@ -623,19 +1165,19 @@
   {
    "url": "https://kineum.cl/ejercicios",
    "status": 200,
-   "ms": 1029,
+   "ms": 244,
    "kb": 108,
-   "title": "Ejercicios de Kinesiología para Hacer en Casa | KINEUM",
-   "lenTitle": 54,
-   "desc": "Ejercicios de kinesiología para hacer en casa: fuerza, movilidad, equilibrio y respiración, explicados paso a paso por kinesiólogos. Úsalos con seguridad.",
-   "lenDesc": 154,
+   "title": "Ejercicios Terapéuticos de Kinesiología en Casa | KINEUM",
+   "lenTitle": 56,
+   "desc": "Biblioteca de ejercicios terapéuticos guiados por kinesiólogos: fortalecimiento, movilidad, equilibrio y respiración para hacer en casa de forma segura.",
+   "lenDesc": 152,
    "canonical": "https://kineum.cl/ejercicios",
    "h1s": [
     "Ejercicios Terapéuticos"
    ],
    "nH1": 1,
    "h2n": 0,
-   "palabras": 623,
+   "palabras": 622,
    "imgs": 10,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -665,7 +1207,7 @@
   {
    "url": "https://kineum.cl/servicios/respiratoria",
    "status": 200,
-   "ms": 1024,
+   "ms": 236,
    "kb": 51,
    "title": "Kinesiología Respiratoria a Domicilio Santiago | KINEUM",
    "lenTitle": 55,
@@ -715,10 +1257,10 @@
   {
    "url": "https://kineum.cl/servicios/geriatrica",
    "status": 200,
-   "ms": 1021,
+   "ms": 236,
    "kb": 49,
-   "title": "Kinesiólogo a Domicilio para Adulto Mayor | KINEUM",
-   "lenTitle": 50,
+   "title": "Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM",
+   "lenTitle": 61,
    "desc": "Rehabilitación geriátrica en Santiago. Tratamiento de Sarcopenia, prevención de caídas y artrosis. Kinesiólogos expertos en el cuidado del adulto mayor.",
    "lenDesc": 152,
    "canonical": "https://kineum.cl/servicios/geriatrica",
@@ -727,7 +1269,7 @@
    ],
    "nH1": 1,
    "h2n": 2,
-   "palabras": 192,
+   "palabras": 193,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -755,15 +1297,15 @@
    ],
    "problemas": [
     {
-     "sev": "media",
-     "tipo": "title-sin-keyword",
-     "detalle": "No contiene la raiz de \"kinesiología geriatrica a domicilio\"",
-     "fix": "Incluir la keyword principal"
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "61 caracteres: \"Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
     },
     {
      "sev": "alta",
      "tipo": "contenido-corto",
-     "detalle": "192 palabras de texto visible",
+     "detalle": "193 palabras de texto visible",
      "fix": "Ampliar a mas de 300"
     }
    ]
@@ -771,10 +1313,10 @@
   {
    "url": "https://kineum.cl/servicios/neurologica",
    "status": 200,
-   "ms": 1012,
+   "ms": 238,
    "kb": 48,
-   "title": "Rehabilitación Neurológica a Domicilio Santiago | KINEUM",
-   "lenTitle": 56,
+   "title": "Neurorehabilitación a Domicilio Santiago | ACV y Parkinson | KINEUM",
+   "lenTitle": 67,
    "desc": "Rehabilitación neurológica experta en casa. Especialistas en recuperación post-ACV, Parkinson, Alzheimer y Esclerosis Múltiple. Neuroplasticidad aplicada.",
    "lenDesc": 154,
    "canonical": "https://kineum.cl/servicios/neurologica",
@@ -783,7 +1325,7 @@
    ],
    "nH1": 1,
    "h2n": 2,
-   "palabras": 170,
+   "palabras": 173,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -811,6 +1353,12 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "67 caracteres: \"Neurorehabilitación a Domicilio Santiago | ACV y Parkinson | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
      "sev": "media",
      "tipo": "title-sin-keyword",
      "detalle": "No contiene la raiz de \"kinesiología neurologica a domicilio\"",
@@ -819,7 +1367,7 @@
     {
      "sev": "alta",
      "tipo": "contenido-corto",
-     "detalle": "170 palabras de texto visible",
+     "detalle": "173 palabras de texto visible",
      "fix": "Ampliar a mas de 300"
     }
    ]
@@ -827,7 +1375,7 @@
   {
    "url": "https://kineum.cl/servicios/traumatologica",
    "status": 200,
-   "ms": 372,
+   "ms": 67,
    "kb": 51,
    "title": "Kinesiología Traumatológica a Domicilio | KINEUM",
    "lenTitle": 48,
@@ -877,12 +1425,12 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-las-condes",
    "status": 200,
-   "ms": 376,
+   "ms": 73,
    "kb": 89,
-   "title": "Kinesiólogo a Domicilio en Las Condes y El Golf | KINEUM",
-   "lenTitle": 56,
-   "desc": "Kinesiólogo a domicilio en Las Condes: El Golf, Estoril, Manquehue y San Carlos de Apoquindo. Evaluación inicial gratuita y visita el mismo día.",
-   "lenDesc": 144,
+   "title": "Kinesiólogo a Domicilio en Las Condes | Reembolso Isapre | KINEUM",
+   "lenTitle": 65,
+   "desc": "Kinesiólogo a domicilio en Las Condes. Kinesiología respiratoria, motora y neurológica en El Golf, Manquehue y San Carlos. Agende hoy al +56 9 9967 9593.",
+   "lenDesc": 153,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-las-condes",
    "h1s": [
     "Kinesiólogo a Domicilio en Las Condes Elimina tu dolor sin salir de casa"
@@ -940,17 +1488,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "65 caracteres: \"Kinesiólogo a Domicilio en Las Condes | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-las-condes",
    "status": 200,
-   "ms": 409,
+   "ms": 84,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en Las Condes | KINEUM",
    "lenTitle": 58,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 150,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Las Condes: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 140,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-las-condes",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Las Condes"
@@ -1018,12 +1573,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-las-condes",
    "status": 200,
-   "ms": 362,
+   "ms": 77,
    "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Las Condes",
    "lenTitle": 55,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 148,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 128,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-las-condes",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Las Condes"
@@ -1091,11 +1646,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-las-condes",
    "status": 200,
-   "ms": 388,
+   "ms": 116,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Las Condes",
-   "lenTitle": 57,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Las Condes | KINEUM",
+   "lenTitle": 60,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 150,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-las-condes",
    "h1s": [
@@ -1103,7 +1658,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 900,
+   "palabras": 901,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -1163,12 +1718,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-las-condes",
    "status": 200,
-   "ms": 398,
-   "kb": 126,
+   "ms": 110,
+   "kb": 125,
    "title": "Rehabilitación Neurológica a Domicilio en Las Condes",
    "lenTitle": 52,
-   "desc": "Kinesiólogo a domicilio en Las Condes para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 152,
+   "desc": "Neurorehabilitación a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 109,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-las-condes",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Las Condes"
@@ -1230,17 +1785,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "109 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-las-condes",
    "status": 200,
-   "ms": 381,
+   "ms": 87,
    "kb": 127,
    "title": "Kinesiología Traumatológica a Domicilio en Las Condes",
    "lenTitle": 53,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Las Condes: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 148,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Las Condes: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 127,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-las-condes",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Las Condes"
@@ -1308,12 +1870,12 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-vitacura",
    "status": 200,
-   "ms": 373,
+   "ms": 96,
    "kb": 88,
-   "title": "Kinesiólogo a Domicilio en Vitacura y Lo Curro | KINEUM",
-   "lenTitle": 55,
-   "desc": "Rehabilitación a domicilio en Vitacura, Lo Curro, Santa María de Manquehue y Jardín del Este. Especialistas en adulto mayor. Evaluación inicial gratis.",
-   "lenDesc": 151,
+   "title": "Kinesiólogo a Domicilio en Vitacura | Reembolso Isapre | KINEUM",
+   "lenTitle": 63,
+   "desc": "Servicio de kinesiología a domicilio en Vitacura. Expertos en adulto mayor y kinesiología respiratoria. Atendemos Santa María, Lo Curro y Jardín del Este.",
+   "lenDesc": 154,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-vitacura",
    "h1s": [
     "Kinesiólogo a Domicilio en Vitacura Elimina tu dolor sin salir de casa"
@@ -1371,17 +1933,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "63 caracteres: \"Kinesiólogo a Domicilio en Vitacura | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-vitacura",
    "status": 200,
-   "ms": 404,
+   "ms": 101,
    "kb": 126,
    "title": "Kinesiología Geriátrica a Domicilio en Vitacura | KINEUM",
    "lenTitle": 56,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Vitacura: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 148,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Vitacura: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 138,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-vitacura",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Vitacura"
@@ -1449,12 +2018,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-vitacura",
    "status": 200,
-   "ms": 394,
+   "ms": 106,
    "kb": 127,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Vitacura",
    "lenTitle": 53,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 146,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 126,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-vitacura",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Vitacura"
@@ -1522,11 +2091,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-vitacura",
    "status": 200,
-   "ms": 382,
+   "ms": 86,
    "kb": 124,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Vitacura",
-   "lenTitle": 55,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Vitacura: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Vitacura | KINEUM",
+   "lenTitle": 58,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Vitacura: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 148,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-vitacura",
    "h1s": [
@@ -1534,7 +2103,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 879,
+   "palabras": 880,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -1594,12 +2163,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-vitacura",
    "status": 200,
-   "ms": 394,
+   "ms": 123,
    "kb": 124,
    "title": "Rehabilitación Neurológica a Domicilio en Vitacura | KINEUM",
    "lenTitle": 59,
-   "desc": "Kinesiólogo a domicilio en Vitacura para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 150,
+   "desc": "Neurorehabilitación a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 107,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-vitacura",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Vitacura"
@@ -1661,17 +2230,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "107 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-vitacura",
    "status": 200,
-   "ms": 403,
+   "ms": 126,
    "kb": 126,
    "title": "Kinesiología Traumatológica a Domicilio en Vitacura | KINEUM",
    "lenTitle": 60,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Vitacura: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 146,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Vitacura: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 125,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-vitacura",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Vitacura"
@@ -1739,10 +2315,10 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-providencia",
    "status": 200,
-   "ms": 370,
+   "ms": 92,
    "kb": 89,
-   "title": "Kinesiólogo a Domicilio en Providencia y Tobalaba | KINEUM",
-   "lenTitle": 58,
+   "title": "Kinesiólogo a Domicilio en Providencia | Kinesiología Profesional",
+   "lenTitle": 65,
    "desc": "Kinesiólogo a domicilio en Providencia. Rehabilitación geriátrica, respiratoria, traumatológica y neurológica en tu hogar. Evaluación gratis ☎ +56 9 9967 9593. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba, Los Leones y más.",
    "lenDesc": 230,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-providencia",
@@ -1751,7 +2327,7 @@
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 822,
+   "palabras": 821,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -1805,6 +2381,12 @@
    "problemas": [
     {
      "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "65 caracteres: \"Kinesiólogo a Domicilio en Providencia | Kinesiología Profesional\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "alta",
      "tipo": "desc-larga",
      "detalle": "230 caracteres",
      "fix": "Acortar a <= 158"
@@ -1814,12 +2396,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-providencia",
    "status": 200,
-   "ms": 407,
+   "ms": 118,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en Providencia | KINEUM",
    "lenTitle": 59,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Providencia: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 151,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Providencia: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 141,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-providencia",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Providencia"
@@ -1887,12 +2469,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-providencia",
    "status": 200,
-   "ms": 411,
-   "kb": 129,
+   "ms": 95,
+   "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Providencia",
    "lenTitle": 56,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 149,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 129,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-providencia",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Providencia"
@@ -1960,11 +2542,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-providencia",
    "status": 200,
-   "ms": 479,
+   "ms": 77,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Providencia",
-   "lenTitle": 58,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Providencia: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Providencia",
+   "lenTitle": 52,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Providencia: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 151,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-providencia",
    "h1s": [
@@ -1972,7 +2554,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 890,
+   "palabras": 889,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -2032,12 +2614,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-providencia",
    "status": 200,
-   "ms": 384,
+   "ms": 105,
    "kb": 126,
    "title": "Rehabilitación Neurológica a Domicilio en Providencia",
    "lenTitle": 53,
-   "desc": "Kinesiólogo a domicilio en Providencia para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 153,
+   "desc": "Neurorehabilitación a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 110,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-providencia",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Providencia"
@@ -2104,12 +2686,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-providencia",
    "status": 200,
-   "ms": 398,
+   "ms": 114,
    "kb": 128,
    "title": "Kinesiología Traumatológica a Domicilio en Providencia",
    "lenTitle": 54,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 149,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 128,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-providencia",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Providencia"
@@ -2177,19 +2759,19 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-nunoa",
    "status": 200,
-   "ms": 349,
+   "ms": 109,
    "kb": 88,
-   "title": "Kinesiólogo a Domicilio en Ñuñoa e Irarrázaval | KINEUM",
-   "lenTitle": 55,
-   "desc": "Kinesiólogo a domicilio en Ñuñoa: Plaza Ñuñoa, Irarrázaval, Simón Bolívar y Villa Frei. Evaluación inicial gratuita, sin traslados ni salas de espera.",
-   "lenDesc": 150,
+   "title": "Kinesiólogo a Domicilio en Ñuñoa | Reembolso Isapre | KINEUM",
+   "lenTitle": 60,
+   "desc": "Kinesiología a domicilio en Ñuñoa. Rehabilitación kinesiológica en Plaza Ñuñoa, Irarrázaval y Simón Bolívar. Reserva tu hora hoy.",
+   "lenDesc": 129,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-nunoa",
    "h1s": [
     "Kinesiólogo a Domicilio en Ñuñoa Elimina tu dolor sin salir de casa"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 811,
+   "palabras": 812,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -2245,12 +2827,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-nunoa",
    "status": 200,
-   "ms": 370,
+   "ms": 114,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en Ñuñoa | KINEUM",
    "lenTitle": 53,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Ñuñoa: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 145,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Ñuñoa: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 135,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-nunoa",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Ñuñoa"
@@ -2318,12 +2900,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-nunoa",
    "status": 200,
-   "ms": 376,
+   "ms": 108,
    "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Ñuñoa | KINEUM",
    "lenTitle": 59,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 143,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 123,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-nunoa",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Ñuñoa"
@@ -2391,11 +2973,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-nunoa",
    "status": 200,
-   "ms": 360,
+   "ms": 95,
    "kb": 125,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Ñuñoa",
-   "lenTitle": 52,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Ñuñoa | KINEUM",
+   "lenTitle": 55,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Ñuñoa: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 145,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-nunoa",
    "h1s": [
@@ -2403,7 +2985,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 879,
+   "palabras": 880,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -2463,12 +3045,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-nunoa",
    "status": 200,
-   "ms": 349,
+   "ms": 81,
    "kb": 125,
    "title": "Rehabilitación Neurológica a Domicilio en Ñuñoa | KINEUM",
    "lenTitle": 56,
-   "desc": "Kinesiólogo a domicilio en Ñuñoa para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 147,
+   "desc": "Neurorehabilitación a domicilio en Ñuñoa: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 104,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-nunoa",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Ñuñoa"
@@ -2530,17 +3112,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "104 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-nunoa",
    "status": 200,
-   "ms": 354,
+   "ms": 117,
    "kb": 127,
    "title": "Kinesiología Traumatológica a Domicilio en Ñuñoa | KINEUM",
    "lenTitle": 57,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 143,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 122,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-nunoa",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Ñuñoa"
@@ -2608,12 +3197,12 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-la-reina",
    "status": 200,
-   "ms": 439,
+   "ms": 97,
    "kb": 88,
-   "title": "Kinesiólogo a Domicilio en La Reina y Plaza Egaña | KINEUM",
-   "lenTitle": 58,
-   "desc": "Kinesiólogo a domicilio en La Reina: La Reina Alta, Príncipe de Gales, Av. Ossa y Plaza Egaña. Evaluación inicial gratuita y horas en el día.",
-   "lenDesc": 141,
+   "title": "Kinesiólogo a Domicilio en La Reina | Reembolso Isapre | KINEUM",
+   "lenTitle": 63,
+   "desc": "Kinesiología a domicilio en La Reina. Especialistas en rehabilitación en La Reina Alta, Príncipe de Gales y Plaza Egaña.",
+   "lenDesc": 120,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-la-reina",
    "h1s": [
     "Kinesiólogo a Domicilio en La Reina Elimina tu dolor sin salir de casa"
@@ -2671,17 +3260,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "63 caracteres: \"Kinesiólogo a Domicilio en La Reina | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-la-reina",
    "status": 200,
-   "ms": 389,
+   "ms": 201,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en La Reina | KINEUM",
    "lenTitle": 56,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en La Reina: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 148,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en La Reina: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 138,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-la-reina",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en La Reina"
@@ -2749,12 +3345,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-la-reina",
    "status": 200,
-   "ms": 365,
+   "ms": 102,
    "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en La Reina",
    "lenTitle": 53,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en La Reina: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 146,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en La Reina: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 126,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-la-reina",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en La Reina"
@@ -2822,11 +3418,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-la-reina",
    "status": 200,
-   "ms": 743,
+   "ms": 87,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en La Reina",
-   "lenTitle": 55,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en La Reina | KINEUM",
+   "lenTitle": 58,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en La Reina: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 148,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-la-reina",
    "h1s": [
@@ -2834,7 +3430,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 900,
+   "palabras": 901,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -2894,12 +3490,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-la-reina",
    "status": 200,
-   "ms": 380,
+   "ms": 72,
    "kb": 125,
    "title": "Rehabilitación Neurológica a Domicilio en La Reina | KINEUM",
    "lenTitle": 59,
-   "desc": "Kinesiólogo a domicilio en La Reina para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 150,
+   "desc": "Neurorehabilitación a domicilio en La Reina: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 107,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-la-reina",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en La Reina"
@@ -2961,17 +3557,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "107 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-la-reina",
    "status": 200,
-   "ms": 389,
+   "ms": 84,
    "kb": 127,
    "title": "Kinesiología Traumatológica a Domicilio en La Reina | KINEUM",
    "lenTitle": 60,
-   "desc": "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 146,
+   "desc": "Kinesiólogo Traumatológico a domicilio en La Reina: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 125,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-la-reina",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en La Reina"
@@ -3039,12 +3642,12 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-lo-barnechea",
    "status": 200,
-   "ms": 371,
+   "ms": 99,
    "kb": 88,
-   "title": "Kinesiólogo a Domicilio en Lo Barnechea y La Dehesa | KINEUM",
+   "title": "Kinesiólogo a Domicilio en Lo Barnechea | La Dehesa | KINEUM",
    "lenTitle": 60,
-   "desc": "Kinesiólogo a domicilio en La Dehesa, Los Trapenses, El Arrayán y Cerro 18. Rehabilitación traumatológica y respiratoria. Primera evaluación sin costo.",
-   "lenDesc": 151,
+   "desc": "Kinesiología en La Dehesa y todo Lo Barnechea. Kinesiólogos a domicilio en Los Trapenses y El Arrayán. Rehabilitación traumatológica y respiratoria.",
+   "lenDesc": 148,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-lo-barnechea",
    "h1s": [
     "Kinesiólogo a Domicilio en Lo Barnechea Elimina tu dolor sin salir de casa"
@@ -3107,12 +3710,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-lo-barnechea",
    "status": 200,
-   "ms": 420,
+   "ms": 88,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en Lo Barnechea | KINEUM",
    "lenTitle": 60,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Lo Barnechea: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 152,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Lo Barnechea: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 142,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-lo-barnechea",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Lo Barnechea"
@@ -3180,12 +3783,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea",
    "status": 200,
-   "ms": 1236,
-   "kb": 129,
+   "ms": 105,
+   "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea",
    "lenTitle": 57,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 150,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 130,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea"
@@ -3248,23 +3851,16 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "1236ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-lo-barnechea",
    "status": 200,
-   "ms": 373,
+   "ms": 112,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Lo Barnechea",
-   "lenTitle": 59,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Lo Barnechea",
+   "lenTitle": 53,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 152,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-lo-barnechea",
    "h1s": [
@@ -3272,7 +3868,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 905,
+   "palabras": 904,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -3332,12 +3928,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-lo-barnechea",
    "status": 200,
-   "ms": 397,
+   "ms": 100,
    "kb": 126,
    "title": "Rehabilitación Neurológica a Domicilio en Lo Barnechea",
    "lenTitle": 54,
-   "desc": "Kinesiólogo a domicilio en Lo Barnechea para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 154,
+   "desc": "Neurorehabilitación a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 111,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-lo-barnechea",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Lo Barnechea"
@@ -3404,12 +4000,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-lo-barnechea",
    "status": 200,
-   "ms": 393,
+   "ms": 114,
    "kb": 128,
    "title": "Kinesiología Traumatológica a Domicilio en Lo Barnechea",
    "lenTitle": 55,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 150,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 129,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-lo-barnechea",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Lo Barnechea"
@@ -3477,19 +4073,19 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-la-florida",
    "status": 200,
-   "ms": 378,
+   "ms": 74,
    "kb": 90,
-   "title": "Kinesiólogo a Domicilio en La Florida: Vamos Hoy | KINEUM",
-   "lenTitle": 57,
-   "desc": "Kinesiólogo a domicilio en La Florida: Bellavista de La Florida, Walker Martínez y Los Quillayes. Evaluación gratuita y boleta reembolsable en tu isapre.",
-   "lenDesc": 153,
+   "title": "Kinesiólogo a Domicilio en La Florida | Reembolso Isapre | KINEUM",
+   "lenTitle": 65,
+   "desc": "Kinesiólogo a domicilio en La Florida. Rehabilitación post operatoria, respiratoria infantil, geriátrica y traumatológica. Reembolso Isapre.",
+   "lenDesc": 140,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-la-florida",
    "h1s": [
     "Kinesiólogo a Domicilio en La Florida Elimina tu dolor sin salir de casa"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 853,
+   "palabras": 854,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -3540,17 +4136,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "65 caracteres: \"Kinesiólogo a Domicilio en La Florida | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-la-florida",
    "status": 200,
-   "ms": 382,
+   "ms": 107,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en La Florida | KINEUM",
    "lenTitle": 58,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en La Florida: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 150,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en La Florida: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 140,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-la-florida",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en La Florida"
@@ -3618,12 +4221,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-la-florida",
    "status": 200,
-   "ms": 1232,
-   "kb": 129,
+   "ms": 285,
+   "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en La Florida",
    "lenTitle": 55,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en La Florida: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 148,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en La Florida: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 128,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-la-florida",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en La Florida"
@@ -3686,23 +4289,16 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "1232ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-la-florida",
    "status": 200,
-   "ms": 2529,
+   "ms": 124,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en La Florida",
-   "lenTitle": 57,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
+   "lenTitle": 60,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 150,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-la-florida",
    "h1s": [
@@ -3710,7 +4306,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 906,
+   "palabras": 907,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -3765,24 +4361,17 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2529ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-la-florida",
    "status": 200,
-   "ms": 2526,
+   "ms": 99,
    "kb": 126,
    "title": "Rehabilitación Neurológica a Domicilio en La Florida",
    "lenTitle": 52,
-   "desc": "Kinesiólogo a domicilio en La Florida para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 152,
+   "desc": "Neurorehabilitación a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 109,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-la-florida",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en La Florida"
@@ -3846,22 +4435,22 @@
    ],
    "problemas": [
     {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2526ms",
-     "fix": "Revisar cache/renderizado"
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "109 caracteres",
+     "fix": "Ampliar a 110-158"
     }
    ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-la-florida",
    "status": 200,
-   "ms": 2534,
+   "ms": 120,
    "kb": 128,
    "title": "Kinesiología Traumatológica a Domicilio en La Florida",
    "lenTitle": 53,
-   "desc": "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 148,
+   "desc": "Kinesiólogo Traumatológico a domicilio en La Florida: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 127,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-la-florida",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en La Florida"
@@ -3924,24 +4513,17 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2534ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-penalolen",
    "status": 200,
-   "ms": 2523,
+   "ms": 87,
    "kb": 90,
-   "title": "Kinesiólogo a Domicilio en Peñalolén y San Luis | KINEUM",
-   "lenTitle": 56,
-   "desc": "Kinesiólogo a domicilio en Peñalolén: Comunidad Ecológica, San Luis, Lo Hermida y Av. Grecia. Evaluación inicial gratuita, sin listas de espera.",
-   "lenDesc": 144,
+   "title": "Kinesiólogo a Domicilio en Peñalolén | Reembolso Isapre | KINEUM",
+   "lenTitle": 64,
+   "desc": "Kinesiólogo a domicilio en Peñalolén. Kinesiología respiratoria, geriátrica, post operatoria y rehabilitación neurológica. Reembolso Isapre.",
+   "lenDesc": 140,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-penalolen",
    "h1s": [
     "Kinesiólogo a Domicilio en Peñalolén Elimina tu dolor sin salir de casa"
@@ -4001,22 +4583,22 @@
    ],
    "problemas": [
     {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2523ms",
-     "fix": "Revisar cache/renderizado"
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "64 caracteres: \"Kinesiólogo a Domicilio en Peñalolén | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
     }
    ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-penalolen",
    "status": 200,
-   "ms": 2546,
+   "ms": 81,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en Peñalolén | KINEUM",
    "lenTitle": 57,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Peñalolén: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 149,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Peñalolén: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 139,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-penalolen",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Peñalolén"
@@ -4079,24 +4661,17 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2546ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-penalolen",
    "status": 200,
-   "ms": 2537,
+   "ms": 106,
    "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Peñalolén",
    "lenTitle": 54,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 147,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 127,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-penalolen",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Peñalolén"
@@ -4159,23 +4734,16 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2537ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-penalolen",
    "status": 200,
-   "ms": 2543,
+   "ms": 116,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Peñalolén",
-   "lenTitle": 56,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Peñalolén: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Peñalolén | KINEUM",
+   "lenTitle": 59,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Peñalolén: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 149,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-penalolen",
    "h1s": [
@@ -4183,7 +4751,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 880,
+   "palabras": 881,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -4238,24 +4806,17 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2543ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-penalolen",
    "status": 200,
-   "ms": 2530,
-   "kb": 126,
+   "ms": 110,
+   "kb": 125,
    "title": "Rehabilitación Neurológica a Domicilio en Peñalolén | KINEUM",
    "lenTitle": 60,
-   "desc": "Kinesiólogo a domicilio en Peñalolén para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 151,
+   "desc": "Neurorehabilitación a domicilio en Peñalolén: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 108,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-penalolen",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Peñalolén"
@@ -4319,22 +4880,22 @@
    ],
    "problemas": [
     {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2530ms",
-     "fix": "Revisar cache/renderizado"
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "108 caracteres",
+     "fix": "Ampliar a 110-158"
     }
    ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-penalolen",
    "status": 200,
-   "ms": 2539,
+   "ms": 92,
    "kb": 127,
    "title": "Kinesiología Traumatológica a Domicilio en Peñalolén",
    "lenTitle": 52,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Peñalolén: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 147,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Peñalolén: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 126,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-penalolen",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Peñalolén"
@@ -4397,24 +4958,17 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2539ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-macul",
    "status": 200,
-   "ms": 2519,
+   "ms": 74,
    "kb": 90,
-   "title": "Kinesiólogo a Domicilio en Macul y Santa Julia | KINEUM",
-   "lenTitle": 55,
-   "desc": "Kinesiólogo a domicilio en Macul: Villa Macul, Quilín, Santa Julia y Rodrigo de Araya. Evaluación inicial gratuita y rehabilitación sin salir de casa.",
-   "lenDesc": 150,
+   "title": "Kinesiólogo a Domicilio en Macul | Reembolso Isapre | KINEUM",
+   "lenTitle": 60,
+   "desc": "Kinesiólogo a domicilio en Macul. Rehabilitación traumatológica, respiratoria infantil, geriátrica y post quirúrgica. Reembolso Isapre. Evaluación gratis.",
+   "lenDesc": 154,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-macul",
    "h1s": [
     "Kinesiólogo a Domicilio en Macul Elimina tu dolor sin salir de casa"
@@ -4472,24 +5026,17 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": [
-    {
-     "sev": "media",
-     "tipo": "lento",
-     "detalle": "2519ms",
-     "fix": "Revisar cache/renderizado"
-    }
-   ]
+   "problemas": []
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-macul",
    "status": 200,
-   "ms": 1015,
+   "ms": 100,
    "kb": 127,
    "title": "Kinesiología Geriátrica a Domicilio en Macul | KINEUM",
    "lenTitle": 53,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Macul: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 145,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Macul: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 135,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-macul",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Macul"
@@ -4557,12 +5104,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-macul",
    "status": 200,
-   "ms": 1026,
+   "ms": 110,
    "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Macul | KINEUM",
    "lenTitle": 59,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 143,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 123,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-macul",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Macul"
@@ -4630,11 +5177,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-macul",
    "status": 200,
-   "ms": 1010,
+   "ms": 126,
    "kb": 125,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en Macul",
-   "lenTitle": 52,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en Macul | KINEUM",
+   "lenTitle": 55,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Macul: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 145,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-macul",
    "h1s": [
@@ -4642,7 +5189,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 872,
+   "palabras": 873,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -4702,12 +5249,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-macul",
    "status": 200,
-   "ms": 1012,
+   "ms": 145,
    "kb": 125,
    "title": "Rehabilitación Neurológica a Domicilio en Macul | KINEUM",
    "lenTitle": 56,
-   "desc": "Kinesiólogo a domicilio en Macul para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 147,
+   "desc": "Neurorehabilitación a domicilio en Macul: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 104,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-macul",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Macul"
@@ -4769,17 +5316,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "104 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-macul",
    "status": 200,
-   "ms": 1007,
+   "ms": 119,
    "kb": 127,
    "title": "Kinesiología Traumatológica a Domicilio en Macul | KINEUM",
    "lenTitle": 57,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Macul: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 143,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Macul: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 122,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-macul",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Macul"
@@ -4847,19 +5401,19 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-san-joaquin",
    "status": 200,
-   "ms": 993,
+   "ms": 113,
    "kb": 90,
-   "title": "Kinesiólogo a Domicilio en San Joaquín y Pedrero | KINEUM",
-   "lenTitle": 57,
-   "desc": "Kinesiólogo a domicilio en San Joaquín: Pedrero, La Castrina, El Pinar y eje Santa Rosa. Evaluación inicial gratuita y atención en tu propia casa.",
-   "lenDesc": 146,
+   "title": "Kinesiólogo a Domicilio en San Joaquín | Reembolso Isapre | KINEUM",
+   "lenTitle": 66,
+   "desc": "Kinesiólogo a domicilio en San Joaquín. Kinesiología respiratoria, geriátrica, traumatológica y rehabilitación neurológica. Reembolso Isapre.",
+   "lenDesc": 141,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-san-joaquin",
    "h1s": [
     "Kinesiólogo a Domicilio en San Joaquín Elimina tu dolor sin salir de casa"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 857,
+   "palabras": 858,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -4910,17 +5464,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "66 caracteres: \"Kinesiólogo a Domicilio en San Joaquín | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-san-joaquin",
    "status": 200,
-   "ms": 1019,
+   "ms": 90,
    "kb": 128,
    "title": "Kinesiología Geriátrica a Domicilio en San Joaquín | KINEUM",
    "lenTitle": 59,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 151,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 141,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-san-joaquin",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en San Joaquín"
@@ -4988,12 +5549,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin",
    "status": 200,
-   "ms": 1017,
-   "kb": 129,
+   "ms": 140,
+   "kb": 128,
    "title": "Rehabilitación Postquirúrgica a Domicilio en San Joaquín",
    "lenTitle": 56,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 149,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 129,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en San Joaquín"
@@ -5061,11 +5622,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-san-joaquin",
    "status": 200,
-   "ms": 1004,
+   "ms": 133,
    "kb": 126,
-   "title": "Kinesiología Respiratoria (KTR) a Domicilio en San Joaquín",
-   "lenTitle": 58,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "title": "Kinesiología Respiratoria a Domicilio en San Joaquín",
+   "lenTitle": 52,
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 151,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-san-joaquin",
    "h1s": [
@@ -5073,7 +5634,7 @@
    ],
    "nH1": 1,
    "h2n": 8,
-   "palabras": 908,
+   "palabras": 907,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5133,12 +5694,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-san-joaquin",
    "status": 200,
-   "ms": 1022,
+   "ms": 127,
    "kb": 126,
    "title": "Rehabilitación Neurológica a Domicilio en San Joaquín",
    "lenTitle": 53,
-   "desc": "Kinesiólogo a domicilio en San Joaquín para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 153,
+   "desc": "Neurorehabilitación a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 110,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-san-joaquin",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en San Joaquín"
@@ -5205,12 +5766,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-san-joaquin",
    "status": 200,
-   "ms": 1002,
+   "ms": 89,
    "kb": 128,
    "title": "Kinesiología Traumatológica a Domicilio en San Joaquín",
    "lenTitle": 54,
-   "desc": "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 149,
+   "desc": "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 128,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-san-joaquin",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en San Joaquín"
@@ -5278,19 +5839,19 @@
   {
    "url": "https://kineum.cl/kinesiologo-a-domicilio-santiago-centro",
    "status": 200,
-   "ms": 984,
+   "ms": 76,
    "kb": 91,
-   "title": "Kinesiólogo a Domicilio en Santiago Centro | KINEUM",
-   "lenTitle": 51,
-   "desc": "Kinesiólogo a domicilio en Santiago Centro: Lastarria, Brasil, Yungay, República y Santa Ana. Evaluación inicial gratuita y agenda por WhatsApp.",
-   "lenDesc": 144,
+   "title": "Kinesiólogo a Domicilio en Santiago Centro | Reembolso Isapre | KINEUM",
+   "lenTitle": 70,
+   "desc": "Kinesiólogo a domicilio en Santiago Centro. Rehabilitación post operatoria, respiratoria, geriátrica y neurológica. Reembolso Isapre. Evaluación gratis.",
+   "lenDesc": 152,
    "canonical": "https://kineum.cl/kinesiologo-a-domicilio-santiago-centro",
    "h1s": [
     "Kinesiólogo a Domicilio en Santiago Centro Elimina tu dolor sin salir de casa"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 845,
+   "palabras": 848,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5341,17 +5902,24 @@
     "/kinesiologo-a-domicilio-la-reina",
     "/kinesiologo-a-domicilio-nunoa"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "70 caracteres: \"Kinesiólogo a Domicilio en Santiago Centro | Reembolso Isapre | KINEUM\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/kinesiologia-geriatrica-santiago-centro",
    "status": 200,
-   "ms": 991,
+   "ms": 93,
    "kb": 129,
    "title": "Kinesiología Geriátrica a Domicilio en Santiago Centro",
    "lenTitle": 54,
-   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas y artrosis. Evaluación inicial gratuita.",
-   "lenDesc": 155,
+   "desc": "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
+   "lenDesc": 145,
    "canonical": "https://kineum.cl/kinesiologia-geriatrica-santiago-centro",
    "h1s": [
     "Kinesiología Geriátrica a Domicilio en Santiago Centro"
@@ -5419,12 +5987,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-postquirurgica-santiago-centro",
    "status": 200,
-   "ms": 972,
+   "ms": 97,
    "kb": 129,
    "title": "Rehabilitación Postquirúrgica a Domicilio en Santiago Centro",
    "lenTitle": 60,
-   "desc": "Kinesiólogo Post Operatorio a domicilio en Santiago Centro: prótesis de rodilla o cadera y artroscopias, desde el alta. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 153,
+   "desc": "Kinesiólogo Post Operatorio a domicilio en Santiago Centro: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
+   "lenDesc": 133,
    "canonical": "https://kineum.cl/rehabilitacion-postquirurgica-santiago-centro",
    "h1s": [
     "Rehabilitación Postquirúrgica a Domicilio en Santiago Centro"
@@ -5492,11 +6060,11 @@
   {
    "url": "https://kineum.cl/kinesiologia-respiratoria-santiago-centro",
    "status": 200,
-   "ms": 359,
+   "ms": 107,
    "kb": 126,
    "title": "Kinesiología Respiratoria a Domicilio en Santiago Centro",
    "lenTitle": 56,
-   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis, bronquitis obstructiva (SBO) y neumonía en recuperación. Evaluación gratuita.",
+   "desc": "Kinesiólogo Respiratorio (KTR) a domicilio en Santiago Centro: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
    "lenDesc": 155,
    "canonical": "https://kineum.cl/kinesiologia-respiratoria-santiago-centro",
    "h1s": [
@@ -5564,12 +6132,12 @@
   {
    "url": "https://kineum.cl/rehabilitacion-neurologica-santiago-centro",
    "status": 200,
-   "ms": 987,
+   "ms": 82,
    "kb": 126,
    "title": "Rehabilitación Neurológica a Domicilio en Santiago Centro",
    "lenTitle": 57,
-   "desc": "Kinesiólogo a domicilio en Santiago Centro para secuelas de ACV, Parkinson y esclerosis múltiple, con plan semanal en casa. Boleta reembolsable en tu Isapre.",
-   "lenDesc": 157,
+   "desc": "Neurorehabilitación a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
+   "lenDesc": 114,
    "canonical": "https://kineum.cl/rehabilitacion-neurologica-santiago-centro",
    "h1s": [
     "Rehabilitación Neurológica a Domicilio en Santiago Centro"
@@ -5636,12 +6204,12 @@
   {
    "url": "https://kineum.cl/kinesiologia-traumatologica-santiago-centro",
    "status": 200,
-   "ms": 997,
+   "ms": 111,
    "kb": 128,
    "title": "Kinesiología Traumatológica a Domicilio en Santiago Centro",
    "lenTitle": 58,
-   "desc": "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Evaluación gratuita.",
-   "lenDesc": 153,
+   "desc": "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
+   "lenDesc": 132,
    "canonical": "https://kineum.cl/kinesiologia-traumatologica-santiago-centro",
    "h1s": [
     "Kinesiología Traumatológica a Domicilio en Santiago Centro"
@@ -5709,11 +6277,11 @@
   {
    "url": "https://kineum.cl/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
    "status": 200,
-   "ms": 979,
-   "kb": 47,
-   "title": "¿Cuánto Cobra un Kinesiólogo a Domicilio? 2026 | KINEUM",
-   "lenTitle": 55,
-   "desc": "Sesión $30.000 a $45.000 y pack de 10 desde $35.000. Precios reales 2026 en Santiago y cuánto recuperas con tu Isapre. Evaluación inicial gratis.",
+   "ms": 100,
+   "kb": 48,
+   "title": "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026 | KINEUM Journal",
+   "lenTitle": 80,
+   "desc": "Sesión individual: $30.000–$45.000. Packs desde $35.000 por sesión. Valores reales 2026 y cuánto recuperas con tu Isapre y seguro complementario.",
    "lenDesc": 145,
    "canonical": "https://kineum.cl/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
    "h1s": [
@@ -5721,7 +6289,7 @@
    ],
    "nH1": 1,
    "h2n": 5,
-   "palabras": 740,
+   "palabras": 743,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5740,24 +6308,37 @@
     "/blog/reembolso-isapre-kinesiologia",
     "/como-funciona"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "80 caracteres: \"¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026 | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
    "status": 200,
-   "ms": 975,
+   "ms": 104,
    "kb": 44,
-   "title": "Reembolso Isapre en Kinesiología: Guía 2026 | KINEUM",
-   "lenTitle": 52,
-   "desc": "Cuánto cubre cada isapre, qué documentos pedir y cómo recuperar hasta el 80% de tus sesiones de kinesiología a domicilio. Con ejemplo de costo final.",
-   "lenDesc": 149,
+   "title": "Reembolso Isapre en Kinesiología: Guía Completa 2026 | KINEUM Journal",
+   "lenTitle": 69,
+   "desc": "Cómo recuperar hasta el 80% del valor de tus sesiones de kinesiología a domicilio, isapre por isapre.",
+   "lenDesc": 101,
    "canonical": "https://kineum.cl/blog/reembolso-isapre-kinesiologia",
    "h1s": [
     "Reembolso Isapre en Kinesiología: Guía Completa 2026"
    ],
    "nH1": 1,
    "h2n": 5,
-   "palabras": 532,
+   "palabras": 534,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5775,24 +6356,43 @@
     "/precios",
     "/como-funciona"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "69 caracteres: \"Reembolso Isapre en Kinesiología: Guía Completa 2026 | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "101 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/kinesiologia-respiratoria-infantil-domicilio",
    "status": 200,
-   "ms": 357,
+   "ms": 103,
    "kb": 46,
-   "title": "Kinesiología Respiratoria Infantil: Cuándo Sirve | KINEUM",
-   "lenTitle": 57,
-   "desc": "Bronquiolitis y tos de invierno: cuándo la KTR ayuda a tu guagua, cuándo es urgencia y cuándo no sirve. Guía clara para padres y atención en casa.",
-   "lenDesc": 146,
+   "title": "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres | KINEUM Journal",
+   "lenTitle": 81,
+   "desc": "Bronquiolitis, mocos que no salen y tos de invierno: cuándo sirve la KTR, cuándo es urgencia y por qué en casa funciona mejor.",
+   "lenDesc": 126,
    "canonical": "https://kineum.cl/blog/kinesiologia-respiratoria-infantil-domicilio",
    "h1s": [
     "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 584,
+   "palabras": 588,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5822,24 +6422,37 @@
     "/kinesiologia-respiratoria-santiago-centro",
     "/servicios/respiratoria"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "81 caracteres: \"Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
    "status": 200,
-   "ms": 407,
+   "ms": 89,
    "kb": 46,
-   "title": "Kinesiología de Piso Pélvico Post Parto en Casa | KINEUM",
-   "lenTitle": 56,
-   "desc": "Cuándo partir después del parto, qué se trabaja semana a semana y cómo reconocer una diástasis abdominal. Guía informativa de recuperación en casa.",
-   "lenDesc": 147,
+   "title": "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026 | KINEUM Journal",
+   "lenTitle": 79,
+   "desc": "Cuándo empezar, qué se trabaja en cada etapa y por qué la rehabilitación en casa es ideal con un recién nacido.",
+   "lenDesc": 111,
    "canonical": "https://kineum.cl/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
    "h1s": [
     "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 675,
+   "palabras": 678,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5858,24 +6471,37 @@
     "/precios",
     "/blog/suelo-pelvico-mujer"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "79 caracteres: \"Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026 | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/drenaje-linfatico-post-operatorio-domicilio",
    "status": 200,
-   "ms": 407,
+   "ms": 77,
    "kb": 44,
-   "title": "Drenaje Linfático Post Operatorio a Domicilio | KINEUM",
-   "lenTitle": 54,
-   "desc": "Cuántas sesiones necesitas tras una cirugía, cuándo empezar y cómo el drenaje baja el edema sin salir de casa. Kinesiólogos a domicilio en Santiago.",
-   "lenDesc": 148,
+   "title": "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar | KINEUM Journal",
+   "lenTitle": 75,
+   "desc": "Abdominoplastia, liposucción, prótesis de rodilla o cadera: cómo el drenaje acelera tu recuperación sin salir de casa.",
+   "lenDesc": 118,
    "canonical": "https://kineum.cl/blog/drenaje-linfatico-post-operatorio-domicilio",
    "h1s": [
     "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar"
    ],
    "nH1": 1,
    "h2n": 6,
-   "palabras": 536,
+   "palabras": 539,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5895,24 +6521,37 @@
     "/precios",
     "/blog/drenaje-linfatico-manual"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "75 caracteres: \"Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
    "status": 200,
-   "ms": 409,
-   "kb": 41,
-   "title": "Rehabilitación Post ACV en Casa: Cuándo Empezar | KINEUM",
-   "lenTitle": 56,
-   "desc": "Cuándo iniciar la kinesiología tras un ACV, cuántas sesiones se necesitan y qué se hace en casa. Guía para la familia, con evaluación inicial gratis.",
-   "lenDesc": 149,
+   "ms": 90,
+   "kb": 40,
+   "title": "Neuroplasticidad: Acelerando la recuperación post-ACV | KINEUM Journal",
+   "lenTitle": 70,
+   "desc": "Cómo la tecnología y los ejercicios cognitivos potencian la capacidad del cerebro para sanar.",
+   "lenDesc": 93,
    "canonical": "https://kineum.cl/blog/neuroplasticidad-recuperacion-acv",
    "h1s": [
     "Neuroplasticidad: Acelerando la recuperación post-ACV"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 293,
+   "palabras": 292,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5931,15 +6570,27 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "70 caracteres: \"Neuroplasticidad: Acelerando la recuperación post-ACV | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
      "sev": "media",
-     "tipo": "title-sin-keyword",
-     "detalle": "No contiene la raiz de \"neuroplasticidad recuperacion acv\"",
-     "fix": "Incluir la keyword principal"
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "93 caracteres",
+     "fix": "Ampliar a 110-158"
     },
     {
      "sev": "alta",
      "tipo": "contenido-corto",
-     "detalle": "293 palabras de texto visible",
+     "detalle": "292 palabras de texto visible",
      "fix": "Ampliar a mas de 300"
     }
    ]
@@ -5947,19 +6598,19 @@
   {
    "url": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
    "status": 200,
-   "ms": 397,
+   "ms": 91,
    "kb": 40,
-   "title": "Ergonomía en el Home Office sin Dolor de Espalda | KINEUM",
-   "lenTitle": 57,
-   "desc": "Altura de silla, pantalla y teclado, más las pausas que sí funcionan para evitar el dolor de espalda y cuello desde casa. Guía kinesiológica 2026.",
-   "lenDesc": 146,
+   "title": "Ergonomía en el Home Office: Guía Definitiva | KINEUM Journal",
+   "lenTitle": 61,
+   "desc": "Protocolos clínicos para prevenir el dolor lumbar y cervical trabajando desde casa.",
+   "lenDesc": 83,
    "canonical": "https://kineum.cl/blog/ergonomia-home-office-guia-2024",
    "h1s": [
     "Ergonomía en el Home Office: Guía Definitiva"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 370,
+   "palabras": 369,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -5976,24 +6627,43 @@
     "/manifest.webmanifest",
     "/blog/tunel-carpiano-alivio"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "61 caracteres: \"Ergonomía en el Home Office: Guía Definitiva | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "83 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
    "status": 200,
-   "ms": 395,
+   "ms": 158,
    "kb": 40,
-   "title": "Sarcopenia en el Adulto Mayor: Tratamiento | KINEUM",
-   "lenTitle": 51,
-   "desc": "Por qué el adulto mayor pierde fuerza, cómo detectarlo a tiempo y qué ejercicios recuperan masa muscular en casa. Evaluación kinesiológica gratuita.",
-   "lenDesc": 148,
+   "title": "Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital | KINEUM Journal",
+   "lenTitle": 70,
+   "desc": "Estrategias para mantener la vitalidad muscular en la tercera edad.",
+   "lenDesc": 67,
    "canonical": "https://kineum.cl/blog/sarcopenia-fuerza-es-salud",
    "h1s": [
     "Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 346,
+   "palabras": 351,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6010,24 +6680,43 @@
     "/manifest.webmanifest",
     "/servicios/geriatrica"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "70 caracteres: \"Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "67 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/lumbago-agudo-que-hacer",
    "status": 200,
-   "ms": 198,
-   "kb": 40,
-   "title": "Lumbago Agudo: Qué Hacer las Primeras 48 Horas | KINEUM",
-   "lenTitle": 55,
-   "desc": "Reposo o movimiento, cuándo consultar, cómo reconocer una ciática y qué pasa con una hernia. Guía kinesiológica del dolor lumbar, paso a paso.",
-   "lenDesc": 142,
+   "ms": 76,
+   "kb": 39,
+   "title": "Lumbago Agudo: ¿Reposo o Movimiento? | KINEUM Journal",
+   "lenTitle": 53,
+   "desc": "La guía clínica para manejar el dolor de espalda baja en las primeras 48 horas.",
+   "lenDesc": 79,
    "canonical": "https://kineum.cl/blog/lumbago-agudo-que-hacer",
    "h1s": [
     "Lumbago Agudo: ¿Reposo o Movimiento?"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 348,
+   "palabras": 346,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6044,24 +6733,37 @@
     "/manifest.webmanifest",
     "/ejercicios"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "79 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
    "status": 200,
-   "ms": 400,
-   "kb": 40,
-   "title": "Esguince de Tobillo: ¿Cuánto Demora en Sanar? | KINEUM",
-   "lenTitle": 54,
-   "desc": "Plazos reales por grado de esguince, cuándo volver a apoyar el pie y los ejercicios de propiocepción que evitan que se repita. Rehabilitación en casa.",
-   "lenDesc": 150,
+   "ms": 85,
+   "kb": 39,
+   "title": "Esguince de Tobillo: Protocolo de Recuperación Acelerada | KINEUM Journal",
+   "lenTitle": 73,
+   "desc": "Cómo volver a caminar sin dolor más rápido con carga progresiva y movilidad temprana.",
+   "lenDesc": 85,
    "canonical": "https://kineum.cl/blog/esguince-tobillo-recuperacion",
    "h1s": [
     "Esguince de Tobillo: Protocolo de Recuperación Acelerada"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 307,
+   "palabras": 308,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6078,24 +6780,43 @@
     "/manifest.webmanifest",
     "/servicios/traumatologica"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "73 caracteres: \"Esguince de Tobillo: Protocolo de Recuperación Acelerada | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "85 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
    "status": 200,
-   "ms": 390,
-   "kb": 40,
-   "title": "Ciática o Falsa Ciática: Síntomas y Tratamiento | KINEUM",
-   "lenTitle": 56,
-   "desc": "Cómo distinguir una ciática real del síndrome del piramidal, qué la alivia de verdad y cuándo consultar. Kinesiología a domicilio en Santiago.",
-   "lenDesc": 142,
+   "ms": 82,
+   "kb": 39,
+   "title": "Ciática: Diferenciando el Dolor Real de la Falsa Ciática | KINEUM Journal",
+   "lenTitle": 73,
+   "desc": "Síndrome del piramidal vs. hernia discal: ¿cuál tienes tú?",
+   "lenDesc": 58,
    "canonical": "https://kineum.cl/blog/ciatica-sintomas-tratamiento",
    "h1s": [
     "Ciática: Diferenciando el Dolor Real de la Falsa Ciática"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 330,
+   "palabras": 333,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6111,24 +6832,43 @@
     "/_next/static/chunks/webpack-fc1e3935bba0a7ea.js",
     "/manifest.webmanifest"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "73 caracteres: \"Ciática: Diferenciando el Dolor Real de la Falsa Ciática | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "58 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
    "status": 200,
-   "ms": 403,
+   "ms": 83,
    "kb": 39,
-   "title": "Manguito Rotador: Rehabilitación sin Cirugía | KINEUM",
-   "lenTitle": 53,
-   "desc": "Por qué duele el hombro al levantar el brazo, qué ejercicios recuperan el manguito rotador y cuándo sí se opera. Kinesiólogo a domicilio Santiago.",
-   "lenDesc": 146,
+   "title": "Tendinitis de Hombro: Salvando tu Manguito Rotador | KINEUM Journal",
+   "lenTitle": 67,
+   "desc": "Ejercicios clave para evitar la cirugía en lesiones de hombro.",
+   "lenDesc": 62,
    "canonical": "https://kineum.cl/blog/tendinitis-hombro-manguito-rotador",
    "h1s": [
     "Tendinitis de Hombro: Salvando tu Manguito Rotador"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 320,
+   "palabras": 323,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6147,29 +6887,41 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "67 caracteres: \"Tendinitis de Hombro: Salvando tu Manguito Rotador | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
      "sev": "media",
-     "tipo": "title-sin-keyword",
-     "detalle": "No contiene la raiz de \"tendinitis hombro manguito rotador\"",
-     "fix": "Incluir la keyword principal"
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "62 caracteres",
+     "fix": "Ampliar a 110-158"
     }
    ]
   },
   {
    "url": "https://kineum.cl/blog/artrosis-rodilla-ejercicios",
    "status": 200,
-   "ms": 392,
+   "ms": 86,
    "kb": 39,
-   "title": "Artrosis de Rodilla: Ejercicios que Sí Alivian | KINEUM",
-   "lenTitle": 55,
-   "desc": "Qué ejercicios bajan el dolor de artrosis de rodilla más que los analgésicos, cuántas veces por semana y cuáles evitar. Guía kinesiológica en casa.",
-   "lenDesc": 147,
+   "title": "Vivir sin Dolor con Artrosis de Rodilla | KINEUM Journal",
+   "lenTitle": 56,
+   "desc": "Por qué el ejercicio reduce más el dolor que los analgésicos en la osteoartritis.",
+   "lenDesc": 81,
    "canonical": "https://kineum.cl/blog/artrosis-rodilla-ejercicios",
    "h1s": [
     "Vivir sin Dolor con Artrosis de Rodilla"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 313,
+   "palabras": 314,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6186,24 +6938,37 @@
     "/manifest.webmanifest",
     "/servicios/geriatrica"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "81 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
    "status": 200,
-   "ms": 374,
-   "kb": 41,
-   "title": "Parálisis Facial: Las Primeras 72 Horas Son Clave | KINEUM",
-   "lenTitle": 58,
-   "desc": "Qué hacer los primeros días de una parálisis facial, qué ejercicios recuperan la simetría y qué evitar. Rehabilitación a domicilio en Santiago.",
-   "lenDesc": 143,
+   "ms": 77,
+   "kb": 40,
+   "title": "Parálisis Facial: La Importancia de las Primeras 72 Horas | KINEUM Journal",
+   "lenTitle": 74,
+   "desc": "Estimulación temprana para recuperar la simetría y función facial.",
+   "lenDesc": 66,
    "canonical": "https://kineum.cl/blog/paralisis-facial-rehabilitacion",
    "h1s": [
     "Parálisis Facial: La Importancia de las Primeras 72 Horas"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 324,
+   "palabras": 326,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6220,24 +6985,43 @@
     "/manifest.webmanifest",
     "/servicios/neurologica"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "74 caracteres: \"Parálisis Facial: La Importancia de las Primeras 72 Horas | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "66 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/tunel-carpiano-alivio",
    "status": 200,
-   "ms": 363,
+   "ms": 83,
    "kb": 39,
-   "title": "Túnel Carpiano: ¿Se Puede Evitar la Cirugía? | KINEUM",
-   "lenTitle": 53,
-   "desc": "Cómo liberar el nervio mediano sin pabellón, qué ejercicios y férulas sirven y cuándo la cirugía es inevitable. Kinesiología a domicilio Santiago.",
-   "lenDesc": 146,
+   "title": "Túnel Carpiano: ¿Cirugía o Kinesiología? | KINEUM Journal",
+   "lenTitle": 57,
+   "desc": "Estrategias para liberar el nervio mediano sin pasar por pabellón.",
+   "lenDesc": 66,
    "canonical": "https://kineum.cl/blog/tunel-carpiano-alivio",
    "h1s": [
     "Túnel Carpiano: ¿Cirugía o Kinesiología?"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 305,
+   "palabras": 304,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6254,24 +7038,37 @@
     "/manifest.webmanifest",
     "/blog/ergonomia-home-office-guia-2024"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "66 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/fascitis-plantar-solucion",
    "status": 200,
-   "ms": 377,
+   "ms": 71,
    "kb": 39,
-   "title": "Fascitis Plantar: El Dolor del Primer Paso | KINEUM",
-   "lenTitle": 51,
-   "desc": "Por qué el primer paso de la mañana duele tanto, qué ejercicios de carga progresiva funcionan y cuánto demora. Kinesiólogo a domicilio en Santiago.",
-   "lenDesc": 147,
+   "title": "Fascitis Plantar: El Dolor del Primer Paso de la Mañana | KINEUM Journal",
+   "lenTitle": 72,
+   "desc": "Cómo tratar el dolor de talón crónico con carga progresiva.",
+   "lenDesc": 59,
    "canonical": "https://kineum.cl/blog/fascitis-plantar-solucion",
    "h1s": [
     "Fascitis Plantar: El Dolor del Primer Paso de la Mañana"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 324,
+   "palabras": 328,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6287,24 +7084,43 @@
     "/_next/static/chunks/webpack-fc1e3935bba0a7ea.js",
     "/manifest.webmanifest"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "72 caracteres: \"Fascitis Plantar: El Dolor del Primer Paso de la Mañana | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "59 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/kinesiologia-post-covid",
    "status": 200,
-   "ms": 370,
-   "kb": 40,
-   "title": "Rehabilitación Respiratoria Post Neumonía | KINEUM",
-   "lenTitle": 50,
-   "desc": "Cómo recuperar la capacidad pulmonar después de una neumonía o una hospitalización, con qué ejercicios y en cuántas semanas. Kinesiología en casa.",
-   "lenDesc": 146,
+   "ms": 85,
+   "kb": 39,
+   "title": "Rehabilitación Respiratoria Post-COVID y Neumonía | KINEUM Journal",
+   "lenTitle": 66,
+   "desc": "Recuperando tu capacidad pulmonar al 100%.",
+   "lenDesc": 42,
    "canonical": "https://kineum.cl/blog/kinesiologia-post-covid",
    "h1s": [
     "Rehabilitación Respiratoria Post-COVID y Neumonía"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 297,
+   "palabras": 299,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6323,15 +7139,33 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "66 caracteres: \"Rehabilitación Respiratoria Post-COVID y Neumonía | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
      "sev": "media",
      "tipo": "title-sin-keyword",
      "detalle": "No contiene la raiz de \"kinesiologia post covid\"",
      "fix": "Incluir la keyword principal"
     },
     {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "42 caracteres",
+     "fix": "Ampliar a 110-158"
+    },
+    {
      "sev": "alta",
      "tipo": "contenido-corto",
-     "detalle": "297 palabras de texto visible",
+     "detalle": "299 palabras de texto visible",
      "fix": "Ampliar a mas de 300"
     }
    ]
@@ -6339,19 +7173,19 @@
   {
    "url": "https://kineum.cl/blog/drenaje-linfatico-manual",
    "status": 200,
-   "ms": 372,
-   "kb": 40,
-   "title": "Drenaje Linfático Manual: Cuándo Está Indicado | KINEUM",
-   "lenTitle": 55,
-   "desc": "Edema, retención de líquidos y post operatorio: cuándo el drenaje linfático tiene indicación clínica real y cuándo no. Atención a domicilio Santiago.",
-   "lenDesc": 149,
+   "ms": 78,
+   "kb": 39,
+   "title": "Drenaje Linfático: Más que Estética, es Salud | KINEUM Journal",
+   "lenTitle": 62,
+   "desc": "Indicaciones médicas para el edema y la retención de líquidos.",
+   "lenDesc": 62,
    "canonical": "https://kineum.cl/blog/drenaje-linfatico-manual",
    "h1s": [
     "Drenaje Linfático: Más que Estética, es Salud"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 326,
+   "palabras": 328,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6369,24 +7203,43 @@
     "/blog/drenaje-linfatico-post-operatorio-domicilio",
     "/precios"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "62 caracteres: \"Drenaje Linfático: Más que Estética, es Salud | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "62 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/bruxismo-dolor-cervical",
    "status": 200,
-   "ms": 358,
+   "ms": 71,
    "kb": 39,
-   "title": "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM",
-   "lenTitle": 54,
-   "desc": "Por qué apretar los dientes termina en dolor de cuello, qué ejercicios relajan la mandíbula y cuándo consultar. Kinesiología a domicilio Santiago.",
-   "lenDesc": 146,
+   "title": "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM Journal",
+   "lenTitle": 62,
+   "desc": "Relajando la mandíbula para curar el cuello.",
+   "lenDesc": 44,
    "canonical": "https://kineum.cl/blog/bruxismo-dolor-cervical",
    "h1s": [
     "Bruxismo y Dolor Cervical: La Conexión Oculta"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 291,
+   "palabras": 292,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6405,8 +7258,26 @@
    "problemas": [
     {
      "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "62 caracteres: \"Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "44 caracteres",
+     "fix": "Ampliar a 110-158"
+    },
+    {
+     "sev": "alta",
      "tipo": "contenido-corto",
-     "detalle": "291 palabras de texto visible",
+     "detalle": "292 palabras de texto visible",
      "fix": "Ampliar a mas de 300"
     }
    ]
@@ -6414,19 +7285,19 @@
   {
    "url": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
    "status": 200,
-   "ms": 362,
+   "ms": 68,
    "kb": 40,
-   "title": "Fractura de Cadera: ¿Cuándo Vuelve a Caminar? | KINEUM",
-   "lenTitle": 54,
-   "desc": "Plazos reales semana a semana tras una fractura o prótesis de cadera, qué se logra en cada etapa y cuántas sesiones toma. Rehabilitación en casa.",
-   "lenDesc": 145,
+   "title": "Fractura de Cadera: El Camino para Volver a Caminar | KINEUM Journal",
+   "lenTitle": 68,
+   "desc": "Rehabilitación intensiva para recuperar la independencia.",
+   "lenDesc": 57,
    "canonical": "https://kineum.cl/blog/fractura-cadera-adulto-mayor",
    "h1s": [
     "Fractura de Cadera: El Camino para Volver a Caminar"
    ],
    "nH1": 1,
    "h2n": 4,
-   "palabras": 377,
+   "palabras": 380,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6444,24 +7315,43 @@
     "/precios",
     "/servicios/geriatrica"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "68 caracteres: \"Fractura de Cadera: El Camino para Volver a Caminar | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "57 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/suelo-pelvico-mujer",
    "status": 200,
-   "ms": 357,
-   "kb": 40,
-   "title": "Piso Pélvico Femenino: Incontinencia y Prolapso | KINEUM",
-   "lenTitle": 56,
-   "desc": "Cómo se previenen y se tratan la incontinencia y el prolapso con ejercicios de suelo pélvico, y cuándo consultar. Guía informativa de salud femenina.",
-   "lenDesc": 149,
+   "ms": 82,
+   "kb": 39,
+   "title": "Kinesiología de Piso Pélvico: Salud Femenina Integral | KINEUM Journal",
+   "lenTitle": 70,
+   "desc": "Prevención y tratamiento de la incontinencia y los prolapsos.",
+   "lenDesc": 61,
    "canonical": "https://kineum.cl/blog/suelo-pelvico-mujer",
    "h1s": [
     "Kinesiología de Piso Pélvico: Salud Femenina Integral"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 321,
+   "palabras": 323,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6480,29 +7370,47 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "70 caracteres: \"Kinesiología de Piso Pélvico: Salud Femenina Integral | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
      "sev": "media",
      "tipo": "title-sin-keyword",
      "detalle": "No contiene la raiz de \"suelo pelvico mujer\"",
      "fix": "Incluir la keyword principal"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "61 caracteres",
+     "fix": "Ampliar a 110-158"
     }
    ]
   },
   {
    "url": "https://kineum.cl/blog/epicondilitis-codo-tenista",
    "status": 200,
-   "ms": 353,
+   "ms": 65,
    "kb": 39,
-   "title": "Codo de Tenista: Tratamiento y Recuperación | KINEUM",
-   "lenTitle": 52,
-   "desc": "Por qué el mouse y el teclado inflaman el codo, qué ejercicios excéntricos lo recuperan y cuánto demora. Kinesiólogo a domicilio en Santiago.",
-   "lenDesc": 141,
+   "title": "Codo de Tenista (Epicondilitis): No Solo para Deportistas | KINEUM Journal",
+   "lenTitle": 74,
+   "desc": "Cómo el uso del mouse y el teclado inflaman tu codo.",
+   "lenDesc": 52,
    "canonical": "https://kineum.cl/blog/epicondilitis-codo-tenista",
    "h1s": [
     "Codo de Tenista (Epicondilitis): No Solo para Deportistas"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 327,
+   "palabras": 330,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6520,22 +7428,34 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "74 caracteres: \"Codo de Tenista (Epicondilitis): No Solo para Deportistas | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
      "sev": "media",
-     "tipo": "title-sin-keyword",
-     "detalle": "No contiene la raiz de \"epicondilitis codo tenista\"",
-     "fix": "Incluir la keyword principal"
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "52 caracteres",
+     "fix": "Ampliar a 110-158"
     }
    ]
   },
   {
    "url": "https://kineum.cl/blog/escoliosis-en-ninos",
    "status": 200,
-   "ms": 364,
-   "kb": 40,
-   "title": "Escoliosis en Niños: Cuándo Hay que Preocuparse | KINEUM",
-   "lenTitle": 56,
-   "desc": "Cómo detectar una escoliosis en casa, qué grados requieren corsé o cirugía y qué aporta la kinesiología. Guía para padres con evaluación gratuita.",
-   "lenDesc": 146,
+   "ms": 85,
+   "kb": 39,
+   "title": "Escoliosis en Niños: Detección y Tratamiento | KINEUM Journal",
+   "lenTitle": 61,
+   "desc": "¿Cuándo preocuparse por la columna de tu hijo?",
+   "lenDesc": 46,
    "canonical": "https://kineum.cl/blog/escoliosis-en-ninos",
    "h1s": [
     "Escoliosis en Niños: Detección y Tratamiento"
@@ -6558,24 +7478,43 @@
     "/_next/static/chunks/webpack-fc1e3935bba0a7ea.js",
     "/manifest.webmanifest"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "61 caracteres: \"Escoliosis en Niños: Detección y Tratamiento | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "46 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/hernia-discal-operacion",
    "status": 200,
-   "ms": 364,
+   "ms": 78,
    "kb": 40,
-   "title": "Hernia Discal: ¿Se Puede Reabsorber Sola? | KINEUM",
-   "lenTitle": 50,
-   "desc": "Qué dice la evidencia sobre la reabsorción de las hernias, cuánto demora y cuándo la cirugía es realmente necesaria. Kinesiología a domicilio.",
-   "lenDesc": 142,
+   "title": "Hernia Discal: ¿Se Puede Reabsorber Sola? | KINEUM Journal",
+   "lenTitle": 58,
+   "desc": "La evidencia científica sobre la curación natural de las hernias.",
+   "lenDesc": 65,
    "canonical": "https://kineum.cl/blog/hernia-discal-operacion",
    "h1s": [
     "Hernia Discal: ¿Se Puede Reabsorber Sola?"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 346,
+   "palabras": 347,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6591,24 +7530,37 @@
     "/_next/static/chunks/webpack-fc1e3935bba0a7ea.js",
     "/manifest.webmanifest"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "65 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
    "status": 200,
-   "ms": 396,
-   "kb": 40,
-   "title": "Masaje Descontracturante vs. Terapéutico: ¿Cuál? | KINEUM",
-   "lenTitle": 57,
-   "desc": "En qué se diferencian, cuál sirve para tu dolor y cuándo necesitas kinesiología y no solo masaje. Atención a domicilio en Santiago, evaluación gratis.",
-   "lenDesc": 150,
+   "ms": 70,
+   "kb": 39,
+   "title": "Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito? | KINEUM Journal",
+   "lenTitle": 74,
+   "desc": "Eligiendo la terapia manual adecuada para tu dolor.",
+   "lenDesc": 51,
    "canonical": "https://kineum.cl/blog/masaje-descontracturante-vs-terapeutico",
    "h1s": [
     "Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito?"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 314,
+   "palabras": 316,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6625,24 +7577,43 @@
     "/manifest.webmanifest",
     "/como-funciona"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "74 caracteres: \"Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito? | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "51 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/protesis-rodilla-recuperacion",
    "status": 200,
-   "ms": 403,
-   "kb": 40,
-   "title": "Prótesis de Rodilla: Recuperación Semana a Semana | KINEUM",
-   "lenTitle": 58,
-   "desc": "Cuándo empezar la kinesiología tras la operación, cuántas sesiones toma llegar a 120° y cuándo se suelta el bastón. Rehabilitación en tu casa.",
-   "lenDesc": 142,
+   "ms": 77,
+   "kb": 39,
+   "title": "Vida Después de la Prótesis de Rodilla | KINEUM Journal",
+   "lenTitle": 55,
+   "desc": "Cómo lograr doblar la rodilla a 120° y volver a caminar sin bastón.",
+   "lenDesc": 67,
    "canonical": "https://kineum.cl/blog/protesis-rodilla-recuperacion",
    "h1s": [
     "Vida Después de la Prótesis de Rodilla"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 345,
+   "palabras": 346,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6660,24 +7631,37 @@
     "/servicios/traumatologica",
     "/precios"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "67 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   },
   {
    "url": "https://kineum.cl/blog/cervicalgia-mareos",
    "status": 200,
-   "ms": 370,
-   "kb": 41,
-   "title": "Dolor Cervical y Mareos: Por Qué Se Relacionan | KINEUM",
-   "lenTitle": 55,
-   "desc": "Cómo saber si tus mareos vienen del cuello, qué los diferencia de un vértigo y cómo se tratan. Kinesiología a domicilio en Santiago, evaluación gratis.",
-   "lenDesc": 151,
+   "ms": 66,
+   "kb": 40,
+   "title": "Dolor Cervical y Mareos: ¿Están Relacionados? | KINEUM Journal",
+   "lenTitle": 62,
+   "desc": "El mareo cervicogénico y cómo tratarlo.",
+   "lenDesc": 39,
    "canonical": "https://kineum.cl/blog/cervicalgia-mareos",
    "h1s": [
     "Dolor Cervical y Mareos: ¿Están Relacionados?"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 336,
+   "palabras": 335,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6696,29 +7680,47 @@
    ],
    "problemas": [
     {
+     "sev": "alta",
+     "tipo": "title-largo",
+     "detalle": "62 caracteres: \"Dolor Cervical y Mareos: ¿Están Relacionados? | KINEUM Journal\"",
+     "fix": "Acortar a <= 60 manteniendo la keyword al inicio"
+    },
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
      "sev": "media",
      "tipo": "title-sin-keyword",
      "detalle": "No contiene la raiz de \"cervicalgia mareos\"",
      "fix": "Incluir la keyword principal"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "39 caracteres",
+     "fix": "Ampliar a 110-158"
     }
    ]
   },
   {
    "url": "https://kineum.cl/blog/fibromialgia-ejercicio",
    "status": 200,
-   "ms": 359,
+   "ms": 73,
    "kb": 39,
-   "title": "Fibromialgia: Ejercicio para el Dolor Crónico | KINEUM",
-   "lenTitle": 54,
-   "desc": "Por qué el ejercicio dosificado alivia la fibromialgia, cómo empezar sin recaer y qué evitar en los días malos. Kinesiología a domicilio Santiago.",
-   "lenDesc": 146,
+   "title": "Fibromialgia: Rompiendo el Ciclo de Dolor | KINEUM Journal",
+   "lenTitle": 58,
+   "desc": "Ejercicio suave como medicina para el dolor crónico.",
+   "lenDesc": 52,
    "canonical": "https://kineum.cl/blog/fibromialgia-ejercicio",
    "h1s": [
     "Fibromialgia: Rompiendo el Ciclo de Dolor"
    ],
    "nH1": 1,
    "h2n": 3,
-   "palabras": 324,
+   "palabras": 325,
    "imgs": 0,
    "imgsSinAlt": 0,
    "schemaTipos": [
@@ -6734,7 +7736,20 @@
     "/_next/static/chunks/webpack-fc1e3935bba0a7ea.js",
     "/manifest.webmanifest"
    ],
-   "problemas": []
+   "problemas": [
+    {
+     "sev": "media",
+     "tipo": "title-sufijo",
+     "detalle": "Usa el sufijo \" | KINEUM Journal\" (17 caracteres)",
+     "fix": "Reemplazar por \" | KINEUM\" o quitarlo"
+    },
+    {
+     "sev": "baja",
+     "tipo": "desc-corta",
+     "detalle": "52 caracteres",
+     "fix": "Ampliar a 110-158"
+    }
+   ]
   }
  ]
 }

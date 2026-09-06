@@ -77,7 +77,14 @@ function analizar(url, r) {
         for (const s of RULES.title.sufijosProhibidos) {
             if (title.includes(s)) P('media', 'title-sufijo', `Usa el sufijo "${s}" (${s.length} caracteres)`, 'Reemplazar por " | KINEUM" o quitarlo')
         }
-        if (!norm(title).includes(norm(kw).split(' ')[0])) P('media', 'title-sin-keyword', `No contiene la raiz de "${kw}"`, 'Incluir la keyword principal')
+        // El titulo puede usar el sinonimo que la gente busca en vez de la palabra del
+        // slug (ej. "Post ACV" en vez de "neuroplasticidad"), asi que solo alertamos
+        // cuando no comparte NINGUNA palabra significativa con la keyword.
+        const kwPalabras = norm(kw).split(' ').filter((w) => w.length > 3)
+        const nt = norm(title)
+        if (kwPalabras.length && !kwPalabras.some((w) => nt.includes(w.slice(0, 5)))) {
+            P('media', 'title-sin-keyword', `"${title}" no comparte ninguna palabra con "${kw}"`, 'Revisar que el titulo apunte a la intencion del slug')
+        }
     }
 
     if (!desc) P('alta', 'desc-vacia', 'Sin meta description', 'Definir metadata.description')
