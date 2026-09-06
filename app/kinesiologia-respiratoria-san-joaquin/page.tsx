@@ -6,9 +6,9 @@ const COMUNA = "san-joaquin"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-san-joaquin"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en San Joaquín | KINEUM",
+    title: "Kinesiología Respiratoria a Domicilio en San Joaquín",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
     keywords: [
             "kinesiología respiratoria San Joaquín",
             "kinesiología respiratoria a domicilio San Joaquín",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en San Joaquín | KINEUM",
+        title: "Kinesiología Respiratoria a Domicilio en San Joaquín",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en San Joaquín: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
         url: URL,
         type: "website",
         locale: "es_CL",

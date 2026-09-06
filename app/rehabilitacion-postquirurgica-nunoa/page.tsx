@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-postquirurgica-nunoa"
 export const metadata: Metadata = {
     title: "Rehabilitación Postquirúrgica a Domicilio en Ñuñoa | KINEUM",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Ñuñoa",
             "rehabilitación postquirúrgica a domicilio Ñuñoa",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Postquirúrgica a Domicilio en Ñuñoa | KINEUM",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Ñuñoa: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

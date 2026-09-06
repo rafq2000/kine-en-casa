@@ -10,7 +10,7 @@ import { BookOpen, Clock, Calendar, ArrowRight, ChevronRight, MapPin, Stethoscop
 export const metadata: Metadata = {
   title: "Blog de Kinesiología y Rehabilitación a Domicilio | KINEUM",
   description:
-    "Artículos de kinesiología, rehabilitación y salud. Guías de ejercicios, consejos de kinesiólogos y novedades sobre rehabilitación a domicilio en Santiago. KINEUM.",
+    "Artículos de kinesiología, rehabilitación y salud. Guías de ejercicios, consejos de kinesiólogos y novedades sobre rehabilitación a domicilio en Santiago.",
   keywords: [
     "blog kinesiología",
     "artículos rehabilitación",

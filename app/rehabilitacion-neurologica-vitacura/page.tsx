@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-vitacura"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Vitacura | KINEUM",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Vitacura",
             "rehabilitación neurológica a domicilio Vitacura",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Vitacura | KINEUM",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Vitacura: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

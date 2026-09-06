@@ -6,9 +6,9 @@ const COMUNA = "providencia"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-providencia"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en Providencia | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en Providencia",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Providencia",
             "rehabilitación postquirúrgica a domicilio Providencia",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en Providencia | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en Providencia",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Providencia: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

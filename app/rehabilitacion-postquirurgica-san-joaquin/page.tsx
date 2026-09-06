@@ -6,9 +6,9 @@ const COMUNA = "san-joaquin"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-san-joaquin"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica San Joaquín",
             "rehabilitación postquirúrgica a domicilio San Joaquín",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en San Joaquín",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en San Joaquín: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

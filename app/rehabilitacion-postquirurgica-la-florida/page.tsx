@@ -6,9 +6,9 @@ const COMUNA = "la-florida"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-la-florida"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en La Florida | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en La Florida",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en La Florida: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en La Florida: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica La Florida",
             "rehabilitación postquirúrgica a domicilio La Florida",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en La Florida | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en La Florida",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en La Florida: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en La Florida: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

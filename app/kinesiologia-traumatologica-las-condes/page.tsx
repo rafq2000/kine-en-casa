@@ -6,9 +6,9 @@ const COMUNA = "las-condes"
 const URL = "https://kineum.cl/kinesiologia-traumatologica-las-condes"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Traumatológica a Domicilio en Las Condes | KINEUM",
+    title: "Kinesiología Traumatológica a Domicilio en Las Condes",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Las Condes: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Las Condes: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Las Condes",
             "kinesiología traumatológica a domicilio Las Condes",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Traumatológica a Domicilio en Las Condes | KINEUM",
+        title: "Kinesiología Traumatológica a Domicilio en Las Condes",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Las Condes: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Las Condes: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

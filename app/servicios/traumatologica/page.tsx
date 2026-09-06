@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
-    title: 'Kinesiología Traumatológica a Domicilio | Fracturas y Prótesis | KINEUM',
+    title: 'Kinesiología Traumatológica a Domicilio | KINEUM',
     description: 'Rehabilitación de lesiones musculares y esqueléticas en casa. Recuperación de prótesis de cadera, rodilla, esguinces y fracturas en Santiago.',
     keywords: ['kinesiología traumatológica domicilio', 'rehabilitación fractura cadera', 'kine prótesis rodilla', 'tratamiento lumbago domicilio', 'esguince tobillo kine'],
     alternates: {

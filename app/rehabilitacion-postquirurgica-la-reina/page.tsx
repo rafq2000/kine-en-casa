@@ -6,9 +6,9 @@ const COMUNA = "la-reina"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-la-reina"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en La Reina | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en La Reina",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en La Reina: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en La Reina: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica La Reina",
             "rehabilitación postquirúrgica a domicilio La Reina",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en La Reina | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en La Reina",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en La Reina: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos La Reina Alta, Príncipe de Gales, Avenida Ossa y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en La Reina: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

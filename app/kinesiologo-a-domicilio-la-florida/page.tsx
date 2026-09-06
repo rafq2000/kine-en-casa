@@ -28,7 +28,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en La Florida. Rehabilitación post operatoria, respiratoria infantil, geriátrica y traumatológica. Reembolso Isapre. Evaluación gratis.`,
+    description: `Kinesiólogo a domicilio en La Florida. Rehabilitación post operatoria, respiratoria infantil, geriátrica y traumatológica. Reembolso Isapre.`,
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,

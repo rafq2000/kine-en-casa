@@ -6,9 +6,9 @@ const COMUNA = "san-joaquin"
 const URL = "https://kineum.cl/kinesiologia-traumatologica-san-joaquin"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Traumatológica a Domicilio en San Joaquín | KINEUM",
+    title: "Kinesiología Traumatológica a Domicilio en San Joaquín",
     description:
-        "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica San Joaquín",
             "kinesiología traumatológica a domicilio San Joaquín",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Traumatológica a Domicilio en San Joaquín | KINEUM",
+        title: "Kinesiología Traumatológica a Domicilio en San Joaquín",
         description:
-            "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en San Joaquín: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

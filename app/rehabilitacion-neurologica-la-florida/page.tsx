@@ -6,9 +6,9 @@ const COMUNA = "la-florida"
 const URL = "https://kineum.cl/rehabilitacion-neurologica-la-florida"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Neurológica a Domicilio en La Florida | KINEUM",
+    title: "Rehabilitación Neurológica a Domicilio en La Florida",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica La Florida",
             "rehabilitación neurológica a domicilio La Florida",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Neurológica a Domicilio en La Florida | KINEUM",
+        title: "Rehabilitación Neurológica a Domicilio en La Florida",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en La Florida: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

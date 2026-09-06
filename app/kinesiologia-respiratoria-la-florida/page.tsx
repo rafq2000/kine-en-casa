@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-respiratoria-la-florida"
 export const metadata: Metadata = {
     title: "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
     keywords: [
             "kinesiología respiratoria La Florida",
             "kinesiología respiratoria a domicilio La Florida",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Respiratoria a Domicilio en La Florida | KINEUM",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en La Florida: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
         url: URL,
         type: "website",
         locale: "es_CL",

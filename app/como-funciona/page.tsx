@@ -22,7 +22,7 @@ import { SiteFooter } from "@/components/site-footer"
 export const metadata: Metadata = {
   title: "Como Funciona | Kinesiologo a Domicilio Santiago | KINEUM",
   description:
-    "Agenda tu kinesiologo a domicilio en Santiago en 4 pasos simples. Evaluacion inicial gratuita, plan personalizado y reembolso Isapre y seguros complementarios. Llama al +56 9 9967 9593.",
+    "Agenda tu kinesiologo a domicilio en Santiago en 4 pasos simples. Evaluacion inicial gratuita, plan personalizado y reembolso Isapre y seguros.",
   keywords: [
     "como funciona kinesiologo a domicilio",
     "pedir kinesiologo a domicilio santiago",

@@ -6,9 +6,9 @@ const COMUNA = "santiago-centro"
 const URL = "https://kineum.cl/kinesiologia-traumatologica-santiago-centro"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Traumatológica a Domicilio en Santiago Centro | KINEUM",
+    title: "Kinesiología Traumatológica a Domicilio en Santiago Centro",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Santiago Centro",
             "kinesiología traumatológica a domicilio Santiago Centro",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Traumatológica a Domicilio en Santiago Centro | KINEUM",
+        title: "Kinesiología Traumatológica a Domicilio en Santiago Centro",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Santiago Centro: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

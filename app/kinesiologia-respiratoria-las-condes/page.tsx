@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-respiratoria-las-condes"
 export const metadata: Metadata = {
     title: "Kinesiología Respiratoria a Domicilio en Las Condes | KINEUM",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
     keywords: [
             "kinesiología respiratoria Las Condes",
             "kinesiología respiratoria a domicilio Las Condes",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Respiratoria a Domicilio en Las Condes | KINEUM",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Las Condes: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
         url: URL,
         type: "website",
         locale: "es_CL",

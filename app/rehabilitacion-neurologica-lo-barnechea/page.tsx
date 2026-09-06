@@ -6,9 +6,9 @@ const COMUNA = "lo-barnechea"
 const URL = "https://kineum.cl/rehabilitacion-neurologica-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Neurológica a Domicilio en Lo Barnechea | KINEUM",
+    title: "Rehabilitación Neurológica a Domicilio en Lo Barnechea",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Lo Barnechea",
             "rehabilitación neurológica a domicilio Lo Barnechea",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Neurológica a Domicilio en Lo Barnechea | KINEUM",
+        title: "Rehabilitación Neurológica a Domicilio en Lo Barnechea",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Lo Barnechea: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

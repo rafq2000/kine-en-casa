@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-san-joaquin"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en San Joaquín | KINEUM",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
     keywords: [
             "kinesiología geriátrica San Joaquín",
             "kinesiología geriátrica a domicilio San Joaquín",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en San Joaquín | KINEUM",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo para Adulto Mayor a domicilio en San Joaquín: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
         url: URL,
         type: "website",
         locale: "es_CL",

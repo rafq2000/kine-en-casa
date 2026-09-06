@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-vitacura"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en Vitacura | KINEUM",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en Vitacura: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo para Adulto Mayor a domicilio en Vitacura: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
     keywords: [
             "kinesiología geriátrica Vitacura",
             "kinesiología geriátrica a domicilio Vitacura",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en Vitacura | KINEUM",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en Vitacura: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo para Adulto Mayor a domicilio en Vitacura: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
         url: URL,
         type: "website",
         locale: "es_CL",

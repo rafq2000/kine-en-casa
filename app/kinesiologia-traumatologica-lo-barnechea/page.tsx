@@ -6,9 +6,9 @@ const COMUNA = "lo-barnechea"
 const URL = "https://kineum.cl/kinesiologia-traumatologica-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Traumatológica a Domicilio en Lo Barnechea | KINEUM",
+    title: "Kinesiología Traumatológica a Domicilio en Lo Barnechea",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Lo Barnechea",
             "kinesiología traumatológica a domicilio Lo Barnechea",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Traumatológica a Domicilio en Lo Barnechea | KINEUM",
+        title: "Kinesiología Traumatológica a Domicilio en Lo Barnechea",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Lo Barnechea: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -26,7 +26,7 @@ import { SiteFooter } from "@/components/site-footer"
 export const metadata: Metadata = {
   title: "Precios Kinesiologia a Domicilio Santiago 2026 | KINEUM",
   description:
-    "Precios de kinesiologia a domicilio en Santiago desde $160.000/mes. Planes con 4, 10 o sesiones ilimitadas. Reembolso Isapre (50-80%) y seguros complementarios. Evaluacion inicial gratis. +56 9 9967 9593",
+    "Precios de kinesiologia a domicilio en Santiago desde $160.000/mes. Planes con 4, 10 o sesiones ilimitadas.",
   keywords: [
     "precio kinesiologo a domicilio",
     "cuanto cuesta kinesiologo domicilio",

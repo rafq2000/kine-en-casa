@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-penalolen"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Peñalolén | KINEUM",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Peñalolén: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Peñalolén Alto, Comunidad Ecológica, San Luis y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Peñalolén: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Peñalolén",
             "rehabilitación neurológica a domicilio Peñalolén",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Peñalolén | KINEUM",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Peñalolén: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Peñalolén Alto, Comunidad Ecológica, San Luis y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Peñalolén: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

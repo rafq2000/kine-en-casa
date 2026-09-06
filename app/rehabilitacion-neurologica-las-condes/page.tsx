@@ -6,9 +6,9 @@ const COMUNA = "las-condes"
 const URL = "https://kineum.cl/rehabilitacion-neurologica-las-condes"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Neurológica a Domicilio en Las Condes | KINEUM",
+    title: "Rehabilitación Neurológica a Domicilio en Las Condes",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Las Condes",
             "rehabilitación neurológica a domicilio Las Condes",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Neurológica a Domicilio en Las Condes | KINEUM",
+        title: "Rehabilitación Neurológica a Domicilio en Las Condes",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Las Condes: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

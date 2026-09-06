@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-neurologica-macul"
 export const metadata: Metadata = {
     title: "Rehabilitación Neurológica a Domicilio en Macul | KINEUM",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Macul: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Macul: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Macul",
             "rehabilitación neurológica a domicilio Macul",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Neurológica a Domicilio en Macul | KINEUM",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Macul: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Macul: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

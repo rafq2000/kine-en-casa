@@ -1,0 +1,606 @@
+{
+ "humano": [
+  {
+   "tipo": "contenido-corto",
+   "url": "/nosotros",
+   "archivo": "app/nosotros/page.tsx",
+   "largo": 238,
+   "motivo": "solo 238 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/servicios/respiratoria",
+   "archivo": "app/servicios/respiratoria/page.tsx",
+   "largo": 195,
+   "motivo": "solo 195 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "title",
+   "url": "/servicios/geriatrica",
+   "archivo": "app/servicios/geriatrica/page.tsx",
+   "actual": "Kinesiología para Adulto Mayor a Domicilio | Geriatría KINEUM",
+   "largo": 61,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/servicios/geriatrica",
+   "archivo": "app/servicios/geriatrica/page.tsx",
+   "largo": 193,
+   "motivo": "solo 193 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "title",
+   "url": "/servicios/neurologica",
+   "archivo": "app/servicios/neurologica/page.tsx",
+   "actual": "Neurorehabilitación a Domicilio Santiago | ACV y Parkinson | KINEUM",
+   "largo": 67,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/servicios/neurologica",
+   "archivo": "app/servicios/neurologica/page.tsx",
+   "largo": 173,
+   "motivo": "solo 173 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/servicios/traumatologica",
+   "archivo": "app/servicios/traumatologica/page.tsx",
+   "largo": 153,
+   "motivo": "solo 153 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
+   "archivo": "lib/blog-data.ts",
+   "actual": "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026 | KINEUM Journal",
+   "largo": 80,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/reembolso-isapre-kinesiologia",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Cómo recuperar hasta el 80% del valor de tus sesiones de kinesiología a domicilio, isapre por isapre.",
+   "largo": 101,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/neuroplasticidad-recuperacion-acv",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Cómo la tecnología y los ejercicios cognitivos potencian la capacidad del cerebro para sanar.",
+   "largo": 93,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/blog/neuroplasticidad-recuperacion-acv",
+   "archivo": "lib/blog-data.ts",
+   "largo": 292,
+   "motivo": "solo 292 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/ergonomia-home-office-guia-2024",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Ergonomía en el Home Office: Guía Definitiva | KINEUM Journal",
+   "largo": 61,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/ergonomia-home-office-guia-2024",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Protocolos clínicos para prevenir el dolor lumbar y cervical trabajando desde casa.",
+   "largo": 83,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/sarcopenia-fuerza-es-salud",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital | KINEUM Journal",
+   "largo": 70,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/sarcopenia-fuerza-es-salud",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Estrategias para mantener la vitalidad muscular en la tercera edad.",
+   "largo": 67,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/lumbago-agudo-que-hacer",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Lumbago Agudo: ¿Reposo o Movimiento? | KINEUM Journal",
+   "largo": 53,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/lumbago-agudo-que-hacer",
+   "archivo": "lib/blog-data.ts",
+   "actual": "La guía clínica para manejar el dolor de espalda baja en las primeras 48 horas.",
+   "largo": 79,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/esguince-tobillo-recuperacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Cómo volver a caminar sin dolor más rápido con carga progresiva y movilidad temprana.",
+   "largo": 85,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/ciatica-sintomas-tratamiento",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Ciática: Diferenciando el Dolor Real de la Falsa Ciática | KINEUM Journal",
+   "largo": 73,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/ciatica-sintomas-tratamiento",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Síndrome del piramidal vs. hernia discal: ¿cuál tienes tú?",
+   "largo": 58,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/tendinitis-hombro-manguito-rotador",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Ejercicios clave para evitar la cirugía en lesiones de hombro.",
+   "largo": 62,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/artrosis-rodilla-ejercicios",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Vivir sin Dolor con Artrosis de Rodilla | KINEUM Journal",
+   "largo": 56,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/artrosis-rodilla-ejercicios",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Por qué el ejercicio reduce más el dolor que los analgésicos en la osteoartritis.",
+   "largo": 81,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/paralisis-facial-rehabilitacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Parálisis Facial: La Importancia de las Primeras 72 Horas | KINEUM Journal",
+   "largo": 74,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/paralisis-facial-rehabilitacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Estimulación temprana para recuperar la simetría y función facial.",
+   "largo": 66,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/tunel-carpiano-alivio",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Túnel Carpiano: ¿Cirugía o Kinesiología? | KINEUM Journal",
+   "largo": 57,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/tunel-carpiano-alivio",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Estrategias para liberar el nervio mediano sin pasar por pabellón.",
+   "largo": 66,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/fascitis-plantar-solucion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Fascitis Plantar: El Dolor del Primer Paso de la Mañana | KINEUM Journal",
+   "largo": 72,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/fascitis-plantar-solucion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Cómo tratar el dolor de talón crónico con carga progresiva.",
+   "largo": 59,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/kinesiologia-post-covid",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Rehabilitación Respiratoria Post-COVID y Neumonía | KINEUM Journal",
+   "largo": 66,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/kinesiologia-post-covid",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Recuperando tu capacidad pulmonar al 100%.",
+   "largo": 42,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/blog/kinesiologia-post-covid",
+   "archivo": "lib/blog-data.ts",
+   "largo": 299,
+   "motivo": "solo 299 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/drenaje-linfatico-manual",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Drenaje Linfático: Más que Estética, es Salud | KINEUM Journal",
+   "largo": 62,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/drenaje-linfatico-manual",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Indicaciones médicas para el edema y la retención de líquidos.",
+   "largo": 62,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/bruxismo-dolor-cervical",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Relajando la mandíbula para curar el cuello.",
+   "largo": 44,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "contenido-corto",
+   "url": "/blog/bruxismo-dolor-cervical",
+   "archivo": "lib/blog-data.ts",
+   "largo": 292,
+   "motivo": "solo 292 palabras; ampliar contenido"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/fractura-cadera-adulto-mayor",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Fractura de Cadera: El Camino para Volver a Caminar | KINEUM Journal",
+   "largo": 68,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/fractura-cadera-adulto-mayor",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Rehabilitación intensiva para recuperar la independencia.",
+   "largo": 57,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/suelo-pelvico-mujer",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Kinesiología de Piso Pélvico: Salud Femenina Integral | KINEUM Journal",
+   "largo": 70,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/suelo-pelvico-mujer",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Prevención y tratamiento de la incontinencia y los prolapsos.",
+   "largo": 61,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/epicondilitis-codo-tenista",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Cómo el uso del mouse y el teclado inflaman tu codo.",
+   "largo": 52,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/escoliosis-en-ninos",
+   "archivo": "lib/blog-data.ts",
+   "actual": "¿Cuándo preocuparse por la columna de tu hijo?",
+   "largo": 46,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/hernia-discal-operacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Hernia Discal: ¿Se Puede Reabsorber Sola? | KINEUM Journal",
+   "largo": 58,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/hernia-discal-operacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "La evidencia científica sobre la curación natural de las hernias.",
+   "largo": 65,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/masaje-descontracturante-vs-terapeutico",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Eligiendo la terapia manual adecuada para tu dolor.",
+   "largo": 51,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/protesis-rodilla-recuperacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Vida Después de la Prótesis de Rodilla | KINEUM Journal",
+   "largo": 55,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/protesis-rodilla-recuperacion",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Cómo lograr doblar la rodilla a 120° y volver a caminar sin bastón.",
+   "largo": 67,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/cervicalgia-mareos",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Dolor Cervical y Mareos: ¿Están Relacionados? | KINEUM Journal",
+   "largo": 62,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/cervicalgia-mareos",
+   "archivo": "lib/blog-data.ts",
+   "actual": "El mareo cervicogénico y cómo tratarlo.",
+   "largo": 39,
+   "motivo": "ampliar con propuesta de valor"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/fibromialgia-ejercicio",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Fibromialgia: Rompiendo el Ciclo de Dolor | KINEUM Journal",
+   "largo": 58,
+   "motivo": "perderia parte de la keyword"
+  },
+  {
+   "tipo": "description-corta",
+   "url": "/blog/fibromialgia-ejercicio",
+   "archivo": "lib/blog-data.ts",
+   "actual": "Ejercicio suave como medicina para el dolor crónico.",
+   "largo": 52,
+   "motivo": "ampliar con propuesta de valor"
+  }
+ ],
+ "fallidos": [
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-las-condes",
+   "archivo": "app/kinesiologo-a-domicilio-las-condes/page.tsx",
+   "de": "Kinesiólogo a Domicilio en Las Condes | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en Las Condes | Reembolso Isapre",
+   "largo": "65->56",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-vitacura",
+   "archivo": "app/kinesiologo-a-domicilio-vitacura/page.tsx",
+   "de": "Kinesiólogo a Domicilio en Vitacura | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en Vitacura | Reembolso Isapre",
+   "largo": "63->54",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-providencia",
+   "archivo": "app/kinesiologo-a-domicilio-providencia/page.tsx",
+   "de": "Kinesiólogo a Domicilio en Providencia | Kinesiología Profesional",
+   "a": "Kinesiólogo a Domicilio en Providencia | KINEUM",
+   "largo": "65->47",
+   "como": "recorte en \"|\" + marca",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "description",
+   "url": "/kinesiologo-a-domicilio-providencia",
+   "archivo": "app/kinesiologo-a-domicilio-providencia/page.tsx",
+   "de": "Kinesiólogo a domicilio en Providencia. Rehabilitación geriátrica, respiratoria, traumatológica y neurológica en tu hogar. Evaluación gratis ☎ +56 9 9967 9593. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba, Los Leones y más.",
+   "a": "Kinesiólogo a domicilio en Providencia. Rehabilitación geriátrica, respiratoria, traumatológica y neurológica en tu hogar.",
+   "largo": "230->122",
+   "como": "corte en oracion",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-la-reina",
+   "archivo": "app/kinesiologo-a-domicilio-la-reina/page.tsx",
+   "de": "Kinesiólogo a Domicilio en La Reina | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en La Reina | Reembolso Isapre",
+   "largo": "63->54",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-la-florida",
+   "archivo": "app/kinesiologo-a-domicilio-la-florida/page.tsx",
+   "de": "Kinesiólogo a Domicilio en La Florida | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en La Florida | Reembolso Isapre",
+   "largo": "65->56",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-penalolen",
+   "archivo": "app/kinesiologo-a-domicilio-penalolen/page.tsx",
+   "de": "Kinesiólogo a Domicilio en Peñalolén | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en Peñalolén | Reembolso Isapre",
+   "largo": "64->55",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-san-joaquin",
+   "archivo": "app/kinesiologo-a-domicilio-san-joaquin/page.tsx",
+   "de": "Kinesiólogo a Domicilio en San Joaquín | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en San Joaquín | Reembolso Isapre",
+   "largo": "66->57",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/kinesiologo-a-domicilio-santiago-centro",
+   "archivo": "app/kinesiologo-a-domicilio-santiago-centro/page.tsx",
+   "de": "Kinesiólogo a Domicilio en Santiago Centro | Reembolso Isapre | KINEUM",
+   "a": "Kinesiólogo a Domicilio en Santiago Centro | KINEUM",
+   "largo": "70->51",
+   "como": "recorte en \"|\" + marca",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/reembolso-isapre-kinesiologia",
+   "archivo": "lib/blog-data.ts",
+   "de": "Reembolso Isapre en Kinesiología: Guía Completa 2026 | KINEUM Journal",
+   "a": "Reembolso Isapre en Kinesiología: Guía Completa 2026",
+   "largo": "69->52",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/kinesiologia-respiratoria-infantil-domicilio",
+   "archivo": "lib/blog-data.ts",
+   "de": "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres | KINEUM Journal",
+   "a": "Kinesiología Respiratoria Infantil a Domicilio | KINEUM",
+   "largo": "81->55",
+   "como": "recorte en \":\" + marca",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/kinesiologia-piso-pelvico-post-parto-domicilio",
+   "archivo": "lib/blog-data.ts",
+   "de": "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026 | KINEUM Journal",
+   "a": "Kinesiología de Piso Pélvico Post Parto a Domicilio | KINEUM",
+   "largo": "79->60",
+   "como": "recorte en \":\" + marca",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/drenaje-linfatico-post-operatorio-domicilio",
+   "archivo": "lib/blog-data.ts",
+   "de": "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar | KINEUM Journal",
+   "a": "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar",
+   "largo": "75->58",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/neuroplasticidad-recuperacion-acv",
+   "archivo": "lib/blog-data.ts",
+   "de": "Neuroplasticidad: Acelerando la recuperación post-ACV | KINEUM Journal",
+   "a": "Neuroplasticidad: Acelerando la recuperación post-ACV",
+   "largo": "70->53",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/esguince-tobillo-recuperacion",
+   "archivo": "lib/blog-data.ts",
+   "de": "Esguince de Tobillo: Protocolo de Recuperación Acelerada | KINEUM Journal",
+   "a": "Esguince de Tobillo: Protocolo de Recuperación Acelerada",
+   "largo": "73->56",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/tendinitis-hombro-manguito-rotador",
+   "archivo": "lib/blog-data.ts",
+   "de": "Tendinitis de Hombro: Salvando tu Manguito Rotador | KINEUM Journal",
+   "a": "Tendinitis de Hombro: Salvando tu Manguito Rotador | KINEUM",
+   "largo": "67->59",
+   "como": "sufijo \"Journal\" acortado",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/bruxismo-dolor-cervical",
+   "archivo": "lib/blog-data.ts",
+   "de": "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM Journal",
+   "a": "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM",
+   "largo": "62->54",
+   "como": "sufijo \"Journal\" acortado",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/epicondilitis-codo-tenista",
+   "archivo": "lib/blog-data.ts",
+   "de": "Codo de Tenista (Epicondilitis): No Solo para Deportistas | KINEUM Journal",
+   "a": "Codo de Tenista (Epicondilitis): No Solo para Deportistas",
+   "largo": "74->57",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/escoliosis-en-ninos",
+   "archivo": "lib/blog-data.ts",
+   "de": "Escoliosis en Niños: Detección y Tratamiento | KINEUM Journal",
+   "a": "Escoliosis en Niños: Detección y Tratamiento | KINEUM",
+   "largo": "61->53",
+   "como": "sufijo \"Journal\" acortado",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  },
+  {
+   "tipo": "title",
+   "url": "/blog/masaje-descontracturante-vs-terapeutico",
+   "archivo": "lib/blog-data.ts",
+   "de": "Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito? | KINEUM Journal",
+   "a": "Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito?",
+   "largo": "74->57",
+   "como": "se quito la marca para salvar la keyword",
+   "motivo": "texto no encontrado en el archivo (se genera dinamicamente)"
+  }
+ ]
+}

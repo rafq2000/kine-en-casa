@@ -6,9 +6,9 @@ const COMUNA = "santiago-centro"
 const URL = "https://kineum.cl/kinesiologia-geriatrica-santiago-centro"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Geriátrica a Domicilio en Santiago Centro | KINEUM",
+    title: "Kinesiología Geriátrica a Domicilio en Santiago Centro",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
     keywords: [
             "kinesiología geriátrica Santiago Centro",
             "kinesiología geriátrica a domicilio Santiago Centro",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Geriátrica a Domicilio en Santiago Centro | KINEUM",
+        title: "Kinesiología Geriátrica a Domicilio en Santiago Centro",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo para Adulto Mayor a domicilio en Santiago Centro: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
         url: URL,
         type: "website",
         locale: "es_CL",

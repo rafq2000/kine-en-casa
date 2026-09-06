@@ -7,9 +7,9 @@ import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export const metadata: Metadata = {
-    title: "Opiniones y Testimonios | Kinesiologo a Domicilio Santiago | KINEUM",
+    title: "Opiniones y Testimonios | Kinesiologo a Domicilio Santiago",
     description:
-        "Opiniones reales de pacientes de KINEUM. +147 testimonios de kinesiologia a domicilio en Santiago. Kinesiologo a domicilio con 4.9/5 estrellas en Las Condes, Vitacura, Providencia, Nunoa y mas comunas.",
+        "Opiniones reales de pacientes de KINEUM. +147 testimonios de kinesiologia a domicilio en Santiago.",
     keywords: [
         "kineum opiniones",
         "kinesiologo a domicilio opiniones santiago",

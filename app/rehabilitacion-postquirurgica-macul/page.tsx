@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/rehabilitacion-postquirurgica-macul"
 export const metadata: Metadata = {
     title: "Rehabilitación Postquirúrgica a Domicilio en Macul | KINEUM",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Macul",
             "rehabilitación postquirúrgica a domicilio Macul",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Rehabilitación Postquirúrgica a Domicilio en Macul | KINEUM",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Macul: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

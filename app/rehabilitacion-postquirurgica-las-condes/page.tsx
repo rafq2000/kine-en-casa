@@ -6,9 +6,9 @@ const COMUNA = "las-condes"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-las-condes"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en Las Condes | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en Las Condes",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Las Condes",
             "rehabilitación postquirúrgica a domicilio Las Condes",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en Las Condes | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en Las Condes",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos El Golf, Escuela Militar, Manquehue y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Las Condes: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -28,7 +28,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en Peñalolén. Kinesiología respiratoria, geriátrica, post operatoria y rehabilitación neurológica. Reembolso Isapre. Evaluación gratis.`,
+    description: `Kinesiólogo a domicilio en Peñalolén. Kinesiología respiratoria, geriátrica, post operatoria y rehabilitación neurológica. Reembolso Isapre.`,
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,

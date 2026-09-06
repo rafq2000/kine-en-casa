@@ -6,9 +6,9 @@ const COMUNA = "vitacura"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-vitacura"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en Vitacura | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en Vitacura",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Vitacura",
             "rehabilitación postquirúrgica a domicilio Vitacura",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en Vitacura | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en Vitacura",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Santa María de Manquehue, Jardín del Este, Lo Curro y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Vitacura: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

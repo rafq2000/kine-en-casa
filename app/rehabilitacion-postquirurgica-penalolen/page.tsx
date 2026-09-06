@@ -6,9 +6,9 @@ const COMUNA = "penalolen"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-penalolen"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en Peñalolén | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en Peñalolén",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Peñalolén Alto, Comunidad Ecológica, San Luis y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Peñalolén",
             "rehabilitación postquirúrgica a domicilio Peñalolén",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en Peñalolén | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en Peñalolén",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos Peñalolén Alto, Comunidad Ecológica, San Luis y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Peñalolén: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

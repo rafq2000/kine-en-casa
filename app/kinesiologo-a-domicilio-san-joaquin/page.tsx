@@ -28,7 +28,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: `Kinesiólogo a Domicilio en ${comunaData.nombre} | Reembolso Isapre | KINEUM`,
-    description: `Kinesiólogo a domicilio en San Joaquín. Kinesiología respiratoria, geriátrica, traumatológica y rehabilitación neurológica. Reembolso Isapre. Evaluación gratis.`,
+    description: `Kinesiólogo a domicilio en San Joaquín. Kinesiología respiratoria, geriátrica, traumatológica y rehabilitación neurológica. Reembolso Isapre.`,
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,

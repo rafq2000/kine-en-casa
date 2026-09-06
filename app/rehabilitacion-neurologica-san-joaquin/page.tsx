@@ -6,9 +6,9 @@ const COMUNA = "san-joaquin"
 const URL = "https://kineum.cl/rehabilitacion-neurologica-san-joaquin"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Neurológica a Domicilio en San Joaquín | KINEUM",
+    title: "Rehabilitación Neurológica a Domicilio en San Joaquín",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica San Joaquín",
             "rehabilitación neurológica a domicilio San Joaquín",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Neurológica a Domicilio en San Joaquín | KINEUM",
+        title: "Rehabilitación Neurológica a Domicilio en San Joaquín",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Metro San Joaquín, Pedrero, La Castrina y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en San Joaquín: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

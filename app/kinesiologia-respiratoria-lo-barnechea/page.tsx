@@ -6,9 +6,9 @@ const COMUNA = "lo-barnechea"
 const URL = "https://kineum.cl/kinesiologia-respiratoria-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Respiratoria a Domicilio en Lo Barnechea | KINEUM",
+    title: "Kinesiología Respiratoria a Domicilio en Lo Barnechea",
     description:
-        "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
     keywords: [
             "kinesiología respiratoria Lo Barnechea",
             "kinesiología respiratoria a domicilio Lo Barnechea",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Respiratoria a Domicilio en Lo Barnechea | KINEUM",
+        title: "Kinesiología Respiratoria a Domicilio en Lo Barnechea",
         description:
-            "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Respiratorio (KTR) a domicilio en Lo Barnechea: bronquiolitis y virus respiratorios, bronquitis obstructiva (SBO), neumonía en recuperación.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { ComunasPorEspecialidad } from '@/components/comunas-por-especialidad'
 
 export const metadata: Metadata = {
-    title: 'Kinesiología Respiratoria a Domicilio Santiago [Infantil y Adulto] | KINEUM',
+    title: 'Kinesiología Respiratoria a Domicilio Santiago | KINEUM',
     description: 'Tratamiento respiratorio a domicilio en Las Condes y Vitacura. Especialistas en Bronquitis, Neumonía, EPOC y KTR Infantil. Agende hoy.',
     keywords: ['kinesiología respiratoria domicilio', 'kine respiratorio infantil', 'neumonía tratamiento casa', 'ktr domicilio santiago', 'bronquitis niños kinesiolgia'],
     alternates: {

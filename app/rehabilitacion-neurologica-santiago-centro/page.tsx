@@ -6,9 +6,9 @@ const COMUNA = "santiago-centro"
 const URL = "https://kineum.cl/rehabilitacion-neurologica-santiago-centro"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Neurológica a Domicilio en Santiago Centro | KINEUM",
+    title: "Rehabilitación Neurológica a Domicilio en Santiago Centro",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Santiago Centro",
             "rehabilitación neurológica a domicilio Santiago Centro",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Neurológica a Domicilio en Santiago Centro | KINEUM",
+        title: "Rehabilitación Neurológica a Domicilio en Santiago Centro",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Barrio Lastarria, Barrio Brasil, Barrio Yungay y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Santiago Centro: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

@@ -6,9 +6,9 @@ const COMUNA = "penalolen"
 const URL = "https://kineum.cl/kinesiologia-traumatologica-penalolen"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Traumatológica a Domicilio en Peñalolén | KINEUM",
+    title: "Kinesiología Traumatológica a Domicilio en Peñalolén",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Peñalolén: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Peñalolén Alto, Comunidad Ecológica, San Luis y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Peñalolén: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Peñalolén",
             "kinesiología traumatológica a domicilio Peñalolén",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Traumatológica a Domicilio en Peñalolén | KINEUM",
+        title: "Kinesiología Traumatológica a Domicilio en Peñalolén",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Peñalolén: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Peñalolén Alto, Comunidad Ecológica, San Luis y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Peñalolén: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

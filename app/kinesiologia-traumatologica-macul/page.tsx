@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-macul"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en Macul | KINEUM",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Macul: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Macul: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Macul",
             "kinesiología traumatológica a domicilio Macul",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en Macul | KINEUM",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Macul: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Villa Macul, Quilín, Santa Julia y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Macul: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

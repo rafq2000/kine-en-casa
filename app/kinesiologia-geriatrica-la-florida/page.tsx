@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-geriatrica-la-florida"
 export const metadata: Metadata = {
     title: "Kinesiología Geriátrica a Domicilio en La Florida | KINEUM",
     description:
-        "Kinesiólogo para Adulto Mayor a domicilio en La Florida: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo para Adulto Mayor a domicilio en La Florida: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
     keywords: [
             "kinesiología geriátrica La Florida",
             "kinesiología geriátrica a domicilio La Florida",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Geriátrica a Domicilio en La Florida | KINEUM",
         description:
-            "Kinesiólogo para Adulto Mayor a domicilio en La Florida: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera. Atendemos Bellavista de La Florida, Walker Martínez, Trinidad y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo para Adulto Mayor a domicilio en La Florida: sarcopenia y pérdida de fuerza, prevención de caídas, artrosis de rodilla y cadera.",
         url: URL,
         type: "website",
         locale: "es_CL",

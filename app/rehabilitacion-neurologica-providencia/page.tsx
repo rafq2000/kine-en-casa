@@ -6,9 +6,9 @@ const COMUNA = "providencia"
 const URL = "https://kineum.cl/rehabilitacion-neurologica-providencia"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Neurológica a Domicilio en Providencia | KINEUM",
+    title: "Rehabilitación Neurológica a Domicilio en Providencia",
     description:
-        "Neurorehabilitación a Domicilio a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Neurorehabilitación a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
     keywords: [
             "rehabilitación neurológica Providencia",
             "rehabilitación neurológica a domicilio Providencia",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Neurológica a Domicilio en Providencia | KINEUM",
+        title: "Rehabilitación Neurológica a Domicilio en Providencia",
         description:
-            "Neurorehabilitación a Domicilio a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Neurorehabilitación a domicilio en Providencia: secuelas de ACV, enfermedad de Parkinson, esclerosis múltiple.",
         url: URL,
         type: "website",
         locale: "es_CL",

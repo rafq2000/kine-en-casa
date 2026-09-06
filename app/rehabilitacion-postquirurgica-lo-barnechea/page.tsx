@@ -6,9 +6,9 @@ const COMUNA = "lo-barnechea"
 const URL = "https://kineum.cl/rehabilitacion-postquirurgica-lo-barnechea"
 
 export const metadata: Metadata = {
-    title: "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea | KINEUM",
+    title: "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea",
     description:
-        "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
     keywords: [
             "rehabilitación postquirúrgica Lo Barnechea",
             "rehabilitación postquirúrgica a domicilio Lo Barnechea",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea | KINEUM",
+        title: "Rehabilitación Postquirúrgica a Domicilio en Lo Barnechea",
         description:
-            "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro. Atendemos La Dehesa, Los Trapenses, El Arrayán y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Post Operatorio a domicilio en Lo Barnechea: prótesis de rodilla, prótesis de cadera, artroscopia de rodilla u hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

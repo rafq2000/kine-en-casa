@@ -8,7 +8,7 @@ const URL = "https://kineum.cl/kinesiologia-traumatologica-nunoa"
 export const metadata: Metadata = {
     title: "Kinesiología Traumatológica a Domicilio en Ñuñoa | KINEUM",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Ñuñoa",
             "kinesiología traumatológica a domicilio Ñuñoa",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Kinesiología Traumatológica a Domicilio en Ñuñoa | KINEUM",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Plaza Ñuñoa, Avenida Irarrázaval, Simón Bolívar y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Ñuñoa: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",

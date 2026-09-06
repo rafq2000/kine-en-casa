@@ -6,9 +6,9 @@ const COMUNA = "providencia"
 const URL = "https://kineum.cl/kinesiologia-traumatologica-providencia"
 
 export const metadata: Metadata = {
-    title: "Kinesiología Traumatológica a Domicilio en Providencia | KINEUM",
+    title: "Kinesiología Traumatológica a Domicilio en Providencia",
     description:
-        "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+        "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
     keywords: [
             "kinesiología traumatológica Providencia",
             "kinesiología traumatológica a domicilio Providencia",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         canonical: URL,
     },
     openGraph: {
-        title: "Kinesiología Traumatológica a Domicilio en Providencia | KINEUM",
+        title: "Kinesiología Traumatológica a Domicilio en Providencia",
         description:
-            "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro. Atendemos Pedro de Valdivia, Manuel Montt, Tobalaba y toda la comuna. Evaluación inicial gratuita ☎ +56 9 9967 9593",
+            "Kinesiólogo Traumatológico a domicilio en Providencia: esguince de tobillo, lumbago y dolor de espalda, tendinopatías de hombro.",
         url: URL,
         type: "website",
         locale: "es_CL",
