@@ -46,6 +46,27 @@ export function SiteFooter() {
                                 <Link href="/servicios/geriatrica">Geriatría Activa</Link>
                             </li>
                         </ul>
+                        <h4 className="font-bold text-white mb-4 mt-8 text-sm uppercase tracking-wider">Información</h4>
+                        <ul className="space-y-3 text-sm">
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/precios">Precios y planes</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/como-funciona">Cómo funciona</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/testimonios">Opiniones de pacientes</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/nosotros">Equipo clínico</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/blog">Blog</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/ejercicios">Ejercicios terapéuticos</Link>
+                            </li>
+                        </ul>
                     </div>
                     <div>
                         <h4 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">Cobertura</h4>
