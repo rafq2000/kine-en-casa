@@ -56,3 +56,17 @@ de H1. Esa lista es la entrada para el trabajo con Claude.
 - Mínimo 300 palabras de texto visible.
 - Prohibido mencionar Fonasa: el negocio no ofrece ese servicio.
 - TTFB bajo 1200 ms, HTML bajo 250 KB.
+
+## Ejecucion desatendida (sin Claude)
+
+La capa determinista puede correr sola. Registrar la tarea en Windows (una sola vez):
+
+```
+schtasks /create /tn "KINEUM SEO" /tr "C:\Usersude_\Downloads\kine-en-casa\seo\ciclo-automatico.bat" /sc weekly /d MON,THU /st 09:23
+```
+
+Corre lunes y jueves a las 9:23 y deja el registro en `seo/ciclo.log`.
+Para quitarla: `schtasks /delete /tn "KINEUM SEO" /f`
+
+La capa de criterio editorial (reescribir titulos, ampliar contenido, decidir keywords)
+la ejecuta Claude leyendo `pendientes-humano.json`.
