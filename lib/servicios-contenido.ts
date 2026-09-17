@@ -529,7 +529,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Transparencia de precios y reembolso',
                 parrafos: [
                     'Los valores están publicados en la página de precios, sin "consulte por su caso" para los planes estándar. Somos un servicio particular: emitimos boleta de honorarios electrónica el mismo día del pago.',
-                    'Con esa boleta puedes solicitar reembolso en tu Isapre, donde según el plan se recupera habitualmente entre un 50% y un 80%, y luego el copago restante en tu seguro complementario si tienes uno. Para el reembolso vas a necesitar orden médica vigente, así que conviene pedirla desde el principio.',
+                    'Con esa boleta puedes solicitar reembolso en tu Isapre, según la cobertura de tu plan, y luego el copago restante en tu seguro complementario si tienes uno. Para el reembolso vas a necesitar orden médica vigente, así que conviene pedirla desde el principio.',
                     'Somos un servicio particular: no emitimos bonos de ningún sistema previsional. El camino es siempre boleta y reembolso.',
                 ],
             },

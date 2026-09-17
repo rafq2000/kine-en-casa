@@ -16,6 +16,8 @@ import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
 import { comunas, type Comuna } from "@/lib/comunas-data"
 import { especialidades, type Especialidad } from "@/lib/especialidades-data"
+import { comunasLocal } from "@/lib/comunas-local"
+import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
 
 const TEL = "+56999679593"
 const TEL_DISPLAY = "+56 9 9967 9593"
@@ -33,6 +35,9 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
     const esp = especialidades.find((e) => e.slug === especialidadSlug) as Especialidad
     const com = comunas.find((c) => c.slug === comunaSlug) as Comuna
 
+    const local = comunasLocal[com.slug]
+    const espLocal = local?.especialidades.find((e) => e.slug === esp.slug)
+
     const url = `https://kineum.cl/${esp.slug}-${com.slug}`
     const waLink = wa(`Hola, necesito ${esp.corto} a domicilio en ${com.nombre}`)
 
@@ -42,7 +47,9 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
     const otrasComunas = comunas.filter((c) => c.slug !== com.slug)
 
     const faqs = [
-        ...esp.faqs.map((f) => ({ q: f.q, a: f.a })),
+        ...(espLocal?.faqsLocales ?? []),
+        // Con contenido local se muestran menos FAQs genéricas: las completas viven en el hub del servicio.
+        ...esp.faqs.slice(0, espLocal ? 3 : esp.faqs.length),
         {
             q: `¿Atienden ${esp.corto} en todos los sectores de ${com.nombre}?`,
             a: `Sí. Cubrimos toda la comuna de ${com.nombre}, incluyendo ${com.sectores.slice(0, 5).join(", ")} y el resto de los sectores. Todas las sesiones se realizan en el domicilio del paciente.`,
@@ -53,7 +60,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
         },
         {
             q: `¿Emiten boleta para reembolso en ${com.nombre}?`,
-            a: "Sí. Emitimos boleta de honorarios electrónica el mismo día, reembolsable en tu Isapre (habitualmente 50-80% según plan) y en tu seguro complementario si tienes uno.",
+            a: "Sí. Emitimos boleta de honorarios electrónica el mismo día, reembolsable en tu Isapre según la cobertura de tu plan, y en tu seguro complementario si tienes uno.",
         },
     ]
 
@@ -208,6 +215,29 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                     </div>
                 </div>
             </section>
+
+            {/* Contenido local unico de la especialidad en la comuna */}
+            {espLocal && (
+                <section className="py-16 md:py-20 border-b border-slate-200">
+                    <div className="container mx-auto px-4">
+                        <div className="max-w-5xl grid md:grid-cols-5 gap-10">
+                            <div className="md:col-span-3">
+                                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif mb-6">
+                                    {esp.nombre} en {com.nombre}: lo que conviene saber
+                                </h2>
+                                {espLocal.introLocal.split(/\n\n+/).map((p) => (
+                                    <p key={p.slice(0, 40)} className="text-lg text-slate-700 leading-relaxed mb-4">
+                                        {p}
+                                    </p>
+                                ))}
+                            </div>
+                            <div className="md:col-span-2">
+                                <CentrosSaludCercanos comuna={com.nombre} centros={local.centrosSalud} />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* Condiciones que tratamos */}
             <section className="py-16 md:py-20">

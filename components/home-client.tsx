@@ -55,7 +55,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Trabajan con Isapre?",
-        acceptedAnswer: { "@type": "Answer", text: "Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre (habitualmente 50-80% según plan) y también en tu seguro complementario. Consulta los detalles de tu plan de salud." }
+        acceptedAnswer: { "@type": "Answer", text: "Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre según la cobertura de tu plan, y también en tu seguro complementario. Consulta los detalles de tu plan de salud." }
       },
       {
         "@type": "Question",
@@ -165,7 +165,7 @@ export default function HomePage() {
       description: "El protocolo acelerado para eliminar el dolor.",
       icon: Star,
       features: [
-        "8 Sesiones de Kinesiología Expert",
+        "10 Sesiones de Kinesiología (60 min)",
         "Prioridad en agendamiento",
         "Reportes de progreso detallados",
       ],
@@ -177,7 +177,7 @@ export default function HomePage() {
       ],
       popular: true,
       gradient: "from-amber-600 to-amber-800",
-      price: "280.000",
+      price: "350.000",
       totalValue: "$400.000+",
     },
     {
@@ -270,7 +270,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
-              Somos los únicos especialistas en rehabilitación a domicilio con <strong>Tecnología de Monitoreo + Asistente AI 24/7</strong>.
+              Kinesiólogos titulados que llegan a tu casa con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
               <br />
               Agendamos hoy. Vamos hoy.
             </p>
@@ -984,11 +984,11 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué comunas atienden en el sector oriente de Santiago?</h3>
-              <p className="text-slate-600">Atendemos Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul y Santiago Centro. Todos los tratamientos se realizan directamente en tu hogar.</p>
+              <p className="text-slate-600">Atendemos Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. Todos los tratamientos se realizan directamente en tu hogar.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
-              <p className="text-slate-600">Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre (habitualmente 50-80% según plan) y también en tu seguro complementario. Consulta los detalles de tu plan de salud.</p>
+              <p className="text-slate-600">Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre según la cobertura de tu plan, y también en tu seguro complementario. Consulta los detalles de tu plan de salud.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué tipos de kinesiología ofrecen a domicilio?</h3>

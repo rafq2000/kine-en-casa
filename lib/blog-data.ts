@@ -5,9 +5,9 @@ export const blogPosts = [
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
     seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? 2026 | KINEUM",
-    seoDescription: "Sesión $30.000 a $45.000 y pack de 10 desde $35.000. Precios reales 2026 en Santiago y cuánto recuperas con tu Isapre. Evaluación inicial gratis.",
+    seoDescription: "Sesión a domicilio entre $35.000 y $50.000 según tarifas publicadas; pack de 10 a $35.000 por sesión. Precios 2026 y reembolso Isapre.",
     title: "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026",
-    subtitle: "Sesión individual: $30.000–$45.000. Packs desde $35.000 por sesión. Valores reales 2026 y cuánto recuperas con tu Isapre y seguro complementario.",
+    subtitle: "Sesión individual a domicilio: $35.000–$50.000 según tarifas publicadas. Pack de 10 a $35.000 por sesión. Cómo reembolsar en tu Isapre y seguro complementario.",
     author: "Equipo Clínico KINEUM",
     date: "02 Julio, 2026",
     dateISO: "2026-07-02",
@@ -15,10 +15,10 @@ export const blogPosts = [
     category: "Precios y Reembolsos",
     image: "/images/blog-precios-kinesiologia-2026.jpg",
     icon: CircleDollarSign,
-    content: `<p class="lead">Si estás cotizando un kinesiólogo a domicilio en Santiago, lo primero que quieres saber es el precio. Aquí te lo respondemos sin rodeos, con valores actualizados a 2026, y te explicamos cómo bajar el costo real hasta un 80% usando tu Isapre y seguro complementario.</p>
+    content: `<p class="lead">Si estás cotizando un kinesiólogo a domicilio en Santiago, lo primero que quieres saber es el precio. Aquí te lo respondemos sin rodeos, con valores actualizados a 2026, y te explicamos cómo bajar el costo real usando tu Isapre y seguro complementario.</p>
 
       <h2>Precio de una sesión de kinesiología a domicilio en Santiago (2026)</h2>
-      <p>En Santiago, una sesión individual de kinesiología a domicilio cuesta en general entre <strong>$30.000 y $45.000 CLP</strong>, dependiendo de tres factores:</p>
+      <p>En Santiago, una sesión individual de kinesiología a domicilio va aproximadamente de <strong>$35.000 a $50.000 CLP</strong> según tarifas publicadas por servicios de Santiago revisadas en septiembre de 2026, y puede subir cerca de $60.000 en fines de semana, festivos o con recargo por distancia. El valor depende de tres factores:</p>
       <ul>
         <li><strong>Especialidad:</strong> la kinesiología respiratoria infantil o la neurorehabilitación post-ACV suelen costar más que una sesión motora estándar, porque requieren mayor especialización y equipamiento.</li>
         <li><strong>Comuna y desplazamiento:</strong> algunos servicios cobran recargo por distancia. En KINEUM no aplicamos recargos dentro de nuestra zona de cobertura (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro).</li>
@@ -37,10 +37,10 @@ export const blogPosts = [
       <h2>Cuánto recuperas con Isapre y seguros complementarios</h2>
       <p>El precio de lista no es el costo final. Con la documentación correcta:</p>
       <ul>
-        <li><strong>Isapre:</strong> emitimos boleta de honorarios que puedes enviar a reembolso. Según tu plan (Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida), recuperas típicamente entre un <strong>50% y un 80%</strong> del valor. Lee nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía completa de reembolso Isapre</a>.</li>
+        <li><strong>Isapre:</strong> emitimos boleta de honorarios que puedes enviar a reembolso. Cuánto recuperas depende de los topes y porcentajes de tu plan (Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida y Esencial permiten pedirlo en línea); revísalo en la sucursal virtual de tu Isapre. Lee nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía completa de reembolso Isapre</a>.</li>
         <li><strong>Seguro complementario:</strong> si además tienes un seguro (Metlife, Chilena Consolidada, BICE, Zurich o colectivo de empresa), puedes reembolsar el copago que la Isapre no cubrió y recuperar la mayor parte del valor.</li>
       </ul>
-      <p>Ejemplo real: una paciente de Ñuñoa con plan Isapre al 70% de reembolso pagó el Plan Premium de $350.000 y recuperó $245.000. Costo final del tratamiento completo de 10 sesiones: <strong>$105.000</strong>, es decir, $10.500 por sesión a domicilio.</p>
+      <p>Ejemplo ilustrativo: si tu plan Isapre reembolsa un 70% y pagas el Plan Premium de $350.000, recuperas $245.000. Costo final del tratamiento completo de 10 sesiones: <strong>$105.000</strong>, es decir, $10.500 por sesión a domicilio.</p>
 
       <h2>¿Vale la pena pagar kinesiología a domicilio vs. ir a un centro?</h2>
       <p>Una sesión en centro puede parecer más barata, pero al comparar el costo total la diferencia se reduce o desaparece:</p>

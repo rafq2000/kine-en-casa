@@ -134,7 +134,7 @@ const faqSchema = {
       name: "Cuanto cuesta un kinesiologo a domicilio en Santiago?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "En KINEUM, el Plan Essential de 4 sesiones mensuales cuesta $160.000 CLP/mes y el Plan Premium de 10 sesiones cuesta $350.000 CLP/mes. Ambos incluyen evaluacion inicial gratuita. Ademas, puedes solicitar reembolso por Isapre (50-80%) y seguros complementarios, reduciendo significativamente el costo real.",
+        text: "En KINEUM, el Plan Essential de 4 sesiones mensuales cuesta $160.000 CLP/mes y el Plan Premium de 10 sesiones cuesta $350.000 CLP/mes. Ambos incluyen evaluacion inicial gratuita. Ademas, con la boleta puedes solicitar reembolso en tu Isapre y en tu seguro complementario, segun la cobertura de tu plan.",
       },
     },
     {
@@ -142,7 +142,7 @@ const faqSchema = {
       name: "Cuanto reembolsa la Isapre por kinesiologia a domicilio?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "El reembolso de Isapre por kinesiologia a domicilio varia segun tu plan de salud. Generalmente las Isapres reembolsan entre un 50% y 80% del valor de cada sesion. Necesitas una orden medica vigente y la boleta de honorarios que emitimos despues de cada atencion. Esto aplica para Colmena, Cruz Blanca, Banmedica, Consalud, Vida Tres y Nueva Masvida.",
+        text: "El reembolso de Isapre por kinesiologia a domicilio varia segun tu plan de salud. El monto depende de los topes y porcentajes de tu plan, que puedes revisar en la sucursal virtual de tu Isapre. Necesitas una orden medica vigente y la boleta de honorarios que emitimos despues de cada atencion. Esto aplica para Colmena, Cruz Blanca, Banmedica, Consalud, Vida Tres y Nueva Masvida.",
       },
     },
     {
@@ -282,12 +282,12 @@ const plans = [
 ]
 
 const isapres = [
-  { name: "Colmena", reembolso: "50-70%" },
-  { name: "Cruz Blanca", reembolso: "50-80%" },
-  { name: "Banmedica", reembolso: "60-80%" },
-  { name: "Consalud", reembolso: "50-70%" },
-  { name: "Vida Tres", reembolso: "50-75%" },
-  { name: "Nueva Masvida", reembolso: "50-70%" },
+  { name: "Colmena", reembolso: "Reembolso online" },
+  { name: "Cruz Blanca", reembolso: "Reembolso online" },
+  { name: "Banmedica", reembolso: "Reembolso online" },
+  { name: "Consalud", reembolso: "Reembolso online" },
+  { name: "Vida Tres", reembolso: "Reembolso online" },
+  { name: "Nueva Masvida", reembolso: "Reembolso online" },
 ]
 
 const faqs = [
@@ -299,7 +299,7 @@ const faqs = [
   {
     question: "Cuanto reembolsa mi Isapre por kinesiologia a domicilio?",
     answer:
-      "El porcentaje de reembolso depende de tu plan de salud. En general, las Isapres reembolsan entre un 50% y 80% del valor de cada sesion. Por ejemplo, en el Plan Premium ($35.000/sesion), podrias recuperar entre $17.500 y $28.000 por sesion, dejando tu costo real entre $7.000 y $17.500.",
+      "El porcentaje de reembolso depende de tu plan de salud. Cada plan tiene sus propios topes y porcentajes, asi que no hay una cifra unica. Como ejemplo ilustrativo, si tu plan reembolsa un 70%, en el Plan Premium ($35.000/sesion) recuperarias $24.500 y tu costo real seria $10.500 por sesion.",
   },
   {
     question: "Puedo usar mi seguro complementario?",
@@ -445,7 +445,7 @@ export default function PreciosPage() {
 
           <p className="text-xl md:text-2xl text-slate-700 mb-8 leading-relaxed max-w-4xl mx-auto">
             Planes desde <strong>$160.000/mes</strong> con evaluacion inicial{" "}
-            <strong>gratuita</strong>. Reembolso por Isapre (50-80%) y seguros
+            <strong>gratuita</strong>. Boleta reembolsable en Isapre y seguros
             complementarios. Sin costo de traslado, sin esperas.
           </p>
 
@@ -593,8 +593,8 @@ export default function PreciosPage() {
               </span>
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Emitimos boleta de honorarios profesional para que recuperes entre el 50% y 80% del
-              valor de cada sesion con tu Isapre.
+              Emitimos boleta de honorarios profesional para que solicites el reembolso en tu Isapre segun
+              la cobertura de tu plan.
             </p>
           </div>
 
@@ -613,7 +613,7 @@ export default function PreciosPage() {
 
           <div className="max-w-4xl mx-auto bg-slate-800/50 backdrop-blur-sm rounded-2xl border border-slate-700 p-8 md:p-10">
             <h3 className="text-2xl font-bold mb-6 text-center font-serif">
-              Ejemplo: Costo Real con Reembolso Isapre
+              Ejemplo Ilustrativo: Costo Real con Reembolso Isapre
             </h3>
 
             <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -622,7 +622,7 @@ export default function PreciosPage() {
                 <p className="text-3xl font-bold text-white font-serif">$35.000</p>
               </div>
               <div className="bg-slate-900/50 rounded-xl p-6 border border-amber-500/30">
-                <p className="text-slate-400 text-sm mb-2">Reembolso Isapre (70%)</p>
+                <p className="text-slate-400 text-sm mb-2">Si tu plan reembolsa 70%</p>
                 <p className="text-3xl font-bold text-amber-400 font-serif">-$24.500</p>
               </div>
               <div className="bg-emerald-900/30 rounded-xl p-6 border border-emerald-500/30">
@@ -738,7 +738,7 @@ export default function PreciosPage() {
                       3
                     </span>
                     <span className="text-slate-700">
-                      Reembolsa primero en tu <strong>Isapre</strong> (50-80% del valor)
+                      Reembolsa primero en tu <strong>Isapre</strong> (segun tu plan)
                     </span>
                   </li>
                   <li className="flex items-start">

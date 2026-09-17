@@ -28,6 +28,8 @@ import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import { especialidades } from "@/lib/especialidades-data"
 import { comunas } from "@/lib/comunas-data"
+import { comunasLocal } from "@/lib/comunas-local"
+import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
 
 interface ComunaData {
     nombre: string
@@ -43,6 +45,7 @@ interface ComunaPageProps {
 }
 
 export default function ComunaPage({ data }: ComunaPageProps) {
+    const local = comunasLocal[data.slug]
     const services = [
         {
             title: "Kinesiología Geriátrica",
@@ -225,7 +228,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                         </h1>
 
                         <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
-                            Somos los únicos especialistas en {data.nombre} con <strong>Tecnología de Monitoreo + Asistente AI 24/7</strong>.
+                            Kinesiólogos titulados que llegan a tu casa en {data.nombre} con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
                             <br />
                             Agendamos hoy. Vamos hoy.
                         </p>
@@ -400,13 +403,13 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                     <p className="text-xs text-slate-400 uppercase font-bold tracking-widest mb-1">Valor Total</p>
                                     <span className="text-lg font-bold text-slate-400 line-through decoration-red-500 decoration-2">$400.000+</span>
                                     <div className="flex items-center justify-center gap-2 mt-1">
-                                        <span className="text-4xl font-black text-slate-900 tracking-tight">$280.000</span>
+                                        <span className="text-4xl font-black text-slate-900 tracking-tight">$350.000</span>
                                     </div>
                                 </div>
                             </CardHeader>
                             <CardContent className="pt-0 flex-grow">
                                 <ul className="space-y-3 mb-6">
-                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> 8 Sesiones Expert</li>
+                                    <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> 10 Sesiones (60 min)</li>
                                     <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> Reportes de Progreso</li>
                                     <li className="flex items-start text-sm"><Check className="h-4 w-4 text-emerald-600 mr-2" /> Prioridad Agenda</li>
                                 </ul>
@@ -559,6 +562,27 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     </div>
                 </div>
             </section>
+
+            {/* Contenido local unico de la comuna */}
+            {local && (
+                <section className="py-20 bg-white">
+                    <div className="container mx-auto px-4">
+                        <div className="max-w-5xl mx-auto grid md:grid-cols-5 gap-10">
+                            <div className="md:col-span-3">
+                                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">{local.hub.h2}</h2>
+                                {local.hub.parrafos.map((p) => (
+                                    <p key={p.slice(0, 40)} className="text-lg text-slate-700 leading-relaxed mb-4">
+                                        {p}
+                                    </p>
+                                ))}
+                            </div>
+                            <div className="md:col-span-2">
+                                <CentrosSaludCercanos comuna={data.nombre} centros={local.centrosSalud} />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* Servicios kinésicos específicos en esta comuna */}
             <section className="py-20 bg-white border-t border-slate-100">

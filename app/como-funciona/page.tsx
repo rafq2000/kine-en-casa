@@ -140,7 +140,7 @@ const faqSchema = {
       name: "Como funciona el reembolso con Isapre?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Emitimos boleta de honorarios por cada sesion. Con tu orden medica y la boleta, solicitas el reembolso directamente en tu Isapre (habitualmente 50-80% segun plan) y luego el copago restante en tu seguro complementario si tienes uno.",
+        text: "Emitimos boleta de honorarios por cada sesion. Con tu orden medica y la boleta, solicitas el reembolso directamente en tu Isapre (segun la cobertura de tu plan) y luego el copago restante en tu seguro complementario si tienes uno.",
       },
     },
     {
@@ -240,7 +240,7 @@ const faqs = [
   {
     question: "Como funciona el reembolso con Isapre?",
     answer:
-      "Emitimos boleta de honorarios por cada sesion. Con tu orden medica vigente y la boleta, solicitas el reembolso directamente en tu Isapre (habitualmente 50-80% segun plan) y luego el copago restante en tu seguro complementario si tienes uno.",
+      "Emitimos boleta de honorarios por cada sesion. Con tu orden medica vigente y la boleta, solicitas el reembolso directamente en tu Isapre (segun la cobertura de tu plan) y luego el copago restante en tu seguro complementario si tienes uno.",
   },
   {
     question: "Cuantas sesiones necesitare?",
@@ -418,7 +418,7 @@ export default function ComoFuncionaPage() {
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                        <span>Reembolso segun tu plan de salud (habitualmente entre 50% y 80%)</span>
+                        <span>Reembolso segun la cobertura de tu plan de salud</span>
                       </li>
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />

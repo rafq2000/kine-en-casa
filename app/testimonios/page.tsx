@@ -179,28 +179,8 @@ export default function TestimoniosPage() {
             addressRegion: "Region Metropolitana",
             addressCountry: "CL",
         },
-        aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: aggregateRating.ratingValue,
-            reviewCount: aggregateRating.reviewCount,
-            bestRating: aggregateRating.bestRating,
-            worstRating: aggregateRating.worstRating,
-        },
-        review: testimonials.map((t) => ({
-            "@type": "Review",
-            author: {
-                "@type": "Person",
-                name: t.name,
-            },
-            datePublished: t.date,
-            reviewBody: t.quote,
-            reviewRating: {
-                "@type": "Rating",
-                ratingValue: t.rating,
-                bestRating: 5,
-                worstRating: 1,
-            },
-        })),
+        // Sin aggregateRating/review: Google no permite reseñas autopublicadas
+        // sobre el propio negocio (self-serving reviews) y puede penalizar el marcado.
     }
 
     const jsonLdBreadcrumb = {
