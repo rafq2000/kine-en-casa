@@ -918,7 +918,7 @@ export const blogPosts = [
       </ul>
 
       <h2>¿Cuánto cuesta y cómo se paga?</h2>
-      <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con la orden del pediatra puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> (típicamente 50-80%) la boleta que emitimos, y el copago restante en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
+      <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con la orden del pediatra puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> la boleta que emitimos, y el copago restante en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
 
       <h2>Cobertura en Santiago</h2>
       <p>Atendemos KTR infantil y de adultos en <a href="/kinesiologia-respiratoria-las-condes">Las Condes</a>, <a href="/kinesiologia-respiratoria-vitacura">Vitacura</a>, <a href="/kinesiologia-respiratoria-providencia">Providencia</a>, <a href="/kinesiologia-respiratoria-nunoa">Ñuñoa</a>, <a href="/kinesiologia-respiratoria-la-reina">La Reina</a>, <a href="/kinesiologia-respiratoria-lo-barnechea">Lo Barnechea</a>, <a href="/kinesiologia-respiratoria-penalolen">Peñalolén</a>, <a href="/kinesiologia-respiratoria-la-florida">La Florida</a>, <a href="/kinesiologia-respiratoria-macul">Macul</a>, <a href="/kinesiologia-respiratoria-san-joaquin">San Joaquín</a> y <a href="/kinesiologia-respiratoria-santiago-centro">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
@@ -929,8 +929,8 @@ export const blogPosts = [
 
   {
     slug: "kinesiologia-piso-pelvico-post-parto-domicilio",
-    seoTitle: "Kinesiología de Piso Pélvico Post Parto en Casa | KINEUM",
-    seoDescription: "Cuándo partir después del parto, qué se trabaja semana a semana y cómo reconocer una diástasis abdominal. Guía informativa de recuperación en casa.",
+    seoTitle: "Piso Pélvico Post Parto e Incontinencia en Casa | KINEUM",
+    seoDescription: "Incontinencia, prolapso, diástasis y recuperación post parto: cuándo evaluarte, qué incluye el tratamiento y cómo se hace en tu casa, en Santiago.",
     title: "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026",
     subtitle: "Cuándo empezar, qué se trabaja en cada etapa y por qué la rehabilitación en casa es ideal con un recién nacido.",
     author: "Dra. Javiera Méndez",
@@ -940,56 +940,78 @@ export const blogPosts = [
     category: "Salud Mujer",
     image: "/images/blog-piso-pelvico-post-parto.jpg",
     icon: Shield,
-    content: `<p class="lead">Acabas de tener a tu bebé y entre lactancia, noches sin dormir y controles del recién nacido, ir a un centro de rehabilitación es casi imposible. Por eso la kinesiología de piso pélvico <strong>a domicilio</strong> se ha vuelto el formato preferido de las mamás en Santiago: la especialista llega a tu casa, en el horario de la siesta del bebé.</p>
+    content: `<p class="lead">Acabas de tener a tu bebé y entre la lactancia, las noches sin dormir y los controles del recién nacido, ir a un centro de rehabilitación es casi imposible. Por eso la kinesiología de piso pélvico <strong>a domicilio</strong> se volvió el formato preferido de las mamás en Santiago: la especialista llega a tu casa, en el horario de la siesta del bebé. Y no es solo un tema de puerperio: la incontinencia, los prolapsos y las molestias que aparecen años después también se tratan, y también se pueden tratar en casa.</p>
 
-      <h2>¿Toda mujer necesita evaluación post parto?</h2>
-      <p>Idealmente sí, y esto no es marketing: el embarazo —independiente de si el parto fue vaginal o cesárea— somete al piso pélvico y al abdomen a nueve meses de presión y cambios hormonales. Las guías internacionales recomiendan al menos <strong>una evaluación de piso pélvico entre las 6 y 8 semanas post parto</strong>, cuando el médico ya dio el alta obstétrica.</p>
+      <h2>¿Qué es el piso pélvico y por qué se debilita?</h2>
+      <p>Es el grupo de músculos que cierra la pelvis por abajo y sostiene la vejiga, el útero y el recto. Como cualquier otro músculo, se fatiga, pierde fuerza y <strong>se entrena</strong>. Lo debilitan el embarazo y el parto, pero también la menopausia, la tos crónica, el estreñimiento y los deportes de impacto sostenidos en el tiempo.</p>
+      <p>El embarazo, independiente de si el parto fue vaginal o cesárea, somete al piso pélvico y a la pared abdominal a nueve meses de presión y cambios hormonales. Por eso la recuperación no es automática: hay que acompañarla.</p>
 
-      <h2>Señales de que necesitas tratamiento (no solo evaluación)</h2>
+      <h2>¿Toda mujer necesita evaluación después del parto?</h2>
+      <p>Idealmente sí, y esto no es marketing. Lo razonable es una evaluación de piso pélvico una vez que tu médico te da el alta obstétrica, habitualmente alrededor de las seis semanas. Esa evaluación no significa que tengas un problema: sirve justamente para saber si lo tienes y para no arrastrar por años algo que se aborda mejor temprano. La kinesiología complementa el control con tu matrona o ginecólogo; no lo reemplaza.</p>
+
+      <h2>Señales de que necesitas tratamiento, no solo evaluación</h2>
       <ul>
         <li>Escapes de orina al toser, reír, estornudar o retomar el ejercicio.</li>
-        <li>Sensación de peso o "bulto" en la zona vaginal (posible prolapso).</li>
-        <li>Diástasis abdominal: separación de los rectos que no cierra después de los 3 meses.</li>
-        <li>Dolor en las relaciones sexuales o molestias en la cicatriz (episiotomía o cesárea).</li>
+        <li>Sensación de peso o de "bulto" en la zona vaginal, que puede corresponder a un prolapso.</li>
+        <li>Diástasis abdominal: separación de los rectos que no cierra con los meses.</li>
+        <li>Dolor en las relaciones sexuales o molestias en la cicatriz de episiotomía o cesárea.</li>
         <li>Urgencia miccional o dificultad para retener gases.</li>
         <li>Dolor lumbar o pélvico persistente al cargar al bebé.</li>
       </ul>
-      <p>Ninguna de estas señales es "normal aunque frecuente": todas tienen tratamiento kinesiológico con buena evidencia.</p>
+      <p>Ninguna de estas señales es "normal aunque frecuente". Frecuentes son; normales, no. Todas tienen abordaje kinesiológico, y en varias el entrenamiento de la musculatura del piso pélvico es el tratamiento conservador que se prueba antes de plantear cualquier cirugía.</p>
+
+      <h2>Cuando el problema no es el post parto</h2>
+      <p>Buena parte de las mujeres que atendemos no viene del puerperio. Consultan porque el síntoma apareció o se agravó mucho después, y eso también es materia de kinesiología de piso pélvico:</p>
+      <ul>
+        <li><strong>Incontinencia urinaria de esfuerzo:</strong> se escapa orina al reír, toser, saltar o levantar peso. Es el motivo de consulta más común y el que mejor responde a un entrenamiento bien dirigido.</li>
+        <li><strong>Urgencia miccional:</strong> la sensación de "no alcanzo al baño". Acá el trabajo incluye reeducación de la vejiga y de hábitos, además del músculo.</li>
+        <li><strong>Prolapso de órganos pélvicos:</strong> esa sensación de peso o bulto. El tratamiento conservador busca mejorar el soporte y los síntomas; la indicación de cirugía siempre la define tu ginecólogo.</li>
+        <li><strong>Menopausia:</strong> los cambios hormonales afectan el tejido y muchas mujeres notan ahí síntomas que antes no tenían. No es "la edad": es un músculo que necesita trabajo.</li>
+        <li><strong>Deportistas:</strong> correr, saltar y levantar cargas pesadas exigen un piso pélvico que sepa responder a la presión, no solo apretar.</li>
+        <li><strong>Post operatorio ginecológico o abdominal:</strong> se coordina con el equipo tratante, igual que el resto de la <a href="/servicios/postquirurgica">rehabilitación post quirúrgica</a>.</li>
+      </ul>
+      <p>Nunca es tarde para empezar: el músculo responde al entrenamiento a cualquier edad, y en adultas mayores el trabajo se integra con el resto del plan de <a href="/servicios/geriatrica">kinesiología geriátrica</a>.</p>
 
       <h2>Cómo es el tratamiento a domicilio, etapa por etapa</h2>
       <ul>
-        <li><strong>Evaluación (sesión 1):</strong> historia del embarazo y parto, evaluación funcional del piso pélvico, diástasis, postura y respiración. Definimos objetivos realistas contigo.</li>
-        <li><strong>Fase de reconexión (semanas 1-4):</strong> respiración diafragmática coordinada con el piso pélvico, activación del transverso abdominal, higiene postural para lactancia y porteo.</li>
-        <li><strong>Fase de fortalecimiento (semanas 4-10):</strong> entrenamiento progresivo del piso pélvico y el core profundo — mucho más que "ejercicios de Kegel" genéricos, que la mitad de las mujeres ejecuta mal sin guía.</li>
-        <li><strong>Retorno al ejercicio (desde semana 10-12):</strong> progresión segura hacia impacto (trotar, saltar, crossfit) con el piso pélvico preparado para la carga.</li>
+        <li><strong>Evaluación (sesión 1):</strong> historia del embarazo y el parto —o del síntoma, si no vienes del post parto—, evaluación funcional del piso pélvico, de la diástasis, de la postura y de la respiración. Ahí definimos objetivos realistas contigo.</li>
+        <li><strong>Fase de reconexión:</strong> respiración diafragmática coordinada con el piso pélvico, activación del transverso abdominal e higiene postural para la lactancia y el porteo.</li>
+        <li><strong>Fase de fortalecimiento:</strong> entrenamiento progresivo del piso pélvico y del core profundo. Es bastante más que "ejercicios de Kegel" genéricos: sin guía, muchas mujeres los hacen al revés y empujan hacia abajo en vez de contraer hacia adentro.</li>
+        <li><strong>Retorno al ejercicio:</strong> progresión segura hacia el impacto —trotar, saltar, entrenamiento funcional— recién cuando el piso pélvico está preparado para esa carga.</li>
       </ul>
+      <p>En paralelo trabajamos lo que sostiene el resultado: manejo del estreñimiento, técnica para toser y para levantar peso sin castigar la zona, y pausas realistas dentro de tu día. Si quieres ver el paso a paso de una visita antes de agendar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a>.</p>
 
-      <h2>Ventajas del formato domiciliario con recién nacido</h2>
+      <h2>Por qué el formato domiciliario funciona tan bien acá</h2>
       <ul>
-        <li><strong>El bebé se queda contigo:</strong> no necesitas quién lo cuide; puedes amamantar antes o durante la visita.</li>
-        <li><strong>Privacidad total:</strong> el tratamiento de piso pélvico es íntimo; tu dormitorio es más cómodo que un box clínico.</li>
-        <li><strong>Entrenamos en tu entorno real:</strong> cómo cargar la cuna, la postura en TU sillón de lactancia, las escaleras de TU casa.</li>
-        <li><strong>Cero traslados en puerperio:</strong> tu cuerpo está en recuperación; el descanso también es parte del tratamiento.</li>
+        <li><strong>El bebé se queda contigo:</strong> no necesitas con quién dejarlo y puedes amamantar antes o durante la visita.</li>
+        <li><strong>Privacidad total:</strong> el tratamiento de piso pélvico es íntimo y tu dormitorio es más cómodo que un box clínico.</li>
+        <li><strong>Entrenamos en tu entorno real:</strong> cómo tomas al bebé de la cuna, la postura en TU sillón de lactancia, las escaleras de TU casa.</li>
+        <li><strong>Cero traslados:</strong> en puerperio el descanso también es parte del tratamiento.</li>
       </ul>
 
-      <h2>Precios y reembolso</h2>
-      <p>La kinesiología de piso pélvico se paga igual que cualquier atención kinesiológica: con orden médica puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar en tu Isapre</a> (típicamente 50-80%) y el copago restante en tu seguro complementario. La evaluación inicial en KINEUM es <strong>gratuita</strong> y nuestros <a href="/precios">packs de sesiones</a> cubren el tratamiento completo. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+      <h2>Precios y cobertura</h2>
+      <p>La kinesiología de piso pélvico se paga igual que cualquier atención kinesiológica particular: emitimos boleta y, con orden médica, puedes presentarla para <a href="/blog/reembolso-isapre-kinesiologia">reembolso en tu Isapre</a> y en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas. Revisa las comunas donde llegamos en nuestra <a href="/cobertura">página de cobertura</a>.</p>
 
       <h2>Preguntas frecuentes</h2>
       <h3>¿Puedo empezar si tuve cesárea?</h3>
-      <p>Sí. La cesárea también requiere rehabilitación: cicatriz, diástasis y piso pélvico (el embarazo ya hizo su parte). El inicio es igual: tras el alta obstétrica de las 6 semanas.</p>
-      <h3>¿Cuántas sesiones necesitaré?</h3>
-      <p>Una evaluación + 6 a 12 sesiones es lo habitual según los hallazgos. Los casos de incontinencia leve suelen resolverse en 8-10 semanas de trabajo constante.</p>
+      <p>Sí. La cesárea también requiere rehabilitación: cicatriz, diástasis y piso pélvico, porque el embarazo ya hizo lo suyo. El inicio es el mismo, después del alta obstétrica.</p>
+      <h3>¿Cuántas sesiones voy a necesitar?</h3>
+      <p>Lo habitual es una evaluación más un plan de alrededor de 6 a 12 sesiones, pero el número real depende de lo que encontremos y de cómo respondas. Te lo decimos después de evaluarte, no antes.</p>
       <h3>¿Y si mi parto fue hace años?</h3>
-      <p>Nunca es tarde: el piso pélvico responde al entrenamiento a cualquier edad. Muchas de nuestras pacientes consultan años después, cuando los síntomas aumentan con la menopausia.</p>
+      <p>Igual sirve. El piso pélvico responde al entrenamiento a cualquier edad, y muchas pacientes consultan recién cuando los síntomas aumentan con la menopausia.</p>
+      <h3>¿No basta con hacer ejercicios de Kegel por mi cuenta?</h3>
+      <p>A veces basta y a veces no, y ese es justamente el punto: sin evaluación no sabes si estás contrayendo el músculo correcto, ni si tu problema es de fuerza, de coordinación o de exceso de tensión. En algunos casos apretar más es exactamente lo que no corresponde.</p>
+      <h3>¿Necesito orden médica para atenderme?</h3>
+      <p>Para la atención no es indispensable, pero sí la necesitas si vas a pedir reembolso. Y si tienes síntomas que nunca has consultado —sangrado, dolor intenso, fiebre—, lo primero es tu médico: la kinesiología complementa el tratamiento médico, no lo reemplaza.</p>
+      <h3>¿Se puede trabajar el piso pélvico durante el embarazo?</h3>
+      <p>Sí, con autorización de tu médico tratante y con otro enfoque: preparación, control de la presión abdominal y manejo de molestias, más que fortalecimiento intenso.</p>
 
-      <p><strong>¿Quieres partir con tu evaluación gratuita?</strong> <a href="https://wa.me/56999679593?text=Hola,%20quiero%20evaluaci%C3%B3n%20de%20piso%20p%C3%A9lvico%20post%20parto%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y nuestra especialista coordina contigo (también atendemos <a href="/blog/suelo-pelvico-mujer">incontinencia y prolapsos fuera del post parto</a>).</p>
-    `
+      <p><strong>¿Quieres partir con tu evaluación gratuita?</strong> <a href="https://wa.me/56999679593?text=Hola,%20quiero%20evaluaci%C3%B3n%20de%20piso%20p%C3%A9lvico%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>, cuéntanos hace cuánto fue tu parto o desde cuándo tienes los síntomas, y nuestra especialista coordina contigo el horario que te acomode.</p>`
   },
   {
     slug: "drenaje-linfatico-post-operatorio-domicilio",
     seoTitle: "Drenaje Linfático Post Operatorio a Domicilio | KINEUM",
-    seoDescription: "Cuántas sesiones necesitas tras una cirugía, cuándo empezar y cómo el drenaje baja el edema sin salir de casa. Kinesiólogos a domicilio en Santiago.",
+    seoDescription: "Cuándo empezar tras la cirugía, cuántas sesiones se hacen, cuándo está contraindicado y qué logra de verdad el drenaje linfático manual en tu casa.",
     title: "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar",
     subtitle: "Abdominoplastia, liposucción, prótesis de rodilla o cadera: cómo el drenaje acelera tu recuperación sin salir de casa.",
     author: "Klga. María José Pérez",
@@ -1032,7 +1054,7 @@ export const blogPosts = [
       <h2>Precio y reembolso</h2>
       <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y en tu seguro complementario cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
 
-      <p><strong>¿Tienes cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu protocolo desde la primera semana (lee también nuestra <a href="/blog/drenaje-linfatico-manual">guía general de drenaje linfático</a>).</p>
+      <p><strong>¿Tienes cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu protocolo desde la primera semana (lee también nuestra <a href="/blog/drenaje-linfatico-post-operatorio-domicilio">guía general de drenaje linfático</a>).</p>
     `
   },
 
@@ -1493,41 +1515,6 @@ export const blogPosts = [
     `
   },
   {
-    slug: "drenaje-linfatico-manual",
-    seoTitle: "Drenaje Linfático Manual: Cuándo Está Indicado | KINEUM",
-    seoDescription: "Edema, retención de líquidos y post operatorio: cuándo el drenaje linfático tiene indicación clínica real y cuándo no. Atención a domicilio Santiago.",
-    title: "Drenaje Linfático: Más que Estética, es Salud",
-    subtitle: "Indicaciones médicas para el edema y la retención de líquidos.",
-    author: "Klga. María José Pérez",
-    date: "08 Abril, 2026",
-    dateISO: "2026-04-08",
-    readTime: "5 min lectura",
-    category: "Terapia Manual",
-    image: "/physiotherapy-elderly-care.png",
-    icon: Heart,
-    content: `<p class="lead">El drenaje linfático manual (DLM) se hizo famoso por la estética post-quirúrgica, pero su origen y su mayor valor son médicos: es el tratamiento de elección para el linfedema y un gran aliado en edemas post-traumáticos y post-operatorios.</p>
-
-      <h2>¿Qué es exactamente el DLM?</h2>
-      <p>Una técnica manual suave, lenta y rítmica que estimula la contracción de los vasos linfáticos y redirige el líquido acumulado hacia territorios sanos. No es un masaje profundo: la presión correcta es sorprendentemente ligera, porque los capilares linfáticos están justo bajo la piel.</p>
-
-      <h2>Indicaciones con respaldo clínico</h2>
-      <ul>
-        <li><strong>Linfedema:</strong> primario o secundario (por ejemplo, post-cirugía de cáncer de mama con extracción de ganglios). Aquí el DLM se integra en la Terapia Descongestiva Compleja junto a vendajes y ejercicio.</li>
-        <li><strong>Edema post-quirúrgico:</strong> tras cirugías ortopédicas (prótesis de rodilla o cadera) o plásticas, acelera la reabsorción del edema y mejora el dolor.</li>
-        <li><strong>Edema post-traumático:</strong> esguinces y fracturas con hinchazón persistente.</li>
-        <li><strong>Piernas pesadas por insuficiencia venosa leve:</strong> como complemento de la compresión y el ejercicio.</li>
-      </ul>
-
-      <h2>Cuándo NO se debe hacer</h2>
-      <p>Trombosis venosa profunda activa, infecciones agudas (erisipela), insuficiencia cardíaca descompensada y cáncer activo sin autorización del oncólogo. Por eso siempre evaluamos antes de tratar.</p>
-
-      <h2>¿Cuántas sesiones se necesitan?</h2>
-      <p>En edemas post-quirúrgicos, típicamente 5 a 10 sesiones combinadas con ejercicio activo y educación de autocuidado. En linfedema crónico, el tratamiento es por fases y se complementa con prendas de compresión.</p>
-
-      <p>Realizamos drenaje linfático a domicilio, ideal para pacientes recién operados que no deben trasladarse: mira nuestra <a href="/blog/drenaje-linfatico-post-operatorio-domicilio">guía de drenaje post operatorio a domicilio</a>. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20drenaje%20linf%C3%A1tico">Consulta por WhatsApp</a> o revisa nuestros <a href="/precios">planes de sesiones</a>.</p>
-    `
-  },
-  {
     slug: "bruxismo-dolor-cervical",
     seoTitle: "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM",
     seoDescription: "Por qué apretar los dientes termina en dolor de cuello, qué ejercicios relajan la mandíbula y cuándo consultar. Kinesiología a domicilio Santiago.",
@@ -1600,44 +1587,6 @@ export const blogPosts = [
       <p>Entre 3 y 6 meses según edad, tipo de cirugía y estado previo. Los packs de sesiones con frecuencia 3 veces por semana durante los primeros 2 meses concentran el esfuerzo donde más rinde. Revisa nuestros <a href="/precios">planes de rehabilitación</a> y nuestro servicio de <a href="/servicios/geriatrica">kinesiología geriátrica</a>.</p>
 
       <p>¿Tu padre o madre acaba de ser operado de la cadera? Podemos comenzar esta misma semana en su casa. <a href="https://wa.me/56999679593?text=Hola,%20mi%20familiar%20fue%20operado%20de%20cadera">Escríbenos ahora por WhatsApp</a>.</p>
-    `
-  },
-  {
-    slug: "suelo-pelvico-mujer",
-    seoTitle: "Piso Pélvico Femenino: Incontinencia y Prolapso | KINEUM",
-    seoDescription: "Cómo se previenen y se tratan la incontinencia y el prolapso con ejercicios de suelo pélvico, y cuándo consultar. Guía informativa de salud femenina.",
-    title: "Kinesiología de Piso Pélvico: Salud Femenina Integral",
-    subtitle: "Prevención y tratamiento de la incontinencia y los prolapsos.",
-    author: "Dra. Javiera Méndez",
-    date: "18 Marzo, 2026",
-    dateISO: "2026-03-18",
-    readTime: "6 min lectura",
-    category: "Salud Mujer",
-    image: "/home-rehab-guidance.png",
-    icon: Shield,
-    content: `<p class="lead">Que se escape un poco de orina al reír, toser o saltar es frecuente después de los partos o con los años. Frecuente, sí; normal, no. La incontinencia urinaria de esfuerzo tiene tratamiento kinesiológico de primera línea con tasas de mejoría de la mayoría de los casos leves y moderados.</p>
-
-      <h2>¿Qué es el piso pélvico?</h2>
-      <p>Un grupo de músculos que cierra la pelvis por abajo y sostiene vejiga, útero y recto. Se debilita con los embarazos, los partos, la menopausia, la tos crónica, el estreñimiento y los deportes de impacto. Y como todo músculo, <strong>se entrena</strong>.</p>
-
-      <h2>¿Cuándo consultar?</h2>
-      <ul>
-        <li>Escapes de orina con esfuerzo (risa, tos, ejercicio) o urgencia miccional frecuente.</li>
-        <li>Sensación de peso o "bulto" vaginal (posible prolapso).</li>
-        <li>Post-parto: idealmente TODA mujer debería tener al menos una evaluación de piso pélvico después del parto (vaginal o cesárea).</li>
-        <li>Dolor en las relaciones sexuales o cicatrices molestas (episiotomía, cesárea).</li>
-        <li>Diástasis abdominal que no cierra.</li>
-      </ul>
-
-      <h2>Cómo es el tratamiento</h2>
-      <ul>
-        <li><strong>Evaluación funcional</strong> del piso pélvico y la presión abdominal.</li>
-        <li><strong>Entrenamiento específico:</strong> mucho más que "ejercicios de Kegel" genéricos; la mitad de las mujeres los ejecuta mal sin guía profesional (empujando en vez de contraer).</li>
-        <li><strong>Integración con el core y la respiración:</strong> el piso pélvico trabaja en equipo con el diafragma y el transverso abdominal.</li>
-        <li><strong>Reeducación de hábitos:</strong> manejo del estreñimiento, técnica al toser y al cargar peso.</li>
-      </ul>
-
-      <p>La atención domiciliaria hace este tratamiento mucho más accesible y privado, especialmente en el post-parto: revisa nuestra <a href="/blog/kinesiologia-piso-pelvico-post-parto-domicilio">guía completa de piso pélvico post parto a domicilio</a>. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20kinesiolog%C3%ADa%20de%20piso%20p%C3%A9lvico">Agenda tu evaluación con nuestra especialista</a>.</p>
     `
   },
   {

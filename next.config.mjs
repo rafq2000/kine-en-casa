@@ -9,6 +9,16 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/blog/drenaje-linfatico-manual',
+        destination: '/blog/drenaje-linfatico-post-operatorio-domicilio',
+        permanent: true,
+      },
+      {
+        source: '/blog/suelo-pelvico-mujer',
+        destination: '/blog/kinesiologia-piso-pelvico-post-parto-domicilio',
+        permanent: true,
+      },
+      {
         source: '/:path*',
         has: [
           {
