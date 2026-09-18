@@ -329,7 +329,6 @@ export const blogPosts = [
 
 <p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita, dura cerca de una hora y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos el día y la hora que te acomode.</p>`
   },
-  // ── Guías 17-sep-2026: precio, orden médica y decisión ──
   {
     slug: "kinesiologo-sin-orden-medica",
     seoTitle: "¿Kinesiólogo sin Orden Médica? Guía Chile 2026 | KINEUM",
@@ -1548,103 +1547,100 @@ export const blogPosts = [
   },
   {
     slug: "esguince-tobillo-recuperacion",
-    seoTitle: "Esguince de Tobillo: Recuperación Paso a Paso | KINEUM",
-    seoDescription: "Qué hacer tras un esguince de tobillo: síntomas, fases de rehabilitación, señales de alarma y errores comunes. Kinesiología a domicilio en Santiago.",
-    title: "Esguince de Tobillo: Guía de Recuperación Paso a Paso",
-    subtitle: "Qué evalúa el kinesiólogo en tu casa, qué se hace en cada fase y por qué el tobillo vuelve a fallar cuando el alta se da al irse el dolor.",
+    seoTitle: "Esguince de Tobillo: Cuánto Demora y Qué Hacer | KINEUM",
+    seoDescription: "Cuánto demora un esguince de tobillo, qué evalúa el kinesiólogo en tu casa, señales de alarma y los errores que lo hacen repetirse. A domicilio en Santiago.",
+    title: "Esguince de Tobillo: Cuánto Demora y Qué Hacer",
+    subtitle: "Plazos orientativos, qué evalúa el kinesiólogo cuando llega a tu casa y por qué el tobillo vuelve a fallar cuando el alta se da apenas se va el dolor.",
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    readTime: "7 min lectura",
+    readTime: "6 min lectura",
     category: "Traumatología",
     image: "/images/exercise_ankle_pumps_1769278342170.png",
     icon: Zap,
-    content: `<p class="lead">Un esguince "mal curado" no existe: lo que existe es un esguince mal rehabilitado. El ligamento cicatriza igual, el dolor se va solo y vuelves a caminar normal, pero queda algo que nadie ve. Por eso hay tobillos que fallan de nuevo al primer descuido, años después del golpe. Acá te explicamos qué pasa realmente, qué hace un kinesiólogo cuando llega a tu casa y cuándo tienes que consultar a un médico en vez de rehabilitar.</p>
+    content: `<p class="lead">Un esguince "mal curado" no existe: lo que existe es un esguince mal rehabilitado. En muchos casos el dolor cede y vuelves a caminar en pocas semanas, pero eso no significa que el tobillo haya recuperado fuerza, rango y control. Y no todo lo que duele tras una torcedura es un esguince. Acá va cuánto demora, qué hace un kinesiólogo en tu casa y cuándo consultar a un médico.</p>
 
 <h2>Cómo reconocer un esguince de tobillo</h2>
-<p>Un esguince es la elongación o rotura parcial de los ligamentos que estabilizan el tobillo. El mecanismo es casi siempre el mismo: el pie se va hacia adentro al pisar un hoyo, bajar una escalera o saltar. Lo que se daña con más frecuencia es el complejo ligamentoso de la cara externa.</p>
+<p>Es la elongación o rotura parcial de los ligamentos que estabilizan el tobillo. Casi siempre el pie se va hacia adentro al pisar un hoyo o bajar una escalera, y se daña el complejo ligamentoso externo.</p>
 <ul>
-  <li>Dolor localizado <strong>por delante y debajo del hueso lateral</strong> del tobillo, no difuso en toda la pierna.</li>
-  <li>Hinchazón en las primeras horas, a veces con moretón que después baja hacia el pie por gravedad.</li>
+  <li>Dolor <strong>por delante y debajo del hueso lateral</strong> del tobillo, no difuso en toda la pierna.</li>
+  <li>Hinchazón en las primeras horas, a veces con moretón que después baja hacia el pie.</li>
   <li>Sensación de inestabilidad, de que el tobillo "se va" al apoyar.</li>
-  <li>Dolor que aumenta al llevar el pie hacia adentro y que cede bastante en reposo.</li>
+  <li>Dolor que aumenta al llevar el pie hacia adentro y cede bastante en reposo.</li>
 </ul>
-<p>Dos cuadros se confunden con el esguince y se tratan distinto: la fractura por arrancamiento, que duele sobre el hueso y no sobre el ligamento, y la tendinopatía de los peroneos, que duele por detrás del hueso lateral y se instala de a poco, sin un evento claro.</p>
+<p>Tres cuadros se confunden con el esguince. La <strong>fractura por arrancamiento</strong> duele sobre el hueso, con frecuencia en la base del quinto metatarsiano, ese bulto del borde externo del pie. La <strong>tendinopatía de los peroneos</strong> duele por detrás del hueso lateral y se instala de a poco. Y el <strong>esguince de sindesmosis</strong>, o esguince alto, duele por encima del tobillo, entre tibia y peroné, y responde más lento: si el dolor está ahí, corresponde evaluación médica antes de progresar la carga.</p>
+
+<h2>¿Cuánto demora en recuperarse un esguince de tobillo?</h2>
+<p>Para lesiones musculoesqueléticas agudas, la referencia que ya publicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a> es un proceso de <strong>6 a 12 semanas</strong> según el tejido y la severidad. Un esguince leve y reciente queda en la parte baja del rango; uno a repetición se va a la parte alta, porque ahí hay que reconstruir control y no solo bajar la hinchazón. Son rangos orientativos, no una fecha garantizada.</p>
 
 <h2>Qué evalúa el kinesiólogo en la primera visita a domicilio</h2>
-<p>En KINEUM la evaluación inicial es gratuita y se hace en tu casa, con el pie recién lesionado y sin que tengas que trasladarte. Esto es lo que se revisa:</p>
+<p>La evaluación inicial de KINEUM es gratuita y en tu casa, sin trasladarte con el pie recién lesionado. Se revisa:</p>
 <ul>
-  <li><strong>Señales de gravedad:</strong> dolor sobre el hueso, deformidad, imposibilidad total de apoyar. Si aparece algo de eso, corresponde evaluación médica antes de rehabilitar.</li>
-  <li><strong>Rango de movimiento:</strong> se mide con goniómetro cuánto se mueve el tobillo en cada dirección y se compara con el sano.</li>
-  <li><strong>Hinchazón y apoyo:</strong> cómo estás cargando el peso y qué compensaciones aparecieron al caminar.</li>
-  <li><strong>Fuerza:</strong> sobre todo de los peroneos, los músculos que frenan que el pie se vuelva a ir hacia adentro.</li>
-  <li><strong>Equilibrio:</strong> cuánto aguantas parado en un pie, comparando ambos lados. Es la prueba que más sorprende a los pacientes.</li>
+  <li><strong>Señales de gravedad:</strong> dolor sobre el hueso, deformidad, imposibilidad de apoyar.</li>
+  <li><strong>Rango de movimiento:</strong> con goniómetro, comparando con el tobillo sano.</li>
+  <li><strong>Hinchazón y apoyo:</strong> cómo cargas el peso y qué compensaciones aparecieron al caminar.</li>
+  <li><strong>Fuerza</strong> de los peroneos, los músculos que frenan que el pie se vuelva a ir hacia adentro.</li>
+  <li><strong>Equilibrio:</strong> cuánto aguantas parado en un pie, comparando ambos lados.</li>
 </ul>
-<p>De ahí sale el plan: cuántas sesiones se estiman, qué haces tú entre visitas y con qué criterios se decidirá el alta. Si quieres ver cómo se desarrolla una visita completa, lo explicamos en <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
+<p>De ahí sale el plan y los criterios de alta. Para la evaluación inicial no te pedimos orden médica; para iniciar el tratamiento kinesiológico sí la vas a necesitar, y el kinesiólogo te orienta sobre cómo conseguirla: <a href="/blog/kinesiologo-sin-orden-medica">kinesiólogo sin orden médica</a>.</p>
 
 <h2>Qué pasa en las sesiones, fase por fase</h2>
 
 <h3>Primeros días: proteger sin inmovilizar</h3>
-<p>El objetivo es controlar hinchazón y dolor sin apagar el tobillo: frío local por períodos breves con la piel protegida, elevación del pie sobre el nivel del corazón, y bombeo de tobillo —mover el pie arriba y abajo— para activar la circulación sin tensionar el ligamento. Si el dolor al apoyar es muy intenso se usa vendaje funcional o bastones, pero la inmovilización completa va solo si la indicó un médico.</p>
+<p>Bajar hinchazón y dolor sin apagar el tobillo: frío local por períodos breves con la piel protegida, pie elevado y bombeo de tobillo. Si apoyar duele mucho se usa vendaje funcional o bastones; la inmovilización completa va solo si la indicó un médico.</p>
 
 <h3>Días siguientes: movilidad y carga progresiva</h3>
-<p>Acá está el cambio de mentalidad importante: el ligamento cicatriza mejor con carga controlada que con reposo absoluto. Se progresa del apoyo parcial a la marcha completa, se recupera el rango con terapia manual y movilizaciones, y empieza el fortalecimiento de peroneos con banda elástica. La dosis correcta es la que genera una molestia tolerable que no está peor al día siguiente.</p>
+<p>El ligamento cicatriza mejor con carga controlada que con reposo absoluto. Se progresa del apoyo parcial a la marcha completa, se recupera el rango con terapia manual y parte el fortalecimiento de peroneos con banda elástica. La dosis correcta genera una molestia tolerable que no empeora al día siguiente.</p>
 
 <h3>Semanas siguientes: fuerza, propiocepción y retorno</h3>
-<p>La parte que casi todos se saltan es la <strong>propiocepción</strong>. El esguince altera los receptores que le informan al cerebro dónde está el tobillo, y por eso falla en el primer terreno irregular aunque ya no duela. Se reentrena con equilibrio en un pie, superficies inestables, cambios de dirección y, si haces deporte, con el gesto de tu actividad. El alta no se da cuando desaparece el dolor, sino cuando vuelven fuerza, rango y control: son tres cosas distintas y llegan en momentos distintos.</p>
+<p>La parte que casi todos se saltan es la <strong>propiocepción</strong>. El esguince altera los receptores que le informan al cerebro dónde está el tobillo, y por eso falla en el primer terreno irregular aunque ya no duela. Se reentrena con equilibrio en un pie y superficies inestables.</p>
 
-<h2>Qué haces tú entre sesiones</h2>
-<p>Esta parte decide el resultado. El kinesiólogo va dos o tres veces por semana; el tobillo se rehabilita todos los días. Te llevas tareas concretas: ejercicios cortos repartidos en el día, pautas de apoyo y señales para saber cuándo subir o bajar la exigencia. Nuestros <a href="/ejercicios">ejercicios guiados</a> sirven de apoyo visual, pero la selección la hace el kinesiólogo según tu evaluación, no al revés.</p>
+<h3>Qué haces tú entre sesiones</h3>
+<p>El kinesiólogo te ve una a tres veces por semana según el plan y la etapa; el tobillo se rehabilita todos los días. Te llevas ejercicios cortos y señales para saber cuándo subir la exigencia.</p>
 
-<h2>Cuántas sesiones suele tomar</h2>
-<p>Depende del grado de la lesión, de hace cuánto ocurrió, de si es el primer esguince o el cuarto y de lo que necesites hacer después: caminar tranquilo en casa no es lo mismo que volver a jugar fútbol. Nadie serio te va a dar un número exacto antes de verte, y menos una fecha garantizada.</p>
-<p>Lo que sí se puede anticipar: un esguince leve y reciente suele resolverse en pocas sesiones, mientras que un tobillo con esguinces a repetición requiere un proceso más largo, porque ahí hay que reconstruir control y no solo bajar la hinchazón. El plan Essential ($160.000 por 4 sesiones, $40.000 cada una) alcanza para cuadros simples; el Premium ($350.000 por 10 sesiones, $35.000 cada una) es el que más se usa cuando hay que llegar al retorno deportivo. Revisa <a href="/precios">planes y precios</a> y, para entender cómo se define el número, <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>.</p>
+<h2>Cuántas sesiones suele tomar un esguince de tobillo</h2>
+<p>Lo habitual son <strong>6 a 12 sesiones</strong>, concentradas al inicio y más espaciadas a medida que avanzas. La frecuencia se define en la evaluación: cambia según el grado, hace cuánto ocurrió y a qué actividad necesitas volver.</p>
+<p>Con ese rango, el Premium ($350.000 por 10 sesiones, $35.000 cada una) suele calzar con un esguince llevado hasta el retorno a la actividad; el Essential ($160.000 por 4 sesiones, $40.000 cada una) queda para cuadros leves o para reforzar tras el alta. Detalle en <a href="/precios">planes y precios</a>.</p>
 
 <h2>Señales de alarma: cuándo consultar al médico</h2>
-<p>La kinesiología complementa el tratamiento médico, no lo reemplaza. Consulta antes de rehabilitar si aparece alguna de estas situaciones:</p>
+<p>La kinesiología complementa el tratamiento médico y no lo reemplaza. Hay hallazgos que obligan a evaluación médica antes de rehabilitar, los que recoge el criterio habitual conocido como <strong>reglas de Ottawa</strong>:</p>
 <ul>
-  <li>Imposibilidad total de apoyar el pie o deformidad evidente del tobillo.</li>
-  <li>Dolor marcado sobre el hueso, no sobre el ligamento, al tocarlo.</li>
-  <li>Adormecimiento, hormigueo o pérdida de fuerza en el pie.</li>
-  <li>Pantorrilla hinchada, caliente y dolorosa, sobre todo si estuviste inmovilizado.</li>
-  <li>Fiebre, o tobillo caliente y enrojecido.</li>
-  <li>Dolor que no mejora nada después de varios días de manejo inicial.</li>
+  <li>Dolor al tocar el <strong>borde posterior de cualquiera de los dos maléolos</strong>, los huesos que sobresalen a cada lado del tobillo.</li>
+  <li>Dolor en la <strong>base del quinto metatarsiano</strong>, el bulto del borde externo del pie.</li>
+  <li>Dolor en el <strong>escafoides</strong>, en el borde interno del empeine.</li>
+  <li><strong>Imposibilidad de apoyar y dar unos pasos</strong>, tanto al momento del golpe como al ser evaluado.</li>
 </ul>
-<p>Ante una urgencia en Chile, el número es <strong>SAMU 131</strong>.</p>
+<p>Consulta también si hay deformidad evidente; adormecimiento, hormigueo o pérdida de fuerza en el pie; pantorrilla hinchada, caliente y dolorosa; fiebre; o dolor que no mejora nada tras varios días. Ante una urgencia en Chile, el número es <strong>SAMU 131</strong>.</p>
 
 <h2>Los cuatro errores más frecuentes</h2>
 <ul>
-  <li><strong>Reposo excesivo.</strong> Inmovilizar de más y volver de golpe a la actividad completa cuando el dolor cede es la receta exacta de la recaída.</li>
-  <li><strong>Automedicarse para seguir funcionando.</strong> Tapar el dolor no acelera nada y te quita la única señal que avisa que te pasaste de carga. Los medicamentos los indica tu médico.</li>
-  <li><strong>Copiar ejercicios de internet.</strong> El mismo ejercicio puede ser lo indicado en la tercera semana y una mala idea en el día dos. La dosis y el momento pesan más que el ejercicio.</li>
-  <li><strong>Darse el alta solo.</strong> El dolor se va antes que la fuerza y mucho antes que el control. Justo ahí es cuando el tobillo se vuelve a torcer.</li>
+  <li><strong>Reposo excesivo.</strong> Inmovilizar de más y volver de golpe cuando el dolor cede es la receta de la recaída.</li>
+  <li><strong>Automedicarse para funcionar.</strong> Tapar el dolor te quita la señal de que te pasaste de carga; los medicamentos los indica tu médico.</li>
+  <li><strong>Copiar ejercicios de internet.</strong> El mismo ejercicio puede ser lo indicado en la tercera semana y una mala idea en el día dos.</li>
+  <li><strong>Darse el alta solo.</strong> El dolor se va antes que la fuerza y mucho antes que el control; sin ese control el tobillo se vuelve a torcer.</li>
 </ul>
 
 <h2>Cuándo conviene atenderse en casa</h2>
-<p>Con un tobillo esguinzado, trasladarse es lo que más cuesta: bajar escaleras, esperar locomoción, aguantar sala de espera parado y volver con el pie más hinchado. Atenderse en casa evita esa carga justo cuando el pie está más sensible, y permite algo que en un box no se puede: revisar tus escaleras reales, el desnivel del patio, la alfombra que se dobla. La rehabilitación se hace donde de verdad vas a caminar. Comparamos ambas modalidades en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>.</p>
-<p>KINEUM llega con el equipamiento completo —camilla, bandas elásticas, TENS, goniómetro— a las comunas de nuestra <a href="/cobertura">zona de cobertura en Santiago</a>, de lunes a domingo, en sesiones de alrededor de 60 minutos. El trabajo específico de lesiones está descrito en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a>.</p>
+<p>Con un tobillo esguinzado lo que más cuesta es trasladarse, y en casa se revisan tus escaleras reales; la comparación está en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. KINEUM llega con camilla, bandas elásticas, TENS y goniómetro a comunas de Santiago como Las Condes, Providencia y Ñuñoa, y al resto de la <a href="/cobertura">zona de cobertura</a>, de lunes a domingo. En el sector oriente, revisa <a href="/kinesiologia-traumatologica-las-condes">kinesiología traumatológica en Las Condes</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 
-<h3>¿Necesito una radiografía antes de empezar la kinesiología?</h3>
-<p>No siempre. Muchos esguinces se evalúan y tratan clínicamente. En la evaluación inicial se revisan los criterios que sugieren estudio por imágenes y, si corresponde, se te indica consultar a un médico antes de iniciar el tratamiento.</p>
+<h3>¿Cuánto demora en sanar un esguince de tobillo?</h3>
+<p>Como referencia, una lesión musculoesquelética aguda suele tomar entre 6 y 12 semanas según la severidad y tu respuesta. No es una fecha garantizada.</p>
 
 <h3>¿Puedo caminar con un esguince de tobillo?</h3>
-<p>En general apoyar dentro de lo tolerable es parte del tratamiento y favorece la recuperación. Lo que se evita es forzar el apoyo con dolor intenso o volver de golpe a la actividad completa. El kinesiólogo define la progresión según cómo responde tu tobillo.</p>
-
-<h3>¿Cuándo debería empezar la rehabilitación?</h3>
-<p>Mientras antes mejor, siempre que se hayan descartado las señales de alarma: los primeros días influyen mucho en si el tobillo recupera movilidad rápido o queda rígido más tiempo del necesario.</p>
+<p>En general apoyar dentro de lo tolerable es parte del tratamiento. Lo que se evita es forzar el apoyo con dolor intenso o volver de golpe a la actividad completa.</p>
 
 <h3>¿Por qué se me sigue torciendo el mismo tobillo?</h3>
-<p>Habitualmente porque el proceso se detuvo cuando se fue el dolor y nunca se reentrenó el equilibrio ni la fuerza de los peroneos. Un tobillo que falla a repetición no necesita más reposo: necesita trabajo de control.</p>
+<p>Habitualmente porque el proceso se detuvo cuando se fue el dolor y nunca se reentrenó el equilibrio ni la fuerza de los peroneos. No necesita más reposo: necesita trabajo de control.</p>
 
 <h3>¿Me lo puedo reembolsar en la isapre?</h3>
-<p>Entregamos boleta de honorarios electrónica, reembolsable en isapres y seguros complementarios según la cobertura de tu plan. El porcentaje lo define tu plan, así que conviene consultarlo con tu aseguradora.</p>
+<p>Entregamos boleta de honorarios electrónica. Para reembolsar en tu isapre o seguro complementario normalmente vas a necesitar además la orden médica de kinesiología, y cuánto te devuelvan depende de la cobertura de tu plan; conviene consultarlo con tu aseguradora. Lo detallamos en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso en tu isapre</a>.</p>
 
-<h3>¿Atienden fines de semana?</h3>
-<p>Sí, atendemos de lunes a domingo y el horario se coordina contigo.</p>
+<h3>¿Atienden fines de semana en Santiago?</h3>
+<p>Sí, de lunes a domingo, en sesiones de unos 60 minutos.</p>
 
-<p>Si te acabas de torcer el tobillo, o llevas semanas con uno que no termina de responder, la evaluación inicial es gratuita y va a tu casa. <a href="https://wa.me/56999679593?text=Hola,%20me%20esguinc%C3%A9%20el%20tobillo%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos la visita en tu comuna.</p>`
+<p>Si te acabas de torcer el tobillo, o llevas semanas con uno que no responde, la evaluación inicial es gratuita y va a tu casa en Santiago. <a href="https://wa.me/56999679593?text=Hola,%20me%20esguinc%C3%A9%20el%20tobillo%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos la visita en tu comuna.</p>`
   },
   {
     slug: "ciatica-sintomas-tratamiento",
@@ -1756,8 +1752,8 @@ export const blogPosts = [
   },
   {
     slug: "tendinitis-hombro-manguito-rotador",
-    seoTitle: "Manguito rotador: cómo recuperar tu hombro | KINEUM",
-    seoDescription: "Tendinitis del manguito rotador: síntomas, qué hace el kinesiólogo en casa, cuántas sesiones y señales de alarma. Atención a domicilio en Santiago.",
+    seoTitle: "Tendinitis de hombro: kinesiología a domicilio | KINEUM",
+    seoDescription: "Tendinitis del manguito rotador: síntomas, qué hace el kinesiólogo, cuántas sesiones y señales de alarma. Kinesiólogo a domicilio en Santiago.",
     title: "Tendinitis de hombro: cómo recuperar el manguito rotador",
     subtitle: "Cómo se reconoce, qué hace el kinesiólogo en tu casa y qué esperar sesión a sesión.",
     author: "Equipo Clínico KINEUM",
@@ -1767,10 +1763,10 @@ export const blogPosts = [
     category: "Extremidad Superior",
     image: "/images/exercise_shoulder_rotation_1769277710068.png",
     icon: Activity,
-    content: `<p class="lead">Duele al levantar el brazo, al abrochar el sostén, al alcanzar el cinturón de seguridad o al bajar algo de la repisa alta. La tendinopatía del manguito rotador —lo que solemos llamar "tendinitis de hombro"— es una de las causas más frecuentes de dolor de hombro en adultos, y en la mayoría de los casos no traumáticos se trabaja con ejercicio progresivo y terapia manual antes de pensar en pabellón.</p>
+    content: `<p class="lead">Duele al levantar el brazo, al abrochar el sostén o al alcanzar el cinturón de seguridad. La tendinopatía del manguito rotador —lo que solemos llamar "tendinitis de hombro"— es una de las causas más frecuentes de dolor de hombro en adultos, y en la mayoría de los casos no traumáticos se trabaja con ejercicio progresivo y terapia manual antes de pensar en pabellón.</p>
 
       <h2>Qué es el manguito rotador y por qué se irrita</h2>
-      <p>Son cuatro músculos —supraespinoso, infraespinoso, redondo menor y subescapular— cuyos tendones envuelven la cabeza del húmero y la mantienen centrada mientras mueves el brazo. Están hechos para estabilizar, no para cargar peso por sobre la cabeza durante años. Cuando el tendón recibe más carga de la que tolera —pintar un cielo, trabajo repetitivo con los brazos arriba, gimnasio mal dosificado o décadas de uso— aparece el dolor. Muchas veces no hay "inflamación" en el sentido clásico, sino un tendón que perdió capacidad, y eso se recupera cargándolo bien, no dejándolo quieto.</p>
+      <p>Son cuatro músculos —supraespinoso, infraespinoso, redondo menor y subescapular— cuyos tendones envuelven la cabeza del húmero y la mantienen centrada mientras mueves el brazo. Están hechos para estabilizar, no para cargar peso sobre la cabeza durante años. Cuando el tendón recibe más carga de la que tolera —pintar un cielo, trabajo repetitivo con los brazos arriba o gimnasio mal dosificado— aparece el dolor. Muchas veces no hay "inflamación" en el sentido clásico, sino un tendón que perdió capacidad, y eso se recupera cargándolo bien, no dejándolo quieto.</p>
 
       <h2>Cómo reconocerlo: qué lo distingue de otros dolores de hombro</h2>
       <ul>
@@ -1780,36 +1776,36 @@ export const blogPosts = [
         <li><strong>El cuello está libre:</strong> si el dolor baja con hormigueo hasta los dedos y empeora al mover el cuello, el origen puede ser cervical.</li>
         <li><strong>No es hombro congelado:</strong> en la capsulitis pierdes rango incluso cuando otra persona te mueve el brazo; aquí el movimiento pasivo se conserva mejor.</li>
       </ul>
-      <p>La diferencia importa porque el plan cambia: un tendón sobrecargado necesita carga progresiva, una cápsula rígida necesita movilidad y tiempo, y un dolor cervical se trata en el cuello.</p>
+      <p>La diferencia importa porque el plan cambia: carga progresiva para el tendón, movilidad y tiempo para la cápsula rígida, y tratamiento cervical si el origen es el cuello.</p>
 
       <h2>Qué evalúa el kinesiólogo en la primera visita a domicilio</h2>
       <p>La evaluación inicial de KINEUM es gratuita y se hace en tu casa, sin que tengas que manejar con el brazo adolorido. En esa visita el kinesiólogo:</p>
       <ul>
         <li>Toma la historia: desde cuándo, qué gesto lo gatilló, si hubo caída o tirón brusco, cómo duermes.</li>
-        <li>Mide el rango activo y pasivo y lo compara con el hombro sano.</li>
-        <li>Aplica pruebas de fuerza y tests clínicos para orientar qué tendón está comprometido y descartar otros orígenes.</li>
+        <li>Mide el rango activo y pasivo comparándolo con el hombro sano, y aplica pruebas de fuerza y tests clínicos para orientar qué tendón está comprometido.</li>
         <li>Revisa escápula y columna dorsal: un hombro que duele casi siempre trae una escápula que no acompaña el movimiento.</li>
-        <li>Mira tu entorno real —la altura de tus repisas, tu silla, el lado en que duermes—, información que en un box no se ve.</li>
+        <li>Mira tu entorno real: la altura de tus repisas, tu silla, el lado en que duermes.</li>
         <li>Define señales de alarma y deriva al médico si aparecen: la kinesiología complementa la atención médica, no la reemplaza.</li>
       </ul>
-      <p>No necesitas orden médica para una evaluación kinesiológica; lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">kinesiólogo sin orden médica</a>.</p>
+      <p>Para esa evaluación no necesitas orden médica; lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">kinesiólogo a domicilio sin orden médica</a>.</p>
 
       <h2>Qué se hace en las sesiones</h2>
       <p>Una sesión dura alrededor de 60 minutos y no es "un masaje y listo". El esquema habitual combina:</p>
       <ul>
-        <li><strong>Ejercicio isométrico al inicio:</strong> contracciones sostenidas sin mover la articulación, que suelen bajar el dolor y permiten cargar el tendón aunque esté sensible.</li>
+        <li><strong>Ejercicio isométrico al inicio:</strong> contracciones sostenidas sin mover la articulación, que permiten cargar el tendón aunque esté sensible; en algunas personas, además, alivian el dolor.</li>
         <li><strong>Terapia manual:</strong> movilizaciones y trabajo de tejidos blandos en hombro, escápula y dorsal, para ganar movimiento sin dolor.</li>
-        <li><strong>Carga progresiva:</strong> rotaciones con banda elástica, remos y, más adelante, trabajo con peso y por sobre la cabeza. La progresión la marca tu respuesta, no el calendario.</li>
+        <li><strong>Carga progresiva:</strong> rotaciones con banda elástica, remos y, más adelante, peso y trabajo por sobre la cabeza. La progresión la marca tu respuesta, no el calendario.</li>
         <li><strong>Control escapular:</strong> si la escápula no rota bien, el espacio para el tendón se estrecha en cada repetición.</li>
-        <li><strong>Electroterapia o ultrasonido</strong> cuando el caso lo amerita, como apoyo y nunca como tratamiento principal.</li>
+        <li><strong>Electroterapia o ultrasonido</strong> cuando el caso lo amerita, siempre como apoyo.</li>
       </ul>
 
       <h3>Lo que haces tú entre sesiones</h3>
-      <p>Aquí se gana o se pierde el tratamiento: el tendón se adapta con estímulos repetidos, y dos sesiones semanales no alcanzan si el resto de la semana el hombro no hace nada. Te dejamos una rutina corta —pocos ejercicios, bien hechos, casi todos los días— y ajustes concretos: cómo dormir sin comprimir el hombro y qué evitar por un tiempo. Una molestia tolerable durante el ejercicio, que se va al rato, no es señal de daño; dolor que sube y se queda horas sí indica que la carga fue demasiada. El formato completo está en <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
+      <p>Aquí se gana o se pierde el tratamiento: el tendón se adapta con estímulos repetidos y dos sesiones semanales no alcanzan por sí solas. Te dejamos una rutina corta —pocos ejercicios, bien hechos, casi todos los días— y la posición para dormir sin comprimir el hombro. Una molestia tolerable que se va al rato no es señal de daño; un dolor que sube y se queda horas sí indica que la carga fue demasiada.</p>
 
       <h2>Cuántas sesiones suele tomar y qué esperar</h2>
-      <p>Depende del tiempo que llevas con dolor, de tu edad, de si hubo una lesión brusca y de cuánto exige tu día a día. Como referencia, los cuadros traumatológicos suelen trabajarse en programas de 6 a 12 semanas, con una o dos sesiones semanales y revisiones para ajustar la carga. No prometemos plazos: hay hombros que responden antes y otros que necesitan más tiempo.</p>
-      <p>Lo que sí se puede anticipar es el orden de la mejoría: primero suele ceder el dolor nocturno, después aparece más rango sin molestia y al final vuelve la fuerza para los gestos por sobre la cabeza. Si a las pocas semanas nada se mueve en esos tres frentes, corresponde revisar el diagnóstico con el médico. Sobre cómo se estima el número de sesiones, mira <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>; los planes y valores están en <a href="/precios">nuestra página de precios</a>. Atendemos como servicio particular con boleta de honorarios electrónica, reembolsable en tu isapre y en seguros complementarios según la cobertura de tu plan.</p>
+      <p>Depende del tiempo que llevas con dolor, de tu edad, de si hubo una lesión brusca y de cuánto exige tu día a día. Como referencia, el trabajo de hombro por manguito rotador suele tomar entre 8 y 12 semanas y habitualmente entre 6 y 12 sesiones, con una o dos sesiones semanales y revisiones para ajustar la carga. No prometemos plazos: hay hombros que responden antes y otros que necesitan más tiempo.</p>
+      <p>Lo que sí se puede anticipar es el orden de la mejoría: primero suele ceder el dolor nocturno, después aparece más rango sin molestia y al final vuelve la fuerza para levantar el brazo. Si a las pocas semanas nada se mueve en esos tres frentes, corresponde revisar el diagnóstico con el médico. Cómo se estima ese número lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>; los planes, en <a href="/precios">nuestra página de precios</a>.</p>
+      <p>Atendemos como servicio particular, con boleta de honorarios electrónica. Ojo con un punto que confunde: para la evaluación no necesitas orden médica, pero para pedir reembolso en tu isapre o en tu seguro complementario la mayoría sí la exige, así que conviene pedirla en el control médico. El detalle está en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso de kinesiología en tu isapre</a>, y lo que te devuelvan dependerá de la cobertura de tu plan.</p>
 
       <h2>Señales de alarma: cuándo ver al médico</h2>
       <ul>
@@ -1823,33 +1819,30 @@ export const blogPosts = [
       <h2>Errores frecuentes que alargan el problema</h2>
       <ul>
         <li><strong>Reposo total:</strong> inmovilizar el hombro por semanas debilita tendón y músculo, y después duele con cargas menores.</li>
-        <li><strong>Automedicarse indefinidamente:</strong> el antiinflamatorio apaga el síntoma y puede hacerte usar el brazo justo como no corresponde. Los fármacos los indica tu médico.</li>
-        <li><strong>Ejercicios sacados de internet:</strong> las rutinas genéricas mezclan ejercicios de cuadros distintos, y un tendón irritado no necesita más tracción.</li>
+        <li><strong>Automedicarse indefinidamente:</strong> el antiinflamatorio apaga el síntoma y puede hacerte forzar el brazo. Los fármacos los indica tu médico.</li>
+        <li><strong>Ejercicios sacados de internet:</strong> las rutinas genéricas mezclan cuadros distintos, y un tendón irritado no necesita más tracción.</li>
         <li><strong>Infiltrarse sin rehabilitar:</strong> alivia un tiempo, pero el hombro vuelve al mismo punto si no recupera fuerza.</li>
         <li><strong>Abandonar apenas deja de doler:</strong> el dolor se va antes que la capacidad del tendón, y ahí aparece la recaída.</li>
       </ul>
 
       <h2>Cuándo conviene tratarse en casa</h2>
-      <p>Con un hombro adolorido, trasladarte es parte del problema: manejar, subir al transporte público y cargar el bolso son justo los gestos que lo irritan. En casa, además, entrenas con tus propias repisas, tu cama y tu silla de trabajo, que es donde el hombro realmente falla. Comparamos ambas modalidades en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. El kinesiólogo llega con camilla, bandas, pesas y electroterapia a comunas de Santiago como Las Condes, Providencia, Ñuñoa, La Florida o Santiago Centro: revisa <a href="/cobertura">nuestra cobertura</a> o la página de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a>.</p>
+      <p>Con un hombro adolorido, trasladarte es parte del problema: manejar, subir al transporte público y cargar el bolso son justo los gestos que lo irritan. En casa entrenas además con tus propias repisas, tu cama y tu silla de trabajo, que es donde el hombro realmente falla. Comparamos ambas modalidades en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. El kinesiólogo llega con camilla, bandas, pesas y electroterapia a comunas como <a href="/kinesiologia-traumatologica-las-condes">Las Condes, con kinesiología traumatológica a domicilio</a>, Providencia, Ñuñoa, La Florida o Santiago Centro; el servicio completo está en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio en Santiago</a>.</p>
 
       <h2>Preguntas frecuentes</h2>
 
       <h3>¿Necesito una ecografía o resonancia antes de empezar kinesiología?</h3>
-      <p>No siempre. Salvo que haya señales de alarma o una lesión brusca, el tratamiento suele partir por la evaluación clínica. Si el kinesiólogo detecta algo que amerite imagen, te deriva al médico.</p>
+      <p>No siempre. Salvo señales de alarma o una lesión brusca, el tratamiento suele partir por la evaluación clínica; si el kinesiólogo detecta algo que amerite imagen, te deriva al médico.</p>
 
-      <h3>¿Puedo hacer ejercicio si todavía me duele?</h3>
-      <p>Sí, con dosificación. Se trabaja dentro de una molestia tolerable que baja al poco rato de terminar. Lo que se evita es el ejercicio que dispara el dolor y lo deja encendido por horas o toda la noche.</p>
+      <h3>¿Puedo hacer ejercicio o ir al gimnasio si todavía me duele?</h3>
+      <p>Sí, adaptando la carga: se trabaja dentro de una molestia tolerable que baja al poco rato y se suspende por un tiempo el trabajo sobre la cabeza. Lo que se evita es el ejercicio que deja el dolor encendido por horas.</p>
 
       <h3>¿Sirve el hielo o el calor?</h3>
-      <p>Son apoyos para el síntoma, no tratamiento: algunos alivian con frío después de la actividad y otros con calor antes de moverse. Ninguno reemplaza el ejercicio progresivo.</p>
+      <p>Son apoyos para el síntoma, no tratamiento: ninguno reemplaza el ejercicio progresivo.</p>
 
       <h3>¿Siempre termina en cirugía?</h3>
       <p>No. Se plantea sobre todo en roturas por trauma en personas jóvenes y activas, o cuando una rehabilitación bien hecha durante varios meses no da resultado. Esa decisión la toma el médico traumatólogo.</p>
 
-      <h3>¿Puedo seguir yendo al gimnasio?</h3>
-      <p>En general sí, adaptando: se suspende por un tiempo el trabajo por sobre la cabeza y los ejercicios que reproducen el dolor, y se mantiene el resto.</p>
-
-      <p>Si tu hombro lleva más de dos o tres semanas doliendo al levantar el brazo o no te deja dormir de ese lado, no esperes a que se pase solo. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20de%20hombro%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu evaluación inicial gratuita a domicilio, de lunes a domingo, con todo el equipamiento incluido.</p>`
+      <p>Si tu hombro lleva más de dos o tres semanas doliendo al levantar el brazo o no te deja dormir de ese lado, no esperes a que se pase solo. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20de%20hombro%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu evaluación inicial gratuita a domicilio, de lunes a domingo, con el equipamiento incluido.</p>`
   },
   {
     slug: "artrosis-rodilla-ejercicios",
@@ -2549,7 +2542,7 @@ export const blogPosts = [
   {
     slug: "protesis-rodilla-recuperacion",
     seoTitle: "Prótesis de Rodilla: Recuperación Paso a Paso | KINEUM",
-    seoDescription: "Cuándo empezar la kinesiología tras la operación, qué se hace en cada sesión, cuántas suele tomar y las señales de alarma. Rehabilitación en tu casa.",
+    seoDescription: "Cuándo empezar la kinesiología tras la operación, qué se hace en cada sesión, cuántas suele tomar y las señales de alarma. A domicilio en Santiago.",
     title: "Prótesis de rodilla: cómo es la recuperación en tu casa, paso a paso",
     subtitle: "Qué evalúa el kinesiólogo en la primera visita, qué pasa en cada sesión, qué te toca hacer entre una y otra, y las señales que obligan a consultar.",
     author: "Equipo Clínico KINEUM",
@@ -2559,99 +2552,100 @@ export const blogPosts = [
     category: "Post-Quirúrgico",
     image: "/knee-rehabilitation.png",
     icon: Zap,
-    content: `<p class="lead">Salir del pabellón con una rodilla nueva es la mitad del trabajo. La otra mitad se juega en tu casa, y ahí hay una regla que ningún operado debería ignorar: <strong>el rango de movimiento que no ganas temprano cuesta muchísimo más recuperarlo después</strong>. Acá va lo que es esperable y lo que no, qué evalúa el kinesiólogo en la primera visita a domicilio, qué te toca hacer entre sesiones y cuándo hay que parar y llamar al médico.</p>
+    content: `<p class="lead">Salir del pabellón con una rodilla nueva es la mitad del trabajo. La otra mitad se juega en tu casa, y hay una regla que ningún operado debería ignorar: <strong>el rango de movimiento que no ganas temprano cuesta muchísimo más recuperarlo después</strong>. Acá va qué es esperable y qué no, qué evalúa el kinesiólogo en la primera visita a domicilio, qué te toca entre sesiones y cuándo hay que parar y llamar al médico.</p>
 
 <h2>Qué es la prótesis de rodilla y por qué pesa tanto la rehabilitación</h2>
-<p>La prótesis de rodilla, o artroplastia, reemplaza las superficies articulares desgastadas. Suele indicarse cuando la artrosis avanzada ya no responde al tratamiento conservador y el dolor limita caminar, dormir o vestirse. Si todavía estás en la etapa previa, te sirve nuestra guía de <a href="/blog/artrosis-rodilla-ejercicios">ejercicios para artrosis de rodilla</a>.</p>
-<p>La cirugía resuelve el problema mecánico, pero no devuelve por sí sola movilidad ni fuerza. Después de operar, el cuádriceps se inhibe por el dolor, la rodilla se hincha, el tejido cicatricial se organiza rápido y aparece un miedo muy razonable a apoyar la pierna. Eso es lo que trabaja la kinesiología postoperatoria, siempre dentro de lo que autorizó tu cirujano.</p>
+<p>La artroplastia reemplaza las superficies articulares desgastadas y suele indicarse cuando la artrosis avanzada ya no responde al tratamiento conservador. La cirugía resuelve el problema mecánico, pero no devuelve movilidad ni fuerza: después de operar el cuádriceps se inhibe por el dolor, la rodilla se hincha, el tejido cicatricial se organiza rápido y aparece un miedo razonable a apoyar la pierna. Eso es lo que trabaja la kinesiología postoperatoria, siempre dentro de lo que autorizó tu cirujano.</p>
 
 <h2>Cómo reconocer que la recuperación se está desviando</h2>
-<p>Es esperable tener dolor que va cediendo, hinchazón que sube durante el día y baja con reposo y elevación, calor en la zona y dificultad para levantar la pierna estirada. Lo que enciende una luz amarilla es distinto:</p>
+<p>Es esperable tener dolor que va cediendo, hinchazón que sube durante el día y baja con reposo y elevación, calor local leve que disminuye semana a semana y dificultad para levantar la pierna estirada. Si en cambio el calor aumenta, la rodilla se pone roja y tensa o aparece fiebre, no lo atribuyas a la cicatrización: se consulta el mismo día. Estas señales también piden atención:</p>
 <ul>
-<li><strong>La rodilla no termina de estirarse.</strong> Al acostarte boca arriba queda un hueco entre la rodilla y la cama, o el talón se levanta. Eso es un flexo, y es la causa más frecuente de una cojera que después cuesta corregir.</li>
-<li><strong>Cada semana dobla menos, no más.</strong> Si la flexión retrocede, avisa de inmediato: la rigidez se maneja mejor mientras la cicatriz es joven.</li>
+<li><strong>La rodilla no termina de estirarse.</strong> Acostado boca arriba queda un hueco entre la rodilla y la cama. Eso es un flexo, la causa más frecuente de una cojera que después cuesta corregir.</li>
+<li><strong>Cada semana dobla menos, no más.</strong> Cuando el tejido cicatricial se organiza y la rodilla queda rígida se habla de artrofibrosis, y en algunos casos el traumatólogo debe resolverla con una movilización bajo anestesia. Por eso una flexión que retrocede se avisa apenas la notas.</li>
 <li><strong>El dolor aumenta en vez de bajar</strong>, o aparece uno nuevo, distinto al de la operación.</li>
-<li><strong>El dolor está en la pantorrilla, no en la rodilla</strong>, con la pierna hinchada, caliente o enrojecida. Eso no es asunto de kinesiología: es evaluación médica urgente.</li>
-<li><strong>La herida cambia:</strong> enrojecimiento que se extiende, secreción, mal olor o fiebre.</li>
 </ul>
-<p>La kinesiología complementa el control médico, no lo reemplaza. Ante cualquiera de estos cambios se consulta; no se espera a la próxima sesión.</p>
+<p>La kinesiología complementa el control médico, no lo reemplaza: ante cualquiera de estos cambios se consulta, no se espera a la próxima sesión. Más abajo están las señales que obligan a llamar el mismo día o a ir a urgencias.</p>
 
 <h2>Qué evalúa el kinesiólogo en la primera visita a domicilio</h2>
 <p>En KINEUM la primera visita es una evaluación inicial gratuita. No es una sesión de ejercicios: es levantar el mapa antes de proponerte nada.</p>
 <ul>
 <li><strong>Tus documentos:</strong> epicrisis, precauciones del cirujano, restricciones de carga y fecha del próximo control.</li>
-<li><strong>Rango articular con goniómetro:</strong> cuánto estira y cuánto dobla hoy, comparado con la otra rodilla. Ese número se vuelve a medir cada sesión.</li>
-<li><strong>Fuerza y control del cuádriceps:</strong> si logras contraerlo, si puedes levantar la pierna estirada y cómo responde el glúteo.</li>
+<li><strong>Rango articular con goniómetro:</strong> cuánto estira y cuánto dobla hoy; ese número se vuelve a medir cada sesión.</li>
+<li><strong>Fuerza y control del cuádriceps:</strong> si logras contraerlo, si levantas la pierna estirada y cómo responde el glúteo.</li>
 <li><strong>Edema y herida,</strong> sin manipular el apósito ni cambiar las indicaciones de curación.</li>
 <li><strong>Marcha real:</strong> cómo caminas con andador o bastón y cuánto apoyas.</li>
-<li><strong>Tu casa:</strong> altura de la cama y del inodoro, sillas sin apoyabrazos, alfombras sueltas, el baño y, sobre todo, tus escaleras, que son las que vas a subir de verdad.</li>
+<li><strong>Tu casa:</strong> altura de la cama y del inodoro, sillas sin apoyabrazos, alfombras sueltas, el baño y tus escaleras reales.</li>
 </ul>
-<p>Con eso te proponemos un plan y una estimación de sesiones antes de que decidas. Para iniciar el tratamiento y para reembolsar necesitas la orden médica de kinesiología; nuestra evaluación no la reemplaza, y lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">orden médica para ir al kinesiólogo en Chile</a>.</p>
+<p>Con eso te proponemos un plan y una estimación de sesiones antes de que decidas. Para iniciar el tratamiento y para reembolsar necesitas la orden médica de kinesiología; nuestra evaluación no la reemplaza, como explicamos en <a href="/blog/kinesiologo-sin-orden-medica">orden médica para ir al kinesiólogo en Chile</a>.</p>
 
 <h2>Qué pasa en una sesión y qué haces tú entre sesiones</h2>
 <p>Las sesiones duran alrededor de 60 minutos y el kinesiólogo llega con camilla, TENS, bandas elásticas y goniómetro. Una sesión típica combina:</p>
 <ul>
-<li><strong>Manejo del dolor y del edema:</strong> elevación, bombeo de tobillo, frío si tu médico lo indicó y TENS cuando está indicado y no hay contraindicaciones, como un marcapasos. Los analgésicos los define tu médico.</li>
+<li><strong>Dolor y edema:</strong> elevación, bombeo de tobillo, frío si tu médico lo indicó y TENS cuando está indicado y no hay contraindicaciones (marcapasos u otro dispositivo implantado). Los electrodos nunca van sobre la herida ni sobre zonas con la sensibilidad alterada, y no conviene improvisarlos con un equipo comprado por internet. Los analgésicos los define tu médico.</li>
 <li><strong>Trabajo de extensión:</strong> la prioridad número uno. Una rodilla que dobla pero no estira deja una marcha coja.</li>
 <li><strong>Flexión progresiva</strong> dentro del rango autorizado, medida y registrada.</li>
 <li><strong>Fuerza</strong> de cuádriceps, glúteos y también de la pierna sana, que se debilita con el reposo.</li>
 <li><strong>Marcha, transferencias y escaleras</strong> con tus propios apoyos, para pasar del andador al bastón y del bastón a nada cuando corresponda.</li>
 </ul>
-<p>Entre sesiones el trabajo es tuyo, y ahí se define buena parte del resultado. Funciona mejor poco y muchas veces al día que una tanda heroica: series cortas de extensión, bombeo de tobillo cada pocas horas, caminatas breves y frecuentes en vez de una sola larga, frío según indicación y anotar cómo estuvo el dolor. Un detalle que parece menor y no lo es: <strong>no duermas con una almohada bajo la rodilla</strong>, por mucho que alivie esa noche.</p>
+<p>Entre sesiones el trabajo lo haces tú, con el plan que te dejamos escrito. <strong>Todo eso se hace dentro del rango y de la carga que autorizó tu cirujano y de lo que te indicó tu kinesiólogo; si tienes indicación de apoyo parcial, no aumentes por tu cuenta ni el tiempo de pie ni la distancia.</strong> Con esa condición funciona mejor poco y muchas veces al día que una tanda heroica: series cortas de extensión, bombeo de tobillo cada pocas horas, caminatas breves y frecuentes en vez de una sola larga, frío según indicación y anotar cómo estuvo el dolor.</p>
 
 <h2>Cuántas sesiones suele tomar y qué esperar con el tiempo</h2>
-<p>No hay un número único: depende de la cirugía, de cómo llegabas al pabellón, de tu edad, de si hubo complicaciones y de cuánto trabajas entre sesiones. Como referencia, los protocolos postquirúrgicos suelen tomar entre 8 y 16 semanas, con mayor frecuencia el primer mes —cuando más se juega el rango de movimiento— y un espaciado progresivo a medida que ganas autonomía. En <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a> detallamos de qué depende.</p>
+<p>No hay un número único: depende de la cirugía, de cómo llegabas al pabellón, de tu edad, de si hubo complicaciones y de cuánto trabajas entre sesiones. Lo habitual es que la etapa más intensiva se concentre en los primeros meses —cuando más se juega el rango— y que las sesiones se espacien a medida que ganas autonomía; la duración total la marcan tu evolución y el protocolo de tu cirujano, no un calendario. En <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a> explicamos de qué depende.</p>
 <table>
 <tr><th>Etapa</th><th>Foco del trabajo</th><th>Hacia dónde se avanza</th></tr>
-<tr><td>Primeras semanas</td><td>Dolor, edema, extensión completa y activación del cuádriceps</td><td>Marcha segura con andador o bastones dentro de la casa</td></tr>
+<tr><td>Primeras semanas tras el alta</td><td>Dolor, edema, extensión completa y activación del cuádriceps</td><td>Marcha segura con andador o bastones dentro de la casa</td></tr>
 <tr><td>Etapa intermedia</td><td>Flexión progresiva, fuerza y escaleras con apoyo</td><td>Caminar con un bastón y luego sin ayudas en interiores</td></tr>
-<tr><td>Etapa final</td><td>Fuerza funcional, equilibrio y resistencia</td><td>Calle, desniveles, bicicleta estática y caminatas más largas</td></tr>
+<tr><td>Etapa final del programa</td><td>Fuerza funcional, equilibrio y resistencia</td><td>Calle, desniveles, bicicleta estática y caminatas más largas</td></tr>
 </table>
-<p>Es una orientación, no un calendario garantizado: los tiempos los pone tu cirujano. Y conviene saberlo desde el principio: la hinchazón y la sensación de rodilla distinta pueden acompañarte varios meses, incluso cuando ya caminas bien.</p>
-<p>Nuestros planes siguen esa curva: recién operado suele calzar mejor el Premium, de 10 sesiones al mes a $35.000 cada una, y más adelante puede bastar el Essential, de 4 sesiones al mes por $160.000; el detalle está en <a href="/precios">nuestros precios</a>. Atendemos de lunes a domingo, así el tratamiento no se corta en los primeros días.</p>
+<p>Conviene saberlo desde el principio: la hinchazón y la sensación de rodilla distinta pueden acompañarte varios meses, incluso cuando ya caminas bien.</p>
+<p>Nuestros planes siguen esa curva: recién operado suele calzar mejor el Premium, de 10 sesiones al mes a $35.000 cada una, y más adelante puede bastar el Essential, de 4 sesiones por $160.000; el detalle está en <a href="/precios">nuestros precios</a>, y atendemos de lunes a domingo para que el tratamiento no se corte al principio. KINEUM es un servicio particular: pagas la sesión y recibes boleta de honorarios electrónica, reembolsable en tu Isapre y en tu seguro complementario según la cobertura de tu plan. El trámite lo haces tú, porque no tenemos convenio con isapres ni clínicas; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología</a>.</p>
 
 <h2>Señales de alarma: cuándo llamar al médico y cuándo ir a urgencias</h2>
 <p><strong>Ve a urgencias o llama al SAMU (131) de inmediato si aparece:</strong></p>
 <ul>
 <li>Falta de aire repentina, dolor en el pecho o tos con sangre.</li>
 <li>Pantorrilla hinchada, caliente, dolorosa o enrojecida.</li>
-<li>Una caída con imposibilidad de apoyar la pierna, deformidad o un ruido seco al momento del golpe.</li>
+<li>Una caída con imposibilidad de apoyar la pierna, deformidad o un ruido seco al golpe.</li>
 <li>Fiebre alta junto a una herida enrojecida, caliente o con secreción.</li>
 </ul>
-<p><strong>Avisa a tu cirujano el mismo día</strong> si notas fiebre, enrojecimiento que se extiende o secreción en la herida, dolor que aumenta bruscamente en vez de ceder, o pérdida súbita de rango. Si no logras contactarlo y el cuadro empeora, ve a urgencias.</p>
+<p><strong>Avisa a tu cirujano el mismo día</strong> si notas:</p>
+<ul>
+<li>Fiebre, enrojecimiento que se extiende o secreción en la herida.</li>
+<li>Calor en la rodilla que aumenta en vez de ir cediendo.</li>
+<li>Dolor que sube bruscamente en lugar de ceder, o pérdida súbita de rango.</li>
+<li>Adormecimiento nuevo de la pierna o el pie, o dificultad para levantar la punta del pie.</li>
+<li>Dolor desproporcionado con cambios de color, temperatura o sudoración de la piel.</li>
+</ul>
+<p>Si no logras contactar a tu cirujano y el cuadro empeora, ve a urgencias.</p>
 
 <h2>Errores frecuentes que frenan la recuperación</h2>
 <ul>
 <li><strong>Reposo excesivo.</strong> El movimiento autorizado es parte del tratamiento, no un premio para cuando ya no duela.</li>
-<li><strong>La almohada bajo la rodilla.</strong> Alivia esa noche y cuesta semanas de extensión.</li>
+<li><strong>Dormir con una almohada bajo la rodilla.</strong> Alivia esa noche y cuesta semanas de extensión.</li>
 <li><strong>Automedicarse:</strong> subir la dosis por cuenta propia o suspender la analgesia indicada. Sin dolor controlado no se puede rehabilitar, y esa decisión es médica.</li>
-<li><strong>Copiar ejercicios de internet.</strong> Un video puede ser correcto para otra prótesis, otra técnica y otra etapa, y estar contraindicado para la tuya.</li>
+<li><strong>Copiar ejercicios de internet.</strong> Un video puede servir para otra prótesis, otra técnica y otra etapa, y estar contraindicado para la tuya.</li>
 <li><strong>Forzar para recuperar el tiempo perdido.</strong> Los saltos bruscos de carga inflaman la rodilla y terminan retrasando.</li>
-<li><strong>Abandonar apenas caminas.</strong> Dejar el plan con la fuerza a medias se siente después al subir escaleras o al levantarse de una silla baja.</li>
+<li><strong>Abandonar apenas caminas.</strong> Dejar el plan con la fuerza a medias se nota al subir escaleras o al levantarse de una silla baja.</li>
 </ul>
 
-<h2>Cuándo conviene atenderse en casa en vez de trasladarse</h2>
-<p>Recién operado, cada traslado cuesta caro: dolor, cansancio e hinchazón antes de empezar la sesión, más depender de alguien que te lleve. En domicilio esa energía se invierte completa en rehabilitar y entrenas donde de verdad tienes que moverte: tu cama, tu baño, tu silla y la escalera de tu edificio. Es especialmente razonable si vives en un piso alto sin ascensor, si pasas solo buena parte del día, si tienes indicación de apoyo parcial o si te operaron la pierna con la que manejas.</p>
-<p>Puedes ver el programa completo en <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a> y dónde llegamos en nuestra <a href="/cobertura">cobertura en Santiago</a>.</p>
+<h2>Por qué, recién operado de rodilla, conviene atenderse en casa</h2>
+<p>Cada traslado en estas semanas cuesta caro: dolor, cansancio e hinchazón antes de empezar la sesión. En domicilio esa energía se invierte completa en rehabilitar y entrenas donde de verdad tienes que moverte: tu cama, tu baño y la escalera de tu edificio. Si estás decidiendo entre las dos modalidades, lo comparamos en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>, y el programa completo está en <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a>.</p>
 
 <h2>Preguntas frecuentes sobre la recuperación de la prótesis de rodilla</h2>
 
 <h3>¿Cuándo debo empezar la kinesiología después de la prótesis de rodilla?</h3>
-<p>Lo habitual es coordinarla apenas recibes el alta, siguiendo lo que indique tu cirujano. Empezar tarde es una de las causas más comunes de rigidez que después cuesta revertir: pregunta la fecha antes de salir de la clínica y deja la primera visita agendada.</p>
+<p>Lo habitual es coordinarla apenas recibes el alta, siguiendo lo que indique tu cirujano. Empezar tarde es una de las causas más comunes de rigidez que después cuesta revertir: pregunta la fecha antes de salir de la clínica y deja agendada la primera visita.</p>
 
-<h3>¿Cuántas sesiones voy a necesitar?</h3>
-<p>Depende de tu caso, y nadie serio te lo puede asegurar por teléfono. Los protocolos postquirúrgicos suelen tomar entre 8 y 16 semanas, con más frecuencia el primer mes; después de la evaluación gratuita te damos una estimación con lo que vimos en tu rodilla y en tu casa.</p>
+<h3>¿Cuántas sesiones de kinesiología necesito después de una prótesis de rodilla?</h3>
+<p>Depende de tu cirugía, de cómo llegabas al pabellón y de cuánto trabajas entre sesiones. Después de la evaluación gratuita te damos una estimación con lo que vimos en tu rodilla y en tu casa; el marco general lo explicamos más arriba.</p>
 
 <h3>¿Es normal que la rodilla siga hinchada después de varias semanas?</h3>
-<p>La hinchazón que sube durante el día y baja con reposo y elevación es parte esperable de la cicatrización y puede durar semanas. Lo que no es esperable es que aumente de forma sostenida, que venga con fiebre o que la pantorrilla se ponga caliente y dolorosa: eso se consulta de inmediato.</p>
+<p>La hinchazón que sube durante el día y baja con reposo y elevación es parte esperable de la cicatrización. Lo que no lo es: que aumente sostenidamente, que venga con fiebre o que la rodilla o la pantorrilla se pongan cada vez más calientes y dolorosas. Eso se consulta de inmediato.</p>
 
 <h3>¿Voy a volver a caminar sin bastón y a poder arrodillarme?</h3>
-<p>No podemos prometerte un resultado ni una fecha: depende de tu cirugía, de tu estado previo y de tu evolución. Arrodillarse, en particular, es una actividad que a muchos les sigue resultando incómoda aun con una prótesis que funciona bien, y conviene conversarla con tu traumatólogo.</p>
+<p>No podemos prometerte un resultado ni una fecha: depende de tu cirugía, de tu estado previo y de tu evolución. Arrodillarse, en particular, les sigue resultando incómodo a muchos aun con una prótesis que funciona bien, y conviene conversarlo con tu traumatólogo.</p>
 
-<h3>¿Puedo reembolsar la kinesiología a domicilio en mi Isapre?</h3>
-<p>KINEUM es un servicio particular: pagas la sesión y recibes boleta de honorarios electrónica, que puedes presentar a reembolso en tu Isapre y luego en tu seguro complementario. El monto depende de la cobertura de tu plan o póliza, y el trámite lo haces tú, porque no tenemos convenio con isapres ni clínicas. El paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología</a>.</p>
-
-<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/56999679593?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo.</p>`
+<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/56999679593?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes —con el detalle en <a href="/rehabilitacion-postquirurgica-las-condes">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>`
   },
   {
     slug: "cervicalgia-mareos",
