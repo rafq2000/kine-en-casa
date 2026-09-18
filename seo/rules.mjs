@@ -41,7 +41,7 @@ export const RULES = {
 const KEYWORD_DECLARADA = {
     '/blog/neuroplasticidad-recuperacion-acv': 'rehabilitación post ACV en casa',
     '/blog/sarcopenia-fuerza-es-salud': 'perdida de fuerza adulto mayor',
-    '/blog/suelo-pelvico-mujer': 'piso pélvico incontinencia',
+    '/cobertura': 'kinesiólogo a domicilio comunas región metropolitana',
 }
 
 // Keyword principal por patron de URL. Se usa para validar que title y H1 la contengan.
