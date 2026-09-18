@@ -108,7 +108,7 @@ const faqSchema = {
       name: "Cuánto demora en llegar el kinesiólogo a mi casa?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Coordinamos la visita dentro de 24 a 48 horas habiles desde tu primer contacto. En casos urgentes, podemos agendar para el mismo dia según disponibilidad.",
+        text: "Coordinamos la visita dentro de 24 a 48 horas desde tu primer contacto, cualquier día de la semana. En casos urgentes podemos agendar para el mismo dia según disponibilidad.",
       },
     },
     {
@@ -220,7 +220,7 @@ const faqs = [
   {
     question: "Cuánto demora en llegar el kinesiólogo a mi casa?",
     answer:
-      "Coordinamos la visita dentro de 24 a 48 horas habiles desde tu primer contacto. En casos urgentes, podemos agendar para el mismo dia según disponibilidad.",
+      "Coordinamos la visita dentro de 24 a 48 horas desde tu primer contacto, cualquier día de la semana. En casos urgentes podemos agendar para el mismo dia según disponibilidad.",
   },
   {
     question: "Necesito orden médica para pedir kinesiólogo a domicilio?",
