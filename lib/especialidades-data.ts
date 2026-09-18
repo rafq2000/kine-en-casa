@@ -341,6 +341,7 @@ export const especialidades: Especialidad[] = [
             { titulo: "Esguince de tobillo: protocolo de recuperación acelerada", url: "/blog/esguince-tobillo-recuperacion" },
             { titulo: "Lumbago agudo: ¿reposo o movimiento?", url: "/blog/lumbago-agudo-que-hacer" },
             { titulo: "Tendinitis de hombro: salvando tu manguito rotador", url: "/blog/tendinitis-hombro-manguito-rotador" },
+            { titulo: "Ciática: cómo distinguir el dolor real de la falsa ciática", url: "/blog/ciatica-sintomas-tratamiento" },
         ],
     },
 ]
