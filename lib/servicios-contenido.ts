@@ -474,6 +474,125 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
         revisado: REVISADO,
     },
 
+    postquirurgica: {
+        "slug": "postquirurgica",
+        "url": "https://kineum.cl/servicios/postquirurgica",
+        "breadcrumb": "Rehabilitación postquirúrgica",
+        "kicker": "Después de la cirugía",
+        "h1": "Rehabilitación Post Operatoria a Domicilio en Santiago",
+        "intro": "Te operaron, te dieron el alta y ahora estás en la casa con una hoja de indicaciones, la pierna o el brazo hinchado y la duda de cuánto moverte. Es normal. Las semanas que siguen a la cirugía pesan mucho en el resultado final, y la kinesiología postoperatoria sirve para recorrerlas con método: recuperar movimiento y fuerza dentro de lo que autorizó tu cirujano, sin adelantarte ni quedarte corto, y sin tener que trasladarte recién operado.",
+        "secciones": [
+            {
+                "h2": "El alta no es el final del tratamiento",
+                "parrafos": [
+                    "El alta significa que ya no necesitas estar hospitalizado, no que la articulación esté lista. La cirugía reparó o reemplazó una estructura; lo que viene ahora es enseñarle al cuerpo a usarla de nuevo. La musculatura alrededor de la zona operada suele inhibirse por el dolor y la inflamación, el rango de movimiento se reduce y la confianza para apoyar o mover el segmento cae.",
+                    "Tu cirujano define el marco: cuánto peso puedes cargar, qué movimientos están permitidos y en qué momento se avanza. La kinesiología trabaja dentro de ese marco. Por eso la primera visita parte revisando lo que te entregaron al salir de la clínica."
+                ],
+                "listaTitulo": "Qué tener a mano para la primera visita",
+                "lista": [
+                    "La orden médica de kinesiología, con diagnóstico e indicación de tratamiento (es necesaria para iniciar el tratamiento).",
+                    "La epicrisis o informe de alta, con el tipo de cirugía realizada.",
+                    "El protocolo o las precauciones que indicó tu cirujano, si te los entregó por escrito.",
+                    "Las restricciones de carga (sin apoyo, apoyo parcial o apoyo según tolerancia).",
+                    "La fecha de tu próximo control con el traumatólogo o el neurocirujano."
+                ]
+            },
+            {
+                "h2": "Qué cirugías se rehabilitan en casa",
+                "parrafos": [
+                    "Cada cirugía tiene objetivos y tiempos distintos. Estas son las más frecuentes en rehabilitación post operatoria a domicilio:"
+                ],
+                "lista": [
+                    "Prótesis de rodilla: recuperar la extensión completa temprano, avanzar en la flexión y volver a caminar sin cojear.",
+                    "Prótesis de cadera: marcha segura, transferencias que respeten las precauciones quirúrgicas y fuerza de glúteos.",
+                    "Artroscopia de rodilla u hombro: controlar el edema, recuperar el rango y volver de a poco a la carga.",
+                    "Reconstrucción de ligamento cruzado: activar el cuádriceps, recuperar la extensión y, más adelante, propiocepción y criterios de retorno deportivo.",
+                    "Reparación de manguito rotador: progresión protegida, habitualmente con un período de cabestrillo y movilidad asistida antes de la activa.",
+                    "Cirugía de columna: control motor, forma segura de levantarse de la cama y reacondicionamiento gradual.",
+                    "Fracturas operadas con placas, clavos o tornillos: movilidad de las articulaciones vecinas y carga progresiva según lo que autorice el cirujano."
+                ]
+            },
+            {
+                "h2": "La ventana del rango articular",
+                "parrafos": [
+                    "Después de una cirugía, el tejido cicatricial se organiza rápido. Si la articulación pasa semanas sin moverse dentro de lo permitido, esa cicatriz tiende a limitar el movimiento, y el rango que no se ganó temprano suele costar bastante más recuperarlo después. Las posturas de alivio que dejan la articulación flectada o el hombro pegado al cuerpo por más tiempo del indicado son un error frecuente.",
+                    "El error opuesto también existe: forzar más allá de lo autorizado para avanzar rápido. En una reparación de manguito rotador o de ligamento, eso puede comprometer lo que se reparó. El trabajo del kinesiólogo es medir el rango con goniómetro sesión a sesión y progresar en el punto justo entre esos dos errores."
+                ]
+            },
+            {
+                "h2": "Edema y dolor: esperables, pero hay que manejarlos",
+                "parrafos": [
+                    "La hinchazón después de operar es parte normal de la cicatrización y puede durar semanas, sobre todo en rodilla y tobillo. El problema es que el edema también frena el movimiento y la activación muscular, así que conviene controlarlo desde el comienzo.",
+                    "Las herramientas habituales son simples: elevar el segmento, mover el tobillo o la mano en bombeo varias veces al día, aplicar frío si tu médico lo indicó y dosificar el tiempo de pie. En algunos casos se suma drenaje linfático manual. El dolor se modula para que permita hacer los ejercicios, con TENS cuando está indicado y no hay contraindicaciones (por ejemplo, marcapasos); los analgésicos siempre los define tu médico."
+                ]
+            },
+            {
+                "h2": "Las precauciones del cirujano mandan",
+                "parrafos": [
+                    "Hay restricciones que no se negocian, y dependen del tipo de cirugía y de la técnica usada. En prótesis de cadera, según la vía de abordaje, el cirujano puede indicar evitar ciertos rangos de flexión, cruzar las piernas o girar sobre la pierna operada. En manguito rotador suele haber semanas sin movimiento activo del hombro. En columna puede restringirse cargar peso o flectar y girar el tronco. En fracturas, la carga sobre la pierna se autoriza por etapas.",
+                    "El kinesiólogo no modifica esas indicaciones: las aplica en tu casa real, en tu cama, tu silla, tu baño y tus escaleras. Si surge una duda sobre si algo está permitido, la respuesta es consultarlo con tu cirujano, no suponerlo."
+                ]
+            },
+            {
+                "h2": "Cómo es la kinesiología postoperatoria en tu casa y cuántas sesiones suele tomar",
+                "parrafos": [
+                    "La primera visita es una evaluación inicial gratuita: revisamos tus indicaciones, medimos rango, fuerza y marcha, y vemos cómo te mueves en la casa. Con eso te proponemos un plan y una estimación de sesiones antes de que decidas. Para iniciar el tratamiento y para reembolsar necesitas la orden médica de kinesiología; la evaluación no la reemplaza. Las sesiones duran alrededor de 60 minutos y el kinesiólogo lleva camilla, TENS, bandas elásticas y goniómetro.",
+                    "No hay un número único de sesiones. Depende de la cirugía, de tu condición previa y de cómo evolucionas. Lo habitual es una frecuencia mayor durante el primer mes, cuando más se juega el rango de movimiento, y un espaciado progresivo a medida que ganas autonomía. Por eso, en el período recién operado suele calzar mejor el plan Premium (10 sesiones al mes, $35.000 por sesión), y más adelante puede bastar el Essential (4 sesiones al mes, $160.000).",
+                    "Atendemos de lunes a domingo, lo que evita cortar el tratamiento justo en los primeros días. Cada sesión se paga con boleta de honorarios electrónica, que puedes presentar a reembolso en tu Isapre o seguro complementario según tu plan o póliza."
+                ]
+            },
+            {
+                "h2": "Señales para ir a urgencias o avisar a tu cirujano",
+                "parrafos": [
+                    "La rehabilitación no reemplaza los controles médicos. Hay señales que no pueden esperar a que tu cirujano conteste: ante cualquiera de las primeras cinco, ve a urgencias de inmediato o llama al SAMU (131). Las dos últimas requieren avisar a tu cirujano el mismo día; si no logras contactarlo y el cuadro empeora, ve a urgencias."
+                ],
+                "lista": [
+                    "Urgencias o 131: falta de aire repentina, dolor en el pecho o tos con sangre.",
+                    "Urgencias o 131: pantorrilla hinchada, caliente, dolorosa o enrojecida, que puede ser una trombosis venosa.",
+                    "Urgencias o 131: en prótesis de cadera, dolor súbito con la pierna acortada o girada, o no poder apoyar.",
+                    "Urgencias o 131: después de cirugía de columna, pérdida de fuerza o de sensibilidad que avanza, o pérdida del control de la orina o las deposiciones.",
+                    "Urgencias o 131: dedos fríos, pálidos, morados o adormecidos bajo el yeso o la férula.",
+                    "Avisa a tu cirujano el mismo día: fiebre, enrojecimiento que se extiende, calor o secreción en la herida.",
+                    "Avisa a tu cirujano el mismo día: dolor que aumenta bruscamente en vez de ir cediendo."
+                ],
+                "alerta": true
+            }
+        ],
+        "faqs": [
+            {
+                "q": "¿En qué momento de la recuperación conviene partir con la kinesiología?",
+                "a": "Depende de la cirugía y de lo que indique tu cirujano. En muchas cirugías ortopédicas se empieza apenas recibes el alta, pero en otras, como el manguito rotador, suele haber un período de inmovilización. Conviene preguntarle a tu cirujano, antes del alta, cuándo puedes empezar, y coordinar la primera visita para esa fecha."
+            },
+            {
+                "q": "¿Necesito orden médica?",
+                "a": "Sí. En Chile el tratamiento kinesiológico se realiza por indicación y orden médica escrita, y además tu Isapre o seguro complementario te la pedirá para reembolsar. Debe incluir tu diagnóstico y la indicación de kinesiología, idealmente con el número de sesiones. Cuánto tiempo la aceptan depende de cada Isapre o aseguradora, así que revísalo con ellas. Nuestra evaluación gratuita no reemplaza la orden médica."
+            },
+            {
+                "q": "¿Puedo reembolsar la kinesiología a domicilio en mi Isapre?",
+                "a": "Somos un servicio particular: pagas la sesión y recibes boleta de honorarios electrónica, que puedes presentar a reembolso en tu Isapre y luego en tu seguro complementario. La Superintendencia de Salud reconoce la atención kinesiológica domiciliaria como prestación, pero el monto que te devuelvan depende de tu plan o póliza. No tenemos convenio con isapres ni clínicas."
+            },
+            {
+                "q": "¿Es normal que me duela hacer los ejercicios?",
+                "a": "Una molestia moderada durante el ejercicio, que baja en las horas siguientes, suele ser esperable en el post operatorio. Lo que no es esperable es un dolor que aumenta día a día, que no te deja dormir o que viene con fiebre o hinchazón creciente: en ese caso hay que avisar a tu cirujano."
+            },
+            {
+                "q": "¿Cómo se coordina la rehabilitación con las indicaciones de mi cirujano?",
+                "a": "Seguimos las precauciones y los tiempos que indicó tu cirujano y registramos la evolución, con mediciones de rango y fuerza, para que puedas llevarla a tus controles. Si notamos algo fuera de lo esperado, te indicamos consultarlo con él antes de seguir avanzando."
+            },
+            {
+                "q": "¿Por qué rehabilitarme en casa y no en un centro?",
+                "a": "Porque recién operado cada traslado suma dolor, cansancio e hinchazón antes de empezar la sesión, y muchas veces obliga a depender de alguien que te lleve. En casa esa energía se usa en rehabilitar, y practicamos con tu cama, tu baño y tus escaleras reales, que es donde tienes que moverte con seguridad."
+            }
+        ],
+        "cta": {
+            "titulo": "Evaluación post operatoria gratuita en tu casa",
+            "texto": "Cuéntanos qué cirugía tuviste y cuándo te dieron el alta. Revisamos tus indicaciones, medimos tu movimiento y te proponemos un plan antes de que decidas.",
+            "boton": "Agendar evaluación gratuita",
+            "whatsapp": "Hola, necesito kinesiología postoperatoria a domicilio"
+        },
+        "revisado": "2026-09-17"
+    },
+
     nosotros: {
         slug: 'nosotros',
         url: 'https://kineum.cl/nosotros',

@@ -43,6 +43,9 @@ export function SiteFooter() {
                                 <Link href="/servicios/traumatologica">Traumatología Avanzada</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/servicios/postquirurgica">Rehabilitación Postquirúrgica</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
                                 <Link href="/servicios/geriatrica">Geriatría Activa</Link>
                             </li>
                         </ul>

@@ -9,19 +9,20 @@ const baseUrl = 'https://kineum.cl'
 // Si todas las URLs cambian de lastmod en cada deploy, Google deja de confiar
 // en la señal y la ignora. Actualizar solo la clave que de verdad cambio.
 const MODIFICADO: Record<string, string> = {
-    '/': '2026-09-06',
-    '/nosotros': '2026-09-06',
+    '/': '2026-09-17',
+    '/nosotros': '2026-09-17',
     '/servicios/geriatrica': '2026-09-06',
     '/servicios/respiratoria': '2026-09-06',
     '/servicios/neurologica': '2026-09-06',
     '/servicios/traumatologica': '2026-09-06',
-    '/precios': '2026-09-06',
-    '/como-funciona': '2026-09-06',
-    '/testimonios': '2026-09-06',
-    '/blog': '2026-09-06',
+    '/servicios/postquirurgica': '2026-09-17',
+    '/precios': '2026-09-17',
+    '/como-funciona': '2026-09-17',
+    '/testimonios': '2026-09-17',
+    '/blog': '2026-09-17',
     '/ejercicios': '2026-09-06',
     // Paginas locales: ultima reescritura de titulos y descripciones
-    local: '2026-09-06',
+    local: '2026-09-17',
 }
 
 // Prioridad segun cercania a la conversion, no todo al mismo nivel:
@@ -54,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/servicios/geriatrica',
         '/servicios/neurologica',
         '/servicios/traumatologica',
+        '/servicios/postquirurgica',
     ]
 
     const estaticas = rutasBase.map((ruta) => ({

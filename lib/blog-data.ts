@@ -1,6 +1,700 @@
 import { Brain, TrendingUp, Users, Activity, Heart, Zap, Shield, Smile, CircleDollarSign, FileText, Building2, Baby, ClipboardList } from "lucide-react";
 
 export const blogPosts = [
+  // ── Guías 17-sep-2026: precio, orden médica y decisión ──
+  {
+    slug: "kinesiologo-sin-orden-medica",
+    seoTitle: "¿Kinesiólogo sin Orden Médica? Guía Chile 2026 | KINEUM",
+    seoDescription: "¿Puedes ir al kinesiólogo sin orden médica? Qué dice la norma en Chile, por qué tu Isapre la pide para reembolsar y qué debe decir la orden.",
+    title: "¿Puedo ir al kinesiólogo sin orden médica? Lo que dice la norma y lo que pide tu Isapre",
+    subtitle: "Si se puede o no, por qué conviene tenerla, qué debe decir la orden y cómo afecta al reembolso en tu Isapre y tu seguro complementario.",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "7 min lectura",
+    category: "Precios y Reembolsos",
+    image: "/images/blog-sin-orden-medica.jpg",
+    icon: FileText,
+    content: `<p class="lead">Te duele la espalda, te operaron hace poco o tu mamá quedó con poca movilidad después de una hospitalización, y aparece la pregunta: ¿puedo ir al kinesiólogo sin orden médica? En corto: puedes pedir una evaluación, pero en Chile el reglamento vigente dice que el tratamiento kinesiológico se aplica por orden médica escrita. Además, tu Isapre o tu seguro complementario habitualmente te la va a pedir para reembolsar. Aquí te explicamos qué dice la regla, qué debe decir la orden y qué hacer si todavía no la tienes.</p>
+
+<h2>¿Se puede ir al kinesiólogo sin orden médica en Chile?</h2>
+<p>La profesión se rige por el Decreto N° 1.082 de 1958 del Ministerio de Salud Pública, que en LeyChile aparece como no derogado. Su artículo 3 dice que el kinesiólogo solo puede aplicar sus métodos terapéuticos <strong>por indicación y orden médica escrita</strong>, y lo obliga a registrar y archivar esas órdenes. El artículo 4 agrega que, en los institutos de kinesiterapia, la ficha de cada paciente debe anotar el nombre del médico que indicó el tratamiento.</p>
+<p>El Código Sanitario, en su artículo 113, exige indicación y supervigilancia médica a quienes cumplen funciones de colaboración médica, aunque en la versión que revisamos no nombra expresamente a la kinesiología.</p>
+<p>¿Y no hubo una ley para ir directo al kinesiólogo? Se han presentado proyectos en ese sentido, como el Boletín 9260-11, ingresado en 2014, y no encontramos que se haya convertido en ley. Hay otros proyectos que buscan modificar el Código Sanitario en lo que toca a las profesiones de la salud, pero no pudimos confirmar en qué etapa están. Lo concreto es que, según LeyChile, el reglamento de 1958 sigue vigente.</p>
+<p>En resumen:</p>
+<ul>
+<li><strong>Puedes consultar</strong> y pedir una evaluación para entender tu situación y saber si la kinesiología te puede ayudar.</li>
+<li><strong>El tratamiento</strong> requiere una indicación médica escrita, según el reglamento vigente.</li>
+<li><strong>Para el reembolso</strong> en tu Isapre o seguro complementario, en la práctica necesitas esa orden.</li>
+</ul>
+
+<h2>Por qué necesitas orden médica para kinesiología aunque solo quieras evaluarte</h2>
+<p>La orden no es solo un requisito legal: también tiene sentido clínico. La kinesiología complementa la evaluación médica, no la reemplaza. Un dolor que parece muscular puede tener otra causa, y el diagnóstico lo hace tu médico. Con ese diagnóstico en mano, el kinesiólogo puede orientar mejor el plan de sesiones.</p>
+<p>La Superintendencia de Salud, cuando describe la atención kinesiológica integral, dice que las estrategias del tratamiento están en relación con el diagnóstico médico de derivación. También contempla una evaluación al inicio y otra al término del tratamiento.</p>
+<p>Si tienes síntomas de alarma, no esperes una sesión de kinesiología: llama al SAMU al <strong>131</strong> o ve a urgencias. Por ejemplo: dolor en el pecho, dificultad para respirar, pérdida repentina de fuerza o sensibilidad en un lado del cuerpo, o una caída con dolor intenso que no te deja apoyar.</p>
+
+<h2>Orden médica para kinesiología en tu Isapre: qué exigen</h2>
+<p>La Circular IF/N° 393 de la Superintendencia de Salud, del 8 de septiembre de 2021, instruye a las isapres a cubrir la kinesiología integral, incluida la <strong>atención kinesiológica integral ambulatoria o domiciliaria</strong>. Según la circular, para acceder a esa cobertura basta presentar la orden médica de derivación con su prescripción. La orden debe identificar al paciente e indicar el diagnóstico y el tratamiento, pero no necesita detallar cada terapia.</p>
+<p>Lo que publican las isapres sobre la orden va en la misma dirección (revisado en septiembre de 2026; las condiciones pueden cambiar):</p>
+<ul>
+<li><strong>Cruz Blanca</strong> indica que la orden médica es obligatoria para kinesioterapia, entre otras prestaciones.</li>
+<li><strong>Nueva Masvida</strong> dice que la orden es obligatoria para las prestaciones kinesiológicas y que debe incluir diagnóstico y esquema de tratamiento.</li>
+<li><strong>Colmena</strong> pide, para tratamientos de más de una sesión, la Solicitud de Tratamiento Ambulatorio, la boleta, el detalle de las prestaciones y la orden médica. Los documentos deben llevar el RUT y la firma o timbre del médico tratante.</li>
+</ul>
+<p>El monto que te devuelven depende de tu plan; el paso a paso del trámite y lo que conviene revisar está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología en la Isapre</a>.</p>
+
+<h2>Orden médica en el seguro complementario</h2>
+<p>Los seguros complementarios también pueden exigirla. En el formulario de reembolso de MetLife Chile, por ejemplo, para kinesiología hay que enviar la orden médica con el <strong>tipo de tratamiento y el número de sesiones</strong>, y el gasto tiene que reembolsarse primero en la Isapre.</p>
+<p>En el caso de MetLife, primero reembolsas en tu Isapre y después en el seguro. Cada póliza tiene sus propias condiciones, así que revisa en la tuya qué documentos te piden para esa segunda solicitud.</p>
+
+<h2>Qué debe decir la orden médica para kinesiología</h2>
+<p>Para evitar rechazos, pídele a tu médico que la orden incluya:</p>
+<ul>
+<li><strong>Tu nombre y RUT</strong> (deben coincidir con los datos del beneficiario).</li>
+<li><strong>El diagnóstico.</strong></li>
+<li><strong>La indicación o tipo de tratamiento</strong> kinesiológico.</li>
+<li><strong>El número de sesiones.</strong> No siempre es obligatorio, pero lo piden seguros como MetLife y algunas isapres, así que conviene que aparezca.</li>
+<li><strong>El nombre, RUT y firma o timbre del médico.</strong></li>
+</ul>
+<p>¿Y cuánto dura la orden? No encontramos una norma general que fije un plazo. Cada isapre o aseguradora define el suyo: Colmena, por ejemplo, informa en su sucursal virtual que la orden vale 60 días desde que se emite. Pregunta en tu Isapre o seguro antes de empezar, para que no te quedes fuera por la fecha.</p>
+<p>Si no sabes cuántas sesiones pedir, en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a> explicamos de qué suele depender.</p>
+
+<h2>Qué hacer si no tienes orden médica</h2>
+<p>Te recomendamos este camino:</p>
+<ol>
+<li><strong>Agenda la evaluación inicial gratuita de KINEUM.</strong> Para esa evaluación no te pedimos orden médica. Nos sirve para conocer tu situación, ver cómo te mueves en tu casa y decirte si la kinesiología te puede ayudar.</li>
+<li><strong>Consulta a tu médico</strong> para que haga el diagnóstico y, si corresponde, te dé la orden. Nuestra evaluación no es un diagnóstico médico: no reemplaza la orden y no sirve para reembolsar.</li>
+<li><strong>Empieza el plan con la orden en mano.</strong> Así el tratamiento sigue la indicación médica y puedes pedir el reembolso.</li>
+</ol>
+<p>En KINEUM la atención es particular: tú pagas la sesión y recibes una <strong>boleta de honorarios electrónica</strong>. Esa boleta la presentas junto con la orden y los documentos que pida tu Isapre o tu seguro complementario. El trámite lo haces tú, porque no tenemos convenio con isapres, clínicas ni aseguradoras. Puedes ver el proceso completo en <a href="/como-funciona">cómo funciona KINEUM</a> y los valores de cada plan en <a href="/precios">nuestros precios</a>.</p>
+
+<h2>Preguntas frecuentes sobre la orden médica y el kinesiólogo</h2>
+
+<h3>¿Necesito orden médica para ir al kinesiólogo en Chile?</h3>
+<p>El Decreto 1.082, que según LeyChile sigue vigente, dice que el kinesiólogo aplica sus tratamientos por indicación y orden médica escrita. Puedes pedir una evaluación sin ella, pero para el tratamiento y para reembolsar lo normal es que la necesites.</p>
+
+<h3>¿Mi Isapre me reembolsa la kinesiología sin orden médica?</h3>
+<p>Lo más probable es que no. La Superintendencia de Salud dice que para acceder a la cobertura basta la orden médica de derivación, y varias isapres (Cruz Blanca, Nueva Masvida y Colmena) la piden expresamente para kinesiología.</p>
+
+<h3>¿La evaluación gratuita de KINEUM reemplaza la orden médica?</h3>
+<p>No. Es una evaluación kinesiológica para orientarte, no un diagnóstico médico, y tampoco te sirve para respaldar el reembolso.</p>
+
+<h3>¿Cuánto tiempo dura la orden médica de kinesiología?</h3>
+<p>No hay un plazo único fijado por una norma general. Depende de cada isapre o aseguradora, así que confírmalo con la tuya antes de empezar las sesiones.</p>
+
+<h3>¿Qué pasa si la orden no dice el número de sesiones?</h3>
+<p>Depende de dónde la presentes. Algunos seguros, como MetLife, piden expresamente el número de sesiones, así que una orden sin ese dato podría no bastarte. Lo más simple es pedirle a tu médico que lo incluya desde el principio.</p>
+
+<h3>¿Sirve la orden para kinesiología a domicilio?</h3>
+<p>Según la Circular 393, la atención kinesiológica integral puede hacerse en el domicilio. Igual revisa con tu Isapre o tu seguro las condiciones de tu plan o póliza. Si quieres saber qué esperar, lee <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
+
+<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te orientamos.</p>`
+  },
+  {
+    slug: "como-es-una-sesion-de-kinesiologia-a-domicilio",
+    seoTitle: "Cómo Es una Sesión de Kinesiología a Domicilio | KINEUM",
+    seoDescription: "Qué hace un kinesiólogo a domicilio, cuánto dura la sesión, qué equipos trae y cómo preparar tu casa. Todo lo que debes saber antes de la primera visita.",
+    title: "Cómo es una sesión de kinesiología a domicilio: qué hace el kinesiólogo, cuánto dura y qué equipos trae",
+    subtitle: "Desde la coordinación hasta la boleta: la guía paso a paso para llegar a tu primera visita sabiendo qué esperar y sin comprar nada.",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "7 min lectura",
+    category: "Guías",
+    image: "/images/blog-sesion-domicilio.jpg",
+    icon: Activity,
+    content: `<p class="lead">Si nunca has recibido a un kinesiólogo en tu casa, es normal tener dudas: qué hace exactamente, cuánto dura la sesión, qué equipos trae y si tienes que preparar algo. Aquí te contamos cómo es una sesión de kinesiología a domicilio de principio a fin, para que llegues a la primera visita sabiendo qué esperar.</p>
+
+<h2>Antes de la visita: coordinación y qué tener a mano</h2>
+<p>Todo parte con una conversación por WhatsApp o teléfono. Ahí se coordina el día y la hora (atendemos de lunes a domingo), se confirma que tu comuna esté dentro de la cobertura y se conversa brevemente el motivo de consulta: una cirugía reciente, un dolor que no cede, una caída, una enfermedad respiratoria o neurológica.</p>
+<p>Para aprovechar bien la primera visita, conviene tener reunido lo siguiente:</p>
+<ul>
+<li><strong>Exámenes e imágenes</strong>: radiografías, resonancias, ecografías y sus informes. El informe escrito es lo más útil.</li>
+<li><strong>Orden médica</strong>, si la tienes. Para la evaluación inicial no es obligatoria, pero sí la vas a necesitar para pedir reembolso en tu Isapre o seguro complementario. Lo explicamos en detalle en <a href="/blog/kinesiologo-sin-orden-medica">si puedes ir al kinesiólogo sin orden médica</a>.</li>
+<li><strong>Lista de medicamentos</strong> actuales, con dosis. Algunos fármacos, como anticoagulantes o medicamentos para la presión, influyen en cómo se planifica el ejercicio.</li>
+<li><strong>Epicrisis o indicaciones del cirujano</strong>, si vienes de una operación, con las restricciones de carga o de movimiento que te dieron.</li>
+<li>Ropa cómoda que permita moverse y dejar a la vista la zona a tratar.</li>
+</ul>
+<p>No te preocupes si te falta algo: se puede partir igual y completar la información después.</p>
+
+<h2>La evaluación inicial: qué hace el kinesiólogo en la primera visita</h2>
+<p>La primera visita es una evaluación gratuita y no parte tratando, sino midiendo. Sin una línea de base no hay forma de saber después si el tratamiento está sirviendo.</p>
+<p>Habitualmente incluye:</p>
+<ul>
+<li><strong>Entrevista</strong>: cómo empezó el problema, qué lo empeora y qué lo alivia, antecedentes de salud y qué actividades concretas quieres recuperar.</li>
+<li><strong>Mediciones según el caso</strong>: rango de movimiento articular, fuerza, equilibrio, marcha, dolor o saturación de oxígeno.</li>
+<li><strong>Revisión del entorno</strong>: cómo te levantas de la cama, el baño, las escaleras, los pasillos. En domicilio esto es una ventaja, porque se trabaja con los espacios reales donde vives.</li>
+<li><strong>Objetivos y plan</strong>: se conversan metas realistas y se propone una frecuencia y un número estimado de sesiones.</li>
+</ul>
+<p>Si en la evaluación el kinesiólogo concluye que tu caso necesita primero una evaluación médica, o que la kinesiología no es lo indicado, te lo va a decir. La kinesiología complementa al médico y no lo reemplaza.</p>
+
+<h2>Cuánto dura una sesión de kinesiología a domicilio y cómo se estructura</h2>
+<p>Una sesión dura alrededor de 60 minutos. La distribución cambia según el diagnóstico y el día, pero la estructura típica se parece a esto:</p>
+<ul>
+<li><strong>Inicio</strong>: cómo estuviste desde la última sesión, si hubo dolor, si pudiste hacer los ejercicios. Según el caso se controlan parámetros como la saturación.</li>
+<li><strong>Preparación y manejo del dolor</strong>: movilizaciones, terapia manual o fisioterapia (TENS, ultrasonido) cuando está indicada, para que el cuerpo pueda moverse mejor.</li>
+<li><strong>Bloque central de ejercicio</strong>: es el núcleo del tratamiento. Ejercicios de fuerza, movilidad, equilibrio, marcha o respiratorios, con una carga que se ajusta de forma progresiva.</li>
+<li><strong>Práctica funcional</strong>: levantarse del sillón, subir el escalón de la entrada, entrar a la ducha. Lo que se entrena en tu propio entorno suele transferirse mejor al día a día.</li>
+<li><strong>Cierre</strong>: se revisan o actualizan los ejercicios para la casa y se resuelven dudas.</li>
+</ul>
+<p>El detalle depende mucho del tipo de atención. No es igual una sesión de <a href="/servicios/postquirurgica">rehabilitación post operatoria</a> que una respiratoria o una neurológica, y el plan se va ajustando según cómo respondes.</p>
+
+<h2>Qué equipos trae un kinesiólogo a domicilio y para qué sirve cada uno</h2>
+<p>El equipamiento viaja con el kinesiólogo, así que no necesitas comprar ni arrendar nada. Esto es lo que se lleva y su uso habitual:</p>
+<ul>
+<li><strong>Camilla profesional plegable</strong>: permite trabajar en la posición correcta, sin forzar al paciente ni al profesional en un sillón o una cama blanda.</li>
+<li><strong>TENS (electroestimulación)</strong>: ayuda a modular el dolor cuando este limita el movimiento. Es un apoyo, no el tratamiento en sí.</li>
+<li><strong>Ultrasonido terapéutico</strong>: se usa en fases y condiciones donde está indicado, no de forma rutinaria.</li>
+<li><strong>Bandas elásticas y pesas livianas</strong>: son el corazón del trabajo, porque permiten aplicar carga progresiva para recuperar fuerza.</li>
+<li><strong>Oxímetro de pulso</strong>: mide la saturación de oxígeno y la frecuencia cardiaca. Es clave en atenciones respiratorias y útil para controlar el esfuerzo en adultos mayores.</li>
+<li><strong>Goniómetro</strong>: mide en grados cuánto se mueve una articulación. Sirve para comprobar con números si estás avanzando.</li>
+<li><strong>Elementos de equilibrio</strong>: para entrenar la estabilidad y trabajar en la prevención de caídas.</li>
+</ul>
+<p>No todos los equipos se usan en todas las sesiones: se eligen según lo que el caso requiere ese día.</p>
+
+<h2>Cómo preparar la casa para la kinesiología</h2>
+<p>No hay que acondicionar nada especial ni comprar implementos. Con unos pocos ajustes simples basta:</p>
+<ul>
+<li><strong>Un espacio despejado</strong> donde se pueda armar la camilla y caminar unos pasos. Puede ser el living, el dormitorio o un pasillo amplio.</li>
+<li><strong>Una silla firme con respaldo</strong>, como las del comedor, que sirve para muchos ejercicios.</li>
+<li><strong>Retirar alfombras sueltas</strong> u objetos del piso en la zona de trabajo, para evitar tropiezos.</li>
+<li><strong>Buena luz y temperatura agradable</strong>, especialmente en invierno, si el paciente va a estar con ropa liviana.</li>
+<li><strong>Agua a mano</strong> y, si usa bastón, andador u oxígeno, tenerlos cerca.</li>
+</ul>
+<p>Parte del trabajo consiste precisamente en usar los muebles y espacios que ya existen en tu casa, así que no importa si no es un lugar grande.</p>
+
+<h2>El rol de la familia en la kinesiología a domicilio</h2>
+<p>Cuando el paciente es un adulto mayor o una persona con movilidad reducida, la familia o el cuidador tiene un papel importante. Con un adulto autovalente no es obligatorio que alguien esté en todas las sesiones, pero sí conviene que participe en la evaluación y, de vez en cuando, en las siguientes. Si el paciente es un niño o una persona que no puede avisar por sí misma cómo se siente, un adulto responsable debe estar en la casa durante toda la sesión.</p>
+<p>Así la familia puede aprender a ayudar en los traslados de forma segura, reconocer señales de alerta y acompañar los ejercicios entre sesiones, que es donde se consolida buena parte del avance. Si tu familiar tuvo una caída reciente, te puede servir leer <a href="/blog/adulto-mayor-se-cayo-en-casa-que-hacer">qué hacer si un adulto mayor se cayó en casa</a>.</p>
+<p>Ante una emergencia, durante o fuera de la sesión, como dolor en el pecho, dificultad respiratoria importante o pérdida súbita de fuerza o del habla, llama al SAMU (131) o acude a urgencias.</p>
+
+<h2>Después de la sesión: ejercicios para la casa y boleta</h2>
+<p>Al terminar, te quedas con una pauta breve de ejercicios para los días sin sesión. Suelen ser pocos, claros y adaptados a lo que puedes hacer con seguridad. La constancia en casa suele pesar tanto como la sesión misma.</p>
+<p>KINEUM es un servicio particular: pagas la sesión o el plan y se emite boleta de honorarios electrónica, que llega a tu correo. Con esa boleta y tu orden médica puedes pedir reembolso en tu Isapre y, si tienes, en tu seguro complementario. Revisa cómo hacerlo en la <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso Isapre en kinesiología</a> y los valores de los planes en la <a href="/precios">página de precios</a>.</p>
+
+<h2>Preguntas frecuentes sobre la sesión de kinesiología a domicilio</h2>
+<h3>¿Cuánto dura una sesión de kinesiología a domicilio?</h3>
+<p>Alrededor de 60 minutos. La duración de la evaluación inicial depende del caso; confírmala al coordinar la visita por WhatsApp.</p>
+<h3>¿Tengo que comprar algún equipo?</h3>
+<p>No. El kinesiólogo lleva camilla, equipos de fisioterapia, bandas, pesas y elementos de medición. Si más adelante conviene tener algo en casa para tus ejercicios, se conversa, pero no es un requisito.</p>
+<h3>¿Necesito orden médica para la primera visita?</h3>
+<p>Para la evaluación inicial no. Sí la necesitas para pedir reembolso en tu Isapre o seguro complementario, así que conviene solicitarla a tu médico desde el principio.</p>
+<h3>¿Cada cuánto son las sesiones?</h3>
+<p>Depende del diagnóstico y de tus objetivos. La frecuencia se define en la evaluación inicial y se ajusta según cómo evolucionas. Lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesitas según tu caso</a>.</p>
+<h3>¿Qué pasa si ese día amanezco con más dolor?</h3>
+<p>Avísale al kinesiólogo al inicio. La sesión se adapta: se baja la carga o se cambia el enfoque. Si el dolor es muy distinto al habitual o aparecen síntomas nuevos, puede ser necesario suspender y derivar al médico.</p>
+
+<p>Si quieres coordinar tu evaluación inicial gratuita en tu casa, escríbenos por <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20inicial%20a%20domicilio">WhatsApp al +56 9 9967 9593</a> y cuéntanos tu caso y tu comuna. Atendemos de lunes a domingo.</p>`
+  },
+  {
+    slug: "cuantas-sesiones-de-kinesiologia-necesito",
+    seoTitle: "¿Cuántas Sesiones de Kinesiología Necesito? | KINEUM",
+    seoDescription: "Rangos orientativos de sesiones de kinesiología según lesión, lumbago, cirugía, ACV o cuadro respiratorio, cuántas veces por semana ir y cuándo reevaluar.",
+    title: "¿Cuántas sesiones de kinesiología necesito? Rangos orientativos según tu caso",
+    subtitle: "De qué depende el número de sesiones, cuántas veces a la semana conviene ir, cómo se espacian y qué señales indican que el plan funciona o hay que ajustarlo.",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "8 min lectura",
+    category: "Guías",
+    image: "/images/blog-cuantas-sesiones.jpg",
+    icon: ClipboardList,
+    content: `<p class="lead">Es la primera pregunta de casi todo paciente, y la respuesta honesta es "depende". Pero no es un "depende" vacío: el número de sesiones de kinesiología responde a factores concretos que se pueden evaluar. En esta guía te damos rangos orientativos por tipo de cuadro, te explicamos cuántas veces a la semana se suele ir y por qué la frecuencia baja con el tiempo. Tómalos como referencia, no como promesa: lo que define tu plan es la evaluación.</p>
+
+<h2>¿De qué depende cuántas sesiones de kinesiología necesito?</h2>
+<p>Dos personas con el mismo diagnóstico pueden necesitar planes bastante distintos. Lo que más pesa es:</p>
+<ul>
+<li><strong>El tejido comprometido.</strong> Un músculo, un tendón, un ligamento, un hueso o el sistema nervioso tienen tiempos de reparación y adaptación muy diferentes.</li>
+<li><strong>La severidad y el tiempo de evolución.</strong> Un cuadro reciente suele responder distinto a una molestia que arrastras hace meses.</li>
+<li><strong>Tu punto de partida.</strong> La fuerza, la movilidad y el nivel de actividad previos cambian el camino por recorrer.</li>
+<li><strong>El objetivo.</strong> No es lo mismo volver a caminar dentro de la casa que volver a trotar o a jugar tenis.</li>
+<li><strong>Otras condiciones de salud</strong>, la edad y, cuando hay cirugía, el protocolo que indica tu traumatólogo.</li>
+<li><strong>Lo que pasa entre sesiones.</strong> La constancia con los ejercicios en casa es uno de los factores que más influye, y lo vemos más abajo.</li>
+</ul>
+<p>Por eso nadie serio debería darte un número exacto sin evaluarte. Lo razonable es una estimación inicial que se revisa según cómo respondes.</p>
+
+<h2>Rangos orientativos de sesiones según el tipo de cuadro</h2>
+<p>Estos rangos reflejan lo habitual en la práctica kinesiológica. Tu caso puede quedar dentro, por debajo o por encima.</p>
+
+<h3>Lesiones musculoesqueléticas agudas (esguinces, desgarros, tendinopatías)</h3>
+<p>Habitualmente entre <strong>6 y 12 sesiones</strong>, dentro de un proceso que suele tomar de 6 a 12 semanas según el tejido y la severidad. Las sesiones se concentran al inicio y se espacian a medida que avanzas. Algunas tendinopatías, como las del manguito rotador, suelen pedir de 8 a 12 semanas de trabajo constante con carga progresiva. Más detalle en nuestra página de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a>.</p>
+
+<h3>Lumbago</h3>
+<p>El lumbago entra dentro de las lesiones musculoesqueléticas, así que el rango de referencia es el mismo: <strong>habitualmente entre 6 y 12 sesiones</strong>. Los episodios agudos simples, bien manejados desde el inicio con movimiento y sin reposo prolongado, a menudo quedan en la parte baja de ese rango; un dolor lumbar que se repite o que lleva meses suele pedir más, porque el foco pasa a ser el control motor y que vuelvas a moverte sin miedo. Si estás en plena crisis, revisa <a href="/blog/lumbago-agudo-que-hacer">qué hacer en las primeras horas de un lumbago agudo</a>.</p>
+<p>Si el dolor lumbar viene con pérdida del control de la orina o las deposiciones, adormecimiento en la zona genital o entre los muslos, debilidad que avanza en las piernas, o aparece con fiebre o tras una caída fuerte, no esperes la sesión: consulta de inmediato en urgencias.</p>
+
+<h3>Post operatorio de rodilla o cadera</h3>
+<p>La mayoría de los protocolos post quirúrgicos toma de <strong>8 a 16 semanas</strong>, con mayor frecuencia de sesiones durante el primer mes. Esas primeras semanas son decisivas: el rango de movimiento que no se gana temprano cuesta mucho más recuperar después. Más abajo te explicamos cómo se traduce eso en número de sesiones.</p>
+
+<h3>ACV y otros cuadros neurológicos</h3>
+<p>Aquí el horizonte cambia: la neurorehabilitación <strong>se mide en meses</strong>, con reevaluaciones periódicas para ajustar objetivos. No es un tratamiento de diez sesiones y alta, y un plan que se presente así conviene mirarlo con dudas. Los primeros meses tras el alta suelen concentrar la mayor ventana de recuperación, por eso lo recomendable es empezar pronto. Más información en <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a>.</p>
+
+<h3>Cuadros respiratorios agudos</h3>
+<p>En cuadros agudos suelen bastar <strong>entre 3 y 8 sesiones</strong>, a veces concentradas en pocos días. La kinesiterapia respiratoria se hace con indicación del pediatra, broncopulmonar o médico tratante, que define si corresponde y con qué frecuencia. En patología crónica o recurrente el trabajo es periódico.</p>
+<p>Si hay dificultad respiratoria marcada, labios o uñas moradas, pausas respiratorias o fiebre en un lactante menor de 3 meses, no es momento de kinesiología: acude a urgencias o llama al SAMU (131).</p>
+
+<h3>Adulto mayor (fuerza, equilibrio, prevención de caídas)</h3>
+<p>Los programas geriátricos suelen tomar <strong>entre 8 y 16 semanas</strong>, con 2 o 3 sesiones semanales al inicio y luego un espaciado progresivo. Se parte desde donde está la persona, aunque eso signifique trabajar sentado las primeras sesiones.</p>
+
+<h2>¿Cuántas veces a la semana debo ir al kinesiólogo?</h2>
+<p>Lo más habitual al inicio es <strong>2 a 3 sesiones por semana</strong>. Hay excepciones: en el post operatorio temprano o en un cuadro respiratorio agudo la frecuencia puede ser mayor por algunos días, y en etapas de mantenimiento puede bajar a una sesión semanal o menos.</p>
+<p>¿Por qué se espacia? Porque el objetivo de la kinesiología no es que dependas de las sesiones, sino que ganes autonomía:</p>
+<ul>
+<li><strong>Al principio</strong> hay más que controlar: dolor, edema, rango de movimiento, técnica de los ejercicios y seguridad al caminar o en las transferencias.</li>
+<li><strong>A medida que avanzas</strong>, ya dominas los ejercicios y el progreso depende más de la carga que haces por tu cuenta. El kinesiólogo pasa a ajustar, progresar y medir.</li>
+<li><strong>Los tejidos necesitan tiempo</strong> para adaptarse entre estímulos. Más sesiones no siempre significa recuperarse más rápido.</li>
+</ul>
+<p>La frecuencia que indique tu evaluación es lo que define qué plan mensual te acomoda. Si te interesa el formato de 10 sesiones al mes, revisa el <a href="/blog/precio-10-sesiones-kinesiologia">precio del pack de 10 sesiones de kinesiología a domicilio</a>.</p>
+
+<h2>¿Cuántas sesiones de kinesiología después de una operación?</h2>
+<p>Es la variante de la pregunta que más nos llega, y la respuesta directa es esta: el número de sesiones sale de multiplicar la frecuencia (mayor durante el primer mes y después espaciada) por la duración del protocolo que vimos arriba. Ese número lo fija la evaluación junto con las indicaciones de tu cirujano. Ten en cuenta tres cosas:</p>
+<ul>
+<li><strong>Manda el protocolo del cirujano.</strong> Qué rango se autoriza, cuándo se puede cargar peso y qué movimientos evitar lo define tu traumatólogo. La kinesiología trabaja dentro de esos límites.</li>
+<li><strong>Empezar tarde alarga el proceso.</strong> Lo ideal es iniciar apenas recibes el alta, coordinado con tu médico.</li>
+<li><strong>No todas las cirugías son iguales.</strong> Una artroscopia simple, una prótesis o una reconstrucción de ligamento cruzado tienen tiempos y objetivos distintos, especialmente si buscas volver a hacer deporte.</li>
+</ul>
+<p>Puedes ver cómo trabajamos estos casos en la página de <a href="/servicios/postquirurgica">rehabilitación post quirúrgica a domicilio</a>.</p>
+<p>Si después de la cirugía notas fiebre, enrojecimiento o secreción en la herida, la pantorrilla hinchada, caliente y dolorosa, o un dolor que aumenta bruscamente, avisa de inmediato a tu cirujano. Si hay dificultad para respirar o dolor en el pecho, llama al SAMU (131).</p>
+
+<h2>Señales de que el tratamiento funciona o hay que reevaluar</h2>
+<p>El avance no siempre es lineal: es normal tener días peores. Lo que importa es la tendencia a lo largo de varias semanas.</p>
+<h3>Vas por buen camino si:</h3>
+<ul>
+<li>Haces más cosas del día a día con menos dolor o menos ayuda.</li>
+<li>Las mediciones mejoran: rango articular, fuerza, equilibrio, velocidad de marcha o tolerancia al esfuerzo.</li>
+<li>El dolor después de los ejercicios cede en horas y no se acumula de un día para otro.</li>
+<li>Los ejercicios se van haciendo más exigentes porque los toleras mejor.</li>
+</ul>
+<h3>Conviene reevaluar el plan si:</h3>
+<ul>
+<li>Pasan varias semanas sin cambios en las mediciones ni en tu funcionamiento diario.</li>
+<li>El dolor empeora de forma sostenida.</li>
+<li>Los ejercicios en casa no se están haciendo y el plan no calza con tu realidad.</li>
+</ul>
+<p>Reevaluar no es fracasar. A veces hay que cambiar el enfoque o ajustar la carga.</p>
+<h3>Hay que consultar con el médico si:</h3>
+<ul>
+<li>Aparecen síntomas nuevos, como hormigueo, pérdida de fuerza o dolor nocturno que no cede. No basta con ajustar la kinesiología: hay que descartar causas que ella no resuelve.</li>
+</ul>
+<p>Y si aparece pérdida súbita de fuerza en un lado del cuerpo, dificultad para hablar o desviación de la cara, llama al 131 de inmediato.</p>
+
+<h2>El rol de los ejercicios en casa</h2>
+<p>Una sesión dura cerca de una hora; la semana tiene muchas más. Buena parte de la recuperación se juega en lo que haces entre sesiones:</p>
+<ul>
+<li><strong>En lesiones y post operatorios</strong>, los tejidos se adaptan a la carga repetida. Dos o tres sesiones semanales sin ejercicios en casa suelen dar un avance más lento.</li>
+<li><strong>En neurorehabilitación</strong>, el aprendizaje motor se consolida con muchas repeticiones. El kinesiólogo aporta las horas supervisadas y el cuidador ayuda a que la práctica continúe.</li>
+<li><strong>En el adulto mayor</strong>, formar a la familia en transferencias seguras y en la rutina diaria ayuda mucho al resultado.</li>
+</ul>
+<p>Una ventaja de la kinesiología a domicilio es que los ejercicios se diseñan con lo que tienes en tu casa y en el mismo lugar donde los vas a repetir, lo que suele facilitar la constancia.</p>
+
+<h2>Preguntas frecuentes sobre el número de sesiones</h2>
+
+<h3>¿Me pueden decir cuántas sesiones necesito antes de empezar?</h3>
+<p>Sí, como estimación. En KINEUM la evaluación inicial es gratuita y, a partir de ella, te damos una orientación sobre frecuencia y número de sesiones antes de que decidas. Esa estimación se ajusta según cómo respondas.</p>
+
+<h3>¿Qué pasa si no alcanzo a terminar las sesiones de la orden médica?</h3>
+<p>El número de la orden es una referencia. Si mejoras antes, se puede dar el alta antes; si necesitas más, conviene conversarlo con tu médico, sobre todo si quieres reembolsar las sesiones adicionales. Si todavía no tienes orden, revisa si puedes <a href="/blog/kinesiologo-sin-orden-medica">ir al kinesiólogo sin orden médica</a>.</p>
+
+<h3>¿Puedo reembolsar las sesiones en mi Isapre?</h3>
+<p>KINEUM es un servicio particular: emitimos boleta de honorarios electrónica, que puedes reembolsar en tu Isapre y en tu seguro complementario según tu plan. Te lo explicamos paso a paso en la <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso Isapre en kinesiología</a>.</p>
+
+<h3>¿Me conviene un plan mensual de sesiones?</h3>
+<p>Si la evaluación indica un tratamiento de varias semanas, un plan mensual ordena la frecuencia. El Essential incluye 4 sesiones y el Premium 10; el Elite es a consultar. El detalle de valores está en el <a href="/blog/precio-10-sesiones-kinesiologia">precio del pack de 10 sesiones de kinesiología a domicilio</a>.</p>
+
+<h3>¿La kinesiología reemplaza el control con mi médico?</h3>
+<p>No. La complementa. Si tienes un diagnóstico en estudio, síntomas que empeoran o una cirugía reciente, el médico tratante sigue siendo quien define el diagnóstico y los límites del tratamiento.</p>
+
+<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te contamos cómo seguir.</p>`
+  },
+  {
+    slug: "cuanto-cobra-kinesiologo-particular",
+    seoTitle: "Cuánto Cobra un Kinesiólogo Particular por Sesión | KINEUM",
+    seoDescription: "Precios referenciales de kinesiología particular en Chile (tarifas publicadas en Santiago): consulta, domicilio y especialidad, y cómo usar tu isapre.",
+    title: "¿Cuánto cobra un kinesiólogo particular por sesión? Precios en Santiago 2026",
+    subtitle: "Rangos referenciales según tarifas publicadas en Santiago: consulta, domicilio y especialidad, qué hace variar el precio y cómo bajar el costo con tu isapre.",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "6 min lectura",
+    category: "Precios y cobertura",
+    image: "/images/blog-kinesiologo-particular.jpg",
+    icon: CircleDollarSign,
+    content: `<p class="lead">Si estás buscando cuánto cobra un kinesiólogo particular, la respuesta corta es: depende de si te atienden en una consulta o en tu casa, del tipo de tratamiento y de cuántas sesiones contratas. Revisamos las tarifas que centros y plataformas de Santiago publican en sus sitios (consultadas en septiembre de 2026) para darte rangos referenciales reales, no cifras inventadas.</p>
+
+<h2>Cuánto cobra un kinesiólogo particular por sesión</h2>
+<p>Pocos centros publican sus precios, y la mayoría no indica desde cuándo rigen, así que toma estos rangos como una referencia para orientarte y no como una tarifa oficial. Estos son los valores que encontramos publicados al revisar en septiembre de 2026:</p>
+<ul>
+<li><strong>Sesión en consulta (sector oriente de Santiago):</strong> ronda aproximadamente entre $30.000 y $38.000. Un centro en Ñuñoa publica $30.000 la sesión y uno en La Reina $35.000 (tarifas para pacientes con isapre, reembolsables); uno en Las Condes publica su pack de 10 sesiones particular a $384.000, es decir, $38.400 por sesión.</li>
+<li><strong>Sesión a domicilio en Santiago:</strong> va aproximadamente de $35.000 a $50.000, y puede acercarse a $60.000 en fines de semana y festivos o con recargo por distancia. MEDS publica $49.833 en tarifa regular y $59.330 los sábados desde las 14:00, domingos y festivos; Kine and Fit publica $35.000, con un recargo de $6.000 fuera de su zona de cobertura principal; y la plataforma Cronoshare indica que una sesión a domicilio suele partir de los $40.000.</li>
+<li><strong>Pack de 10 sesiones en consulta:</strong> se publican entre unos $320.000 y $384.000.</li>
+</ul>
+<p>También vas a encontrar precios mucho más bajos, como $15.000 por sesión en un centro de Maipú, o planes de bajo valor por sesión en modalidades donde el kinesiólogo no te atiende uno a uno durante toda la hora. No son comparables con una sesión particular completa: el formato es otro.</p>
+<p>Si buscaste "cuánto cobra un fisio por sesión" o "cuánto cuesta una sesión de fisioterapia", es lo mismo: en Chile al fisioterapeuta se le llama kinesiólogo.</p>
+
+<h2>Valor de la kinesiología según el formato: consulta, domicilio o especialidad</h2>
+<h3>En consulta o centro</h3>
+<p>Habitualmente es la opción más económica por sesión, porque el profesional no se traslada. A cambio, tú asumes el viaje, el tiempo y la espera. Para alguien con dolor agudo, una cirugía reciente o movilidad reducida, ese costo invisible pesa bastante.</p>
+<h3>A domicilio</h3>
+<p>Suele costar más porque incluye el traslado del kinesiólogo. Algunos centros agregan recargos por comuna lejana o por horario de fin de semana, aunque no todos: solo lo verificamos en los dos casos citados arriba. Si quieres profundizar en esta modalidad, lo explicamos en <a href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago">cuánto cuesta la kinesiología a domicilio en Santiago</a>, y comparamos ambas opciones en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro: cuál te conviene</a>.</p>
+<h3>Según la especialidad</h3>
+<p>Cronoshare, una plataforma que reúne profesionales, estima estos rangos por tipo de sesión (actualizados a diciembre de 2025). Son estimaciones de la plataforma, no la tarifa de un centro concreto:</p>
+<ul>
+<li>Kinesiología general: $20.000 a $35.000.</li>
+<li>Rehabilitación: $30.000 a $50.000.</li>
+<li>Kinesiología deportiva: $40.000 a $60.000.</li>
+</ul>
+<p>Para especialidades como respiratoria, neurológica o de piso pélvico no encontramos precios publicados que pudiéramos verificar, así que lo honesto es cotizar directamente con cada profesional.</p>
+
+<h2>Qué hace variar el precio de una sesión de kinesiología</h2>
+<ul>
+<li><strong>Lugar de atención:</strong> consulta o domicilio y, si es a domicilio, la comuna.</li>
+<li><strong>Horario:</strong> algunos centros cobran más los fines de semana y festivos.</li>
+<li><strong>Tipo de tratamiento:</strong> una rehabilitación postoperatoria o neurológica suele requerir más evaluación y seguimiento que un tratamiento general.</li>
+<li><strong>Cantidad de sesiones:</strong> varios centros que publican packs bajan el valor por sesión al contratar 5 o 10, aunque no siempre desde la quinta.</li>
+<li><strong>Duración y modalidad:</strong> no es lo mismo una hora uno a uno que una sesión compartida o con asistencia parcial.</li>
+<li><strong>Condiciones de pago:</strong> por ejemplo, MEDS exige pagar el total de sesiones de la orden médica.</li>
+</ul>
+
+<h2>Qué incluye una sesión de kinesiología particular</h2>
+<p>Antes de comparar precios, fíjate en qué estás pagando. Una sesión particular habitualmente incluye:</p>
+<ul>
+<li><strong>Evaluación:</strong> en la primera sesión se revisa tu historia, tu dolor o limitación y tus objetivos. Puede cobrarse aparte: por ejemplo, un centro de La Reina publica $35.000 por la evaluación.</li>
+<li><strong>Tratamiento:</strong> según el caso, terapia manual, ejercicio terapéutico, técnicas respiratorias o reeducación de la marcha, entre otras.</li>
+<li><strong>Indicaciones para la casa:</strong> ejercicios y recomendaciones para avanzar entre sesiones.</li>
+<li><strong>Duración:</strong> los centros revisados publican sesiones de 45 a 60 minutos.</li>
+<li><strong>Comprobante:</strong> pide un comprobante (boleta de honorarios, boleta o factura) a nombre del paciente y con el detalle de las prestaciones, para poder pedir reembolso.</li>
+</ul>
+<p>Y recuerda: la kinesiología complementa la atención médica, no la reemplaza. Si tienes un dolor intenso y repentino, fiebre, pérdida de fuerza o sufriste un golpe fuerte, consulta primero a tu médico o, ante una urgencia, llama al SAMU (131).</p>
+
+<h2>Cómo bajar el costo con tu isapre y tu seguro complementario</h2>
+<p>El precio de lista no es necesariamente lo que terminas pagando. Si la sesión es particular y recibes un comprobante con el detalle de las prestaciones, puedes pedir reembolso en tu isapre y luego consultar a tu seguro complementario por la diferencia. Conviene pedirle a tu médico una orden de kinesiología antes de empezar, porque varias isapres la piden para reembolsar. Cuánto te devuelven depende de la cobertura de tu plan (topes, porcentajes y deducibles), así que no existe un porcentaje único y el trámite lo haces tú. Te lo explicamos paso a paso en la guía de <a href="/blog/reembolso-isapre-kinesiologia">reembolso de kinesiología en tu isapre</a>.</p>
+
+<h2>Y KINEUM, ¿cuánto cobra?</h2>
+<p>En KINEUM atendemos solo a domicilio y de forma particular, con sesiones de alrededor de 60 minutos y boleta de honorarios electrónica reembolsable en tu isapre y en seguros complementarios. La evaluación inicial es gratuita. Nuestros planes son:</p>
+<ul>
+<li><strong>Essential:</strong> $160.000 al mes por 4 sesiones ($40.000 por sesión).</li>
+<li><strong>Premium:</strong> $350.000 al mes por 10 sesiones ($35.000 por sesión).</li>
+<li><strong>Elite:</strong> a consultar.</li>
+</ul>
+<p>Frente a las tarifas a domicilio publicadas en Santiago que revisamos (aproximadamente $35.000 a $50.000 por sesión), el plan Premium queda en la parte baja del rango y el Essential, dentro de él. Revisa el detalle en nuestra página de <a href="/precios">precios y planes de KINEUM</a>. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+
+<h2>Preguntas frecuentes sobre el precio de la kinesiología</h2>
+<h3>¿Cuánto cuesta una consulta de kinesiología en Santiago?</h3>
+<p>Según tarifas publicadas que revisamos en septiembre de 2026, una sesión en consulta en el sector oriente ronda los $30.000 a $38.000. En algunos casos la evaluación inicial se cobra aparte.</p>
+<h3>¿Cuánto cobra un fisio por sesión en Chile?</h3>
+<p>En Chile el fisioterapeuta es el kinesiólogo, así que aplican los mismos rangos referenciales: aproximadamente $30.000 a $38.000 en consulta en el sector oriente de Santiago y $35.000 a $50.000 a domicilio, según las tarifas publicadas que revisamos.</p>
+<h3>¿Es más caro un kinesiólogo a domicilio?</h3>
+<p>Por lo general, sí: las tarifas publicadas van aproximadamente de $35.000 a $50.000 por sesión y pueden subir en fines de semana, festivos o por distancia. A cambio, te ahorras traslados y esperas.</p>
+<h3>¿Sale más barato contratar un pack de sesiones?</h3>
+<p>Habitualmente, sí: varios centros que publican packs bajan el valor por sesión. Lo detallamos en <a href="/blog/precio-10-sesiones-kinesiologia">cuánto cuestan 10 sesiones de kinesiología</a>.</p>
+<h3>¿Cuántas sesiones voy a necesitar?</h3>
+<p>Depende del diagnóstico y de cómo respondas al tratamiento; lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología suele necesitar cada caso</a>.</p>
+
+<p><strong>¿Quieres saber cuánto te costaría tu tratamiento?</strong> Agenda tu evaluación inicial gratuita en tu casa y te proponemos un plan claro, con precio conocido desde el inicio y boleta para reembolsar. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
+  },
+  {
+    slug: "precio-10-sesiones-kinesiologia",
+    seoTitle: "Precio de 10 Sesiones de Kinesiología 2026 | KINEUM",
+    seoDescription: "¿Cuánto valen 10 sesiones de kinesiología a domicilio? Rangos publicados en Santiago, pack vs. sesión suelta y cuánto pagas tras el reembolso de tu isapre.",
+    title: "Precio de 10 sesiones de kinesiología: cuánto cuesta el tratamiento completo en 2026",
+    subtitle: "Rangos publicados en Santiago, pack o sesión suelta, frecuencia semanal y cómo calcular lo que pagas después del reembolso",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "7 min lectura",
+    category: "Precios y reembolsos",
+    image: "/images/blog-precio-10-sesiones.jpg",
+    icon: CircleDollarSign,
+    content: `<p class="lead">Si te indicaron 10 sesiones de kinesiología, la pregunta práctica es cuánto vas a pagar por el tratamiento completo, no por una sesión aislada. Aquí tienes los rangos de precio publicados en Santiago, cuándo conviene un pack, cómo se reparten las sesiones en la semana y cómo estimar lo que te queda en el bolsillo después del reembolso.</p>
+
+<h2>Por qué tantos tratamientos de kinesiología son de 10 sesiones</h2>
+<p>No existe una regla que diga que toda lesión se resuelve en 10 sesiones. Es un número frecuente en los packs que publican los centros y en muchas indicaciones, porque suele servir como un primer ciclo de tratamiento: da tiempo para trabajar y es lo bastante corto para reevaluar antes de seguir.</p>
+<p>A grandes rasgos, y siempre según el caso, un ciclo así pasa por tres momentos:</p>
+<ul>
+<li><strong>Al inicio:</strong> evaluación, manejo de las molestias y orientación sobre qué hacer y qué evitar.</li>
+<li><strong>En la mitad:</strong> ejercicios que se van ajustando a cómo respondes.</li>
+<li><strong>Al final:</strong> retorno progresivo a tus actividades y una pauta para continuar por tu cuenta.</li>
+</ul>
+<p>Al terminar, el kinesiólogo compara cómo empezaste y cómo vas. Puede bastar, puede hacer falta otro ciclo o puede convenir volver al médico. De qué depende ese número lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesitas según tu lesión</a>.</p>
+
+<h2>Cuánto valen 10 sesiones de kinesiología: rangos publicados</h2>
+<p>En septiembre de 2026 revisamos las tarifas que centros y plataformas de Santiago publican en sus sitios. Son valores referenciales: pueden cambiar sin aviso y dependen de la comuna, el horario, el tipo de tratamiento y la cantidad de sesiones.</p>
+<ul>
+<li><strong>Pack de 10 sesiones en consulta (sector oriente):</strong> se publican packs de 10 sesiones entre unos $320.000 y $384.000. Por ejemplo, SportSalud, en Las Condes, publica su pack de 10 sesiones particular a $384.000 ($38.400 por sesión).</li>
+<li><strong>Sesión a domicilio:</strong> según tarifas publicadas en 2025-2026, va aproximadamente de $35.000 a $50.000, y puede acercarse a $60.000 con recargos de fin de semana, festivo o distancia.</li>
+<li><strong>10 sesiones a domicilio (estimación):</strong> si multiplicas por diez ese rango, el tratamiento quedaría como referencia entre $350.000 y $500.000. Es un cálculo nuestro, no un pack publicado, y no considera recargos ni descuentos por cantidad.</li>
+</ul>
+<p>Un dato honesto: no encontramos ningún pack de 10 sesiones a domicilio con precio publicado y verificable en Santiago. Varios servicios cotizan solo por WhatsApp. Por eso la comparación más útil es contra el valor por sesión a domicilio y contra los packs en consulta.</p>
+<p>El detalle del valor de una sola sesión en casa, centro por centro, está en <a href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago">cuánto cuesta la kinesiología a domicilio en Santiago</a>.</p>
+
+<h2>Pack de 10 sesiones de kinesiología o sesión suelta: cuál conviene</h2>
+<p>El pack suele bajar el precio por sesión. Kine and Fit, por ejemplo, publica $35.000 la sesión a domicilio y $32.000 por sesión desde 5 sesiones. Pero el precio no es lo único que importa.</p>
+<p><strong>Conviene el pack cuando:</strong></p>
+<ul>
+<li>Ya tienes una indicación clara de 10 sesiones (orden médica o evaluación kinesiológica).</li>
+<li>El tratamiento necesita continuidad, como una rehabilitación que avanza semana a semana.</li>
+<li>Quieres asegurar un horario fijo y no depender de la agenda de cada semana.</li>
+</ul>
+<p><strong>Conviene la sesión suelta cuando:</strong></p>
+<ul>
+<li>Todavía no sabes si la kinesiología es lo que necesitas.</li>
+<li>Es una molestia leve que quizás se resuelve en pocas sesiones.</li>
+<li>Buscas un control puntual después de haber terminado un tratamiento.</li>
+</ul>
+<p>Antes de pagar un pack, pregunta tres cosas: cuánto dura cada sesión, en qué plazo tienes que usar las sesiones y qué pasa si te recuperas antes o tienes que suspender. Una sesión de 30 minutos y una de 60 no valen lo mismo, aunque el precio por sesión se parezca.</p>
+
+<h2>Cada cuánto se hacen 10 sesiones de kinesiología y cuánto duran en semanas</h2>
+<p>La frecuencia la define el kinesiólogo según tu caso y tu evolución. Al principio suele ser más seguida y se espacia a medida que avanzas. En semanas, la cuenta es simple:</p>
+<ul>
+<li><strong>3 veces por semana:</strong> las 10 sesiones se completan en unas 3 a 4 semanas.</li>
+<li><strong>2 veces por semana:</strong> unas 5 semanas.</li>
+<li><strong>1 vez por semana:</strong> unas 10 semanas.</li>
+</ul>
+<p>La frecuencia también puede importar para el reembolso. Colmena, por ejemplo, informa que la orden médica vale 60 días desde que se emite. Si tu tratamiento va a ser espaciado, confirma con tu isapre cómo aplica esa vigencia antes de armar el calendario.</p>
+
+<h2>Cuánto pagas por 10 sesiones después del reembolso de la isapre</h2>
+<p>La atención particular se paga completa y después pides el reembolso a tu isapre o seguro complementario con la boleta de honorarios electrónica. Cuánto te devuelven depende de tu plan: cada contrato tiene sus propios porcentajes, topes y deducibles. Revísalo en la sucursal virtual de tu isapre o consúltalo directamente.</p>
+<p>La cuenta es: <strong>costo final = precio de las 10 sesiones − monto reembolsado</strong>.</p>
+<blockquote><strong>Ejemplo ilustrativo, no corresponde a ninguna isapre ni plan real.</strong> Tomando el Plan Premium de KINEUM ($350.000 por 10 sesiones): si tu plan reembolsara un 40%, te devolverían $140.000 y pagarías $210.000 en total. Si reembolsara un 60%, te devolverían $210.000 y pagarías $140.000. Si tu plan tiene un tope por sesión, lo que recibes puede ser menor que ese porcentaje.</blockquote>
+<p>Con un tratamiento de 10 sesiones hay dos detalles que conviene cuidar:</p>
+<ul>
+<li><strong>Orden médica con número de sesiones:</strong> varias isapres la piden para reembolsar kinesiología. Lo prudente es pedirle a tu médico una orden con diagnóstico y cantidad de sesiones antes de empezar.</li>
+<li><strong>Fecha de cada sesión:</strong> si una boleta cobra varias sesiones, Nueva Masvida, por ejemplo, pide indicar la fecha de cada atención.</li>
+</ul>
+<p>El paso a paso por isapre, con documentos y plazos, está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso isapre en kinesiología</a>.</p>
+
+<h2>Qué incluye el Plan Premium de KINEUM (10 sesiones)</h2>
+<ul>
+<li><strong>$350.000 al mes por 10 sesiones</strong>, es decir, $35.000 por sesión.</li>
+<li>Las 10 sesiones son dentro del mes, lo que equivale a unas 2 a 3 sesiones por semana. Si tu tratamiento necesita un ritmo más espaciado, pregúntanos por WhatsApp cómo organizarlo antes de contratar.</li>
+<li>Sesiones de aproximadamente 60 minutos en tu casa, de lunes a domingo.</li>
+<li>Evaluación inicial gratuita antes de empezar.</li>
+<li>Boleta de honorarios electrónica, reembolsable en tu isapre y en seguros complementarios. El reembolso lo pides tú con esa boleta: KINEUM no tiene convenio con isapres.</li>
+</ul>
+<p>Frente a las tarifas publicadas que citamos arriba, $35.000 por sesión queda en la parte baja del rango a domicilio en Santiago. Si necesitas menos sesiones, el Plan Essential son 4 sesiones al mes por $160.000 ($40.000 cada una). El detalle está en <a href="/precios">precios y planes de KINEUM</a>.</p>
+<p>Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro, por ejemplo en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> y <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a>.</p>
+
+<h2>Preguntas frecuentes sobre el precio de 10 sesiones de kinesiología</h2>
+
+<h3>¿Cuánto cuestan 10 sesiones de kinesiología a domicilio en Santiago?</h3>
+<p>No encontramos packs de 10 sesiones a domicilio con precio publicado. Como estimación, si multiplicas por diez el rango publicado por sesión a domicilio (aproximadamente $35.000 a $50.000), quedarían entre $350.000 y $500.000, sin contar recargos ni descuentos. En KINEUM, el Plan Premium de 10 sesiones al mes cuesta $350.000.</p>
+
+<h3>¿La isapre reembolsa las 10 sesiones completas?</h3>
+<p>Depende de tu plan. Cada contrato define porcentajes, topes y deducibles, y varias isapres piden orden médica para reembolsar kinesiología. Consulta tu cobertura antes de empezar.</p>
+
+<h3>¿Puedo hacer las 10 sesiones en menos de un mes?</h3>
+<p>Sí: con 3 sesiones por semana se completan en unas 3 a 4 semanas. Si ese ritmo es adecuado para ti lo decide el kinesiólogo según tu caso y cómo respondes al tratamiento.</p>
+
+<h3>¿Qué pasa si después de 10 sesiones sigo con dolor?</h3>
+<p>Se reevalúa. Puede que necesites otro ciclo, ajustar el tratamiento o volver a tu médico para estudiar mejor el problema. La kinesiología complementa la atención médica y no la reemplaza. Si el dolor viene con fiebre, pérdida de fuerza, adormecimiento que avanza o pérdida del control de esfínteres, consulta de inmediato en urgencias o llama al SAMU (131).</p>
+
+<h3>¿Necesito orden médica para las 10 sesiones?</h3>
+<p>Para pedir el reembolso, varias isapres la exigen: Cruz Blanca y Nueva Masvida para kinesiología, y Colmena para tratamientos de varias sesiones. Por eso conviene tenerla antes de la primera sesión. Si te preguntas si puedes atenderte sin ella, lo vemos en <a href="/blog/kinesiologo-sin-orden-medica">kinesiólogo sin orden médica</a>.</p>
+
+<p>Si tienes una indicación de 10 sesiones y quieres saber cómo se vería tu tratamiento en casa, escríbenos. Partimos con una evaluación inicial gratuita y te explicamos la frecuencia, el plan y la boleta para tu reembolso. <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20indicadas%2010%20sesiones%20de%20kinesiolog%C3%ADa%20y%20quiero%20cotizar%20el%20Plan%20Premium">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
+  },
+  {
+    slug: "kinesiologia-a-domicilio-o-en-centro",
+    seoTitle: "Kinesiología a Domicilio o en Centro: ¿Cuál Elegir? | KINEUM",
+    seoDescription: "¿Kinesiología a domicilio o en centro? Compara costo total, comodidad, equipamiento y continuidad, y ve en qué casos conviene cada opción en Santiago.",
+    title: "Kinesiología a domicilio o en centro: cuál es mejor para tu caso",
+    subtitle: "Cuándo conviene atenderte en casa, cuándo te sirve más un centro y cómo comparar el costo real, que va más allá del precio de la sesión.",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "7 min lectura",
+    category: "Guías",
+    image: "/images/blog-domicilio-vs-centro.jpg",
+    icon: Building2,
+    content: `<p class="lead">No hay una respuesta única para quien se pregunta si le conviene la kinesiología a domicilio o en un centro. Depende de tu movilidad, de lo que necesite tu tratamiento y de cuánto te cuesta en tiempo y plata cada traslado. Aquí van los criterios para decidir con calma, sin vender una opción como mejor para todos.</p>
+
+<h2>Kinesiología a domicilio o en centro: cuál es mejor según tu caso</h2>
+<p>Las dos modalidades pueden entregar una rehabilitación de calidad. Lo que cambia es el contexto: dónde se hace la sesión, con qué equipos y cuánto esfuerzo le exige al paciente llegar a ella. Una buena forma de pensarlo es preguntarte qué es lo que más limita tu recuperación hoy: ¿salir de la casa, o no tener acceso a cierto equipamiento?</p>
+<p>Si lo difícil es moverte, el domicilio suele tener ventaja. Si lo que necesitas son máquinas grandes o un espacio amplio para entrenar a alta intensidad, un centro bien equipado es probablemente la opción correcta. Y hay personas que combinan ambas en distintas etapas.</p>
+
+<h2>Ventajas de la kinesiología a domicilio: cuándo conviene</h2>
+<p>La atención en casa tiene sentido sobre todo en estas situaciones:</p>
+<ul>
+<li><strong>Movilidad reducida.</strong> Si caminar, subir a un auto o esperar en una sala es un esfuerzo grande, cada sesión en un centro parte con desgaste. En casa, esa energía se usa en el tratamiento.</li>
+<li><strong>Post operatorio reciente.</strong> En las primeras semanas después de una cirugía de cadera, rodilla o columna, trasladarse suele ser incómodo y a veces requiere a otra persona. El inicio y el avance de la rehabilitación se definen según las indicaciones de tu médico tratante. Puedes ver más sobre este proceso en <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a>.</li>
+<li><strong>Adulto mayor.</strong> Evitar traslados reduce el cansancio y algunas situaciones de riesgo en el camino. Además, el kinesiólogo ve cómo se mueve la persona en su propio entorno: escaleras, baño, alfombras, altura de la cama. Más detalle en <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>.</li>
+<li><strong>Lactantes y niños con cuadros respiratorios.</strong> Sacar a un bebé con una infección respiratoria, especialmente en invierno, es una complicación para la familia. La atención en casa evita salas de espera y el contacto con otros niños enfermos. La kinesiología respiratoria se hace con indicación médica. Lo revisamos en <a href="/blog/kinesiologia-respiratoria-infantil-domicilio">kinesiología respiratoria infantil a domicilio</a>.</li>
+<li><strong>Entrenar en el entorno real.</strong> Levantarse del sillón, subir la escalera de tu casa o entrar a la ducha se practica mejor donde de verdad ocurre. Lo que se aprende ahí suele trasladarse de forma más directa a la vida diaria.</li>
+</ul>
+<p>Un punto importante: hay señales que no son para esperar una sesión de kinesiología. Si tras una caída o una cirugía aparece dolor intenso, dificultad para respirar, fiebre alta o una herida con mal aspecto, consulta a tu médico o ve a urgencias. En un bebé o niño, si respira muy rápido, se le hunden las costillas al respirar, tiene los labios morados, no quiere alimentarse, está decaído o tiene fiebre alta, llévalo a urgencias. En una emergencia, llama al SAMU (131).</p>
+
+<h2>Cuándo conviene más un centro de kinesiología</h2>
+<p>Un centro tiene ventajas reales que no se pueden replicar en un living:</p>
+<ul>
+<li><strong>Equipamiento de gran tamaño.</strong> Hay tratamientos que se apoyan en dinamómetros isocinéticos, piscina terapéutica, cintas de marcha con soporte de peso o máquinas de fuerza pesadas. Si tu plan los requiere, un centro es la vía natural.</li>
+<li><strong>Deportistas de alto rendimiento en fase final.</strong> Cuando la rehabilitación ya está en la etapa de volver a competir, suele necesitar cargas altas, espacio para correr, saltar y cambiar de dirección, y a veces mediciones con equipos especializados.</li>
+<li><strong>Si prefieres salir de casa.</strong> Para algunas personas, ir a la sesión es parte del proceso: cambiar de ambiente, tener una rutina fuera y separar el tratamiento del hogar. Es una razón válida.</li>
+</ul>
+<p>Por lo general, un kinesiólogo a domicilio trabaja con equipamiento portátil (bandas elásticas, pesas livianas, elementos de equilibrio y otros según el caso). Para muchas rehabilitaciones geriátricas, neurológicas, respiratorias y traumatológicas eso alcanza, pero no reemplaza a una sala de máquinas completa.</p>
+
+<h2>Tabla comparativa: kinesiología a domicilio vs. centro</h2>
+<p>Esta comparación es general. Cada centro y cada servicio a domicilio funciona distinto, así que úsala como punto de partida.</p>
+<table>
+<thead>
+<tr><th>Criterio</th><th>Kinesiología a domicilio</th><th>Kinesiología en centro</th></tr>
+</thead>
+<tbody>
+<tr><td>Precio de la sesión (referencial, revisado en sept. 2026)</td><td>Aproximadamente $35.000 a $50.000 según tarifas publicadas en Santiago; puede acercarse a $60.000 en fines de semana y festivos, y algunos servicios suman un recargo por distancia</td><td>Aproximadamente $30.000 a $38.000 por sesión particular en consultas del sector oriente</td></tr>
+<tr><td>Traslado</td><td>No te trasladas; normalmente va incluido en la tarifa, aunque algunos servicios cobran un recargo por distancia u horario</td><td>Bencina, estacionamiento, taxi o aplicación, según tu caso</td></tr>
+<tr><td>Tiempo</td><td>Solo la sesión</td><td>Sesión más viaje de ida y vuelta, y a veces espera; puede requerir un acompañante</td></tr>
+<tr><td>Comodidad</td><td>Alta, sobre todo con movilidad reducida o post operatorio</td><td>Variable; mejor si te mueves sin problema y el centro te queda cerca</td></tr>
+<tr><td>Equipamiento</td><td>Portátil, suficiente para muchos tratamientos</td><td>Puede incluir máquinas grandes, piscina o equipos de medición</td></tr>
+<tr><td>Entrenamiento en entorno real</td><td>Sí, en tu casa, escaleras y baño</td><td>Simulado en la sala</td></tr>
+<tr><td>Continuidad</td><td>Suele ser más fácil no faltar cuando salir cuesta</td><td>Buena si el traslado no es una barrera; un mal día o el clima pueden hacer perder sesiones</td></tr>
+</tbody>
+</table>
+<p>Los precios son referenciales: vienen de tarifas publicadas por centros y plataformas, revisadas en línea en septiembre de 2026, y la mayoría no indica fecha de vigencia. Pueden variar según la comuna, el horario, el tipo de tratamiento y la cantidad de sesiones. Si quieres el detalle, lo desglosamos en <a href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago">cuánto cuesta la kinesiología a domicilio en Santiago</a>.</p>
+
+<h2>¿Un kinesiólogo a domicilio vale la pena? El costo total</h2>
+<p>Comparar solo el precio de la sesión deja afuera parte del gasto. Para ver el costo total, suma:</p>
+<ul>
+<li><strong>La sesión.</strong> En consulta suele ser algo más barata que a domicilio.</li>
+<li><strong>El traslado de ida y vuelta</strong>, multiplicado por la cantidad de sesiones del tratamiento. Si el servicio a domicilio cobra recargo por distancia u horario, súmalo también.</li>
+<li><strong>El tiempo</strong>: el tuyo y, si necesitas compañía, el de quien te lleva (que muchas veces tiene que pedir permiso en el trabajo).</li>
+<li><strong>Las sesiones perdidas</strong> por no poder salir ese día, que alargan la recuperación.</li>
+</ul>
+<p>Si vives cerca de un buen centro y te mueves bien, la consulta puede salir más conveniente. Si cada salida implica taxi, un acompañante y una tarde completa, la diferencia de precio suele achicarse o desaparecer.</p>
+<p>Como referencia: en KINEUM el plan Essential cuesta $160.000 al mes por 4 sesiones ($40.000 cada una) y el plan Premium $350.000 al mes por 10 sesiones ($35.000 cada una), con sesiones de cerca de 60 minutos. Eso queda dentro del rango publicado para atención a domicilio en Santiago. Puedes ver los planes completos en <a href="/precios">precios de KINEUM</a>. Somos un servicio particular: emitimos boleta de honorarios electrónica, que puedes presentar para reembolso en tu Isapre o seguro complementario, normalmente junto con la orden médica. Revisa los requisitos de tu plan, porque cuánto te devuelvan depende de él (lo explicamos en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso Isapre en kinesiología</a>).</p>
+
+<h2>Preguntas frecuentes sobre kinesiología a domicilio o en centro</h2>
+
+<h3>¿La kinesiología a domicilio es menos efectiva que la de un centro?</h3>
+<p>No necesariamente. La efectividad depende sobre todo de una buena evaluación, un plan adecuado y la constancia del paciente. Lo que sí cambia es el equipamiento disponible: si tu tratamiento necesita máquinas grandes, un centro tiene ventaja.</p>
+
+<h3>¿Puedo empezar en casa y seguir en un centro?</h3>
+<p>Sí, y es una combinación habitual. Por ejemplo, empezar a domicilio en las semanas posteriores a una cirugía y pasar a un centro cuando ya te trasladas sin dificultad y necesitas cargas mayores, siempre según las indicaciones de tu médico tratante.</p>
+
+<h3>¿Qué necesito tener en casa para las sesiones?</h3>
+<p>Por lo general, un espacio despejado para moverte, una silla firme y, según el caso, una cama. El kinesiólogo lleva el material portátil.</p>
+
+<h3>¿La kinesiología reemplaza la consulta médica?</h3>
+<p>No. La kinesiología complementa la atención médica. Ante síntomas nuevos, dolor que empeora o señales de alarma, consulta a tu médico; en una emergencia, llama al SAMU (131).</p>
+
+<h3>¿En qué comunas atiende KINEUM a domicilio?</h3>
+<p>Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+
+<p>Si todavía no sabes qué te conviene, conversémoslo. La evaluación inicial es gratuita y te decimos con honestidad si tu caso se beneficia de la atención en casa o si te conviene más un centro. <a href="https://wa.me/56999679593?text=Hola%2C%20quiero%20saber%20si%20me%20conviene%20la%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
+  },
+  {
+    slug: "adulto-mayor-se-cayo-en-casa-que-hacer",
+    seoTitle: "Adulto Mayor se Cayó en Casa: Qué Hacer Ahora | KINEUM",
+    seoDescription: "¿Tu papá o tu mamá se cayó en la casa? Qué hacer en el momento, cuándo llamar al SAMU 131, cómo ayudarlo a levantarse y cómo prevenir otra caída.",
+    title: "Adulto mayor se cayó en la casa: qué hacer en el momento y después",
+    subtitle: "Cuándo llamar al SAMU 131, cómo ayudarlo a levantarse sin riesgo, qué vigilar los días siguientes y cómo evitar la próxima caída.",
+    author: "Equipo Clínico KINEUM",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "7 min lectura",
+    category: "Geriatría Activa",
+    image: "/images/blog-caida-adulto-mayor.jpg",
+    icon: Shield,
+    content: `<p class="lead">Si tu papá, tu mamá o tu abuela se cayó en la casa, lo primero es no apurarse en levantarlo. Acá tienes qué hacer en el momento, cuándo llamar al SAMU (131), qué vigilar después y cómo prevenir otra caída. No reemplaza la evaluación de un médico: si tienes dudas, consulta.</p>
+
+<h2>Mi papá se cayó en la casa: qué hacer en el momento</h2>
+<p>Respira y acércate con calma. Un adulto mayor que se cae suele asustarse, y si lo levantas de golpe puedes agravar una lesión o provocar un mareo y una segunda caída.</p>
+<ul>
+<li><strong>Si no responde o no respira con normalidad</strong>, llama de inmediato al 131 y sigue las instrucciones que te den por teléfono.</li>
+<li><strong>No lo levantes de inmediato.</strong> Déjalo en el suelo mientras evalúas. Si le duele el cuello o la espalda, o siente hormigueo o debilidad, no lo muevas y llama al 131.</li>
+<li><strong>Háblale.</strong> Pregúntale su nombre, dónde está y qué pasó. Fíjate si responde con normalidad o si está confundido.</li>
+<li><strong>Pregúntale qué le duele.</strong> Pídele que te muestre dónde, sin moverse todavía.</li>
+<li><strong>Mira sin mover.</strong> Busca sangrado, heridas en la cabeza, una pierna que se vea más corta o girada hacia afuera, o una zona que se hinche rápido.</li>
+<li><strong>Abrígalo</strong> si va a quedarse en el suelo un rato.</li>
+</ul>
+
+<h3>Cuándo llamar al SAMU 131 después de una caída</h3>
+<p>Llama al <strong>131</strong> y no intentes levantarlo si aparece cualquiera de estas señales:</p>
+<ul>
+<li>Se golpeó la cabeza, aunque diga que está bien.</li>
+<li>Perdió el conocimiento, aunque sea por unos segundos, o no recuerda la caída.</li>
+<li>Está confundido, somnoliento, habla raro o no te reconoce.</li>
+<li>Tiene dolor intenso en la cadera, la ingle o el muslo, o una pierna se ve acortada o rotada.</li>
+<li>No puede apoyar una pierna o no puede mover un brazo o una pierna.</li>
+<li>Tiene un sangrado que no se detiene al presionar.</li>
+<li>Siente dolor en el cuello o la espalda, u hormigueo o debilidad en brazos o piernas.</li>
+<li>La caída vino con dolor en el pecho, falta de aire o un desmayo.</li>
+<li><strong>Toma anticoagulantes</strong> y se golpeó la cabeza. En estas personas un sangrado dentro del cráneo puede dar síntomas horas después, por eso la evaluación médica es urgente aunque se vea bien.</li>
+</ul>
+<p>Mientras esperas, no le des comida ni bebida, mantenlo abrigado y quédate a su lado. Si dudas, llama: en el 131 te orientan.</p>
+
+<h3>Cómo ayudar a un adulto mayor a levantarse del suelo</h3>
+<p>Solo si no hay ninguna señal de alarma, no hay dolor importante y la persona siente que puede hacerlo, ayúdalo a levantarse paso a paso. Él hace el movimiento y tú lo guías: tirarle de los brazos puede lesionarlo.</p>
+<ol>
+<li><strong>Que se gire de lado</strong> doblando las rodillas y, desde ahí, se apoye en codos y manos.</li>
+<li><strong>Que quede en cuatro apoyos</strong> (manos y rodillas) y se acerque a una silla firme o al borde de la cama. Pon la silla contra la pared para que no se deslice.</li>
+<li><strong>Que apoye las manos en la silla</strong> y adelante una pierna, con el pie plano en el suelo.</li>
+<li><strong>Que empuje con esa pierna</strong> y gire para sentarse. Tú lo acompañas al lado, sin cargarlo.</li>
+<li><strong>Que se quede sentado</strong> un buen rato antes de intentar caminar.</li>
+</ol>
+<p>Si en cualquier paso aparece dolor fuerte o mareo, o no logra avanzar, detente, déjalo cómodo en el suelo y pide ayuda.</p>
+
+<h2>Qué vigilar las 24 a 72 horas después de la caída</h2>
+<p>Que se haya levantado no significa que todo esté bien. Algunas lesiones se hacen evidentes con las horas. Observa:</p>
+<ul>
+<li>Somnolencia fuera de lo habitual, confusión, dolor de cabeza que aumenta, vómitos o cambios en la forma de hablar.</li>
+<li>Dolor que empeora en vez de mejorar, sobre todo en cadera, muñeca, hombro o costillas.</li>
+<li>Dificultad nueva para caminar, apoyar peso o levantarse de la cama.</li>
+<li>Que deje de comer o de tomar líquidos, o que se vea decaído.</li>
+</ul>
+<p>Si aparece alguno, consulta en urgencias o llama al 131. Aunque no aparezca ninguno, cuéntale la caída a su médico tratante.</p>
+
+<h2>Por qué una caída del adulto mayor es una señal de alerta</h2>
+<p>A veces fue solo una alfombra. Pero en una persona mayor la caída suele ser el resultado de varios factores que se suman, y conviene preguntarse qué hay detrás:</p>
+<ul>
+<li><strong>Pérdida de fuerza en las piernas.</strong> La <a href="/blog/sarcopenia-fuerza-es-salud">sarcopenia o pérdida de masa y fuerza muscular</a> hace más difícil recuperar el equilibrio ante un tropiezo.</li>
+<li><strong>Problemas de equilibrio o de marcha</strong>, como pasos más cortos o arrastrar los pies.</li>
+<li><strong>Medicamentos</strong> que dan sueño, mareo o bajan la presión, sobre todo si se combinan varios.</li>
+<li><strong>Presión que baja al pararse</strong>, visión disminuida, problemas en los pies o calzado inadecuado.</li>
+<li><strong>Una enfermedad que está empezando</strong>, como una infección, deshidratación o una alteración del ritmo cardíaco.</li>
+</ul>
+<p>Por eso, después de una caída lo prudente es que un médico revise la causa, y que alguien evalúe cómo camina, cuánta fuerza tiene y cómo está su casa.</p>
+
+<h2>Síndrome post caída: cuando el miedo a caerse lo deja quieto</h2>
+<p>Muchos adultos mayores, después de caerse, empiezan a moverse menos por temor a que vuelva a pasar. Es comprensible, pero arma un círculo difícil: menos movimiento significa menos fuerza y peor equilibrio, y eso aumenta el riesgo de caer otra vez.</p>
+<p>Señales típicas: pide ayuda para cosas que antes hacía solo, camina con pasos muy cortos mirando el suelo o no quiere ducharse sin compañía. No lo retes ni lo obligues. Lo que habitualmente ayuda es recuperar la confianza de a poco, con ejercicios seguros, metas concretas y aprendiendo qué hacer si se vuelve a caer.</p>
+
+<h2>Cómo prevenir caídas del adulto mayor en casa: checklist</h2>
+<ul>
+<li>Retira las alfombras sueltas o fíjalas con malla o cinta antideslizante.</li>
+<li>Despeja los pasillos: cables, cajas, maceteros y muebles bajos fuera del camino.</li>
+<li>Pon una luz nocturna en el trayecto del dormitorio al baño y una lámpara al alcance desde la cama.</li>
+<li>Instala barras de apoyo en la ducha y junto al inodoro, y un piso antideslizante en la ducha.</li>
+<li>Deja lo de uso diario a mano, para que no se suba a pisos.</li>
+<li>Pasamanos firme y buena luz en las escaleras.</li>
+<li>Que use zapatos cerrados, bien ajustados y con suela antideslizante; nada de pantuflas sueltas ni andar en calcetines.</li>
+<li>Que se levante despacio: primero sentado unos segundos en el borde de la cama, después de pie.</li>
+<li>Pide a su médico que revise sus medicamentos, y mantén al día el control de la vista.</li>
+</ul>
+<p>Si quieres ir más allá de adaptar la casa, revisa cómo funciona un <a href="/servicios/geriatrica">programa de prevención de caídas con kinesiología geriátrica a domicilio</a>.</p>
+
+<h2>Cuándo consultar kinesiología geriátrica después de una caída</h2>
+<p>Una vez que el médico descartó lesiones que requieran otro tratamiento, la kinesiología puede ayudar a trabajar la causa. Suele recomendarse consultar si:</p>
+<ul>
+<li>Se ha caído más de una vez o está a punto de caerse con frecuencia.</li>
+<li>Le cuesta levantarse de una silla sin usar los brazos.</li>
+<li>Quedó con miedo a caminar o dejó de salir.</li>
+<li>Viene saliendo de una hospitalización o de una fractura. Si la caída terminó en cirugía, revisa nuestra guía sobre <a href="/blog/fractura-cadera-adulto-mayor">la recuperación después de una fractura de cadera</a>.</li>
+</ul>
+<p>En la kinesiología geriátrica a domicilio se evalúan la fuerza, el equilibrio y la marcha en el mismo lugar donde la persona vive. Así se practica en su pasillo, su baño y su escalera. El plan se ajusta según el caso y respeta las indicaciones de su médico. Las sesiones duran alrededor de 60 minutos y puedes ver los planes en nuestra <a href="/precios">página de precios</a>. Como es atención particular, recibes boleta de honorarios electrónica para pedir el <a href="/blog/reembolso-isapre-kinesiologia">reembolso en tu Isapre</a> o seguro complementario, con orden médica y según tu plan.</p>
+
+<h2>Preguntas frecuentes sobre caídas en el adulto mayor</h2>
+<h3>Se cayó pero se ve bien, ¿igual tiene que ir al médico?</h3>
+<p>Si se golpeó la cabeza, toma anticoagulantes, perdió el conocimiento o tiene cualquier señal de alarma, sí, y de forma urgente. Si no hay nada de eso, igual conviene contarle la caída a su médico para que busque la causa.</p>
+<h3>¿Puedo darle un analgésico para el dolor?</h3>
+<p>Mejor consulta antes con su médico o en urgencias. Un analgésico puede enmascarar el dolor de una fractura, y algunos interactúan con medicamentos que ya toma.</p>
+<h3>¿Cuánto rato puede quedarse en el suelo esperando?</h3>
+<p>Lo menos posible. Quedarse mucho rato en el suelo también tiene riesgos, como enfriarse o deshidratarse. Si no puede levantarse, llama al 131, abrígalo y acompáñalo. No esperes a ver si mejora solo.</p>
+<h3>¿Necesito orden médica para que lo vea un kinesiólogo?</h3>
+<p>Para atención particular, en general no; te lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">cuándo puedes ir al kinesiólogo sin orden médica</a>. Eso sí, para pedir el reembolso en la Isapre la mayoría exige orden médica, así que conviene pedirla en el control. Y después de una caída, lo primero es descartar lesiones con el médico.</p>
+<h3>¿El ejercicio realmente ayuda a prevenir caídas?</h3>
+<p>El consenso profesional es que los programas de fuerza y equilibrio, bien dosificados y sostenidos en el tiempo, suelen reducir el riesgo de caídas en personas mayores. Los resultados varían según la persona.</p>
+
+<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a domingo en 11 comunas de Santiago y la evaluación inicial es gratuita. <a href="https://wa.me/56999679593?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
+  },
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
@@ -68,69 +762,118 @@ export const blogPosts = [
   },
   {
     slug: "reembolso-isapre-kinesiologia",
-    seoTitle: "Reembolso Isapre en Kinesiología: Guía 2026 | KINEUM",
-    seoDescription: "Cuánto cubre cada isapre, qué documentos pedir y cómo recuperar hasta el 80% de tus sesiones de kinesiología a domicilio. Con ejemplo de costo final.",
-    title: "Reembolso Isapre en Kinesiología: Guía Completa 2026",
-    subtitle: "Cómo recuperar hasta el 80% del valor de tus sesiones de kinesiología a domicilio, isapre por isapre.",
+    seoTitle: "Reembolso de Kinesiología en tu Isapre: Guía | KINEUM",
+    seoDescription: "Cómo pedir el reembolso de kinesiología en Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida y Esencial: documentos, orden médica y plazos.",
+    title: "Reembolso de kinesiología en tu Isapre: cómo pedirlo, isapre por isapre",
+    subtitle: "Qué documentos necesitas, dónde se sube la boleta de honorarios y cómo saber cuánto cubre tu plan, sin cifras inventadas.",
     author: "Equipo Clínico KINEUM",
-    date: "25 Junio, 2026",
-    dateISO: "2026-06-25",
-    readTime: "7 min lectura",
+    date: "17 Septiembre, 2026",
+    dateISO: "2026-09-17",
+    readTime: "8 min lectura",
     category: "Precios y Reembolsos",
     image: "/images/blog-isapre-kinesiologia.jpg",
     icon: Building2,
-    content: `<p class="lead">Si tienes Isapre, probablemente estás pagando de más por tu kinesiología sin saberlo: la mayoría de los planes reembolsa entre el <strong>50% y el 80%</strong> de cada sesión con boleta de honorarios. Esta guía te muestra exactamente cómo hacerlo.</p>
+    content: `<p class="lead">Si tienes Isapre, puedes pedir el reembolso de tus sesiones de kinesiología con la boleta de honorarios electrónica que te entrega el kinesiólogo. Cuánto te devuelven depende de tu plan, no de un porcentaje fijo. Aquí te explicamos cómo es el trámite en cada isapre, qué documentos te piden y por qué conviene tener la orden médica antes de empezar.</p>
 
-      <h2>¿Cómo funciona el reembolso de kinesiología en Isapre?</h2>
-      <p>Las sesiones de kinesiología son una prestación de salud reembolsable. El flujo es simple:</p>
-      <ul>
-        <li><strong>1. Orden médica:</strong> guarda la orden donde el médico indica las sesiones (algunas isapres la piden para reembolsar).</li>
-        <li><strong>2. Boleta de honorarios:</strong> al pagar tu sesión o pack, emitimos boleta electrónica a tu nombre con el detalle de la prestación kinesiológica.</li>
-        <li><strong>3. Solicitud de reembolso:</strong> sube la boleta (y la orden si te la piden) a la app o sitio web de tu isapre. El proceso toma 5 minutos.</li>
-        <li><strong>4. Depósito:</strong> el reembolso llega a tu cuenta en un plazo típico de 2 a 10 días hábiles.</li>
-      </ul>
+<h2>Cómo funciona el reembolso de kinesiología en la Isapre</h2>
+<p>La kinesiología a domicilio particular funciona así: pagas la sesión o el plan, recibes una boleta de honorarios electrónica y tú mismo pides el reembolso en tu isapre. En KINEUM no tenemos convenio con ninguna isapre ni hacemos el trámite por ti: te entregamos la boleta y tú la presentas.</p>
+<p>En las isapres abiertas que revisamos, el proceso se parece bastante:</p>
+<ul>
+<li><strong>1. Orden médica:</strong> pídele a tu médico una orden de kinesiología, idealmente con diagnóstico y número de sesiones. La mayoría de las isapres la piden para reembolsar.</li>
+<li><strong>2. Boleta de honorarios:</strong> revisa que esté a nombre del paciente (el beneficiario), que se lea bien y que traiga el detalle de las prestaciones. Si cobra varias sesiones, conviene que indique la fecha de cada una. Si necesitas que la boleta incluya algún dato en particular, avísanos antes de emitirla.</li>
+<li><strong>3. Solicitud online:</strong> subes una foto o un PDF de la boleta y de la orden a la sucursal virtual o a la app de tu isapre.</li>
+<li><strong>4. Pago:</strong> la isapre calcula el monto según tu plan y lo deposita en tu cuenta bancaria registrada. Si no tienes cuenta inscrita, algunas pagan con vale vista.</li>
+</ul>
+<p>Los detalles cambian de una isapre a otra. Los revisamos en sus sitios oficiales en septiembre de 2026 y pueden cambiar, así que confirma siempre en tu sucursal virtual antes de enviar.</p>
 
-      <h2>Cuánto reembolsa cada Isapre (referencias 2026)</h2>
-      <p>El porcentaje depende de tu plan (no de la isapre en sí), pero estos son los rangos habituales que vemos en nuestros pacientes:</p>
-      <ul>
-        <li><strong>Colmena:</strong> 50%–80% con topes anuales por beneficiario.</li>
-        <li><strong>Banmédica y Vida Tres:</strong> 50%–75%, algunos planes con copago fijo.</li>
-        <li><strong>Cruz Blanca:</strong> 50%–70%, con tope por sesión en algunos planes.</li>
-        <li><strong>Consalud:</strong> 50%–70%.</li>
-        <li><strong>Nueva Masvida:</strong> 50%–65%.</li>
-      </ul>
-      <p>Revisa en tu plan la cobertura de "prestaciones ambulatorias – kinesiología" y el tope anual. Si tienes seguro complementario (Metlife, Chilena Consolidada, BICE, etc.), puedes <strong>reembolsar el copago restante</strong> y llegar a cobertura casi total.</p>
+<h2>Reembolso de kinesiología en Colmena</h2>
+<p>En Colmena el reembolso se pide en la Sucursal Virtual, en la App Colmena o en una sucursal. Online se entra a <strong>Reembolso &gt; Solicitar reembolso</strong>, se inscribe la cuenta bancaria, se elige la prestación y se adjuntan los documentos en JPG, PDF o PNG (desde la app puedes sacar la foto). También puedes usar tus excedentes para la parte que no te cubra el plan. Si te atiendes con kine a domicilio y tienes Colmena, el trámite es el mismo: subes la boleta de honorarios y la orden médica.</p>
+<ul>
+<li><strong>Documentos:</strong> para tratamientos de varias sesiones, Colmena pide la Solicitud de Tratamiento Ambulatorio, la boleta, el detalle de las prestaciones y la orden médica, con RUT y firma o timbre del médico tratante.</li>
+<li><strong>Vigencia:</strong> la orden médica vale 60 días desde que se emite y la boleta sirve para pedir reembolso durante 5 años.</li>
+<li><strong>Para evitar rechazos:</strong> la boleta debe leerse completa y sin cortes, los datos deben coincidir con el beneficiario y se sube un documento por archivo (hasta 5 MB).</li>
+<li><strong>Plazos:</strong> hasta 8 días hábiles para consultas y exámenes, y hasta 20 días hábiles para procedimientos. Aprobado el reembolso, el depósito llega en un máximo de 2 días hábiles.</li>
+</ul>
+<p>Fuentes: <a href="https://www.colmena.cl/como-solicitar-un-reembolso-de-forma-online/">cómo solicitar un reembolso online</a> y <a href="https://www.colmena.cl/documentos-para-realizar-tu-reembolso/">documentos para el reembolso</a> (Colmena).</p>
 
-      <h2>Ejemplo real con números</h2>
-      <p>Paciente de Las Condes, post-operado de rodilla, <a href="/precios">Plan Premium KINEUM de 10 sesiones ($350.000)</a>:</p>
-      <ul>
-        <li>Reembolso Isapre al 70%: <strong>$245.000 recuperados</strong>.</li>
-        <li>Seguro complementario cubre 50% del copago: <strong>$52.500 adicionales</strong>.</li>
-        <li>Costo final del paciente: <strong>$52.500 por 10 sesiones a domicilio</strong> ($5.250 por sesión).</li>
-      </ul>
+<h2>Reembolso de kinesiología en Cruz Blanca</h2>
+<p>Si tienes Isapre Cruz Blanca, el reembolso se pide en <strong>Mi CruzBlanca</strong> (Reembolso Web, con tu RUT y clave) o por WhatsApp. Debes adjuntar un comprobante de pago que se lea bien, con monto, fecha y prestador. Cruz Blanca indica que la <strong>orden médica es obligatoria para kinesioterapia</strong>.</p>
+<ul>
+<li><strong>Plazos:</strong> los casos simples se responden en 3 a 5 días hábiles; los complejos tardan más.</li>
+<li><strong>Cuándo enviar:</strong> recomiendan mandar los documentos dentro de 30 a 60 días desde la atención. Es una recomendación, no un plazo obligatorio.</li>
+<li><strong>Monto:</strong> depende de los topes, porcentajes y deducibles de tu contrato.</li>
+</ul>
+<p>Fuente: <a href="https://www.cruzblanca.cl/informacion-de-interes/como-reembolsar-tus-gastos-medicos-desde-la-sucursal-virtual-cruz-blanca">guía de reembolso de Cruz Blanca</a>.</p>
 
-      <h2>Consejos para que no te rechacen el reembolso</h2>
-      <ul>
-        <li>La boleta debe estar a nombre del <strong>paciente</strong> (o del titular con el paciente como carga).</li>
-        <li>Solicita el reembolso dentro del plazo de tu isapre (habitualmente 60 a 90 días desde la emisión).</li>
-        <li>Si el tratamiento es largo, puedes pedir boletas parciales por grupo de sesiones para reembolsar antes.</li>
-        <li>Guarda la orden médica: para montos altos o tratamientos neurológicos suelen solicitarla.</li>
-      </ul>
+<h2>Reembolso de kinesiología en Banmédica</h2>
+<p>En Banmédica se usa el Reembolso Web del menú <strong>Bonos</strong> de la Sucursal Virtual: subes la boleta o la orden médica en JPG o PDF y eliges la forma de pago. Si no tienes una cuenta bancaria inscrita como prioritaria, te pagan con vale vista. Para reembolsar online, la boleta de honorarios debe ser electrónica, estar a nombre del beneficiario y traer el detalle de las prestaciones. Si le falta algo, se adjunta un documento del mismo profesional con esos datos.</p>
+<p>No pudimos leer directamente el sitio de Banmédica, así que no tenemos confirmados sus plazos ni si pide orden médica para kinesiología en todos los planes. Revísalo en tu Sucursal Virtual. Referencias: <a href="https://www.banmedica.cl/reembolso-web/">Reembolso Web</a> y <a href="https://www.banmedica.cl/guia-de-boletas/">guía de boletas</a> de Banmédica.</p>
 
-      <h2>Preguntas frecuentes</h2>
-      <h3>¿Necesito orden médica para reembolsar?</h3>
-      <p>Depende del plan: muchas isapres reembolsan kinesiología solo con la boleta, pero otras la exigen. Nuestra recomendación: tenla siempre.</p>
-      <h3>¿El reembolso aplica a domicilio igual que en centro?</h3>
-      <p>Sí. La prestación kinesiológica con boleta de honorarios es reembolsable independiente del lugar de atención.</p>
-      <h3>¿Emiten la boleta de inmediato?</h3>
-      <p>Sí, boleta electrónica el mismo día del pago, enviada a tu correo.</p>
+<h2>Reembolso de kinesiología en Consalud</h2>
+<p>En Consalud el reembolso se pide en la Sucursal Digital (clientes.consalud.cl) o en la App Consalud, en la sección <strong>REEMBOLSOS</strong>. Llenas el formulario, adjuntas los documentos, indicas si es una boleta o varias y eliges destinatario y forma de pago. Al terminar te dan un número de solicitud: guárdalo para hacer seguimiento.</p>
+<p>Consalud informa que el depósito llega en 4 días hábiles después de completar la solicitud. Sobre la orden médica, su material oficial solo dice que se adjuntan las boletas y/o la orden, así que confirma en tu plan qué te piden para kinesiología. Fuente: <a href="https://www.consalud.cl/recurso/210316-landbenef-reembolso.pdf">instructivo de reembolso de Consalud</a>.</p>
 
-      <p><strong>¿Quieres saber cuánto recuperarías con tu plan?</strong> Escríbenos por <a href="https://wa.me/56999679593?text=Hola,%20quiero%20saber%20c%C3%B3mo%20reembolsar%20con%20mi%20Isapre">WhatsApp al +56 9 9967 9593</a> con el nombre de tu isapre y te orientamos sin costo, o agenda tu <a href="/como-funciona">evaluación gratuita</a>.</p>
-    `
+<h2>Reembolso de kinesiología en Vida Tres</h2>
+<p>En Vida Tres el trámite se hace en la Sucursal Virtual o en la App, en <strong>Reembolsos &gt; Solicitar Reembolso</strong>. Eliges beneficiario y prestación, subes la imagen del comprobante e indicas la cuenta de destino. El monto se calcula aplicando la cobertura de tu plan al valor que pagaste.</p>
+<p>No encontramos en fuentes oficiales de Vida Tres los plazos de pago ni si pide orden médica para kinesiología. Revísalo en tu Sucursal Virtual antes de empezar. Referencia: <a href="https://orientacion.vidatres.cl/planes-de-salud/bonos-y-reembolsos/">bonos y reembolsos de Vida Tres</a>.</p>
+
+<h2>Reembolso de kinesiología en Nueva Masvida</h2>
+<p>En Nueva Masvida puedes pedirlo por Sucursal Virtual, App, sucursales, WhatsApp o su asistente virtual Camila. La <strong>orden médica es obligatoria para kinesiología</strong> y, según su material de requisitos, debe indicar el diagnóstico y la cantidad de sesiones.</p>
+<ul>
+<li><strong>Boleta:</strong> nombre y RUT del prestador, firma, timbre, datos del paciente y detalle de las prestaciones. Si una boleta cobra varias sesiones, indica la fecha de cada una.</li>
+<li><strong>Archivos:</strong> JPG o PDF de hasta 2 MB.</li>
+<li><strong>Plazos:</strong> el documento sirve durante 5 años desde que se emite y la resolución toma 30 días hábiles. Te pagan por transferencia o vale vista.</li>
+</ul>
+<p>Fuente: <a href="https://www.nuevamasvida.cl/centro-de-ayuda/bonos-reembolsos/">centro de ayuda de Nueva Masvida</a>.</p>
+
+<h2>Reembolso de kinesiología en Esencial</h2>
+<p>En Esencial el reembolso se pide en la Sucursal Virtual (sucursalvirtual.somosesencial.cl) o en persona. Para exámenes y procedimientos piden la boleta, factura o voucher, la orden médica con los datos del prestador, del paciente y del procedimiento, y el detalle de las prestaciones. Hay 5 años desde que se emite la boleta para pedirlo, y el pago estimado es de 7 días hábiles en prestaciones ambulatorias.</p>
+<p>Su página no nombra la kinesiología de forma explícita, así que confirma en la Sucursal Virtual qué documentos te piden. Fuente: <a href="https://www.somosesencial.cl/preguntas-frecuentes/reembolso">preguntas frecuentes de Esencial</a>.</p>
+
+<h2>Cuánto cubre tu isapre en kinesiología y qué documentos pedir</h2>
+
+<h3>Cuánto cubre la isapre en kinesiología</h3>
+<p>No hay un porcentaje único para kinesiología: cada plan tiene sus propios topes, porcentajes y deducibles, incluso dentro de la misma isapre. Por eso no te vamos a dar una cifra "típica". Para saber cuánto te devuelven a ti:</p>
+<ul>
+<li>Entra a la sucursal virtual de tu isapre y busca tu plan de salud o tu cartilla de coberturas.</li>
+<li>Busca la cobertura de las prestaciones ambulatorias de kinesiología y revisa si hay tope por sesión o tope anual.</li>
+<li>Si no lo encuentras, pregúntale directamente a tu isapre si tu plan cubre la atención kinesiológica a domicilio y con qué tope.</li>
+</ul>
+<p>Lo mismo pasa con <strong>cuántas sesiones de kinesiología cubre la isapre</strong>: depende de tu plan, así que confírmalo con tu isapre. Además, varias isapres y seguros piden que la orden médica indique el número de sesiones. Si quieres una referencia clínica, revisa <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología suele necesitar cada caso</a>.</p>
+
+<h3>La orden médica: el documento que más rechazos evita</h3>
+<p>La Superintendencia de Salud, en su <a href="https://www.superdesalud.gob.cl/app/uploads/2021/09/articles-20346_recurso_1.pdf">Circular IF/N° 393 de 2021</a>, indica que para la cobertura de kinesiología basta con presentar la orden médica de derivación. Esta debe identificar al paciente e indicar el diagnóstico y el tratamiento. La misma circular contempla la atención kinesiológica integral a domicilio. Además del reembolso, el reglamento vigente sobre la profesión (Decreto 1.082) indica que el kinesiólogo aplica sus tratamientos por indicación y orden médica escrita.</p>
+<p>En la práctica, pide que tu orden incluya: nombre y RUT del paciente, diagnóstico, indicación de kinesiología, número de sesiones y nombre, RUT y firma o timbre del médico. Revisa con tu isapre cuánto tiempo aceptan la orden (en Colmena, por ejemplo, vale 60 días). Si todavía no la tienes, lee nuestra guía sobre <a href="/blog/kinesiologo-sin-orden-medica">si necesitas orden médica para ir al kinesiólogo</a>. La evaluación inicial gratuita de KINEUM no reemplaza la orden ni la evaluación de tu médico. La kinesiología complementa y no reemplaza al médico: si aparecen síntomas nuevos o intensos, consúltalo, y ante una emergencia llama al SAMU (131).</p>
+
+<h3>Seguro complementario</h3>
+<p>Si tienes seguro complementario, revisa tu póliza: en el formulario de reembolso de MetLife Chile que revisamos, los gastos se reembolsan primero en la isapre y, para kinesiología, se pide la orden médica con el tipo de tratamiento y el número de sesiones. Cada póliza tiene sus propias condiciones.</p>
+
+<h3>Ejemplo numérico (solo ilustrativo)</h3>
+<p>Este ejemplo usa un monto de reembolso <strong>inventado para el cálculo</strong>. No es la cobertura de ninguna isapre ni de ningún plan real:</p>
+<ul>
+<li>Contratas el <a href="/precios">Plan Premium de KINEUM</a>: 10 sesiones a domicilio por $350.000 ($35.000 por sesión).</li>
+<li>Supón que tu plan te devolviera $15.000 por sesión: la isapre te reembolsaría $150.000.</li>
+<li>Tu costo después del reembolso sería $200.000. Si tienes seguro complementario, revisa en tu póliza si puedes presentar esa diferencia.</li>
+</ul>
+<p>Para hacer tu propio cálculo, reemplaza los $15.000 por lo que diga tu plan. Si quieres comparar valores, revisa <a href="/blog/cuanto-cobra-kinesiologo-particular">cuánto cobra un kinesiólogo particular</a>.</p>
+
+<h2>Preguntas frecuentes sobre el reembolso de kinesiología</h2>
+<h3>¿Puedo reembolsar kinesiología a domicilio en la isapre?</h3>
+<p>La circular de la Superintendencia de Salud contempla la atención kinesiológica a domicilio. Si tu plan la cubre y cuánto te devuelve depende de tu plan, así que confírmalo con tu isapre antes de empezar.</p>
+<h3>¿Cuánto me devuelve la isapre por kinesiología?</h3>
+<p>Depende de los topes, porcentajes y deducibles de tu plan. Revísalo en la sucursal virtual de tu isapre o pregúntale directamente.</p>
+<h3>¿KINEUM hace el trámite de reembolso por mí?</h3>
+<p>No. Te entregamos la boleta de honorarios electrónica y tú pides el reembolso en tu isapre y en tu seguro. No tenemos convenio con isapres, clínicas ni aseguradoras.</p>
+<h3>Tengo Isapre Cruz Blanca, ¿qué necesito?</h3>
+<p>La boleta con monto, fecha y prestador, y la orden médica, que Cruz Blanca pide como obligatoria para kinesioterapia. Lo subes en Mi CruzBlanca o lo envías por WhatsApp.</p>
+<h3>¿Hay que pedir el reembolso sesión por sesión?</h3>
+<p>No necesariamente. Puedes presentar una boleta que incluya varias sesiones, pero algunas isapres, como Nueva Masvida, piden que se indique la fecha de cada atención. Consalud te pregunta si subes una boleta o varias.</p>
+
+<p>Si ya tienes tu orden médica y quieres empezar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20tengo%20Isapre%20y%20quiero%20agendar%20kinesiolog%C3%ADa%20a%20domicilio">escríbenos por WhatsApp al +56 9 9967 9593</a>. Coordinamos tu evaluación inicial gratuita, de lunes a domingo, y te entregamos la boleta de honorarios para que pidas tu reembolso.</p>`
   },
   {
     slug: "kinesiologia-respiratoria-infantil-domicilio",
-    seoTitle: "Kinesiología Respiratoria Infantil: Cuándo Sirve | KINEUM",
+    seoTitle: "KTR Infantil: Kinesiología Respiratoria en Casa | KINEUM",
     seoDescription: "Bronquiolitis y tos de invierno: cuándo la KTR ayuda a tu guagua, cuándo es urgencia y cuándo no sirve. Guía clara para padres y atención en casa.",
     title: "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres",
     subtitle: "Bronquiolitis, mocos que no salen y tos de invierno: cuándo sirve la KTR, cuándo es urgencia y por qué en casa funciona mejor.",

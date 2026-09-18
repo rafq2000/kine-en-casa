@@ -115,7 +115,7 @@ export default function HomePage() {
       description: "Recuperación especializada después de cirugías",
       icon: Heart,
       image: "/home-rehab-guidance.png",
-      href: "/servicios/traumatologica", // Fits here too
+      href: "/servicios/postquirurgica",
       features: [
         "Post cirugías ortopédicas",
         "Rehabilitación abdominal",

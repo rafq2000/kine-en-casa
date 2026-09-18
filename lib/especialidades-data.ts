@@ -152,7 +152,7 @@ export const especialidades: Especialidad[] = [
             "kinesiología post operatoria",
             "recuperación post quirúrgica a domicilio",
         ],
-        servicioUrl: "/servicios/traumatologica",
+        servicioUrl: "/servicios/postquirurgica",
         articulos: [
             { titulo: "Vida después de la prótesis de rodilla", url: "/blog/protesis-rodilla-recuperacion" },
             { titulo: "Drenaje linfático post operatorio a domicilio", url: "/blog/drenaje-linfatico-post-operatorio-domicilio" },

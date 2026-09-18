@@ -5,7 +5,7 @@ import { getServicio } from "@/lib/servicios-contenido"
 const contenido = getServicio("respiratoria")!
 
 export const metadata: Metadata = {
-    title: 'Kinesiología Respiratoria a Domicilio Santiago | KINEUM',
+    title: 'Kinesiología Respiratoria (KTR) a Domicilio Santiago',
     description: 'Tratamiento respiratorio a domicilio en Las Condes y Vitacura. Especialistas en Bronquitis, Neumonía, EPOC y KTR Infantil. Agende hoy.',
     keywords: ['kinesiología respiratoria domicilio', 'kine respiratorio infantil', 'neumonía tratamiento casa', 'ktr domicilio santiago', 'bronquitis niños kinesiolgia'],
     alternates: {
