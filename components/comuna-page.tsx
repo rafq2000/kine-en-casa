@@ -630,6 +630,12 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             ))}
                         </div>
 
+                        <p className="mt-8 text-slate-600">
+                            Antes de decidir: <Link href="/precios" className="text-amber-700 font-medium hover:underline">precios y planes</Link>,{" "}
+                            <Link href="/como-funciona" className="text-amber-700 font-medium hover:underline">cómo es la primera visita</Link> y{" "}
+                            <Link href="/testimonios" className="text-amber-700 font-medium hover:underline">opiniones de pacientes</Link>.
+                        </p>
+
                         <div className="mt-12 pt-10 border-t border-slate-200">
                             <h3 className="text-lg font-bold text-slate-900 mb-4">
                                 Kinesiología a domicilio en otras comunas

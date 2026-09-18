@@ -11,7 +11,7 @@ const TEL_DISPLAY = "+56 9 9967 9593"
 const URL = "https://kineum.cl/cobertura"
 
 export const metadata: Metadata = {
-    title: "Cobertura: Kinesiología a Domicilio en la Región Metropolitana",
+    title: "Kinesiólogo a Domicilio: Comunas de la RM | KINEUM",
     description:
         "Las comunas de la Región Metropolitana donde KINEUM atiende kinesiología a domicilio, con página propia por comuna. Evaluación inicial gratuita.",
     keywords: [

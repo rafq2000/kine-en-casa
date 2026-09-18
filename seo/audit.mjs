@@ -138,10 +138,12 @@ function analizar(url, r) {
         canonical, h1s, nH1: h1s.length, h2n, palabras,
         imgs: imgs.length, imgsSinAlt, schemaTipos,
         keyword: kw, enlacesInternos, problemas,
+        texto,
     }
 }
 
 async function main() {
+    const todosExtra = []
     log(`Auditando ${BASE} ...`)
     const sm = await get(`${BASE}/sitemap.xml`)
     const urls = [...sm.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace(SITE, BASE))
@@ -186,7 +188,50 @@ async function main() {
         if (r.status >= 400 || r.status === 0) rotos.push({ href: h, status: r.status })
     }
 
-    const todos = paginas.flatMap((p) => p.problemas.map((x) => ({ url: p.url, ...x })))
+    // Similitud de texto entre paginas del mismo patron (ej. kinesiologia-geriatrica-*).
+    // Es la señal que hace que Google marque paginas locales como duplicadas.
+    const shingles = (texto) => {
+        const p = texto.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]/g, ' ').split(/\s+/).filter(Boolean)
+        const set = new Set()
+        for (let i = 0; i + 5 <= p.length; i++) set.add(p.slice(i, i + 5).join(' '))
+        return set
+    }
+    const patron = (url) => {
+        const ruta = url.replace(BASE, '').replace(/^\//, '')
+        if (ruta.startsWith('kinesiologo-a-domicilio-')) return 'hub-comuna'
+        const esp = ['kinesiologia-geriatrica', 'kinesiologia-respiratoria', 'kinesiologia-traumatologica', 'rehabilitacion-neurologica', 'rehabilitacion-postquirurgica'].find((e) => ruta.startsWith(e + '-'))
+        return esp || null
+    }
+    const grupos = {}
+    for (const p of paginas) {
+        const g = patron(p.url)
+        if (!g || !p.texto) continue
+        ;(grupos[g] ??= []).push({ url: p.url, sh: shingles(p.texto) })
+    }
+    const similitud = []
+    for (const [g, lista] of Object.entries(grupos)) {
+        if (lista.length < 2) continue
+        let suma = 0, pares = 0, peor = { sim: 0 }
+        for (let i = 0; i < lista.length; i++) for (let j = i + 1; j < lista.length; j++) {
+            let comunes = 0
+            for (const x of lista[i].sh) if (lista[j].sh.has(x)) comunes++
+            const sim = comunes / Math.min(lista[i].sh.size, lista[j].sh.size)
+            suma += sim; pares++
+            if (sim > peor.sim) peor = { sim, a: lista[i].url, b: lista[j].url }
+        }
+        const media = suma / pares
+        similitud.push({ grupo: g, paginas: lista.length, media: +(media * 100).toFixed(1), maxima: +(peor.sim * 100).toFixed(1), par: [peor.a, peor.b] })
+        if (media > 0.65)
+            todosExtra.push({
+                url: BASE + '/' + g,
+                sev: 'alta',
+                tipo: 'paginas-casi-iguales',
+                detalle: `${lista.length} paginas del patron ${g} comparten ${(media * 100).toFixed(0)}% del texto`,
+                fix: 'Subir el contenido local propio o recortar los bloques compartidos del template',
+            })
+    }
+
+    const todos = [...paginas.flatMap((p) => p.problemas.map((x) => ({ url: p.url, ...x }))), ...todosExtra]
     const porSev = { critica: 0, alta: 0, media: 0, baja: 0 }
     for (const p of todos) porSev[p.sev]++
     const porTipo = {}
@@ -205,10 +250,11 @@ async function main() {
             ttfbPromedio: Math.round(paginas.reduce((s, p) => s + p.ms, 0) / paginas.length),
         },
         duplicados: { titles: dupTitles, descriptions: dupDescs },
+        similitud,
         huerfanas,
         enlacesRotos: rotos,
         problemas: todos,
-        paginas,
+        paginas: paginas.map(({ texto, ...resto }) => resto),
     }
 
     const dir = join(__dir, 'reports')
@@ -225,6 +271,12 @@ async function main() {
     log(`Problemas: ${porSev.critica} criticas | ${porSev.alta} altas | ${porSev.media} medias | ${porSev.baja} bajas`)
     log('\nPor tipo:')
     for (const [t, n] of Object.entries(porTipo).sort((a, b) => b[1] - a[1])) log(`  ${String(n).padStart(4)}  ${t}`)
+    if (similitud.length) {
+        log('\nSimilitud de texto entre paginas del mismo patron:')
+        for (const g of similitud.sort((a, b) => b.media - a.media)) {
+            log(`  ${String(g.media).padStart(5)}% media (${g.maxima}% maxima) en ${g.paginas} paginas de ${g.grupo}`)
+        }
+    }
     if (dupTitles.length) log(`\nTitulos duplicados: ${dupTitles.length} grupos`)
     if (huerfanas.length) log(`Paginas huerfanas (sin enlaces entrantes): ${huerfanas.length}`)
     if (rotos.length) log(`Enlaces internos rotos: ${rotos.length} -> ${rotos.map((r) => r.href).join(', ')}`)
