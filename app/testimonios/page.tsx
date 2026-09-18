@@ -343,14 +343,14 @@ export default function TestimoniosPage() {
             {/* Services Covered */}
             <section className="py-16 container mx-auto px-4">
                 <h2 className="text-2xl font-serif font-bold text-slate-900 text-center mb-10">
-                    Servicios Evaluados por Nuestros Pacientes
+                    Servicios que Atendemos a Domicilio
                 </h2>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
                     {[
-                        { name: "Traumatologica", href: "/servicios/traumatologica", reviews: 52 },
-                        { name: "Geriatrica", href: "/servicios/geriatrica", reviews: 38 },
-                        { name: "Respiratoria", href: "/servicios/respiratoria", reviews: 31 },
-                        { name: "Neurologica", href: "/servicios/neurologica", reviews: 26 },
+                        { name: "Traumatológica", href: "/servicios/traumatologica", detalle: "Fracturas, esguinces y post operados" },
+                        { name: "Geriátrica", href: "/servicios/geriatrica", detalle: "Adulto mayor, caídas y movilidad" },
+                        { name: "Respiratoria", href: "/servicios/respiratoria", detalle: "Adultos, niños y lactantes" },
+                        { name: "Neurológica", href: "/servicios/neurologica", detalle: "Post ACV, Parkinson y esclerosis" },
                     ].map((svc) => (
                         <Link
                             key={svc.name}
@@ -361,7 +361,7 @@ export default function TestimoniosPage() {
                                 <div className="font-medium text-slate-900 text-sm group-hover:text-amber-600 transition-colors">
                                     Kine {svc.name}
                                 </div>
-                                <div className="text-xs text-slate-500">{svc.reviews} opiniones</div>
+                                <div className="text-xs text-slate-500">{svc.detalle}</div>
                             </div>
                             <ChevronRight className="h-4 w-4 text-slate-400 group-hover:text-amber-500 transition-colors" />
                         </Link>

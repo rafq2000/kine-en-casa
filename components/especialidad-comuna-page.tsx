@@ -49,7 +49,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
     const faqs = [
         ...(espLocal?.faqsLocales ?? []),
         // Con contenido local se muestran menos FAQs genéricas: las completas viven en el hub del servicio.
-        ...esp.faqs.slice(0, espLocal ? 3 : esp.faqs.length),
+        ...esp.faqs.slice(0, espLocal ? 2 : esp.faqs.length),
         {
             q: `¿Atienden ${esp.corto} en todos los sectores de ${com.nombre}?`,
             a: `Sí. Cubrimos toda la comuna de ${com.nombre}, incluyendo ${com.sectores.slice(0, 5).join(", ")} y el resto de los sectores. Todas las sesiones se realizan en el domicilio del paciente.`,
@@ -262,7 +262,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                             Estos son los motivos de consulta más frecuentes que atendemos a domicilio en la comuna.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                            {esp.condiciones.map((c) => (
+                            {esp.condiciones.slice(0, 2).map((c) => (
                                 <div
                                     key={c.titulo}
                                     className="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-amber-300 transition-colors"
@@ -272,6 +272,23 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                                 </div>
                             ))}
                         </div>
+                        <ul className="mt-5 flex flex-wrap gap-2">
+                            {esp.condiciones.slice(2).map((c) => (
+                                <li
+                                    key={c.titulo}
+                                    className="bg-white rounded-lg px-4 py-2 border border-slate-200 text-sm text-slate-700"
+                                >
+                                    {c.titulo}
+                                </li>
+                            ))}
+                        </ul>
+                        <p className="mt-5 text-slate-600">
+                            El detalle clínico de cada cuadro está en{" "}
+                            <Link href={esp.servicioUrl} className="text-amber-700 font-medium hover:underline">
+                                {esp.nombre.toLowerCase()} a domicilio
+                            </Link>
+                            . Aquí nos concentramos en cómo se atiende en {com.nombre}.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -285,7 +302,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                                 Cómo es una sesión en tu casa
                             </h2>
                             <ul className="space-y-4">
-                                {esp.sesion.map((s) => (
+                                {esp.sesion.slice(0, 4).map((s) => (
                                     <li key={s} className="flex items-start gap-3">
                                         <div className="bg-emerald-100 rounded-full p-1 mt-0.5 flex-shrink-0">
                                             <Check className="h-4 w-4 text-emerald-700" />
