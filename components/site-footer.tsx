@@ -116,6 +116,7 @@ export function SiteFooter() {
                                     <span className="text-xs block mt-1">RUT: 76.892.102-K</span>
                                     <span className="text-xs block">Av. Apoquindo 4501, Las Condes</span>
                                     <span className="text-xs block">Santiago, Chile</span>
+                                    <span className="text-xs block mt-1 text-slate-500">Dirección comercial: la atención es en tu domicilio</span>
                                 </div>
                             </li>
                             <li className="flex items-start space-x-3">

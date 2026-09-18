@@ -43,6 +43,28 @@ export async function generateMetadata({ params }: BlogPostProps) {
     }
 }
 
+// Publica como FAQPage las preguntas que el propio articulo ya muestra (h3 + respuesta).
+// Si el post no tiene bloque de preguntas frecuentes visible, no se emite marcado.
+function faqsDelPost(html: string) {
+    const inicio = html.search(/<h2>[^<]*[Ff]recuentes[^<]*<\/h2>/)
+    if (inicio < 0) return []
+    let bloque = html.slice(inicio)
+    const siguienteH2 = bloque.indexOf("<h2>", 4)
+    if (siguienteH2 > 0) bloque = bloque.slice(0, siguienteH2)
+    const faqs: { q: string; a: string }[] = []
+    const re = /<h3>([\s\S]*?)<\/h3>\s*((?:<p>[\s\S]*?<\/p>|<ul>[\s\S]*?<\/ul>|<ol>[\s\S]*?<\/ol>)+)/g
+    let m: RegExpExecArray | null
+    while ((m = re.exec(bloque)) !== null) {
+        const q = m[1].replace(/<[^>]+>/g, "").trim()
+        const a = m[2]
+            .replace(/<[^>]+>/g, " ")
+            .replace(/\s+/g, " ")
+            .trim()
+        if (q && a.length > 20) faqs.push({ q, a })
+    }
+    return faqs.slice(0, 10)
+}
+
 export default async function BlogPost({ params }: BlogPostProps) {
     const { slug } = await params
     const post = getPostBySlug(slug)
@@ -82,11 +104,44 @@ export default async function BlogPost({ params }: BlogPostProps) {
         },
     }
 
+    const faqs = faqsDelPost(post.content)
+    const faqSchema = faqs.length
+        ? {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                  "@type": "Question",
+                  name: f.q,
+                  acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+          }
+        : null
+
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://kineum.cl" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://kineum.cl/blog" },
+            { "@type": "ListItem", position: 3, name: post.title, item: `https://kineum.cl/blog/${post.slug}` },
+        ],
+    }
+
     return (
         <div className="min-h-screen bg-white">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
+            {faqSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+            )}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
             />
             {/* Blog Header */}
             <header className="bg-slate-950 py-20 relative overflow-hidden">

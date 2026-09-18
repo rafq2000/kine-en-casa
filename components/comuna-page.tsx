@@ -95,28 +95,26 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
     ]
 
-    // Schema.org for this specific comuna page
+    // Un solo negocio en todo el sitio (el de app/layout.tsx). Aqui declaramos el
+    // SERVICIO que ese negocio presta en esta comuna, no una sucursal con direccion.
     const localBusinessSchema = {
         "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
-        name: `KINEUM - Kinesiología a Domicilio ${data.nombre}`,
+        "@type": "Service",
+        "@id": `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}#servicio`,
+        name: `Kinesiología a domicilio en ${data.nombre}`,
         description: data.descripcion,
         url: `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}`,
-        telephone: "+56999679593",
-        address: {
-            "@type": "PostalAddress",
-            addressLocality: data.nombre,
-            addressRegion: "Región Metropolitana",
-            addressCountry: "CL",
-        },
+        serviceType: "Kinesiología a domicilio",
+        provider: { "@id": "https://kineum.cl/#organization" },
         areaServed: {
             "@type": "City",
             name: data.nombre,
+            containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
         },
-        parentOrganization: {
-            "@type": "Organization",
-            name: "KINEUM",
-            url: "https://kineum.cl",
+        availableChannel: {
+            "@type": "ServiceChannel",
+            servicePhone: "+56999679593",
+            serviceUrl: `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}`,
         },
     }
 
@@ -139,6 +137,10 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
             {/* WhatsApp floating button */}
@@ -219,7 +221,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
 
                         <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
                             <MapPin className="h-4 w-4 mr-2" />
-                            {data.nombre} - Sector Oriente Santiago
+                            {data.nombre}, Región Metropolitana
                         </Badge>
                         <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 font-serif leading-tight">
                             Kinesiólogo a Domicilio

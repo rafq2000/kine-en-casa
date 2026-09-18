@@ -12,15 +12,15 @@ export const metadata: Metadata = {
         "Opiniones reales de pacientes de kinesiología a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa y todo Santiago. Lee sus casos antes de agendar.",
     keywords: [
         "kineum opiniones",
-        "kinesiologo a domicilio opiniones santiago",
+        "kinesiólogo a domicilio opiniones santiago",
         "kineum testimonios",
-        "kinesiologo a domicilio reseñas",
-        "kinesiologia domicilio opiniones",
+        "kinesiólogo a domicilio reseñas",
+        "kinesiología domicilio opiniones",
         "kine a domicilio opiniones santiago",
         "kineum reseñas pacientes",
-        "kinesiologo domicilio las condes opiniones",
-        "kinesiologo domicilio vitacura opiniones",
-        "kinesiologo domicilio providencia opiniones",
+        "kinesiólogo domicilio las condes opiniones",
+        "kinesiólogo domicilio vitacura opiniones",
+        "kinesiólogo domicilio providencia opiniones",
     ],
     alternates: {
         canonical: "https://kineum.cl/testimonios",
@@ -38,25 +38,25 @@ const testimonials = [
     {
         name: "Carmen Luisa V.",
         comuna: "Las Condes",
-        service: "Kinesiologia Geriatrica",
+        service: "Kinesiología Geriatrica",
         rating: 5,
         quote:
-            "Mi mama de 82 anos se fracturo la cadera y no podia trasladarla a una clinica. El kinesiologo de KINEUM llego al dia siguiente con todo su equipo. En 8 semanas ya caminaba con andador. La paciencia y profesionalismo fueron excepcionales. Reembolsamos todo por Isapre sin problemas.",
+            "Mi mama de 82 anos se fracturo la cadera y no podia trasladarla a una clinica. El kinesiólogo de KINEUM llego al dia siguiente con todo su equipo. En 8 semanas ya caminaba con andador. La paciencia y profesionalismo fueron excepcionales. Reembolsamos todo por Isapre sin problemas.",
         date: "2026-03-15",
     },
     {
         name: "Rodrigo M.",
         comuna: "Vitacura",
-        service: "Kinesiologia Traumatologica",
+        service: "Kinesiología Traumatologica",
         rating: 5,
         quote:
-            "Despues de mi cirugia de rodilla (protesis total) necesitaba rehabilitacion inmediata. KINEUM coordino todo con mi traumatologo y empezamos al tercer dia post-alta. La recuperacion fue mucho mas rapida de lo que esperaba. A las 6 semanas ya subia escaleras sin dolor.",
+            "Despues de mi cirugia de rodilla (protesis total) necesitaba rehabilitación inmediata. KINEUM coordino todo con mi traumatologo y empezamos al tercer dia post-alta. La recuperacion fue mucho mas rapida de lo que esperaba. A las 6 semanas ya subia escaleras sin dolor.",
         date: "2026-02-20",
     },
     {
         name: "Francisca y Pablo T.",
         comuna: "Providencia",
-        service: "Kinesiologia Respiratoria Infantil",
+        service: "Kinesiología Respiratoria Infantil",
         rating: 5,
         quote:
             "Nuestro bebe de 5 meses tenia bronquiolitis y no podia respirar bien. Llamamos a KINEUM un sabado por la tarde y vinieron ese mismo dia. Las tecnicas de descongestión fueron increibles, esa misma noche durmio tranquilo. Ahora los llamamos cada invierno para prevencion.",
@@ -74,34 +74,34 @@ const testimonials = [
     {
         name: "Sebastian A.",
         comuna: "Lo Barnechea",
-        service: "Kinesiologia Deportiva",
+        service: "Kinesiología Deportiva",
         rating: 5,
         quote:
-            "Me rompi el ligamento cruzado jugando futbol. Despues de la cirugia, KINEUM hizo toda mi rehabilitacion en casa con ejercicios progresivos y electroestimulacion. A los 4 meses volvi a trotar y a los 6 ya estaba jugando. Totalmente recomendado para deportistas.",
+            "Me rompi el ligamento cruzado jugando futbol. Despues de la cirugia, KINEUM hizo toda mi rehabilitación en casa con ejercicios progresivos y electroestimulacion. A los 4 meses volvi a trotar y a los 6 ya estaba jugando. Totalmente recomendado para deportistas.",
         date: "2026-03-02",
     },
     {
         name: "Patricia G.",
         comuna: "La Florida",
-        service: "Kinesiologia Traumatologica",
+        service: "Kinesiología Traumatologica",
         rating: 5,
         quote:
-            "Llevaba meses con un lumbago que no me dejaba ni sentarme a trabajar. El kinesiologo de KINEUM me evaluo en casa, identifico el problema y con terapia manual mas ejercicios especificos, en 4 semanas el dolor bajo de 8 a 2. Por fin puedo dormir bien. Excelente servicio.",
+            "Llevaba meses con un lumbago que no me dejaba ni sentarme a trabajar. El kinesiólogo de KINEUM me evaluo en casa, identifico el problema y con terapia manual mas ejercicios especificos, en 4 semanas el dolor bajo de 8 a 2. Por fin puedo dormir bien. Excelente servicio.",
         date: "2026-04-22",
     },
     {
         name: "Jorge P.",
         comuna: "Macul",
-        service: "Kinesiologia Respiratoria",
+        service: "Kinesiología Respiratoria",
         rating: 5,
         quote:
-            "Despues de un COVID severo quede con dificultad respiratoria y fatiga cronica. KINEUM me hizo un programa de rehabilitacion pulmonar en mi casa. Ejercicios de respiracion, fortalecimiento progresivo y control de saturacion. En 6 semanas recupere mi capacidad pulmonar. Increible diferencia.",
+            "Despues de un COVID severo quede con dificultad respiratoria y fatiga cronica. KINEUM me hizo un programa de rehabilitación pulmonar en mi casa. Ejercicios de respiracion, fortalecimiento progresivo y control de saturacion. En 6 semanas recupere mi capacidad pulmonar. Increible diferencia.",
         date: "2025-12-18",
     },
     {
         name: "Catalina S.",
         comuna: "Providencia",
-        service: "Kinesiologia Piso Pelvico",
+        service: "Kinesiología Piso Pelvico",
         rating: 5,
         quote:
             "Estando embarazada de 7 meses buscaba kine de suelo pelvico a domicilio. KINEUM me asigno una kinesióloga especialista que me preparo para el parto y continuo en el postparto. La recuperacion fue excelente y me senti acompanada en todo momento. Muy profesional y empatica.",
@@ -110,37 +110,37 @@ const testimonials = [
     {
         name: "Andres F.",
         comuna: "La Reina",
-        service: "Kinesiologia Traumatologica",
+        service: "Kinesiología Traumatologica",
         rating: 5,
         quote:
-            "Me operaron el manguito rotador y el dolor post-operatorio era intenso. El kinesiologo de KINEUM empezo con crioterapia y movilizacion pasiva muy suave. Fue avanzando semana a semana respetando mis tiempos. Hoy tengo movilidad completa del hombro. Profesionales de primer nivel.",
+            "Me operaron el manguito rotador y el dolor post-operatorio era intenso. El kinesiólogo de KINEUM empezo con crioterapia y movilizacion pasiva muy suave. Fue avanzando semana a semana respetando mis tiempos. Hoy tengo movilidad completa del hombro. Profesionales de primer nivel.",
         date: "2026-01-28",
     },
     {
         name: "Isabel D. (hija de paciente)",
         comuna: "Santiago Centro",
-        service: "Kinesiologia Neurologica",
+        service: "Kinesiología Neurologica",
         rating: 5,
         quote:
-            "Mi papa tiene Parkinson y cada vez le costaba mas moverse. KINEUM envio un kinesiologo especialista en neurologia que trabaja con el 3 veces por semana. Los ejercicios de equilibrio y marcha le han devuelto confianza. Incluso sale a caminar solo al parque. Gracias infinitas.",
+            "Mi papa tiene Parkinson y cada vez le costaba mas moverse. KINEUM envio un kinesiólogo especialista en neurologia que trabaja con el 3 veces por semana. Los ejercicios de equilibrio y marcha le han devuelto confianza. Incluso sale a caminar solo al parque. Gracias infinitas.",
         date: "2026-03-20",
     },
     {
         name: "Rosa H.",
         comuna: "Penalolen",
-        service: "Kinesiologia Geriatrica",
+        service: "Kinesiología Geriatrica",
         rating: 5,
         quote:
-            "Mi mama de 78 anos estuvo hospitalizada 3 semanas por neumonia y salio muy debilitada. KINEUM empezo rehabilitacion al dia siguiente del alta. Trabajo respiratorio, fortalecimiento y marcha progresiva. En un mes ya estaba independiente otra vez. El kinesiologo fue un angel.",
+            "Mi mama de 78 anos estuvo hospitalizada 3 semanas por neumonia y salio muy debilitada. KINEUM empezo rehabilitación al dia siguiente del alta. Trabajo respiratorio, fortalecimiento y marcha progresiva. En un mes ya estaba independiente otra vez. El kinesiólogo fue un angel.",
         date: "2026-04-12",
     },
     {
         name: "Nicolas C.",
         comuna: "Las Condes",
-        service: "Kinesiologia Traumatologica",
+        service: "Kinesiología Traumatologica",
         rating: 5,
         quote:
-            "Trabajo 10 horas diarias frente al computador y desarrolle una cervicobraquialgia severa. El kinesiologo de KINEUM vino a mi depto, evaluo mi puesto de trabajo, me corrigio la ergonomia y me hizo un plan de tratamiento. En 3 semanas el dolor desaparecio. Ademas me enseno ejercicios preventivos.",
+            "Trabajo 10 horas diarias frente al computador y desarrolle una cervicobraquialgia severa. El kinesiólogo de KINEUM vino a mi depto, evaluo mi puesto de trabajo, me corrigio la ergonomia y me hizo un plan de tratamiento. En 3 semanas el dolor desaparecio. Además me enseno ejercicios preventivos.",
         date: "2026-05-01",
     },
 ]
@@ -159,24 +159,17 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 export default function TestimoniosPage() {
-    const aggregateRating = {
-        ratingValue: 4.9,
-        reviewCount: 147,
-        bestRating: 5,
-        worstRating: 1,
-    }
-
     const jsonLdAggregate = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        name: "KINEUM - Kinesiologia a Domicilio Santiago",
+        name: "KINEUM - Kinesiología a Domicilio Santiago",
         image: "https://kineum.cl/og-image.png",
         url: "https://kineum.cl",
         telephone: "+56999679593",
         address: {
             "@type": "PostalAddress",
             addressLocality: "Santiago",
-            addressRegion: "Region Metropolitana",
+            addressRegion: "Región Metropolitana",
             addressCountry: "CL",
         },
         // Sin aggregateRating/review: Google no permite reseñas autopublicadas
@@ -220,35 +213,31 @@ export default function TestimoniosPage() {
                 <div className="container mx-auto px-4 text-center">
                     <Badge className="bg-amber-500/10 text-amber-400 border-amber-500/20 px-4 py-1.5 text-sm mb-6">
                         <Star className="h-3.5 w-3.5 fill-amber-400 mr-1.5" />
-                        {aggregateRating.reviewCount} opiniones verificadas
+                        Experiencias de pacientes
                     </Badge>
                     <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">
                         Opiniones de Nuestros <span className="text-amber-400">Pacientes</span>
                     </h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
-                        Testimonios reales de quienes confiaron en KINEUM para su rehabilitacion a domicilio en Santiago.
+                        Testimonios reales de quienes confiaron en KINEUM para su rehabilitación a domicilio en Santiago.
                         Cada historia refleja nuestro compromiso con la recuperacion de cada paciente.
                     </p>
 
-                    {/* Aggregate Rating Display */}
-                    <div className="inline-flex items-center gap-6 bg-slate-800/60 border border-slate-700 rounded-2xl px-8 py-5">
-                        <div className="text-center">
-                            <div className="text-5xl font-bold text-amber-400">{aggregateRating.ratingValue}</div>
-                            <div className="flex items-center justify-center gap-0.5 mt-1">
-                                {Array.from({ length: 5 }).map((_, i) => (
-                                    <Star key={i} className="h-5 w-5 fill-amber-400 text-amber-400" />
-                                ))}
-                            </div>
-                        </div>
-                        <div className="h-12 w-px bg-slate-700" />
+                    {/* Hechos verificables del servicio, no cifras de satisfaccion */}
+                    <div className="inline-flex flex-wrap items-center justify-center gap-6 bg-slate-800/60 border border-slate-700 rounded-2xl px-8 py-5">
                         <div className="text-left">
-                            <div className="text-2xl font-bold text-white">{aggregateRating.reviewCount}</div>
-                            <div className="text-sm text-slate-400">opiniones de pacientes</div>
+                            <div className="text-lg font-bold text-white">Evaluación inicial gratuita</div>
+                            <div className="text-sm text-slate-400">en tu casa y sin compromiso</div>
                         </div>
                         <div className="h-12 w-px bg-slate-700 hidden sm:block" />
-                        <div className="text-left hidden sm:block">
-                            <div className="text-2xl font-bold text-emerald-400">98%</div>
-                            <div className="text-sm text-slate-400">nos recomiendan</div>
+                        <div className="text-left">
+                            <div className="text-lg font-bold text-white">Sesiones de 60 minutos</div>
+                            <div className="text-sm text-slate-400">con equipamiento profesional</div>
+                        </div>
+                        <div className="h-12 w-px bg-slate-700 hidden sm:block" />
+                        <div className="text-left">
+                            <div className="text-lg font-bold text-emerald-400">Boleta el mismo día</div>
+                            <div className="text-sm text-slate-400">reembolsable en tu Isapre</div>
                         </div>
                     </div>
                 </div>
@@ -262,8 +251,8 @@ export default function TestimoniosPage() {
                             <div className="bg-amber-50 p-3 rounded-xl">
                                 <Star className="h-6 w-6 text-amber-500" />
                             </div>
-                            <div className="text-sm font-medium text-slate-900">4.9/5 Promedio</div>
-                            <div className="text-xs text-slate-500">en satisfaccion</div>
+                            <div className="text-sm font-medium text-slate-900">Evaluación gratuita</div>
+                            <div className="text-xs text-slate-500">antes de contratar</div>
                         </div>
                         <div className="flex flex-col items-center gap-2">
                             <div className="bg-emerald-50 p-3 rounded-xl">
@@ -276,8 +265,8 @@ export default function TestimoniosPage() {
                             <div className="bg-blue-50 p-3 rounded-xl">
                                 <Users className="h-6 w-6 text-blue-500" />
                             </div>
-                            <div className="text-sm font-medium text-slate-900">+500 Pacientes</div>
-                            <div className="text-xs text-slate-500">atendidos a domicilio</div>
+                            <div className="text-sm font-medium text-slate-900">Región Metropolitana</div>
+                            <div className="text-xs text-slate-500">atención en tu domicilio</div>
                         </div>
                         <div className="flex flex-col items-center gap-2">
                             <div className="bg-purple-50 p-3 rounded-xl">
@@ -311,7 +300,7 @@ export default function TestimoniosPage() {
                     Lo que dicen nuestros pacientes
                 </h2>
                 <p className="text-slate-600 text-center max-w-2xl mx-auto mb-12">
-                    Cada testimonio proviene de pacientes reales que recibieron kinesiologia a domicilio en distintas comunas de Santiago.
+                    Cada testimonio proviene de pacientes reales que recibieron kinesiología a domicilio en distintas comunas de Santiago.
                 </p>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -348,40 +337,6 @@ export default function TestimoniosPage() {
                             </CardContent>
                         </Card>
                     ))}
-                </div>
-            </section>
-
-            {/* Rating Distribution */}
-            <section className="py-16 bg-white border-y border-slate-200">
-                <div className="container mx-auto px-4 max-w-3xl">
-                    <h2 className="text-2xl font-serif font-bold text-slate-900 text-center mb-10">
-                        Distribucion de Calificaciones
-                    </h2>
-                    <div className="space-y-3">
-                        {[
-                            { stars: 5, count: 138, pct: 94 },
-                            { stars: 4, count: 7, pct: 5 },
-                            { stars: 3, count: 2, pct: 1 },
-                            { stars: 2, count: 0, pct: 0 },
-                            { stars: 1, count: 0, pct: 0 },
-                        ].map((row) => (
-                            <div key={row.stars} className="flex items-center gap-3">
-                                <div className="flex items-center gap-1 w-20 justify-end text-sm text-slate-600">
-                                    {row.stars} <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
-                                </div>
-                                <div className="flex-1 h-3 bg-slate-100 rounded-full overflow-hidden">
-                                    <div
-                                        className="h-full bg-amber-400 rounded-full transition-all duration-500"
-                                        style={{ width: `${row.pct}%` }}
-                                    />
-                                </div>
-                                <div className="w-12 text-sm text-slate-500 text-right">{row.count}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <p className="text-center text-xs text-slate-400 mt-6">
-                        Basado en {aggregateRating.reviewCount} opiniones de pacientes verificados
-                    </p>
                 </div>
             </section>
 
@@ -422,12 +377,12 @@ export default function TestimoniosPage() {
                         Unase a Nuestros Pacientes Satisfechos
                     </h2>
                     <p className="text-slate-300 max-w-2xl mx-auto mb-10 text-lg">
-                        Agende su evaluacion gratuita y comience su recuperacion con el mismo equipo que tiene 4.9 estrellas
-                        en {aggregateRating.reviewCount} opiniones.
+                        Agenda tu evaluación inicial gratuita y empieza tu recuperación en tu casa, con equipamiento profesional
+                        y boleta reembolsable en tu Isapre.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <a
-                            href="https://wa.me/56999679593?text=Hola, quiero agendar una evaluacion a domicilio"
+                            href="https://wa.me/56999679593?text=Hola, quiero agendar una evaluación a domicilio"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200"
@@ -444,7 +399,7 @@ export default function TestimoniosPage() {
                         </a>
                     </div>
                     <p className="text-slate-500 text-sm mt-6">
-                        Evaluacion gratuita - Reembolso Isapre - Sin compromiso
+                        Evaluación gratuita - Reembolso Isapre - Sin compromiso
                     </p>
                 </div>
             </section>

@@ -64,28 +64,32 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
         },
     ]
 
+    // Servicio prestado por la unica entidad KINEUM en esta comuna (nada de sucursales ficticias)
     const medicalSchema = {
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
-        "@id": `${url}#business`,
-        name: `KINEUM - ${esp.nombre} a Domicilio en ${com.nombre}`,
-        description: `${esp.nombre} a domicilio en ${com.nombre}, Santiago. ${esp.intro}`,
-        url,
+        "@id": "https://kineum.cl/#organization",
+        name: "KINEUM",
+        url: "https://kineum.cl",
         telephone: TEL,
-        priceRange: "$$",
+        priceRange: "$",
         medicalSpecialty: "Physiotherapy",
         areaServed: {
             "@type": "City",
             name: com.nombre,
-            containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Región Metropolitana, Chile" },
+            containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
         },
-        address: {
-            "@type": "PostalAddress",
-            addressLocality: com.nombre,
-            addressRegion: "Región Metropolitana",
-            addressCountry: "CL",
+        makesOffer: {
+            "@type": "Offer",
+            itemOffered: {
+                "@type": "MedicalTherapy",
+                name: `${esp.nombre} a domicilio en ${com.nombre}`,
+                description: esp.intro,
+                relevantSpecialty: { "@type": "MedicalSpecialty", name: "Physiotherapy" },
+            },
+            areaServed: { "@type": "City", name: com.nombre },
+            url,
         },
-        parentOrganization: { "@type": "Organization", name: "KINEUM", url: "https://kineum.cl" },
         availableService: esp.condiciones.map((c) => ({
             "@type": "MedicalTherapy",
             name: c.titulo,
@@ -195,7 +199,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                             </a>
                         </div>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                             <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                                 <Clock className="h-5 w-5 text-amber-600 mb-2" />
                                 <p className="text-sm font-semibold text-slate-900">Primera visita</p>
@@ -211,6 +215,14 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                                 <p className="text-sm font-semibold text-slate-900">Equipamiento</p>
                                 <p className="text-sm text-slate-600">Lo llevamos a tu casa</p>
                             </div>
+                            <Link
+                                href="/precios"
+                                className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm hover:border-amber-300 transition-colors"
+                            >
+                                <Clock className="h-5 w-5 text-amber-600 mb-2" />
+                                <p className="text-sm font-semibold text-slate-900">Desde $35.000 por sesión</p>
+                                <p className="text-sm text-amber-700">Ver planes y reembolso</p>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -358,6 +370,21 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                                 </div>
                             ))}
                         </div>
+                        <p className="text-slate-600 mb-3">
+                            Antes de decidir puedes ver{" "}
+                            <Link href="/precios" className="text-amber-700 font-medium hover:underline">
+                                los planes y cuánto recuperas con tu Isapre
+                            </Link>
+                            ,{" "}
+                            <Link href="/como-funciona" className="text-amber-700 font-medium hover:underline">
+                                cómo funciona la primera visita
+                            </Link>{" "}
+                            y{" "}
+                            <Link href="/testimonios" className="text-amber-700 font-medium hover:underline">
+                                lo que dicen otros pacientes
+                            </Link>
+                            .
+                        </p>
                         <p className="text-slate-600">
                             También puedes revisar todos nuestros{" "}
                             <Link

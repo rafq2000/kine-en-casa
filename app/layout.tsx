@@ -95,10 +95,11 @@ const localBusinessSchema = {
   priceRange: "$$",
   currenciesAccepted: "CLP",
   paymentAccepted: "Efectivo, Transferencia, Tarjeta de Crédito, Tarjeta de Débito",
+  // Negocio de area de servicio: atiende en el domicilio del paciente, no recibe publico
+  // en una direccion. Publicar una calle aqui contradice la ficha de Google que se cree despues.
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Av. Apoquindo 4501",
-    addressLocality: "Las Condes",
+    addressLocality: "Santiago",
     addressRegion: "Región Metropolitana",
     addressCountry: "CL",
   },
