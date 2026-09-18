@@ -36,6 +36,7 @@ import {
 
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
+import { comunas } from "@/lib/comunas-data"
 
 export default function HomePage() {
   const faqSchema = {
@@ -855,24 +856,16 @@ export default function HomePage() {
           <div className="mt-12 text-center">
             <h4 className="text-xl font-bold text-slate-900 mb-6 font-serif">Más comunas en nuestra red de atención:</h4>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
-              {[
-                { name: 'La Florida', slug: 'la-florida' },
-                { name: 'Peñalolén', slug: 'penalolen' },
-                { name: 'Macul', slug: 'macul' },
-                { name: 'San Joaquín', slug: 'san-joaquin' },
-                { name: 'Santiago Centro', slug: 'santiago-centro' },
-                { name: 'Maipú', slug: 'maipu' },
-                { name: 'Puente Alto', slug: 'puente-alto' },
-                { name: 'San Bernardo', slug: 'san-bernardo' },
-                { name: 'Quilicura', slug: 'quilicura' },
-                { name: 'Recoleta', slug: 'recoleta' },
-              ].map((comuna) => (
+              {comunas
+                .filter((c) => !['las-condes', 'vitacura', 'providencia', 'nunoa', 'la-reina', 'lo-barnechea'].includes(c.slug))
+                .slice(0, 14)
+                .map((comuna) => (
                 <a
                   key={comuna.slug}
                   href={`/kinesiologo-a-domicilio-${comuna.slug}`}
                   className="bg-white border border-slate-200 text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-sm"
                 >
-                  {comuna.name}
+                  {comuna.nombre}
                 </a>
               ))}
             </div>
