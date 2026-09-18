@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button"
 import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { SiteFooter } from "@/components/site-footer"
+import { especialidades } from "@/lib/especialidades-data"
 
 interface BlogPostProps {
     params: Promise<{
@@ -104,6 +106,14 @@ export default async function BlogPost({ params }: BlogPostProps) {
         },
     }
 
+    // Relacionados: misma categoria primero, para que cada post reparta autoridad
+    const relacionados = [
+        ...blogPosts.filter((p) => p.slug !== post.slug && p.category === post.category),
+        ...blogPosts.filter((p) => p.slug !== post.slug && p.category !== post.category),
+    ].slice(0, 3)
+    const servicioRelacionado =
+        especialidades.find((e) => e.articulos.some((a) => a.url === `/blog/${post.slug}`)) ?? especialidades[0]
+
     const faqs = faqsDelPost(post.content)
     const faqSchema = faqs.length
         ? {
@@ -148,7 +158,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
                 <div className="container mx-auto px-4 relative z-10">
                     <Link
-                        href="/#journal"
+                        href="/blog"
                         className="inline-flex items-center text-slate-400 hover:text-white mb-8 transition-colors text-sm font-medium"
                     >
                         <ArrowLeft className="h-4 w-4 mr-2" />
@@ -231,7 +241,39 @@ export default async function BlogPost({ params }: BlogPostProps) {
                         </div>
                     </div>
                 </div>
+                {/* Sigue leyendo: el blog dejaba de enlazar al resto del sitio */}
+                <div className="max-w-3xl mx-auto mt-16 border-t border-slate-200 pt-10">
+                    <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">Sigue leyendo</h2>
+                    <div className="grid sm:grid-cols-3 gap-4">
+                        {relacionados.map((r) => (
+                            <Link
+                                key={r.slug}
+                                href={`/blog/${r.slug}`}
+                                className="block bg-slate-50 rounded-xl p-5 border border-slate-200 hover:border-amber-300 transition-colors"
+                            >
+                                <span className="block text-sm font-semibold text-slate-900 leading-snug">{r.title}</span>
+                                <span className="block text-xs text-slate-500 mt-2">{r.category}</span>
+                            </Link>
+                        ))}
+                    </div>
+                    <p className="text-slate-600 mt-8">
+                        ¿Necesitas atención?{" "}
+                        <Link href={servicioRelacionado.servicioUrl} className="text-amber-700 font-medium hover:underline">
+                            {servicioRelacionado.nombre} a domicilio
+                        </Link>
+                        ,{" "}
+                        <Link href="/precios" className="text-amber-700 font-medium hover:underline">
+                            precios y planes
+                        </Link>{" "}
+                        o{" "}
+                        <Link href="/cobertura" className="text-amber-700 font-medium hover:underline">
+                            tu comuna en la Región Metropolitana
+                        </Link>
+                        .
+                    </p>
+                </div>
             </article>
+            <SiteFooter />
         </div>
     )
 }

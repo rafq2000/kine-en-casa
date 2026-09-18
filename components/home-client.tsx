@@ -958,10 +958,12 @@ export default function HomePage() {
 
             <Link href="/blog/sarcopenia-fuerza-es-salud" className="group cursor-pointer block">
               <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
-                <img
+                <Image
                   src="/physiotherapist-elderly-exercise.png"
-                  alt="Elderly Care"
-                  className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                  alt="Kinesióloga trabajando fuerza con una adulta mayor en su casa"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">
                   <Badge className="bg-white/90 text-slate-900 backdrop-blur-sm shadow-sm">
