@@ -45,11 +45,11 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?",
-        acceptedAnswer: { "@type": "Answer", text: "El precio de una sesión de kinesiología a domicilio en el sector oriente de Santiago varía según el tipo de tratamiento y la comuna. Ofrecemos evaluación inicial gratuita. Contáctanos al +56 9 9967 9593 para una cotización personalizada." }
+        acceptedAnswer: { "@type": "Answer", text: "Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos boleta el mismo día para que la reembolses en tu Isapre según la cobertura de tu plan." }
       },
       {
         "@type": "Question",
-        name: "¿Qué comunas atienden en el sector oriente de Santiago?",
+        name: "¿En qué comunas de Santiago atienden a domicilio?",
         acceptedAnswer: { "@type": "Answer", text: "Atendemos toda la Región Metropolitana: desde el sector oriente y el centro hasta Maipú, Puente Alto, San Bernardo, Quilicura y las provincias de Chacabuco, Maipo, Talagante y Melipilla. Puedes revisar tu comuna en la página de cobertura. Todos los tratamientos se realizan en tu hogar." }
       },
       {
@@ -60,7 +60,17 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Qué tipos de kinesiología ofrecen a domicilio?",
-        acceptedAnswer: { "@type": "Answer", text: "Ofrecemos kinesiología geriátrica, respiratoria, traumatológica, neurológica, rehabilitación postquirúrgica y educación familiar. Nuestros kinesiólogos tienen más de 5 años de experiencia." }
+        acceptedAnswer: { "@type": "Answer", text: "Kinesiología geriátrica, respiratoria (adultos y niños), traumatológica, neurológica y rehabilitación postquirúrgica. Cada especialidad tiene su propia página con qué tratamos y cómo es la sesión en tu casa." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Cómo pido un kinesiólogo a domicilio en Santiago?",
+        acceptedAnswer: { "@type": "Answer", text: "Escríbenos por WhatsApp al +56 9 9967 9593 contando el motivo de consulta, la comuna y si hay orden médica. Coordinamos la evaluación inicial gratuita en tu domicilio, el kinesiólogo llega con camilla y equipamiento, y después de evaluarte te decimos cuántas sesiones necesitas y cuánto cuesta antes de que decidas." }
+      },
+      {
+        "@type": "Question",
+        name: "¿Cuándo pueden llegar a mi casa?",
+        acceptedAnswer: { "@type": "Answer", text: "En las comunas del Gran Santiago la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. En las comunas más alejadas de la Región Metropolitana la agendamos según disponibilidad y te confirmamos el horario antes de que decidas." }
       },
       {
         "@type": "Question",
@@ -792,15 +802,20 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
               <MapPin className="h-4 w-4 mr-2" />
-              Cobertura Sector Oriente
+              Cobertura Región Metropolitana
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
-              Kinesiología a Domicilio en
+              Kinesiólogo a Domicilio en
               <br />
-              <span className="text-amber-700">Todo el Sector Oriente de Santiago</span>
+              <span className="text-amber-700">Toda la Región Metropolitana</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Atendemos a domicilio en todas las comunas del sector oriente. Haz clic en tu comuna para más información.
+              Atendemos en el domicilio del paciente en las comunas de la Región Metropolitana. Entra a tu comuna para
+              ver los sectores que cubrimos, o revisa la{" "}
+              <a href="/cobertura" className="text-amber-700 font-medium hover:underline">
+                cobertura completa comuna por comuna
+              </a>
+              .
             </p>
           </div>
 
@@ -985,10 +1000,10 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?</h3>
-              <p className="text-slate-600">El precio de una sesión de kinesiología a domicilio en el sector oriente de Santiago varía según el tipo de tratamiento y la comuna. Ofrecemos evaluación inicial gratuita. Contáctanos al +56 9 9967 9593 para una cotización personalizada.</p>
+              <p className="text-slate-600">Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos boleta el mismo día para que la reembolses en tu Isapre según la cobertura de tu plan. Puedes ver el detalle en <a href="/precios" className="text-amber-700 font-medium hover:underline">precios y planes</a>.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
-              <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué comunas atienden en el sector oriente de Santiago?</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
               <p className="text-slate-600">Atendemos toda la Región Metropolitana: desde el sector oriente y el centro hasta Maipú, Puente Alto, San Bernardo, Quilicura y las provincias de Chacabuco, Maipo, Talagante y Melipilla. Puedes revisar tu comuna en la página de cobertura. Todos los tratamientos se realizan en tu hogar.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
@@ -997,7 +1012,15 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué tipos de kinesiología ofrecen a domicilio?</h3>
-              <p className="text-slate-600">Ofrecemos kinesiología geriátrica, respiratoria, traumatológica, neurológica, rehabilitación postquirúrgica y educación familiar. Nuestros kinesiólogos tienen más de 5 años de experiencia.</p>
+              <p className="text-slate-600">Kinesiología geriátrica, respiratoria (adultos y niños), traumatológica, neurológica y rehabilitación postquirúrgica. Cada especialidad tiene su propia página con qué tratamos y cómo es la sesión en tu casa.</p>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+              <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cómo pido un kinesiólogo a domicilio en Santiago?</h3>
+              <p className="text-slate-600">Escríbenos por WhatsApp al +56 9 9967 9593 contando el motivo de consulta, la comuna y si hay orden médica. Coordinamos la evaluación inicial gratuita en tu domicilio, el kinesiólogo llega con camilla y equipamiento, y después de evaluarte te decimos cuántas sesiones necesitas y cuánto cuesta antes de que decidas.</p>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+              <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuándo pueden llegar a mi casa?</h3>
+              <p className="text-slate-600">En las comunas del Gran Santiago la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. En las comunas más alejadas de la Región Metropolitana la agendamos según disponibilidad y te confirmamos el horario antes de que decidas.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuánto dura una sesión de kinesiología a domicilio?</h3>
