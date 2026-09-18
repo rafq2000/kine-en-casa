@@ -1,10 +1,10 @@
 import Link from "next/link"
 import { MapPin, ChevronRight } from "lucide-react"
-import { comunas } from "@/lib/comunas-data"
+import { comunasFull } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 
 /**
- * Bloque de cobertura: enlaza una especialidad con las 11 comunas.
+ * Bloque de cobertura: enlaza una especialidad con las comunas que tienen pagina propia.
  * Se usa en las paginas /servicios/* para conectarlas con su matriz local.
  */
 export function ComunasPorEspecialidad({ especialidadSlug }: { especialidadSlug: string }) {
@@ -22,11 +22,15 @@ export function ComunasPorEspecialidad({ especialidadSlug }: { especialidadSlug:
                         </h2>
                     </div>
                     <p className="text-slate-600 mb-8 max-w-3xl">
-                        Atendemos {esp.corto} en el sector oriente y centro de Santiago. Elige tu comuna para ver los
-                        sectores que cubrimos y cómo es la sesión en tu casa.
+                        Atendemos {esp.corto} en toda la Región Metropolitana. Elige tu comuna para ver los sectores
+                        que cubrimos y cómo es la sesión en tu casa, o revisa la{" "}
+                        <Link href="/cobertura" className="text-amber-700 font-medium hover:underline">
+                            cobertura completa por comuna
+                        </Link>
+                        .
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                        {comunas.map((c) => (
+                        {comunasFull.map((c) => (
                             <Link
                                 key={c.slug}
                                 href={`/${esp.slug}-${c.slug}`}

@@ -21,8 +21,9 @@ const MODIFICADO: Record<string, string> = {
     '/testimonios': '2026-09-17',
     '/blog': '2026-09-17',
     '/ejercicios': '2026-09-06',
+    '/cobertura': '2026-09-18',
     // Paginas locales: ultima reescritura de titulos y descripciones
-    local: '2026-09-17',
+    local: '2026-09-18',
 }
 
 // Prioridad segun cercania a la conversion, no todo al mismo nivel:
@@ -31,6 +32,7 @@ function prioridad(ruta: string): number {
     if (ruta === '') return 1
     if (ruta.startsWith('/servicios/')) return 0.9
     if (ruta.startsWith('/kinesiologo-a-domicilio-')) return 0.9
+    if (ruta === '/cobertura') return 0.9
     if (ruta === '/precios' || ruta === '/como-funciona') return 0.8
     if (ruta.startsWith('/blog/')) return 0.6
     return 0.7
@@ -40,7 +42,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const rutasLocales: string[] = []
     for (const c of comunas) {
         rutasLocales.push(`/kinesiologo-a-domicilio-${c.slug}`)
-        for (const e of especialidades) rutasLocales.push(`/${e.slug}-${c.slug}`)
+        // Solo las comunas con cobertura completa tienen pagina por especialidad
+        if (c.cobertura === 'full') for (const e of especialidades) rutasLocales.push(`/${e.slug}-${c.slug}`)
     }
 
     const rutasBase = [
@@ -51,6 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/testimonios',
         '/blog',
         '/ejercicios',
+        '/cobertura',
         '/servicios/respiratoria',
         '/servicios/geriatrica',
         '/servicios/neurologica',

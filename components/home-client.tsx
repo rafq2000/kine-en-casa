@@ -50,7 +50,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Qué comunas atienden en el sector oriente de Santiago?",
-        acceptedAnswer: { "@type": "Answer", text: "Atendemos Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida y Macul. Todos los tratamientos se realizan directamente en tu hogar." }
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos toda la Región Metropolitana: desde el sector oriente y el centro hasta Maipú, Puente Alto, San Bernardo, Quilicura y las provincias de Chacabuco, Maipo, Talagante y Melipilla. Puedes revisar tu comuna en la página de cobertura. Todos los tratamientos se realizan en tu hogar." }
       },
       {
         "@type": "Question",
@@ -756,8 +756,8 @@ export default function HomePage() {
               <MapPin className="h-10 w-10 mx-auto mb-4 text-amber-400" />
               <h3 className="font-bold text-xl mb-3">Cobertura Completa</h3>
               <p className="text-slate-300 leading-relaxed">
-                La Florida, Las Condes, Providencia, Ñuñoa, Santiago Centro, Vitacura, Lo Barnechea, Peñalolén, Macul,
-                San Joaquín
+                Atendemos toda la Región Metropolitana, comuna por comuna: sector oriente, centro, norte, poniente y
+                sur, más Puente Alto, San Bernardo y las provincias de Chacabuco, Maipo, Talagante y Melipilla.
               </p>
             </div>
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-slate-800/70 transition-all duration-300 border border-slate-700">
@@ -846,6 +846,11 @@ export default function HomePage() {
                 { name: 'Macul', slug: 'macul' },
                 { name: 'San Joaquín', slug: 'san-joaquin' },
                 { name: 'Santiago Centro', slug: 'santiago-centro' },
+                { name: 'Maipú', slug: 'maipu' },
+                { name: 'Puente Alto', slug: 'puente-alto' },
+                { name: 'San Bernardo', slug: 'san-bernardo' },
+                { name: 'Quilicura', slug: 'quilicura' },
+                { name: 'Recoleta', slug: 'recoleta' },
               ].map((comuna) => (
                 <a
                   key={comuna.slug}
@@ -984,7 +989,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué comunas atienden en el sector oriente de Santiago?</h3>
-              <p className="text-slate-600">Atendemos Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. Todos los tratamientos se realizan directamente en tu hogar.</p>
+              <p className="text-slate-600">Atendemos toda la Región Metropolitana: desde el sector oriente y el centro hasta Maipú, Puente Alto, San Bernardo, Quilicura y las provincias de Chacabuco, Maipo, Talagante y Melipilla. Puedes revisar tu comuna en la página de cobertura. Todos los tratamientos se realizan en tu hogar.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>

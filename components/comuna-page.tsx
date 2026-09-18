@@ -27,7 +27,7 @@ import {
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import { especialidades } from "@/lib/especialidades-data"
-import { comunas } from "@/lib/comunas-data"
+import { comunas, comunasVecinas, getComuna } from "@/lib/comunas-data"
 import { comunasLocal } from "@/lib/comunas-local"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
 
@@ -46,6 +46,9 @@ interface ComunaPageProps {
 
 export default function ComunaPage({ data }: ComunaPageProps) {
     const local = comunasLocal[data.slug]
+    const comuna = getComuna(data.slug)
+    const tienePaginasPorEspecialidad = comuna?.cobertura !== "hub"
+    const vecinas = comunasVecinas(data.slug, 11, false)
     const services = [
         {
             title: "Kinesiología Geriátrica",
@@ -605,7 +608,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             {especialidades.map((e) => (
                                 <Link
                                     key={e.slug}
-                                    href={`/${e.slug}-${data.slug}`}
+                                    href={tienePaginasPorEspecialidad ? `/${e.slug}-${data.slug}` : e.servicioUrl}
                                     className="group bg-slate-50 rounded-xl p-6 border border-slate-200 hover:border-amber-300 hover:shadow-md transition-all"
                                 >
                                     <h3 className="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors mb-2">
@@ -618,7 +621,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                             .join(" · ")}
                                     </p>
                                     <span className="inline-flex items-center text-sm font-medium text-amber-700">
-                                        Ver en {data.nombre}
+                                        {tienePaginasPorEspecialidad ? `Ver en ${data.nombre}` : "Ver el servicio"}
                                         <ChevronRight className="h-4 w-4 ml-1" />
                                     </span>
                                 </Link>
@@ -630,9 +633,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 Kinesiología a domicilio en otras comunas
                             </h3>
                             <div className="flex flex-wrap gap-2">
-                                {comunas
-                                    .filter((c) => c.slug !== data.slug)
-                                    .map((c) => (
+                                {vecinas.map((c) => (
                                         <Link
                                             key={c.slug}
                                             href={`/kinesiologo-a-domicilio-${c.slug}`}
@@ -641,6 +642,12 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                             {c.nombre}
                                         </Link>
                                     ))}
+                                <Link
+                                    href="/cobertura"
+                                    className="bg-slate-900 text-white rounded-lg px-4 py-2 text-sm hover:bg-slate-800 transition-colors"
+                                >
+                                    Ver las {comunas.length} comunas
+                                </Link>
                             </div>
                         </div>
                     </div>

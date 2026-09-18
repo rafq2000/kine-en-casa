@@ -14,7 +14,7 @@ import {
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
-import { comunas, type Comuna } from "@/lib/comunas-data"
+import { comunas, comunasVecinas, type Comuna } from "@/lib/comunas-data"
 import { especialidades, type Especialidad } from "@/lib/especialidades-data"
 import { comunasLocal } from "@/lib/comunas-local"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
@@ -44,7 +44,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
     // Otras especialidades en la misma comuna
     const otrasEspecialidades = especialidades.filter((e) => e.slug !== esp.slug)
     // La misma especialidad en otras comunas
-    const otrasComunas = comunas.filter((c) => c.slug !== com.slug)
+    const otrasComunas = comunasVecinas(com.slug, 11)
 
     const faqs = [
         ...(espLocal?.faqsLocales ?? []),
@@ -456,6 +456,12 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                                     {esp.corto} en {c.nombre}
                                 </Link>
                             ))}
+                            <Link
+                                href="/cobertura"
+                                className="bg-slate-900 text-white rounded-lg px-4 py-2.5 text-sm hover:bg-slate-800 transition-colors"
+                            >
+                                Ver toda la cobertura
+                            </Link>
                         </div>
                     </div>
                 </div>

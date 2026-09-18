@@ -2,9 +2,21 @@
 // /kinesiologo-a-domicilio-{comuna} y /{especialidad}-{comuna}.
 // Cada comuna aporta sectores y contexto propio para evitar contenido duplicado.
 
+export type ZonaComuna = "oriente" | "centro" | "norte" | "poniente" | "sur"
+
 export interface Comuna {
     nombre: string
     slug: string
+    /** Provincia de la Region Metropolitana */
+    provincia: string
+    /** Zona usada para enlazar comunas vecinas entre si */
+    zona: ZonaComuna
+    /** "full": hub + 5 paginas de especialidad. "hub": solo la pagina de la comuna. */
+    cobertura: "full" | "hub"
+    /** Solo para las comunas generadas: alimenta el meta description y el schema del hub */
+    descripcion?: string
+    /** Solo para las comunas generadas: bullets de cobertura del hub */
+    caracteristicas?: string[]
     /** Sectores/barrios reales que se listan en la página */
     sectores: string[]
     /** Frase de contexto local, única por comuna */
@@ -19,6 +31,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Las Condes",
         slug: "las-condes",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "El Golf",
             "Escuela Militar",
@@ -37,6 +52,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Vitacura",
         slug: "vitacura",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "Santa María de Manquehue",
             "Jardín del Este",
@@ -54,6 +72,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Providencia",
         slug: "providencia",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "Pedro de Valdivia",
             "Manuel Montt",
@@ -72,6 +93,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Ñuñoa",
         slug: "nunoa",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "Plaza Ñuñoa",
             "Avenida Irarrázaval",
@@ -90,6 +114,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "La Reina",
         slug: "la-reina",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "La Reina Alta",
             "Príncipe de Gales",
@@ -108,6 +135,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Lo Barnechea",
         slug: "lo-barnechea",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "La Dehesa",
             "Los Trapenses",
@@ -126,6 +156,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Peñalolén",
         slug: "penalolen",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "Peñalolén Alto",
             "Comunidad Ecológica",
@@ -144,6 +177,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "La Florida",
         slug: "la-florida",
+        provincia: "Santiago",
+        zona: "sur",
+        cobertura: "full",
         sectores: [
             "Bellavista de La Florida",
             "Walker Martínez",
@@ -162,6 +198,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Macul",
         slug: "macul",
+        provincia: "Santiago",
+        zona: "oriente",
+        cobertura: "full",
         sectores: [
             "Villa Macul",
             "Quilín",
@@ -180,6 +219,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "San Joaquín",
         slug: "san-joaquin",
+        provincia: "Santiago",
+        zona: "centro",
+        cobertura: "full",
         sectores: [
             "Metro San Joaquín",
             "Pedrero",
@@ -198,6 +240,9 @@ export const comunas: Comuna[] = [
     {
         nombre: "Santiago Centro",
         slug: "santiago-centro",
+        provincia: "Santiago",
+        zona: "centro",
+        cobertura: "full",
         sectores: [
             "Barrio Lastarria",
             "Barrio Brasil",
@@ -217,4 +262,22 @@ export const comunas: Comuna[] = [
 
 export function getComuna(slug: string) {
     return comunas.find((c) => c.slug === slug)
+}
+
+/** Comunas con matriz completa de paginas por especialidad. */
+export const comunasFull = comunas.filter((c) => c.cobertura === "full")
+
+/**
+ * Comunas para enlazar desde una pagina local: primero las de la misma zona,
+ * despues el resto, para que el enlazado interno sea geograficamente coherente
+ * y no un muro de 50 enlaces iguales en todas las paginas.
+ */
+export function comunasVecinas(slug: string, limite = 11, soloFull = true) {
+    const base = soloFull ? comunasFull : comunas
+    const actual = getComuna(slug)
+    const resto = base.filter((c) => c.slug !== slug)
+    if (!actual) return resto.slice(0, limite)
+    const mismas = resto.filter((c) => c.zona === actual.zona)
+    const otras = resto.filter((c) => c.zona !== actual.zona)
+    return [...mismas, ...otras].slice(0, limite)
 }

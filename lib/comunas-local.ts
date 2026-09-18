@@ -7,10 +7,27 @@ export interface CentroSalud {
     nota: string
 }
 
+export interface SeoLocal {
+    title: string
+    description: string
+    keywords: string[]
+}
+
+export interface EspecialidadLocal {
+    slug: string
+    introLocal: string
+    faqsLocales: { q: string; a: string }[]
+    seoTitle?: string
+    seoDescription?: string
+    keywords?: string[]
+}
+
 export interface ComunaLocal {
     centrosSalud: CentroSalud[]
     hub: { h2: string; parrafos: string[] }
-    especialidades: { slug: string; introLocal: string; faqsLocales: { q: string; a: string }[] }[]
+    especialidades: EspecialidadLocal[]
+    /** Metadatos del hub de la comuna, escritos junto con el texto local */
+    hubSeo?: SeoLocal
 }
 
 export const comunasLocal: Record<string, ComunaLocal> = {

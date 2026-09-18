@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Manrope } from "next/font/google"
 import "./globals.css"
+import { comunas } from "@/lib/comunas-data"
 
 const geist = Geist({
   subsets: ["latin"],
@@ -19,9 +20,7 @@ const siteUrl = "https://kineum.cl"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "Kinesiología a Domicilio Premium Santiago | KINEUM",
-  },
+  title: "Kinesiología a Domicilio Premium Santiago | KINEUM",
   description:
     "Kinesiólogos a domicilio en Santiago: rehabilitación clínica de precisión en su hogar. Las Condes, Vitacura, Providencia y todo el sector oriente. ☎ +56 9 9967 9593",
   keywords: [
@@ -109,61 +108,12 @@ const localBusinessSchema = {
     longitude: -70.6003,
   },
   areaServed: [
-    {
+    { "@type": "AdministrativeArea", name: "Región Metropolitana de Santiago, Chile" },
+    ...comunas.map((c) => ({
       "@type": "City",
-      name: "Las Condes",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Vitacura",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Providencia",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Ñuñoa",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "La Reina",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Lo Barnechea",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Peñalolén",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "La Florida",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Macul",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "San Joaquín",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
-    {
-      "@type": "City",
-      name: "Santiago Centro",
-      containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Chile" },
-    },
+      name: c.nombre,
+      containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
+    })),
   ],
   openingHoursSpecification: [
     {

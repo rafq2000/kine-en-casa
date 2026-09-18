@@ -52,6 +52,9 @@ export function SiteFooter() {
                         <h4 className="font-bold text-white mb-4 mt-8 text-sm uppercase tracking-wider">Información</h4>
                         <ul className="space-y-3 text-sm">
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
+                                <Link href="/cobertura">Cobertura por comuna</Link>
+                            </li>
+                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
                                 <Link href="/precios">Precios y planes</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
