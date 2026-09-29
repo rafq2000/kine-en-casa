@@ -206,7 +206,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
             </article>
 
             {/* FAQ */}
-            <section className="py-16 md:py-20 bg-slate-50 border-y border-slate-200">
+            <section id="preguntas" className="py-16 md:py-20 bg-slate-50 border-y border-slate-200 scroll-mt-20">
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif mb-10">Preguntas frecuentes</h2>

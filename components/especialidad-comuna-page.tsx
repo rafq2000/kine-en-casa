@@ -49,8 +49,8 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
 
     const faqs = [
         ...(espLocal?.faqsLocales ?? []),
-        // Con contenido local se muestran menos FAQs genéricas: las completas viven en el hub del servicio.
-        ...esp.faqs.slice(0, espLocal ? 2 : esp.faqs.length),
+        // Con contenido local no se repiten las FAQs genéricas: viven en la página del servicio (enlazada abajo).
+        ...(espLocal ? [] : esp.faqs),
         {
             q: `¿Atienden ${esp.corto} en todos los sectores de ${com.nombre}?`,
             a: `Sí. Cubrimos toda la comuna de ${com.nombre}, incluyendo ${com.sectores.slice(0, 5).join(", ")} y el resto de los sectores. Todas las sesiones se realizan en el domicilio del paciente.`,
@@ -428,6 +428,15 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                                 </div>
                             ))}
                         </div>
+                        {espLocal && (
+                            <p className="mt-6 text-slate-600">
+                                Más preguntas sobre el tratamiento en{" "}
+                                <Link href={`${esp.servicioUrl}#preguntas`} className="text-amber-700 font-medium hover:underline">
+                                    {esp.nombre.toLowerCase()} a domicilio
+                                </Link>
+                                .
+                            </p>
+                        )}
                     </div>
                 </div>
             </section>
