@@ -1,5 +1,3 @@
-"use client"
-
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
@@ -290,13 +288,19 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="text-lg px-10 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 bg-emerald-600 hover:bg-emerald-700 text-white border border-emerald-500 transform hover:scale-105"
-                onClick={() => window.open("https://wa.me/56999679593?text=Hola, quiero verificar disponibilidad para evaluación kinesiologica", "_blank")}
+                asChild
               >
-                <MessageCircle className="h-6 w-6 mr-3" />
-                <span className="flex flex-col items-start text-left">
-                  <span className="font-bold">Verificar Disponibilidad</span>
-                  <span className="text-xs font-normal opacity-90">Te respondemos por WhatsApp</span>
-                </span>
+                <a
+                  href="https://wa.me/56999679593?text=Hola, quiero verificar disponibilidad para evaluación kinesiológica"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MessageCircle className="h-6 w-6 mr-3" />
+                  <span className="flex flex-col items-start text-left">
+                    <span className="font-bold">Verificar Disponibilidad</span>
+                    <span className="text-xs font-normal opacity-90">Te respondemos por WhatsApp</span>
+                  </span>
+                </a>
               </Button>
             </div>
 
@@ -390,12 +394,12 @@ export default function HomePage() {
                       ))}
                     </ul>
                     <Button
-                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-all duration-300 border border-emerald-500"
-                      onClick={() => window.open("https://wa.me/56999679593", "_blank")}
-                    >
+                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-all duration-300 border border-emerald-500" asChild>
+<a href="https://wa.me/56999679593" target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="h-4 w-4 mr-2" />
                       Consultar por WhatsApp
-                    </Button>
+                    </a>
+</Button>
                   </CardContent>
                 </Card>
               </Link>
@@ -584,17 +588,12 @@ export default function HomePage() {
                 <div className="p-6 pt-0 mt-auto">
                   <Button
                     className={`w-full text-lg py-6 font-bold transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 ${plan.popular ? "bg-amber-600 hover:bg-amber-700 text-white border-amber-500" : "bg-slate-900 hover:bg-slate-800 text-white"
-                      }`}
-                    onClick={() =>
-                      window.open(
-                        `https://wa.me/56999679593?text=Hola, quiero aprovechar la oferta del ${plan.name}.`,
-                        "_blank",
-                      )
-                    }
-                  >
+                      }`} asChild>
+<a href={`https://wa.me/56999679593?text=Hola, quiero aprovechar la oferta del ${plan.name}.`} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5 mr-2" />
                     Quiero este Plan
-                  </Button>
+                  </a>
+</Button>
                 </div>
               </Card>
             ))}
@@ -624,12 +623,12 @@ export default function HomePage() {
               <div className="flex justify-center">
                 <Button
                   size="lg"
-                  className="text-lg px-8 py-6 bg-white text-slate-900 hover:bg-slate-100 font-bold shadow-xl transition-all duration-300"
-                  onClick={() => window.open("https://wa.me/56999679593?text=Hola, quiero agendar mi primera sesión con Garantía de Satisfacción", "_blank")}
-                >
+                  className="text-lg px-8 py-6 bg-white text-slate-900 hover:bg-slate-100 font-bold shadow-xl transition-all duration-300" asChild>
+<a href="https://wa.me/56999679593?text=Hola, quiero agendar mi primera sesión con Garantía de Satisfacción" target="_blank" rel="noopener noreferrer">
                   <Check className="h-5 w-5 mr-2 text-emerald-600" />
                   Agendar mi Primera Sesión Segura
-                </Button>
+                </a>
+</Button>
               </div>
             </div>
           </div>
@@ -638,16 +637,11 @@ export default function HomePage() {
             <p className="text-slate-600 mb-2">¿Tienes una condición compleja?</p>
             <Button
               variant="link"
-              className="text-emerald-700 font-semibold text-base p-0 h-auto"
-              onClick={() =>
-                window.open(
-                  "https://wa.me/56999679593?text=Hola, necesito información sobre un plan personalizado",
-                  "_blank",
-                )
-              }
-            >
+              className="text-emerald-700 font-semibold text-base p-0 h-auto" asChild>
+<a href="https://wa.me/56999679593?text=Hola, necesito información sobre un plan personalizado" target="_blank" rel="noopener noreferrer">
               Consulta por un Plan Personalizado →
-            </Button>
+            </a>
+</Button>
           </div>
         </div>
       </section>
@@ -746,20 +740,20 @@ export default function HomePage() {
             <Button
               size="lg"
               variant="secondary"
-              className="text-lg px-10 py-6 bg-white text-slate-900 hover:bg-slate-100 shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-slate-300"
-              onClick={() => window.open("tel:+56999679593")}
-            >
+              className="text-lg px-10 py-6 bg-white text-slate-900 hover:bg-slate-100 shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-slate-300" asChild>
+<a href="tel:+56999679593">
               <Phone className="h-5 w-5 mr-3" />
               +56 9 9967 9593
-            </Button>
+            </a>
+</Button>
             <Button
               size="lg"
-              className="text-lg px-10 py-6 bg-emerald-600 hover:bg-emerald-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-emerald-500"
-              onClick={() => window.open("https://wa.me/56999679593", "_blank")}
-            >
+              className="text-lg px-10 py-6 bg-emerald-600 hover:bg-emerald-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-emerald-500" asChild>
+<a href="https://wa.me/56999679593" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-5 w-5 mr-3" />
               Enviar WhatsApp
-            </Button>
+            </a>
+</Button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -870,12 +864,12 @@ export default function HomePage() {
               ))}
             </div>
             <Button
-              className="bg-emerald-600 hover:bg-emerald-700 text-white"
-              onClick={() => window.open("https://wa.me/56999679593?text=Hola, ¿atienden kinesiología a domicilio en mi comuna?", "_blank")}
-            >
+              className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+<a href="https://wa.me/56999679593?text=Hola, ¿atienden kinesiología a domicilio en mi comuna?" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-4 w-4 mr-2" />
               Consultar otra comuna
-            </Button>
+            </a>
+</Button>
           </div>
         </div>
       </section>
