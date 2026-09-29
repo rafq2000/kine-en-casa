@@ -635,7 +635,7 @@ export const blogPosts = [
   },
   {
     slug: "cuanto-cobra-kinesiologo-particular",
-    seoTitle: "Cuánto Cobra un Kinesiólogo Particular por Sesión | KINEUM",
+    seoTitle: "Kinesiólogo Particular: Cuánto Cobra la Sesión en Chile 2026",
     seoDescription: "Precios referenciales de kinesiología particular en Chile (tarifas publicadas en Santiago): consulta, domicilio y especialidad, y cómo usar tu isapre.",
     title: "¿Cuánto cobra un kinesiólogo particular por sesión? Precios en Santiago 2026",
     subtitle: "Rangos referenciales según tarifas publicadas en Santiago: consulta, domicilio y especialidad, qué hace variar el precio y cómo bajar el costo con tu isapre.",
@@ -721,7 +721,7 @@ export const blogPosts = [
   },
   {
     slug: "precio-10-sesiones-kinesiologia",
-    seoTitle: "Precio de 10 Sesiones de Kinesiología 2026 | KINEUM",
+    seoTitle: "10 Sesiones de Kinesiología: $350.000 a Domicilio | KINEUM",
     seoDescription: "¿Cuánto valen 10 sesiones de kinesiología a domicilio? Rangos publicados en Santiago, pack vs. sesión suelta y cuánto pagas tras el reembolso de tu isapre.",
     title: "Precio de 10 sesiones de kinesiología: cuánto cuesta el tratamiento completo en 2026",
     subtitle: "Rangos publicados en Santiago, pack o sesión suelta, frecuencia semanal y cómo calcular lo que pagas después del reembolso",
@@ -1025,7 +1025,7 @@ export const blogPosts = [
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
-    seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? 2026 | KINEUM",
+    seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? $35.000-$50.000",
     seoDescription: "Sesión a domicilio entre $35.000 y $50.000 según tarifas publicadas; pack de 10 a $35.000 por sesión. Precios 2026 y reembolso Isapre.",
     title: "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026",
     subtitle: "Sesión individual a domicilio: $35.000–$50.000 según tarifas publicadas. Pack de 10 a $35.000 por sesión. Cómo reembolsar en tu Isapre y seguro complementario.",

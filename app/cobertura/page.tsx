@@ -3,6 +3,7 @@ import Link from "next/link"
 import { MapPin, Phone, MessageCircle, ChevronRight, Home } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 import { comunas, type ZonaComuna } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 
@@ -226,6 +227,7 @@ export default function Page() {
             </section>
 
             <SiteFooter />
+            <WhatsAppButton />
         </div>
     )
 }

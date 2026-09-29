@@ -30,6 +30,7 @@ import { especialidades } from "@/lib/especialidades-data"
 import { comunas, comunasVecinas, getComuna } from "@/lib/comunas-data"
 import { comunasLocal } from "@/lib/comunas-local"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 interface ComunaData {
     nombre: string
@@ -726,6 +727,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
 
             {/* Footer */}
             <SiteFooter />
+            <WhatsAppButton />
         </div>
     )
 }

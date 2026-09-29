@@ -6,6 +6,7 @@ import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { SiteFooter } from "@/components/site-footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 import { especialidades } from "@/lib/especialidades-data"
 
 interface BlogPostProps {
@@ -274,6 +275,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 </div>
             </article>
             <SiteFooter />
+            <WhatsAppButton />
         </div>
     )
 }

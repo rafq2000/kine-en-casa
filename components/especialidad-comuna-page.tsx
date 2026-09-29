@@ -18,6 +18,7 @@ import { comunas, comunasVecinas, type Comuna } from "@/lib/comunas-data"
 import { especialidades, type Especialidad } from "@/lib/especialidades-data"
 import { comunasLocal } from "@/lib/comunas-local"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 const TEL = "+56999679593"
 const TEL_DISPLAY = "+56 9 9967 9593"
@@ -546,6 +547,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
             </section>
 
             <SiteFooter />
+            <WhatsAppButton />
         </div>
     )
 }

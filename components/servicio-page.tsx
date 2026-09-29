@@ -11,6 +11,7 @@ import {
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 import { ComunasPorEspecialidad } from "@/components/comunas-por-especialidad"
 import { type ContenidoServicio } from "@/lib/servicios-contenido"
 
@@ -254,6 +255,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
             </section>
 
             <SiteFooter />
+            <WhatsAppButton />
         </div>
     )
 }

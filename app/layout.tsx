@@ -137,6 +137,26 @@ const localBusinessSchema = {
       closes: "16:00",
     },
   ],
+  makesOffer: [
+    {
+      "@type": "Offer",
+      name: "Plan Essential: 4 sesiones de kinesiología a domicilio",
+      description: "4 sesiones mensuales de 60 minutos en el domicilio del paciente, con evaluación inicial gratuita.",
+      price: "160000",
+      priceCurrency: "CLP",
+      availability: "https://schema.org/InStock",
+      url: `${siteUrl}/precios`,
+    },
+    {
+      "@type": "Offer",
+      name: "Plan Premium: 10 sesiones de kinesiología a domicilio",
+      description: "10 sesiones mensuales de 60 minutos en el domicilio del paciente (35.000 pesos por sesión), con evaluación inicial gratuita.",
+      price: "350000",
+      priceCurrency: "CLP",
+      availability: "https://schema.org/InStock",
+      url: `${siteUrl}/precios`,
+    },
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Servicios de Kinesiología a Domicilio",

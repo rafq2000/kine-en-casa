@@ -1,5 +1,6 @@
 import { Activity, Star, Shield, Phone, MapPin, MessageCircle, Home } from "lucide-react"
 import Link from "next/link"
+import { comunas } from "@/lib/comunas-data"
 
 export function SiteFooter() {
     return (
@@ -77,24 +78,11 @@ export function SiteFooter() {
                     <div>
                         <h4 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">Cobertura</h4>
                         <ul className="space-y-3 text-sm">
-                            <li className="hover:text-amber-400 transition-colors">
-                                <Link href="/kinesiologo-a-domicilio-las-condes">Las Condes</Link>
-                            </li>
-                            <li className="hover:text-amber-400 transition-colors">
-                                <Link href="/kinesiologo-a-domicilio-vitacura">Vitacura</Link>
-                            </li>
-                            <li className="hover:text-amber-400 transition-colors">
-                                <Link href="/kinesiologo-a-domicilio-lo-barnechea">Lo Barnechea</Link>
-                            </li>
-                            <li className="hover:text-amber-400 transition-colors">
-                                <Link href="/kinesiologo-a-domicilio-providencia">Providencia</Link>
-                            </li>
-                            <li className="hover:text-amber-400 transition-colors">
-                                <Link href="/kinesiologo-a-domicilio-la-reina">La Reina</Link>
-                            </li>
-                            <li className="hover:text-amber-400 transition-colors">
-                                <Link href="/kinesiologo-a-domicilio-nunoa">Ñuñoa</Link>
-                            </li>
+                            {comunas.map((c) => (
+                                <li key={c.slug} className="hover:text-amber-400 transition-colors">
+                                    <Link href={`/kinesiologo-a-domicilio-${c.slug}`}>{c.nombre}</Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <div>
