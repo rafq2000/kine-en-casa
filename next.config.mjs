@@ -1,3 +1,5 @@
+import { rutasRetiradas } from './lib/rutas-retiradas.mjs'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
@@ -8,6 +10,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Comunas fuera de cobertura desde el 29-09-2026 (solo sector oriente)
+      ...rutasRetiradas.map((r) => ({ source: r.de, destination: r.a, permanent: true })),
       {
         source: '/blog/drenaje-linfatico-manual',
         destination: '/blog/drenaje-linfatico-post-operatorio-domicilio',

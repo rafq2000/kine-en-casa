@@ -51,7 +51,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿En qué comunas de Santiago atienden a domicilio?",
-        acceptedAnswer: { "@type": "Answer", text: "Atendemos toda la Región Metropolitana: desde el sector oriente y el centro hasta Maipú, Puente Alto, San Bernardo, Quilicura y las provincias de Chacabuco, Maipo, Talagante y Melipilla. Puedes revisar tu comuna en la página de cobertura. Todos los tratamientos se realizan en tu hogar." }
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente; si tu comuna no está en la lista, escríbenos igual y te decimos con honestidad si podemos llegar." }
       },
       {
         "@type": "Question",
@@ -71,7 +71,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Cuándo pueden llegar a mi casa?",
-        acceptedAnswer: { "@type": "Answer", text: "En las comunas del Gran Santiago la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. En las comunas más alejadas de la Región Metropolitana la agendamos según disponibilidad y te confirmamos el horario antes de que decidas." }
+        acceptedAnswer: { "@type": "Answer", text: "En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. Te confirmamos el horario antes de que decidas." }
       },
       {
         "@type": "Question",
@@ -767,8 +767,8 @@ export default function HomePage() {
               <MapPin className="h-10 w-10 mx-auto mb-4 text-amber-400" />
               <h3 className="font-bold text-xl mb-3">Cobertura Completa</h3>
               <p className="text-slate-300 leading-relaxed">
-                Atendemos toda la Región Metropolitana, comuna por comuna: sector oriente, centro, norte, poniente y
-                sur, más Puente Alto, San Bernardo y las provincias de Chacabuco, Maipo, Talagante y Melipilla.
+                Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago
+                Centro. Cada comuna con su propia página y sus sectores.
               </p>
             </div>
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-slate-800/70 transition-all duration-300 border border-slate-700">
@@ -803,16 +803,16 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
               <MapPin className="h-4 w-4 mr-2" />
-              Cobertura Región Metropolitana
+              Cobertura sector oriente
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
               Kinesiólogo a Domicilio en
               <br />
-              <span className="text-amber-700">Toda la Región Metropolitana</span>
+              <span className="text-amber-700">el Sector Oriente de Santiago</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Atendemos en el domicilio del paciente en las comunas de la Región Metropolitana. Entra a tu comuna para
-              ver los sectores que cubrimos, o revisa la{" "}
+              Atendemos en el domicilio del paciente en 9 comunas del sector oriente de Santiago. Entra a tu comuna
+              para ver los sectores que cubrimos, o revisa la{" "}
               <a href="/cobertura" className="text-amber-700 font-medium hover:underline">
                 cobertura completa comuna por comuna
               </a>
@@ -999,7 +999,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
-              <p className="text-slate-600">Atendemos toda la Región Metropolitana: desde el sector oriente y el centro hasta Maipú, Puente Alto, San Bernardo, Quilicura y las provincias de Chacabuco, Maipo, Talagante y Melipilla. Puedes revisar tu comuna en la página de cobertura. Todos los tratamientos se realizan en tu hogar.</p>
+              <p className="text-slate-600">Atendemos el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente; si tu comuna no está en la lista, escríbenos igual y te decimos con honestidad si podemos llegar.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
@@ -1015,7 +1015,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuándo pueden llegar a mi casa?</h3>
-              <p className="text-slate-600">En las comunas del Gran Santiago la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. En las comunas más alejadas de la Región Metropolitana la agendamos según disponibilidad y te confirmamos el horario antes de que decidas.</p>
+              <p className="text-slate-600">En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. Te confirmamos el horario antes de que decidas.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuánto dura una sesión de kinesiología a domicilio?</h3>

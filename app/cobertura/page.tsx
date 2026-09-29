@@ -11,19 +11,19 @@ const TEL_DISPLAY = "+56 9 9967 9593"
 const URL = "https://kineum.cl/cobertura"
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio: Comunas de la RM | KINEUM",
+    title: "Kinesiólogo a Domicilio: Comunas del Oriente | KINEUM",
     description:
-        "Las comunas de la Región Metropolitana donde KINEUM atiende kinesiología a domicilio, con página propia por comuna. Evaluación inicial gratuita.",
+        "Las 9 comunas del sector oriente de Santiago donde KINEUM atiende kinesiología a domicilio, cada una con su propia página. Evaluación inicial gratuita.",
     keywords: [
-        "kinesiología a domicilio región metropolitana",
+        "kinesiología a domicilio sector oriente",
         "kinesiólogo a domicilio santiago comunas",
         "cobertura kinesiología a domicilio",
         "kinesiólogo a domicilio cerca de mí",
     ],
     alternates: { canonical: URL },
     openGraph: {
-        title: "Cobertura de KINEUM en la Región Metropolitana",
-        description: "Kinesiología a domicilio comuna por comuna en la Región Metropolitana.",
+        title: "Cobertura de KINEUM en el sector oriente de Santiago",
+        description: "Kinesiología a domicilio comuna por comuna en el sector oriente de Santiago.",
         url: URL,
         type: "website",
         locale: "es_CL",
@@ -33,10 +33,7 @@ export const metadata: Metadata = {
 
 const ZONAS: { id: ZonaComuna; titulo: string; texto: string }[] = [
     { id: "oriente", titulo: "Sector oriente", texto: "Donde partió KINEUM: la mayor demanda de rehabilitación domiciliaria de Santiago." },
-    { id: "centro", titulo: "Santiago centro y pericentro", texto: "Edificios antiguos, departamentos sin ascensor y mucha población adulta mayor viviendo sola." },
-    { id: "norte", titulo: "Sector norte", texto: "Comunas que crecieron rápido y quedan lejos de los centros de rehabilitación del oriente." },
-    { id: "poniente", titulo: "Sector poniente y provincias de Talagante y Melipilla", texto: "Viviendas de uno o dos pisos, patios y traslados largos al centro: el domicilio ahorra horas de viaje." },
-    { id: "sur", titulo: "Sector sur, Puente Alto, Maipo y Cordillera", texto: "Alta demanda de rehabilitación tras cirugías y de kinesiología respiratoria infantil en invierno." },
+    { id: "centro", titulo: "Santiago centro", texto: "Edificios antiguos, departamentos sin ascensor y mucha población adulta mayor viviendo sola." },
 ]
 
 export default function Page() {
@@ -108,20 +105,20 @@ export default function Page() {
                     <div className="max-w-4xl">
                         <Badge className="mb-5 bg-slate-900 text-white border-slate-800 px-4 py-1.5">
                             <MapPin className="h-3.5 w-3.5 mr-2" />
-                            Región Metropolitana
+                            Sector oriente de Santiago
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
-                            Kinesiología a Domicilio en la <span className="text-amber-700">Región Metropolitana</span>
+                            Kinesiólogo a Domicilio en el <span className="text-amber-700">Sector Oriente de Santiago</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-4 max-w-3xl">
-                            Atendemos {comunas.length} comunas de la Región Metropolitana. Cada comuna tiene su propia
-                            página con los sectores que cubrimos, los centros de salud de referencia y cómo se coordina
-                            la primera visita.
+                            Atendemos {comunas.length} comunas del sector oriente de Santiago. Cada una tiene su
+                            propia página con los sectores que cubrimos, los centros de salud de referencia y cómo se
+                            coordina la primera visita.
                         </p>
                         <p className="text-base text-slate-600 leading-relaxed mb-8 max-w-3xl">
-                            En las comunas del Gran Santiago la primera visita se coordina habitualmente dentro de 24
-                            horas. En las comunas más alejadas la agendamos según disponibilidad; escríbenos y te
-                            confirmamos el horario antes de que decidas.
+                            La primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día,
+                            muchas veces el mismo día. Si tu comuna no está en la lista, escríbenos igual: preferimos
+                            decirte de frente si podemos llegar antes de que pierdas tiempo.
                         </p>
                         <a
                             href={`https://wa.me/56999679593?text=${encodeURIComponent("Hola, quiero saber si atienden kinesiología a domicilio en mi comuna")}`}
@@ -159,9 +156,7 @@ export default function Page() {
                                                     {c.nombre}
                                                 </span>
                                                 <span className="block text-xs text-slate-500">
-                                                    {c.cobertura === "full"
-                                                        ? "Hub + 5 especialidades"
-                                                        : "Visitas coordinadas según agenda"}
+                                                    Las 5 especialidades, con sus sectores
                                                 </span>
                                             </span>
                                             <ChevronRight className="h-4 w-4 text-slate-400 group-hover:text-amber-600 flex-shrink-0" />
@@ -195,8 +190,8 @@ export default function Page() {
                             ))}
                         </div>
                         <p className="text-sm text-slate-500 mt-6">
-                            {conPagina.length} comunas tienen además una página por especialidad con el detalle clínico
-                            local.
+                            Cada una de las {conPagina.length} comunas tiene además una página por especialidad, con el
+                            detalle clínico y los centros de salud de referencia de ese sector.
                         </p>
                     </div>
                 </div>

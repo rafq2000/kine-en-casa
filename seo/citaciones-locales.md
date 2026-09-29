@@ -18,7 +18,7 @@ Orden de impacto: 1) ficha de Google, 2) directorios de salud, 3) directorios ge
 | Email | contacto@kineum.cl |
 | Razón social | Kineum SpA — RUT 76.892.102-K |
 | Dirección | Av. Apoquindo 4501, Las Condes (dirección comercial: **ocultarla** y marcar "atiendo a domicilio") |
-| Área de servicio | Región Metropolitana de Santiago |
+| Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro |
 | Categoría principal | Fisioterapeuta / Kinesiólogo |
 | Categorías secundarias | Servicio de rehabilitación, Atención domiciliaria de salud |
 | Horario | Lunes a viernes 08:00–20:00 · Sábado 09:00–18:00 · Domingo 10:00–16:00 |
@@ -36,8 +36,8 @@ en todos lados. Un teléfono distinto en un directorio rompe la señal en vez de
 
 1. Entrar a https://business.google.com con la cuenta que administra el sitio.
 2. Crear el perfil como **negocio de área de servicio**: al preguntar por la dirección,
-   marcar que no se atiende a clientes en ella y definir el área = Región Metropolitana
-   (o las comunas donde de verdad se atiende).
+   marcar que no se atiende a clientes en ella y definir el área con las 9 comunas de
+   cobertura, ni una más: un área inflada trae consultas que no se pueden atender.
 3. Verificación: Google suele pedir video. Tener a mano el equipamiento (camilla, TENS,
    ultrasonido), el vehículo si lo hay y documentación de Kineum SpA.
 4. Completar todo: categorías, horario, servicios (uno por especialidad), fotos reales de
