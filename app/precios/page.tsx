@@ -24,7 +24,7 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Kinesiólogo a Domicilio: $35.000 la Sesión | KINEUM",
+  title: "Valor Kinesiólogo a Domicilio: $35.000 por Sesión | KINEUM",
   description:
     "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
   keywords: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/precios",
   },
   openGraph: {
-    title: "Kinesiólogo a Domicilio: $35.000 la Sesión | KINEUM",
+    title: "Valor Kinesiólogo a Domicilio: $35.000 por Sesión | KINEUM",
     description:
       "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
     url: "https://kineum.cl/precios",

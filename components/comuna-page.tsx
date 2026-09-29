@@ -272,7 +272,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 <div className="container mx-auto px-4">
                     <div className="max-w-5xl">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif mb-4">
-                            Kinesiología a domicilio en {data.nombre} por especialidad
+                            Kine a domicilio en {data.nombre}: las 5 especialidades
                         </h2>
                         <p className="text-lg text-slate-600 mb-10 max-w-3xl">
                             Cada especialidad tiene su página con lo que tratamos, cómo es la sesión en tu casa y qué
@@ -412,7 +412,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif mb-10">
-                            Preguntas sobre kinesiología a domicilio en {data.nombre}
+                            Preguntas sobre kine a domicilio en {data.nombre}
                         </h2>
                         <div className="space-y-5">
                             {faqs.map((f) => (
