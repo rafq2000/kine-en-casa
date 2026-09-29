@@ -59,10 +59,6 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
             q: `¿Cuánto demoran en llegar a ${com.nombre}?`,
             a: `Coordinamos la primera visita ${com.llegada}. La evaluación inicial es gratuita y sin compromiso.`,
         },
-        {
-            q: `¿Emiten boleta para reembolso en ${com.nombre}?`,
-            a: "Sí. Emitimos boleta de honorarios electrónica el mismo día, reembolsable en tu Isapre según la cobertura de tu plan, y en tu seguro complementario si tienes uno.",
-        },
     ]
 
     // Servicio prestado por la unica entidad KINEUM en esta comuna (nada de sucursales ficticias)

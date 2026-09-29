@@ -265,7 +265,7 @@ export default function TestimoniosPage() {
                             <div className="bg-blue-50 p-3 rounded-xl">
                                 <Users className="h-6 w-6 text-blue-500" />
                             </div>
-                            <div className="text-sm font-medium text-slate-900">Región Metropolitana</div>
+                            <div className="text-sm font-medium text-slate-900">Sector oriente de Santiago</div>
                             <div className="text-xs text-slate-500">atención en tu domicilio</div>
                         </div>
                         <div className="flex flex-col items-center gap-2">

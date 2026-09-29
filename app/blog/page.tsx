@@ -218,7 +218,7 @@ export default function BlogPage() {
                 <MapPin className="h-4 w-4 mr-2" /> Comunas
               </h3>
               <ul className="space-y-1.5 text-sm">
-                {["las-condes", "vitacura", "providencia", "nunoa", "la-reina", "lo-barnechea", "la-florida", "penalolen", "macul"].map((c) => (
+                {["las-condes", "vitacura", "providencia", "nunoa", "la-reina", "lo-barnechea", "penalolen", "macul", "santiago-centro"].map((c) => (
                   <li key={c}>
                     <Link href={`/kinesiologo-a-domicilio-${c}`} className="text-slate-600 hover:text-amber-700 capitalize">
                       Kinesiólogo en {c.replace(/-/g, " ")}

@@ -298,8 +298,8 @@ export default function HomePage() {
                 <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="h-8 w-8 text-slate-700" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 text-slate-900">Cobertura Santiago</h3>
-                <p className="text-slate-600 font-medium">La Florida, Zona Central y Sector Oriente</p>
+                <h3 className="font-bold text-lg mb-2 text-slate-900">Cobertura Santiago oriente</h3>
+                <p className="text-slate-600 font-medium">9 comunas del sector oriente</p>
               </div>
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200">
                 <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">

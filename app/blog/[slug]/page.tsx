@@ -8,6 +8,7 @@ import Image from "next/image"
 import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { especialidades } from "@/lib/especialidades-data"
+import { comunas } from "@/lib/comunas-data"
 
 interface BlogPostProps {
     params: Promise<{
@@ -268,9 +269,20 @@ export default async function BlogPost({ params }: BlogPostProps) {
                         </Link>{" "}
                         o{" "}
                         <Link href="/cobertura" className="text-amber-700 font-medium hover:underline">
-                            tu comuna en la Región Metropolitana
+                            nuestra cobertura
                         </Link>
                         .
+                    </p>
+                    <p className="text-slate-600 mt-3">
+                        Kinesiólogo a domicilio en{" "}
+                        {comunas.map((c, i) => (
+                            <span key={c.slug}>
+                                <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-amber-700 font-medium hover:underline">
+                                    {c.nombre}
+                                </Link>
+                                {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : "."}
+                            </span>
+                        ))}
                     </p>
                 </div>
             </article>

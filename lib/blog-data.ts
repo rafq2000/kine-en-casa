@@ -113,7 +113,7 @@ export const blogPosts = [
 <li><strong>Los avances se miden distinto.</strong> Tolerar veinte minutos sentado, girarse solo, colaborar en el traslado, dejar de tener la piel enrojecida: eso es progreso real en este contexto.</li>
 <li><strong>Los retrocesos existen.</strong> Una infección o unos días de cama extra pueden costar semanas de avance. No es culpa de nadie.</li>
 </ul>
-<p>Nuestro trabajo con adultos mayores dependientes está descrito en <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, y los valores de los planes mensuales, que incluyen sesiones de alrededor de 60 minutos de lunes a domingo, están en <a href="/precios">nuestra página de precios</a>. Atendemos en la Región Metropolitana; puedes revisar las comunas en <a href="/cobertura">nuestra cobertura</a>.</p>
+<p>Nuestro trabajo con adultos mayores dependientes está descrito en <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, y los valores de los planes mensuales, que incluyen sesiones de alrededor de 60 minutos de lunes a domingo, están en <a href="/precios">nuestra página de precios</a>. Atendemos en el sector oriente de Santiago (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro); puedes revisar cada comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 
@@ -142,7 +142,7 @@ export const blogPosts = [
 <p>Enseña, y es parte del plan. Recomendamos que quien cuida esté presente al menos en las primeras sesiones para aprender las transferencias, los cambios de posición y la rutina de ejercicios.</p>
 
 <h3>¿Qué pasa si vivimos lejos del centro de Santiago?</h3>
-<p>Atendemos a domicilio en toda la Región Metropolitana. Revisa las comunas disponibles y, si la tuya no aparece, escríbenos igual y te confirmamos.</p>
+<p>Atendemos a domicilio en el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Revisa las comunas disponibles y, si la tuya no aparece, escríbenos igual y te confirmamos.</p>
 
 <p>Sabemos que cuidar a alguien que no se levanta cansa, y que muchas veces la familia llega a pedir ayuda cuando ya está al límite. Si quieres saber qué se puede hacer en tu caso concreto, la <strong>evaluación inicial es gratuita</strong>: vamos a la casa, vemos a la persona, revisamos el entorno y te decimos con honestidad qué es realista esperar. <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20para%20un%20paciente%20postrado%20en%20casa">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos la visita.</p>`
   },
@@ -217,14 +217,14 @@ export const blogPosts = [
 <li><strong>En qué comuna están</strong>, porque de eso depende cuán rápido podemos llegar.</li>
 <li><strong>Si hay orden o indicación médica</strong>, y si vienen saliendo de una consulta o de un alta hospitalaria.</li>
 </ul>
-<p>Con eso te decimos de inmediato dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En las comunas del Gran Santiago la primera visita habitualmente se coordina dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. En las comunas más alejadas de la Región Metropolitana la agendamos según disponibilidad y te confirmamos el horario antes de que decidas nada. Puedes revisar dónde llegamos en <a href="/cobertura">nuestra cobertura en la Región Metropolitana</a>.</p>
+<p>Con eso te decimos de inmediato dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En nuestras comunas de cobertura la primera visita habitualmente se coordina dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro: revisa tu comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
 <p>Atendemos de lunes a domingo y la <strong>evaluación inicial es gratuita</strong>: el kinesiólogo llega, evalúa, te explica lo que ve y recién ahí se define si hace falta un plan de sesiones y de cuántas. Los valores por sesión y por plan están en <a href="/precios">precios y planes</a>.</p>
 <p>Sobre la orden médica: si no la tienes, escríbenos igual, pero conviene que sepas que el tratamiento kinesiológico en Chile se aplica con indicación médica escrita y que tu Isapre o seguro complementario te la va a pedir para reembolsar. Lo explicamos completo en <a href="/blog/kinesiologo-sin-orden-medica">¿puedo ir al kinesiólogo sin orden médica?</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 
 <h3>¿Puedo conseguir un kinesiólogo a domicilio hoy mismo en Santiago?</h3>
-<p>En muchos casos sí, sobre todo en las comunas del Gran Santiago, donde la primera visita suele coordinarse dentro de 24 horas y a menudo el mismo día según la agenda. No lo podemos prometer para toda la Región Metropolitana ni para cualquier hora: escríbenos con tu comuna y te confirmamos el horario real antes de que te comprometas.</p>
+<p>En muchos casos sí: en nuestras comunas del sector oriente la primera visita suele coordinarse dentro de 24 horas y a menudo el mismo día según la agenda. No lo podemos prometer para cualquier hora: escríbenos con tu comuna y te confirmamos el horario real antes de que te comprometas.</p>
 
 <h3>¿Atienden kinesiología a domicilio el fin de semana?</h3>
 <p>Sí, trabajamos de lunes a domingo. Los fines de semana son justamente cuando más consultas urgentes llegan, porque los centros están cerrados y la familia está en casa. La disponibilidad depende de la agenda de ese día, así que conviene escribir apenas aparece el problema y no esperar al lunes.</p>
@@ -325,7 +325,7 @@ export const blogPosts = [
 <h3>¿Necesito orden médica para una sesión a domicilio?</h3>
 <p>Puedes pedir una evaluación, pero el reglamento que en LeyChile aparece como no derogado establece que el tratamiento kinesiológico se aplica por indicación y orden médica escrita, y tu Isapre o seguro te la va a pedir para reembolsar.</p>
 <h3>¿En qué comunas de Santiago atienden a domicilio?</h3>
-<p>KINEUM atiende de lunes a domingo en varias comunas de la Región Metropolitana; puedes revisar el listado actualizado en la <a href="/cobertura">página de cobertura</a>. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la atención es particular y con boleta.</p>
+<p>KINEUM atiende de lunes a domingo en el sector oriente de Santiago (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro); puedes revisar el listado actualizado en la <a href="/cobertura">página de cobertura</a>. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la atención es particular y con boleta.</p>
 
 <p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita, dura cerca de una hora y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos el día y la hora que te acomode.</p>`
   },
@@ -415,7 +415,7 @@ export const blogPosts = [
 <h3>¿Sirve la orden para kinesiología a domicilio?</h3>
 <p>Según la Circular 393, la atención kinesiológica integral puede hacerse en el domicilio. Igual revisa con tu Isapre o tu seguro las condiciones de tu plan o póliza. Si quieres saber qué esperar, lee <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
 
-<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te orientamos.</p>`
+<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te orientamos.</p>`
   },
   {
     slug: "como-es-una-sesion-de-kinesiologia-a-domicilio",
@@ -631,7 +631,7 @@ export const blogPosts = [
 <h3>¿La kinesiología reemplaza el control con mi médico?</h3>
 <p>No. La complementa. Si tienes un diagnóstico en estudio, síntomas que empeoran o una cirugía reciente, el médico tratante sigue siendo quien define el diagnóstico y los límites del tratamiento.</p>
 
-<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te contamos cómo seguir.</p>`
+<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te contamos cómo seguir.</p>`
   },
   {
     slug: "cuanto-cobra-kinesiologo-particular",
@@ -703,7 +703,7 @@ export const blogPosts = [
 <li><strong>Premium:</strong> $350.000 al mes por 10 sesiones ($35.000 por sesión).</li>
 <li><strong>Elite:</strong> a consultar.</li>
 </ul>
-<p>Frente a las tarifas a domicilio publicadas en Santiago que revisamos (aproximadamente $35.000 a $50.000 por sesión), el plan Premium queda en la parte baja del rango y el Essential, dentro de él. Revisa el detalle en nuestra página de <a href="/precios">precios y planes de KINEUM</a>. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+<p>Frente a las tarifas a domicilio publicadas en Santiago que revisamos (aproximadamente $35.000 a $50.000 por sesión), el plan Premium queda en la parte baja del rango y el Essential, dentro de él. Revisa el detalle en nuestra página de <a href="/precios">precios y planes de KINEUM</a>. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
 <h2>Preguntas frecuentes sobre el precio de la kinesiología</h2>
 <h3>¿Cuánto cuesta una consulta de kinesiología en Santiago?</h3>
@@ -799,7 +799,7 @@ export const blogPosts = [
 <li>Boleta de honorarios electrónica, reembolsable en tu isapre y en seguros complementarios. El reembolso lo pides tú con esa boleta: KINEUM no tiene convenio con isapres.</li>
 </ul>
 <p>Frente a las tarifas publicadas que citamos arriba, $35.000 por sesión queda en la parte baja del rango a domicilio en Santiago. Si necesitas menos sesiones, el Plan Essential son 4 sesiones al mes por $160.000 ($40.000 cada una). El detalle está en <a href="/precios">precios y planes de KINEUM</a>.</p>
-<p>Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro, por ejemplo en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> y <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a>.</p>
+<p>Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro, por ejemplo en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> y <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a>.</p>
 
 <h2>Preguntas frecuentes sobre el precio de 10 sesiones de kinesiología</h2>
 
@@ -903,7 +903,7 @@ export const blogPosts = [
 <p>No. La kinesiología complementa la atención médica. Ante síntomas nuevos, dolor que empeora o señales de alarma, consulta a tu médico; en una emergencia, llama al SAMU (131).</p>
 
 <h3>¿En qué comunas atiende KINEUM a domicilio?</h3>
-<p>Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+<p>Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
 <p>Si todavía no sabes qué te conviene, conversémoslo. La evaluación inicial es gratuita y te decimos con honestidad si tu caso se beneficia de la atención en casa o si te conviene más un centro. <a href="https://wa.me/56999679593?text=Hola%2C%20quiero%20saber%20si%20me%20conviene%20la%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
   },
@@ -1042,7 +1042,7 @@ export const blogPosts = [
       <p>En Santiago, una sesión individual de kinesiología a domicilio va aproximadamente de <strong>$35.000 a $50.000 CLP</strong> según tarifas publicadas por servicios de Santiago revisadas en septiembre de 2026, y puede subir cerca de $60.000 en fines de semana, festivos o con recargo por distancia. El valor depende de tres factores:</p>
       <ul>
         <li><strong>Especialidad:</strong> la kinesiología respiratoria infantil o la neurorehabilitación post-ACV suelen costar más que una sesión motora estándar, porque requieren mayor especialización y equipamiento.</li>
-        <li><strong>Comuna y desplazamiento:</strong> algunos servicios cobran recargo por distancia. En KINEUM no aplicamos recargos dentro de nuestra zona de cobertura (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro).</li>
+        <li><strong>Comuna y desplazamiento:</strong> algunos servicios cobran recargo por distancia. En KINEUM no aplicamos recargos dentro de nuestra zona de cobertura (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro).</li>
         <li><strong>Equipamiento:</strong> una sesión con camilla profesional, TENS y ultrasonido vale más que una visita sin implementos, y la diferencia clínica es real.</li>
       </ul>
 
@@ -1248,7 +1248,7 @@ export const blogPosts = [
       <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con la orden del pediatra puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> la boleta que emitimos, y el copago restante en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
 
       <h2>Cobertura en Santiago</h2>
-      <p>Atendemos KTR infantil y de adultos en <a href="/kinesiologia-respiratoria-las-condes">Las Condes</a>, <a href="/kinesiologia-respiratoria-vitacura">Vitacura</a>, <a href="/kinesiologia-respiratoria-providencia">Providencia</a>, <a href="/kinesiologia-respiratoria-nunoa">Ñuñoa</a>, <a href="/kinesiologia-respiratoria-la-reina">La Reina</a>, <a href="/kinesiologia-respiratoria-lo-barnechea">Lo Barnechea</a>, <a href="/kinesiologia-respiratoria-penalolen">Peñalolén</a>, <a href="/kinesiologia-respiratoria-la-florida">La Florida</a>, <a href="/kinesiologia-respiratoria-macul">Macul</a>, <a href="/kinesiologia-respiratoria-san-joaquin">San Joaquín</a> y <a href="/kinesiologia-respiratoria-santiago-centro">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
+      <p>Atendemos KTR infantil y de adultos en <a href="/kinesiologia-respiratoria-las-condes">Las Condes</a>, <a href="/kinesiologia-respiratoria-vitacura">Vitacura</a>, <a href="/kinesiologia-respiratoria-providencia">Providencia</a>, <a href="/kinesiologia-respiratoria-nunoa">Ñuñoa</a>, <a href="/kinesiologia-respiratoria-la-reina">La Reina</a>, <a href="/kinesiologia-respiratoria-lo-barnechea">Lo Barnechea</a>, <a href="/kinesiologia-respiratoria-penalolen">Peñalolén</a>, <a href="/kinesiologia-respiratoria-macul">Macul</a> y <a href="/kinesiologia-respiratoria-santiago-centro">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a>.</p>
 
       <p><strong>¿Tu pediatra indicó KTR y quieres atención hoy?</strong> <a href="https://wa.me/56999679593?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> — en invierno priorizamos los casos respiratorios infantiles y coordinamos en el día.</p>
     `
@@ -1379,7 +1379,7 @@ export const blogPosts = [
       </ul>
 
       <h2>Precio y reembolso</h2>
-      <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y en tu seguro complementario cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>
+      <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y en tu seguro complementario cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
       <p><strong>¿Tienes cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu protocolo desde la primera semana (lee también nuestra <a href="/blog/drenaje-linfatico-post-operatorio-domicilio">guía general de drenaje linfático</a>).</p>
     `
@@ -1826,7 +1826,7 @@ export const blogPosts = [
       </ul>
 
       <h2>Cuándo conviene tratarse en casa</h2>
-      <p>Con un hombro adolorido, trasladarte es parte del problema: manejar, subir al transporte público y cargar el bolso son justo los gestos que lo irritan. En casa entrenas además con tus propias repisas, tu cama y tu silla de trabajo, que es donde el hombro realmente falla. Comparamos ambas modalidades en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. El kinesiólogo llega con camilla, bandas, pesas y electroterapia a comunas como <a href="/kinesiologia-traumatologica-las-condes">Las Condes, con kinesiología traumatológica a domicilio</a>, Providencia, Ñuñoa, La Florida o Santiago Centro; el servicio completo está en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio en Santiago</a>.</p>
+      <p>Con un hombro adolorido, trasladarte es parte del problema: manejar, subir al transporte público y cargar el bolso son justo los gestos que lo irritan. En casa entrenas además con tus propias repisas, tu cama y tu silla de trabajo, que es donde el hombro realmente falla. Comparamos ambas modalidades en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. El kinesiólogo llega con camilla, bandas, pesas y electroterapia a comunas como <a href="/kinesiologia-traumatologica-las-condes">Las Condes, con kinesiología traumatológica a domicilio</a>, Providencia, Ñuñoa, Macul o Santiago Centro; el servicio completo está en <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio en Santiago</a>.</p>
 
       <h2>Preguntas frecuentes</h2>
 
@@ -1952,7 +1952,7 @@ export const blogPosts = [
 <p>La evaluación inicial es gratuita; el plan Essential son $160.000 al mes por 4 sesiones y el Premium $350.000 por 10, y el Elite se cotiza según el caso. Emitimos boleta de honorarios electrónica: lo que te devuelvan depende de la cobertura de tu plan y el trámite está explicado en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso en tu Isapre</a>.</p>
 
 <h3>¿Atienden en mi comuna?</h3>
-<p>Atendemos a domicilio en Santiago, en buena parte de la Región Metropolitana y de lunes a domingo. Revisa el detalle en la página de <a href="/cobertura">cobertura</a> o pregúntanos por tu sector.</p>
+<p>Atendemos a domicilio de lunes a domingo en el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Revisa el detalle en la página de <a href="/cobertura">cobertura</a> o pregúntanos por tu sector.</p>
 
 <p>Si la rodilla lleva meses decidiendo lo que puedes hacer y lo que no, el primer paso no cuesta nada: una evaluación en tu casa y una pauta de ejercicios hecha para tu rodilla. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20artrosis%20de%20rodilla%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp y agenda tu evaluación gratuita</a>, o llámanos al +56 9 9967 9593.</p>`
   },
@@ -2091,7 +2091,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Cuándo conviene atenderse en casa</h2>
-<p>La ventaja del domicilio acá no es solo comodidad. El kinesiólogo ve el escritorio donde pasas ocho horas, la altura real de tu silla, la herramienta con la que trabajas y la posición en que duermes, que es cuando aparece el síntoma. Eso no se corrige describiéndolo de memoria en una consulta. Si estás pesando las dos opciones, revisa <a href="/blog/kinesiologia-a-domicilio-o-en-centro">cuándo conviene kinesiología a domicilio o en centro</a>. Atendemos en la Región Metropolitana de lunes a domingo: mira nuestra <a href="/cobertura">cobertura por comuna</a>.</p>
+<p>La ventaja del domicilio acá no es solo comodidad. El kinesiólogo ve el escritorio donde pasas ocho horas, la altura real de tu silla, la herramienta con la que trabajas y la posición en que duermes, que es cuando aparece el síntoma. Eso no se corrige describiéndolo de memoria en una consulta. Si estás pesando las dos opciones, revisa <a href="/blog/kinesiologia-a-domicilio-o-en-centro">cuándo conviene kinesiología a domicilio o en centro</a>. Atendemos de lunes a domingo en el sector oriente de Santiago: mira nuestra <a href="/cobertura">cobertura por comuna</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 <h3>¿El túnel carpiano se puede mejorar sin operación?</h3>
@@ -2189,7 +2189,7 @@ export const blogPosts = [
 
 <h2>Cuándo conviene tratarte en casa: kinesiólogo a domicilio en Santiago</h2>
 <p>Con un pie que duele al apoyar, trasladarse a un centro es lo que menos ayuda. En casa el kinesiólogo ve tus zapatos reales, tu escalera y el piso donde das los primeros pasos. Comparamos ambas opciones en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>.</p>
-<p>Atendemos con <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> en Las Condes, Providencia, Ñuñoa, Vitacura, La Reina, Lo Barnechea, Macul, Peñalolén, La Florida, San Joaquín y Santiago Centro, entre otras comunas de <a href="/cobertura">nuestra cobertura en Santiago</a>. Somos un servicio particular: emitimos boleta de honorarios electrónica y no tenemos convenio con clínicas, hospitales ni isapres.</p>
+<p>Atendemos con <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> en Las Condes, Providencia, Ñuñoa, Vitacura, La Reina, Lo Barnechea, Macul, Peñalolén y Santiago Centro: revisa <a href="/cobertura">nuestra cobertura en el sector oriente</a>. Somos un servicio particular: emitimos boleta de honorarios electrónica y no tenemos convenio con clínicas, hospitales ni isapres.</p>
 
 <h2>Preguntas frecuentes sobre la fascitis plantar</h2>
 
@@ -2500,8 +2500,8 @@ export const blogPosts = [
 <p>Puede dar alivio en momentos puntuales, por ejemplo en un viaje largo. Como solución permanente no se recomienda: no trata la causa y es fácil que termine ocupando el lugar del ejercicio, que es lo que sí cambia el pronóstico.</p>
 <h3>¿Y si igual me operan?</h3>
 <p>El trabajo previo no se pierde: llegar a pabellón con mejor control motor y mejor condición general facilita la recuperación posterior. Después de la cirugía, la rehabilitación se hace dentro de las restricciones que indique tu cirujano.</p>
-<h3>¿Atienden en toda la Región Metropolitana?</h3>
-<p>No, en toda la Región Metropolitana no. Hoy llegamos a Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro. Puedes confirmar la tuya en nuestras <a href="/cobertura">comunas con cobertura en Santiago</a>.</p>
+<h3>¿En qué comunas atienden?</h3>
+<p>En el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Puedes confirmar la tuya en nuestras <a href="/cobertura">comunas con cobertura en Santiago</a>.</p>
 
 <p>¿Te diagnosticaron una hernia y quieres agotar bien el camino conservador antes de decidir sobre una cirugía? <a href="https://wa.me/56999679593?text=Hola,%20tengo%20una%20hernia%20discal%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y agenda tu evaluación inicial gratuita a domicilio: te decimos con franqueza qué se puede hacer, cuántas sesiones estimamos y cuándo corresponde volver a tu médico.</p>`
   },
@@ -2645,7 +2645,7 @@ export const blogPosts = [
 <h3>¿Voy a volver a caminar sin bastón y a poder arrodillarme?</h3>
 <p>No podemos prometerte un resultado ni una fecha: depende de tu cirugía, de tu estado previo y de tu evolución. Arrodillarse, en particular, les sigue resultando incómodo a muchos aun con una prótesis que funciona bien, y conviene conversarlo con tu traumatólogo.</p>
 
-<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/56999679593?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes —con el detalle en <a href="/rehabilitacion-postquirurgica-las-condes">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, La Florida, Macul, San Joaquín y Santiago Centro.</p>`
+<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/56999679593?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes —con el detalle en <a href="/rehabilitacion-postquirurgica-las-condes">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>`
   },
   {
     slug: "cervicalgia-mareos",

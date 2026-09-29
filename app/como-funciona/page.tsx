@@ -132,7 +132,7 @@ const faqSchema = {
       name: "En que comunas de Santiago atienden?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, La Florida, Penalolen, Macul, San Joaquin y Santiago Centro, entre otras comunas.",
+        text: "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro, entre otras comunas.",
       },
     },
     {
@@ -235,7 +235,7 @@ const faqs = [
   {
     question: "En que comunas de Santiago atienden?",
     answer:
-      "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, La Florida, Penalolen, Macul, San Joaquin y Santiago Centro, entre otras comunas del sector oriente y sur.",
+      "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro, entre otras comunas del sector oriente y sur.",
   },
   {
     question: "Como funciona el reembolso con Isapre?",
