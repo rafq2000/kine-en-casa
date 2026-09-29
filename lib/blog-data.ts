@@ -1084,7 +1084,7 @@ export const blogPosts = [
 
       <blockquote>"El costo real de no rehabilitarse —cronificación del dolor, nueva cirugía, pérdida de independencia— siempre es mayor que el de un buen tratamiento a tiempo."</blockquote>
 
-      <p><strong>¿Quieres una cotización exacta para tu caso?</strong> Escríbenos por <a href="https://wa.me/56999679593?text=Hola,%20quiero%20cotizar%20kinesiolog%C3%ADa%20a%20domicilio">WhatsApp al +56 9 9967 9593</a> y en menos de 5 minutos te confirmamos precio y disponibilidad en tu comuna, o revisa <a href="/como-funciona">cómo funciona el servicio</a>.</p>
+      <p><strong>¿Quieres una cotización exacta para tu caso?</strong> Escríbenos por <a href="https://wa.me/56999679593?text=Hola,%20quiero%20cotizar%20kinesiolog%C3%ADa%20a%20domicilio">WhatsApp al +56 9 9967 9593</a> y te confirmamos precio y disponibilidad en tu comuna, o revisa <a href="/como-funciona">cómo funciona el servicio</a>.</p>
     `
   },
   {

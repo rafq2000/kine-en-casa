@@ -283,7 +283,7 @@ export default function HomePage() {
             <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
               Kinesiólogos titulados que llegan a tu casa con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
               <br />
-              Agendamos hoy. Vamos hoy.
+              Primera visita habitualmente dentro de 24 horas.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
@@ -295,7 +295,7 @@ export default function HomePage() {
                 <MessageCircle className="h-6 w-6 mr-3" />
                 <span className="flex flex-col items-start text-left">
                   <span className="font-bold">Verificar Disponibilidad</span>
-                  <span className="text-xs font-normal opacity-90">Respuesta en menos de 5 min</span>
+                  <span className="text-xs font-normal opacity-90">Te respondemos por WhatsApp</span>
                 </span>
               </Button>
             </div>
@@ -320,7 +320,7 @@ export default function HomePage() {
                   <UserCheck className="h-8 w-8 text-slate-700" />
                 </div>
                 <h3 className="font-bold text-lg mb-2 text-slate-900">Profesionales Certificados</h3>
-                <p className="text-slate-600 font-medium">+5 años de experiencia</p>
+                <p className="text-slate-600 font-medium">Titulados y con equipamiento</p>
               </div>
             </div>
           </div>
