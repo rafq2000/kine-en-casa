@@ -1050,7 +1050,7 @@ export const blogPosts = [
       <p>La mayoría de los tratamientos kinesiológicos requiere entre 8 y 15 sesiones. Comprar un pack baja el valor por sesión de forma importante. Nuestros planes 2026:</p>
       <ul>
         <li><strong>Plan Essential — $160.000</strong> (4 sesiones, $40.000 por sesión): ideal para lesiones leves y mantenimiento.</li>
-        <li><strong>Plan Premium — $350.000</strong> (10 sesiones, $35.000 por sesión): el protocolo completo para rehabilitación post-operatoria, lesiones traumatológicas y neurológicas. Incluye evaluación digital, reportes de progreso y prioridad de agenda.</li>
+        <li><strong>Plan Premium — $350.000</strong> (10 sesiones, $35.000 por sesión): el protocolo completo para rehabilitación post-operatoria, lesiones traumatológicas y neurológicas. Incluye evaluación inicial gratuita, reportes de progreso y prioridad de agenda.</li>
         <li><strong>Plan Elite — a consultar:</strong> sesiones ilimitadas con kinesiólogo dedicado.</li>
       </ul>
       <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong>. Puedes ver el detalle completo en nuestra <a href="/precios">página de precios</a>.</p>

@@ -400,7 +400,7 @@ export default function ComoFuncionaPage() {
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-12">
                 <Badge className="bg-emerald-100 text-emerald-700 border-emerald-200 mb-4 text-sm">
-                  Reembolso Garantizado
+                  Reembolso según tu plan
                 </Badge>
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
                   Reembolso Isapre y Seguros Complementarios

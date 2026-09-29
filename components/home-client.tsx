@@ -156,35 +156,31 @@ export default function HomePage() {
       description: "Para lesiones leves y mantenimiento.",
       icon: Heart,
       features: [
-        "4 Sesiones de Kinesiología (1 hr)",
-        "Seguimiento de evolución básico",
-        "Atención a domicilio garantizada",
-      ],
-      bonuses: [
-        { name: "Evaluación Inicial", value: "$45.000", price: "GRATIS" },
+        "4 sesiones de kinesiología de 60 minutos",
+        "Evaluación inicial gratuita",
+        "Seguimiento de evolución",
+        "Boleta reembolsable en Isapre y seguros",
       ],
       popular: false,
       gradient: "from-emerald-600 to-emerald-800",
       price: "160.000",
-      totalValue: "$205.000",
+      perSession: "$40.000 por sesión",
     },
     {
       name: "Plan Premium",
       description: "El protocolo acelerado para eliminar el dolor.",
       icon: Star,
       features: [
-        "10 Sesiones de Kinesiología (60 min)",
+        "10 sesiones de kinesiología de 60 minutos",
+        "Evaluación inicial gratuita",
         "Prioridad en agendamiento",
-        "Reportes de progreso detallados",
-      ],
-      bonuses: [
-        { name: "Evaluación Digital", value: "$45.000", price: "GRATIS" },
-        { name: "Portal de Paciente", value: "Invaluable", price: "GRATIS" },
+        "Reportes de progreso",
+        "Boleta reembolsable en Isapre y seguros",
       ],
       popular: true,
       gradient: "from-amber-600 to-amber-800",
       price: "350.000",
-      totalValue: "$395.000",
+      perSession: "$35.000 por sesión",
     },
     {
       name: "Plan Elite",
@@ -196,14 +192,10 @@ export default function HomePage() {
         "Prioridad absoluta en agenda",
         "Red de especialistas preferente",
       ],
-      bonuses: [
-        { name: "Todo el Pack Premium", value: "$395.000", price: "INCLUIDO" },
-        { name: "Consultas Ilimitadas", value: "Invaluable", price: "INCLUIDO" },
-      ],
       popular: false,
       gradient: "from-slate-700 to-slate-900",
       price: "Consultar",
-      totalValue: "Incalculable",
+      perSession: "Para tratamientos intensivos o prolongados",
     },
   ]
 
@@ -415,13 +407,13 @@ export default function HomePage() {
           <div className="text-center mb-20">
             <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-gradient-to-r from-amber-500 to-amber-700 text-white border-none shadow-lg">
               <Sparkles className="h-4 w-4 mr-2" />
-              Nuevo: Kine Privé
+              Incluido en cada atención
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">
-              Más que Kinesiología:
+              Kinesiología a domicilio
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-200">
-                Un Ecosistema de Salud
+                sin nada que envidiarle a un centro
               </span>
             </h2>
             <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
@@ -444,12 +436,12 @@ export default function HomePage() {
 
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-amber-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 group">
               <div className="bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-amber-900/20">
-                <Smartphone className="h-8 w-8 text-amber-400" />
+                <Check className="h-8 w-8 text-amber-400" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Portal del Paciente</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Evaluación inicial gratuita</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
-                Tu historial clínico, gráficos de evolución, fotos de rango de movimiento y
-                playlist de ejercicios en una app exclusiva.
+                El kinesiólogo te evalúa en tu casa y recién después te dice cuántas sesiones
+                necesitas y cuánto cuesta, antes de que decidas.
               </p>
             </div>
 
@@ -466,12 +458,12 @@ export default function HomePage() {
 
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 group">
               <div className="bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-purple-900/20">
-                <TrendingUp className="h-8 w-8 text-purple-400" />
+                <Clock className="h-8 w-8 text-purple-400" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Gamificación</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Lunes a domingo</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
-                Gana puntos por completar tus ejercicios, mantén tu racha diaria y desbloquea
-                descuentos y premios por tu compromiso.
+                Sesiones de 60 minutos en el horario que te acomode, también fines de semana,
+                en las 9 comunas del sector oriente.
               </p>
             </div>
           </div>
@@ -533,12 +525,13 @@ export default function HomePage() {
                     {plan.description}
                   </CardDescription>
                   <div className="my-6">
-                    <p className="text-xs text-slate-400 uppercase font-bold tracking-widest mb-1">Valor Total</p>
-                    <span className="text-lg font-bold text-slate-400 line-through decoration-red-500 decoration-2">{plan.totalValue}</span>
-                    <div className="flex items-center justify-center gap-2 mt-1">
-                      <span className="text-4xl font-black text-slate-900 tracking-tight">${plan.price}</span>
+                    <div className="flex items-center justify-center gap-2">
+                      <span className="text-4xl font-black text-slate-900 tracking-tight">
+                        {plan.price === "Consultar" ? "A consultar" : `$${plan.price}`}
+                      </span>
                       {plan.price !== "Consultar" && <span className="text-slate-500 font-semibold self-end mb-1">/mes</span>}
                     </div>
+                    <p className="text-sm text-slate-500 mt-1">{plan.perSession}</p>
                   </div>
                 </CardHeader>
 
@@ -558,27 +551,6 @@ export default function HomePage() {
                       </ul>
                     </div>
 
-                    {plan.bonuses && (
-                      <div className="bg-amber-50 rounded-xl p-4 border border-amber-100">
-                        <h4 className="text-xs font-bold text-amber-800 uppercase tracking-wider mb-3 flex items-center">
-                          <Sparkles className="h-3 w-3 mr-1" /> Bonuses (Gratis):
-                        </h4>
-                        <ul className="space-y-2">
-                          {plan.bonuses.map((bonus, bIndex) => (
-                            <li key={bIndex} className="flex items-center justify-between text-xs">
-                              <span className="text-slate-700 font-medium flex items-center">
-                                <span className="h-1.5 w-1.5 rounded-full bg-amber-400 mr-2"></span>
-                                {bonus.name}
-                              </span>
-                              <div className="flex flex-col items-end">
-                                <span className="text-slate-400 line-through text-[10px]">{bonus.value}</span>
-                                <span className="text-emerald-600 font-bold uppercase tracking-wider bg-emerald-100 px-1.5 rounded-[2px]">{bonus.price}</span>
-                              </div>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
                   </div>
                 </CardContent>
 
@@ -586,7 +558,7 @@ export default function HomePage() {
                   <Button
                     className={`w-full text-lg py-6 font-bold transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 ${plan.popular ? "bg-amber-600 hover:bg-amber-700 text-white border-amber-500" : "bg-slate-900 hover:bg-slate-800 text-white"
                       }`} asChild>
-<a href={`https://wa.me/56999679593?text=Hola, quiero aprovechar la oferta del ${plan.name}.`} target="_blank" rel="noopener noreferrer">
+<a href={`https://wa.me/56999679593?text=Hola, me interesa el ${plan.name}.`} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5 mr-2" />
                     Quiero este Plan
                   </a>
@@ -594,40 +566,6 @@ export default function HomePage() {
                 </div>
               </Card>
             ))}
-          </div>
-
-          {/* Risk Reversal / Guarantee Section */}
-          <div className="max-w-4xl mx-auto mt-20 mb-16">
-            <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-700 relative overflow-hidden text-center transform hover:scale-[1.02] transition-transform duration-500">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl"></div>
-              <div className="absolute bottom-0 left-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
-
-              <Badge className="mb-6 px-6 py-2 text-sm font-bold bg-amber-500 text-slate-900 border-none shadow-lg">
-                <Shield className="h-4 w-4 mr-2" />
-                RIESGO CERO
-              </Badge>
-
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 font-serif">
-                Garantía "Primera Sesión Perfecta"
-              </h3>
-
-              <p className="text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto mb-10">
-                Estamos tan seguros de nuestra calidad clínica, que si no sientes que recibiste una atención de excelencia en tu primera visita, <span className="text-white font-bold border-b-2 border-amber-500">te devolvemos el 100% de tu dinero</span>.
-                <br className="hidden md:block" />
-                Sin letra chica. Sin preguntas incómodas.
-              </p>
-
-              <div className="flex justify-center">
-                <Button
-                  size="lg"
-                  className="text-lg px-8 py-6 bg-white text-slate-900 hover:bg-slate-100 font-bold shadow-xl transition-all duration-300" asChild>
-<a href="https://wa.me/56999679593?text=Hola, quiero agendar mi primera sesión con Garantía de Satisfacción" target="_blank" rel="noopener noreferrer">
-                  <Check className="h-5 w-5 mr-2 text-emerald-600" />
-                  Agendar mi Primera Sesión Segura
-                </a>
-</Button>
-              </div>
-            </div>
           </div>
 
           <div className="text-center opacity-80 hover:opacity-100 transition-opacity">
