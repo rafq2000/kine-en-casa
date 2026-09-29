@@ -220,7 +220,6 @@ const plans = [
       "Evaluación inicial gratuita",
       "Seguimiento de evolucion básico",
       "Boleta para reembolso Isapre",
-      "Asistente AI 24/7",
     ],
     popular: false,
     gradient: "from-emerald-600 to-emerald-800",
@@ -242,10 +241,8 @@ const plans = [
       "Evaluación digital completa",
       "Prioridad en agendamiento",
       "Reportes de progreso detallados",
-      "Kit de recuperacion incluido",
       "Portal del paciente con ejercicios",
       "Boleta para reembolso Isapre",
-      "Asistente AI 24/7",
     ],
     popular: true,
     gradient: "from-amber-600 to-amber-800",
@@ -832,13 +829,6 @@ export default function PreciosPage() {
                   <td className="p-5 text-center text-slate-600">Si</td>
                   <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
                     Si (boleta de honorarios)
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100 bg-slate-50/50">
-                  <td className="p-5 text-slate-700 font-medium">Asistente AI 24/7</td>
-                  <td className="p-5 text-center text-slate-600">No</td>
-                  <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
-                    Incluido
                   </td>
                 </tr>
                 <tr className="border-t-2 border-slate-200 bg-slate-100">

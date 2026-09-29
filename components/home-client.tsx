@@ -162,12 +162,11 @@ export default function HomePage() {
       ],
       bonuses: [
         { name: "Evaluación Inicial", value: "$45.000", price: "GRATIS" },
-        { name: "Asistente AI 24/7", value: "$30.000", price: "GRATIS" },
       ],
       popular: false,
       gradient: "from-emerald-600 to-emerald-800",
       price: "160.000",
-      totalValue: "$235.000",
+      totalValue: "$205.000",
     },
     {
       name: "Plan Premium",
@@ -180,14 +179,12 @@ export default function HomePage() {
       ],
       bonuses: [
         { name: "Evaluación Digital", value: "$45.000", price: "GRATIS" },
-        { name: "Asistente AI 24/7", value: "$30.000", price: "GRATIS" },
-        { name: "Kit de Recuperación", value: "$25.000", price: "GRATIS" },
         { name: "Portal de Paciente", value: "Invaluable", price: "GRATIS" },
       ],
       popular: true,
       gradient: "from-amber-600 to-amber-800",
       price: "350.000",
-      totalValue: "$400.000+",
+      totalValue: "$395.000",
     },
     {
       name: "Plan Elite",
@@ -200,7 +197,7 @@ export default function HomePage() {
         "Red de especialistas preferente",
       ],
       bonuses: [
-        { name: "Todo el Pack Premium", value: "$400.000", price: "INCLUIDO" },
+        { name: "Todo el Pack Premium", value: "$395.000", price: "INCLUIDO" },
         { name: "Consultas Ilimitadas", value: "Invaluable", price: "INCLUIDO" },
       ],
       popular: false,
@@ -428,20 +425,20 @@ export default function HomePage() {
               </span>
             </h2>
             <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-              Hemos revolucionado la rehabilitación domiciliaria integrando tecnología avanzada,
-              inteligencia artificial y equipamiento premium.
+              Llevamos a tu casa lo mismo que tendrías en un centro de rehabilitación: equipamiento
+              profesional, seguimiento de tu evolución y la boleta lista para tu reembolso.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-emerald-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 group">
               <div className="bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-emerald-900/20">
-                <Brain className="h-8 w-8 text-emerald-400" />
+                <Stethoscope className="h-8 w-8 text-emerald-400" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Asistente AI 24/7</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Equipamiento en tu casa</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
-                Chat inteligente especializado que responde tus dudas, guía tus ejercicios y monitorea
-                tu dolor entre sesiones. Nunca estarás solo.
+                Camilla profesional, TENS, ultrasonido, bandas elásticas y lo que tu tratamiento
+                requiera. La sesión en tu living es tan completa como en un centro.
               </p>
             </div>
 
@@ -458,12 +455,12 @@ export default function HomePage() {
 
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 group">
               <div className="bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-blue-900/20">
-                <Package className="h-8 w-8 text-blue-400" />
+                <Shield className="h-8 w-8 text-blue-400" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Kit Premium</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Boleta el mismo día</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
-                Llevamos el gimnasio a tu casa: camilla pro, TENS, ultrasonido, y te dejamos
-                un kit de bandas y elementos para tu recuperación.
+                Boleta de honorarios electrónica después de cada atención, lista para pedir el
+                reembolso en tu Isapre o en tu seguro complementario según tu plan.
               </p>
             </div>
 
