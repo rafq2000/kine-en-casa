@@ -1,5 +1,12 @@
 # Sistema de auto-mejora SEO — kineum.cl
 
+## Fuente de verdad
+
+- Mandan las reglas del negocio y `lib/comunas-data.ts`.
+- No se usa nada de `seo/archivo-*`: está vencido.
+- No se corren `autofix.mjs` ni `aplicar-reescrituras.mjs`.
+- Las decisiones de Ricardo y los deploys se anotan en `seo/cambios.md`.
+
 Mide el sitio en producción contra un conjunto de reglas, corrige solo lo que puede
 corregirse sin criterio editorial, valida con un build y despliega. Lo que requiere
 criterio queda en una lista aparte para resolver con Claude.
