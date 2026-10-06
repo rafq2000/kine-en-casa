@@ -100,11 +100,10 @@ export const comunas: Comuna[] = [
             "Plaza Ñuñoa",
             "Avenida Irarrázaval",
             "Simón Bolívar",
-            "Parque Bustamante",
             "Villa Frei",
             "Barrio Italia",
-            "Campus Oriente",
             "Estadio Nacional",
+            "Villa Olímpica",
         ],
         contexto:
             "Ñuñoa mezcla casas antiguas y edificios nuevos, con muchas familias que cuidan a un adulto mayor en casa y agradecen no tener que trasladarlo.",
@@ -151,7 +150,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Lo Barnechea es la comuna más extensa de nuestra cobertura y la peor conectada con centros de rehabilitación: por eso la atención en casa marca la mayor diferencia, sin recargo por distancia.",
         referencias: "cerca de La Dehesa, Camino a Farellones y Los Trapenses",
-        llegada: "coordinado con hora fija, sin recargo por subir",
+        llegada: "con hora fija acordada contigo, sin recargo por distancia",
     },
     {
         nombre: "Peñalolén",
@@ -172,7 +171,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Peñalolén tiene poca oferta de rehabilitación propia y sus vecinos suelen bajar a Ñuñoa o La Reina: nosotros subimos con todo el equipamiento, incluida la zona precordillera.",
         referencias: "cerca de Av. Grecia, Tobalaba sur y la Comunidad Ecológica",
-        llegada: "coordinado con hora fija, sin recargo por subir",
+        llegada: "con hora fija acordada contigo, sin recargo por subir",
     },
     {
         nombre: "Macul",

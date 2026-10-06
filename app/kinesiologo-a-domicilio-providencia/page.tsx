@@ -4,8 +4,6 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Providencia",
     slug: "providencia",
-    descripcion: "Servicio de kinesiología a domicilio en Providencia con kinesiólogos profesionales certificados. Atendemos toda la comuna incluyendo sectores como Pedro de Valdivia, Manuel Montt, Tobalaba y Costanera Center.",
-    poblacion: "Providencia, con más de 140.000 habitantes, es una comuna céntrica y tradicional del sector oriente de Santiago.",
     sectores: [
         "Pedro de Valdivia",
         "Manuel Montt",
@@ -16,18 +14,11 @@ const comunaData = {
         "Costanera Center",
         "Parque Bustamante",
     ],
-    caracteristicas: [
-        "Atención a domicilio en toda la comuna",
-        "Equipamiento profesional portátil",
-        "Horarios flexibles incluyendo fines de semana",
-        "Evaluación inicial gratuita",
-        "Boletas reembolsables por Isapres",
-    ],
 }
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio en Providencia y Tobalaba | KINEUM",
-    description: "Kinesiólogo a domicilio en Providencia: Pedro de Valdivia, Manuel Montt, Los Leones y Tobalaba. Evaluación inicial gratuita y vamos a tu departamento.",
+    title: "Kinesiología a Domicilio en Providencia | KINEUM",
+    description: "Kine a domicilio en Providencia: Pedro de Valdivia, Manuel Montt y Los Leones. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -40,8 +31,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: "Kinesiólogo a Domicilio en Providencia y Tobalaba | KINEUM",
-        description: "Kinesiólogo a domicilio en Providencia: Pedro de Valdivia, Manuel Montt, Los Leones y Tobalaba. Evaluación inicial gratuita y vamos a tu departamento.",
+        title: "Kinesiología a Domicilio en Providencia | KINEUM",
+        description: "Kine a domicilio en Providencia: Pedro de Valdivia, Manuel Montt y Los Leones. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

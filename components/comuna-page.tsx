@@ -6,7 +6,6 @@ import {
     Home,
     Stethoscope,
     ShieldCheck,
-    Check,
     MessageCircle,
     ChevronRight,
     CircleDollarSign,
@@ -40,10 +39,7 @@ function primeraOracion(texto: string) {
 interface ComunaData {
     nombre: string
     slug: string
-    descripcion: string
-    poblacion: string
     sectores: string[]
-    caracteristicas: string[]
 }
 
 interface ComunaPageProps {
@@ -56,7 +52,10 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const vecinas = comunasVecinas(data.slug, 8, false)
     const url = `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}`
     const llegada = comuna?.llegada ?? "dentro de 24 horas"
-    const waLink = wa(`Hola, necesito un kinesiólogo a domicilio en ${data.nombre}`)
+    const waMensaje = `Hola, necesito un kinesiólogo a domicilio en ${data.nombre}`
+    const waLink = wa(waMensaje)
+    const s = data.sectores
+    const entrada = `KINEUM lleva un kinesiólogo a tu casa en ${data.nombre} (${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna): evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
 
     const faqs = [
         {
@@ -87,7 +86,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         "@type": "Service",
         "@id": `${url}#servicio`,
         name: `Kinesiología a domicilio en ${data.nombre}`,
-        description: data.descripcion,
+        description: entrada,
         url,
         serviceType: "Kinesiología a domicilio",
         provider: { "@id": "https://kineum.cl/#organization" },
@@ -186,15 +185,12 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     <div className="max-w-4xl">
                         <Badge className="mb-5 bg-slate-900 text-white border-slate-800 px-4 py-1.5">
                             <MapPin className="h-3.5 w-3.5 mr-2" />
-                            {data.nombre}, sector oriente de Santiago
+                            {comuna?.zona === "centro" ? `${data.nombre}, centro de Santiago` : `${data.nombre}, sector oriente de Santiago`}
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
                             Kinesiólogo a Domicilio en <span className="text-amber-700">{data.nombre}</span>
                         </h1>
-                        <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-4 max-w-3xl">
-                            {data.descripcion}
-                        </p>
-                        <p className="text-base text-slate-600 leading-relaxed mb-8 max-w-3xl">{data.poblacion}</p>
+                        <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-8 max-w-3xl">{entrada}</p>
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-10">
                             <a
@@ -318,7 +314,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 : `Llegamos a toda la comuna de ${data.nombre}.`}{" "}
                             Si tu sector no aparece, escríbenos igual.
                         </p>
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10">
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                             {data.sectores.map((s) => (
                                 <div key={s} className="flex items-center gap-2 bg-slate-50 rounded-lg px-4 py-3 border border-slate-200">
                                     <MapPin className="h-4 w-4 text-amber-600 flex-shrink-0" />
@@ -326,18 +322,6 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 </div>
                             ))}
                         </div>
-                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            {data.caracteristicas
-                                .filter((c) => !/inmediata|avanzado/i.test(c))
-                                .map((c) => (
-                                    <li key={c} className="flex items-start gap-3 text-slate-700">
-                                        <span className="bg-emerald-100 rounded-full p-1 mt-0.5 flex-shrink-0">
-                                            <Check className="h-4 w-4 text-emerald-700" />
-                                        </span>
-                                        {c}
-                                    </li>
-                                ))}
-                        </ul>
                     </div>
                 </div>
             </section>
@@ -442,7 +426,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 <div className="container mx-auto px-4">
                     <div className="max-w-5xl">
                         <h2 className="text-xl font-bold text-slate-900 mb-4">
-                            Kinesiólogo a domicilio en otras comunas del sector oriente
+                            Kinesiólogo a domicilio en otras comunas de nuestra cobertura
                         </h2>
                         <div className="flex flex-wrap gap-2">
                             {vecinas.map((c) => (

@@ -4,8 +4,6 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Peñalolén",
     slug: "penalolen",
-    descripcion: "Kinesiología a domicilio en Peñalolén: desde Peñalolén Alto y la Comunidad Ecológica hasta Lo Hermida y San Luis. Sin recargo por subir al sector precordillera; llevamos todo el equipamiento.",
-    poblacion: "Peñalolén es extensa y con poca oferta de rehabilitación propia: en vez de bajar a Ñuñoa o La Reina, el kinesiólogo llega a tu casa con camilla, equipos y el tratamiento completo.",
     sectores: [
         "Peñalolén Alto",
         "Comunidad Ecológica",
@@ -16,19 +14,11 @@ const comunaData = {
         "Quilín Oriente",
         "Peñalolén Nuevo",
     ],
-    caracteristicas: [
-        "Cobertura total en Peñalolén",
-        "Kinesiólogos con equipamiento avanzado",
-        "Atención post-operatoria especializada",
-        "KTR infantil y adulto",
-        "Reembolso Isapre y seguros complementarios",
-        "Disponibilidad inmediata",
-    ],
 }
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio en Peñalolén y San Luis | KINEUM",
-    description: "Kinesiólogo a domicilio en Peñalolén: Comunidad Ecológica, San Luis, Lo Hermida y Av. Grecia. Evaluación inicial gratuita, sin listas de espera.",
+    title: "Kinesiología a Domicilio en Peñalolén | KINEUM",
+    description: "Kine a domicilio en Peñalolén: Comunidad Ecológica, San Luis y Lo Hermida. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
@@ -54,8 +44,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: "Kinesiólogo a Domicilio en Peñalolén y San Luis | KINEUM",
-        description: "Kinesiólogo a domicilio en Peñalolén: Comunidad Ecológica, San Luis, Lo Hermida y Av. Grecia. Evaluación inicial gratuita, sin listas de espera.",
+        title: "Kinesiología a Domicilio en Peñalolén | KINEUM",
+        description: "Kine a domicilio en Peñalolén: Comunidad Ecológica, San Luis y Lo Hermida. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

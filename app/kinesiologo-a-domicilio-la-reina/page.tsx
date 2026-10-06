@@ -4,8 +4,6 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "La Reina",
     slug: "la-reina",
-    descripcion: "Servicio de kinesiología en La Reina. Cobertura en La Reina Alta, Príncipe de Gales, Larraín y Plaza Egaña. Recuperación sin salir de casa.",
-    poblacion: "La Reina combina tranquilidad y naturaleza, ideal para procesos de rehabilitación domiciliaria pausados y efectivos.",
     sectores: [
         "La Reina Alta",
         "Príncipe de Gales",
@@ -15,19 +13,11 @@ const comunaData = {
         "Parque Padre Hurtado",
         "Villa La Reina",
     ],
-    caracteristicas: [
-        "Atención en toda La Reina",
-        "Kinesiología Respiratoria Infantil",
-        "Rehabilitación Geriátrica Exclusiva",
-        "Tecnología portátil",
-        "Evaluación inicial gratis",
-        "Boletas de honorarios médicas",
-    ],
 }
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio en La Reina y Plaza Egaña | KINEUM",
-    description: "Kinesiólogo a domicilio en La Reina: La Reina Alta, Príncipe de Gales, Av. Ossa y Plaza Egaña. Evaluación inicial gratuita y horas en el día.",
+    title: "Kinesiología a Domicilio en La Reina | KINEUM",
+    description: "Kine a domicilio en La Reina: La Reina Alta, Príncipe de Gales y Plaza Egaña. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -39,8 +29,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: "Kinesiólogo a Domicilio en La Reina y Plaza Egaña | KINEUM",
-        description: "Kinesiólogo a domicilio en La Reina: La Reina Alta, Príncipe de Gales, Av. Ossa y Plaza Egaña. Evaluación inicial gratuita y horas en el día.",
+        title: "Kinesiología a Domicilio en La Reina | KINEUM",
+        description: "Kine a domicilio en La Reina: La Reina Alta, Príncipe de Gales y Plaza Egaña. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

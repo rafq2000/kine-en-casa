@@ -4,30 +4,20 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Ñuñoa",
     slug: "nunoa",
-    descripcion: "Kinesiología a domicilio en Ñuñoa. Atendemos Plaza Ñuñoa, Irarrázaval, Simón Bolívar y alrededores. Rehabilitación profesional cerca de ti.",
-    poblacion: "Ñuñoa es una comuna residencial que valora la salud y el bienestar. Llevamos la clínica a tu departamento o casa.",
     sectores: [
         "Plaza Ñuñoa",
         "Avenida Irarrázaval",
         "Simón Bolívar",
-        "Parque Bustamante",
+        "Estadio Nacional",
         "Villa Frei",
         "Barrio Italia",
-        "Campus Oriente",
-    ],
-    caracteristicas: [
-        "Kinesiólogos cercanos a tu sector",
-        "Especialistas en KTR (Respiratorio)",
-        "Precios competitivos",
-        "Atención fines de semana",
-        "Rehabilitación neurológica",
-        "Reembolso en Isapres",
+        "Villa Olímpica",
     ],
 }
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio en Ñuñoa e Irarrázaval | KINEUM",
-    description: "Kinesiólogo a domicilio en Ñuñoa: Plaza Ñuñoa, Irarrázaval, Simón Bolívar y Villa Frei. Evaluación inicial gratuita, sin traslados ni salas de espera.",
+    title: "Kinesiología a Domicilio en Ñuñoa | KINEUM",
+    description: "Kine a domicilio en Ñuñoa: Plaza Ñuñoa, Irarrázaval y Villa Frei. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -39,8 +29,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: "Kinesiólogo a Domicilio en Ñuñoa e Irarrázaval | KINEUM",
-        description: "Kinesiólogo a domicilio en Ñuñoa: Plaza Ñuñoa, Irarrázaval, Simón Bolívar y Villa Frei. Evaluación inicial gratuita, sin traslados ni salas de espera.",
+        title: "Kinesiología a Domicilio en Ñuñoa | KINEUM",
+        description: "Kine a domicilio en Ñuñoa: Plaza Ñuñoa, Irarrázaval y Villa Frei. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

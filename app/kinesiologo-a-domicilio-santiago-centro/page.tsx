@@ -4,8 +4,6 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Santiago Centro",
     slug: "santiago-centro",
-    descripcion: "Kinesiología a domicilio en Santiago Centro: subimos a tu departamento en Lastarria, Barrio Brasil, Yungay, República o Parque Almagro con camilla y equipamiento completo. Ideal para quienes viven en edificios sin necesidad de trasladarse.",
-    poblacion: "En Santiago Centro la mayoría vive en departamentos y depende del metro: te evitamos el viaje con todo el tratamiento en tu propio hogar, en horarios compatibles con tu trabajo.",
     sectores: [
         "Barrio Lastarria",
         "Barrio Brasil",
@@ -16,19 +14,11 @@ const comunaData = {
         "Santa Ana",
         "Parque Forestal",
     ],
-    caracteristicas: [
-        "Cobertura total en Santiago Centro",
-        "Kinesiólogos con equipamiento avanzado",
-        "Atención post-operatoria especializada",
-        "KTR infantil y adulto",
-        "Reembolso Isapre y seguros complementarios",
-        "Disponibilidad inmediata",
-    ],
 }
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio en Santiago Centro | KINEUM",
-    description: "Kinesiólogo a domicilio en Santiago Centro: Lastarria, Brasil, Yungay, República y Santa Ana. Evaluación inicial gratuita y agenda por WhatsApp.",
+    title: "Kinesiología a Domicilio en Santiago Centro | KINEUM",
+    description: "Kine a domicilio en Santiago Centro: Lastarria, Barrio Brasil y Yungay. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
@@ -54,8 +44,8 @@ export const metadata: Metadata = {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
     },
     openGraph: {
-        title: "Kinesiólogo a Domicilio en Santiago Centro | KINEUM",
-        description: "Kinesiólogo a domicilio en Santiago Centro: Lastarria, Brasil, Yungay, República y Santa Ana. Evaluación inicial gratuita y agenda por WhatsApp.",
+        title: "Kinesiología a Domicilio en Santiago Centro | KINEUM",
+        description: "Kine a domicilio en Santiago Centro: Lastarria, Barrio Brasil y Yungay. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

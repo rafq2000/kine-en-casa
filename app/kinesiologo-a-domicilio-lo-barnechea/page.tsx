@@ -4,8 +4,6 @@ import ComunaPage from "@/components/comuna-page"
 const comunaData = {
     nombre: "Lo Barnechea",
     slug: "lo-barnechea",
-    descripcion: "Llegamos a todo Lo Barnechea: La Dehesa, Los Trapenses, El Arrayán y Portal La Dehesa. Kinesiología a domicilio sin recargos por distancia.",
-    poblacion: "Cubrimos las zonas más extensas de Lo Barnechea, garantizando puntualidad y equipo completo en su domicilio.",
     sectores: [
         "La Dehesa",
         "Los Trapenses",
@@ -15,19 +13,11 @@ const comunaData = {
         "El Huinganal",
         "Santa Blanca",
     ],
-    caracteristicas: [
-        "Cobertura total en La Dehesa",
-        "Kinesiólogos con movilización propia",
-        "Trato preferente adulto mayor",
-        "Kinesiología Traumatológica y Deportiva",
-        "Agenda rápida",
-        "Boletas para reembolso",
-    ],
 }
 
 export const metadata: Metadata = {
     title: "Kinesiólogo a Domicilio en Lo Barnechea y La Dehesa | KINEUM",
-    description: "Kinesiólogo a domicilio en La Dehesa, Los Trapenses, El Arrayán y Cerro 18. Rehabilitación traumatológica y respiratoria. Primera evaluación sin costo.",
+    description: "Kine a domicilio en Lo Barnechea: La Dehesa, Los Trapenses y El Arrayán. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         "kinesiologo la dehesa",
@@ -40,7 +30,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Kinesiólogo a Domicilio en Lo Barnechea y La Dehesa | KINEUM",
-        description: "Kinesiólogo a domicilio en La Dehesa, Los Trapenses, El Arrayán y Cerro 18. Rehabilitación traumatológica y respiratoria. Primera evaluación sin costo.",
+        description: "Kine a domicilio en Lo Barnechea: La Dehesa, Los Trapenses y El Arrayán. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",
