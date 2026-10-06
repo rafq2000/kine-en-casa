@@ -57,3 +57,4 @@ Cómo leer las cifras:
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |
 |---|---|---|---|---|
 | 2026-10-05 | 265224f | T02-T16 (Fase 0) | /, /precios, /nosotros, /como-funciona, /testimonios, 9 hubs `/kinesiologo-a-domicilio-*`, 7 posts | IndexNow 200 OK con 22 URLs. GSC: pendientes (T19, Ricardo) |
+| 2026-10-05 | 14e7eb5 | Fase 1: T18 (regla vercel.app), T21-T31 (T22 inactivo hasta definir `NEXT_PUBLIC_UMAMI_ID`; T30 solo borrador en `seo/borrador-privacidad.md`) y limpiezas | /, /precios, /como-funciona, /nosotros, 9 hubs `/kinesiologo-a-domicilio-*`, 5 `/servicios/*`, 5 posts, /llms.txt | IndexNow 200 OK con 24 URLs (antes, en la Fase 0, 22 URLs) |
