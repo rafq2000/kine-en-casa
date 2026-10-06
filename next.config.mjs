@@ -29,6 +29,12 @@ const nextConfig = {
         destination: '/blog/kinesiologia-piso-pelvico-post-parto-domicilio',
         permanent: true,
       },
+      // Fase 2 (T39): la guía de ergonomía se absorbió en la sección "trabajo sentado" del post de lumbago
+      {
+        source: '/blog/ergonomia-home-office-guia-2024',
+        destination: '/blog/lumbago-agudo-que-hacer',
+        permanent: true,
+      },
       {
         source: '/:path*',
         has: [

@@ -1544,46 +1544,6 @@ export const blogPosts = [
 <p>¿Un familiar tuvo un ACV y ya está en la casa? Podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su médico. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20rehabilitaci%C3%B3n%20post%20ACV%20en%20casa">escríbenos por WhatsApp</a>.</p>`
   },
   {
-    slug: "ergonomia-home-office-guia-2024",
-    seoTitle: "Ergonomía en el Home Office sin Dolor de Espalda | KINEUM",
-    seoDescription: "Altura de silla, pantalla y teclado, más las pausas que sí funcionan para evitar el dolor de espalda y cuello desde casa. Guía kinesiológica 2026.",
-    title: "Ergonomía en el Home Office: Guía Definitiva",
-    subtitle: "Protocolos clínicos para prevenir el dolor lumbar y cervical trabajando desde casa.",
-    author: "Equipo Clínico KINEUM",
-    date: "22 Enero, 2026",
-    dateISO: "2026-01-22",
-    readTime: "7 min lectura",
-    category: "Prevención & Ergonomía",
-    image: "/images/ergonomia_home_office_hero_1769277626584.png",
-    icon: TrendingUp,
-    content: `<p class="lead">El trabajo remoto llegó para quedarse, y con él una epidemia silenciosa de dolor lumbar, cervicalgia y túnel carpiano. La buena noticia: casi todo es prevenible con ajustes simples y ejercicios de pausa bien diseñados.</p>
-
-      <h2>Los 4 ajustes que eliminan el 80% del problema</h2>
-      <ul>
-        <li><strong>Pantalla a la altura de los ojos:</strong> el borde superior del monitor debe quedar a la altura de tu mirada horizontal. Si usas notebook, necesitas un alza (o una torre de libros) y teclado externo.</li>
-        <li><strong>Codos a 90°:</strong> los antebrazos deben apoyarse en el escritorio o apoyabrazos formando un ángulo recto, con los hombros relajados.</li>
-        <li><strong>Apoyo lumbar:</strong> la zona baja de la espalda debe tocar el respaldo. Un cojín pequeño funciona perfecto si tu silla no tiene soporte.</li>
-        <li><strong>Pies apoyados:</strong> completos en el suelo o sobre un reposapiés; las piernas cruzadas por horas alteran la pelvis y la circulación.</li>
-      </ul>
-
-      <h2>La regla 30-30: la pausa que tu columna necesita</h2>
-      <p>Cada 30 minutos de trabajo sentado, 30 segundos de movimiento: ponte de pie, camina, haz 5 círculos de hombros y una extensión de columna. El mejor mueble ergonómico es el <strong>cambio de postura frecuente</strong>.</p>
-
-      <h2>Señales de alerta que no debes ignorar</h2>
-      <ul>
-        <li>Dolor cervical que aparece todas las tardes y cede el fin de semana.</li>
-        <li>Hormigueo en manos o dedos al teclear (posible <a href="/blog/tunel-carpiano-alivio">túnel carpiano</a>).</li>
-        <li>Lumbago que se instala al final de la jornada.</li>
-        <li>Dolor de cabeza tensional de inicio occipital (base del cráneo).</li>
-      </ul>
-      <p>Si alguno lleva más de 2 semanas, es momento de una evaluación kinesiológica: corregir tarde siempre cuesta más sesiones que corregir a tiempo.</p>
-
-      <blockquote>"No existe la postura perfecta mantenida por horas. Existe la postura suficientemente buena, cambiada con suficiente frecuencia."</blockquote>
-
-      <p>En KINEUM realizamos <strong>evaluaciones ergonómicas a domicilio</strong>: analizamos tu puesto de trabajo real y diseñamos tu rutina de pausas. <a href="https://wa.me/56999679593?text=Hola,%20quiero%20una%20evaluaci%C3%B3n%20ergon%C3%B3mica">Agenda por WhatsApp</a>.</p>
-    `
-  },
-  {
     slug: "sarcopenia-fuerza-es-salud",
     seoTitle: "Sarcopenia en el Adulto Mayor: Tratamiento | KINEUM",
     seoDescription: "Por qué el adulto mayor pierde fuerza, cómo detectarlo a tiempo y qué ejercicios recuperan masa muscular en casa. Evaluación kinesiológica gratuita.",
@@ -1625,42 +1585,102 @@ export const blogPosts = [
   // ── Biblioteca clínica SEO ──
   {
     slug: "lumbago-agudo-que-hacer",
-    seoTitle: "Lumbago Agudo: Qué Hacer las Primeras 48 Horas | KINEUM",
-    seoDescription: "Reposo o movimiento, qué hacer las primeras 48 horas, cuándo consultar y cómo evitar que el lumbago se repita. Kinesiología a domicilio en Santiago.",
-    title: "Lumbago Agudo: ¿Reposo o Movimiento?",
-    subtitle: "La guía clínica para manejar el dolor de espalda baja en las primeras 48 horas.",
+    seoTitle: "Lumbago Agudo: Qué Hacer y Cuándo Llamar al Kine | KINEUM",
+    seoDescription: "Qué hacer las primeras 48 horas de un lumbago, qué evitar, las señales de alarma que exigen urgencia y cuándo conviene un kinesiólogo a domicilio en Santiago.",
+    title: "Lumbago agudo: qué hacer las primeras 48 horas y cuándo llamar al kinesiólogo",
+    subtitle: "Movimiento o reposo, qué no hacer, las señales de alarma que no hay que dejar pasar, cómo es la primera visita y qué cambiar si trabajas sentado.",
     author: "Equipo Clínico KINEUM",
     date: "12 Junio, 2026",
     dateISO: "2026-06-12",
-    readTime: "5 min lectura",
+    updatedISO: "2026-10-05",
+    readTime: "9 min lectura",
     category: "Columna Vertebral",
     image: "/images/exercise_glute_bridge_1769277694981.png",
     icon: Activity,
-    content: `<p class="lead">El 80% de las personas sufrirá al menos un episodio de lumbago en su vida. Y la mayoría hará exactamente lo contrario a lo que la evidencia recomienda: quedarse en cama.</p>
+    content: `<p class="lead">Te agachaste a recoger algo, te levantaste de la cama o simplemente amaneciste así: un dolor fuerte en la parte baja de la espalda que te deja medio doblado. El lumbago es de las consultas más comunes del mundo; según la <a href="https://www.who.int/news-room/fact-sheets/detail/low-back-pain" target="_blank" rel="noopener noreferrer">Organización Mundial de la Salud</a>, el dolor lumbar es la principal causa de discapacidad a nivel mundial. La buena noticia es que la mayoría de los episodios no se deben a una lesión grave. Acá tienes qué hacer los primeros días, qué evitar y cuándo conviene que te vea un kinesiólogo.</p>
 
-      <h2>Las primeras 48 horas: qué hacer</h2>
-      <ul>
-        <li><strong>Mantente en movimiento suave.</strong> El reposo absoluto en cama está contraindicado desde hace años en las guías clínicas: debilita la musculatura y prolonga el dolor. Camina distancias cortas varias veces al día.</li>
-        <li><strong>Calor local:</strong> 15-20 minutos de guatero o compresa tibia en la zona lumbar relaja la musculatura contracturada.</li>
-        <li><strong>Posiciones de alivio:</strong> de lado con una almohada entre las rodillas, o boca arriba con las piernas elevadas sobre un cojín.</li>
-        <li><strong>Analgesia según indicación médica.</strong> No te automediques más allá de lo que tu médico haya indicado previamente.</li>
-      </ul>
+<h2>Las primeras 48 horas: qué hacer</h2>
+<ul>
+<li><strong>Muévete de forma suave.</strong> Las guías clínicas desaconsejan el reposo prolongado en cama: debilita la musculatura y suele alargar el dolor. Camina distancias cortas varias veces al día, dentro de lo que el dolor permita.</li>
+<li><strong>Calor local:</strong> un guatero o una compresa tibia sobre la zona lumbar por unos 15 a 20 minutos suele relajar la musculatura. Protege la piel y no te duermas con él puesto.</li>
+<li><strong>Posiciones de alivio:</strong> de lado con una almohada entre las rodillas, o boca arriba con las piernas apoyadas sobre un cojín.</li>
+<li><strong>Analgesia solo según indicación médica.</strong> No te automediques más allá de lo que tu médico ya te haya indicado.</li>
+<li><strong>Sigue con tu vida en lo posible.</strong> Volver de a poco a las actividades habituales ayuda más que esperar a que el dolor desaparezca por completo.</li>
+</ul>
 
-      <h2>Qué NO hacer</h2>
-      <ul>
-        <li>Reposo total en cama por más de 1-2 días.</li>
-        <li>Cargar peso o hacer esfuerzos "para probar si ya pasó".</li>
-        <li>Estiramientos agresivos en fase aguda.</li>
-      </ul>
+<h2>Qué no hacer</h2>
+<ul>
+<li>Quedarte en cama varios días "para que se pase".</li>
+<li>Cargar peso o hacer esfuerzos "para probar si ya pasó".</li>
+<li>Estiramientos bruscos o ejercicios que aumentan mucho el dolor en la fase aguda.</li>
+<li>Dejar que alguien sin formación te "acomode" la espalda con maniobras de fuerza.</li>
+<li>Asustarte por el dolor: que duela mucho no significa que haya un daño grave. En la mayoría de los casos no se encuentra una causa específica, lo que se llama lumbago inespecífico.</li>
+</ul>
 
-      <h2>Señales de alarma: consulta médica inmediata</h2>
-      <p>Acude a urgencias si el dolor lumbar se acompaña de pérdida de fuerza en las piernas, alteración para orinar o defecar, fiebre, o si hubo un golpe o caída importante.</p>
+<h2>Señales de alarma</h2>
+<p>Llama al <strong>SAMU 131</strong> o anda de inmediato a un servicio de urgencia si el dolor lumbar viene con:</p>
+<ul>
+<li>Pérdida del control de la orina o de las deposiciones, o dificultad nueva para orinar.</li>
+<li>Adormecimiento "en silla de montar": en la zona genital, el periné o la cara interna de los muslos.</li>
+<li>Pérdida de fuerza en una o ambas piernas que avanza.</li>
+</ul>
+<p>Consulta pronto con un médico si además tienes fiebre, si el dolor empezó después de una caída o un golpe fuerte, si has bajado de peso sin explicación, si tienes antecedentes de cáncer o si el dolor no te deja dormir y no cambia con ninguna posición.</p>
 
-      <h2>¿Y después de la fase aguda?</h2>
-      <p>Aquí es donde se define si el lumbago se repite o no. La kinesiología trabaja la causa: movilidad de cadera, fuerza del core y hábitos posturales. Un programa de 4 a 8 sesiones reduce significativamente las recurrencias. Si ya te diagnosticaron una hernia, revisa además <a href="/blog/hernia-discal-operacion">cuándo se opera una hernia discal y qué hacer mientras tanto</a>. El <strong>puente glúteo</strong> —que ves en la imagen— es uno de los ejercicios base que enseñamos, y puedes encontrarlo en nuestra <a href="/ejercicios">biblioteca de ejercicios</a>. Si el dolor baja por el glúteo o la pierna, revisa <a href="/blog/ciatica-sintomas-tratamiento">cómo distinguir una ciática real de una falsa ciática</a>.</p>
+<h2>Cuándo conviene un kinesiólogo a domicilio</h2>
+<p>Muchos lumbagos mejoran solos en pocos días. Conviene consultar a un kinesiólogo si:</p>
+<ul>
+<li>El dolor no mejora después de unos días o te impide trabajar o dormir.</li>
+<li>El dolor baja por el glúteo o la pierna.</li>
+<li>Es el segundo o tercer episodio en poco tiempo.</li>
+<li>Tienes miedo de moverte y no sabes qué puedes hacer.</li>
+</ul>
+<p>La ventaja de la atención a domicilio en un lumbago agudo es simple: no tienes que subirte al auto ni sentarte en una sala de espera cuando moverte duele. Y el kinesiólogo ve tu cama, tu silla y tu escritorio, que muchas veces son parte del problema.</p>
 
-      <p>¿Lumbago que no cede o que se repite cada pocos meses? <a href="https://wa.me/56999679593?text=Hola,%20tengo%20lumbago%20y%20quiero%20evaluaci%C3%B3n">Agenda una evaluación gratuita a domicilio</a> en cualquiera de nuestras comunas de Santiago Oriente.</p>
-    `
+<h2>Cómo es la primera visita</h2>
+<p>La evaluación inicial es gratuita. El kinesiólogo te pregunta cómo empezó el dolor, qué lo alivia y qué lo empeora, y descarta las señales de alarma. Después revisa cómo te mueves, tu fuerza, tu sensibilidad y la movilidad de la columna y las caderas. Con eso te explica qué está pasando, qué puedes hacer en la casa y cuántas sesiones estima, antes de que decidas. Si ves algo que requiere evaluación médica, te lo decimos.</p>
+<p>Las sesiones duran alrededor de 60 minutos y combinan, según el caso, terapia manual, ejercicio y educación sobre el dolor. El número depende de tu caso; te explicamos de qué depende en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología se necesitan</a>, y los valores están en nuestra <a href="/precios">página de precios</a>.</p>
+
+<h2>Movimientos seguros para empezar</h2>
+<p>Estos movimientos suelen tolerarse bien en un lumbago sin señales de alarma. Hazlos lento, sin llegar a un dolor fuerte, y detente si el dolor baja por la pierna o aumenta:</p>
+<ul>
+<li><strong>Caminar</strong> en tramos cortos, varias veces al día.</li>
+<li><strong>Balanceo de rodillas:</strong> acostado de espalda con las rodillas dobladas, llevarlas suavemente de un lado a otro.</li>
+<li><strong>Báscula pélvica:</strong> en la misma posición, aplanar y arquear suavemente la zona lumbar.</li>
+<li><strong>Puente glúteo</strong> (el de la imagen), cuando el dolor ya lo permite. Lo encuentras en nuestra <a href="/ejercicios">biblioteca de ejercicios</a>.</li>
+</ul>
+
+<h2>Lumbago, ciática o hernia: cuál es la diferencia</h2>
+<p>El lumbago es dolor en la zona lumbar, sin que el dolor baje con un trayecto claro por la pierna. La <strong>ciática</strong> es un dolor que sigue el recorrido del nervio ciático, por el glúteo y la parte de atrás o el costado de la pierna, a veces con hormigueo. Una <strong>hernia discal</strong> es una de las causas posibles de ciática, pero no la única, y muchas hernias se ven en una resonancia sin dar síntomas.</p>
+<p>Si el dolor te baja por la pierna, revisa <a href="/blog/ciatica-sintomas-tratamiento">cómo distinguir una ciática real de una falsa ciática</a>; si ya te diagnosticaron una hernia, lee <a href="/blog/hernia-discal-operacion">cuándo se opera una hernia discal y qué hacer mientras tanto</a>.</p>
+
+<h2 id="trabajo-sentado">Si trabajas sentado: cómo evitar que el lumbago vuelva</h2>
+<p>Pasar muchas horas sentado, en la oficina o en la casa, no causa el lumbago por sí solo, pero puede mantenerlo o hacer que vuelva. No existe una postura perfecta que aguantar todo el día; lo que ayuda es una postura razonable que cambias seguido:</p>
+<ul>
+<li><strong>Pantalla a la altura de los ojos:</strong> si usas notebook, súbelo con un alza o unos libros y usa teclado y mouse externos.</li>
+<li><strong>Codos cerca del cuerpo y apoyados</strong>, con los hombros relajados.</li>
+<li><strong>Espalda baja apoyada en el respaldo:</strong> si tu silla no tiene soporte lumbar, un cojín pequeño sirve.</li>
+<li><strong>Pies apoyados</strong> en el suelo o en un reposapiés.</li>
+<li><strong>Pausas frecuentes:</strong> cada cierto rato, por ejemplo cada media hora, ponte de pie, camina un poco y mueve la espalda.</li>
+</ul>
+<p>Si además se te duermen las manos al teclear, revisa nuestra guía sobre el <a href="/blog/tunel-carpiano-alivio">túnel carpiano</a>.</p>
+
+<h2>Preguntas frecuentes sobre el lumbago agudo</h2>
+<h3>¿Cuánto dura un lumbago agudo?</h3>
+<p>Muchos episodios mejoran en días o pocas semanas, pero varía de persona a persona. Si no mejora o se repite, conviene una evaluación.</p>
+<h3>¿Es mejor frío o calor?</h3>
+<p>En el lumbago agudo el calor local suele aliviar la contractura. Usa lo que te alivie, por poco rato y protegiendo la piel.</p>
+<h3>¿Tengo que hacerme una radiografía o una resonancia?</h3>
+<p>En un lumbago sin señales de alarma, en general no hace falta un examen de imagen al principio. Lo decide el médico si hay señales de alarma o si el dolor no evoluciona como se espera.</p>
+<h3>¿Puedo ir a trabajar con lumbago?</h3>
+<p>Si tu trabajo lo permite, mantenerte activo suele ayudar. Si cargas peso o el dolor no te deja moverte, consulta con tu médico.</p>
+<h3>¿Necesito orden médica para el kinesiólogo?</h3>
+<p>Para atenderte de forma particular, en general no. Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
+<h3>¿Atienden en mi comuna?</h3>
+<p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
+
+<p>¿Lumbago que no cede o que se repite cada pocos meses? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20lumbago%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita.</p>
+
+<p><strong>Fuentes:</strong> Organización Mundial de la Salud, <a href="https://www.who.int/news-room/fact-sheets/detail/low-back-pain" target="_blank" rel="noopener noreferrer">Low back pain (nota descriptiva, 19 de junio de 2023)</a>.</p>`
   },
   {
     slug: "esguince-tobillo-recuperacion",
@@ -2159,7 +2179,7 @@ export const blogPosts = [
   <li><strong>Deslizamientos neurales:</strong> ejercicios suaves que movilizan el nervio dentro del túnel. No deben doler ni aumentar el hormigueo.</li>
   <li><strong>Terapia manual</strong> del retináculo y del antebrazo, que suele llegar acortado y sensible.</li>
   <li><strong>Trabajo de hombro, codo y columna cervical</strong>, y fortalecimiento progresivo de la mano cuando los síntomas lo permiten.</li>
-  <li><strong>Corrección ergonómica</strong> con tus propios muebles: altura del teclado, muñeca neutra, pausas, rediseño del gesto que más te carga. Complementa con la <a href="/blog/ergonomia-home-office-guia-2024">guía de ergonomía para home office</a>.</li>
+  <li><strong>Corrección ergonómica</strong> con tus propios muebles: altura del teclado, muñeca neutra, pausas, rediseño del gesto que más te carga. Complementa con <a href="/blog/lumbago-agudo-que-hacer#trabajo-sentado">los ajustes del puesto de trabajo si pasas muchas horas sentado</a>.</li>
 </ul>
 <p>El formato completo de una visita está en <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
 
@@ -2855,7 +2875,7 @@ export const blogPosts = [
         <li><strong>Terapia manual suboccipital y cervical:</strong> descomprimir y devolver movilidad a los segmentos altos.</li>
         <li><strong>Reentrenamiento propioceptivo:</strong> ejercicios de reposicionamiento cefálico con seguimiento ocular (láser o mirada fija) que "recalibran" los sensores del cuello.</li>
         <li><strong>Movilidad y fuerza profunda del cuello</strong> (como la rutina de la imagen).</li>
-        <li><strong>Higiene postural:</strong> especialmente frente a pantallas; revisa nuestra <a href="/blog/ergonomia-home-office-guia-2024">guía de ergonomía</a>.</li>
+        <li><strong>Higiene postural:</strong> especialmente frente a pantallas; revisa <a href="/blog/lumbago-agudo-que-hacer#trabajo-sentado">cómo ajustar tu puesto si trabajas sentado</a>.</li>
       </ul>
 
       <p>¿Mareos que nadie explica y un cuello siempre tenso? <a href="https://wa.me/56999679593?text=Hola,%20tengo%20mareos%20y%20dolor%20cervical">Agenda tu evaluación a domicilio</a> y salgamos de la duda con tests específicos.</p>

@@ -840,7 +840,7 @@ export default function HomePage() {
               </span>
             </Link>
 
-            <Link href="/blog/ergonomia-home-office-guia-2024" className="group cursor-pointer block">
+            <Link href="/blog/lumbago-agudo-que-hacer" className="group cursor-pointer block">
               <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
                 <Image
                   src="/placeholder.jpg"
@@ -856,10 +856,10 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors font-serif">
-                Ergonomía Home Office: Guía definitiva 2024
+                Lumbago agudo: qué hacer y cómo evitar que vuelva
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Protocolos clínicos para prevenir el dolor lumbar y cervical en jornadas de trabajo extensas.
+                Las primeras 48 horas, las señales de alarma y qué ajustar si trabajas sentado.
               </p>
               <span className="text-sm font-semibold text-emerald-600 flex items-center">
                 Leer artículo <TrendingUp className="h-3 w-3 ml-2" />
