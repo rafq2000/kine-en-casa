@@ -45,6 +45,7 @@ export const metadata: Metadata = {
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",
+        images: ["/og-image.jpg"],
     },
 }
 

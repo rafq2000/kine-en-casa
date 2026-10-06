@@ -34,6 +34,7 @@ export const metadata: Metadata = {
         type: "website",
         locale: "es_CL",
         siteName: "KINEUM",
+        images: ["/og-image.jpg"],
     },
 }
 

@@ -25,6 +25,7 @@ export const metadata: Metadata = {
         url: "https://kineum.cl/ejercicios",
         type: "website",
         locale: "es_CL",
+        images: ["/og-image.jpg"],
     },
 }
 

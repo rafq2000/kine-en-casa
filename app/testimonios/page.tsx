@@ -21,6 +21,7 @@ export const metadata: Metadata = {
             "Estamos reuniendo opiniones verificadas de pacientes de KINEUM. Mientras tanto, revisa cómo trabajamos y quiénes somos antes de agendar tu evaluación gratuita.",
         url: "https://kineum.cl/testimonios",
         type: "website",
+        images: ["/og-image.jpg"],
     },
 }
 
