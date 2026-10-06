@@ -90,11 +90,13 @@ export default async function BlogPost({ params }: BlogPostProps) {
         inLanguage: "es-CL",
         author: {
             "@type": "Organization",
-            name: post.author,
-            url: "https://kineum.cl/nosotros",
+            "@id": "https://kineum.cl/#organization",
+            name: "KINEUM",
+            url: "https://kineum.cl",
         },
         publisher: {
             "@type": "Organization",
+            "@id": "https://kineum.cl/#organization",
             name: "KINEUM",
             url: "https://kineum.cl",
             logo: {
