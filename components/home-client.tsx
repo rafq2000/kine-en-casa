@@ -866,7 +866,7 @@ export default function HomePage() {
               </span>
             </Link>
 
-            <Link href="/blog/sarcopenia-fuerza-es-salud" className="group cursor-pointer block">
+            <Link href="/blog/adulto-mayor-se-cayo-en-casa-que-hacer" className="group cursor-pointer block">
               <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
                 <Image
                   src="/physiotherapist-elderly-exercise.png"
@@ -882,10 +882,10 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors font-serif">
-                Sarcopenia: Por qué la fuerza es salud
+                Adulto mayor se cayó en casa: qué hacer
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Estrategias nutricionales y kinésicas para mantener la vitalidad muscular en la tercera edad.
+                Cuándo llamar al SAMU 131, cómo ayudarlo a levantarse y cómo prevenir la próxima caída.
               </p>
               <span className="text-sm font-semibold text-emerald-600 flex items-center">
                 Leer artículo <TrendingUp className="h-3 w-3 ml-2" />

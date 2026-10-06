@@ -35,6 +35,22 @@ const nextConfig = {
         destination: '/blog/lumbago-agudo-que-hacer',
         permanent: true,
       },
+      // Fase 2 (T40): poda de posts delgados sin clics (GSC, historial completo desde el 4-jul-2026)
+      {
+        source: '/blog/bruxismo-dolor-cervical',
+        destination: '/blog/cervicalgia-mareos',
+        permanent: true,
+      },
+      {
+        source: '/blog/sarcopenia-fuerza-es-salud',
+        destination: '/servicios/geriatrica',
+        permanent: true,
+      },
+      {
+        source: '/blog/kinesiologia-post-covid',
+        destination: '/servicios/respiratoria',
+        permanent: true,
+      },
       {
         source: '/:path*',
         has: [

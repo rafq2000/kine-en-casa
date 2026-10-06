@@ -287,7 +287,7 @@ export const blogPosts = [
 
 <h2>Lo que un kinesiólogo no es: masajista ni quiropráctico</h2>
 <h3>La diferencia con la masoterapia</h3>
-<p>El masaje es una técnica; la kinesiología es una profesión de la salud con evaluación diagnóstica funcional y un plan de tratamiento con objetivos medibles. Un masajista puede aliviarte una contractura por unos días. Si el dolor vuelve siempre al mismo lugar, limita movimientos específicos o lleva semanas, ahí hay una causa que el masaje solo no corrige. Esa frontera la desarrollamos en <a href="/blog/masaje-descontracturante-vs-terapeutico">masaje descontracturante vs. terapéutico</a>.</p>
+<p>El masaje es una técnica; la kinesiología es una profesión de la salud con evaluación diagnóstica funcional y un plan de tratamiento con objetivos medibles. Un masajista puede aliviarte una contractura por unos días. Si el dolor vuelve siempre al mismo lugar, limita movimientos específicos o lleva semanas, ahí hay una causa que el masaje solo no corrige.</p>
 <h3>La diferencia con el quiropráctico y con las terapias sin respaldo</h3>
 <p>La quiropraxia es otra cosa: su foco es la manipulación vertebral y no equivale a un tratamiento kinesiológico. Antes de aceptar que alguien te manipule la columna, aplica el mismo filtro de la sección siguiente: pide nombre completo y RUT, y revisa si figura en el Registro Nacional de Prestadores Individuales de Salud.</p>
 <p>Hay además ofertas que circulan como "terapia" sin respaldo clínico: aparatos milagrosos, promesas de curar en una sesión, diagnósticos hechos sin examinarte. Una regla simple: <strong>desconfía de quien te garantiza un resultado o un plazo exacto antes de evaluarte</strong>. Una recuperación seria se estima según el caso y se ajusta sesión a sesión.</p>
@@ -981,7 +981,7 @@ export const blogPosts = [
 <h2>Por qué una caída del adulto mayor es una señal de alerta</h2>
 <p>A veces fue solo una alfombra. Pero en una persona mayor la caída suele ser el resultado de varios factores que se suman, y conviene preguntarse qué hay detrás:</p>
 <ul>
-<li><strong>Pérdida de fuerza en las piernas.</strong> La <a href="/blog/sarcopenia-fuerza-es-salud">sarcopenia o pérdida de masa y fuerza muscular</a> hace más difícil recuperar el equilibrio ante un tropiezo.</li>
+<li><strong>Pérdida de fuerza en las piernas.</strong> La sarcopenia, o pérdida de masa y fuerza muscular, hace más difícil recuperar el equilibrio ante un tropiezo.</li>
 <li><strong>Problemas de equilibrio o de marcha</strong>, como pasos más cortos o arrastrar los pies.</li>
 <li><strong>Medicamentos</strong> que dan sueño, mareo o bajan la presión, sobre todo si se combinan varios.</li>
 <li><strong>Presión que baja al pararse</strong>, visión disminuida, problemas en los pies o calzado inadecuado.</li>
@@ -1360,7 +1360,7 @@ export const blogPosts = [
       <p>Ninguna de estas señales es "normal aunque frecuente". Frecuentes son; normales, no. Todas tienen abordaje kinesiológico, y en varias el entrenamiento de la musculatura del piso pélvico es el tratamiento conservador que se prueba antes de plantear cualquier cirugía.</p>
 
       <h2>Cuando el problema no es el post parto</h2>
-      <p>Buena parte de las mujeres que atendemos no viene del puerperio. Consultan porque el síntoma apareció o se agravó mucho después, y eso también es materia de kinesiología de piso pélvico:</p>
+      <p>Muchas mujeres que consultan no vienen del puerperio. Consultan porque el síntoma apareció o se agravó mucho después, y eso también es materia de kinesiología de piso pélvico:</p>
       <ul>
         <li><strong>Incontinencia urinaria de esfuerzo:</strong> se escapa orina al reír, toser, saltar o levantar peso. Es el motivo de consulta más común y el que mejor responde a un entrenamiento bien dirigido.</li>
         <li><strong>Urgencia miccional:</strong> la sensación de "no alcanzo al baño". Acá el trabajo incluye reeducación de la vejiga y de hábitos, además del músculo.</li>
@@ -1373,29 +1373,29 @@ export const blogPosts = [
 
       <h2>Cómo es el tratamiento a domicilio, etapa por etapa</h2>
       <ul>
-        <li><strong>Evaluación (sesión 1):</strong> historia del embarazo y el parto —o del síntoma, si no vienes del post parto—, evaluación funcional del piso pélvico, de la diástasis, de la postura y de la respiración. Ahí definimos objetivos realistas contigo.</li>
+        <li><strong>Evaluación (sesión 1):</strong> historia del embarazo y el parto —o del síntoma, si no vienes del post parto—, evaluación funcional del piso pélvico, de la diástasis, de la postura y de la respiración. Ahí se definen objetivos realistas contigo.</li>
         <li><strong>Fase de reconexión:</strong> respiración diafragmática coordinada con el piso pélvico, activación del transverso abdominal e higiene postural para la lactancia y el porteo.</li>
         <li><strong>Fase de fortalecimiento:</strong> entrenamiento progresivo del piso pélvico y del core profundo. Es bastante más que "ejercicios de Kegel" genéricos: sin guía, muchas mujeres los hacen al revés y empujan hacia abajo en vez de contraer hacia adentro.</li>
         <li><strong>Retorno al ejercicio:</strong> progresión segura hacia el impacto —trotar, saltar, entrenamiento funcional— recién cuando el piso pélvico está preparado para esa carga.</li>
       </ul>
-      <p>En paralelo trabajamos lo que sostiene el resultado: manejo del estreñimiento, técnica para toser y para levantar peso sin castigar la zona, y pausas realistas dentro de tu día. Si quieres ver el paso a paso de una visita antes de agendar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a>.</p>
+      <p>En paralelo se trabaja lo que sostiene el resultado: manejo del estreñimiento, técnica para toser y para levantar peso sin castigar la zona, y pausas realistas dentro de tu día.</p>
 
       <h2>Por qué el formato domiciliario funciona tan bien acá</h2>
       <ul>
         <li><strong>El bebé se queda contigo:</strong> no necesitas con quién dejarlo y puedes amamantar antes o durante la visita.</li>
         <li><strong>Privacidad total:</strong> el tratamiento de piso pélvico es íntimo y tu dormitorio es más cómodo que un box clínico.</li>
-        <li><strong>Entrenamos en tu entorno real:</strong> cómo tomas al bebé de la cuna, la postura en TU sillón de lactancia, las escaleras de TU casa.</li>
+        <li><strong>Se entrena en tu entorno real:</strong> cómo tomas al bebé de la cuna, la postura en TU sillón de lactancia, las escaleras de TU casa.</li>
         <li><strong>Cero traslados:</strong> en puerperio el descanso también es parte del tratamiento.</li>
       </ul>
 
-      <h2>Precios y cobertura</h2>
-      <p>La kinesiología de piso pélvico se paga igual que cualquier atención kinesiológica particular: emitimos boleta y, con orden médica, puedes presentarla para <a href="/blog/reembolso-isapre-kinesiologia">reembolso en tu Isapre</a> y en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas. Revisa las comunas donde llegamos en nuestra <a href="/cobertura">página de cobertura</a>.</p>
+      <h2>Boleta y reembolso</h2>
+      <p>La kinesiología de piso pélvico particular se paga como cualquier atención kinesiológica particular: si la profesional emite boleta de honorarios y tienes orden médica, puedes presentarla para <a href="/blog/reembolso-isapre-kinesiologia">reembolso en tu Isapre</a> y en tu seguro complementario, según la cobertura de tu plan.</p>
 
       <h2>Preguntas frecuentes</h2>
       <h3>¿Puedo empezar si tuve cesárea?</h3>
       <p>Sí. La cesárea también requiere rehabilitación: cicatriz, diástasis y piso pélvico, porque el embarazo ya hizo lo suyo. El inicio es el mismo, después del alta obstétrica.</p>
       <h3>¿Cuántas sesiones voy a necesitar?</h3>
-      <p>Lo habitual es una evaluación más un plan de alrededor de 6 a 12 sesiones, pero el número real depende de lo que encontremos y de cómo respondas. Te lo decimos después de evaluarte, no antes.</p>
+      <p>Depende de lo que muestre la evaluación y de cómo respondas al tratamiento. Una buena kinesióloga te da una estimación después de evaluarte, no antes.</p>
       <h3>¿Y si mi parto fue hace años?</h3>
       <p>Igual sirve. El piso pélvico responde al entrenamiento a cualquier edad, y muchas pacientes consultan recién cuando los síntomas aumentan con la menopausia.</p>
       <h3>¿No basta con hacer ejercicios de Kegel por mi cuenta?</h3>
@@ -1405,7 +1405,7 @@ export const blogPosts = [
       <h3>¿Se puede trabajar el piso pélvico durante el embarazo?</h3>
       <p>Sí, con autorización de tu médico tratante y con otro enfoque: preparación, control de la presión abdominal y manejo de molestias, más que fortalecimiento intenso.</p>
 
-      <p><strong>¿Quieres partir con tu evaluación gratuita?</strong> <a href="https://wa.me/56999679593?text=Hola,%20quiero%20evaluaci%C3%B3n%20de%20piso%20p%C3%A9lvico%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>, cuéntanos hace cuánto fue tu parto o desde cuándo tienes los síntomas, y coordinamos contigo el horario que te acomode.</p>`
+      <p><strong>¿Con quién consultar?</strong> Si tienes alguno de estos síntomas, coméntalo en tu control con tu matrona o ginecólogo y pide la derivación a una kinesióloga con formación en piso pélvico. Esta guía es informativa: en KINEUM hoy atendemos a domicilio kinesiología <a href="/servicios/geriatrica">geriátrica</a>, <a href="/servicios/respiratoria">respiratoria</a>, <a href="/servicios/traumatologica">traumatológica</a>, <a href="/servicios/neurologica">neurológica</a> y <a href="/servicios/postquirurgica">postquirúrgica</a>.</p>`
   },
   {
     slug: "drenaje-linfatico-post-operatorio-domicilio",
@@ -1542,44 +1542,6 @@ export const blogPosts = [
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
 <p>¿Un familiar tuvo un ACV y ya está en la casa? Podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su médico. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20rehabilitaci%C3%B3n%20post%20ACV%20en%20casa">escríbenos por WhatsApp</a>.</p>`
-  },
-  {
-    slug: "sarcopenia-fuerza-es-salud",
-    seoTitle: "Sarcopenia en el Adulto Mayor: Tratamiento | KINEUM",
-    seoDescription: "Por qué el adulto mayor pierde fuerza, cómo detectarlo a tiempo y qué ejercicios recuperan masa muscular en casa. Evaluación kinesiológica gratuita.",
-    title: "Sarcopenia: Por qué la Fuerza es el Nuevo Signo Vital",
-    subtitle: "Estrategias para mantener la vitalidad muscular en la tercera edad.",
-    author: "Equipo Clínico KINEUM",
-    date: "20 Enero, 2026",
-    dateISO: "2026-01-20",
-    readTime: "6 min lectura",
-    category: "Geriatría Activa",
-    image: "/images/sarcopenia_elderly_hero_1769277646207.png",
-    icon: Users,
-    content: `<p class="lead">A partir de los 50 años perdemos entre 1% y 2% de masa muscular al año, y el proceso se acelera después de los 70. Esa pérdida tiene nombre —sarcopenia— y es hoy uno de los mejores predictores de dependencia, caídas y hospitalización en el adulto mayor. La buena noticia: es <strong>reversible a cualquier edad</strong>.</p>
-
-      <h2>¿Cómo saber si hay sarcopenia?</h2>
-      <p>Tres señales prácticas que evaluamos en la primera visita:</p>
-      <ul>
-        <li><strong>Velocidad de marcha:</strong> caminar menos de 0,8 metros por segundo es señal de alerta.</li>
-        <li><strong>Fuerza de agarre:</strong> dificultad para abrir frascos o cargar bolsas del supermercado.</li>
-        <li><strong>Test de la silla:</strong> no lograr pararse y sentarse 5 veces seguidas sin usar las manos.</li>
-      </ul>
-
-      <h2>El músculo se recupera con estímulo, no con reposo</h2>
-      <p>El error más común con los adultos mayores es "cuidarlos" con reposo. El músculo envejecido responde al entrenamiento de fuerza igual que el joven (más lento, pero responde). Estudios en mayores de 80 años muestran ganancias de fuerza de 30% a 100% en 10 a 12 semanas de trabajo progresivo.</p>
-
-      <h2>El protocolo KINEUM para geriatría activa</h2>
-      <ul>
-        <li><strong>Fuerza 2-3 veces por semana:</strong> ejercicios funcionales con el peso corporal, bandas y objetos de la casa (sentarse-pararse, subir escalones, empujar la pared).</li>
-        <li><strong>Equilibrio y prevención de caídas:</strong> apoyo unipodal, marcha en tándem y ejercicios de reacción.</li>
-        <li><strong>Proteína suficiente:</strong> coordinamos con el médico o nutricionista el aporte proteico (el músculo no crece sin materia prima).</li>
-      </ul>
-
-      <blockquote>"En geriatría, la fuerza muscular es independencia: la diferencia entre levantarse solo del sillón o necesitar ayuda para todo."</blockquote>
-
-      <p>Nuestro servicio de <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a> está diseñado exactamente para esto: recuperar fuerza y autonomía sin que el paciente salga de su casa. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20kinesiolog%C3%ADa%20geri%C3%A1trica">Consulta disponibilidad por WhatsApp</a>.</p>
-    `
   },
 
   // ── Biblioteca clínica SEO ──
@@ -2352,90 +2314,6 @@ export const blogPosts = [
 <p>¿Llevas meses con dolor de talón? Agenda tu evaluación inicial gratuita en tu casa: revisamos tu pie, tu calzado y tu carga diaria, y te decimos qué esperar. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20de%20tal%C3%B3n%20(fascitis%20plantar)%20y%20quiero%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
   },
   {
-    slug: "kinesiologia-post-covid",
-    seoTitle: "Rehabilitación Respiratoria Post Neumonía | KINEUM",
-    seoDescription: "Cómo recuperar la capacidad pulmonar después de una neumonía o una hospitalización, con qué ejercicios y en cuántas semanas. Kinesiología en casa.",
-    title: "Rehabilitación Respiratoria Post-COVID y Neumonía",
-    subtitle: "Recuperando tu capacidad pulmonar al 100%.",
-    author: "Equipo Clínico KINEUM",
-    date: "15 Abril, 2026",
-    dateISO: "2026-04-15",
-    readTime: "6 min lectura",
-    category: "Respiratorio",
-    image: "/respiratory-therapy-session.png",
-    icon: Activity,
-    content: `<p class="lead">Semanas después del alta, muchos pacientes de neumonía o COVID siguen agitándose al subir un piso de escaleras, hablando entrecortado o durmiendo mal por la tos. Esa fatiga persistente no es "normal" ni hay que resignarse: la kinesiología respiratoria tiene protocolos específicos para recuperar la capacidad pulmonar.</p>
-
-      <h2>¿Qué le pasa al pulmón después de una neumonía?</h2>
-      <p>La infección deja zonas del pulmón mal ventiladas, secreciones espesas y una musculatura respiratoria debilitada por el reposo. El cuerpo compensa con respiraciones cortas y altas (pecho), lo que perpetúa la sensación de ahogo.</p>
-
-      <h2>El programa de rehabilitación respiratoria</h2>
-      <ul>
-        <li><strong>Reeducación diafragmática:</strong> volver a respirar "con el abdomen" (como muestra la imagen) mejora la ventilación de las bases pulmonares con menos esfuerzo.</li>
-        <li><strong>Técnicas de higiene bronquial:</strong> drenaje de secreciones con ciclos activos de respiración, espiración forzada y posicionamiento.</li>
-        <li><strong>Entrenamiento de musculatura inspiratoria:</strong> con válvulas de resistencia calibradas.</li>
-        <li><strong>Reacondicionamiento físico progresivo:</strong> caminata y fuerza dosificadas con control de saturación de oxígeno en cada sesión.</li>
-      </ul>
-
-      <h2>¿Quiénes deben consultar?</h2>
-      <ul>
-        <li>Pacientes dados de alta tras neumonía, COVID o bronquitis complicada.</li>
-        <li>Personas con EPOC o asma que notaron deterioro tras una infección.</li>
-        <li>Adultos mayores con tos productiva persistente.</li>
-        <li>Cualquier persona cuya disnea (falta de aire) no mejora 4 semanas después del cuadro agudo.</li>
-      </ul>
-
-      <blockquote>"El pulmón se rehabilita igual que una rodilla: con ejercicio específico, progresivo y supervisado."</blockquote>
-
-
-      <h2>Cómo saber si estás progresando</h2>
-      <p>El indicador más útil no es cómo te sientes un día puntual, sino qué puedes hacer sin quedar sin aire. Sirve fijar una referencia concreta al empezar —cuántos pisos de escalera subes antes de detenerte, cuántas cuadras caminas, si puedes hablar mientras caminas— y volver a medirla cada dos semanas.</p>
-      <p>También controlamos la saturación de oxígeno durante el ejercicio. Una caída marcada al esforzarte es un dato clínico relevante que conviene informar al médico tratante, y es una de las razones por las que el reacondicionamiento post neumonía o post COVID debería ser supervisado y no simplemente "empezar a caminar más".</p>
-      <p>Realizamos la rehabilitación completa en tu casa, con oxímetro y equipamiento respiratorio profesional. Conoce el servicio de <a href="/servicios/respiratoria">kinesiología respiratoria a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20necesito%20rehabilitaci%C3%B3n%20respiratoria">agenda por WhatsApp</a>.</p>
-    `
-  },
-  {
-    slug: "bruxismo-dolor-cervical",
-    seoTitle: "Bruxismo y Dolor Cervical: La Conexión Oculta | KINEUM",
-    seoDescription: "Por qué apretar los dientes termina en dolor de cuello, qué ejercicios relajan la mandíbula y cuándo consultar. Kinesiología a domicilio Santiago.",
-    title: "Bruxismo y Dolor Cervical: La Conexión Oculta",
-    subtitle: "Relajando la mandíbula para curar el cuello.",
-    author: "Equipo Clínico KINEUM",
-    date: "01 Abril, 2026",
-    dateISO: "2026-04-01",
-    readTime: "5 min lectura",
-    category: "Cabeza y Cuello",
-    image: "/images/exercise_neck_mobility_1769278328424.png",
-    icon: Smile,
-    content: `<p class="lead">Aprietas los dientes de noche y amaneces con el cuello rígido y dolor de cabeza. No es coincidencia: la mandíbula y la columna cervical trabajan como una sola unidad funcional, y el bruxismo sostenido sobrecarga ambas.</p>
-
-      <h2>¿Por qué la mandíbula afecta el cuello?</h2>
-      <p>Los músculos masticatorios (maseteros, temporales, pterigoideos) comparten cadenas musculares y vías neurológicas con la musculatura suboccipital y cervical. Cuando aprietas los dientes, la cabeza se estabiliza en anteposición y los músculos del cuello se contraen en simultáneo. Horas de eso, cada noche, equivalen a un "entrenamiento" involuntario de tensión.</p>
-
-      <h2>Señales de que tu dolor cervical viene de la ATM</h2>
-      <ul>
-        <li>Dolor de cabeza matinal en las sienes.</li>
-        <li>Chasquidos o bloqueos al abrir la boca.</li>
-        <li>Desgaste dental que notó tu dentista.</li>
-        <li>Dolor cervical alto (base del cráneo) que no mejora con tratamientos solo de cuello.</li>
-      </ul>
-
-      <h2>El tratamiento integrado</h2>
-      <ul>
-        <li><strong>Terapia manual de ATM y cervical:</strong> liberación de maseteros y temporales (incluida técnica intraoral cuando corresponde) más movilización suboccipital.</li>
-        <li><strong>Ejercicios de movilidad cervical</strong> (como los de la imagen) y control motor profundo del cuello.</li>
-        <li><strong>Higiene del bruxismo:</strong> conciencia diurna ("labios juntos, dientes separados"), manejo del estrés y pausas de relajación mandibular.</li>
-        <li><strong>Trabajo en equipo con tu dentista:</strong> el plano de relajación nocturno protege los dientes mientras nosotros tratamos la musculatura.</li>
-      </ul>
-
-
-      <h2>¿Cuánto demora en ceder?</h2>
-      <p>La mayoría de los pacientes nota alivio de la rigidez matinal en las primeras dos o tres semanas, pero consolidar el cambio toma más: entre 6 y 10 semanas de trabajo constante. La razón es que no basta con soltar la musculatura, hay que cambiar el hábito que la vuelve a tensar cada noche.</p>
-      <p>Un factor que suele decidir el resultado es el estrés. Si el período de mayor apriete coincide con una carga laboral alta o problemas de sueño, conviene abordarlo en paralelo: dormir mal aumenta el bruxismo, y el bruxismo empeora el descanso. Romper ese círculo acelera todo lo demás.</p>
-      <p>¿Dolor de cuello crónico que nadie resuelve? Quizás nadie ha mirado tu mandíbula. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20bruxismo%20y%20dolor%20cervical">Agenda una evaluación integral a domicilio</a>.</p>
-    `
-  },
-  {
     slug: "fractura-cadera-adulto-mayor",
     seoTitle: "Fractura o Prótesis de Cadera: Recuperación en Casa | KINEUM",
     seoDescription: "Cómo es la rehabilitación en casa tras una fractura o prótesis de cadera: cuándo empezar, precauciones, etapas por hitos, el cuidador y señales de alarma.",
@@ -2557,6 +2435,8 @@ export const blogPosts = [
   },
   {
     slug: "escoliosis-en-ninos",
+    // T40 (5-oct-2026): 0 clics en GSC; noindex,follow reversible: borra esta línea para volver a indexarlo
+    noindex: true,
     seoTitle: "Escoliosis en Niños: Cuándo Hay que Preocuparse | KINEUM",
     seoDescription: "Cómo detectar una escoliosis en casa, qué grados requieren corsé o cirugía y qué aporta la kinesiología. Guía para padres con evaluación gratuita.",
     title: "Escoliosis en Niños: Detección y Tratamiento",
@@ -2702,6 +2582,8 @@ export const blogPosts = [
   },
   {
     slug: "masaje-descontracturante-vs-terapeutico",
+    // T40 (5-oct-2026): 0 clics en GSC; noindex,follow reversible: borra esta línea para volver a indexarlo
+    noindex: true,
     seoTitle: "Masaje Descontracturante vs. Terapéutico: ¿Cuál? | KINEUM",
     seoDescription: "En qué se diferencian, cuál sirve para tu dolor y cuándo necesitas kinesiología y no solo masaje. Atención a domicilio en Santiago, evaluación gratis.",
     title: "Masaje Descontracturante vs. Terapéutico: ¿Cuál Necesito?",
@@ -2845,44 +2727,70 @@ export const blogPosts = [
   },
   {
     slug: "cervicalgia-mareos",
-    seoTitle: "Dolor Cervical y Mareos: Por Qué Se Relacionan | KINEUM",
-    seoDescription: "Cómo saber si tus mareos vienen del cuello, qué los diferencia de un vértigo y cómo se tratan. Kinesiología a domicilio en Santiago, evaluación gratis.",
-    title: "Dolor Cervical y Mareos: ¿Están Relacionados?",
-    subtitle: "El mareo cervicogénico y cómo tratarlo.",
+    seoTitle: "Dolor de Cuello: Mareos, Bruxismo y Tratamiento | KINEUM",
+    seoDescription: "Cuándo el mareo viene del cuello, cómo el bruxismo carga la zona cervical, qué hace el kinesiólogo y qué señales exigen llamar al SAMU 131. Evaluación gratis.",
+    title: "Dolor de cuello (cervicalgia): mareos, bruxismo y qué hace el kinesiólogo",
+    subtitle: "Por qué un cuello rígido puede dar mareo, cómo se relaciona con apretar los dientes y en qué consiste el tratamiento kinesiológico.",
     author: "Equipo Clínico KINEUM",
     date: "04 Febrero, 2026",
     dateISO: "2026-02-04",
-    readTime: "5 min lectura",
+    updatedISO: "2026-10-05",
+    readTime: "7 min lectura",
     category: "Cabeza y Cuello",
     image: "/images/exercise_neck_mobility_1769278328424.png",
     icon: Brain,
-    content: `<p class="lead">Sensación de inestabilidad, "cabeza pesada", mareo al girar el cuello o al mantenerlo en una posición… y todos los exámenes de oído salen normales. Cuando eso ocurre junto a dolor o rigidez cervical, el cuello es el sospechoso principal: es el llamado mareo cervicogénico.</p>
+    content: `<p class="lead">El dolor de cuello, o cervicalgia, rara vez viene solo. Muchas personas lo describen junto a una sensación de inestabilidad o "cabeza pesada", o lo notan peor al despertar después de una noche apretando los dientes. Esta guía explica cómo se relacionan el cuello, los mareos y el bruxismo, y qué puede hacer un kinesiólogo. No reemplaza la evaluación médica: un mareo nuevo siempre merece que lo vea un médico.</p>
 
-      <h2>¿Cómo puede el cuello producir mareo?</h2>
-      <p>La columna cervical alta es un órgano sensorial: sus músculos profundos tienen una densidad altísima de receptores de posición que informan al cerebro dónde está la cabeza. Cuando hay contractura, rigidez o mala postura sostenida, esa información llega "distorsionada" y entra en conflicto con la del oído interno y la vista. El resultado: inestabilidad, mareo y náuseas leves.</p>
+<h2>Cuándo el mareo viene del cuello</h2>
+<p>La parte alta de la columna cervical funciona también como un órgano de los sentidos: sus músculos profundos tienen muchos receptores que le informan al cerebro dónde está la cabeza. Cuando hay rigidez, contractura o una postura mantenida por horas, esa información puede no calzar con la que entregan el oído interno y la vista. El resultado puede ser inestabilidad, mareo leve y náuseas. Es lo que se conoce como mareo cervicogénico, y antes de atribuirle el mareo al cuello el médico tiene que descartar otras causas.</p>
+<p>Algunas pistas de que el cuello puede estar involucrado:</p>
+<ul>
+<li>El mareo aparece o empeora con ciertas posiciones o movimientos del cuello, más que al darte vuelta en la cama.</li>
+<li>Viene junto con dolor o rigidez cervical, o con dolor de cabeza tensional.</li>
+<li>Es una inestabilidad difusa ("flotar", "estar en un bote") más que un vértigo en que todo gira.</li>
+<li>Mejora cuando la musculatura del cuello se relaja.</li>
+</ul>
 
-      <h2>Pistas de que tu mareo es cervicogénico</h2>
-      <ul>
-        <li>Aparece o empeora con posiciones o movimientos del cuello (no con los cambios de posición de la cabeza en la cama, típicos del vértigo de oído).</li>
-        <li>Coexiste con dolor, rigidez cervical o dolor de cabeza tensional.</li>
-        <li>Es una inestabilidad difusa ("flotar", "estar en un barco") más que un vértigo rotatorio intenso.</li>
-        <li>Mejora cuando la musculatura del cuello se relaja.</li>
-      </ul>
-      <p><strong>Importante:</strong> el mareo de inicio brusco con alteraciones visuales, del habla o de la fuerza es motivo de urgencia médica inmediata.</p>
+<h2>Señales de alarma: llama al SAMU 131</h2>
+<p>Un mareo que aparece de golpe junto con alteraciones de la visión, dificultad para hablar, pérdida de fuerza o adormecimiento de un lado del cuerpo, desviación de la cara o un dolor de cabeza muy intenso y distinto a los habituales no es un problema del cuello: llama de inmediato al <strong>SAMU 131</strong>. Consulta también pronto con un médico si el dolor de cuello vino después de un golpe o una caída, si hay fiebre, o si sientes hormigueo o debilidad que baja por los brazos.</p>
 
-      <h2>Tratamiento kinesiológico</h2>
-      <ul>
-        <li><strong>Terapia manual suboccipital y cervical:</strong> descomprimir y devolver movilidad a los segmentos altos.</li>
-        <li><strong>Reentrenamiento propioceptivo:</strong> ejercicios de reposicionamiento cefálico con seguimiento ocular (láser o mirada fija) que "recalibran" los sensores del cuello.</li>
-        <li><strong>Movilidad y fuerza profunda del cuello</strong> (como la rutina de la imagen).</li>
-        <li><strong>Higiene postural:</strong> especialmente frente a pantallas; revisa <a href="/blog/lumbago-agudo-que-hacer#trabajo-sentado">cómo ajustar tu puesto si trabajas sentado</a>.</li>
-      </ul>
+<h2>Bruxismo y dolor de cuello: la conexión</h2>
+<p>Si aprietas o rechinas los dientes de noche y amaneces con el cuello rígido y dolor de cabeza, no es coincidencia. La mandíbula y la columna cervical trabajan juntas: los músculos de la masticación comparten conexiones con la musculatura de la nuca, y cuando aprietas los dientes los músculos del cuello tienden a contraerse al mismo tiempo. Horas de eso, cada noche, cargan ambas zonas.</p>
+<p>Señales de que la mandíbula puede estar sumándose al dolor cervical:</p>
+<ul>
+<li>Dolor de cabeza al despertar, sobre todo en las sienes.</li>
+<li>Chasquidos o trabas al abrir la boca.</li>
+<li>Desgaste de los dientes que notó tu dentista.</li>
+<li>Dolor en la base del cráneo que no mejora con tratamientos dirigidos solo al cuello.</li>
+</ul>
 
-      <p>¿Mareos que nadie explica y un cuello siempre tenso? <a href="https://wa.me/56999679593?text=Hola,%20tengo%20mareos%20y%20dolor%20cervical">Agenda tu evaluación a domicilio</a> y salgamos de la duda con tests específicos.</p>
-    `
+<h2>Qué hace el kinesiólogo</h2>
+<p>En la evaluación se revisan la movilidad y la fuerza del cuello, la postura, la mandíbula y, si hay mareo, cómo responde a ciertos movimientos y pruebas. Según lo que aparezca, el tratamiento suele combinar:</p>
+<ul>
+<li><strong>Terapia manual</strong> de la zona cervical alta y de la musculatura de la nuca y la mandíbula.</li>
+<li><strong>Ejercicios de movilidad y de control de los músculos profundos del cuello</strong>, como los de la imagen.</li>
+<li><strong>Reentrenamiento de la posición de la cabeza</strong> con ejercicios de mirada y reposicionamiento, cuando hay mareo de origen cervical.</li>
+<li><strong>Hábitos para el bruxismo:</strong> durante el día, "labios juntos, dientes separados", pausas de relajación y atención al estrés y al sueño.</li>
+<li><strong>Trabajo coordinado con tu dentista</strong> si usas o necesitas un plano de relajación nocturno.</li>
+</ul>
+<p>El estrés y el mal dormir suelen ser parte del problema: dormir mal aumenta el apriete, y el apriete empeora el descanso. Abordarlos en paralelo ayuda a que el resultado se mantenga. Si pasas muchas horas frente al computador, revisa también <a href="/blog/lumbago-agudo-que-hacer#trabajo-sentado">cómo ajustar tu puesto si trabajas sentado</a>.</p>
+
+<h2>Preguntas frecuentes sobre el dolor de cuello</h2>
+<h3>¿El mareo por el cuello es peligroso?</h3>
+<p>El mareo cervicogénico en sí no suele serlo, pero el diagnóstico es de descarte: primero el médico tiene que revisar otras causas, sobre todo si el mareo es nuevo o intenso.</p>
+<h3>¿Cuánto demora en mejorar?</h3>
+<p>Depende de cuánto tiempo lleva el problema y de los hábitos que lo mantienen. La rigidez suele aliviarse antes que el hábito de apretar los dientes, que toma más tiempo cambiar. En la evaluación te damos una estimación para tu caso.</p>
+<h3>¿Sirve un plano de relajación para el cuello?</h3>
+<p>El plano lo indica el dentista y protege los dientes. Puede ayudar, pero no reemplaza el trabajo sobre la musculatura y los hábitos.</p>
+<h3>¿Necesito orden médica?</h3>
+<p>Para atenderte de forma particular, en general no. Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí, y el reembolso depende de la cobertura de tu plan.</p>
+
+<p>¿Dolor de cuello que vuelve una y otra vez? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20dolor%20de%20cuello%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita en tu casa.</p>`
   },
   {
     slug: "fibromialgia-ejercicio",
+    // T40 (5-oct-2026): 0 clics en GSC; noindex,follow reversible: borra esta línea para volver a indexarlo
+    noindex: true,
     seoTitle: "Fibromialgia: Ejercicio para el Dolor Crónico | KINEUM",
     seoDescription: "Por qué el ejercicio dosificado alivia la fibromialgia, cómo empezar sin recaer y qué evitar en los días malos. Kinesiología a domicilio Santiago.",
     title: "Fibromialgia: Rompiendo el Ciclo de Dolor",
@@ -2920,3 +2828,7 @@ export const blogPosts = [
 export function getPostBySlug(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
 }
+
+// Posts que Google puede indexar: los marcados con `noindex` (T40) quedan fuera del
+// sitemap, del listado del blog, de llms.txt y de los "Sigue leyendo".
+export const postsIndexables = blogPosts.filter((post) => !post.noindex);

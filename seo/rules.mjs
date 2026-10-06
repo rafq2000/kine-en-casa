@@ -26,6 +26,10 @@ export const RULES = {
     contenido: {
         // Minimo de palabras de texto visible para que Google considere indexar.
         minPalabras: 300,
+        // Solo para /blog/: cuenta las palabras del artículo (campo `content`, marcado con
+        // data-contenido-post), sin cabecera, llamados a la acción ni "Sigue leyendo".
+        // Calibrado con --local: un post de ~300 palabras queda bajo el umbral; uno de ~1.200 pasa.
+        minPalabrasBlog: 800,
     },
     // Terminos que el negocio ya NO ofrece: su aparicion es un error de contenido.
     // Se comparan normalizados (sin tildes y en minusculas).
@@ -58,7 +62,6 @@ export const RULES = {
 // (nadie busca "neuroplasticidad", buscan "rehabilitacion post ACV").
 const KEYWORD_DECLARADA = {
     '/blog/neuroplasticidad-recuperacion-acv': 'rehabilitación post ACV en casa',
-    '/blog/sarcopenia-fuerza-es-salud': 'perdida de fuerza adulto mayor',
     '/cobertura': 'kinesiólogo a domicilio sector oriente santiago',
 }
 

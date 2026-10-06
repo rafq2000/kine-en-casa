@@ -1,6 +1,6 @@
 import { comunas } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
-import { blogPosts } from "@/lib/blog-data"
+import { postsIndexables as blogPosts } from "@/lib/blog-data"
 import { serviciosContenido } from "@/lib/servicios-contenido"
 import { BOLETA_TEXTO, HORARIO_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 import { ULTIMA_MODIFICACION } from "@/app/sitemap"

@@ -92,7 +92,6 @@ export const especialidades: Especialidad[] = [
         ],
         servicioUrl: "/servicios/geriatrica",
         articulos: [
-            { titulo: "Sarcopenia: por qué la fuerza es el nuevo signo vital", url: "/blog/sarcopenia-fuerza-es-salud" },
             { titulo: "Fractura o prótesis de cadera en el adulto mayor: cómo es la rehabilitación en casa", url: "/blog/fractura-cadera-adulto-mayor" },
             { titulo: "Vivir sin dolor con artrosis de rodilla", url: "/blog/artrosis-rodilla-ejercicios" },
             { titulo: "Adulto mayor se cayó en la casa: qué hacer en el momento y después", url: "/blog/adulto-mayor-se-cayo-en-casa-que-hacer" },
@@ -219,7 +218,6 @@ export const especialidades: Especialidad[] = [
         servicioUrl: "/servicios/respiratoria",
         articulos: [
             { titulo: "Kinesiología respiratoria infantil: guía para padres", url: "/blog/kinesiologia-respiratoria-infantil-domicilio" },
-            { titulo: "Rehabilitación respiratoria post COVID y neumonía", url: "/blog/kinesiologia-post-covid" },
         ],
     },
     {

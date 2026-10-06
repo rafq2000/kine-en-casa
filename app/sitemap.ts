@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { blogPosts } from '@/lib/blog-data'
+import { postsIndexables as blogPosts } from '@/lib/blog-data'
 import { comunas } from '@/lib/comunas-data'
 import { especialidades } from '@/lib/especialidades-data'
 

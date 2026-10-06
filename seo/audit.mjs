@@ -46,6 +46,22 @@ function textoVisible(html) {
         .trim()
 }
 
+// Palabras dentro de los <div data-contenido-post> (el campo `content` del post).
+// Cuenta la profundidad de <div> porque el articulo puede traer divs propios (tablas).
+function palabrasDelPost(html) {
+    let total = null
+    for (const m of html.matchAll(/<div[^>]*data-contenido-post[^>]*>/g)) {
+        let i = m.index + m[0].length, prof = 1
+        const re = /<(\/?)div\b[^>]*>/g
+        re.lastIndex = i
+        let t
+        while (prof && (t = re.exec(html))) prof += t[1] ? -1 : 1
+        const fin = t ? t.index : html.length
+        total = (total ?? 0) + textoVisible(html.slice(i, fin)).split(' ').filter(Boolean).length
+    }
+    return total
+}
+
 function analizar(url, r) {
     const html = r.body
     const title = pick(html, /<title>([^<]*)<\/title>/i)
@@ -120,6 +136,13 @@ function analizar(url, r) {
     if (robots && /noindex/i.test(robots)) P('critica', 'noindex', robots, 'Quitar noindex si la pagina debe indexarse')
 
     if (palabras < RULES.contenido.minPalabras) P('alta', 'contenido-corto', `${palabras} palabras de texto visible`, `Ampliar a mas de ${RULES.contenido.minPalabras}`)
+
+    // En el blog solo cuenta el articulo (divs data-contenido-post), no la plantilla.
+    if (url.includes('/blog/')) {
+        const palabrasPost = palabrasDelPost(html)
+        if (palabrasPost !== null && palabrasPost < RULES.contenido.minPalabrasBlog)
+            P('media', 'post-delgado', `${palabrasPost} palabras en el articulo`, `Ampliar a ${RULES.contenido.minPalabrasBlog}+, fusionarlo o podarlo (T40)`)
+    }
 
     if (imgsSinAlt > 0) P('media', 'img-sin-alt', `${imgsSinAlt} de ${imgs.length} imagenes sin alt`, 'Agregar alt descriptivo')
 

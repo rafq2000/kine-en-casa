@@ -52,6 +52,13 @@ Cómo leer las cifras:
 - (l) `sameAs` de las redes "kineencasa": se retira.
 - (m) FAQs de cambio de plan y de pago en cuotas: se borran.
 
+### 5-oct-2026 — T40: datos de Search Console para la poda (verificados en GSC)
+La propiedad tiene datos desde el 4-jul-2026, que es todo su historial (no hay 16 meses).
+- Con 0 clics en todo el historial: `sarcopenia-fuerza-es-salud`, `kinesiologia-post-covid`, `bruxismo-dolor-cervical`, `escoliosis-en-ninos` (2 impresiones), `fibromialgia-ejercicio`, `masaje-descontracturante-vs-terapeutico` y `ergonomia-home-office-guia-2024`. Ninguna supera los 5 clics, así que se podan o fusionan según el plan:
+  - 308: `bruxismo-dolor-cervical` → `/blog/cervicalgia-mareos` (fusionado), `sarcopenia-fuerza-es-salud` → `/servicios/geriatrica`, `kinesiologia-post-covid` → `/servicios/respiratoria` y `ergonomia-home-office-guia-2024` → `/blog/lumbago-agudo-que-hacer` (T39, sección #trabajo-sentado).
+  - noindex,follow (reversible, campo `noindex: true` en `lib/blog-data.ts`): `escoliosis-en-ninos`, `fibromialgia-ejercicio` y `masaje-descontracturante-vs-terapeutico`.
+- Piso pélvico (`kinesiologia-piso-pelvico-post-parto-domicilio`): 1 clic y 43 impresiones. Se mantiene indexado. Como T04 (j) no está confirmado, su llamado a la acción pasa a ser informativo y el post ya no afirma que KINEUM lo atiende.
+
 ## Deploys
 
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |

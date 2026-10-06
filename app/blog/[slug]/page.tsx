@@ -1,4 +1,4 @@
-import { getPostBySlug, blogPosts } from "@/lib/blog-data"
+import { getPostBySlug, blogPosts, postsIndexables } from "@/lib/blog-data"
 import { notFound } from "next/navigation"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -42,6 +42,8 @@ export async function generateMetadata({ params }: BlogPostProps) {
         alternates: {
             canonical: `https://kineum.cl/blog/${post.slug}`,
         },
+        // T40: posts delgados sin clics quedan fuera del índice, pero sus enlaces se siguen
+        ...(post.noindex ? { robots: { index: false, follow: true } } : {}),
         openGraph: {
             title: seoTitle,
             description: seoDescription,
@@ -129,8 +131,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
     // Relacionados: misma categoria primero, para que cada post reparta autoridad
     const relacionados = [
-        ...blogPosts.filter((p) => p.slug !== post.slug && p.category === post.category),
-        ...blogPosts.filter((p) => p.slug !== post.slug && p.category !== post.category),
+        ...postsIndexables.filter((p) => p.slug !== post.slug && p.category === post.category),
+        ...postsIndexables.filter((p) => p.slug !== post.slug && p.category !== post.category),
     ].slice(0, 3)
     const servicioRelacionado =
         especialidades.find((e) => e.articulos.some((a) => a.url === `/blog/${post.slug}`)) ?? especialidades[0]
@@ -252,7 +254,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
             {/* Content */}
             <article className="container mx-auto px-4 py-16">
                 <div className="max-w-3xl mx-auto">
-                    <div className={PROSE} dangerouslySetInnerHTML={{ __html: contenidoAntes }} />
+                    <div className={PROSE} data-contenido-post dangerouslySetInnerHTML={{ __html: contenidoAntes }} />
 
                     {/* Llamado a la acción al inicio: antes del primer H2 */}
                     <aside className="not-prose my-10 bg-emerald-50 border border-emerald-200 rounded-2xl p-6 md:p-8">
@@ -314,7 +316,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     </aside>
 
                     {contenidoDespues && (
-                        <div className={PROSE} dangerouslySetInnerHTML={{ __html: contenidoDespues }} />
+                        <div className={PROSE} data-contenido-post dangerouslySetInnerHTML={{ __html: contenidoDespues }} />
                     )}
 
                     {/* CTA Footer */}

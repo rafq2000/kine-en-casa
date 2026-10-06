@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { SiteFooter } from "@/components/site-footer"
-import { blogPosts } from "@/lib/blog-data"
+import { postsIndexables as blogPosts } from "@/lib/blog-data"
 import { BookOpen, Clock, Calendar, ArrowRight, ChevronRight, MapPin, Stethoscope } from "lucide-react"
 
 export const metadata: Metadata = {
