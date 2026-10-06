@@ -411,7 +411,7 @@ export default function HomePage() {
                     </ul>
                     <Button
                       className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-all duration-300 border border-emerald-500" asChild>
-<a href={wa(`Hola, quiero consultar por ${service.title} a domicilio. Mi comuna es: `)} target="_blank" rel="noopener noreferrer">
+<a href={wa(`Hola, quiero consultar por ${service.title} a domicilio. Mi comuna es: `)} data-cta="servicio" target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="h-4 w-4 mr-2" />
                       Consultar por WhatsApp
                     </a>
@@ -584,7 +584,7 @@ export default function HomePage() {
                   <Button
                     className={`w-full text-lg py-6 font-bold transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 ${plan.popular ? "bg-amber-600 hover:bg-amber-700 text-white border-amber-500" : "bg-slate-900 hover:bg-slate-800 text-white"
                       }`} asChild>
-<a href={wa(`Hola, me interesa el ${plan.name}.`)} target="_blank" rel="noopener noreferrer">
+<a href={wa(`Hola, me interesa el ${plan.name}.`)} data-cta={`plan-${plan.name.replace("Plan ", "").toLowerCase()}`} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5 mr-2" />
                     Quiero este Plan
                   </a>
@@ -599,7 +599,7 @@ export default function HomePage() {
             <Button
               variant="link"
               className="text-emerald-700 font-semibold text-base p-0 h-auto" asChild>
-<a href={wa("Hola, necesito información sobre un plan personalizado")} target="_blank" rel="noopener noreferrer">
+<a href={wa("Hola, necesito información sobre un plan personalizado")} data-cta="plan-personalizado" target="_blank" rel="noopener noreferrer">
               Consulta por un Plan Personalizado →
             </a>
 </Button>
@@ -710,7 +710,7 @@ export default function HomePage() {
             <Button
               size="lg"
               className="text-lg px-10 py-6 bg-emerald-600 hover:bg-emerald-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-emerald-500" asChild>
-<a href={wa("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")} target="_blank" rel="noopener noreferrer">
+<a href={wa("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")} data-cta="cierre" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-5 w-5 mr-3" />
               Enviar WhatsApp
             </a>
@@ -790,7 +790,7 @@ export default function HomePage() {
           <div className="mt-12 text-center">
             <Button
               className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
-<a href={wa("Hola, ¿atienden kinesiología a domicilio en mi comuna?")} target="_blank" rel="noopener noreferrer">
+<a href={wa("Hola, ¿atienden kinesiología a domicilio en mi comuna?")} data-cta="comunas" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-4 w-4 mr-2" />
               Consultar otra comuna
             </a>

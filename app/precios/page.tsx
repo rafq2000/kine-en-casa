@@ -389,6 +389,7 @@ export default function PreciosPage() {
             </a>
             <a
               href="https://wa.me/56999679593?text=Hola, quiero consultar por los precios de kinesiología a domicilio"
+              data-cta="hero"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors"
@@ -758,6 +759,7 @@ export default function PreciosPage() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-10">
             <a
               href="https://wa.me/56999679593?text=Hola, quiero agendar mi evaluación gratuita de kinesiología a domicilio"
+              data-cta="cierre"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-5 text-lg rounded-full font-bold transition-colors shadow-lg shadow-emerald-900/30"

@@ -203,6 +203,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                         <div className="flex flex-col sm:flex-row gap-4 mb-10">
                             <a
                                 href={waLink}
+                                data-cta="hero"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
@@ -400,6 +401,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 <p className="text-slate-400 mb-4">4 sesiones · $40.000 por sesión</p>
                                 <a
                                     href={wa(`Hola, me interesa el Plan Essential en ${data.nombre}`)}
+                                    data-cta="plan-essential"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 text-emerald-400 font-semibold hover:text-emerald-300"
@@ -413,6 +415,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 <p className="text-amber-50 mb-4">10 sesiones · $35.000 por sesión</p>
                                 <a
                                     href={wa(`Hola, me interesa el Plan Premium de 10 sesiones en ${data.nombre}`)}
+                                    data-cta="plan-premium"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 text-white font-semibold hover:underline"
@@ -426,6 +429,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 <p className="text-slate-400 mb-4">Tratamientos intensivos o prolongados</p>
                                 <a
                                     href={wa(`Hola, quiero consultar por el Plan Elite en ${data.nombre}`)}
+                                    data-cta="plan-elite"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 text-emerald-400 font-semibold hover:text-emerald-300"
@@ -523,6 +527,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href={waLink}
+                            data-cta="cierre"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"

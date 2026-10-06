@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { Geist, Manrope } from "next/font/google"
 import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
+import Script from "next/script"
+import { MedicionLeads } from "@/components/medicion-leads"
 import { comunas } from "@/lib/comunas-data"
 import { HORARIO_SCHEMA } from "@/lib/negocio"
 
@@ -194,6 +196,17 @@ export default function RootLayout({
       <body className="font-sans">
         {children}
         <Analytics />
+        {/* Umami (sin cookies): solo si está configurado el Website ID en Vercel */}
+        {process.env.NEXT_PUBLIC_UMAMI_ID && (
+          <>
+            <Script
+              src="https://cloud.umami.is/script.js"
+              data-website-id={process.env.NEXT_PUBLIC_UMAMI_ID}
+              strategy="afterInteractive"
+            />
+            <MedicionLeads />
+          </>
+        )}
       </body>
     </html>
   )

@@ -147,6 +147,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                         <div className="flex flex-col sm:flex-row gap-4 mb-10">
                             <a
                                 href={waLink}
+                                data-cta="hero"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
@@ -362,6 +363,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href={waLink}
+                            data-cta="cierre"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"

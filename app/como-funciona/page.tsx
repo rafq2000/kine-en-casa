@@ -283,6 +283,7 @@ export default function ComoFuncionaPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://wa.me/56999679593?text=Hola%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20a%20domicilio"
+                data-cta="hero"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 gap-2"
@@ -506,6 +507,7 @@ export default function ComoFuncionaPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://wa.me/56999679593?text=Hola%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20a%20domicilio"
+                data-cta="cierre"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white text-emerald-700 hover:bg-emerald-50 px-8 py-4 text-lg rounded-full font-bold transition-colors duration-200 gap-2"
