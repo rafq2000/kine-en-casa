@@ -82,6 +82,8 @@ const localBusinessSchema = {
   "@type": "MedicalBusiness",
   "@id": `${siteUrl}/#organization`,
   name: "KINEUM",
+  legalName: "Kineum SpA",
+  taxID: "76.892.102-K",
   description:
     "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,
@@ -91,28 +93,21 @@ const localBusinessSchema = {
   logo: `${siteUrl}/logo.png`,
   priceRange: "$$",
   currenciesAccepted: "CLP",
-  paymentAccepted: "Efectivo, Transferencia, Tarjeta de Crédito, Tarjeta de Débito",
+  // Medios de pago (paymentAccepted): no se declaran hasta que Ricardo los confirme (T04f).
   // Negocio de area de servicio: atiende en el domicilio del paciente, no recibe publico
-  // en una direccion. Publicar una calle aqui contradice la ficha de Google que se cree despues.
+  // en una direccion. Sin calle mientras T04a no confirme la direccion de la ficha de Google.
   address: {
     "@type": "PostalAddress",
     addressLocality: "Santiago",
     addressRegion: "Región Metropolitana",
     addressCountry: "CL",
   },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: -33.4189,
-    longitude: -70.6003,
-  },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Región Metropolitana de Santiago, Chile" },
-    ...comunas.map((c) => ({
-      "@type": "City",
-      name: c.nombre,
-      containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
-    })),
-  ],
+  // Solo las 9 comunas atendidas
+  areaServed: comunas.map((c) => ({
+    "@type": "City",
+    name: c.nombre,
+    containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
+  })),
   openingHoursSpecification: HORARIO_SCHEMA,
   makesOffer: [
     {
@@ -167,7 +162,7 @@ const localBusinessSchema = {
         itemOffered: {
           "@type": "MedicalTherapy",
           name: "Kinesiología Neurológica",
-          description: "Tratamiento post-ACV, Parkinson, Alzheimer y esclerosis múltiple",
+          description: "Tratamiento de secuelas de ACV, Parkinson, esclerosis múltiple y parálisis facial",
         },
       },
       {
@@ -180,10 +175,7 @@ const localBusinessSchema = {
       },
     ],
   },
-  sameAs: [
-    "https://www.instagram.com/kineencasa",
-    "https://www.facebook.com/kineencasa",
-  ],
+  // sameAs: sin redes hasta tener cuentas de KINEUM confirmadas (T04l); las "kineencasa" se retiraron.
 }
 
 export default function RootLayout({

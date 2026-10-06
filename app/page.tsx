@@ -20,6 +20,22 @@ export const metadata: Metadata = {
   },
 }
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://kineum.cl/#website",
+  name: "KINEUM",
+  alternateName: ["Kineum"],
+  url: "https://kineum.cl/",
+  inLanguage: "es-CL",
+  publisher: { "@id": "https://kineum.cl/#organization" },
+}
+
 export default function HomePage() {
-  return <HomeClient />
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <HomeClient />
+    </>
+  )
 }

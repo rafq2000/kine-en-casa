@@ -13,6 +13,15 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://kineum.cl/servicios/neurologica",
     },
+    openGraph: {
+        title,
+        description,
+        url: "https://kineum.cl/servicios/neurologica",
+        type: "website",
+        locale: "es_CL",
+        siteName: "KINEUM",
+        images: ["/og-image.jpg"],
+    },
 }
 
 export default function Page() {

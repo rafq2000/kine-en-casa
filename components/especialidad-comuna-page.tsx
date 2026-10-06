@@ -62,37 +62,33 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
         },
     ]
 
-    // Servicio prestado por la unica entidad KINEUM en esta comuna (nada de sucursales ficticias)
-    const medicalSchema = {
+    // Un solo negocio en todo el sitio (app/layout.tsx); aquí, el servicio que presta en esta comuna
+    const servicioSchema = {
         "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
-        "@id": "https://kineum.cl/#organization",
-        name: "KINEUM",
-        url: "https://kineum.cl",
-        telephone: TEL,
-        priceRange: "$",
-        medicalSpecialty: "Physiotherapy",
+        "@type": "Service",
+        "@id": `${url}#servicio`,
+        name: `${esp.nombre} a domicilio en ${com.nombre}`,
+        description: esp.intro,
+        url,
+        serviceType: esp.nombre,
+        provider: { "@id": "https://kineum.cl/#organization" },
         areaServed: {
             "@type": "City",
             name: com.nombre,
-            containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
+            containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Región Metropolitana, Chile" },
         },
-        makesOffer: {
+        offers: {
             "@type": "Offer",
-            itemOffered: {
-                "@type": "MedicalTherapy",
-                name: `${esp.nombre} a domicilio en ${com.nombre}`,
-                description: esp.intro,
-                relevantSpecialty: { "@type": "MedicalSpecialty", name: "Physiotherapy" },
-            },
-            areaServed: { "@type": "City", name: com.nombre },
-            url,
+            price: "35000",
+            priceCurrency: "CLP",
+            description: "Valor por sesión en el plan de 10 sesiones. Evaluación inicial gratuita.",
+            url: "https://kineum.cl/precios",
         },
-        availableService: esp.condiciones.map((c) => ({
-            "@type": "MedicalTherapy",
-            name: c.titulo,
-            description: c.detalle,
-        })),
+        availableChannel: {
+            "@type": "ServiceChannel",
+            servicePhone: TEL,
+            serviceUrl: url,
+        },
     }
 
     const faqSchema = {
@@ -117,7 +113,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
 
     return (
         <div className="min-h-screen bg-white">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalSchema) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicioSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

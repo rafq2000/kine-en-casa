@@ -14,6 +14,15 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://kineum.cl/nosotros",
     },
+    openGraph: {
+        title,
+        description,
+        url: "https://kineum.cl/nosotros",
+        type: "website",
+        locale: "es_CL",
+        siteName: "KINEUM",
+        images: ["/og-image.jpg"],
+    },
 }
 
 export default function Page() {

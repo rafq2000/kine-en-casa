@@ -17,6 +17,7 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { ComunasPorEspecialidad } from "@/components/comunas-por-especialidad"
 import { type ContenidoServicio } from "@/lib/servicios-contenido"
 import { especialidades } from "@/lib/especialidades-data"
+import { comunas } from "@/lib/comunas-data"
 import { BOLETA_TEXTO } from "@/lib/negocio"
 
 const TEL = "+56999679593"
@@ -53,12 +54,34 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
         lastReviewed: contenido.revisado,
         audience: { "@type": "MedicalAudience", audienceType: "Patient" },
         publisher: {
-            "@type": "Organization",
+            "@id": "https://kineum.cl/#organization",
             name: "KINEUM",
             url: "https://kineum.cl",
             logo: { "@type": "ImageObject", url: "https://kineum.cl/logo.png" },
         },
+        ...(especialidadSlug ? { about: { "@id": `${url}#servicio` } } : {}),
     }
+
+    // El servicio de esta especialidad, prestado por la única entidad KINEUM (app/layout.tsx)
+    const servicioSchema = especialidadSlug
+        ? {
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "@id": `${url}#servicio`,
+              name: h1,
+              serviceType: contenido.breadcrumb,
+              url,
+              provider: { "@id": "https://kineum.cl/#organization" },
+              areaServed: comunas.map((c) => ({ "@type": "City", name: c.nombre })),
+              offers: {
+                  "@type": "Offer",
+                  price: "35000",
+                  priceCurrency: "CLP",
+                  description: "Valor por sesión en el plan de 10 sesiones. Evaluación inicial gratuita.",
+                  url: "https://kineum.cl/precios",
+              },
+          }
+        : null
 
     const breadcrumbSchema = {
         "@context": "https://schema.org",
@@ -74,6 +97,9 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(paginaSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+            {servicioSchema && (
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicioSchema) }} />
+            )}
 
             {/* Header */}
             <header className="bg-slate-950 text-white sticky top-0 z-50 border-b border-slate-800">

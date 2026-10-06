@@ -74,22 +74,9 @@ const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Kinesiología a Domicilio Santiago",
-  provider: {
-    "@type": "LocalBusiness",
-    name: "KINEUM",
-    url: "https://kineum.cl",
-    telephone: "+56999679593",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Santiago",
-      addressRegion: "Región Metropolitana",
-      addressCountry: "CL",
-    },
-  },
-  areaServed: {
-    "@type": "City",
-    name: "Santiago",
-  },
+  // Un solo negocio en todo el sitio (app/layout.tsx), referenciado por @id
+  provider: { "@id": "https://kineum.cl/#organization" },
+  areaServed: comunas.map((c) => ({ "@type": "City", name: c.nombre })),
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Planes de Kinesiología a Domicilio",
