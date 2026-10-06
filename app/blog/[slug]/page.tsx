@@ -2,13 +2,19 @@ import { getPostBySlug, blogPosts } from "@/lib/blog-data"
 import { notFound } from "next/navigation"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react"
+import { Calendar, Clock, ArrowLeft, Share2, Home, Phone, MessageCircle, Check } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { especialidades } from "@/lib/especialidades-data"
 import { comunas } from "@/lib/comunas-data"
+
+const TEL = "+56999679593"
+const TEL_DISPLAY = "+56 9 9967 9593"
+
+const PROSE =
+    "prose prose-lg prose-slate max-w-none prose-headings:font-serif prose-headings:text-slate-900 prose-p:text-slate-600 prose-p:leading-relaxed prose-li:text-slate-600 prose-strong:text-slate-900 prose-strong:font-bold prose-blockquote:border-l-4 prose-blockquote:border-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:not-italic prose-blockquote:font-medium prose-blockquote:text-slate-800"
 
 interface BlogPostProps {
     params: Promise<{
@@ -83,6 +89,12 @@ export default async function BlogPost({ params }: BlogPostProps) {
     const waMensaje = post.category.toLowerCase().startsWith("precios")
         ? "Hola, tengo Isapre y quiero cotizar kinesiología a domicilio. Mi comuna es: "
         : `Hola, leí "${post.title}" y quiero agendar una evaluación gratuita. Mi comuna es: `
+    const waLink = `https://wa.me/56999679593?text=${encodeURIComponent(waMensaje)}`
+
+    // La caja de contacto va antes del primer H2 del artículo (o al final si no tiene H2)
+    const corte = post.content.indexOf("<h2")
+    const contenidoAntes = corte < 0 ? post.content : post.content.slice(0, corte)
+    const contenidoDespues = corte < 0 ? "" : post.content.slice(corte)
 
     const articleSchema = {
         "@context": "https://schema.org",
@@ -162,6 +174,31 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
             />
+            {/* Cabecera simple: logo y teléfono a la vista */}
+            <header className="bg-slate-950 text-white sticky top-0 z-50 border-b border-slate-800">
+                <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+                    <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                        <div className="bg-amber-600 p-2 rounded-xl">
+                            <Home className="h-6 w-6 text-white" />
+                        </div>
+                        <div>
+                            <span className="text-2xl font-bold font-serif tracking-wide">KINEUM</span>
+                            <span className="block text-[11px] text-slate-400 uppercase tracking-wider">
+                                Kinesiología a Domicilio
+                            </span>
+                        </div>
+                    </Link>
+                    <a
+                        href={`tel:${TEL}`}
+                        className="inline-flex items-center gap-2 bg-white text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-slate-100 transition-colors text-sm"
+                    >
+                        <Phone className="h-4 w-4" />
+                        <span className="hidden sm:inline">Llamar {TEL_DISPLAY}</span>
+                        <span className="sm:hidden">Llamar</span>
+                    </a>
+                </div>
+            </header>
+
             {/* Blog Header */}
             <header className="bg-slate-950 py-20 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
@@ -208,33 +245,84 @@ export default async function BlogPost({ params }: BlogPostProps) {
             {/* Content */}
             <article className="container mx-auto px-4 py-16">
                 <div className="max-w-3xl mx-auto">
-                    <div
-                        className="prose prose-lg prose-slate max-w-none 
-            prose-headings:font-serif prose-headings:text-slate-900 
-            prose-p:text-slate-600 prose-p:leading-relaxed
-            prose-li:text-slate-600
-            prose-strong:text-slate-900 prose-strong:font-bold
-            prose-blockquote:border-l-4 prose-blockquote:border-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:not-italic prose-blockquote:font-medium prose-blockquote:text-slate-800
-            "
-                        dangerouslySetInnerHTML={{ __html: post.content }}
-                    />
+                    <div className={PROSE} dangerouslySetInnerHTML={{ __html: contenidoAntes }} />
+
+                    {/* Llamado a la acción al inicio: antes del primer H2 */}
+                    <aside className="not-prose my-10 bg-emerald-50 border border-emerald-200 rounded-2xl p-6 md:p-8">
+                        <p className="text-xl font-bold text-slate-900 font-serif mb-4">
+                            ¿Necesitas kinesiología a domicilio en el sector oriente?
+                        </p>
+                        <ul className="space-y-2 mb-6 text-slate-700">
+                            <li className="flex items-start gap-2">
+                                <Check className="h-5 w-5 text-emerald-700 flex-shrink-0 mt-0.5" />
+                                <span>Evaluación inicial gratuita en tu casa</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                                <Check className="h-5 w-5 text-emerald-700 flex-shrink-0 mt-0.5" />
+                                <span>
+                                    Boleta de honorarios por cada sesión, para reembolso en tu Isapre y seguro complementario
+                                    según la cobertura de tu plan
+                                </span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                                <Check className="h-5 w-5 text-emerald-700 flex-shrink-0 mt-0.5" />
+                                <span>
+                                    {comunas.map((c, i) => (
+                                        <span key={c.slug}>
+                                            <Link
+                                                href={`/kinesiologo-a-domicilio-${c.slug}`}
+                                                className="text-emerald-800 font-medium underline-offset-2 hover:underline"
+                                            >
+                                                {c.nombre}
+                                            </Link>
+                                            {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : ""}
+                                        </span>
+                                    ))}
+                                </span>
+                            </li>
+                        </ul>
+                        <div className="flex flex-col sm:flex-row gap-3 mb-4">
+                            <a
+                                href={waLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-cta="blog-intro"
+                                className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-xl transition-colors"
+                            >
+                                <MessageCircle className="h-5 w-5" />
+                                Escríbenos por WhatsApp
+                            </a>
+                            <a
+                                href={`tel:${TEL}`}
+                                data-cta="blog-intro"
+                                className="inline-flex items-center justify-center gap-2 bg-white border border-slate-300 hover:bg-slate-50 text-slate-900 font-semibold px-6 py-3 rounded-xl transition-colors"
+                            >
+                                <Phone className="h-5 w-5" />
+                                Llamar
+                            </a>
+                        </div>
+                        <p className="text-sm text-slate-600">
+                            Si vives en otra comuna, esta guía te sirve igual con cualquier kinesiólogo que emita boleta.
+                        </p>
+                    </aside>
+
+                    {contenidoDespues && (
+                        <div className={PROSE} dangerouslySetInnerHTML={{ __html: contenidoDespues }} />
+                    )}
 
                     {/* CTA Footer */}
                     <div className="mt-16 bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-12 text-center">
                         <h3 className="text-2xl font-bold text-slate-900 mb-4 font-serif">
-                            ¿Le interesa aplicar estos conceptos en su recuperación?
+                            ¿Quieres que un kinesiólogo vea tu caso en tu casa?
                         </h3>
                         <p className="text-slate-600 mb-8 max-w-xl mx-auto">
-                            Nuestros especialistas integran esta evidencia clínica en cada plan de tratamiento personalizado.
+                            La evaluación inicial es gratuita y después te decimos cuántas sesiones necesitas y cuánto
+                            cuestan, antes de que decidas.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
                             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white">
-                                <a
-                                    href={`https://wa.me/56999679593?text=${encodeURIComponent(`Hola, leí "${post.title}" y quiero agendar una evaluación`)}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Agendar Evaluación Gratuita
+                                <a href={waLink} target="_blank" rel="noopener noreferrer" data-cta="blog-final">
+                                    Agendar evaluación gratuita
                                 </a>
                             </Button>
                             <Button asChild variant="outline" size="lg" className="border-slate-300">
