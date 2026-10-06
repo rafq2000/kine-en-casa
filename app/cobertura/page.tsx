@@ -91,6 +91,7 @@ export default function Page() {
                     </a>
                 </div>
             </header>
+<main id="contenido">
 
             <section className="bg-gradient-to-br from-slate-50 via-white to-slate-100 py-14 md:py-20 border-b border-slate-200">
                 <div className="container mx-auto px-4">
@@ -228,7 +229,8 @@ export default function Page() {
                 </div>
             </section>
 
-            <SiteFooter />
+            </main>
+<SiteFooter />
             <WhatsAppButton />
         </div>
     )

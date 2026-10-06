@@ -260,6 +260,7 @@ export default function HomePage() {
           </div>
         </div>
       </header>
+<main id="contenido">
 
       <section className="bg-gradient-to-br from-slate-100 via-gray-50 to-slate-200 py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
@@ -902,7 +903,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <SiteFooter />
+      </main>
+<SiteFooter />
     </div>
   )
 }

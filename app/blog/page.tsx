@@ -80,7 +80,8 @@ export default function BlogPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      {/* Header */}
+      <main id="contenido">
+{/* Header */}
       <header className="bg-slate-950 py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         <div className="container mx-auto px-4 relative z-10">
@@ -243,7 +244,8 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <SiteFooter />
+      </main>
+<SiteFooter />
     </div>
   )
 }

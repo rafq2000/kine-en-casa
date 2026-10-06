@@ -328,6 +328,7 @@ export default function PreciosPage() {
           </div>
         </div>
       </header>
+<main id="contenido">
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-100 via-gray-50 to-slate-200 py-20 relative overflow-hidden">
@@ -796,7 +797,8 @@ export default function PreciosPage() {
         </div>
       </section>
 
-      <SiteFooter />
+      </main>
+<SiteFooter />
     </div>
   )
 }

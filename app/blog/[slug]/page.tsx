@@ -199,6 +199,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     </a>
                 </div>
             </header>
+<main id="contenido">
 
             {/* Blog Header */}
             <header className="bg-slate-950 py-20 relative overflow-hidden">
@@ -395,7 +396,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     </p>
                 </div>
             </article>
-            <SiteFooter />
+            </main>
+<SiteFooter />
             <WhatsAppButton mensaje={waMensaje} />
         </div>
     )

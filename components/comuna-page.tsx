@@ -172,6 +172,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     </a>
                 </div>
             </header>
+<main id="contenido">
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-slate-50 via-white to-slate-100 py-14 md:py-20 border-b border-slate-200">
@@ -550,7 +551,8 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 </div>
             </section>
 
-            <SiteFooter />
+            </main>
+<SiteFooter />
             <WhatsAppButton mensaje={waMensaje} />
         </div>
     )

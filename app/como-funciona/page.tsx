@@ -266,7 +266,8 @@ export default function ComoFuncionaPage() {
       <div className="min-h-screen bg-slate-50">
         <WhatsAppButton />
 
-        {/* Hero */}
+        <main id="contenido">
+{/* Hero */}
         <section className="bg-slate-900 text-white py-20 md:py-28">
           <div className="container mx-auto px-4 text-center">
             <Badge className="bg-amber-500/20 text-amber-300 border-amber-500/30 mb-6 text-sm">
@@ -580,7 +581,8 @@ export default function ComoFuncionaPage() {
           </div>
         </section>
 
-        <SiteFooter />
+        </main>
+<SiteFooter />
       </div>
     </>
   )

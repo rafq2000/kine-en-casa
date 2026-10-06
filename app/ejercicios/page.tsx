@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Play, AlertCircle, CheckCircle2 } from "lucide-react"
+import Image from "next/image"
+import { AlertCircle, CheckCircle2 } from "lucide-react"
 import { exercises } from "@/lib/exercises-data"
 
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
 export default function ExercisesPage() {
     return (
         <div className="min-h-screen bg-slate-50">
+            <main id="contenido">
             <header className="bg-slate-900 py-16 text-white text-center">
                 <div className="container mx-auto px-4">
                     <Badge className="mb-4 bg-emerald-600">Biblioteca Privada</Badge>
@@ -47,15 +49,13 @@ export default function ExercisesPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {exercises.map((exercise) => (
                         <div key={exercise.id} className="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden flex flex-col">
-                            <div className="relative aspect-video bg-slate-200 group cursor-pointer">
-                                {/* In a real app, this would be a next/image or video player */}
-                                <div className="absolute inset-0 flex items-center justify-center bg-slate-900/10 group-hover:bg-slate-900/20 transition-all">
-                                    <Play className="h-12 w-12 text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all drop-shadow-lg" />
-                                </div>
-                                <img
+                            <div className="relative aspect-video bg-slate-200">
+                                <Image
                                     src={exercise.gifUrl}
                                     alt={exercise.title}
-                                    className="w-full h-full object-cover mix-blend-multiply"
+                                    fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    className="object-cover mix-blend-multiply"
                                 />
                                 <div className="absolute top-4 left-4">
                                     <Badge variant="secondary" className="backdrop-blur-md bg-white/90">
@@ -106,6 +106,7 @@ export default function ExercisesPage() {
                     ))}
                 </div>
             </div>
+        </main>
         </div>
     )
 }

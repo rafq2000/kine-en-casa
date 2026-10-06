@@ -54,7 +54,8 @@ export default function TestimoniosPage() {
 
             <WhatsAppButton />
 
-            {/* Hero */}
+            <main id="contenido">
+{/* Hero */}
             <section className="bg-slate-900 text-white py-20">
                 <div className="container mx-auto px-4 text-center">
                     <Badge className="bg-amber-500/10 text-amber-400 border-amber-500/20 px-4 py-1.5 text-sm mb-6">
@@ -211,7 +212,8 @@ export default function TestimoniosPage() {
                 </div>
             </section>
 
-            <SiteFooter />
+            </main>
+<SiteFooter />
         </div>
     )
 }
