@@ -23,6 +23,7 @@ import {
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 import { BOLETA_TEXTO, HORARIO_TEXTO } from "@/lib/negocio"
+import { comunas } from "@/lib/comunas-data"
 
 export const metadata: Metadata = {
   title: "Valor Kinesiólogo a Domicilio: Planes desde $35.000 | KINEUM",
@@ -165,11 +166,11 @@ const plans = [
     iconBg: "bg-emerald-100",
     iconColor: "text-emerald-700",
     badgeColor: "bg-emerald-50 text-emerald-700",
-    whatsappMsg: "Hola, me interesa el Plan Essential de 4 sesiones",
+    cta: "plan-essential",
   },
   {
     name: "Plan Premium",
-    subtitle: "El más elegido para rehabilitación completa",
+    subtitle: "Para rehabilitación completa",
     icon: Star,
     sessions: "10 Sesiones/mes",
     price: "350.000",
@@ -186,7 +187,7 @@ const plans = [
     iconBg: "bg-amber-100",
     iconColor: "text-amber-700",
     badgeColor: "bg-amber-50 text-amber-700",
-    whatsappMsg: "Hola, me interesa el Plan Premium de 10 sesiones",
+    cta: "plan-premium",
   },
   {
     name: "Plan Elite",
@@ -207,7 +208,7 @@ const plans = [
     iconBg: "bg-slate-100",
     iconColor: "text-slate-700",
     badgeColor: "bg-slate-100 text-slate-700",
-    whatsappMsg: "Hola, me interesa el Plan Elite a medida",
+    cta: "plan-elite",
   },
 ]
 
@@ -247,19 +248,9 @@ const faqs = [
       "Necesitas una orden médica vigente que indique 'kinesiología' o 'rehabilitación', y la boleta de honorarios que emitimos después de cada sesión. Con ambos documentos, presentas el reembolso en tu Isapre (app, web o sucursal) y luego el copago en tu seguro complementario si tienes uno.",
   },
   {
-    question: "¿Puedo cambiar de plan durante el mes?",
-    answer:
-      "Sí, puedes escalar tu plan en cualquier momento. Si empezaste con el Essential y necesitas más sesiones, te ajustamos la diferencia al Plan Premium. Contáctanos por WhatsApp y lo coordinamos.",
-  },
-  {
     question: "¿Qué incluye cada sesión de kinesiología?",
     answer:
       "Cada sesión de 60 minutos incluye: evaluación del progreso, terapia manual especializada, ejercicios terapéuticos guiados, uso de equipamiento profesional (TENS, ultrasonido, bandas elásticas), educación al paciente y familia, y recomendaciones para el hogar.",
-  },
-  {
-    question: "¿Aceptan tarjeta de crédito o pago en cuotas?",
-    answer:
-      "Sí, aceptamos transferencia bancaria, tarjeta de débito y tarjeta de crédito. Consúltanos por WhatsApp al +56 9 9967 9593 para opciones de pago en cuotas.",
   },
 ]
 
@@ -422,6 +413,22 @@ export default function PreciosPage() {
         </div>
       </section>
 
+      <section className="py-8 bg-white border-b border-slate-100">
+        <div className="container mx-auto px-4">
+          <p className="text-center text-slate-700 max-w-4xl mx-auto leading-relaxed">
+            Mismo valor y sin recargo por traslado en las 9 comunas que atendemos: kinesiólogo a domicilio en{" "}
+            {comunas.map((c, i) => (
+              <span key={c.slug}>
+                <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-amber-700 underline hover:text-amber-800">
+                  {c.nombre}
+                </Link>
+                {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : "."}
+              </span>
+            ))}
+          </p>
+        </div>
+      </section>
+
       {/* Plans Section */}
       <section id="planes" className="py-24 bg-white">
         <div className="container mx-auto px-4">
@@ -447,7 +454,7 @@ export default function PreciosPage() {
               >
                 {plan.popular && (
                   <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-amber-600 to-amber-700 text-white text-center py-2 text-sm font-bold uppercase tracking-wider">
-                    Más Elegido
+                    Menor valor por sesión
                   </div>
                 )}
 
@@ -502,7 +509,8 @@ export default function PreciosPage() {
                   </ul>
 
                   <a
-                    href={`https://wa.me/56999679593?text=${encodeURIComponent(plan.whatsappMsg)}`}
+                    href={`https://wa.me/56999679593?text=${encodeURIComponent(`Hola, me interesa el ${plan.name}. Quiero agendar la evaluación gratuita. Mi comuna es: `)}`}
+                    data-cta={plan.cta}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`w-full flex items-center justify-center py-4 px-6 rounded-full font-bold text-white transition-all duration-300 ${
@@ -512,7 +520,7 @@ export default function PreciosPage() {
                     }`}
                   >
                     <MessageCircle className="h-5 w-5 mr-2" />
-                    {plan.price === "Consultar" ? "Solicitar Cotización" : "Contratar Ahora"}
+                    {plan.price === "Consultar" ? "Consultar Plan Elite" : "Agendar evaluación gratuita"}
                   </a>
                 </CardContent>
               </Card>
@@ -523,6 +531,38 @@ export default function PreciosPage() {
             Todos los planes incluyen equipamiento profesional completo (camilla, TENS, ultrasonido,
             bandas elásticas) y boleta de honorarios para reembolso Isapre y seguros complementarios.
           </p>
+
+          <div className="max-w-3xl mx-auto mt-12 bg-slate-50 border border-slate-200 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-slate-900 mb-6 font-serif">Antes de agendar</h3>
+            <ul className="space-y-4 text-slate-700">
+              <li className="flex items-start">
+                <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
+                <span>La evaluación inicial es gratuita y sin compromiso: recién después decides si sigues.</span>
+              </li>
+              <li className="flex items-start">
+                <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
+                <span>
+                  Para el reembolso necesitas orden médica. Si aún no la tienes, revisa{" "}
+                  <Link href="/blog/kinesiologo-sin-orden-medica" className="text-amber-700 underline hover:text-amber-800">
+                    qué pasa si pides kinesiólogo sin orden médica
+                  </Link>
+                  .
+                </span>
+              </li>
+              <li className="flex items-start">
+                <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
+                <span>Emitimos {BOLETA_TEXTO}, para que pidas el reembolso en tu Isapre y en tu seguro complementario.</span>
+              </li>
+              <li className="flex items-start">
+                <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
+                <span>Atendemos solo en estas 9 comunas, sin recargo de traslado.</span>
+              </li>
+              <li className="flex items-start">
+                <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
+                <span>Te contamos los medios de pago por WhatsApp.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
