@@ -108,7 +108,7 @@ export function SiteFooter() {
                                 <MessageCircle className="h-5 w-5 text-amber-500 mt-0.5" />
                                 <div>
                                     <a
-                                        href="https://wa.me/56999679593"
+                                        href={`https://wa.me/56999679593?text=${encodeURIComponent("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="block text-white font-medium hover:text-amber-400 transition-colors"

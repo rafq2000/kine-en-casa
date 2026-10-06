@@ -14,7 +14,6 @@ import {
   Brain,
   Dumbbell,
   GraduationCap,
-  UserCheck,
   Star,
   Shield,
   Award,
@@ -35,6 +34,12 @@ import {
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 import { comunas } from "@/lib/comunas-data"
+
+const TEL = "+56999679593"
+
+function wa(texto: string) {
+  return `https://wa.me/56999679593?text=${encodeURIComponent(texto)}`
+}
 
 export default function HomePage() {
   const faqSchema = {
@@ -236,9 +241,18 @@ export default function HomePage() {
             <Button
               variant="secondary"
               className="font-semibold shadow-lg hover:shadow-xl transition-all duration-300 bg-white text-slate-900 hover:bg-slate-100 border border-slate-300"
+              asChild
             >
-              <Phone className="h-4 w-4 mr-2" />
-              Agendar Evaluación
+              <a
+                href={wa("Hola, quiero agendar una evaluación gratuita a domicilio. Mi comuna es: ")}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta="cabecera"
+              >
+                <MessageCircle className="h-4 w-4 mr-2" />
+                <span className="hidden sm:inline">Agendar evaluación</span>
+                <span className="sm:hidden">Agendar</span>
+              </a>
             </Button>
           </div>
         </div>
@@ -246,15 +260,13 @@ export default function HomePage() {
 
       <section className="bg-gradient-to-br from-slate-100 via-gray-50 to-slate-200 py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-        <div className="absolute top-20 right-20 w-72 h-72 bg-slate-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-        <div className="absolute bottom-20 left-20 w-72 h-72 bg-amber-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"></div>
 
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-5xl mx-auto">
             <div className="mb-8">
               <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
-                <Sparkles className="h-4 w-4 mr-2 text-amber-400" />
-                The Future of Recovery
+                <MapPin className="h-4 w-4 mr-2 text-amber-400" />
+                Sector oriente de Santiago
               </Badge>
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 font-serif leading-tight">
                 Kinesiólogo a Domicilio
@@ -280,7 +292,7 @@ export default function HomePage() {
                 asChild
               >
                 <a
-                  href="https://wa.me/56999679593?text=Hola, quiero verificar disponibilidad para evaluación kinesiológica"
+                  href={wa("Hola, quiero verificar disponibilidad para evaluación kinesiológica")}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -291,29 +303,42 @@ export default function HomePage() {
                   </span>
                 </a>
               </Button>
+              <Button
+                size="lg"
+                variant="secondary"
+                className="text-lg px-10 py-6 shadow-lg bg-white text-slate-900 hover:bg-slate-50 border border-slate-300"
+                asChild
+              >
+                <a href={`tel:${TEL}`}>
+                  <Phone className="h-5 w-5 mr-3" />
+                  +56 9 9967 9593
+                </a>
+              </Button>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200">
-                <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="h-8 w-8 text-slate-700" />
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-slate-900">Cobertura Santiago oriente</h3>
-                <p className="text-slate-600 font-medium">9 comunas del sector oriente</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left max-w-5xl mx-auto">
+              <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
+                <Shield className="h-5 w-5 text-emerald-600 mb-2" />
+                <p className="text-sm font-semibold text-slate-900">Evaluación inicial</p>
+                <p className="text-sm text-slate-600">Gratuita y en tu casa</p>
               </div>
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200">
-                <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="h-8 w-8 text-slate-700" />
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-slate-900">Horarios Flexibles</h3>
-                <p className="text-slate-600 font-medium">Lunes a Domingo • 8:00 - 20:00</p>
+              <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
+                <Check className="h-5 w-5 text-amber-600 mb-2" />
+                <p className="text-sm font-semibold text-slate-900">Boleta de honorarios por cada sesión</p>
+                <p className="text-sm text-slate-600">Reembolsable en tu Isapre según tu plan</p>
               </div>
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200">
-                <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <UserCheck className="h-8 w-8 text-slate-700" />
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-slate-900">Profesionales Certificados</h3>
-                <p className="text-slate-600 font-medium">Titulados y con equipamiento</p>
+              <Link
+                href="/precios"
+                className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm hover:border-amber-300 transition-colors"
+              >
+                <Star className="h-5 w-5 text-amber-600 mb-2" />
+                <p className="text-sm font-semibold text-slate-900">Desde $35.000 por sesión (plan de 10)</p>
+                <p className="text-sm text-amber-700">Ver planes y reembolso</p>
+              </Link>
+              <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
+                <MapPin className="h-5 w-5 text-slate-700 mb-2" />
+                <p className="text-sm font-semibold text-slate-900">9 comunas del sector oriente y centro</p>
+                <p className="text-sm text-slate-600">Lunes a domingo</p>
               </div>
             </div>
           </div>
@@ -340,11 +365,11 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Link href={service.href || "#contacto"} key={index} className="block h-full group">
                 <Card
-                  className="hover:shadow-2xl transition-all duration-500 border border-slate-200 shadow-lg bg-white hover:-translate-y-2 h-full"
+                  key={index}
+                  className="group hover:shadow-2xl transition-all duration-500 border border-slate-200 shadow-lg bg-white hover:-translate-y-2 h-full"
                 >
-                  <div className="relative overflow-hidden rounded-t-xl h-56">
+                  <Link href={service.href} className="block relative overflow-hidden rounded-t-xl h-56">
                     <Image
                       src={service.image || "/placeholder.svg"}
                       alt={service.title}
@@ -364,10 +389,10 @@ export default function HomePage() {
                         <service.icon className="h-6 w-6 text-slate-700" />
                       </div>
                     </div>
-                  </div>
+                  </Link>
                   <CardHeader className="pb-4">
                     <CardTitle className="text-xl font-bold text-slate-900 font-serif group-hover:text-amber-700 transition-colors">
-                      {service.title}
+                      <Link href={service.href}>{service.title}</Link>
                     </CardTitle>
                     <CardDescription className="text-slate-600 text-base leading-relaxed">
                       {service.description}
@@ -384,14 +409,13 @@ export default function HomePage() {
                     </ul>
                     <Button
                       className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-all duration-300 border border-emerald-500" asChild>
-<a href="https://wa.me/56999679593" target="_blank" rel="noopener noreferrer">
+<a href={wa(`Hola, quiero consultar por ${service.title} a domicilio. Mi comuna es: `)} target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="h-4 w-4 mr-2" />
                       Consultar por WhatsApp
                     </a>
 </Button>
                   </CardContent>
                 </Card>
-              </Link>
             ))}
           </div>
         </div>
@@ -558,7 +582,7 @@ export default function HomePage() {
                   <Button
                     className={`w-full text-lg py-6 font-bold transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 ${plan.popular ? "bg-amber-600 hover:bg-amber-700 text-white border-amber-500" : "bg-slate-900 hover:bg-slate-800 text-white"
                       }`} asChild>
-<a href={`https://wa.me/56999679593?text=Hola, me interesa el ${plan.name}.`} target="_blank" rel="noopener noreferrer">
+<a href={wa(`Hola, me interesa el ${plan.name}.`)} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5 mr-2" />
                     Quiero este Plan
                   </a>
@@ -573,7 +597,7 @@ export default function HomePage() {
             <Button
               variant="link"
               className="text-emerald-700 font-semibold text-base p-0 h-auto" asChild>
-<a href="https://wa.me/56999679593?text=Hola, necesito información sobre un plan personalizado" target="_blank" rel="noopener noreferrer">
+<a href={wa("Hola, necesito información sobre un plan personalizado")} target="_blank" rel="noopener noreferrer">
               Consulta por un Plan Personalizado →
             </a>
 </Button>
@@ -604,9 +628,9 @@ export default function HomePage() {
                     <Award className="h-6 w-6 text-slate-700" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-slate-900 text-lg mb-2">Profesionales Certificados</h3>
+                    <h3 className="font-bold text-slate-900 text-lg mb-2">Kinesiólogos titulados</h3>
                     <p className="text-slate-600">
-                      Kinesiólogos titulados
+                      Te atiende un kinesiólogo con título profesional, en tu casa
                     </p>
                   </div>
                 </div>
@@ -659,7 +683,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center relative z-10">
           <Badge className="mb-8 px-6 py-2 text-sm font-medium bg-amber-600 text-white border-amber-500">
             <MessageCircle className="h-4 w-4 mr-2" />
-            Contacto Inmediato
+            Contacto directo
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-8 font-serif leading-tight">
             ¿Listo para comenzar tu
@@ -684,7 +708,7 @@ export default function HomePage() {
             <Button
               size="lg"
               className="text-lg px-10 py-6 bg-emerald-600 hover:bg-emerald-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-emerald-500" asChild>
-<a href="https://wa.me/56999679593" target="_blank" rel="noopener noreferrer">
+<a href={wa("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-5 w-5 mr-3" />
               Enviar WhatsApp
             </a>
@@ -713,13 +737,13 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-slate-800/70 transition-all duration-300 border border-slate-700">
               <MessageCircle className="h-10 w-10 mx-auto mb-4 text-amber-400" />
-              <h3 className="font-bold text-xl mb-3">Respuesta Rápida</h3>
+              <h3 className="font-bold text-xl mb-3">Te respondemos por WhatsApp</h3>
               <p className="text-slate-300 leading-relaxed">
-                Te respondemos por WhatsApp
+                Cuéntanos tu comuna y el motivo de consulta
                 <br />
                 <span className="font-semibold">Agenda flexible</span>
                 <br />
-                Primera consulta gratis
+                Evaluación inicial gratuita
               </p>
             </div>
           </div>
@@ -800,7 +824,7 @@ export default function HomePage() {
             </div>
             <Button
               className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
-<a href="https://wa.me/56999679593?text=Hola, ¿atienden kinesiología a domicilio en mi comuna?" target="_blank" rel="noopener noreferrer">
+<a href={wa("Hola, ¿atienden kinesiología a domicilio en mi comuna?")} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-4 w-4 mr-2" />
               Consultar otra comuna
             </a>
