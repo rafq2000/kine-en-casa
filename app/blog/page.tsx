@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { comunas } from "@/lib/comunas-data"
 import Link from "next/link"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
@@ -219,10 +220,10 @@ export default function BlogPage() {
                 <MapPin className="h-4 w-4 mr-2" /> Comunas
               </h3>
               <ul className="space-y-1.5 text-sm">
-                {["las-condes", "vitacura", "providencia", "nunoa", "la-reina", "lo-barnechea", "penalolen", "macul", "santiago-centro"].map((c) => (
-                  <li key={c}>
-                    <Link href={`/kinesiologo-a-domicilio-${c}`} className="text-slate-600 hover:text-amber-700 capitalize">
-                      Kinesiólogo en {c.replace(/-/g, " ")}
+                {comunas.map((c) => (
+                  <li key={c.slug}>
+                    <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-slate-600 hover:text-amber-700">
+                      {`Kinesiólogo a domicilio en ${c.nombre}`}
                     </Link>
                   </li>
                 ))}

@@ -24,7 +24,8 @@ export interface EspecialidadLocal {
 
 export interface ComunaLocal {
     centrosSalud: CentroSalud[]
-    hub: { h2: string; parrafos: string[] }
+    /** faqs: preguntas propias del hub, solo con hechos ya publicados (se agregan, no se reescriben) */
+    hub: { h2: string; parrafos: string[]; faqs?: { q: string; a: string }[] }
     especialidades: EspecialidadLocal[]
     /** Metadatos del hub de la comuna, escritos junto con el texto local */
     hubSeo?: SeoLocal
@@ -65,6 +66,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "Atenderte en tu casa en Las Condes cambia bastante según dónde vivas. En el eje Apoquindo, El Golf, Escuela Militar y Manquehue abundan las torres con ascensor: el kinesiólogo sube con equipo portátil y la sesión se arma en el living o el dormitorio, sin que tengas que enfrentar la congestión de Av. Apoquindo en hora punta. Hacia el oriente, en San Carlos de Apoquindo y Los Dominicos, predominan las casas y condominios, y el terreno sube: calles en pendiente, escaleras exteriores y accesos que también se trabajan dentro del plan.",
                 "La comuna concentra centros de alta complejidad como Clínica Las Condes, Clínica Universidad de los Andes y el Hospital FACh. Si te dieron el alta en alguno de ellos, ten a mano tu epicrisis y las indicaciones médicas para la evaluación inicial gratuita: el kinesiólogo arma el plan siguiendo esa pauta. KINEUM atiende de forma particular e independiente, sin convenio con esos centros.",
                 "Ante una urgencia, como dificultad para respirar, dolor en el pecho o pérdida súbita de fuerza, la kinesiología no es el camino: llama al SAMU 131 o acude a una urgencia 24 h, como el SAPU Las Condes en La Escuela 1229 o las urgencias de las clínicas de la comuna."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Tienen convenio con Clínica Las Condes o con la Clínica Universidad de los Andes?",
+                    "a": "No. KINEUM atiende de forma particular e independiente, sin convenio con esos centros. Si te dieron el alta en alguno de ellos, ten a mano tu epicrisis y las indicaciones médicas para la evaluación inicial gratuita: el kinesiólogo arma el plan siguiendo esa pauta."
+                },
+                {
+                    "q": "Vivo en una torre del eje Apoquindo, ¿cómo se hace la sesión en un departamento?",
+                    "a": "En el eje Apoquindo, El Golf, Escuela Militar y Manquehue abundan las torres con ascensor: el kinesiólogo sube con equipo portátil y la sesión se arma en el living o el dormitorio, sin que tengas que enfrentar la congestión de Av. Apoquindo en hora punta."
+                }
             ]
         },
         "especialidades": [
@@ -164,6 +175,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "En Vitacura predominan las casas con jardín, aunque en ejes como Av. Vitacura, Alonso de Córdova y Kennedy también hay edificios de departamentos. Eso cambia la sesión: en una casa solemos aprovechar pasillos, escaleras interiores y el jardín para practicar la marcha; en un departamento trabajamos con el espacio del living, el ascensor y el acceso al edificio. En sectores con pendiente, como Santa María de Manquehue o Lo Curro, caminar por la calle o moverse en silla de ruedas cuesta más, y ahí evitar el traslado a un centro suele marcar la diferencia.",
                 "Como la comuna se recorre sobre todo en auto por Costanera Norte, Kennedy y Av. Vitacura, y en la mayor parte no hay Metro, atenderte en casa te ahorra estacionamientos y esperas. Si vienes saliendo de alta de una clínica de la zona, ten a mano tu epicrisis y las indicaciones de tu médico para la evaluación inicial gratuita: KINEUM es un servicio particular e independiente y armamos el plan a partir de esos documentos.",
                 "Ante una urgencia, llama al SAMU (131). El SAPU municipal de Indiana 1195 no funciona las 24 horas; de noche, las urgencias más cercanas son las de Clínica Alemana y Clínica RedSalud Vitacura."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Tienen convenio con alguna clínica de Vitacura?",
+                    "a": "No. KINEUM es un servicio particular e independiente. Si vienes saliendo de alta de una clínica de la zona, ten a mano tu epicrisis y las indicaciones de tu médico para la evaluación inicial gratuita: armamos el plan a partir de esos documentos."
+                },
+                {
+                    "q": "En mi sector de Vitacura no hay Metro, ¿qué gano con la atención en casa?",
+                    "a": "Como la comuna se recorre sobre todo en auto por Costanera Norte, Kennedy y Av. Vitacura, y en la mayor parte no hay Metro, atenderte en casa te ahorra estacionamientos y esperas."
+                }
             ]
         },
         "especialidades": [
@@ -268,6 +289,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "En Providencia predominan los edificios de departamentos: conviven torres modernas con ascensor y edificios antiguos de pocos pisos que pueden no tenerlo. Antes de la primera visita te preguntamos por el piso, el acceso y el espacio disponible, para llegar con el equipamiento adecuado y armar ejercicios que calcen con tu living o tu dormitorio. Si vives hacia Pedro de Valdivia Norte o los faldeos del cerro San Cristóbal, consideramos las calles con pendiente cuando la meta es volver a caminar fuera de casa.",
                 "Al concentrar hospitales y clínicas de alta complejidad, en la comuna es frecuente rehabilitarse después de un alta. KINEUM no tiene convenio con ningún centro: trabajamos con la epicrisis y las indicaciones que te entregaron, y si algo no calza te pedimos confirmarlo con tu médico tratante.",
                 "La atención a domicilio no reemplaza una urgencia. Si aparece dolor en el pecho, falta de aire intensa o pérdida súbita de fuerza o del habla, llama de inmediato al SAMU (131). En la comuna, Clínica Santa María y Clínica INDISA tienen urgencia 24 horas para adultos y niños, el Hospital del Salvador atiende urgencia de adultos y el Calvo Mackenna es un hospital público pediátrico con urgencia 24 horas."
+            ],
+            "faqs": [
+                {
+                    "q": "Vivo en un edificio antiguo sin ascensor en Providencia, ¿pueden venir?",
+                    "a": "Sí. Antes de la primera visita te preguntamos por el piso, el acceso y el espacio disponible, para llegar con el equipamiento adecuado y armar ejercicios que calcen con tu living o tu dormitorio."
+                },
+                {
+                    "q": "¿Tienen convenio con los hospitales o clínicas de Providencia?",
+                    "a": "No. KINEUM no tiene convenio con ningún centro: trabajamos con la epicrisis y las indicaciones que te entregaron, y si algo no calza te pedimos confirmarlo con tu médico tratante."
+                }
             ]
         },
         "especialidades": [
@@ -367,6 +398,12 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "Ñuñoa es una comuna mayoritariamente plana, y eso juega a favor de la rehabilitación: cuando tu kinesiólogo lo indica, la sesión puede salir de la casa y seguir en la vereda o en la plaza más cercana, practicando marcha real sin cuestas. Adentro, la vivienda cambia mucho de un barrio a otro. En las casas de uno o dos pisos trabajamos el traspaso, la escalera interior y el acceso al patio; en los edificios nuevos de Irarrázaval, Grecia o los alrededores de Plaza Ñuñoa, el ascensor facilita la llegada, pero el living suele ser acotado y adaptamos los ejercicios a esos metros. En los bloques antiguos sin ascensor, la escalera común pasa a ser parte del plan.",
                 "Si durante el tratamiento aparece una señal de alarma, como falta de aire intensa, dolor en el pecho o pérdida súbita de fuerza, llama al SAMU (131) o acude a urgencia. En la lista de centros de salud de esta página tienes los de la comuna, como el SAR Ñuñoa.",
                 "Si vienes saliendo del hospital o la clínica, trae la epicrisis y las indicaciones médicas a la evaluación inicial gratuita: con eso coordinamos el plan en casa. KINEUM atiende de forma particular y no tiene convenio con ningún centro; la boleta de honorarios la puedes presentar para reembolso en tu Isapre o seguro complementario, según tu plan (normalmente te pedirán la orden médica)."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Tienen convenio con algún hospital o clínica cercana a Ñuñoa?",
+                    "a": "No. KINEUM atiende de forma particular y no tiene convenio con ningún centro. Si vienes saliendo del hospital o la clínica, trae la epicrisis y las indicaciones médicas a la evaluación inicial gratuita: con eso coordinamos el plan en casa."
+                }
             ]
         },
         "especialidades": [
@@ -461,6 +498,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "La Reina tiene una geografía que influye en cómo te rehabilitas: es plana hacia Américo Vespucio y va ganando pendiente a medida que avanzas al oriente, hacia el sector precordillerano y el Parque Mahuida. La mayoría de los hogares son casas de uno o dos pisos con patio, así que en la evaluación inicial gratuita revisamos contigo la escalera interior, los desniveles del antejardín y el espacio disponible para trabajar.",
                 "Como el Metro solo toca el límite poniente de la comuna y el interior depende más del auto y los buses, ir a un centro de rehabilitación varias veces al mes suele significar traslados largos. Atenderte en casa evita ese desgaste, sobre todo cuando recién saliste del hospital y todavía te cuesta subir a un vehículo.",
                 "Si durante una sesión aparece una señal de alarma, te indicamos consultar de inmediato: dentro de la comuna están el Hospital Militar de Santiago, con urgencia 24 horas adulta y pediátrica, y el SAR La Reina. Ante una emergencia vital, llama al SAMU (131). KINEUM no tiene convenio con esos centros: después de un alta trabajamos con la epicrisis y las indicaciones que te entregó tu médico."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Qué revisan en la primera visita en una casa de La Reina?",
+                    "a": "La mayoría de los hogares de la comuna son casas de uno o dos pisos con patio, así que en la evaluación inicial gratuita revisamos contigo la escalera interior, los desniveles del antejardín y el espacio disponible para trabajar."
+                },
+                {
+                    "q": "¿Tienen convenio con el Hospital Militar o el SAR La Reina?",
+                    "a": "No. KINEUM no tiene convenio con esos centros: después de un alta trabajamos con la epicrisis y las indicaciones que te entregó tu médico. Ante una emergencia vital, llama al SAMU (131)."
+                }
             ]
         },
         "especialidades": [
@@ -565,6 +612,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "La zona urbana de Lo Barnechea (La Dehesa, El Arrayán y el pueblo) se extiende por el piedemonte, entre cerros isla, quebradas y calles en pendiente. Sin Metro y con traslados que dependen de Av. La Dehesa o de Costanera Norte, ir a sesiones varias veces por semana puede comerse la mañana en hora punta. Atenderte en casa elimina ese viaje y permite trabajar justo donde te mueves a diario.",
                 "Aquí predominan las casas y los condominios de casas, muchos con escaleras interiores o accesos en desnivel. En la evaluación inicial gratuita revisamos esos puntos (el tramo de escalera hacia el dormitorio, la entrada desde el estacionamiento, el paso al baño) y adaptamos los ejercicios a ellos. También llegamos al sector cordillerano: como queda lejos del núcleo urbano, ahí coordinamos una hora fija con anticipación.",
                 "Ante un síntoma de alarma no esperes la sesión: llama al SAMU (131) o acude a urgencia. En la comuna hay urgencia 24 h en Clínica Alemana de La Dehesa y en el SAPU de El Rodeo; la posta de Farellones atiende solo en horario hábil. Si te dan el alta en un centro cercano, compártenos tu epicrisis y las indicaciones médicas y partimos desde ahí. No tenemos convenio con ninguna clínica: atendemos de forma particular, con boleta de honorarios reembolsable en tu Isapre o seguro complementario según tu plan."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Llegan al sector cordillerano de Lo Barnechea?",
+                    "a": "Sí. Como queda lejos del núcleo urbano, ahí coordinamos una hora fija con anticipación, sin recargo por distancia."
+                },
+                {
+                    "q": "¿Tienen convenio con Clínica Alemana de La Dehesa?",
+                    "a": "No. Atendemos de forma particular, sin convenio con ninguna clínica, con boleta de honorarios reembolsable en tu Isapre o seguro complementario según tu plan. Si te dan el alta en un centro cercano, compártenos tu epicrisis y las indicaciones médicas y partimos desde ahí."
+                }
             ]
         },
         "especialidades": [
@@ -674,6 +731,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "Peñalolén sube hacia la precordillera oriente, y eso se nota en la rehabilitación. En Peñalolén Alto y en los faldeos, las calles con pendiente hacen que salir a caminar después de una lesión o una operación cueste más de lo que parece. Por eso adaptamos los ejercicios al espacio que tienes: el pasillo de una casa en Lo Hermida, el living de un condominio en ladera o el patio de una villa en San Luis o La Faena.",
                 "En los blocks de pocos pisos sin ascensor, la escalera pasa a ser parte del tratamiento. Si el alta es reciente o se trata de un adulto mayor, practicamos subir y bajar con seguridad antes de exigirlo a diario, y evaluamos si conviene hacer las primeras sesiones sin salir del departamento.",
                 "La kinesiología no reemplaza la atención médica: ante una emergencia médica, llama al SAMU 131. La urgencia hospitalaria 24 horas de la comuna, para adultos, está en el Hospital Santiago Oriente, en Av. Las Torres; los SAPU y el SAR municipales, que atienden niños, funcionan de tarde-noche en días hábiles y 24 horas los fines de semana y festivos. La Municipalidad además tiene el 1461, su número de emergencias comunal, las 24 horas. Si vienes saliendo de alta de un centro cercano, ten a mano tu epicrisis y las indicaciones médicas para la evaluación inicial gratuita: las seguimos, aunque no tenemos convenio con ningún centro."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Cobran más por subir a Peñalolén Alto o a la Comunidad Ecológica?",
+                    "a": "No, el valor es el mismo en toda la comuna."
+                },
+                {
+                    "q": "¿Qué es el 1461 de Peñalolén?",
+                    "a": "Es el número de emergencias comunal de la Municipalidad, que funciona las 24 horas. Ante una emergencia médica, llama al SAMU 131."
+                }
             ]
         },
         "especialidades": [
@@ -773,6 +840,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "Macul es una comuna mayormente plana y residencial, donde predominan las casas de uno o dos pisos en villas y poblaciones. En ese tipo de vivienda, por lo general se puede habilitar un espacio para los ejercicios de marcha y fuerza, y el kinesiólogo llega con el equipamiento necesario. Distinto es el caso de las villas con blocks de pocos pisos sin ascensor: ahí la escalera es la principal barrera para una persona recién operada o un adulto mayor, y atenderse en el propio departamento evita ese tramo.",
                 "La comuna tiene buena conexión por Metro, con la Línea 5 por el borde de Vicuña Mackenna y la Línea 4 por el oriente. Pero moverse con dolor, con muletas o con una secuela neurológica no es lo mismo que hacerlo sano, y la sesión en casa te ahorra ese trayecto.",
                 "Dentro de Macul no hay un hospital de urgencia 24 horas; en esta página encontrarás los servicios de urgencia de la comuna y sus horarios. Ante dolor de pecho, dificultad grave para respirar o pérdida de conciencia, llama al SAMU (131). Si vienes saliendo de un alta, ten a mano la epicrisis y las indicaciones de tu médico para la evaluación inicial gratuita."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Hay un hospital con urgencia 24 horas en Macul?",
+                    "a": "No. Dentro de Macul no hay un hospital de urgencia 24 horas; en esta página encontrarás los servicios de urgencia de la comuna y sus horarios. Ante dolor de pecho, dificultad grave para respirar o pérdida de conciencia, llama al SAMU (131)."
+                },
+                {
+                    "q": "Vivo cerca del Metro en Macul, ¿igual conviene la atención en casa?",
+                    "a": "Moverse con dolor, con muletas o con una secuela neurológica no es lo mismo que hacerlo sano, y la sesión en casa te ahorra ese trayecto."
+                }
             ]
         },
         "especialidades": [
@@ -882,6 +959,16 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "Atenderte en Santiago Centro tiene sus particularidades. En barrios patrimoniales como Yungay o Brasil abundan los edificios antiguos de pocos pisos sin ascensor, y para alguien recién operado o un adulto mayor, bajar esas escaleras para ir a una consulta puede ser el obstáculo más grande del día. Por eso el kinesiólogo sube a tu casa con el equipamiento y la sesión se hace donde vives.",
                 "Si vives en una de las torres nuevas, en un departamento pequeño, no necesitas una sala especial: basta con despejar un par de metros junto a una pared o una silla firme, y los ejercicios se adaptan a ese espacio. El tránsito denso y lo difícil que es estacionar en el casco histórico influyen en la hora de llegada, así que el horario se coordina contigo con anticipación, de lunes a domingo.",
                 "Si vienes saliendo de alta de un hospital o clínica del centro, ten a mano la epicrisis y las indicaciones médicas para la evaluación inicial, que es gratuita: el plan parte desde lo que indicó tu equipo tratante. KINEUM es un servicio particular e independiente, sin convenios con esos centros. Ante una urgencia no esperes la sesión: llama al SAMU (131) o acude a una urgencia 24 h, como la del Hospital Clínico San Borja Arriarán (adultos y niños) o la ex Posta Central (solo adultos)."
+            ],
+            "faqs": [
+                {
+                    "q": "Vivo en un departamento pequeño en Santiago Centro, ¿necesito una sala especial?",
+                    "a": "No. Basta con despejar un par de metros junto a una pared o una silla firme, y los ejercicios se adaptan a ese espacio."
+                },
+                {
+                    "q": "¿Cómo coordinan la hora de llegada con el tránsito del centro?",
+                    "a": "El tránsito denso y lo difícil que es estacionar en el casco histórico influyen en la hora de llegada, así que el horario se coordina contigo con anticipación, de lunes a domingo."
+                }
             ]
         },
         "especialidades": [

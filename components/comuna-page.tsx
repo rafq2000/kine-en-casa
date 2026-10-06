@@ -58,7 +58,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const s = data.sectores
     const entrada = `KINEUM lleva un kinesiólogo a tu casa en ${data.nombre} (${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna): evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
 
-    const faqs = [
+    const faqs: { q: string; a: string; enlace?: { href: string; texto: string } }[] = [
         {
             q: `¿Cuánto cuesta un kinesiólogo a domicilio en ${data.nombre}?`,
             a: `El plan de 10 sesiones sale $350.000 ($35.000 por sesión) y el de 4 sesiones $160.000 ($40.000 por sesión). La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones necesitas. No cobramos recargo por traslado dentro de ${data.nombre}.`,
@@ -75,6 +75,13 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             q: "¿Puedo reembolsar las sesiones en mi Isapre?",
             a: `Sí. Emitimos ${BOLETA_TEXTO}. Puedes presentarla a reembolso en tu Isapre y en tu seguro complementario según la cobertura de tu plan. Para reembolsar necesitas una orden médica con el diagnóstico y la indicación de kinesiología.`,
         },
+        {
+            q: `¿Tienen consulta o centro en ${data.nombre}?`,
+            a: `No. KINEUM atiende solo a domicilio: el kinesiólogo va a tu casa en cualquier sector de ${data.nombre}. La dirección de Av. Apoquindo 4501 es comercial y no atiende público.`,
+            enlace: { href: "/blog/kinesiologia-a-domicilio-o-en-centro", texto: "Kinesiología a domicilio o en un centro: cuál conviene" },
+        },
+        // Preguntas propias del hub (lib/comunas-local.ts), antes de las de cada especialidad
+        ...(local?.hub.faqs ?? []),
         ...(local?.especialidades ?? [])
             .map((e) => e.faqsLocales[0])
             .filter(Boolean)
@@ -264,6 +271,54 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 </section>
             )}
 
+            {/* Cómo es el servicio en la comuna: los pasos para contratarlo */}
+            <section className="py-16 md:py-20 bg-white border-t border-slate-200">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-3xl">
+                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif mb-8">
+                            Cómo es el kinesiólogo a domicilio en {data.nombre}
+                        </h2>
+                        <ol className="space-y-5 mb-8">
+                            <li className="flex gap-4">
+                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">1</span>
+                                <p className="text-lg text-slate-700 leading-relaxed">
+                                    Escríbenos por WhatsApp con tu dirección en {data.nombre} y, si la tienes, la orden médica o la epicrisis.
+                                </p>
+                            </li>
+                            <li className="flex gap-4">
+                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">2</span>
+                                <p className="text-lg text-slate-700 leading-relaxed">
+                                    Evaluación inicial gratuita en tu casa ({llegada}): el kinesiólogo evalúa, revisa el espacio y te
+                                    propone cuántas sesiones y qué plan.
+                                </p>
+                            </li>
+                            <li className="flex gap-4">
+                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">3</span>
+                                <p className="text-lg text-slate-700 leading-relaxed">
+                                    Sesiones de 60 minutos de lunes a domingo, con boleta de honorarios para pedir el reembolso.
+                                </p>
+                            </li>
+                        </ol>
+                        <p className="text-slate-600 mb-8">
+                            Quién llega a tu casa y qué le exigimos, en{" "}
+                            <Link href="/nosotros" className="text-amber-700 font-medium hover:underline">quiénes somos</Link>; el
+                            detalle de la primera visita, en{" "}
+                            <Link href="/como-funciona" className="text-amber-700 font-medium hover:underline">cómo funciona</Link>.
+                        </p>
+                        <a
+                            href={waLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-cta="como-es"
+                            className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                        >
+                            <MessageCircle className="h-5 w-5" />
+                            Escribir por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </section>
+
             {/* Especialidades en la comuna, con el adelanto de su texto local */}
             <section id="especialidades" className="py-16 md:py-20 bg-slate-50 border-y border-slate-200">
                 <div className="container mx-auto px-4">
@@ -404,6 +459,11 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 <div key={f.q} className="bg-slate-50 rounded-xl p-6 border border-slate-200">
                                     <h3 className="text-lg font-bold text-slate-900 mb-3">{f.q}</h3>
                                     <p className="text-slate-600 leading-relaxed">{f.a}</p>
+                                    {f.enlace && (
+                                        <Link href={f.enlace.href} className="inline-block mt-3 text-amber-700 font-medium hover:underline">
+                                            {f.enlace.texto}
+                                        </Link>
+                                    )}
                                 </div>
                             ))}
                         </div>

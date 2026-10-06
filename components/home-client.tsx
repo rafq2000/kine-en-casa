@@ -773,55 +773,21 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-6xl mx-auto">
-            <a href="/kinesiologo-a-domicilio-las-condes" className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center">
-              <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">Las Condes</h3>
-              <p className="text-sm text-slate-600 mt-1">Ver más →</p>
-            </a>
-            <a href="/kinesiologo-a-domicilio-vitacura" className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center">
-              <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">Vitacura</h3>
-              <p className="text-sm text-slate-600 mt-1">Ver más →</p>
-            </a>
-            <a href="/kinesiologo-a-domicilio-providencia" className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center">
-              <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">Providencia</h3>
-              <p className="text-sm text-slate-600 mt-1">Ver más →</p>
-            </a>
-            <a href="/kinesiologo-a-domicilio-nunoa" className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center">
-              <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">Ñuñoa</h3>
-              <p className="text-sm text-slate-600 mt-1">Ver más →</p>
-            </a>
-            <a href="/kinesiologo-a-domicilio-la-reina" className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center">
-              <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">La Reina</h3>
-              <p className="text-sm text-slate-600 mt-1">Ver más →</p>
-            </a>
-            <a href="/kinesiologo-a-domicilio-lo-barnechea" className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center">
-              <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">Lo Barnechea</h3>
-              <p className="text-sm text-slate-600 mt-1">Ver más →</p>
-            </a>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+            {comunas.map((c) => (
+              <a
+                key={c.slug}
+                href={`/kinesiologo-a-domicilio-${c.slug}`}
+                className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 hover:-translate-y-1 text-center"
+              >
+                <MapPin className="h-8 w-8 mx-auto mb-3 text-amber-600 group-hover:scale-110 transition-transform" />
+                <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors">{c.nombre}</h3>
+                <p className="text-sm text-slate-600 mt-1">Kinesiólogo a domicilio en {c.nombre}</p>
+              </a>
+            ))}
           </div>
 
           <div className="mt-12 text-center">
-            <h4 className="text-xl font-bold text-slate-900 mb-6 font-serif">Más comunas en nuestra red de atención:</h4>
-            <div className="flex flex-wrap justify-center gap-3 mb-8">
-              {comunas
-                .filter((c) => !['las-condes', 'vitacura', 'providencia', 'nunoa', 'la-reina', 'lo-barnechea'].includes(c.slug))
-                .slice(0, 14)
-                .map((comuna) => (
-                <a
-                  key={comuna.slug}
-                  href={`/kinesiologo-a-domicilio-${comuna.slug}`}
-                  className="bg-white border border-slate-200 text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-sm"
-                >
-                  {comuna.nombre}
-                </a>
-              ))}
-            </div>
             <Button
               className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
 <a href={wa("Hola, ¿atienden kinesiología a domicilio en mi comuna?")} target="_blank" rel="noopener noreferrer">
