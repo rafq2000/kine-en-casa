@@ -593,7 +593,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
         url: 'https://kineum.cl/nosotros',
         breadcrumb: 'Quiénes somos',
         kicker: 'Equipo clínico',
-        h1: 'Kinesiólogos Certificados a Domicilio en Santiago',
+        h1: 'Kinesiólogos Titulados a Domicilio en Santiago',
         intro:
             'Cuando dejas entrar a un profesional a tu casa para tratar a tu papá, a tu hijo o a ti mismo, la pregunta de fondo es una sola: ¿quién es esta persona y por qué debería confiar en ella? Esta página responde eso: qué le exigimos a un kinesiólogo para atender bajo nuestro nombre, cómo trabajamos y qué puedes verificar por tu cuenta.',
         secciones: [
@@ -602,10 +602,9 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 parrafos: [
                     'Atender a domicilio es distinto a atender en un box. El profesional trabaja sin colegas al lado, decide solo, y muchas veces es la única persona del sistema de salud que ve cómo vive realmente el paciente. Eso exige más criterio, no menos.',
                 ],
-                listaTitulo: 'Requisitos que verificamos',
+                listaTitulo: 'Qué le pedimos a cada kinesiólogo',
                 lista: [
-                    'Título universitario de kinesiólogo, verificado.',
-                    'Inscripción vigente en el Registro Nacional de Prestadores Individuales de Salud de la Superintendencia de Salud, que puedes consultar tú mismo en el sitio de la Superintendencia.',
+                    'Título profesional de kinesiólogo.',
                     'Experiencia clínica previa en el área que va a atender: la rehabilitación geriátrica, la respiratoria infantil y la neurológica requieren competencias distintas.',
                     'Capacidad de comunicarse con la familia y con el médico tratante, que en domicilio es parte del trabajo, no un extra.',
                 ],
@@ -670,8 +669,8 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
         ],
         faqs: [
             {
-                q: '¿Cómo verifico que el kinesiólogo está registrado?',
-                a: 'La Superintendencia de Salud mantiene el Registro Nacional de Prestadores Individuales de Salud, de consulta pública. Puedes buscar ahí por nombre o RUT del profesional. Si quieres verificar antes de la primera visita, pídenos los datos por WhatsApp y te los damos.',
+                q: '¿Cómo puedo verificar a un kinesiólogo?',
+                a: 'La Superintendencia de Salud mantiene el Registro Nacional de Prestadores Individuales de Salud, de consulta pública. Puedes buscar ahí por nombre o RUT del profesional. Si quieres hacerlo antes de la primera visita, pídenos por WhatsApp el nombre completo del kinesiólogo que va a ir.',
             },
             {
                 q: '¿La evaluación inicial es realmente gratis?',
