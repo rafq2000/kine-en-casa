@@ -19,13 +19,15 @@ const ONLY_JSON = args.includes('--json')
 
 const log = (...a) => { if (!ONLY_JSON) console.log(...a) }
 
-async function get(url, tries = 2) {
+async function get(url, tries = 2, redirect = 'follow') {
+    // Contra produccion se evita la cache del CDN; la URL que se compara no cambia.
+    const pedir = BASE === SITE ? `${url}${url.includes('?') ? '&' : '?'}v=${Date.now()}` : url
     for (let i = 0; i < tries; i++) {
         try {
             const t0 = Date.now()
-            const res = await fetch(url, { redirect: 'follow' })
+            const res = await fetch(pedir, { redirect })
             const body = await res.text()
-            return { status: res.status, body, ms: Date.now() - t0, url: res.url }
+            return { status: res.status, body, ms: Date.now() - t0, url, location: res.headers.get('location')?.replace(/[?&]v=\d+$/, '') }
         } catch (e) {
             if (i === tries - 1) return { status: 0, body: '', ms: 0, error: String(e), url }
         }
@@ -49,6 +51,7 @@ function analizar(url, r) {
     const title = pick(html, /<title>([^<]*)<\/title>/i)
     const desc = pick(html, /<meta name="description" content="([^"]*)"/i)
     const canonical = pick(html, /<link rel="canonical" href="([^"]*)"/i)
+    const ogUrl = pick(html, /<meta property="og:url" content="([^"]*)"/i)
     const robots = pick(html, /<meta name="robots" content="([^"]*)"/i)
 
     const h1s = [...html.matchAll(/<h1[^>]*>([\s\S]*?)<\/h1>/gi)].map((m) => textoVisible(m[1]))
@@ -122,10 +125,41 @@ function analizar(url, r) {
 
     if (schemaTipos.includes('INVALIDO')) P('alta', 'schema-invalido', 'Hay JSON-LD que no parsea', 'Corregir el JSON-LD')
 
-    const low = norm(html)
+    // React separa texto con <!-- -->: se quita para que "11<!-- --> comunas" calce.
+    const low = norm(html.replace(/<!-- -->/g, ''))
+    const textoNorm = norm(texto)
     for (const t of RULES.terminosProhibidos) {
-        if (low.includes(norm(t))) P('critica', 'termino-prohibido', `Aparece "${t}"`, 'Eliminar: el negocio ya no ofrece ese servicio')
+        if (low.includes(norm(t)) || textoNorm.includes(norm(t))) P('critica', 'termino-prohibido', `Aparece "${t}"`, 'Eliminar: el negocio no lo ofrece o no esta verificado')
     }
+    for (const re of RULES.patronesProhibidos) {
+        const m = textoNorm.match(re)
+        if (m) P('critica', 'porcentaje-reembolso', `"${m[0]}"`, 'Quitar el porcentaje: el reembolso es siempre segun la cobertura del plan')
+    }
+
+    // <a> anidado: HTML invalido, el navegador lo parte y Google ve otros enlaces.
+    let prof = 0, anidados = 0
+    for (const m of html.replace(/<script[\s\S]*?<\/script>/gi, '').matchAll(/<(\/?)a\b[^>]*>/gi)) {
+        if (m[1]) prof = Math.max(0, prof - 1)
+        else if (++prof > 1) anidados++
+    }
+    if (anidados) P('alta', 'enlace-anidado', `${anidados} <a> dentro de otro <a>`, 'Sacar el enlace interior o cambiar el exterior por div')
+
+    if (/AggregateRating|\\?"@type\\?"\s*:\s*\\?"Review\\?"/.test(html)) P('alta', 'schema-resenas', 'Hay AggregateRating o Review en el JSON-LD', 'Quitarlo: no hay resenas verificables')
+
+    if (html.includes('href="https://wa.me/56999679593"')) P('media', 'whatsapp-sin-mensaje', 'Enlace a WhatsApp sin texto prellenado', 'Agregar ?text= para saber desde que pagina llega el lead')
+    if (!/<meta property="og:image"/i.test(html)) P('media', 'og-image-falta', 'Sin og:image', 'Definir openGraph.images')
+    if (ogUrl && canonical && ogUrl.replace(/\/$/, '') !== canonical.replace(/\/$/, '')) P('media', 'og-url-distinto', `og:url ${ogUrl} vs canonical ${canonical}`, 'Igualar openGraph.url al canonical')
+    const negocios = []
+    const recorrer = (n) => {
+        if (Array.isArray(n)) return n.forEach(recorrer)
+        if (!n || typeof n !== 'object') return
+        const tipos = [].concat(n['@type'] || [])
+        // Un nodo con solo @type/@id es una referencia, no una definicion.
+        if (tipos.some((t) => t === 'MedicalBusiness' || t === 'LocalBusiness') && Object.keys(n).length > 2) negocios.push(n['@id'] || n.name || '?')
+        Object.values(n).forEach(recorrer)
+    }
+    recorrer(jsonld)
+    if (negocios.length > 1) P('media', 'schema-negocio-repetido', `${negocios.length} nodos MedicalBusiness/LocalBusiness: ${negocios.join(', ')}`, 'Dejar un solo nodo y referenciarlo por @id')
 
     if (r.ms > RULES.performance.maxTtfbMs) P('media', 'lento', `${r.ms}ms`, 'Revisar cache/renderizado')
     const kb = Math.round(html.length / 1024)
@@ -178,14 +212,27 @@ async function main() {
     }
     const huerfanas = paginas.filter((p) => !entrantes[p.url] && p.url !== BASE).map((p) => p.url)
 
-    // Enlaces internos rotos
+    // Enlaces internos rotos o que redirigen. Cada href distinto se pide una sola vez y
+    // sin seguir la redireccion: un enlace interno a un 301/308 gasta rastreo.
     const todosHrefs = new Set(paginas.flatMap((p) => p.enlacesInternos))
-    const conocidas = new Set(paginas.map((p) => p.url.replace(BASE, '') || '/'))
-    const sospechosos = [...todosHrefs].filter((h) => !conocidas.has(h) && !h.startsWith('/_next') && !/\.(png|jpg|jpeg|svg|webp|ico|xml|txt|webmanifest)$/i.test(h))
+    const aRevisar = [...todosHrefs].filter((h) => !h.startsWith('/_next') && !/\.(png|jpg|jpeg|svg|webp|ico|xml|txt|webmanifest)$/i.test(h))
+    const estado = new Map()
+    for (let i = 0; i < aRevisar.length; i += LOTE) {
+        await Promise.all(aRevisar.slice(i, i + LOTE).map(async (h) => estado.set(h, await get(BASE + h, 2, 'manual'))))
+    }
     const rotos = []
-    for (const h of sospechosos.slice(0, 40)) {
-        const r = await get(BASE + h, 1)
+    for (const [h, r] of estado) {
         if (r.status >= 400 || r.status === 0) rotos.push({ href: h, status: r.status })
+        else if ([301, 307, 308].includes(r.status)) {
+            const desde = paginas.filter((p) => p.enlacesInternos.includes(h)).map((p) => p.url)
+            todosExtra.push({
+                url: desde[0] || BASE + h,
+                sev: 'alta',
+                tipo: 'enlace-a-redireccion',
+                detalle: `href "${h}" responde ${r.status} -> ${r.location}; aparece en ${desde.length} paginas`,
+                fix: 'Enlazar directo al destino final',
+            })
+        }
     }
 
     // Similitud de texto entre paginas del mismo patron (ej. kinesiologia-geriatrica-*).
@@ -264,6 +311,7 @@ async function main() {
     writeFileSync(file, JSON.stringify(reporte, null, 1), 'utf8')
     writeFileSync(join(__dir, 'last-report.json'), JSON.stringify(reporte, null, 1), 'utf8')
 
+    if (porSev.critica || porSev.alta) process.exitCode = 1
     if (ONLY_JSON) { console.log(JSON.stringify(reporte.resumen, null, 1)); return }
 
     log('\n===== RESUMEN =====')
@@ -280,6 +328,11 @@ async function main() {
     if (dupTitles.length) log(`\nTitulos duplicados: ${dupTitles.length} grupos`)
     if (huerfanas.length) log(`Paginas huerfanas (sin enlaces entrantes): ${huerfanas.length}`)
     if (rotos.length) log(`Enlaces internos rotos: ${rotos.length} -> ${rotos.map((r) => r.href).join(', ')}`)
+    const graves = todos.filter((p) => p.sev === 'critica' || p.sev === 'alta')
+    if (graves.length) {
+        log('\nCriticas y altas:')
+        for (const p of graves) log(`  [${p.sev}] ${p.tipo} ${p.url.replace(BASE, '') || '/'}: ${p.detalle}`)
+    }
     log(`\nReporte: ${file}`)
 }
 

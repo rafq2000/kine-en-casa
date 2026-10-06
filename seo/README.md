@@ -62,7 +62,7 @@ de H1. Esa lista es la entrada para el trabajo con Claude.
 - Un solo `<h1>` por página, con la keyword (el logo debe ser `span`, nunca `h1`).
 - Mínimo 300 palabras de texto visible.
 - Prohibido mencionar Fonasa: el negocio no ofrece ese servicio.
-- TTFB bajo 1200 ms, HTML bajo 250 KB.
+- TTFB bajo 1200 ms, HTML bajo 400 KB (sin comprimir).
 
 ## Ejecucion desatendida (sin Claude)
 

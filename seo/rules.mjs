@@ -28,10 +28,28 @@ export const RULES = {
         minPalabras: 300,
     },
     // Terminos que el negocio ya NO ofrece: su aparicion es un error de contenido.
-    terminosProhibidos: ['fonasa', 'bono fonasa', 'modalidad libre eleccion'],
+    // Se comparan normalizados (sin tildes y en minusculas).
+    terminosProhibidos: [
+        'fonasa', 'bono fonasa', 'modalidad libre eleccion',
+        'mayor parte del valor', '11 comunas', 'emergencias 24/7', 'mas de 5 anos',
+        'monitoreo digital', 'garantizando puntualidad', 'soporte continuo',
+        'red de especialistas', 'consultas ilimitadas', 'disponible ahora',
+        'nuestro asistente', 'convenio isapres', 'reembolsamos todo',
+        'clinical home care', 'expertos clinicos', 'portal del paciente',
+        'gamificacion', 'kine prive', 'evaluacion digital', 'asistente ai',
+        'kit de recuperacion', 'garantia de devolucion',
+        'javiera mendez', 'maria jose perez', 'ricardo tapia',
+    ],
+    // Porcentajes de reembolso o copago: nunca se publican (regla dura del negocio).
+    // Se aplican sobre el texto visible normalizado.
+    patronesProhibidos: [
+        /(reembols|copago|cobertura|isapre)\w*[^.]{0,60}\d{1,3}\s?(-\s?\d{1,3}\s?)?%/,
+        /\d{1,3}\s?%[^.]{0,60}(reembols|copago)/,
+    ],
     performance: {
         maxTtfbMs: 1200,
-        maxHtmlKb: 250,
+        // Medido sin comprimir; la home comprimida pesa 27 KB.
+        maxHtmlKb: 400,
     },
 }
 
