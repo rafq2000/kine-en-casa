@@ -150,18 +150,18 @@ export const blogPosts = [
   {
     slug: "kinesiologo-a-domicilio-urgente",
     seoTitle: "Kinesiólogo a Domicilio Urgente Santiago | KINEUM",
-    seoDescription: "¿Necesitas un kinesiólogo a domicilio hoy en Santiago? Qué casos se resuelven el mismo día, cuáles son urgencia médica y cómo coordinar por WhatsApp.",
-    title: "Kinesiólogo a domicilio urgente: qué se puede resolver hoy y qué es para la urgencia médica",
-    subtitle: "Cuándo tiene sentido pedir kinesiología el mismo día en Santiago, cuándo hay que llamar al 131 en vez de esperar al kinesiólogo, y cómo se coordina realmente una visita rápida.",
+    seoDescription: "¿Necesitas un kinesiólogo a domicilio hoy en Santiago? Qué casos se pueden coordinar pronto, cuáles son urgencia médica y cómo coordinar por WhatsApp.",
+    title: "Kinesiólogo a domicilio urgente: qué se puede coordinar pronto y qué es para la urgencia médica",
+    subtitle: "Cuándo tiene sentido pedir kinesiología con urgencia en Santiago, cuándo hay que llamar al 131 en vez de esperar al kinesiólogo, y cómo se coordina realmente una visita rápida.",
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-05",
     readTime: "9 min lectura",
     category: "Guías",
     image: "/images/blog-kine-urgente.jpg",
     icon: Zap,
-    content: `<p class="lead">Son las nueve de la noche, tu guagua lleva horas con el pecho cargado, o tu papá llegó del hospital y nadie en la casa sabe cómo pararlo de la cama. Buscas "kinesiólogo a domicilio urgente" y quieres una respuesta hoy, no una lista de espera. Aquí te explicamos, sin adornos, qué situaciones sí se pueden coordinar el mismo día, cuáles no son para kinesiología sino para un servicio de urgencia, y cómo funciona de verdad la coordinación en KINEUM.</p>
+    content: `<p class="lead">Son las nueve de la noche, tu guagua lleva horas con el pecho cargado, o tu papá llegó del hospital y nadie en la casa sabe cómo pararlo de la cama. Buscas "kinesiólogo a domicilio urgente" y quieres una respuesta hoy, no una lista de espera. Aquí te explicamos, sin adornos, qué situaciones sí se pueden coordinar pronto, cuáles no son para kinesiología sino para un servicio de urgencia, y cómo funciona de verdad la coordinación en KINEUM.</p>
 
 <h2>Primero lo más importante: qué NO espera al kinesiólogo</h2>
 <p>Hay cuadros en los que pedir una sesión de kinesiología es perder tiempo valioso. La kinesiología complementa la atención médica, no la reemplaza, y ninguna técnica manual sustituye un diagnóstico de urgencia. Si ves alguna de estas señales, <strong>llama al SAMU al 131 o ve directo a un servicio de urgencia</strong>:</p>
@@ -177,12 +177,12 @@ export const blogPosts = [
 </ul>
 <p>En esos casos no nos escribas primero a nosotros: llama al 131. Si después de la atención médica queda un plan de rehabilitación, ahí sí entramos nosotros y con la indicación en la mano.</p>
 
-<h2>Qué sí se puede coordinar el mismo día</h2>
+<h2>Qué sí se puede coordinar pronto</h2>
 <p>Dicho eso, hay situaciones muy frecuentes donde una visita rápida cambia la semana completa de una familia. Estas son las que más nos llegan por WhatsApp pidiendo atención urgente.</p>
 
 <h3>1. Kinesiología respiratoria en un niño con secreciones</h3>
-<p>Es el clásico del invierno en Santiago: un lactante o preescolar que quedó con el pecho cargado después de un cuadro viral, que duerme mal y tose sin lograr botar nada. Cuando hay <strong>indicación médica</strong> del pediatra o broncopulmonar, o el niño acaba de salir de una consulta o del alta hospitalaria con esa indicación, la kinesiterapia respiratoria en casa se puede coordinar el mismo día según la agenda.</p>
-<p>Si quieres entender en qué consiste, cuándo está indicada y qué pasa en cada sesión, revisa la guía completa de <a href="/blog/kinesiologia-respiratoria-infantil-domicilio">kinesiología respiratoria infantil a domicilio</a> y el detalle de nuestro <a href="/servicios/respiratoria">servicio de kinesiología respiratoria</a>. Acá el foco es otro: cuándo esto se puede ver hoy y cuándo directamente no es para el kinesiólogo.</p>
+<p>Es el clásico del invierno en Santiago: un lactante o preescolar que quedó con el pecho cargado después de un cuadro viral, que duerme mal y tose sin lograr botar nada. Cuando hay <strong>indicación médica</strong> del pediatra o broncopulmonar, o el niño acaba de salir de una consulta o del alta hospitalaria con esa indicación, la kinesiterapia respiratoria en casa se puede coordinar pronto, según la agenda.</p>
+<p>Si quieres entender en qué consiste, cuándo está indicada y qué pasa en cada sesión, revisa la guía completa de <a href="/blog/kinesiologia-respiratoria-infantil-domicilio">kinesiología respiratoria infantil a domicilio</a> y el detalle de nuestro <a href="/servicios/respiratoria">servicio de kinesiología respiratoria</a>. Acá el foco es otro: cuándo esto se puede ver pronto y cuándo directamente no es para el kinesiólogo.</p>
 <p>Ojo con la frontera: si el niño respira muy rápido, se le hunden las costillas, está azulado, no quiere comer nada, está muy decaído, o tiene menos de 3 meses y fiebre, eso es urgencia médica y no kinesiología.</p>
 
 <h3>2. Dolor agudo que te deja bloqueado</h3>
@@ -219,20 +219,20 @@ export const blogPosts = [
 <li><strong>En qué comuna están</strong>, porque de eso depende cuán rápido podemos llegar.</li>
 <li><strong>Si hay orden o indicación médica</strong>, y si vienen saliendo de una consulta o de un alta hospitalaria.</li>
 </ul>
-<p>Con eso te decimos de inmediato dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En nuestras comunas de cobertura la primera visita habitualmente se coordina dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro: revisa tu comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
+<p>Con eso te decimos de inmediato dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda; no te prometemos una hora antes de revisarla. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro: revisa tu comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
 <p>Atendemos de lunes a domingo y la <strong>evaluación inicial es gratuita</strong>: el kinesiólogo llega, evalúa, te explica lo que ve y recién ahí se define si hace falta un plan de sesiones y de cuántas. Los valores por sesión y por plan están en <a href="/precios">precios y planes</a>.</p>
 <p>Sobre la orden médica: si no la tienes, escríbenos igual, pero conviene que sepas que el tratamiento kinesiológico en Chile se aplica con indicación médica escrita y que tu Isapre o seguro complementario te la va a pedir para reembolsar. Lo explicamos completo en <a href="/blog/kinesiologo-sin-orden-medica">¿puedo ir al kinesiólogo sin orden médica?</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 
 <h3>¿Puedo conseguir un kinesiólogo a domicilio hoy mismo en Santiago?</h3>
-<p>En muchos casos sí: en nuestras comunas del sector oriente la primera visita suele coordinarse dentro de 24 horas y a menudo el mismo día según la agenda. No lo podemos prometer para cualquier hora: escríbenos con tu comuna y te confirmamos el horario real antes de que te comprometas.</p>
+<p>No lo podemos prometer: en nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda. Por eso, escríbenos con tu comuna y te confirmamos el horario real antes de que te comprometas.</p>
 
 <h3>¿Atienden kinesiología a domicilio el fin de semana?</h3>
 <p>Sí, trabajamos de lunes a domingo. Los fines de semana son justamente cuando más consultas urgentes llegan, porque los centros están cerrados y la familia está en casa. La disponibilidad depende de la agenda de ese día, así que conviene escribir apenas aparece el problema y no esperar al lunes.</p>
 
 <h3>Mi bebé necesita kine respiratorio urgente, ¿pueden ir hoy?</h3>
-<p>Si tiene indicación médica de kinesiterapia respiratoria y está estable, generalmente sí se puede coordinar el mismo día según disponibilidad. No esperes al kinesiólogo si está con dificultad para respirar, respiración muy rápida, hundimiento de las costillas, labios morados, decaimiento marcado o rechazo del alimento. Y si es menor de 3 meses, cualquier fiebre —aunque se vea bien— necesita evaluación médica inmediata. En esos casos llama al SAMU al 131 o ve a una urgencia pediátrica.</p>
+<p>Si tiene indicación médica de kinesiterapia respiratoria y está estable, se puede coordinar pronto, habitualmente dentro de 24 horas y según la agenda. No esperes al kinesiólogo si está con dificultad para respirar, respiración muy rápida, hundimiento de las costillas, labios morados, decaimiento marcado o rechazo del alimento. Y si es menor de 3 meses, cualquier fiebre —aunque se vea bien— necesita evaluación médica inmediata. En esos casos llama al SAMU al 131 o ve a una urgencia pediátrica.</p>
 
 <h3>¿Necesito orden médica para una visita urgente?</h3>
 <p>Para la evaluación inicial puedes escribirnos sin ella. Para el tratamiento, el reglamento vigente en Chile exige indicación médica escrita, y además la vas a necesitar si piensas reembolsar en tu Isapre o en tu seguro complementario. Si vienes saliendo de una consulta o de un alta, la indicación normalmente ya viene en el documento que te entregaron.</p>
@@ -244,7 +244,7 @@ export const blogPosts = [
 <p>Te lo decimos de frente y te orientamos a dónde ir. Preferimos perder una visita antes que atender algo que necesita un médico. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la derivación que te hagamos es por criterio clínico, no por acuerdo comercial.</p>
 
 <h2>En resumen</h2>
-<p>Si hay señales de alarma, el número es el 131. Si lo que tienes es un niño cargado con indicación de KTR, un dolor agudo que te bloquea, un alta reciente que no puede esperar o una casa donde el cuidador ya no da abasto, eso sí lo podemos ver pronto y muchas veces hoy mismo.</p>
+<p>Si hay señales de alarma, el número es el 131. Si lo que tienes es un niño cargado con indicación de KTR, un dolor agudo que te bloquea, un alta reciente que no puede esperar o una casa donde el cuidador ya no da abasto, eso sí lo podemos ver pronto, habitualmente dentro de 24 horas.</p>
 <p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos de inmediato qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a domingo.</p>`
   },
   {
