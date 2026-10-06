@@ -2373,37 +2373,90 @@ export const blogPosts = [
   },
   {
     slug: "fractura-cadera-adulto-mayor",
-    seoTitle: "Fractura de Cadera: ¿Cuándo Vuelve a Caminar? | KINEUM",
-    seoDescription: "Plazos reales semana a semana tras una fractura o prótesis de cadera, qué se logra en cada etapa y cuántas sesiones toma. Rehabilitación en casa.",
-    title: "Fractura de Cadera: El Camino para Volver a Caminar",
-    subtitle: "Rehabilitación intensiva para recuperar la independencia.",
+    seoTitle: "Fractura o Prótesis de Cadera: Recuperación en Casa | KINEUM",
+    seoDescription: "Cómo es la rehabilitación en casa tras una fractura o prótesis de cadera: cuándo empezar, precauciones, etapas por hitos, el cuidador y señales de alarma.",
+    title: "Fractura o prótesis de cadera en el adulto mayor: cómo es la rehabilitación en casa",
+    subtitle: "Qué cirugía le hicieron, cuándo empezar, qué precauciones respetar, cómo se avanza por etapas y qué puede hacer la familia para evitar una segunda caída.",
     author: "Equipo Clínico KINEUM",
     date: "25 Marzo, 2026",
     dateISO: "2026-03-25",
-    readTime: "7 min lectura",
+    updatedISO: "2026-10-05",
+    readTime: "9 min lectura",
     category: "Geriatría Activa",
     image: "/elderly-physio-home.png",
     icon: Users,
-    content: `<p class="lead">La fractura de cadera es la lesión más seria del adulto mayor: sin rehabilitación adecuada, muchos pacientes no recuperan su nivel de marcha previo. Pero con un programa intensivo y precoz, la historia es distinta: la mayoría vuelve a caminar y a su vida independiente.</p>
+    content: `<p class="lead">Si tu papá, tu mamá o tu abuela se fracturó la cadera, probablemente ya pasó por una cirugía y ahora viene la pregunta que más angustia a las familias: ¿va a volver a caminar? Esta guía explica cómo es la rehabilitación en casa, qué se trabaja en cada etapa y qué puede hacer la familia. No reemplaza las indicaciones del traumatólogo: cada cirugía trae sus propias reglas, y esas mandan.</p>
 
-      <h2>La regla de oro: empezar YA</h2>
-      <p>La rehabilitación comienza idealmente en las primeras 24-48 horas post-cirugía, todavía en la clínica, y debe continuar <strong>sin pausa</strong> al llegar a casa. Cada semana de inactividad cuesta masa muscular y confianza que luego toma meses recuperar. Si tu familiar fue dado de alta esta semana, esta semana debe empezar la kinesiología domiciliaria.</p>
+<h2>Primero: qué cirugía le hicieron</h2>
+<p>"Fractura de cadera" es un nombre general. Lo que define cómo será la rehabilitación es el tipo de fractura y la cirugía que se eligió para repararla. En términos simples, hay dos grandes caminos:</p>
+<ul>
+<li><strong>Osteosíntesis:</strong> el cirujano fija el hueso con clavos, placas o tornillos y el hueso propio tiene que consolidar. En algunos casos el traumatólogo limita al principio cuánto peso se puede apoyar en la pierna operada.</li>
+<li><strong>Prótesis (parcial o total):</strong> se reemplaza la parte dañada de la articulación por una pieza artificial. Muchas veces permite apoyar antes, pero trae precauciones de movimiento para proteger la prótesis mientras cicatrizan los tejidos.</li>
+</ul>
+<p>Antes de la primera sesión conviene tener a mano el epicrisis o informe de alta: ahí aparece qué cirugía se hizo, cuánto peso puede apoyar y qué movimientos están restringidos. Si no está claro, pregúntale al traumatólogo en el control. El kinesiólogo trabaja dentro de esas indicaciones, nunca por encima de ellas.</p>
 
-      <h2>Fases de la recuperación en casa</h2>
-      <ul>
-        <li><strong>Semanas 1-3:</strong> transferencias seguras (cama-silla-baño), marcha con andador según carga permitida por el traumatólogo, ejercicios de activación de glúteos y cuádriceps, prevención de complicaciones (trombosis, escaras, neumonía).</li>
-        <li><strong>Semanas 4-8:</strong> progresión de la marcha (andador → bastón), fuerza contra resistencia, equilibrio estático y dinámico, subir y bajar escaleras.</li>
-        <li><strong>Semanas 9-16:</strong> marcha sin ayudas técnicas cuando es posible, ejercicios de prevención de caídas, retorno a las actividades cotidianas (cocinar, salir a la calle, transporte).</li>
-      </ul>
+<h2>Cuándo empezar la kinesiología en casa</h2>
+<p>En general, la rehabilitación parte todavía en la clínica, con los primeros traslados y los primeros pasos asistidos. Lo importante es que <strong>no se corte al llegar a la casa</strong>. Los días en cama cuestan fuerza, equilibrio y confianza, y en una persona mayor esa pérdida se nota rápido.</p>
+<p>Lo razonable es coordinar la primera visita para los primeros días después del alta, con el informe en la mano. En esa evaluación se revisa cómo se traslada, cómo camina con su ayuda técnica, cómo está la herida, cuánto dolor tiene y cómo es la casa por donde se va a mover.</p>
 
-      <h2>El otro 50%: la casa y la familia</h2>
-      <p>En la primera visita hacemos una <strong>auditoría de seguridad del hogar</strong>: alfombras sueltas, iluminación nocturna, barras de apoyo en el baño, altura de la cama. La mayoría de las segundas caídas son evitables con cambios simples. También entrenamos a la familia o cuidador en transferencias y supervisión de ejercicios.</p>
+<h2>Las precauciones de la prótesis</h2>
+<p>Si la cirugía fue una prótesis, es probable que le hayan indicado evitar ciertos movimientos durante un tiempo, por ejemplo flexionar mucho la cadera, cruzar las piernas o girar el cuerpo con el pie apoyado. <strong>Cuáles son y por cuánto tiempo depende de la técnica que usó el cirujano</strong>, así que se aplican según lo que indique tu cirujano, no según una lista genérica de internet.</p>
+<p>En la práctica, esas precauciones cambian cosas de todos los días: la altura de la silla y de la taza del baño, cómo se sienta en la cama, cómo se pone los calcetines o los zapatos y cómo se sube al auto. Parte del trabajo de las primeras sesiones es enseñar a hacer todo eso de forma segura, con la persona y con quien la cuida.</p>
 
-      <h2>¿Cuánto dura el proceso completo?</h2>
-      <p>Entre 3 y 6 meses según edad, tipo de cirugía y estado previo. Los packs de sesiones con frecuencia 3 veces por semana durante los primeros 2 meses concentran el esfuerzo donde más rinde. Revisa nuestros <a href="/precios">planes de rehabilitación</a> y nuestro servicio de <a href="/servicios/geriatrica">kinesiología geriátrica</a>.</p>
+<h2>Las etapas de la recuperación, por hitos y no por fechas</h2>
+<p>Cada persona avanza a su ritmo: influyen la edad, cómo caminaba antes de la caída, otras enfermedades, el tipo de cirugía y el ánimo. Por eso preferimos hablar de hitos funcionales y no de semanas. Esto es orientativo:</p>
+<ol>
+<li><strong>Moverse con seguridad dentro de la casa.</strong> Pasar de la cama a la silla y de la silla al baño sin riesgo, caminar distancias cortas con andador respetando la carga indicada, y activar los músculos de la cadera y el muslo. En esta etapa también se cuidan la piel, la respiración y la circulación.</li>
+<li><strong>Ganar fuerza y equilibrio.</strong> Ejercicios de fuerza progresivos, caminar más distancia, pararse de una silla con menos ayuda de los brazos y, cuando el traumatólogo lo autoriza, avanzar de andador a bastón.</li>
+<li><strong>Volver a la vida de antes.</strong> Escaleras, salir a la calle, el transporte y las actividades que la persona quiere recuperar, como cocinar o ir a la feria. Se suma el entrenamiento para prevenir caídas.</li>
+</ol>
+<p>No todas las personas recuperan exactamente el nivel que tenían antes, y nadie serio puede garantizar un plazo. Lo que sí sabemos es qué se puede trabajar en cada etapa y cómo medir si se está avanzando.</p>
 
-      <p>¿Tu padre o madre acaba de ser operado de la cadera? Podemos comenzar esta misma semana en su casa. <a href="https://wa.me/56999679593?text=Hola,%20mi%20familiar%20fue%20operado%20de%20cadera">Escríbenos ahora por WhatsApp</a>.</p>
-    `
+<h2>Cuántas sesiones se necesitan</h2>
+<p>Depende del punto de partida y del objetivo. Una persona que caminaba sola antes de caerse no tiene el mismo camino que alguien que ya usaba bastón o estaba más frágil. En la evaluación inicial, que es gratuita, te damos una estimación y la revisamos según cómo responde. Puedes ver de qué depende el número en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología se necesitan según el caso</a>, y los planes y valores en nuestra <a href="/precios">página de precios</a>. Cuando la recuperación es larga, el Plan Premium (10 sesiones al mes, $35.000 por sesión) suele calzar mejor que sesiones sueltas.</p>
+
+<h2>La casa y la segunda caída</h2>
+<p>Después de una fractura de cadera, la gran preocupación es que no haya una segunda caída. En la primera visita revisamos la casa con ojos de kinesiólogo:</p>
+<ul>
+<li>Alfombras sueltas, cables y muebles bajos en los pasillos.</li>
+<li>Luz en el trayecto del dormitorio al baño, sobre todo de noche.</li>
+<li>Barras de apoyo en la ducha y junto al inodoro, y un alza de inodoro si la indicaron.</li>
+<li>La altura de la cama y de la silla donde pasa más tiempo.</li>
+<li>Calzado cerrado y firme; nada de pantuflas sueltas.</li>
+</ul>
+<p>Si quieres la lista completa, revisa <a href="/blog/adulto-mayor-se-cayo-en-casa-que-hacer">qué hacer si un adulto mayor se cae en la casa y cómo prevenir la próxima caída</a>.</p>
+
+<h2>El papel del cuidador</h2>
+<p>El kinesiólogo está una hora; el resto del día está la familia. Por eso entrenamos al cuidador en tres cosas: cómo ayudar en los traslados sin cargar a la persona ni lesionarse la espalda, cómo acompañar los ejercicios que quedan para los días sin sesión y qué cambios avisar. Un buen principio es ayudar solo en lo que la persona no puede hacer: hacerle todo para ir más rápido le quita práctica.</p>
+<p>Cuidar también cansa. Si la persona pasa la mayor parte del día en cama, te puede servir nuestra guía sobre <a href="/blog/kinesiologia-paciente-postrado-en-casa">kinesiología para un paciente postrado en casa</a>.</p>
+
+<h2>Señales de alarma</h2>
+<p>Llama al <strong>SAMU 131</strong> si aparece dolor en el pecho, falta de aire repentina, una caída con golpe en la cabeza, confusión o somnolencia fuera de lo habitual. Consulta de inmediato con el equipo que lo operó o en urgencias si notas:</p>
+<ul>
+<li>Una pantorrilla hinchada, caliente o dolorosa.</li>
+<li>Fiebre, o una herida enrojecida, caliente o que supura.</li>
+<li>Un dolor de cadera que aumenta de golpe, un "clic" con dolor intenso, o una pierna que se ve más corta o girada.</li>
+<li>Que deje de poder apoyar la pierna cuando antes podía.</li>
+</ul>
+
+<h2>Boleta y reembolso</h2>
+<p>KINEUM es un servicio particular. Después de cada sesión recibes una boleta de honorarios electrónica que puedes presentar en tu Isapre o seguro complementario. El reembolso depende de la cobertura de tu plan y casi siempre piden orden médica, así que conviene pedirla en el control con el traumatólogo. El paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología en la Isapre</a>.</p>
+
+<h2>Preguntas frecuentes sobre la rehabilitación de cadera en casa</h2>
+<h3>¿Puede apoyar la pierna operada?</h3>
+<p>Depende de la cirugía. Con algunas prótesis se apoya desde el principio y con algunas osteosíntesis el traumatólogo limita la carga por un tiempo. La indicación está en el informe de alta y es la que se respeta.</p>
+<h3>¿La kinesiología a domicilio sirve igual que en un centro?</h3>
+<p>Para esta etapa suele ser lo más práctico: trasladar a una persona recién operada es difícil, y en la casa se practica justo donde va a moverse, en su pasillo, su baño y su escalera. Si más adelante necesita equipos que no se pueden llevar, te lo decimos.</p>
+<h3>¿Cuántas veces a la semana conviene la sesión?</h3>
+<p>Al principio suele convenir más de una vez por semana, y la frecuencia baja a medida que la persona gana autonomía. La definimos en la evaluación según su estado y lo que indicó el traumatólogo.</p>
+<h3>¿Qué hago si tiene mucho miedo de caminar?</h3>
+<p>Es muy frecuente después de una caída. Se avanza con metas pequeñas y seguras, practicando primero con apoyo y quitándolo de a poco. Retarlo u obligarlo suele empeorar el miedo.</p>
+<h3>¿Necesito orden médica?</h3>
+<p>Para atenderse de forma particular, en general no. Para pedir el reembolso en la Isapre, casi siempre sí, así que conviene pedirla en el control.</p>
+<h3>¿Atienden en mi comuna?</h3>
+<p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
+
+<p>Si tu familiar se operó de la cadera y ya está en la casa, podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su traumatólogo. Conoce también nuestro servicio de <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a> y el de <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, o <a href="https://wa.me/56999679593?text=Hola%2C%20mi%20familiar%20se%20oper%C3%B3%20de%20la%20cadera%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n">escríbenos por WhatsApp</a>.</p>`
   },
   {
     slug: "epicondilitis-codo-tenista",
