@@ -150,7 +150,7 @@ const faqSchema = {
       name: "¿Cuántas sesiones necesitaré?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Depende de tu diagnóstico. En la evaluación inicial el kinesiólogo estima la cantidad de sesiones. En promedio, un tratamiento estándar va de 8 a 12 sesiones con frecuencia de 2 a 3 veces por semana.",
+        text: "Depende de tu diagnóstico y de cómo evolucionas. El número de sesiones y la frecuencia los define la evaluación inicial, que es gratuita, y se ajustan según cómo respondes al tratamiento.",
       },
     },
   ],
@@ -174,7 +174,7 @@ const steps = [
     title: "Evaluación Inicial Gratuita en tu Hogar",
     description:
       "Un kinesiólogo titulado va a tu casa, evalúa tu condición física, revisa exámenes y diagnóstico médico sin costo.",
-    detail: "La evaluación dura aprox. 30 minutos.",
+    detail: "Sin costo y sin compromiso de contratar.",
     color: "emerald",
   },
   {
@@ -247,7 +247,7 @@ const faqs = [
   {
     question: "¿Cuántas sesiones necesitaré?",
     answer:
-      "Depende de tu diagnóstico y evolución. En la evaluación inicial el kinesiólogo estima la cantidad de sesiones. Un tratamiento estándar promedia entre 8 y 12 sesiones, con frecuencia de 2 a 3 veces por semana.",
+      "Depende de tu diagnóstico y de cómo evolucionas. El número de sesiones y la frecuencia los define la evaluación inicial, que es gratuita, y se ajustan según cómo respondes al tratamiento.",
   },
 ]
 
