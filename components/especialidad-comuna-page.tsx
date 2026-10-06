@@ -40,7 +40,8 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
     const espLocal = local?.especialidades.find((e) => e.slug === esp.slug)
 
     const url = `https://kineum.cl/${esp.slug}-${com.slug}`
-    const waLink = wa(`Hola, necesito ${esp.corto} a domicilio en ${com.nombre}`)
+    const waMensaje = `Hola, necesito ${esp.corto} a domicilio en ${com.nombre}`
+    const waLink = wa(waMensaje)
 
     // Otras especialidades en la misma comuna
     const otrasEspecialidades = especialidades.filter((e) => e.slug !== esp.slug)
@@ -548,7 +549,7 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
             </section>
 
             <SiteFooter />
-            <WhatsAppButton />
+            <WhatsAppButton mensaje={waMensaje} />
         </div>
     )
 }

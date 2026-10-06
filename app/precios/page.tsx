@@ -287,7 +287,7 @@ export default function PreciosPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <WhatsAppButton />
+      <WhatsAppButton mensaje="Hola, quiero consultar por los planes de kinesiología a domicilio. Mi comuna es: " />
 
       {/* Header */}
       <header className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white shadow-2xl sticky top-0 z-50 backdrop-blur-sm border-b border-slate-700">

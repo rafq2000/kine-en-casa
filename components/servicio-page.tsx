@@ -255,7 +255,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
             </section>
 
             <SiteFooter />
-            <WhatsAppButton />
+            <WhatsAppButton mensaje={cta.whatsapp} />
         </div>
     )
 }

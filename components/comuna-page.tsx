@@ -485,7 +485,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             </section>
 
             <SiteFooter />
-            <WhatsAppButton />
+            <WhatsAppButton mensaje={waMensaje} />
         </div>
     )
 }

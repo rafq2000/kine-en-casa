@@ -79,6 +79,11 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
     const Icon = post.icon
 
+    // Mensaje de WhatsApp: dice desde qué post viene el lead
+    const waMensaje = post.category.toLowerCase().startsWith("precios")
+        ? "Hola, tengo Isapre y quiero cotizar kinesiología a domicilio. Mi comuna es: "
+        : `Hola, leí "${post.title}" y quiero agendar una evaluación gratuita. Mi comuna es: `
+
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -289,7 +294,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 </div>
             </article>
             <SiteFooter />
-            <WhatsAppButton />
+            <WhatsAppButton mensaje={waMensaje} />
         </div>
     )
 }
