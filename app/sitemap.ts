@@ -8,21 +8,27 @@ const baseUrl = 'https://kineum.cl'
 // Fechas REALES de ultima modificacion de contenido, no la fecha del build.
 // Si todas las URLs cambian de lastmod en cada deploy, Google deja de confiar
 // en la señal y la ignora. Actualizar solo la clave que de verdad cambio.
+// REGLA: la fecha solo cambia si cambia el contenido principal de la ruta (texto,
+// precios, preguntas) y se pone la fecha del deploy. Nunca la fecha del build.
+// Footer, navegacion, estilos o botones flotantes no cuentan. Los posts usan
+// `updatedISO` en lib/blog-data.ts con la misma regla.
 const MODIFICADO: Record<string, string> = {
-    '/': '2026-09-17',
-    '/nosotros': '2026-09-17',
+    '/': '2026-10-05',
+    '/nosotros': '2026-10-05',
     '/servicios/geriatrica': '2026-09-06',
     '/servicios/respiratoria': '2026-09-06',
     '/servicios/neurologica': '2026-09-06',
     '/servicios/traumatologica': '2026-09-06',
     '/servicios/postquirurgica': '2026-09-17',
-    '/precios': '2026-09-17',
-    '/como-funciona': '2026-09-17',
+    '/precios': '2026-10-05',
+    '/como-funciona': '2026-10-05',
     '/blog': '2026-09-17',
     '/ejercicios': '2026-09-06',
-    '/cobertura': '2026-09-18',
-    // Paginas locales: ultima reescritura de titulos y descripciones
-    local: '2026-09-18',
+    '/cobertura': '2026-09-29',
+    // Los 9 hubs /kinesiologo-a-domicilio-*: texto de entrada, titles y descriptions (Fase 0)
+    hubs: '2026-10-05',
+    // Las 45 especialidad+comuna: ultima reescritura de contenido
+    local: '2026-09-29',
 }
 
 // Prioridad segun cercania a la conversion, no todo al mismo nivel:
@@ -69,15 +75,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const locales = rutasLocales.map((ruta) => ({
         url: `${baseUrl}${ruta}`,
-        lastModified: new Date(MODIFICADO.local),
+        lastModified: new Date(ruta.startsWith('/kinesiologo-a-domicilio-') ? MODIFICADO.hubs : MODIFICADO.local),
         changeFrequency: 'monthly' as const,
         priority: prioridad(ruta),
     }))
 
-    // Cada post lleva su propia fecha de publicacion, que ya vive en blog-data.
+    // Cada post lleva su fecha de publicacion o, si cambio su contenido, la de actualizacion.
     const posts = blogPosts.map((post) => ({
         url: `${baseUrl}/blog/${post.slug}`,
-        lastModified: new Date(post.dateISO),
+        lastModified: new Date(post.updatedISO ?? post.dateISO),
         changeFrequency: 'yearly' as const,
         priority: prioridad(`/blog/${post.slug}`),
     }))

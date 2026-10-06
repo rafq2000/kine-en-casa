@@ -103,7 +103,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
         description: post.subtitle,
         image: `https://kineum.cl${post.image}`,
         datePublished: post.dateISO,
-        dateModified: post.dateISO,
+        dateModified: post.updatedISO ?? post.dateISO,
         inLanguage: "es-CL",
         author: {
             "@type": "Organization",
@@ -232,6 +232,13 @@ export default async function BlogPost({ params }: BlogPostProps) {
                             <div className="flex items-center">
                                 <Calendar className="h-4 w-4 mr-2" />
                                 {post.date}
+                                {post.updatedISO &&
+                                    ` · Actualizado el ${new Date(post.updatedISO).toLocaleDateString("es-CL", {
+                                        day: "numeric",
+                                        month: "long",
+                                        year: "numeric",
+                                        timeZone: "UTC",
+                                    })}`}
                             </div>
                             <div className="flex items-center">
                                 <Clock className="h-4 w-4 mr-2" />
