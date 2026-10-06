@@ -10,6 +10,13 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // T18: el dominio de Vercel no debe servir el sitio duplicado. Host exacto, para no afectar las previews.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'kine-en-casa.vercel.app' }],
+        destination: 'https://kineum.cl/:path*',
+        permanent: true,
+      },
       // Comunas fuera de cobertura desde el 29-09-2026 (solo sector oriente)
       ...rutasRetiradas.map((r) => ({ source: r.de, destination: r.a, permanent: true })),
       {
