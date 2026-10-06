@@ -91,7 +91,7 @@ export function SiteFooter() {
                                     <a href="tel:+56999679593" className="block text-white font-medium hover:text-amber-400 transition-colors">
                                         +56 9 9967 9593
                                     </a>
-                                    <span className="text-xs">Línea Exclusiva Pacientes</span>
+                                    <span className="text-xs">WhatsApp y teléfono</span>
                                 </div>
                             </li>
                             <li className="flex items-start space-x-3">

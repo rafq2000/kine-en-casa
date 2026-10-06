@@ -293,7 +293,8 @@ export default function HomePage() {
                 asChild
               >
                 <a
-                  href={wa("Hola, quiero verificar disponibilidad para evaluación kinesiológica")}
+                  href={wa("Hola, quiero agendar una evaluación gratuita a domicilio. Mi comuna es: ")}
+                  data-cta="hero"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
