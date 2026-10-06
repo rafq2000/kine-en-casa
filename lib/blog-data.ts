@@ -641,24 +641,24 @@ export const blogPosts = [
   {
     slug: "cuanto-cobra-kinesiologo-particular",
     seoTitle: "Kinesiólogo Particular: Cuánto Cobra la Sesión en Chile 2026",
-    seoDescription: "Precios referenciales de kinesiología particular en Chile (tarifas publicadas en Santiago): consulta, domicilio y especialidad, y cómo usar tu isapre.",
+    seoDescription: "En consulta, de $30.000 a $38.000 la sesión; a domicilio, de $35.000 a $50.000, según tarifas publicadas en Santiago (sep. 2026). Qué cambia el precio.",
     title: "¿Cuánto cobra un kinesiólogo particular por sesión? Precios en Santiago 2026",
     subtitle: "Rangos referenciales según tarifas publicadas en Santiago: consulta, domicilio y especialidad, qué hace variar el precio y cómo bajar el costo con tu isapre.",
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-05",
     readTime: "6 min lectura",
     category: "Precios y cobertura",
     image: "/images/blog-kinesiologo-particular.jpg",
     icon: CircleDollarSign,
-    content: `<p class="lead">Si estás buscando cuánto cobra un kinesiólogo particular, la respuesta corta es: depende de si te atienden en una consulta o en tu casa, del tipo de tratamiento y de cuántas sesiones contratas. Revisamos las tarifas que centros y plataformas de Santiago publican en sus sitios (consultadas en septiembre de 2026) para darte rangos referenciales reales, no cifras inventadas.</p>
+    content: `<p class="lead">Un kinesiólogo particular cobra entre $30.000 y $38.000 por sesión en consulta en el sector oriente de Santiago, y entre $35.000 y $50.000 a domicilio, según las tarifas publicadas que revisamos en septiembre de 2026. Revisamos las tarifas que centros y plataformas de Santiago publican en sus sitios (consultadas en septiembre de 2026) para darte rangos referenciales reales, no cifras inventadas.</p>
 
 <h2>Cuánto cobra un kinesiólogo particular por sesión</h2>
 <p>Pocos centros publican sus precios, y la mayoría no indica desde cuándo rigen, así que toma estos rangos como una referencia para orientarte y no como una tarifa oficial. Estos son los valores que encontramos publicados al revisar en septiembre de 2026:</p>
 <ul>
 <li><strong>Sesión en consulta (sector oriente de Santiago):</strong> ronda aproximadamente entre $30.000 y $38.000. Un centro en Ñuñoa publica $30.000 la sesión y uno en La Reina $35.000 (tarifas para pacientes con isapre, reembolsables); uno en Las Condes publica su pack de 10 sesiones particular a $384.000, es decir, $38.400 por sesión.</li>
-<li><strong>Sesión a domicilio en Santiago:</strong> va aproximadamente de $35.000 a $50.000, y puede acercarse a $60.000 en fines de semana y festivos o con recargo por distancia. MEDS publica $49.833 en tarifa regular y $59.330 los sábados desde las 14:00, domingos y festivos; Kine and Fit publica $35.000, con un recargo de $6.000 fuera de su zona de cobertura principal; y la plataforma Cronoshare indica que una sesión a domicilio suele partir de los $40.000.</li>
+<li><strong>Sesión a domicilio en Santiago:</strong> aproximadamente de $35.000 a $50.000; las tarifas, con su fuente, están en <a href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago">cuánto cuesta la kinesiología a domicilio en Santiago</a>.</li>
 <li><strong>Pack de 10 sesiones en consulta:</strong> se publican entre unos $320.000 y $384.000.</li>
 </ul>
 <p>También vas a encontrar precios mucho más bajos, como $15.000 por sesión en un centro de Maipú, o planes de bajo valor por sesión en modalidades donde el kinesiólogo no te atiende uno a uno durante toda la hora. No son comparables con una sesión particular completa: el formato es otro.</p>
@@ -668,7 +668,7 @@ export const blogPosts = [
 <h3>En consulta o centro</h3>
 <p>Habitualmente es la opción más económica por sesión, porque el profesional no se traslada. A cambio, tú asumes el viaje, el tiempo y la espera. Para alguien con dolor agudo, una cirugía reciente o movilidad reducida, ese costo invisible pesa bastante.</p>
 <h3>A domicilio</h3>
-<p>Suele costar más porque incluye el traslado del kinesiólogo. Algunos centros agregan recargos por comuna lejana o por horario de fin de semana, aunque no todos: solo lo verificamos en los dos casos citados arriba. Si quieres profundizar en esta modalidad, lo explicamos en <a href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago">cuánto cuesta la kinesiología a domicilio en Santiago</a>, y comparamos ambas opciones en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro: cuál te conviene</a>.</p>
+<p>Suele costar más porque incluye el traslado del kinesiólogo. Algunos servicios agregan recargos por comuna lejana o por horario de fin de semana, aunque no todos. Las tarifas a domicilio, con sus condiciones, están en <a href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago">cuánto cuesta la kinesiología a domicilio en Santiago</a>, y comparamos ambas opciones en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro: cuál te conviene</a>.</p>
 <h3>Según la especialidad</h3>
 <p>Cronoshare, una plataforma que reúne profesionales, estima estos rangos por tipo de sesión (actualizados a diciembre de 2025). Son estimaciones de la plataforma, no la tarifa de un centro concreto:</p>
 <ul>
@@ -727,8 +727,8 @@ export const blogPosts = [
   },
   {
     slug: "precio-10-sesiones-kinesiologia",
-    seoTitle: "10 Sesiones de Kinesiología: $350.000 a Domicilio | KINEUM",
-    seoDescription: "¿Cuánto valen 10 sesiones de kinesiología a domicilio? Rangos publicados en Santiago, pack vs. sesión suelta y cuánto pagas tras el reembolso de tu isapre.",
+    seoTitle: "¿Cuánto Valen 10 Sesiones de Kinesiología? Precios 2026",
+    seoDescription: "Packs de 10 sesiones en consulta: $320.000 a $384.000; a domicilio, estimación de $350.000 a $500.000 (Santiago, sep. 2026). Pack o sesión suelta.",
     title: "Precio de 10 sesiones de kinesiología: cuánto cuesta el tratamiento completo en 2026",
     subtitle: "Rangos publicados en Santiago, pack o sesión suelta, frecuencia semanal y cómo calcular lo que pagas después del reembolso",
     author: "Equipo Clínico KINEUM",
@@ -739,7 +739,7 @@ export const blogPosts = [
     category: "Precios y reembolsos",
     image: "/images/blog-precio-10-sesiones.jpg",
     icon: CircleDollarSign,
-    content: `<p class="lead">Si te indicaron 10 sesiones de kinesiología, la pregunta práctica es cuánto vas a pagar por el tratamiento completo, no por una sesión aislada. Aquí tienes los rangos de precio publicados en Santiago, cuándo conviene un pack, cómo se reparten las sesiones en la semana y cómo estimar lo que te queda en el bolsillo después del reembolso.</p>
+    content: `<p class="lead">En Santiago, los packs de 10 sesiones de kinesiología en consulta se publican entre $320.000 y $384.000; a domicilio no encontramos packs publicados, y multiplicando el valor por sesión la referencia queda entre $350.000 y $500.000. Aquí tienes los rangos de precio publicados en Santiago, cuándo conviene un pack, cómo se reparten las sesiones en la semana y cómo estimar lo que te queda en el bolsillo después del reembolso.</p>
 
 <h2>Por qué tantos tratamientos de kinesiología son de 10 sesiones</h2>
 <p>No existe una regla que diga que toda lesión se resuelve en 10 sesiones. Es un número frecuente en los packs que publican los centros y en muchas indicaciones, porque suele servir como un primer ciclo de tratamiento: da tiempo para trabajar y es lo bastante corto para reevaluar antes de seguir.</p>
@@ -1035,7 +1035,7 @@ export const blogPosts = [
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
     seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? $35.000-$50.000",
-    seoDescription: "Sesión a domicilio entre $35.000 y $50.000 según tarifas publicadas; pack de 10 a $35.000 por sesión. Precios 2026 y reembolso Isapre.",
+    seoDescription: "Tarifas publicadas en Santiago (oct. 2026): de $35.000 a $50.000 la sesión a domicilio y sobre $60.000 en festivos. De qué depende el precio.",
     title: "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026",
     subtitle: "Sesión individual a domicilio: $35.000–$50.000 según tarifas publicadas. Pack de 10 a $35.000 por sesión. Cómo reembolsar en tu Isapre y seguro complementario.",
     author: "Equipo Clínico KINEUM",
@@ -1046,50 +1046,73 @@ export const blogPosts = [
     category: "Precios y Reembolsos",
     image: "/images/blog-precios-kinesiologia-2026.jpg",
     icon: CircleDollarSign,
-    content: `<p class="lead">Si estás cotizando un kinesiólogo a domicilio en Santiago, lo primero que quieres saber es el precio. Aquí te lo respondemos sin rodeos, con valores actualizados a 2026, y te explicamos cómo bajar el costo real usando tu Isapre y seguro complementario.</p>
+    content: `<p class="lead">Una sesión de kinesiología a domicilio en Santiago cuesta entre $35.000 y $50.000 según las tarifas publicadas que revisamos en septiembre y octubre de 2026, y puede subir en fines de semana o festivos. En KINEUM la sesión sale $35.000 en el plan de 10 y $40.000 en el de 4, con evaluación inicial gratuita. Abajo te explicamos de qué depende el precio y cómo pedir el reembolso en tu Isapre.</p>
 
-      <h2>Precio de una sesión de kinesiología a domicilio en Santiago (2026)</h2>
-      <p>En Santiago, una sesión individual de kinesiología a domicilio va aproximadamente de <strong>$35.000 a $50.000 CLP</strong> según tarifas publicadas por servicios de Santiago revisadas en septiembre de 2026, y puede subir cerca de $60.000 en fines de semana, festivos o con recargo por distancia. El valor depende de tres factores:</p>
+      <h2>Cuánto cobra un kinesiólogo a domicilio en Santiago (2026)</h2>
+      <p>Estas son tarifas que los propios servicios publican en sus sitios, revisadas de nuevo el 5 de octubre de 2026. Son valores de cada servicio, no un arancel oficial, y pueden cambiar:</p>
+      <div style="overflow-x:auto"><table>
+      <thead><tr><th>Servicio</th><th>Precio por sesión</th><th>Condiciones</th><th>Fuente</th><th>Fecha de consulta</th></tr></thead>
+      <tbody>
+      <tr><td>MEDS</td><td>$51.540</td><td>$64.420 los sábados desde las 14:00, domingos y festivos. Se paga la totalidad de las sesiones de la orden médica.</td><td><a href="https://www.meds.cl/especialidades/kinesiologia-a-domicilio/" rel="nofollow">meds.cl</a></td><td>5 de octubre de 2026</td></tr>
+      <tr><td>Kine and Fit</td><td>$35.000</td><td>$32.000 por sesión desde 5 sesiones. Recargo de $6.000 por sesión fuera de su zona.</td><td><a href="https://www.kineandfit.cl/valores" rel="nofollow">kineandfit.cl</a></td><td>5 de octubre de 2026</td></tr>
+      <tr><td>Cronoshare</td><td>Desde unos $40.000</td><td>Estimación de la plataforma: precio medio de una sesión a domicilio, no la tarifa de un servicio concreto.</td><td><a href="https://www.cronoshare.cl/cuanto-cuesta/sesion-kinesiologo" rel="nofollow">cronoshare.cl</a></td><td>5 de octubre de 2026</td></tr>
+      </tbody>
+      </table></div>
+      <p>La mayoría de las tarifas a domicilio que revisamos quedan entre $35.000 y $50.000; una clínica como MEDS cobra algo más, y en fines de semana o festivos el valor puede pasar de $60.000. Solo incluimos tarifas que pudimos ver en el sitio del propio servicio.</p>
+
+      <h2>Qué incluye el precio</h2>
       <ul>
-        <li><strong>Especialidad:</strong> la kinesiología respiratoria infantil o la neurorehabilitación post-ACV suelen costar más que una sesión motora estándar, porque requieren mayor especialización y equipamiento.</li>
+        <li><strong>El traslado:</strong> el kinesiólogo va a tu casa; algunos servicios lo cobran aparte si vives lejos de su zona.</li>
+        <li><strong>La sesión uno a uno:</strong> en KINEUM, sesiones de 60 minutos con el mismo profesional durante toda la hora.</li>
+        <li><strong>El equipamiento:</strong> camilla profesional, electroestimulación (TENS), ultrasonido y bandas elásticas cuando el tratamiento lo requiere.</li>
+        <li><strong>La boleta:</strong> el comprobante que necesitas para pedir el reembolso en tu Isapre y en tu seguro complementario.</li>
+        <li><strong>La evaluación:</strong> en KINEUM la evaluación inicial es gratuita; en otros servicios puede cobrarse aparte.</li>
+      </ul>
+
+      <h2>Qué hace variar el precio</h2>
+      <ul>
         <li><strong>Comuna y desplazamiento:</strong> algunos servicios cobran recargo por distancia. En KINEUM no aplicamos recargos dentro de nuestra zona de cobertura (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro).</li>
+        <li><strong>Día y hora:</strong> hay servicios que suben el valor los fines de semana y festivos.</li>
+        <li><strong>Cantidad de sesiones:</strong> contratar varias sesiones suele bajar el valor de cada una.</li>
         <li><strong>Equipamiento:</strong> una sesión con camilla profesional, TENS y ultrasonido vale más que una visita sin implementos, y la diferencia clínica es real.</li>
+        <li><strong>Condiciones de pago:</strong> algunos servicios piden pagar por adelantado todas las sesiones de la orden médica.</li>
       </ul>
 
-      <h2>¿Cuánto cuestan 10 sesiones de kinesiología?</h2>
-      <p>La mayoría de los tratamientos kinesiológicos requiere entre 8 y 15 sesiones. Comprar un pack baja el valor por sesión de forma importante. Nuestros planes 2026:</p>
-      <ul>
-        <li><strong>Plan Essential — $160.000</strong> (4 sesiones, $40.000 por sesión): ideal para lesiones leves y mantenimiento.</li>
-        <li><strong>Plan Premium — $350.000</strong> (10 sesiones, $35.000 por sesión): el protocolo completo para rehabilitación post-operatoria, lesiones traumatológicas y neurológicas. Incluye evaluación inicial gratuita, reportes de progreso y prioridad de agenda.</li>
-        <li><strong>Plan Elite — a consultar:</strong> plan a medida para tratamientos intensivos o prolongados.</li>
-      </ul>
-      <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong>. Puedes ver el detalle completo en nuestra <a href="/precios">página de precios</a>.</p>
+      <h2>Cuánto cobra KINEUM</h2>
+      <div style="overflow-x:auto"><table>
+      <thead><tr><th>Plan</th><th>Sesiones al mes</th><th>Precio</th><th>Valor por sesión</th></tr></thead>
+      <tbody>
+      <tr><td>Essential</td><td>4</td><td>$160.000</td><td>$40.000</td></tr>
+      <tr><td>Premium</td><td>10</td><td>$350.000</td><td>$35.000</td></tr>
+      <tr><td>Elite</td><td>A medida</td><td>A consultar</td><td>A consultar</td></tr>
+      </tbody>
+      </table></div>
+      <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong>, sesiones de 60 minutos y boleta de honorarios, sin recargo por traslado en las 9 comunas que atendemos. El detalle está en nuestra <a href="/precios">página de precios</a>.</p>
 
-      <h2>Cuánto recuperas con Isapre y seguros complementarios</h2>
-      <p>El precio de lista no es el costo final. Con la documentación correcta:</p>
-      <ul>
-        <li><strong>Isapre:</strong> emitimos boleta de honorarios que puedes enviar a reembolso. Cuánto recuperas depende de los topes y porcentajes de tu plan (Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida y Esencial permiten pedirlo en línea); revísalo en la sucursal virtual de tu Isapre. Lee nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía completa de reembolso Isapre</a>.</li>
-        <li><strong>Seguro complementario:</strong> si además tienes un seguro (Metlife, Chilena Consolidada, BICE, Zurich o colectivo de empresa), puedes reembolsar el copago que la Isapre no cubrió, según las condiciones de tu póliza.</li>
-      </ul>
-      <p>Cuánto recuperas depende de los topes y deducibles de tu plan, así que no existe un porcentaje único. En la <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso Isapre</a> está el paso a paso para calcular el tuyo.</p>
+      <h2>Cuánto pagas después del reembolso</h2>
+      <p>La cuenta es: <strong>lo que pagas = precio de la sesión − reembolso de tu Isapre − reembolso de tu seguro complementario</strong> (si tienes uno). Ninguno de los dos reembolsos es un monto fijo: dependen de los topes y deducibles de tu plan y de tu póliza, así que no existe un porcentaje único.</p>
+      <p>Primero se pide el reembolso en la Isapre, con la boleta y la orden médica, y después se presenta la diferencia en el seguro. El paso a paso, isapre por isapre, está en la <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso Isapre</a>.</p>
 
-      <h2>¿Vale la pena pagar kinesiología a domicilio vs. ir a un centro?</h2>
-      <p>Una sesión en centro puede parecer más barata, pero al comparar el costo total la diferencia se reduce o desaparece:</p>
+      <h2>¿Conviene más que ir a un centro?</h2>
+      <p>Una sesión en consulta suele costar menos, pero al comparar el costo total la diferencia se reduce:</p>
       <ul>
         <li>Te ahorras el traslado y la sala de espera.</li>
         <li>Para adultos mayores o pacientes post-operados, evitar el traslado no es comodidad: es <strong>seguridad clínica</strong> (menos riesgo de caídas y de sobreesfuerzo).</li>
         <li>El kinesiólogo ve tu entorno real y adapta los ejercicios a tu casa, lo que mejora la adherencia al tratamiento.</li>
       </ul>
+      <p>Lo comparamos en detalle en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro: cuál te conviene</a>.</p>
 
       <h2>Preguntas frecuentes sobre precios</h2>
       <h3>¿La evaluación inicial tiene costo?</h3>
       <p>No. En KINEUM la evaluación kinesiológica inicial es <strong>gratuita</strong> y sin compromiso, en todas nuestras comunas de cobertura.</p>
       <h3>¿Hay recargo por atención de urgencia o fin de semana?</h3>
       <p>Atendemos de lunes a domingo. Las sesiones de fin de semana tienen la misma tarifa; coordinamos la disponibilidad por WhatsApp.</p>
-      <h3>¿Puedo pagar con tarjeta?</h3>
-      <p>Sí: aceptamos efectivo, transferencia, tarjeta de débito y crédito.</p>
       <h3>¿El precio incluye el equipamiento?</h3>
       <p>Sí. Camilla profesional, electroestimulación (TENS), ultrasonido y bandas elásticas están incluidos cuando el tratamiento lo requiere.</p>
+      <h3>¿Cuánto cobra un kinesiólogo particular en consulta?</h3>
+      <p>En consulta, las tarifas publicadas en el sector oriente rondan los $30.000 a $38.000 por sesión. Lo detallamos en <a href="/blog/cuanto-cobra-kinesiologo-particular">cuánto cobra un kinesiólogo particular</a>.</p>
+      <h3>¿Cuánto valen 10 sesiones?</h3>
+      <p>En KINEUM, $350.000 en el Plan Premium. Los rangos publicados en Santiago, en consulta y a domicilio, están en nuestra guía sobre el <a href="/blog/precio-10-sesiones-kinesiologia">precio de 10 sesiones de kinesiología</a>.</p>
 
       <blockquote>"El costo real de no rehabilitarse —cronificación del dolor, nueva cirugía, pérdida de independencia— siempre es mayor que el de un buen tratamiento a tiempo."</blockquote>
 
