@@ -18,6 +18,7 @@ import {
 } from "lucide-react"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
+import { BOLETA_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 
 export const metadata: Metadata = {
   title: "Cómo Funciona la Kinesiología a Domicilio | KINEUM",
@@ -106,10 +107,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Cuánto demora en llegar el kinesiólogo a mi casa?",
+      name: "¿Cuánto demora en llegar el kinesiólogo a mi casa?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Coordinamos la visita dentro de 24 a 48 horas desde tu primer contacto, cualquier día de la semana. En casos urgentes podemos agendar para el mismo dia según disponibilidad.",
+        text: `Coordinamos la primera visita ${PRIMERA_VISITA_TEXTO} desde tu primer contacto, cualquier día de la semana.`,
       },
     },
     {
@@ -130,10 +131,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "En que comunas de Santiago atienden?",
+      name: "¿En qué comunas de Santiago atienden?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro, entre otras comunas.",
+        text: "Atendemos solo en 9 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.",
       },
     },
     {
@@ -163,7 +164,7 @@ const steps = [
     title: "Contactanos por WhatsApp o Teléfono",
     description:
       "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
-    detail: "Respondemos en menos de 30 minutos en horario laboral.",
+    detail: "Cuéntanos tu comuna y el motivo de consulta.",
     color: "amber",
   },
   {
@@ -193,7 +194,7 @@ const steps = [
     title: "Sesiones en tu Hogar con Seguimiento",
     description:
       "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
-    detail: "Emitimos boleta para reembolso Isapre.",
+    detail: `Emitimos ${BOLETA_TEXTO}, para el reembolso en tu Isapre.`,
     color: "emerald",
   },
 ]
@@ -219,9 +220,9 @@ const equipment = [
 
 const faqs = [
   {
-    question: "Cuánto demora en llegar el kinesiólogo a mi casa?",
+    question: "¿Cuánto demora en llegar el kinesiólogo a mi casa?",
     answer:
-      "Coordinamos la visita dentro de 24 a 48 horas desde tu primer contacto, cualquier día de la semana. En casos urgentes podemos agendar para el mismo dia según disponibilidad.",
+      `Coordinamos la primera visita ${PRIMERA_VISITA_TEXTO} desde tu primer contacto, cualquier día de la semana.`,
   },
   {
     question: "Necesito orden médica para pedir kinesiólogo a domicilio?",
@@ -234,9 +235,9 @@ const faqs = [
       "Si, la primera visita de evaluación es completamente gratuita y sin compromiso. El kinesiólogo evalua tu condicion y te explica el plan de tratamiento recomendado antes de que decidas.",
   },
   {
-    question: "En que comunas de Santiago atienden?",
+    question: "¿En qué comunas de Santiago atienden?",
     answer:
-      "Atendemos en Las Condes, Vitacura, Providencia, Nunoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro, entre otras comunas del sector oriente y sur.",
+      "Atendemos solo en 9 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.",
   },
   {
     question: "Como funciona el reembolso con Isapre?",
@@ -500,7 +501,7 @@ export default function ComoFuncionaPage() {
               Agenda tu Evaluación Gratuita Hoy
             </h2>
             <p className="text-lg text-emerald-100 max-w-2xl mx-auto mb-10">
-              Escríbenos por WhatsApp o llamanos. Coordinamos la visita de un kinesiólogo a tu hogar en menos de 48 horas.
+              Escríbenos por WhatsApp o llámanos. Coordinamos la visita de un kinesiólogo a tu hogar {PRIMERA_VISITA_TEXTO}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

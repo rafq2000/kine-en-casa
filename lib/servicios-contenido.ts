@@ -647,7 +647,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 h2: 'Transparencia de precios y reembolso',
                 parrafos: [
-                    'Los valores están publicados en la página de precios, sin "consulte por su caso" para los planes estándar. Somos un servicio particular: emitimos boleta de honorarios electrónica el mismo día del pago.',
+                    'Los valores están publicados en la página de precios, sin "consulte por su caso" para los planes estándar. Somos un servicio particular: emitimos boleta de honorarios electrónica después de cada sesión.',
                     'Con esa boleta puedes solicitar reembolso en tu Isapre, según la cobertura de tu plan, y luego el copago restante en tu seguro complementario si tienes uno. Para el reembolso vas a necesitar orden médica vigente, así que conviene pedirla desde el principio.',
                     'Somos un servicio particular: no emitimos bonos de ningún sistema previsional. El camino es siempre boleta y reembolso.',
                 ],
@@ -684,7 +684,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Cómo funciona el pago y el reembolso?',
-                a: 'KINEUM es un servicio particular: pagas la sesión o el plan y emitimos boleta de honorarios electrónica el mismo día. Con esa boleta y tu orden médica solicitas el reembolso en tu Isapre, y el copago restante en tu seguro complementario si tienes uno. No emitimos bonos de ningún sistema previsional.',
+                a: 'KINEUM es un servicio particular: pagas la sesión o el plan y emitimos boleta de honorarios electrónica después de cada sesión. Con esa boleta y tu orden médica solicitas el reembolso en tu Isapre, y el copago restante en tu seguro complementario si tienes uno. No emitimos bonos de ningún sistema previsional.',
             },
             {
                 q: '¿Siempre va el mismo kinesiólogo?',
@@ -693,10 +693,6 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 q: '¿Qué pasa si mi caso necesita otra especialidad?',
                 a: 'Te lo decimos en la evaluación y te orientamos sobre a quién consultar. No tomamos casos que no correspondan a kinesiología solo para vender sesiones.',
-            },
-            {
-                q: '¿Puedo pagar con tarjeta?',
-                a: 'Sí: aceptamos efectivo, transferencia, tarjeta de débito y crédito. La boleta se emite el mismo día y llega a tu correo.',
             },
         ],
         cta: {

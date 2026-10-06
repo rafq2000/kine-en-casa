@@ -4,6 +4,7 @@ import { Geist, Manrope } from "next/font/google"
 import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import { comunas } from "@/lib/comunas-data"
+import { HORARIO_SCHEMA } from "@/lib/negocio"
 
 const geist = Geist({
   subsets: ["latin"],
@@ -112,26 +113,7 @@ const localBusinessSchema = {
       containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
     })),
   ],
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "08:00",
-      closes: "20:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Saturday",
-      opens: "09:00",
-      closes: "18:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Sunday",
-      opens: "10:00",
-      closes: "16:00",
-    },
-  ],
+  openingHoursSpecification: HORARIO_SCHEMA,
   makesOffer: [
     {
       "@type": "Offer",

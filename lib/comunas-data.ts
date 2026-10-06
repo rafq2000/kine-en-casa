@@ -2,6 +2,8 @@
 // /kinesiologo-a-domicilio-{comuna} y /{especialidad}-{comuna}.
 // Cada comuna aporta sectores y contexto propio para evitar contenido duplicado.
 
+import { PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
+
 export type ZonaComuna = "oriente" | "centro" | "norte" | "poniente" | "sur"
 
 export interface Comuna {
@@ -47,7 +49,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Las Condes concentra la mayor demanda de salud domiciliaria del sector oriente, con muchos pacientes que salen de clínicas cercanas y necesitan continuar su rehabilitación en casa.",
         referencias: "cerca de Apoquindo, Kennedy y el eje Escuela Militar–Los Dominicos",
-        llegada: "el mismo día en la mayoría de los casos",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Vitacura",
@@ -67,7 +69,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Vitacura tiene una alta proporción de adultos mayores viviendo en casas amplias, un entorno ideal para rehabilitar sin trasladarse.",
         referencias: "cerca de Av. Vitacura, Kennedy y el Parque Bicentenario",
-        llegada: "el mismo día en la mayoría de los casos",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Providencia",
@@ -88,7 +90,7 @@ export const comunas: Comuna[] = [
         contexto:
             "En Providencia la mayoría de los pacientes vive en departamentos y trabaja en la misma comuna: subimos con camilla y equipamiento en horarios compatibles con la jornada laboral.",
         referencias: "cerca del eje Providencia–Nueva Providencia y las estaciones Salvador, Manuel Montt y Los Leones",
-        llegada: "el mismo día en la mayoría de los casos",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Ñuñoa",
@@ -108,7 +110,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Ñuñoa mezcla casas antiguas y edificios nuevos, con muchas familias que cuidan a un adulto mayor en casa y agradecen no tener que trasladarlo.",
         referencias: "cerca de Plaza Ñuñoa, Irarrázaval y el Estadio Nacional",
-        llegada: "el mismo día en la mayoría de los casos",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "La Reina",
@@ -129,7 +131,7 @@ export const comunas: Comuna[] = [
         contexto:
             "La Reina es tranquila y arbolada, con calles y parques que aprovechamos para la fase de marcha y reacondicionamiento al aire libre.",
         referencias: "cerca de Plaza Egaña, Av. Ossa y el Parque Padre Hurtado",
-        llegada: "el mismo día en la mayoría de los casos",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Lo Barnechea",
@@ -192,7 +194,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Macul combina barrios residenciales consolidados con muchos adultos mayores que viven solos o con su familia: llevamos la rehabilitación completa a su living.",
         referencias: "cerca de Vicuña Mackenna, Quilín y Departamental",
-        llegada: "el mismo día o al día siguiente",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Santiago Centro",
@@ -213,7 +215,7 @@ export const comunas: Comuna[] = [
         contexto:
             "En Santiago Centro la mayoría vive en departamentos y depende del metro: subimos a tu piso con todo el equipamiento y en horarios que calzan con el trabajo.",
         referencias: "cerca de la Alameda, el Parque Forestal y los barrios Lastarria, Brasil y Yungay",
-        llegada: "el mismo día en la mayoría de los casos",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
 ]
 

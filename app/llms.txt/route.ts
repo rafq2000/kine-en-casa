@@ -2,6 +2,7 @@ import { comunas } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 import { blogPosts } from "@/lib/blog-data"
 import { serviciosContenido } from "@/lib/servicios-contenido"
+import { BOLETA_TEXTO, HORARIO_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 
 // llms.txt generado desde los mismos datos que el sitio, para que nunca quede desfasado
 // (antes era un archivo estático en public/ que prometía servicios sin página y cifras
@@ -56,14 +57,14 @@ export function GET() {
 - Email: contacto@kineum.cl
 - Empresa: Kineum SpA, RUT 76.892.102-K
 - Dirección comercial: Av. Apoquindo 4501, Las Condes (la atención se realiza en el domicilio del paciente)
-- Horario: lunes a domingo
+- Horario: ${HORARIO_TEXTO}
 
 ## Cómo funciona
 1. El paciente escribe por WhatsApp o llama y cuenta el caso.
-2. Se coordina una evaluación inicial gratuita en su domicilio.
+2. Se coordina una evaluación inicial gratuita en su domicilio, ${PRIMERA_VISITA_TEXTO}.
 3. Si corresponde kinesiología, se propone un plan con número de sesiones y valor antes de contratar.
 4. Cada sesión dura alrededor de 60 minutos y el kinesiólogo lleva el equipamiento (camilla, TENS, ultrasonido, bandas, oxímetro según el caso).
-5. Se emite boleta el mismo día para el reembolso.
+5. Se emite ${BOLETA_TEXTO}, para el reembolso.
 
 ## Planes (2026)
 - Essential: $160.000 al mes, 4 sesiones ($40.000 por sesión).

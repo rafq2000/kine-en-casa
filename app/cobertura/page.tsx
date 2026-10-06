@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { comunas, type ZonaComuna } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
+import { PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 
 const TEL = "+56999679593"
 const TEL_DISPLAY = "+56 9 9967 9593"
@@ -118,8 +119,7 @@ export default function Page() {
                             coordina la primera visita.
                         </p>
                         <p className="text-base text-slate-600 leading-relaxed mb-8 max-w-3xl">
-                            La primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día,
-                            muchas veces el mismo día. Si tu comuna no está en la lista, escríbenos igual: preferimos
+                            La primera visita se coordina {PRIMERA_VISITA_TEXTO}. Si tu comuna no está en la lista, escríbenos igual: preferimos
                             decirte de frente si podemos llegar antes de que pierdas tiempo.
                         </p>
                         <a

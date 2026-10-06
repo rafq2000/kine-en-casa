@@ -22,6 +22,7 @@ import {
 } from "lucide-react"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
+import { BOLETA_TEXTO, HORARIO_TEXTO } from "@/lib/negocio"
 
 export const metadata: Metadata = {
   title: "Valor Kinesiólogo a Domicilio: Planes desde $35.000 | KINEUM",
@@ -761,7 +762,7 @@ export default function PreciosPage() {
             </span>
             <span className="flex items-center gap-2">
               <Clock className="h-4 w-4 text-amber-400" />
-              Lun-Dom 8:00 a 20:00
+              {HORARIO_TEXTO}
             </span>
           </div>
         </div>

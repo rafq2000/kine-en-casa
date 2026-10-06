@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { BOLETA_TEXTO, HORARIO_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -49,7 +50,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?",
-        acceptedAnswer: { "@type": "Answer", text: "Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos boleta el mismo día para que la reembolses en tu Isapre según la cobertura de tu plan." }
+        acceptedAnswer: { "@type": "Answer", text: `Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos ${BOLETA_TEXTO} para que la reembolses en tu Isapre según la cobertura de tu plan.` }
       },
       {
         "@type": "Question",
@@ -74,7 +75,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Cuándo pueden llegar a mi casa?",
-        acceptedAnswer: { "@type": "Answer", text: "En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. Te confirmamos el horario antes de que decidas." }
+        acceptedAnswer: { "@type": "Answer", text: `En nuestras comunas de cobertura la primera visita se coordina ${PRIMERA_VISITA_TEXTO}. Te confirmamos el horario antes de que decidas.` }
       },
       {
         "@type": "Question",
@@ -282,7 +283,7 @@ export default function HomePage() {
             <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
               Kinesiólogos titulados que llegan a tu casa con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
               <br />
-              Primera visita habitualmente dentro de 24 horas.
+              Primera visita {PRIMERA_VISITA_TEXTO}.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
@@ -473,7 +474,7 @@ export default function HomePage() {
               <div className="bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-blue-900/20">
                 <Shield className="h-8 w-8 text-blue-400" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Boleta el mismo día</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Boleta después de cada sesión</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
                 Boleta de honorarios electrónica después de cada atención, lista para pedir el
                 reembolso en tu Isapre o en tu seguro complementario según tu plan.
@@ -728,9 +729,7 @@ export default function HomePage() {
               <Clock className="h-10 w-10 mx-auto mb-4 text-amber-400" />
               <h3 className="font-bold text-xl mb-3">Horarios Flexibles</h3>
               <p className="text-slate-300 leading-relaxed">
-                Lunes a Domingo
-                <br />
-                <span className="font-semibold">8:00 - 20:00 hrs</span>
+                <span className="font-semibold">{HORARIO_TEXTO}</span>
                 <br />
                 Urgencias vitales: SAMU 131
               </p>
@@ -948,7 +947,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?</h3>
-              <p className="text-slate-600">Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos boleta el mismo día para que la reembolses en tu Isapre según la cobertura de tu plan. Puedes ver el detalle en <a href="/precios" className="text-amber-700 font-medium hover:underline">precios y planes</a>.</p>
+              <p className="text-slate-600">Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos {BOLETA_TEXTO} para que la reembolses en tu Isapre según la cobertura de tu plan. Puedes ver el detalle en <a href="/precios" className="text-amber-700 font-medium hover:underline">precios y planes</a>.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
@@ -968,7 +967,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuándo pueden llegar a mi casa?</h3>
-              <p className="text-slate-600">En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas y, según la agenda del día, muchas veces el mismo día. Te confirmamos el horario antes de que decidas.</p>
+              <p className="text-slate-600">En nuestras comunas de cobertura la primera visita se coordina {PRIMERA_VISITA_TEXTO}. Te confirmamos el horario antes de que decidas.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuánto dura una sesión de kinesiología a domicilio?</h3>

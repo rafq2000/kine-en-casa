@@ -16,6 +16,7 @@ import { SiteFooter } from "@/components/site-footer"
 import { especialidades } from "@/lib/especialidades-data"
 import { comunas, comunasVecinas, getComuna } from "@/lib/comunas-data"
 import { comunasLocal } from "@/lib/comunas-local"
+import { BOLETA_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 
@@ -51,7 +52,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const local = comunasLocal[data.slug]
     const vecinas = comunasVecinas(data.slug, 8, false)
     const url = `https://kineum.cl/kinesiologo-a-domicilio-${data.slug}`
-    const llegada = comuna?.llegada ?? "dentro de 24 horas"
+    const llegada = comuna?.llegada ?? PRIMERA_VISITA_TEXTO
     const waMensaje = `Hola, necesito un kinesiólogo a domicilio en ${data.nombre}`
     const waLink = wa(waMensaje)
     const s = data.sectores
@@ -72,7 +73,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
         {
             q: "¿Puedo reembolsar las sesiones en mi Isapre?",
-            a: "Sí. Emitimos boleta de honorarios electrónica el mismo día, que puedes presentar a reembolso en tu Isapre y en tu seguro complementario según la cobertura de tu plan. Para reembolsar necesitas una orden médica con el diagnóstico y la indicación de kinesiología.",
+            a: `Sí. Emitimos ${BOLETA_TEXTO}. Puedes presentarla a reembolso en tu Isapre y en tu seguro complementario según la cobertura de tu plan. Para reembolsar necesitas una orden médica con el diagnóstico y la indicación de kinesiología.`,
         },
         ...(local?.especialidades ?? [])
             .map((e) => e.faqsLocales[0])
@@ -335,7 +336,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                         </h2>
                         <p className="text-lg text-slate-300 mb-10 max-w-3xl">
                             Los mismos valores en toda nuestra cobertura, sin recargo por traslado. La evaluación inicial
-                            es gratuita y la boleta se emite el mismo día.
+                            es gratuita y emitimos {BOLETA_TEXTO}.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                             <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800">

@@ -30,7 +30,7 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 | Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro |
 | Categoría principal | Kinesiólogo |
 | Categorías secundarias | Kinesioterapista · Servicio de asistencia sanitaria domiciliaria |
-| Horario | Lunes a viernes 08:00–20:00 · Sábado 09:00–18:00 · Domingo 10:00–16:00 (igual al del sitio hasta que T21 lo confirme) |
+| Horario | Lunes a viernes 08:00–20:00 · Sábado 09:00–18:00 · Domingo 10:00–16:00 (igual al del sitio y a `lib/negocio.ts`; valor seguro mientras Ricardo no responda T04b) |
 
 - **El nombre va solo como "KINEUM".** Agregarle "Kinesiología a Domicilio" o comunas al
   nombre es relleno de palabras clave y es causal de suspensión de la ficha. Las palabras
