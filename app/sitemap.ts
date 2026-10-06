@@ -31,6 +31,9 @@ const MODIFICADO: Record<string, string> = {
     local: '2026-09-29',
 }
 
+// Fecha más reciente de contenido del sitio (la usa /llms.txt).
+export const ULTIMA_MODIFICACION = Object.values(MODIFICADO).sort().at(-1)!
+
 // Prioridad segun cercania a la conversion, no todo al mismo nivel:
 // la home y los hubs de servicio valen mas que un post informativo.
 function prioridad(ruta: string): number {
