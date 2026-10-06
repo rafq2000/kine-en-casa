@@ -1098,18 +1098,20 @@ export const blogPosts = [
   },
   {
     slug: "reembolso-isapre-kinesiologia",
-    seoTitle: "Reembolso de Kinesiología en tu Isapre: Guía | KINEUM",
-    seoDescription: "Cómo pedir el reembolso de kinesiología en Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida y Esencial: documentos, orden médica y plazos.",
+    seoTitle: "Reembolso de Kinesiología en tu Isapre: Paso a Paso 2026",
+    seoDescription: "Boleta de honorarios y orden médica: documentos, plazos y cómo pedirlo en Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida y Esencial.",
     title: "Reembolso de kinesiología en tu Isapre: cómo pedirlo, isapre por isapre",
     subtitle: "Qué documentos necesitas, dónde se sube la boleta de honorarios y cómo saber cuánto cubre tu plan, sin cifras inventadas.",
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
+    updatedISO: "2026-10-05",
     readTime: "8 min lectura",
     category: "Precios y Reembolsos",
     image: "/images/blog-isapre-kinesiologia.jpg",
     icon: Building2,
     content: `<p class="lead">Si tienes Isapre, puedes pedir el reembolso de tus sesiones de kinesiología con la boleta de honorarios electrónica que te entrega el kinesiólogo. Cuánto te devuelven depende de tu plan, no de un porcentaje fijo. Aquí te explicamos cómo es el trámite en cada isapre, qué documentos te piden y por qué conviene tener la orden médica antes de empezar.</p>
+<p><strong>Ir a tu isapre:</strong> <a href="#colmena">Colmena</a> · <a href="#cruz-blanca">Cruz Blanca</a> · <a href="#banmedica">Banmédica</a> · <a href="#consalud">Consalud</a> · <a href="#vida-tres">Vida Tres</a> · <a href="#nueva-masvida">Nueva Masvida</a> · <a href="#esencial">Esencial</a> · <a href="#seguro-complementario">Seguro complementario</a></p>
 
 <h2>Cómo funciona el reembolso de kinesiología en la Isapre</h2>
 <p>La kinesiología a domicilio particular funciona así: pagas la sesión o el plan, recibes una boleta de honorarios electrónica y tú mismo pides el reembolso en tu isapre. En KINEUM no tenemos convenio con ninguna isapre ni hacemos el trámite por ti: te entregamos la boleta y tú la presentas.</p>
@@ -1121,8 +1123,22 @@ export const blogPosts = [
 <li><strong>4. Pago:</strong> la isapre calcula el monto según tu plan y lo deposita en tu cuenta bancaria registrada. Si no tienes cuenta inscrita, algunas pagan con vale vista.</li>
 </ul>
 <p>Los detalles cambian de una isapre a otra. Los revisamos en sus sitios oficiales en septiembre de 2026 y pueden cambiar, así que confirma siempre en tu sucursal virtual antes de enviar.</p>
+<h3>Resumen por isapre</h3>
+<div style="overflow-x:auto"><table>
+<thead><tr><th>Isapre</th><th>Dónde se pide</th><th>¿Orden médica para kinesiología?</th><th>Plazo informado</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.colmena.cl/como-solicitar-un-reembolso-de-forma-online/">Colmena</a></td><td>Sucursal Virtual o App Colmena</td><td>La pide junto con la Solicitud de Tratamiento Ambulatorio en tratamientos de varias sesiones</td><td>Hasta 20 días hábiles en procedimientos, más 2 días hábiles para el depósito</td></tr>
+<tr><td><a href="https://www.cruzblanca.cl/informacion-de-interes/como-reembolsar-tus-gastos-medicos-desde-la-sucursal-virtual-cruz-blanca">Cruz Blanca</a></td><td>Mi CruzBlanca o WhatsApp</td><td>Obligatoria</td><td>3 a 5 días hábiles en casos simples</td></tr>
+<tr><td>Banmédica</td><td>Reembolso Web, en la Sucursal Virtual</td><td>No pudimos confirmarlo</td><td>No pudimos confirmarlo</td></tr>
+<tr><td><a href="https://www.consalud.cl/recurso/210316-landbenef-reembolso.pdf">Consalud</a></td><td>Sucursal Digital</td><td>Confírmalo en tu plan</td><td>No pudimos confirmarlo</td></tr>
+<tr><td>Vida Tres</td><td>Sucursal Virtual o App</td><td>No encontrado</td><td>No encontrado</td></tr>
+<tr><td><a href="https://www.nuevamasvida.cl/preguntas-frecuentes/bonos-reembolsos/">Nueva Masvida</a></td><td>Sucursal Virtual, App, sucursales o WhatsApp</td><td>Obligatoria, con diagnóstico y esquema de tratamiento</td><td>30 días hábiles para resolver</td></tr>
+<tr><td><a href="https://www.somosesencial.cl/ayuda/preguntas-frecuentes/reembolso">Esencial</a></td><td>Sucursal Virtual</td><td>Su página de reembolsos no nombra la kinesiología</td><td>7 días hábiles en prestaciones ambulatorias</td></tr>
+</tbody>
+</table></div>
+<p>Las filas con enlace se revisaron en el sitio oficial de cada isapre el 5 de octubre de 2026. Los sitios de Banmédica y Vida Tres no se pudieron abrir ese día, así que sus filas repiten lo que leímos en septiembre. La tabla no dice cuánto te devuelven: eso depende de tu plan.</p>
 
-<h2>Reembolso de kinesiología en Colmena</h2>
+<h2 id="colmena">Reembolso de kinesiología en Colmena</h2>
 <p>En Colmena el reembolso se pide en la Sucursal Virtual, en la App Colmena o en una sucursal. Online se entra a <strong>Reembolso &gt; Solicitar reembolso</strong>, se inscribe la cuenta bancaria, se elige la prestación y se adjuntan los documentos en JPG, PDF o PNG (desde la app puedes sacar la foto). También puedes usar tus excedentes para la parte que no te cubra el plan. Si te atiendes con kine a domicilio y tienes Colmena, el trámite es el mismo: subes la boleta de honorarios y la orden médica.</p>
 <ul>
 <li><strong>Documentos:</strong> para tratamientos de varias sesiones, Colmena pide la Solicitud de Tratamiento Ambulatorio, la boleta, el detalle de las prestaciones y la orden médica, con RUT y firma o timbre del médico tratante.</li>
@@ -1132,7 +1148,7 @@ export const blogPosts = [
 </ul>
 <p>Fuentes: <a href="https://www.colmena.cl/como-solicitar-un-reembolso-de-forma-online/">cómo solicitar un reembolso online</a> y <a href="https://www.colmena.cl/documentos-para-realizar-tu-reembolso/">documentos para el reembolso</a> (Colmena).</p>
 
-<h2>Reembolso de kinesiología en Cruz Blanca</h2>
+<h2 id="cruz-blanca">Reembolso de kinesiología en Cruz Blanca</h2>
 <p>Si tienes Isapre Cruz Blanca, el reembolso se pide en <strong>Mi CruzBlanca</strong> (Reembolso Web, con tu RUT y clave) o por WhatsApp. Debes adjuntar un comprobante de pago que se lea bien, con monto, fecha y prestador. Cruz Blanca indica que la <strong>orden médica es obligatoria para kinesioterapia</strong>.</p>
 <ul>
 <li><strong>Plazos:</strong> los casos simples se responden en 3 a 5 días hábiles; los complejos tardan más.</li>
@@ -1141,30 +1157,30 @@ export const blogPosts = [
 </ul>
 <p>Fuente: <a href="https://www.cruzblanca.cl/informacion-de-interes/como-reembolsar-tus-gastos-medicos-desde-la-sucursal-virtual-cruz-blanca">guía de reembolso de Cruz Blanca</a>.</p>
 
-<h2>Reembolso de kinesiología en Banmédica</h2>
+<h2 id="banmedica">Reembolso de kinesiología en Banmédica</h2>
 <p>En Banmédica se usa el Reembolso Web del menú <strong>Bonos</strong> de la Sucursal Virtual: subes la boleta o la orden médica en JPG o PDF y eliges la forma de pago. Si no tienes una cuenta bancaria inscrita como prioritaria, te pagan con vale vista. Para reembolsar online, la boleta de honorarios debe ser electrónica, estar a nombre del beneficiario y traer el detalle de las prestaciones. Si le falta algo, se adjunta un documento del mismo profesional con esos datos.</p>
 <p>No pudimos leer directamente el sitio de Banmédica, así que no tenemos confirmados sus plazos ni si pide orden médica para kinesiología en todos los planes. Revísalo en tu Sucursal Virtual. Referencias: <a href="https://www.banmedica.cl/reembolso-web/">Reembolso Web</a> y <a href="https://www.banmedica.cl/guia-de-boletas/">guía de boletas</a> de Banmédica.</p>
 
-<h2>Reembolso de kinesiología en Consalud</h2>
+<h2 id="consalud">Reembolso de kinesiología en Consalud</h2>
 <p>En Consalud el reembolso se pide en la Sucursal Digital (clientes.consalud.cl) o en la App Consalud, en la sección <strong>REEMBOLSOS</strong>. Llenas el formulario, adjuntas los documentos, indicas si es una boleta o varias y eliges destinatario y forma de pago. Al terminar te dan un número de solicitud: guárdalo para hacer seguimiento.</p>
-<p>Consalud informa que el depósito llega en 4 días hábiles después de completar la solicitud. Sobre la orden médica, su material oficial solo dice que se adjuntan las boletas y/o la orden, así que confirma en tu plan qué te piden para kinesiología. Fuente: <a href="https://www.consalud.cl/recurso/210316-landbenef-reembolso.pdf">instructivo de reembolso de Consalud</a>.</p>
+<p>En septiembre de 2026 Consalud informaba que el depósito llegaba en 4 días hábiles después de completar la solicitud; al revisarlo de nuevo en octubre no pudimos confirmarlo en su sitio, así que verifícalo en tu Sucursal Digital. Sobre la orden médica, su material oficial solo dice que se adjuntan las boletas y/o la orden, así que confirma en tu plan qué te piden para kinesiología. Fuente: <a href="https://www.consalud.cl/recurso/210316-landbenef-reembolso.pdf">instructivo de reembolso de Consalud</a>.</p>
 
-<h2>Reembolso de kinesiología en Vida Tres</h2>
+<h2 id="vida-tres">Reembolso de kinesiología en Vida Tres</h2>
 <p>En Vida Tres el trámite se hace en la Sucursal Virtual o en la App, en <strong>Reembolsos &gt; Solicitar Reembolso</strong>. Eliges beneficiario y prestación, subes la imagen del comprobante e indicas la cuenta de destino. El monto se calcula aplicando la cobertura de tu plan al valor que pagaste.</p>
 <p>No encontramos en fuentes oficiales de Vida Tres los plazos de pago ni si pide orden médica para kinesiología. Revísalo en tu Sucursal Virtual antes de empezar. Referencia: <a href="https://orientacion.vidatres.cl/planes-de-salud/bonos-y-reembolsos/">bonos y reembolsos de Vida Tres</a>.</p>
 
-<h2>Reembolso de kinesiología en Nueva Masvida</h2>
+<h2 id="nueva-masvida">Reembolso de kinesiología en Nueva Masvida</h2>
 <p>En Nueva Masvida puedes pedirlo por Sucursal Virtual, App, sucursales, WhatsApp o su asistente virtual Camila. La <strong>orden médica es obligatoria para kinesiología</strong> y, según su material de requisitos, debe indicar el diagnóstico y la cantidad de sesiones.</p>
 <ul>
 <li><strong>Boleta:</strong> nombre y RUT del prestador, firma, timbre, datos del paciente y detalle de las prestaciones. Si una boleta cobra varias sesiones, indica la fecha de cada una.</li>
 <li><strong>Archivos:</strong> JPG o PDF de hasta 2 MB.</li>
 <li><strong>Plazos:</strong> el documento sirve durante 5 años desde que se emite y la resolución toma 30 días hábiles. Te pagan por transferencia o vale vista.</li>
 </ul>
-<p>Fuente: <a href="https://www.nuevamasvida.cl/centro-de-ayuda/bonos-reembolsos/">centro de ayuda de Nueva Masvida</a>.</p>
+<p>Fuente: <a href="https://www.nuevamasvida.cl/preguntas-frecuentes/bonos-reembolsos/">centro de ayuda de Nueva Masvida</a>.</p>
 
-<h2>Reembolso de kinesiología en Esencial</h2>
+<h2 id="esencial">Reembolso de kinesiología en Esencial</h2>
 <p>En Esencial el reembolso se pide en la Sucursal Virtual (sucursalvirtual.somosesencial.cl) o en persona. Para exámenes y procedimientos piden la boleta, factura o voucher, la orden médica con los datos del prestador, del paciente y del procedimiento, y el detalle de las prestaciones. Hay 5 años desde que se emite la boleta para pedirlo, y el pago estimado es de 7 días hábiles en prestaciones ambulatorias.</p>
-<p>Su página no nombra la kinesiología de forma explícita, así que confirma en la Sucursal Virtual qué documentos te piden. Fuente: <a href="https://www.somosesencial.cl/preguntas-frecuentes/reembolso">preguntas frecuentes de Esencial</a>.</p>
+<p>Su página no nombra la kinesiología de forma explícita, así que confirma en la Sucursal Virtual qué documentos te piden. Fuente: <a href="https://www.somosesencial.cl/ayuda/preguntas-frecuentes/reembolso">preguntas frecuentes de Esencial</a>.</p>
 
 <h2>Cuánto cubre tu isapre en kinesiología y qué documentos pedir</h2>
 
@@ -1181,9 +1197,6 @@ export const blogPosts = [
 <p>La Superintendencia de Salud, en su <a href="https://www.superdesalud.gob.cl/app/uploads/2021/09/articles-20346_recurso_1.pdf">Circular IF/N° 393 de 2021</a>, indica que para la cobertura de kinesiología basta con presentar la orden médica de derivación. Esta debe identificar al paciente e indicar el diagnóstico y el tratamiento. La misma circular contempla la atención kinesiológica integral a domicilio. Además del reembolso, el reglamento vigente sobre la profesión (Decreto 1.082) indica que el kinesiólogo aplica sus tratamientos por indicación y orden médica escrita.</p>
 <p>En la práctica, pide que tu orden incluya: nombre y RUT del paciente, diagnóstico, indicación de kinesiología, número de sesiones y nombre, RUT y firma o timbre del médico. Revisa con tu isapre cuánto tiempo aceptan la orden (en Colmena, por ejemplo, vale 60 días). Si todavía no la tienes, lee nuestra guía sobre <a href="/blog/kinesiologo-sin-orden-medica">si necesitas orden médica para ir al kinesiólogo</a>. La evaluación inicial gratuita de KINEUM no reemplaza la orden ni la evaluación de tu médico. La kinesiología complementa y no reemplaza al médico: si aparecen síntomas nuevos o intensos, consúltalo, y ante una emergencia llama al SAMU (131).</p>
 
-<h3>Seguro complementario</h3>
-<p>Si tienes seguro complementario, revisa tu póliza: en el formulario de reembolso de MetLife Chile que revisamos, los gastos se reembolsan primero en la isapre y, para kinesiología, se pide la orden médica con el tipo de tratamiento y el número de sesiones. Cada póliza tiene sus propias condiciones.</p>
-
 <h3>Ejemplo numérico (solo ilustrativo)</h3>
 <p>Este ejemplo usa un monto de reembolso <strong>inventado para el cálculo</strong>. No es la cobertura de ninguna isapre ni de ningún plan real:</p>
 <ul>
@@ -1192,6 +1205,23 @@ export const blogPosts = [
 <li>Tu costo después del reembolso sería $200.000. Si tienes seguro complementario, revisa en tu póliza si puedes presentar esa diferencia.</li>
 </ul>
 <p>Para hacer tu propio cálculo, reemplaza los $15.000 por lo que diga tu plan. Si quieres comparar valores, revisa <a href="/blog/cuanto-cobra-kinesiologo-particular">cuánto cobra un kinesiólogo particular</a>.</p>
+
+<h2 id="seguro-complementario">Reembolso de kinesiología en el seguro complementario: qué documentos piden</h2>
+<p>Con seguro complementario, individual o de tu empresa, el orden es siempre el mismo: primero la isapre y después el seguro. Al seguro le presentas:</p>
+<ul>
+<li>la liquidación o el comprobante de reembolso de tu isapre (o el bono, si te atendiste con uno);</li>
+<li>la boleta de honorarios de cada sesión;</li>
+<li>la orden médica, idealmente con el diagnóstico, el tipo de tratamiento y el número de sesiones.</li>
+</ul>
+<p>Lo que dicen sus documentos oficiales, revisados el 5 de octubre de 2026:</p>
+<ul>
+<li><strong>MetLife:</strong> los gastos se reembolsan primero en la isapre y, para kinesiología, pide la orden médica con el tipo de tratamiento y el número de sesiones. Se pide en la App MetLife o el Portal de Clientes, hasta 60 días después del reembolso de tu isapre. Fuentes: <a href="https://w3.metlife.cl/content/dam/metlifecom/cl/pdfs/formularios/reembolsos/Formulario_Reembolso_GastosMedicos.pdf">formulario</a> y <a href="https://w3.metlife.cl/servicios-en-linea/reembolsos/">reembolsos</a>.</li>
+<li><strong>BICE Vida:</strong> para exámenes y procedimientos pide el bono o la bonificación de reembolso de la isapre, la boleta o factura y la orden médica; no nombra la kinesiología por separado. Se pide por WhatsApp o en la App BICE VIDA. Fuente: <a href="https://www.bicevida.cl/centro-de-ayuda/solicitar-reembolso">reembolsos BICE Vida</a>.</li>
+<li><strong>Chilena Consolidada (Zurich):</strong> su formulario de reembolso médico incluye una declaración que el médico completa con el diagnóstico y el tratamiento indicado, y da 60 días desde la fecha de la atención para cobrar el reembolso. No nombra la kinesiología. Fuente: <a href="https://edge.sitecorecloud.io/zurichinsurf8c0-zwpshared-prod-d824/media/project/zurich-headless/chile/docs/formularios/reembolsomedico_11-2022.pdf">formulario de Zurich</a>.</li>
+<li><strong>Consorcio:</strong> en su seguro colectivo, el reembolso se pide primero en la isapre (si no lo cubre, se pide un timbre de "no reembolsable"); para especialidades como la kinesiología se presenta la orden médica de derivación, junto con el formulario firmado por el médico. Se ingresa en la App Consorcio o se entrega en Recursos Humanos de tu empresa. Fuente: <a href="https://www.consorcio.cl/documents/14482110/14482554/Kit+de+bienvenida+Seguro+Colectivo/44bb849c-c499-13e7-890f-c00f2ed6849a">kit del seguro colectivo</a>.</li>
+<li><strong>Seguros colectivos de tu empresa:</strong> cada póliza define documentos y plazos, y a veces el trámite pasa por Recursos Humanos o Bienestar. Pide el instructivo antes de empezar.</li>
+</ul>
+<p>Cuánto te devuelven depende de tu póliza. KINEUM no tiene convenio con aseguradoras: te entregamos la boleta y tú haces el trámite.</p>
 
 <h2>Preguntas frecuentes sobre el reembolso de kinesiología</h2>
 <h3>¿Puedo reembolsar kinesiología a domicilio en la isapre?</h3>
@@ -1202,8 +1232,16 @@ export const blogPosts = [
 <p>No. Te entregamos la boleta de honorarios electrónica y tú pides el reembolso en tu isapre y en tu seguro. No tenemos convenio con isapres, clínicas ni aseguradoras.</p>
 <h3>Tengo Isapre Cruz Blanca, ¿qué necesito?</h3>
 <p>La boleta con monto, fecha y prestador, y la orden médica, que Cruz Blanca pide como obligatoria para kinesioterapia. Lo subes en Mi CruzBlanca o lo envías por WhatsApp.</p>
+<h3>Tengo Colmena, ¿qué necesito?</h3>
+<p>Para tratamientos de varias sesiones, Colmena pide la Solicitud de Tratamiento Ambulatorio, la boleta, el detalle de las prestaciones y la orden médica, con RUT y firma o timbre del médico tratante. Lo pides en la Sucursal Virtual, en la App Colmena o en una sucursal.</p>
+<h3>Tengo Nueva Masvida, ¿qué necesito?</h3>
+<p>La orden médica, que Nueva Masvida pide como obligatoria para kinesiología, con el diagnóstico y la cantidad de sesiones, y la boleta con los datos del prestador, del paciente y el detalle de las prestaciones. Lo pides por Sucursal Virtual, App, sucursales o WhatsApp.</p>
+<h3>Tengo Consalud, ¿qué necesito?</h3>
+<p>Ingresas el reembolso en la Sucursal Digital (clientes.consalud.cl) o en la App Consalud, en la sección REEMBOLSOS, y adjuntas la boleta. Su material oficial no detalla qué pide para kinesiología, así que confirma en tu plan si necesitas la orden médica.</p>
 <h3>¿Hay que pedir el reembolso sesión por sesión?</h3>
 <p>No necesariamente. Puedes presentar una boleta que incluya varias sesiones, pero algunas isapres, como Nueva Masvida, piden que se indique la fecha de cada atención. Consalud te pregunta si subes una boleta o varias.</p>
+<h3>¿Qué documentos piden los seguros complementarios para reembolsar kinesiología?</h3>
+<p>Primero se pide el reembolso en la isapre. Después, al seguro se presentan la liquidación o el comprobante de la isapre, la boleta de honorarios y la orden médica. MetLife pide que la orden indique el tipo de tratamiento y el número de sesiones, y Consorcio pide la orden médica de derivación. Revisa siempre tu póliza.</p>
 
 <p>Si ya tienes tu orden médica y quieres empezar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20tengo%20Isapre%20y%20quiero%20agendar%20kinesiolog%C3%ADa%20a%20domicilio">escríbenos por WhatsApp al +56 9 9967 9593</a>. Coordinamos tu evaluación inicial gratuita, de lunes a domingo, y te entregamos la boleta de honorarios para que pidas tu reembolso.</p>`
   },
