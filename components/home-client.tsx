@@ -178,7 +178,7 @@ export default function HomePage() {
     },
     {
       name: "Plan Premium",
-      description: "El protocolo acelerado para eliminar el dolor.",
+      description: "10 sesiones al mes a $35.000 cada una, para tratamientos más largos.",
       icon: Star,
       features: [
         "10 sesiones de kinesiología de 60 minutos",
