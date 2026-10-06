@@ -184,13 +184,13 @@ export default function HomePage() {
     },
     {
       name: "Plan Elite",
-      description: "La experiencia definitiva sin límites.",
+      description: "Plan a medida, con precio a consultar.",
       icon: Crown,
       features: [
-        "Sesiones ILIMITADAS (Todo el mes)",
-        "Kinesiólogo dedicado asignado",
-        "Prioridad absoluta en agenda",
-        "Red de especialistas preferente",
+        "Plan a medida para tratamientos intensivos o prolongados",
+        "Sesiones de kinesiología de 60 minutos",
+        "Evaluación inicial gratuita",
+        "Boleta reembolsable en Isapre y seguros",
       ],
       popular: false,
       gradient: "from-slate-700 to-slate-900",
@@ -216,7 +216,7 @@ export default function HomePage() {
               </div>
               <div>
                 <span className="block text-3xl font-bold font-serif text-white tracking-widest">KINEUM</span>
-                <p className="text-xs text-slate-300 uppercase tracking-widest">Clinical Home Care</p>
+                <p className="text-xs text-slate-300 uppercase tracking-widest">Kinesiología a domicilio</p>
               </div>
             </div>
             <nav className="hidden md:flex space-x-8">
@@ -606,7 +606,7 @@ export default function HomePage() {
                   <div>
                     <h3 className="font-bold text-slate-900 text-lg mb-2">Profesionales Certificados</h3>
                     <p className="text-slate-600">
-                      Kinesiólogos titulados con más de 5 años de experiencia en atención domiciliaria especializada
+                      Kinesiólogos titulados
                     </p>
                   </div>
                 </div>
@@ -708,14 +708,14 @@ export default function HomePage() {
                 <br />
                 <span className="font-semibold">8:00 - 20:00 hrs</span>
                 <br />
-                Emergencias 24/7
+                Urgencias vitales: SAMU 131
               </p>
             </div>
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-slate-800/70 transition-all duration-300 border border-slate-700">
               <MessageCircle className="h-10 w-10 mx-auto mb-4 text-amber-400" />
               <h3 className="font-bold text-xl mb-3">Respuesta Rápida</h3>
               <p className="text-slate-300 leading-relaxed">
-                Respuesta inmediata por WhatsApp
+                Te respondemos por WhatsApp
                 <br />
                 <span className="font-semibold">Agenda flexible</span>
                 <br />

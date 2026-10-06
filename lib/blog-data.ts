@@ -309,7 +309,7 @@ export const blogPosts = [
 <tr><th>Plan</th><th>Valor por sesión</th><th>Detalle</th></tr>
 <tr><td>Essential</td><td>$40.000</td><td>$160.000 al mes, 4 sesiones</td></tr>
 <tr><td>Premium</td><td>$35.000</td><td>$350.000 al mes, 10 sesiones</td></tr>
-<tr><td>Elite</td><td>A consultar</td><td>Sesiones ilimitadas con kinesiólogo dedicado</td></tr>
+<tr><td>Elite</td><td>A consultar</td><td>Plan a medida para tratamientos intensivos o prolongados</td></tr>
 </table>
 
 <h2>Qué esperar de una sesión en tu casa</h2>
@@ -1020,7 +1020,7 @@ export const blogPosts = [
 <h3>¿El ejercicio realmente ayuda a prevenir caídas?</h3>
 <p>El consenso profesional es que los programas de fuerza y equilibrio, bien dosificados y sostenidos en el tiempo, suelen reducir el riesgo de caídas en personas mayores. Los resultados varían según la persona.</p>
 
-<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a domingo en 11 comunas de Santiago y la evaluación inicial es gratuita. <a href="https://wa.me/56999679593?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
+<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro, y la evaluación inicial es gratuita. <a href="https://wa.me/56999679593?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
   },
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
@@ -1051,7 +1051,7 @@ export const blogPosts = [
       <ul>
         <li><strong>Plan Essential — $160.000</strong> (4 sesiones, $40.000 por sesión): ideal para lesiones leves y mantenimiento.</li>
         <li><strong>Plan Premium — $350.000</strong> (10 sesiones, $35.000 por sesión): el protocolo completo para rehabilitación post-operatoria, lesiones traumatológicas y neurológicas. Incluye evaluación inicial gratuita, reportes de progreso y prioridad de agenda.</li>
-        <li><strong>Plan Elite — a consultar:</strong> sesiones ilimitadas con kinesiólogo dedicado.</li>
+        <li><strong>Plan Elite — a consultar:</strong> plan a medida para tratamientos intensivos o prolongados.</li>
       </ul>
       <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong>. Puedes ver el detalle completo en nuestra <a href="/precios">página de precios</a>.</p>
 
@@ -1237,7 +1237,7 @@ export const blogPosts = [
 
       <h2>¿Por qué a domicilio funciona tan bien en niños?</h2>
       <ul>
-        <li><strong>Cero exposición cruzada:</strong> un niño con bronquiolitis en sala de espera puede contagiar y contagiarse. En casa, riesgo cero.</li>
+        <li><strong>Cero exposición cruzada:</strong> un niño con bronquiolitis en sala de espera puede contagiar y contagiarse. En casa hay menos exposición a otros virus.</li>
         <li><strong>El niño coopera más:</strong> en su ambiente, con sus juguetes y sus padres cerca, la sesión es menos estresante y más efectiva.</li>
         <li><strong>Educación real a los padres:</strong> el kinesiólogo enseña aseo nasal, posiciones para dormir y técnicas de apoyo con lo que tienes en tu casa.</li>
         <li><strong>Horarios flexibles:</strong> atendemos de lunes a domingo, porque los mocos no respetan el calendario.</li>
@@ -2714,7 +2714,7 @@ export const blogPosts = [
       <h2>Qué logra un programa bien llevado</h2>
       <p>En 8 a 12 semanas: reducción medible del dolor, más energía diaria, mejor sueño y —quizás lo más valioso— la confianza de volver a planificar la vida sin miedo al brote. El acompañamiento cercano evita las recaídas por sobredosis de entusiasmo.</p>
 
-      <p>Tratamos fibromialgia a domicilio con programas individualizados y seguimiento entre sesiones vía nuestro asistente. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20fibromialgia">Escríbenos por WhatsApp</a> y conversemos tu caso.</p>
+      <p>Tratamos fibromialgia a domicilio con programas individualizados y te dejamos una pauta de ejercicios para los días entre sesiones. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20fibromialgia">Escríbenos por WhatsApp</a> y conversemos tu caso.</p>
     `
   }
 ];

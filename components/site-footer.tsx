@@ -15,12 +15,12 @@ export function SiteFooter() {
                             <Link href="/">
                                 <div>
                                     <h3 className="text-xl font-bold text-white font-serif tracking-widest">KINEUM</h3>
-                                    <p className="text-xs text-slate-500 uppercase">Clinical Home Care</p>
+                                    <p className="text-xs text-slate-500 uppercase">Kinesiología a domicilio</p>
                                 </div>
                             </Link>
                         </div>
                         <p className="text-slate-500 text-sm leading-relaxed mb-6">
-                            Redefiniendo el estándar de la rehabilitación domiciliaria en Santiago Oriente mediante la integración de expertos clínicos y tecnología.
+                            Kinesiología a domicilio particular en 9 comunas del sector oriente y centro de Santiago, de lunes a domingo. Evaluación inicial gratuita.
                         </p>
                         <div className="flex space-x-3">
                             <div className="bg-slate-900 p-2 rounded-lg border border-slate-800 hover:border-amber-900/50 transition-colors">
@@ -118,7 +118,7 @@ export function SiteFooter() {
                                     >
                                         Chat WhatsApp
                                     </a>
-                                    <span className="text-xs">Soporte Continuo</span>
+                                    <span className="text-xs">Lunes a domingo</span>
                                 </div>
                             </li>
                         </ul>

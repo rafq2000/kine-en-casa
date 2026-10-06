@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Kinesiología a Domicilio Premium Santiago | KINEUM",
   description:
-    "Kinesiólogos a domicilio en Santiago: rehabilitación clínica de precisión en su hogar. Las Condes, Vitacura, Providencia y todo el sector oriente. ☎ +56 9 9967 9593",
+    "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   keywords: [
     "kinesiólogo a domicilio",
     "kinesiología a domicilio",
@@ -49,27 +49,23 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "KINEUM | Kinesiología Clínica a Domicilio",
+    title: "KINEUM: Kinesiólogo a Domicilio en Santiago Oriente",
     description:
-      "El nuevo estándar en recuperación domiciliaria. Kinesiología de precisión, monitoreo digital y atención experta en Santiago Oriente.",
+      "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
     type: "website",
     locale: "es_CL",
-    url: siteUrl,
     siteName: "KINEUM",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "KINEUM - Clinical Home Care",
+        alt: "KINEUM, kinesiología a domicilio en Santiago",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "KINEUM | Rehabilitación Premium",
-    description:
-      "Kinesiología clínica en su hogar. Las Condes, Vitacura, Providencia. ☎ +56 9 9967 9593",
     images: ["/og-image.jpg"],
   },
   verification: {
@@ -85,9 +81,8 @@ const localBusinessSchema = {
   "@type": "MedicalBusiness",
   "@id": `${siteUrl}/#organization`,
   name: "KINEUM",
-  alternateName: "Kineum Clinical Home Care",
   description:
-    "Servicios de kinesiología clínica a domicilio en el sector oriente de Santiago. Rehabilitación de precisión con tecnología y expertos.",
+    "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,
   telephone: "+56999679593",
   email: "contacto@kineum.cl",

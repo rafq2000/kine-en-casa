@@ -426,7 +426,7 @@ export default function ComoFuncionaPage() {
                       </li>
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                        <span>Proceso 100% online en la mayoria de las Isapres</span>
+                        <span>La mayoría de las isapres permite pedirlo en línea; confírmalo en tu sucursal virtual</span>
                       </li>
                     </ul>
                   </CardContent>

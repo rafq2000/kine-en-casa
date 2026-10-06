@@ -18,7 +18,6 @@ const comunaData = {
     ],
     caracteristicas: [
         "Atención a domicilio en toda la comuna",
-        "Kinesiólogos con más de 5 años de experiencia",
         "Equipamiento profesional portátil",
         "Horarios flexibles incluyendo fines de semana",
         "Evaluación inicial gratuita",

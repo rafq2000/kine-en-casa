@@ -662,7 +662,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                     'RUT: 76.892.102-K.',
                     'Dirección: Av. Apoquindo 4501, Las Condes, Santiago.',
                     'Teléfono y WhatsApp: +56 9 9967 9593.',
-                    'Cobertura: 11 comunas de Santiago Oriente y Centro.',
+                    'Cobertura: 9 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.',
                 ],
             },
             {
