@@ -62,9 +62,6 @@ export function SiteFooter() {
                                 <Link href="/como-funciona">Cómo funciona</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
-                                <Link href="/testimonios">Opiniones de pacientes</Link>
-                            </li>
-                            <li className="hover:text-amber-400 transition-colors cursor-pointer">
                                 <Link href="/nosotros">Equipo clínico</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">

@@ -388,14 +388,10 @@ export default function EspecialidadComunaPage({ especialidadSlug, comunaSlug }:
                             Antes de decidir puedes ver{" "}
                             <Link href="/precios" className="text-amber-700 font-medium hover:underline">
                                 los planes y cuánto recuperas con tu Isapre
-                            </Link>
-                            ,{" "}
-                            <Link href="/como-funciona" className="text-amber-700 font-medium hover:underline">
-                                cómo funciona la primera visita
                             </Link>{" "}
                             y{" "}
-                            <Link href="/testimonios" className="text-amber-700 font-medium hover:underline">
-                                lo que dicen otros pacientes
+                            <Link href="/como-funciona" className="text-amber-700 font-medium hover:underline">
+                                cómo funciona la primera visita
                             </Link>
                             .
                         </p>
