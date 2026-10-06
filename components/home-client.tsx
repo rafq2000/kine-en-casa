@@ -179,8 +179,6 @@ export default function HomePage() {
       features: [
         "10 sesiones de kinesiología de 60 minutos",
         "Evaluación inicial gratuita",
-        "Prioridad en agendamiento",
-        "Reportes de progreso",
         "Boleta reembolsable en Isapre y seguros",
       ],
       popular: true,

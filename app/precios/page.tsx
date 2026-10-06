@@ -164,8 +164,7 @@ const plans = [
     perSession: "35.000",
     features: [
       "10 sesiones de 60 min a domicilio",
-      "Prioridad en agendamiento",
-      "Reportes de progreso detallados",
+      "Evaluación inicial gratuita",
       "Boleta para reembolso Isapre",
     ],
     popular: true,
