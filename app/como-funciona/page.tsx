@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   description:
     "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   keywords: [
-    "como funciona kinesiólogo a domicilio",
+    "cómo funciona kinesiólogo a domicilio",
     "pedir kinesiólogo a domicilio santiago",
     "agendar kinesiólogo a domicilio",
     "kinesiólogo a domicilio paso a paso",
-    "kinesiología a domicilio como funciona",
+    "kinesiología a domicilio cómo funciona",
     "kine a domicilio santiago proceso",
-    "evaluación kinesiologica a domicilio",
+    "evaluación kinesiológica a domicilio",
     "kinesiólogo a domicilio isapre",
     "kinesiólogo a domicilio reembolso",
   ],
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "Como agendar un kinesiólogo a domicilio en Santiago",
+  name: "Cómo agendar un kinesiólogo a domicilio en Santiago",
   description:
     "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
   totalTime: "PT5M",
@@ -67,22 +67,22 @@ const howToSchema = {
     {
       "@type": "HowToStep",
       position: 1,
-      name: "Contactanos por WhatsApp o teléfono",
-      text: "Escribenos por WhatsApp o llama al +56 9 9967 9593. Cuentanos tu situacion y coordinamos una visita en el horario que te acomode.",
+      name: "Contáctanos por WhatsApp o teléfono",
+      text: "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en el horario que te acomode.",
       url: "https://kineum.cl/como-funciona#paso-1",
     },
     {
       "@type": "HowToStep",
       position: 2,
       name: "Evaluación inicial gratuita en tu hogar",
-      text: "Un kinesiólogo titulado va a tu casa, evalua tu condicion fisica, revisa examenes y diagnostico médico sin costo.",
+      text: "Un kinesiólogo titulado va a tu casa, evalúa tu condición física, revisa exámenes y diagnóstico médico sin costo.",
       url: "https://kineum.cl/como-funciona#paso-2",
     },
     {
       "@type": "HowToStep",
       position: 3,
       name: "Plan de tratamiento personalizado",
-      text: "Disenamos un plan de rehabilitación con objetivos claros, cantidad de sesiones estimadas y frecuencia semanal adaptada a tus necesidades.",
+      text: "Diseñamos un plan de rehabilitación con objetivos claros, cantidad de sesiones estimadas y frecuencia semanal adaptada a tus necesidades.",
       url: "https://kineum.cl/como-funciona#paso-3",
     },
     {
@@ -94,10 +94,10 @@ const howToSchema = {
     },
   ],
   tool: [
-    { "@type": "HowToTool", name: "Camilla portatil profesional" },
+    { "@type": "HowToTool", name: "Camilla portátil profesional" },
     { "@type": "HowToTool", name: "Electroestimulador TENS" },
-    { "@type": "HowToTool", name: "Ultrasonido terapeutico" },
-    { "@type": "HowToTool", name: "Bandas elasticas y accesorios de rehabilitación" },
+    { "@type": "HowToTool", name: "Ultrasonido terapéutico" },
+    { "@type": "HowToTool", name: "Bandas elásticas y accesorios de rehabilitación" },
   ],
 }
 
@@ -115,18 +115,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Necesito orden médica para pedir kinesiólogo a domicilio?",
+      name: "¿Necesito orden médica para pedir kinesiólogo a domicilio?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Para la evaluación inicial no necesitas orden médica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitaras una orden médica vigente.",
+        text: "Para la evaluación inicial no necesitas orden médica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitarás una orden médica vigente.",
       },
     },
     {
       "@type": "Question",
-      name: "La evaluación inicial realmente es gratis?",
+      name: "¿La evaluación inicial realmente es gratis?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Si, la primera visita de evaluación es completamente gratuita y sin compromiso. El kinesiólogo evalua tu condicion y te explica el plan de tratamiento recomendado.",
+        text: "Sí, la primera visita de evaluación es completamente gratuita y sin compromiso. El kinesiólogo evalúa tu condición y te explica el plan de tratamiento recomendado.",
       },
     },
     {
@@ -139,7 +139,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Como funciona el reembolso con Isapre?",
+      name: "¿Cómo funciona el reembolso con Isapre?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Emitimos boleta de honorarios por cada sesión. Con tu orden médica y la boleta, solicitas el reembolso directamente en tu Isapre (según la cobertura de tu plan) y luego el copago restante en tu seguro complementario si tienes uno.",
@@ -147,10 +147,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Cuántas sesiones necesitare?",
+      name: "¿Cuántas sesiones necesitaré?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Depende de tu diagnostico. En la evaluación inicial el kinesiólogo estima la cantidad de sesiones. En promedio, un tratamiento estandar va de 8 a 12 sesiones con frecuencia de 2 a 3 veces por semana.",
+        text: "Depende de tu diagnóstico. En la evaluación inicial el kinesiólogo estima la cantidad de sesiones. En promedio, un tratamiento estándar va de 8 a 12 sesiones con frecuencia de 2 a 3 veces por semana.",
       },
     },
   ],
@@ -161,9 +161,9 @@ const steps = [
     id: "paso-1",
     number: "01",
     icon: MessageCircle,
-    title: "Contactanos por WhatsApp o Teléfono",
+    title: "Contáctanos por WhatsApp o Teléfono",
     description:
-      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+      "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en el horario que te acomode.",
     detail: "Cuéntanos tu comuna y el motivo de consulta.",
     color: "amber",
   },
@@ -173,7 +173,7 @@ const steps = [
     icon: ClipboardCheck,
     title: "Evaluación Inicial Gratuita en tu Hogar",
     description:
-      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+      "Un kinesiólogo titulado va a tu casa, evalúa tu condición física, revisa exámenes y diagnóstico médico sin costo.",
     detail: "La evaluación dura aprox. 30 minutos.",
     color: "emerald",
   },
@@ -183,7 +183,7 @@ const steps = [
     icon: UserCheck,
     title: "Plan de Tratamiento Personalizado",
     description:
-      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+      "Diseñamos un plan de rehabilitación con objetivos claros, cantidad de sesiones estimadas y frecuencia semanal adaptada a tus necesidades.",
     detail: "Te explicamos todo antes de comenzar. Sin letra chica.",
     color: "amber",
   },
@@ -193,7 +193,7 @@ const steps = [
     icon: CalendarCheck,
     title: "Sesiones en tu Hogar con Seguimiento",
     description:
-      "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+      "Realizamos las sesiones en la comodidad de tu hogar con equipamiento profesional. Reevaluamos tu progreso y ajustamos el tratamiento.",
     detail: `Emitimos ${BOLETA_TEXTO}, para el reembolso en tu Isapre.`,
     color: "emerald",
   },
@@ -201,20 +201,20 @@ const steps = [
 
 const equipment = [
   {
-    name: "Camilla Portatil Profesional",
-    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+    name: "Camilla Portátil Profesional",
+    description: "Camilla profesional plegable, para trabajar en la posición correcta.",
   },
   {
     name: "Electroestimulador TENS",
-    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+    description: "Electroestimulación analgésica para el dolor muscular, articular y neuropático, cuando el caso lo requiere.",
   },
   {
-    name: "Ultrasonido Terapeutico",
-    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+    name: "Ultrasonido Terapéutico",
+    description: "Ultrasonido terapéutico para contracturas e inflamación, cuando el caso lo requiere.",
   },
   {
-    name: "Bandas Elasticas y Accesorios",
-    description: "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
+    name: "Bandas Elásticas y Accesorios",
+    description: "Bandas elásticas, pesas livianas y elementos de equilibrio para el ejercicio terapéutico.",
   },
 ]
 
@@ -225,14 +225,14 @@ const faqs = [
       `Coordinamos la primera visita ${PRIMERA_VISITA_TEXTO} desde tu primer contacto, cualquier día de la semana.`,
   },
   {
-    question: "Necesito orden médica para pedir kinesiólogo a domicilio?",
+    question: "¿Necesito orden médica para pedir kinesiólogo a domicilio?",
     answer:
-      "Para la evaluación inicial no necesitas orden médica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitaras una orden médica vigente emitida por tu doctor.",
+      "Para la evaluación inicial no necesitas orden médica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitarás una orden médica vigente emitida por tu doctor.",
   },
   {
-    question: "La evaluación inicial realmente es gratis?",
+    question: "¿La evaluación inicial realmente es gratis?",
     answer:
-      "Si, la primera visita de evaluación es completamente gratuita y sin compromiso. El kinesiólogo evalua tu condicion y te explica el plan de tratamiento recomendado antes de que decidas.",
+      "Sí, la primera visita de evaluación es completamente gratuita y sin compromiso. El kinesiólogo evalúa tu condición y te explica el plan de tratamiento recomendado antes de que decidas.",
   },
   {
     question: "¿En qué comunas de Santiago atienden?",
@@ -240,14 +240,14 @@ const faqs = [
       "Atendemos solo en 9 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.",
   },
   {
-    question: "Como funciona el reembolso con Isapre?",
+    question: "¿Cómo funciona el reembolso con Isapre?",
     answer:
       "Emitimos boleta de honorarios por cada sesión. Con tu orden médica vigente y la boleta, solicitas el reembolso directamente en tu Isapre (según la cobertura de tu plan) y luego el copago restante en tu seguro complementario si tienes uno.",
   },
   {
-    question: "Cuántas sesiones necesitare?",
+    question: "¿Cuántas sesiones necesitaré?",
     answer:
-      "Depende de tu diagnostico y evolucion. En la evaluación inicial el kinesiólogo estima la cantidad de sesiones. Un tratamiento estandar promedia entre 8 y 12 sesiones, con frecuencia de 2 a 3 veces por semana.",
+      "Depende de tu diagnóstico y evolución. En la evaluación inicial el kinesiólogo estima la cantidad de sesiones. Un tratamiento estándar promedia entre 8 y 12 sesiones, con frecuencia de 2 a 3 veces por semana.",
   },
 ]
 
@@ -273,7 +273,7 @@ export default function ComoFuncionaPage() {
               Evaluación Inicial Gratuita
             </Badge>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 max-w-4xl mx-auto leading-tight">
-              Asi de Facil es Agendar tu{" "}
+              Así de Fácil es Agendar tu{" "}
               <span className="text-amber-400">Kinesiólogo a Domicilio</span>
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
@@ -310,7 +310,7 @@ export default function ComoFuncionaPage() {
                 Proceso Paso a Paso
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                Desde tu primer mensaje hasta tu recuperacion completa, te acompanamos en cada etapa.
+                Desde tu primer mensaje hasta tu recuperación completa, te acompañamos en cada etapa.
               </p>
             </div>
 
@@ -375,7 +375,7 @@ export default function ComoFuncionaPage() {
                 Equipamiento Profesional
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Que Llevan los Kinesiólogos a tu Hogar
+                Qué Llevan los Kinesiólogos a tu Hogar
               </h2>
               <p className="text-lg text-slate-300 max-w-2xl mx-auto">
                 Nuestros profesionales llevan todo el equipamiento necesario para una sesión completa. No necesitas comprar ni preparar nada.
@@ -409,7 +409,7 @@ export default function ComoFuncionaPage() {
                   Reembolso Isapre y Seguros Complementarios
                 </h2>
                 <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                  Recupera parte del costo de tus sesiones de kinesiología a domicilio a traves de tu seguro de salud.
+                  Recupera parte del costo de tus sesiones de kinesiología a domicilio a través de tu seguro de salud.
                 </p>
               </div>
 
@@ -446,7 +446,7 @@ export default function ComoFuncionaPage() {
                       </li>
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" />
-                        <span>Reembolsa el copago que tu Isapre no cubrio</span>
+                        <span>Reembolsa el copago que tu Isapre no cubrió</span>
                       </li>
                       <li className="flex items-start gap-3 text-slate-600">
                         <Check className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" />
@@ -458,7 +458,7 @@ export default function ComoFuncionaPage() {
               </div>
 
               <p className="text-center text-sm text-slate-500 mt-8">
-                Te ayudamos con el proceso de reembolso. Consultanos por WhatsApp si tienes dudas sobre tu cobertura.
+                Te ayudamos con el proceso de reembolso. Consúltanos por WhatsApp si tienes dudas sobre tu cobertura.
               </p>
             </div>
           </div>
@@ -473,7 +473,7 @@ export default function ComoFuncionaPage() {
                   Preguntas Frecuentes
                 </h2>
                 <p className="text-lg text-slate-600">
-                  Las dudas mas comunes sobre nuestro servicio de kinesiología a domicilio en Santiago.
+                  Las dudas más comunes sobre nuestro servicio de kinesiología a domicilio en Santiago.
                 </p>
               </div>
 
@@ -535,7 +535,7 @@ export default function ComoFuncionaPage() {
                 <Check className="w-4 h-4" /> Kinesiólogos titulados
               </span>
               <span className="flex items-center gap-2">
-                <Check className="w-4 h-4" /> Respuesta en 30 min
+                <Check className="w-4 h-4" /> Atención de lunes a domingo
               </span>
             </div>
           </div>
@@ -552,14 +552,14 @@ export default function ComoFuncionaPage() {
                   className="flex items-center gap-2 text-slate-600 hover:text-amber-600 transition-colors text-sm p-3 bg-white rounded-lg border border-slate-200 hover:border-amber-200"
                 >
                   <ChevronRight className="w-4 h-4" />
-                  Kine Traumatologica
+                  Kine Traumatológica
                 </Link>
                 <Link
                   href="/servicios/geriatrica"
                   className="flex items-center gap-2 text-slate-600 hover:text-amber-600 transition-colors text-sm p-3 bg-white rounded-lg border border-slate-200 hover:border-amber-200"
                 >
                   <ChevronRight className="w-4 h-4" />
-                  Kine Geriatrica
+                  Kine Geriátrica
                 </Link>
                 <Link
                   href="/servicios/respiratoria"
@@ -573,7 +573,7 @@ export default function ComoFuncionaPage() {
                   className="flex items-center gap-2 text-slate-600 hover:text-amber-600 transition-colors text-sm p-3 bg-white rounded-lg border border-slate-200 hover:border-amber-200"
                 >
                   <ChevronRight className="w-4 h-4" />
-                  Kine Neurologica
+                  Kine Neurológica
                 </Link>
               </div>
             </div>
