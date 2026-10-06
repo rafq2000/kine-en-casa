@@ -56,3 +56,4 @@ Cómo leer las cifras:
 
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |
 |---|---|---|---|---|
+| 2026-10-05 | 265224f | T02-T16 (Fase 0) | /, /precios, /nosotros, /como-funciona, /testimonios, 9 hubs `/kinesiologo-a-domicilio-*`, 7 posts | IndexNow 200 OK con 22 URLs. GSC: pendientes (T19, Ricardo) |
