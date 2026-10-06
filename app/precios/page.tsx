@@ -24,9 +24,9 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Valor Kinesiólogo a Domicilio: $35.000 por Sesión | KINEUM",
+  title: "Valor Kinesiólogo a Domicilio: Planes desde $35.000 | KINEUM",
   description:
-    "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
+    "Kinesiología a domicilio en Santiago: 10 sesiones por $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Evaluación inicial gratis y boleta para Isapre.",
   keywords: [
     "precio kinesiólogo a domicilio",
     "cuánto cuesta kinesiólogo domicilio",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/precios",
   },
   openGraph: {
-    title: "Valor Kinesiólogo a Domicilio: $35.000 por Sesión | KINEUM",
+    title: "Valor Kinesiólogo a Domicilio: Planes desde $35.000 | KINEUM",
     description:
-      "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
+      "Kinesiología a domicilio en Santiago: 10 sesiones por $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Evaluación inicial gratis y boleta para Isapre.",
     url: "https://kineum.cl/precios",
     type: "website",
     locale: "es_CL",
@@ -96,7 +96,7 @@ const serviceSchema = {
         "@type": "Offer",
         name: "Plan Essential - 4 Sesiones de Kinesiología a Domicilio",
         description:
-          "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
+          "4 sesiones de 60 minutos a domicilio al mes ($40.000 por sesión), con evaluación inicial gratuita.",
         price: "160000",
         priceCurrency: "CLP",
         priceValidUntil: "2026-12-31",
@@ -107,7 +107,7 @@ const serviceSchema = {
         "@type": "Offer",
         name: "Plan Premium - 10 Sesiones de Kinesiología a Domicilio",
         description:
-          "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
+          "10 sesiones de 60 minutos a domicilio al mes ($35.000 por sesión), con evaluación inicial gratuita.",
         price: "350000",
         priceCurrency: "CLP",
         priceValidUntil: "2026-12-31",
@@ -116,76 +116,13 @@ const serviceSchema = {
       },
       {
         "@type": "Offer",
-        name: "Plan Elite - Sesiones Ilimitadas de Kinesiología a Domicilio",
+        name: "Plan Elite - Kinesiología a Domicilio a Medida",
         description:
-          "Sesión de kinesiología a domicilio en Santiago desde $35.000 con el plan de 10 sesiones. Valores 2026, qué incluye y cuánto recuperas con tu Isapre.",
+          "Plan a medida para tratamientos intensivos o prolongados; precio a consultar.",
         url: "https://kineum.cl/precios",
       },
     ],
   },
-}
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Cuánto cuesta un kinesiólogo a domicilio en Santiago?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "En KINEUM, el Plan Essential de 4 sesiones mensuales cuesta $160.000 CLP/mes y el Plan Premium de 10 sesiones cuesta $350.000 CLP/mes. Ambos incluyen evaluación inicial gratuita. Además, con la boleta puedes solicitar reembolso en tu Isapre y en tu seguro complementario, según la cobertura de tu plan.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Cuánto reembolsa la Isapre por kinesiología a domicilio?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "El reembolso de Isapre por kinesiología a domicilio varia según tu plan de salud. El monto depende de los topes y porcentajes de tu plan, que puedes revisar en la sucursal virtual de tu Isapre. Necesitas una orden médica vigente y la boleta de honorarios que emitimos despues de cada atención. Esto aplica para Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres y Nueva Masvida.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Puedo usar mi seguro complementario para la kinesiología a domicilio?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Si. Emitimos boleta de honorarios por cada sesión, que puedes presentar en tu seguro complementario (Metlife, Chilena Consolidada, BICE, Zurich y otros) para reembolsar el copago que tu Isapre no cubrio. Combinando ambos, muchos pacientes recuperan la mayor parte del valor.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "La evaluación inicial tiene costo?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No, la evaluación inicial es completamente gratuita en todos nuestros planes. Nuestro kinesiólogo evalua tu condicion, define objetivos de tratamiento y diseña un plan de rehabilitación personalizado sin compromiso.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Cual es la diferencia de precio entre ir a una clinica y la kinesiología a domicilio?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Una sesión en clinica privada en Santiago cuesta entre $40.000 y $60.000, pero sumando traslado, estacionamiento y tiempo perdido, el costo real sube. Con KINEUM, el costo por sesión parte desde $35.000 en el Plan Premium (10 sesiones por $350.000), sin costos de traslado, con sesiones de 60 minutos dedicados y equipamiento profesional en tu hogar.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Se puede pagar en cuotas o con tarjeta?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Si, aceptamos transferencia bancaria, tarjeta de débito y tarjeta de crédito. Consulta por opciones de pago en cuotas contactandonos por WhatsApp al +56 9 9967 9593.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Que incluye cada sesión de kinesiología a domicilio?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Cada sesión dura aproximadamente 60 minutos e incluye: evaluación del progreso, terapia manual especializada, ejercicios terapeuticos guiados, uso de equipamiento profesional (TENS, ultrasonido, bandas elasticas) y educacion al paciente y familia. El kinesiólogo lleva todo el equipamiento a tu domicilio.",
-      },
-    },
-  ],
 }
 
 const breadcrumbSchema = {
@@ -218,7 +155,7 @@ const plans = [
     features: [
       "4 sesiones de 60 min a domicilio",
       "Evaluación inicial gratuita",
-      "Seguimiento de evolucion básico",
+      "Seguimiento de evolución básico",
       "Boleta para reembolso Isapre",
     ],
     popular: false,
@@ -231,7 +168,7 @@ const plans = [
   },
   {
     name: "Plan Premium",
-    subtitle: "El mas elegido para rehabilitación completa",
+    subtitle: "El más elegido para rehabilitación completa",
     icon: Star,
     sessions: "10 Sesiones/mes",
     price: "350.000",
@@ -252,18 +189,15 @@ const plans = [
   },
   {
     name: "Plan Elite",
-    subtitle: "Rehabilitación intensiva sin limites",
+    subtitle: "Para tratamientos intensivos o prolongados",
     icon: Crown,
-    sessions: "Sesiones Ilimitadas",
+    sessions: "Plan a medida",
     price: "Consultar",
     perSession: null,
     features: [
-      "Sesiones ILIMITADAS todo el mes",
-      "Kinesiólogo dedicado asignado",
-      "Prioridad absoluta en agenda",
-      "Red de especialistas preferente",
-      "Todo el pack Premium incluido",
-      "Consultas ilimitadas entre sesiones",
+      "Plan a medida para tratamientos intensivos o prolongados",
+      "Sesiones de 60 min a domicilio",
+      "Evaluación inicial gratuita",
       "Boleta para reembolso Isapre",
     ],
     popular: false,
@@ -272,7 +206,7 @@ const plans = [
     iconBg: "bg-slate-100",
     iconColor: "text-slate-700",
     badgeColor: "bg-slate-100 text-slate-700",
-    whatsappMsg: "Hola, me interesa el Plan Elite con sesiones ilimitadas",
+    whatsappMsg: "Hola, me interesa el Plan Elite a medida",
   },
 ]
 
@@ -287,46 +221,56 @@ const isapres = [
 
 const faqs = [
   {
-    question: "Cuánto cuesta un kinesiólogo a domicilio en Santiago?",
+    question: "¿Cuánto cuesta un kinesiólogo a domicilio en Santiago?",
     answer:
-      "En KINEUM ofrecemos planes desde $160.000/mes (4 sesiones) hasta $350.000/mes (10 sesiones). El Plan Elite con sesiones ilimitadas tiene precio a consultar. Todos los planes incluyen evaluación inicial gratuita, equipamiento profesional completo y boleta para reembolso.",
+      "En KINEUM ofrecemos planes desde $160.000/mes (4 sesiones) hasta $350.000/mes (10 sesiones). El Plan Elite es a medida y tiene precio a consultar. Todos los planes incluyen evaluación inicial gratuita, equipamiento profesional completo y boleta para reembolso.",
   },
   {
-    question: "Cuánto reembolsa mi Isapre por kinesiología a domicilio?",
+    question: "¿Cuánto reembolsa mi Isapre por kinesiología a domicilio?",
     answer:
-      "El porcentaje de reembolso depende de tu plan de salud. Cada plan tiene sus propios topes y porcentajes, así que no hay una cifra unica. Como ejemplo ilustrativo, si tu plan reembolsa un 70%, en el Plan Premium ($35.000/sesion) recuperarias $24.500 y tu costo real seria $10.500 por sesión.",
+      "No hay una cifra única: depende de los topes, porcentajes y deducibles de tu plan. Revísalo en la sucursal virtual de tu Isapre. Para reembolsar necesitas orden médica y la boleta de honorarios que emitimos por cada sesión.",
   },
   {
-    question: "Puedo usar mi seguro complementario?",
+    question: "¿Puedo usar mi seguro complementario?",
     answer:
-      "Si. Con la boleta de honorarios que emitimos por cada sesión puedes reembolsar primero en tu Isapre y luego presentar el copago restante en tu seguro complementario (Metlife, Chilena Consolidada, BICE, Zurich y otros). Combinando ambos, muchos pacientes recuperan la mayor parte del valor del tratamiento.",
+      "Sí. Con la boleta de honorarios que emitimos por cada sesión puedes reembolsar primero en tu Isapre y luego presentar el copago restante en tu seguro complementario (Metlife, Chilena Consolidada, BICE, Zurich y otros). Cuánto te devuelve cada uno depende de tu plan y de tu póliza.",
   },
   {
-    question: "La evaluación inicial tiene costo?",
+    question: "¿La evaluación inicial tiene costo?",
     answer:
-      "No. La evaluación inicial es 100% gratuita y sin compromiso en todos nuestros planes. Tu kinesiólogo evalua tu condicion, define objetivos claros y diseña un plan de rehabilitación personalizado.",
+      "No. La evaluación inicial es 100% gratuita y sin compromiso en todos nuestros planes. Tu kinesiólogo evalúa tu condición, define objetivos claros y diseña un plan de rehabilitación personalizado.",
   },
   {
-    question: "Que necesito para pedir el reembolso?",
+    question: "¿Qué necesito para pedir el reembolso?",
     answer:
-      "Necesitas una orden médica vigente que indique 'kinesiología' o 'rehabilitación', y la boleta de honorarios que emitimos despues de cada sesión. Con ambos documentos, presentas el reembolso en tu Isapre (app, web o sucursal) y luego el copago en tu seguro complementario si tienes uno.",
+      "Necesitas una orden médica vigente que indique 'kinesiología' o 'rehabilitación', y la boleta de honorarios que emitimos después de cada sesión. Con ambos documentos, presentas el reembolso en tu Isapre (app, web o sucursal) y luego el copago en tu seguro complementario si tienes uno.",
   },
   {
-    question: "Puedo cambiar de plan durante el mes?",
+    question: "¿Puedo cambiar de plan durante el mes?",
     answer:
-      "Si, puedes escalar tu plan en cualquier momento. Si empezaste con el Essential y necesitas mas sesiones, te ajustamos la diferencia al Plan Premium. Contactanos por WhatsApp y lo coordinamos.",
+      "Sí, puedes escalar tu plan en cualquier momento. Si empezaste con el Essential y necesitas más sesiones, te ajustamos la diferencia al Plan Premium. Contáctanos por WhatsApp y lo coordinamos.",
   },
   {
-    question: "Que incluye cada sesión de kinesiología?",
+    question: "¿Qué incluye cada sesión de kinesiología?",
     answer:
-      "Cada sesión de 60 minutos incluye: evaluación del progreso, terapia manual especializada, ejercicios terapeuticos guiados, uso de equipamiento profesional (TENS, ultrasonido, bandas elasticas), educacion al paciente y familia, y recomendaciones para el hogar.",
+      "Cada sesión de 60 minutos incluye: evaluación del progreso, terapia manual especializada, ejercicios terapéuticos guiados, uso de equipamiento profesional (TENS, ultrasonido, bandas elásticas), educación al paciente y familia, y recomendaciones para el hogar.",
   },
   {
-    question: "Aceptan tarjeta de crédito o pago en cuotas?",
+    question: "¿Aceptan tarjeta de crédito o pago en cuotas?",
     answer:
-      "Si, aceptamos transferencia bancaria, tarjeta de débito y tarjeta de crédito. Consultanos por WhatsApp al +56 9 9967 9593 para opciones de pago en cuotas.",
+      "Sí, aceptamos transferencia bancaria, tarjeta de débito y tarjeta de crédito. Consúltanos por WhatsApp al +56 9 9967 9593 para opciones de pago en cuotas.",
   },
 ]
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+}
 
 export default function PreciosPage() {
   return (
@@ -358,7 +302,7 @@ export default function PreciosPage() {
                   KINEUM
                 </span>
                 <p className="text-xs text-slate-300 uppercase tracking-widest">
-                  Clinical Home Care
+                  Kinesiología a domicilio
                 </p>
               </div>
             </Link>
@@ -385,7 +329,7 @@ export default function PreciosPage() {
                 href="/nosotros"
                 className="hover:text-amber-400 transition-colors font-medium text-slate-200"
               >
-                Equipo Clinico
+                Equipo Clínico
               </Link>
               <Link
                 href="/#contacto"
@@ -444,6 +388,18 @@ export default function PreciosPage() {
             Boleta reembolsable en tu Isapre y en tu seguro complementario, sin costo de traslado.
           </p>
 
+          <p className="text-lg text-slate-600 mb-8 max-w-3xl mx-auto">
+            Compara con lo que cobran otros servicios en{" "}
+            <Link href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago" className="text-amber-700 underline hover:text-amber-800">
+              cuánto cobra un kinesiólogo a domicilio en Santiago
+            </Link>{" "}
+            y revisa{" "}
+            <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-700 underline hover:text-amber-800">
+              cómo pedir el reembolso en tu Isapre
+            </Link>
+            .
+          </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#planes"
@@ -490,7 +446,7 @@ export default function PreciosPage() {
               >
                 {plan.popular && (
                   <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-amber-600 to-amber-700 text-white text-center py-2 text-sm font-bold uppercase tracking-wider">
-                    Mas Elegido
+                    Más Elegido
                   </div>
                 )}
 
@@ -555,7 +511,7 @@ export default function PreciosPage() {
                     }`}
                   >
                     <MessageCircle className="h-5 w-5 mr-2" />
-                    {plan.price === "Consultar" ? "Solicitar Cotizacion" : "Contratar Ahora"}
+                    {plan.price === "Consultar" ? "Solicitar Cotización" : "Contratar Ahora"}
                   </a>
                 </CardContent>
               </Card>
@@ -564,7 +520,7 @@ export default function PreciosPage() {
 
           <p className="text-center text-slate-500 mt-10 text-sm max-w-2xl mx-auto">
             Todos los planes incluyen equipamiento profesional completo (camilla, TENS, ultrasonido,
-            bandas elasticas) y boleta de honorarios para reembolso Isapre y seguros complementarios.
+            bandas elásticas) y boleta de honorarios para reembolso Isapre y seguros complementarios.
           </p>
         </div>
       </section>
@@ -581,7 +537,7 @@ export default function PreciosPage() {
               Reembolso Isapre
             </Badge>
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-serif">
-              Cuánto Reembolsa tu Isapre
+              ¿Cuánto Reembolsa tu Isapre
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">
                 por Kinesiología a Domicilio?
@@ -608,31 +564,20 @@ export default function PreciosPage() {
 
           <div className="max-w-4xl mx-auto bg-slate-800/50 backdrop-blur-sm rounded-2xl border border-slate-700 p-8 md:p-10">
             <h3 className="text-2xl font-bold mb-6 text-center font-serif">
-              Ejemplo Ilustrativo: Costo Real con Reembolso Isapre
+              ¿Cuánto te devuelve tu Isapre?
             </h3>
+            <p className="text-slate-300 text-center mb-8 leading-relaxed">
+              Depende de los topes, porcentajes y deducibles de tu plan: no hay una cifra única.
+              Revísalo en la sucursal virtual de tu Isapre. El paso a paso, isapre por isapre, está en
+              nuestra{" "}
+              <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-400 underline hover:text-amber-300">
+                guía de reembolso de kinesiología en tu Isapre
+              </Link>
+              .
+            </p>
 
-            <div className="grid md:grid-cols-3 gap-6 text-center">
-              <div className="bg-slate-900/50 rounded-xl p-6 border border-slate-600">
-                <p className="text-slate-400 text-sm mb-2">Valor sesión Plan Premium</p>
-                <p className="text-3xl font-bold text-white font-serif">$35.000</p>
-              </div>
-              <div className="bg-slate-900/50 rounded-xl p-6 border border-amber-500/30">
-                <p className="text-slate-400 text-sm mb-2">Si tu plan reembolsa 70%</p>
-                <p className="text-3xl font-bold text-amber-400 font-serif">-$24.500</p>
-              </div>
-              <div className="bg-emerald-900/30 rounded-xl p-6 border border-emerald-500/30">
-                <p className="text-slate-400 text-sm mb-2">Tu costo real por sesión</p>
-                <p className="text-3xl font-bold text-emerald-400 font-serif">$10.500</p>
-              </div>
-            </div>
-
-            <div className="mt-8 text-center">
-              <p className="text-slate-400 text-sm mb-4">
-                * El porcentaje exacto depende de tu plan de salud. Consulta con tu Isapre para
-                conocer tu cobertura especifica.
-              </p>
-
-              <h4 className="text-lg font-bold text-white mb-3">Como pedir tu reembolso:</h4>
+            <div className="text-center">
+              <h4 className="text-lg font-bold text-white mb-3">Cómo pedir tu reembolso:</h4>
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm">
                 <div className="flex items-center gap-2 bg-slate-700/50 px-4 py-2 rounded-full">
                   <span className="bg-amber-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
@@ -677,38 +622,22 @@ export default function PreciosPage() {
                 Seguros Complementarios
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
-                Recupera Aun Mas con tu Seguro Complementario
+                Usa también tu Seguro Complementario
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto">
                 Si además de tu Isapre tienes un seguro complementario, puedes reembolsar el copago
-                restante y reducir el costo final al mínimo.
+                restante según las condiciones de tu póliza.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-slate-50 rounded-2xl p-8 border border-slate-200">
-                <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">
-                  Seguros con los que trabajan nuestros pacientes
-                </h3>
-                <div className="space-y-4">
-                  <div className="flex justify-between items-center py-3 border-b border-slate-200">
-                    <span className="text-slate-700 font-medium">Metlife / Chilena Consolidada</span>
-                    <Badge className="bg-emerald-50 text-emerald-700">Copago 50-100%</Badge>
-                  </div>
-                  <div className="flex justify-between items-center py-3 border-b border-slate-200">
-                    <span className="text-slate-700 font-medium">BICE Vida / Zurich</span>
-                    <Badge className="bg-emerald-50 text-emerald-700">Copago 50-100%</Badge>
-                  </div>
-                  <div className="flex justify-between items-center py-3">
-                    <span className="text-slate-700 font-medium">Seguros de empresa (colectivos)</span>
-                    <Badge className="bg-amber-50 text-amber-700">Según poliza</Badge>
-                  </div>
-                </div>
-              </div>
+            <p className="text-center text-slate-700 mb-8">
+              Si tienes seguro complementario, revisa en tu póliza si puedes presentar la diferencia.
+            </p>
 
+            <div className="max-w-xl mx-auto">
               <div className="bg-slate-50 rounded-2xl p-8 border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">
-                  Como funciona el doble reembolso
+                  Cómo funciona el doble reembolso
                 </h3>
                 <ol className="space-y-4">
                   <li className="flex items-start">
@@ -741,111 +670,13 @@ export default function PreciosPage() {
                       4
                     </span>
                     <span className="text-slate-700">
-                      Presenta el copago en tu <strong>seguro complementario</strong> y recupera el resto
+                      Presenta el copago en tu <strong>seguro complementario</strong>, según las condiciones de tu póliza
                     </span>
                   </li>
                 </ol>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Comparison Table */}
-      <section className="py-24 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
-              KINEUM vs. Clinica Privada
-            </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Compara el costo real de ir a una clinica versus recibir kinesiología a domicilio con
-              KINEUM.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto overflow-x-auto">
-            <table className="w-full bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-200">
-              <thead>
-                <tr>
-                  <th className="text-left p-5 bg-slate-100 text-slate-700 font-semibold text-sm uppercase tracking-wider">
-                    Concepto
-                  </th>
-                  <th className="p-5 bg-slate-100 text-slate-700 font-semibold text-sm uppercase tracking-wider text-center">
-                    Clinica Privada
-                  </th>
-                  <th className="p-5 bg-amber-50 text-amber-800 font-semibold text-sm uppercase tracking-wider text-center border-l-2 border-amber-200">
-                    KINEUM a Domicilio
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-t border-slate-100">
-                  <td className="p-5 text-slate-700 font-medium">Valor por sesión</td>
-                  <td className="p-5 text-center text-slate-600">$40.000 - $60.000</td>
-                  <td className="p-5 text-center font-bold text-amber-700 border-l-2 border-amber-100">
-                    Desde $35.000
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100 bg-slate-50/50">
-                  <td className="p-5 text-slate-700 font-medium">Traslado (bencina + estacionamiento)</td>
-                  <td className="p-5 text-center text-slate-600">$5.000 - $10.000</td>
-                  <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
-                    $0 (Gratis)
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100">
-                  <td className="p-5 text-slate-700 font-medium">Tiempo de espera</td>
-                  <td className="p-5 text-center text-slate-600">15-40 min en sala</td>
-                  <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
-                    0 min (en tu hogar)
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100 bg-slate-50/50">
-                  <td className="p-5 text-slate-700 font-medium">Duracion sesión</td>
-                  <td className="p-5 text-center text-slate-600">30-40 min compartidos</td>
-                  <td className="p-5 text-center font-bold text-amber-700 border-l-2 border-amber-100">
-                    60 min exclusivos
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100">
-                  <td className="p-5 text-slate-700 font-medium">Equipamiento profesional</td>
-                  <td className="p-5 text-center text-slate-600">Si</td>
-                  <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
-                    Si (completo en tu casa)
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100 bg-slate-50/50">
-                  <td className="p-5 text-slate-700 font-medium">Evaluación inicial</td>
-                  <td className="p-5 text-center text-slate-600">$30.000 - $45.000</td>
-                  <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
-                    GRATIS
-                  </td>
-                </tr>
-                <tr className="border-t border-slate-100">
-                  <td className="p-5 text-slate-700 font-medium">Reembolso Isapre</td>
-                  <td className="p-5 text-center text-slate-600">Si</td>
-                  <td className="p-5 text-center font-bold text-emerald-600 border-l-2 border-amber-100">
-                    Si (boleta de honorarios)
-                  </td>
-                </tr>
-                <tr className="border-t-2 border-slate-200 bg-slate-100">
-                  <td className="p-5 text-slate-900 font-bold text-lg">Costo real por sesión</td>
-                  <td className="p-5 text-center text-red-600 font-bold text-lg">
-                    $50.000 - $70.000
-                  </td>
-                  <td className="p-5 text-center text-emerald-700 font-bold text-lg border-l-2 border-amber-200">
-                    Desde $35.000
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-center text-slate-500 mt-6 text-sm">
-            * Los precios de clinica son referenciales y pueden variar según el establecimiento.
-            Costo real incluye traslado.
-          </p>
         </div>
       </section>
 
@@ -889,11 +720,11 @@ export default function PreciosPage() {
         <div className="container mx-auto px-4 text-center relative z-10">
           <Sparkles className="h-10 w-10 text-amber-400 mx-auto mb-6" />
           <h2 className="text-3xl md:text-5xl font-bold mb-6 font-serif">
-            Comienza tu Recuperacion Hoy
+            Comienza tu Recuperación Hoy
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
-            Evaluación inicial gratuita. Te contactamos en menos de 2 horas y agendamos tu primera
-            sesión de kinesiología a domicilio.
+            Evaluación inicial gratuita. Escríbenos y agendamos tu primera sesión de kinesiología a
+            domicilio.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-10">

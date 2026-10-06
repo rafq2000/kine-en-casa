@@ -782,7 +782,7 @@ export const blogPosts = [
 <h2>Cuánto pagas por 10 sesiones después del reembolso de la isapre</h2>
 <p>La atención particular se paga completa y después pides el reembolso a tu isapre o seguro complementario con la boleta de honorarios electrónica. Cuánto te devuelven depende de tu plan: cada contrato tiene sus propios porcentajes, topes y deducibles. Revísalo en la sucursal virtual de tu isapre o consúltalo directamente.</p>
 <p>La cuenta es: <strong>costo final = precio de las 10 sesiones − monto reembolsado</strong>.</p>
-<blockquote><strong>Ejemplo ilustrativo, no corresponde a ninguna isapre ni plan real.</strong> Tomando el Plan Premium de KINEUM ($350.000 por 10 sesiones): si tu plan reembolsara un 40%, te devolverían $140.000 y pagarías $210.000 en total. Si reembolsara un 60%, te devolverían $210.000 y pagarías $140.000. Si tu plan tiene un tope por sesión, lo que recibes puede ser menor que ese porcentaje.</blockquote>
+<blockquote>Cuánto te devuelva tu Isapre depende de los topes de tu plan; en la <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso Isapre</a> está el cálculo paso a paso.</blockquote>
 <p>Con un tratamiento de 10 sesiones hay dos detalles que conviene cuidar:</p>
 <ul>
 <li><strong>Orden médica con número de sesiones:</strong> varias isapres la piden para reembolsar kinesiología. Lo prudente es pedirle a tu médico una orden con diagnóstico y cantidad de sesiones antes de empezar.</li>
@@ -1059,15 +1059,14 @@ export const blogPosts = [
       <p>El precio de lista no es el costo final. Con la documentación correcta:</p>
       <ul>
         <li><strong>Isapre:</strong> emitimos boleta de honorarios que puedes enviar a reembolso. Cuánto recuperas depende de los topes y porcentajes de tu plan (Colmena, Cruz Blanca, Banmédica, Consalud, Vida Tres, Nueva Masvida y Esencial permiten pedirlo en línea); revísalo en la sucursal virtual de tu Isapre. Lee nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía completa de reembolso Isapre</a>.</li>
-        <li><strong>Seguro complementario:</strong> si además tienes un seguro (Metlife, Chilena Consolidada, BICE, Zurich o colectivo de empresa), puedes reembolsar el copago que la Isapre no cubrió y recuperar la mayor parte del valor.</li>
+        <li><strong>Seguro complementario:</strong> si además tienes un seguro (Metlife, Chilena Consolidada, BICE, Zurich o colectivo de empresa), puedes reembolsar el copago que la Isapre no cubrió, según las condiciones de tu póliza.</li>
       </ul>
-      <p>Ejemplo ilustrativo: si tu plan Isapre reembolsa un 70% y pagas el Plan Premium de $350.000, recuperas $245.000. Costo final del tratamiento completo de 10 sesiones: <strong>$105.000</strong>, es decir, $10.500 por sesión a domicilio.</p>
+      <p>Cuánto recuperas depende de los topes y deducibles de tu plan, así que no existe un porcentaje único. En la <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso Isapre</a> está el paso a paso para calcular el tuyo.</p>
 
       <h2>¿Vale la pena pagar kinesiología a domicilio vs. ir a un centro?</h2>
       <p>Una sesión en centro puede parecer más barata, pero al comparar el costo total la diferencia se reduce o desaparece:</p>
       <ul>
-        <li>Ahorras traslados (taxi o bencina + estacionamiento, $8.000–$15.000 por sesión para muchos pacientes).</li>
-        <li>Cero tiempo perdido en traslado y sala de espera (2+ horas por sesión).</li>
+        <li>Te ahorras el traslado y la sala de espera.</li>
         <li>Para adultos mayores o pacientes post-operados, evitar el traslado no es comodidad: es <strong>seguridad clínica</strong> (menos riesgo de caídas y de sobreesfuerzo).</li>
         <li>El kinesiólogo ve tu entorno real y adapta los ejercicios a tu casa, lo que mejora la adherencia al tratamiento.</li>
       </ul>
