@@ -4,12 +4,14 @@ import { getServicio } from "@/lib/servicios-contenido"
 
 const contenido = getServicio("respiratoria")!
 
+const title = "Kinesiología Respiratoria (KTR) a Domicilio Santiago"
+const description = "KTR a domicilio en Santiago para niños y adultos: bronquiolitis, SBO, neumonía y EPOC, con orden médica. Evaluación inicial gratuita."
+
 export const metadata: Metadata = {
-    title: 'Kinesiología Respiratoria (KTR) a Domicilio Santiago',
-    description: 'Tratamiento respiratorio a domicilio en Las Condes y Vitacura. Especialistas en Bronquitis, Neumonía, EPOC y KTR Infantil. Agende hoy.',
-    keywords: ['kinesiología respiratoria domicilio', 'kine respiratorio infantil', 'neumonía tratamiento casa', 'ktr domicilio santiago', 'bronquitis niños kinesiolgia'],
+    title,
+    description,
     alternates: {
-        canonical: 'https://kineum.cl/servicios/respiratoria',
+        canonical: "https://kineum.cl/servicios/respiratoria",
     },
 }
 

@@ -234,7 +234,7 @@ export default function BlogPage() {
               </h3>
               <ul className="space-y-1.5 text-sm">
                 <li><Link href="/ejercicios" className="text-slate-600 hover:text-amber-700">Biblioteca de Ejercicios</Link></li>
-                <li><Link href="/nosotros" className="text-slate-600 hover:text-amber-700">Nuestro Equipo Clínico</Link></li>
+                <li><Link href="/nosotros" className="text-slate-600 hover:text-amber-700">Quiénes somos</Link></li>
                 <li><Link href="/" className="text-slate-600 hover:text-amber-700">Inicio - KINEUM</Link></li>
               </ul>
             </div>

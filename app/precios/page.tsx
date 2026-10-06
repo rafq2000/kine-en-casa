@@ -321,7 +321,7 @@ export default function PreciosPage() {
                 href="/nosotros"
                 className="hover:text-amber-400 transition-colors font-medium text-slate-200"
               >
-                Equipo Clínico
+                Quiénes somos
               </Link>
               <Link
                 href="/#contacto"

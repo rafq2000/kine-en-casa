@@ -4,12 +4,14 @@ import { getServicio } from "@/lib/servicios-contenido"
 
 const contenido = getServicio("traumatologica")!
 
+const title = "Kinesiología Traumatológica a Domicilio en Santiago | KINEUM"
+const description = "Esguince, lumbago y tendinitis de hombro tratados en tu casa con carga progresiva, TENS y ultrasonido. Evaluación inicial gratuita. Desde $35.000."
+
 export const metadata: Metadata = {
-    title: 'Kinesiología Traumatológica a Domicilio | KINEUM',
-    description: 'Rehabilitación de lesiones musculares y esqueléticas en casa. Recuperación de prótesis de cadera, rodilla, esguinces y fracturas en Santiago.',
-    keywords: ['kinesiología traumatológica domicilio', 'rehabilitación fractura cadera', 'kine prótesis rodilla', 'tratamiento lumbago domicilio', 'esguince tobillo kine'],
+    title,
+    description,
     alternates: {
-        canonical: 'https://kineum.cl/servicios/traumatologica',
+        canonical: "https://kineum.cl/servicios/traumatologica",
     },
 }
 

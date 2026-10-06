@@ -4,12 +4,14 @@ import { getServicio } from "@/lib/servicios-contenido"
 
 const contenido = getServicio("geriatrica")!
 
+const title = "Kinesiología Geriátrica a Domicilio: Adulto Mayor | KINEUM"
+const description = "Kinesiología geriátrica a domicilio en Santiago: fuerza, equilibrio, prevención de caídas y recuperación tras una hospitalización. Evaluación gratuita."
+
 export const metadata: Metadata = {
-    title: 'Kinesiólogo a Domicilio para Adulto Mayor | KINEUM',
-    description: 'Rehabilitación geriátrica en Santiago. Tratamiento de Sarcopenia, prevención de caídas y artrosis. Kinesiólogos expertos en el cuidado del adulto mayor.',
-    keywords: ['kinesiología adulto mayor domicilio', 'kine geriatrica santiago', 'tratamiento sarcopenia', 'rehabilitación artrosis cadera', 'kinesiologo tercera edad'],
+    title,
+    description,
     alternates: {
-        canonical: 'https://kineum.cl/servicios/geriatrica',
+        canonical: "https://kineum.cl/servicios/geriatrica",
     },
 }
 

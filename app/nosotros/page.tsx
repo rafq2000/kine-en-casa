@@ -4,21 +4,15 @@ import { getServicio } from "@/lib/servicios-contenido"
 
 const contenido = getServicio("nosotros")!
 
+const title = "Quiénes Somos: Equipo de Kinesiología KINEUM"
+const description =
+    "Qué le exigimos a cada kinesiólogo de KINEUM, cómo trabajamos a domicilio en 9 comunas de Santiago y los datos de Kineum SpA para que los verifiques."
+
 export const metadata: Metadata = {
-    title: 'Kinesiólogos Certificados a Domicilio Santiago | KINEUM',
-    description: 'Conoce a los kinesiólogos certificados de KINEUM. Profesionales inscritos en la Superintendencia de Salud. Kinesiología a domicilio en Santiago.',
-    keywords: [
-        "kineum",
-        "kinesiólogos certificados santiago",
-        "equipo kineum",
-        "kinesiólogos a domicilio santiago",
-        "fisioterapeutas certificados",
-        "kineum opiniones",
-        "kinesiólogos superintendencia salud",
-        "kinesiólogos experiencia santiago",
-    ],
+    title,
+    description,
     alternates: {
-        canonical: 'https://kineum.cl/nosotros',
+        canonical: "https://kineum.cl/nosotros",
     },
 }
 

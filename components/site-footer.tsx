@@ -35,19 +35,19 @@ export function SiteFooter() {
                         <h4 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">Especialidades</h4>
                         <ul className="space-y-3 text-sm">
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
-                                <Link href="/servicios/neurologica">Neurorrehabilitación</Link>
+                                <Link href="/servicios/neurologica">Rehabilitación neurológica a domicilio</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
-                                <Link href="/servicios/respiratoria">Kinesiología Respiratoria</Link>
+                                <Link href="/servicios/respiratoria">Kinesiología respiratoria (KTR)</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
-                                <Link href="/servicios/traumatologica">Traumatología Avanzada</Link>
+                                <Link href="/servicios/traumatologica">Kinesiología traumatológica</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
                                 <Link href="/servicios/postquirurgica">Rehabilitación Postquirúrgica</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
-                                <Link href="/servicios/geriatrica">Geriatría Activa</Link>
+                                <Link href="/servicios/geriatrica">Kinesiología geriátrica (adulto mayor)</Link>
                             </li>
                         </ul>
                         <h4 className="font-bold text-white mb-4 mt-8 text-sm uppercase tracking-wider">Información</h4>
@@ -62,7 +62,7 @@ export function SiteFooter() {
                                 <Link href="/como-funciona">Cómo funciona</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
-                                <Link href="/nosotros">Equipo clínico</Link>
+                                <Link href="/nosotros">Quiénes somos</Link>
                             </li>
                             <li className="hover:text-amber-400 transition-colors cursor-pointer">
                                 <Link href="/blog">Blog</Link>

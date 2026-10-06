@@ -4,12 +4,14 @@ import { getServicio } from "@/lib/servicios-contenido"
 
 const contenido = getServicio("neurologica")!
 
+const title = "Rehabilitación Neurológica a Domicilio Santiago | KINEUM"
+const description = "Neurorehabilitación a domicilio en Santiago oriente: secuelas de ACV, Parkinson, esclerosis múltiple y parálisis facial. Evaluación inicial gratuita."
+
 export const metadata: Metadata = {
-    title: 'Rehabilitación Neurológica a Domicilio Santiago | KINEUM',
-    description: 'Rehabilitación neurológica experta en casa. Especialistas en recuperación post-ACV, Parkinson, Alzheimer y Esclerosis Múltiple. Neuroplasticidad aplicada.',
-    keywords: ['neurorehabilitación domicilio', 'kine neurológica santiago', 'recuperación acv', 'tratamiento parkinson kinesiologia', 'fisioterapia neurológica'],
+    title,
+    description,
     alternates: {
-        canonical: 'https://kineum.cl/servicios/neurologica',
+        canonical: "https://kineum.cl/servicios/neurologica",
     },
 }
 

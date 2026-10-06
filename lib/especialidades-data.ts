@@ -95,6 +95,8 @@ export const especialidades: Especialidad[] = [
             { titulo: "Sarcopenia: por qué la fuerza es el nuevo signo vital", url: "/blog/sarcopenia-fuerza-es-salud" },
             { titulo: "Fractura de cadera: el camino para volver a caminar", url: "/blog/fractura-cadera-adulto-mayor" },
             { titulo: "Vivir sin dolor con artrosis de rodilla", url: "/blog/artrosis-rodilla-ejercicios" },
+            { titulo: "Adulto mayor se cayó en la casa: qué hacer en el momento y después", url: "/blog/adulto-mayor-se-cayo-en-casa-que-hacer" },
+            { titulo: "Kinesiología a domicilio para un paciente postrado", url: "/blog/kinesiologia-paciente-postrado-en-casa" },
         ],
     },
     {

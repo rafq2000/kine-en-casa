@@ -233,7 +233,7 @@ export default function HomePage() {
                 Membresías
               </a>
               <Link href="/nosotros" className="hover:text-amber-400 transition-colors font-medium text-slate-200">
-                Equipo Clínico
+                Quiénes somos
               </Link>
               <a href="#contacto" className="hover:text-amber-400 transition-colors font-medium text-slate-200">
                 Contacto

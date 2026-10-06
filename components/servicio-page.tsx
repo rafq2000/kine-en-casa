@@ -8,12 +8,16 @@ import {
     Home,
     ShieldCheck,
     Clock,
+    CircleDollarSign,
+    BookOpen,
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { ComunasPorEspecialidad } from "@/components/comunas-por-especialidad"
 import { type ContenidoServicio } from "@/lib/servicios-contenido"
+import { especialidades } from "@/lib/especialidades-data"
+import { BOLETA_TEXTO } from "@/lib/negocio"
 
 const TEL = "+56999679593"
 const TEL_DISPLAY = "+56 9 9967 9593"
@@ -27,6 +31,7 @@ interface Props {
 export default function ServicioPage({ contenido, especialidadSlug }: Props) {
     const { url, h1, kicker, intro, secciones, faqs, cta } = contenido
     const waLink = `https://wa.me/56999679593?text=${encodeURIComponent(cta.whatsapp)}`
+    const articulos = especialidadSlug ? especialidades.find((e) => e.slug === especialidadSlug)?.articulos ?? [] : []
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -132,7 +137,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                             </a>
                         </div>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div className={`grid grid-cols-1 gap-4 ${especialidadSlug ? "sm:grid-cols-2 lg:grid-cols-4" : "sm:grid-cols-3"}`}>
                             <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                                 <ShieldCheck className="h-5 w-5 text-emerald-600 mb-2" />
                                 <p className="text-sm font-semibold text-slate-900">Evaluación inicial</p>
@@ -148,6 +153,16 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                 <p className="text-sm font-semibold text-slate-900">Boleta reembolsable</p>
                                 <p className="text-sm text-slate-600">Isapre y seguros</p>
                             </div>
+                            {especialidadSlug && (
+                                <Link
+                                    href="/precios"
+                                    className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm hover:border-amber-300 transition-colors"
+                                >
+                                    <CircleDollarSign className="h-5 w-5 text-amber-600 mb-2" />
+                                    <p className="text-sm font-semibold text-slate-900">Desde $35.000 por sesión</p>
+                                    <p className="text-sm text-amber-700">Ver planes y reembolso</p>
+                                </Link>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -205,6 +220,64 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                 </div>
             </article>
 
+            {/* Precio y reembolso (solo en páginas de especialidad; /nosotros no lo muestra) */}
+            {especialidadSlug && (
+                <section id="precio" className="py-16 md:py-20 bg-slate-950 text-white scroll-mt-20">
+                    <div className="container mx-auto px-4">
+                        <div className="max-w-5xl">
+                            <h2 className="text-3xl md:text-4xl font-bold font-serif mb-4">Precio y reembolso</h2>
+                            <p className="text-lg text-slate-300 mb-10 max-w-3xl">
+                                La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones
+                                necesitas. Todas las sesiones duran 60 minutos.
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+                                <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800">
+                                    <p className="text-sm uppercase tracking-wider text-slate-400 mb-2">Plan Essential</p>
+                                    <p className="text-3xl font-bold mb-1">$160.000</p>
+                                    <p className="text-slate-400">4 sesiones · $40.000 por sesión</p>
+                                </div>
+                                <div className="bg-amber-600 rounded-2xl p-6 border border-amber-500">
+                                    <p className="text-sm uppercase tracking-wider text-amber-100 mb-2">Plan Premium</p>
+                                    <p className="text-3xl font-bold mb-1">$350.000</p>
+                                    <p className="text-amber-50">10 sesiones · $35.000 por sesión</p>
+                                </div>
+                                <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800">
+                                    <p className="text-sm uppercase tracking-wider text-slate-400 mb-2">Plan Elite</p>
+                                    <p className="text-3xl font-bold mb-1">A consultar</p>
+                                    <p className="text-slate-400">Tratamientos intensivos o prolongados</p>
+                                </div>
+                            </div>
+                            <p className="text-slate-300 leading-relaxed mb-6 max-w-3xl">
+                                Emitimos {BOLETA_TEXTO}. Puedes presentarla a reembolso en tu Isapre y en tu seguro
+                                complementario según la cobertura de tu plan. Para reembolsar necesitas una orden médica con
+                                el diagnóstico y la indicación de kinesiología.
+                            </p>
+                            <p className="text-slate-400 mb-8">
+                                Detalle de cada plan en{" "}
+                                <Link href="/precios" className="text-amber-400 hover:underline">
+                                    precios y planes de kinesiología a domicilio
+                                </Link>{" "}
+                                y paso a paso en la{" "}
+                                <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-400 hover:underline">
+                                    guía de reembolso de kinesiología en tu Isapre
+                                </Link>
+                                .
+                            </p>
+                            <a
+                                href={waLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-cta="precio"
+                                className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                            >
+                                <MessageCircle className="h-5 w-5" />
+                                Agendar evaluación gratuita
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            )}
+
             {/* FAQ */}
             <section id="preguntas" className="py-16 md:py-20 bg-slate-50 border-y border-slate-200 scroll-mt-20">
                 <div className="container mx-auto px-4">
@@ -221,6 +294,36 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                     </div>
                 </div>
             </section>
+
+            {/* Guías clínicas del blog sobre esta especialidad */}
+            {articulos.length > 0 && (
+                <section className="py-16 md:py-20">
+                    <div className="container mx-auto px-4">
+                        <div className="max-w-5xl">
+                            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 font-serif mb-8 flex items-center gap-3">
+                                <BookOpen className="h-6 w-6 text-amber-600" />
+                                Guías clínicas
+                            </h2>
+                            <div className="grid md:grid-cols-3 gap-5">
+                                {articulos.map((a) => (
+                                    <Link
+                                        key={a.url}
+                                        href={a.url}
+                                        className="group bg-white rounded-xl p-6 border border-slate-200 hover:border-amber-300 hover:shadow-md transition-all"
+                                    >
+                                        <h3 className="font-bold text-slate-900 group-hover:text-amber-700 transition-colors leading-snug">
+                                            {a.titulo}
+                                        </h3>
+                                        <span className="inline-flex items-center gap-1 text-sm text-amber-700 mt-3 font-medium">
+                                            Leer guía <ChevronRight className="h-4 w-4" />
+                                        </span>
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* Comunas (solo en paginas de especialidad) */}
             {especialidadSlug && <ComunasPorEspecialidad especialidadSlug={especialidadSlug} />}
