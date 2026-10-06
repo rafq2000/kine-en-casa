@@ -279,7 +279,7 @@ export const especialidades: Especialidad[] = [
         ],
         servicioUrl: "/servicios/neurologica",
         articulos: [
-            { titulo: "Neuroplasticidad: acelerando la recuperación post-ACV", url: "/blog/neuroplasticidad-recuperacion-acv" },
+            { titulo: "Rehabilitación después de un ACV en casa: cuándo empezar, qué se hace y cómo ayuda la familia", url: "/blog/neuroplasticidad-recuperacion-acv" },
             { titulo: "Parálisis facial: la importancia de las primeras 72 horas", url: "/blog/paralisis-facial-rehabilitacion" },
         ],
     },

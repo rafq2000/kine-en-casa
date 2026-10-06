@@ -1462,42 +1462,86 @@ export const blogPosts = [
   {
     slug: "neuroplasticidad-recuperacion-acv",
     seoTitle: "Rehabilitación Post ACV en Casa: Cuándo Empezar | KINEUM",
-    seoDescription: "Cuándo iniciar la kinesiología tras un ACV, cuántas sesiones se necesitan y qué se hace en casa. Guía para la familia, con evaluación inicial gratis.",
-    title: "Rehabilitación post-ACV en casa: el rol de la neuroplasticidad",
-    subtitle: "Cómo la tecnología y los ejercicios cognitivos potencian la capacidad del cerebro para sanar.",
+    seoDescription: "Cuándo iniciar la kinesiología tras un ACV, qué se trabaja en las sesiones, cómo ayuda la familia y qué señales exigen llamar al SAMU 131. Evaluación gratis.",
+    title: "Rehabilitación después de un ACV en casa: cuándo empezar, qué se hace y cómo ayuda la familia",
+    subtitle: "Qué se trabaja en las sesiones, qué es la neuroplasticidad sin tecnicismos, cómo se coordina con el equipo médico y qué puede hacer la familia entre una sesión y otra.",
     author: "Equipo Clínico KINEUM",
     date: "24 Enero, 2026",
     dateISO: "2026-01-24",
-    readTime: "5 min lectura",
+    updatedISO: "2026-10-05",
+    readTime: "9 min lectura",
     category: "Rehabilitación Neurológica",
     image: "/images/neuroplasticidad_acv_hero_1769277615017.png",
     icon: Brain,
-    content: `<p class="lead">La recuperación después de un Accidente Cerebrovascular (ACV) no termina en el alta hospitalaria. De hecho, es ahí donde comienza el verdadero desafío de la neuroplasticidad: la capacidad del cerebro para reconfigurarse y recuperar funciones perdidas.</p>
+    content: `<p class="lead">La recuperación después de un accidente cerebrovascular (ACV) no termina con el alta. Para muchas familias es justo ahí donde empieza lo más difícil: llegar a la casa con alguien que ya no camina, no mueve bien un brazo o no habla como antes, y no saber por dónde partir. Esta guía explica cuándo conviene empezar la kinesiología en casa, qué se trabaja, cómo ayuda la familia y qué señales obligan a llamar al SAMU 131. No reemplaza las indicaciones del neurólogo ni del equipo que lo trató.</p>
 
-      <h2>¿Qué es la Neuroplasticidad?</h2>
-      <p>Tradicionalmente se creía que el cerebro adulto era estático. Hoy sabemos que es maleable. La neuroplasticidad es el mecanismo biológico mediante el cual el cerebro genera nuevas conexiones neuronales para compensar las áreas dañadas.</p>
+<h2>Cuándo empezar la rehabilitación después de un ACV</h2>
+<p>La rehabilitación suele partir en el hospital, apenas el equipo médico considera que la persona está estable. Lo importante es que <strong>no se corte al volver a la casa</strong>: los días sin moverse cuestan fuerza, equilibrio y confianza, y en ese período el cerebro está especialmente dispuesto a reaprender.</p>
+<p>Lo razonable es coordinar la primera visita para los primeros días después del alta, con el informe de alta en la mano. Ahí aparece qué tipo de ACV fue, qué zonas quedaron afectadas y qué indicaciones dejó el equipo (presión, medicamentos, restricciones). Si tu familiar tuvo el ACV hace meses o años y nunca hizo rehabilitación, también vale la pena consultar: se puede seguir mejorando después de la primera etapa, aunque el ritmo suele ser más lento.</p>
 
-      <h2>El Protocolo KINEUM</h2>
-      <p>En Kineum utilizamos un enfoque basado en la evidencia para maximizar este proceso:</p>
-      <ul>
-        <li><strong>Repetición Intensiva:</strong> La práctica masiva de movimientos específicos es clave para fijar nuevas rutas neuronales.</li>
-        <li><strong>Imaginería Motora:</strong> Entrenamos al paciente para visualizar el movimiento, activando las mismas áreas corticales que al ejecutarlo.</li>
-        <li><strong>Tecnología Asistiva:</strong> Uso de tablets y apps especializadas para estimular la cognición junto con la movilidad.</li>
-      </ul>
+<h2>Qué se trabaja en las sesiones</h2>
+<p>Cada ACV deja secuelas distintas, así que el plan se arma después de evaluar. En la primera visita miramos cómo se mueve en la cama, cómo se sienta y se para, cómo camina (si camina), cómo usa el brazo afectado, cómo está su equilibrio y cómo es la casa. Con eso definimos objetivos concretos, por ejemplo ir solo al baño o volver a comer con la mano afectada.</p>
+<p>Lo que habitualmente se trabaja:</p>
+<ul>
+<li><strong>Traslados y control del tronco:</strong> girarse en la cama, sentarse al borde, pararse de la silla. Es la base de todo lo demás.</li>
+<li><strong>Marcha y equilibrio:</strong> caminar con o sin ayuda técnica, con pasos seguros, y practicar los trayectos reales de la casa.</li>
+<li><strong>Uso del brazo y la mano afectados:</strong> tareas cotidianas convertidas en ejercicio, como alcanzar un vaso, abrir un cajón o sostener un objeto, repetidas muchas veces.</li>
+<li><strong>Fuerza y movilidad:</strong> mantener el rango de las articulaciones del lado afectado y cuidar el hombro, que suele doler si se descuida.</li>
+<li><strong>Prevención de caídas:</strong> después de un ACV el riesgo de caerse aumenta, así que se revisan la casa, el calzado y los apoyos.</li>
+</ul>
+<p>Si hay problemas para tragar, hablar o entender, eso lo trabaja un fonoaudiólogo; y las actividades de la vida diaria, como vestirse o asearse, suelen ser terreno del terapeuta ocupacional. Cuando hacen falta, te lo decimos.</p>
 
-      <blockquote>
-        "La ventana de recuperación más crítica son los primeros 6 meses, pero la neuroplasticidad puede estimularse durante toda la vida con el estímulo correcto."
-      </blockquote>
+<h2>La neuroplasticidad explicada simple</h2>
+<p>Durante mucho tiempo se pensó que el cerebro adulto no cambiaba. Hoy se sabe que sí: la neuroplasticidad es la capacidad del cerebro de reorganizarse y armar nuevas conexiones para que otras zonas asuman parte de lo que hacía la zona dañada.</p>
+<p>Lo práctico es que esa reorganización se estimula con <strong>práctica específica y repetida</strong>. El cerebro aprende lo que se practica: si la persona practica pararse de la silla, mejora en pararse de la silla. Por eso las sesiones se centran en tareas reales y no en ejercicios sueltos, y por eso importa tanto lo que pasa entre una sesión y otra.</p>
 
-      <h2>Ejercicios para el Hogar</h2>
-      <p>Nuestros kinesiólogos diseñan rutinas que integran tareas cotidianas (como alcanzar un vaso) convertidas en ejercicios terapéuticos de alta repetición, asegurando que la rehabilitación sea continua y significativa. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a>.</p>
+<h2>Cuántas sesiones se necesitan</h2>
+<p>Depende del tamaño y la zona del ACV, de cómo estaba la persona antes y de los objetivos. La rehabilitación neurológica suele ser un proceso largo, de meses, con más sesiones al principio y un plan de ejercicios para la casa que se va ajustando. En la evaluación inicial, que es gratuita, te damos una estimación y la revisamos según cómo responde. Puedes ver de qué depende el número en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología se necesitan según el caso</a>; para tratamientos largos, el Plan Premium (10 sesiones al mes, $35.000 por sesión) suele calzar mejor. Los valores están en nuestra <a href="/precios">página de precios</a>.</p>
 
+<h2>Qué puede hacer la familia entre sesiones</h2>
+<p>El kinesiólogo aporta las horas de entrenamiento supervisado, pero la mayoría de las repeticiones ocurren cuando no está. La indicación más importante para la familia suele ser contraintuitiva: no hacer las cosas por la persona. Cada vez que alguien le abotona la camisa para ir más rápido, le quita una repetición al cerebro que está tratando de reaprender.</p>
+<p>Eso no significa dejarla sola frente a una tarea imposible. Significa graduar la ayuda: permitir que intente, asistir solo en la parte donde se traba y retirar el apoyo a medida que mejora. Ese ajuste fino es parte de lo que entrenamos con el cuidador en las primeras sesiones. Otras ideas que ayudan:</p>
+<ul>
+<li>Ponerle las cosas de uso diario del lado afectado, para que tenga que buscarlas.</li>
+<li>Hablarle y acercarse también por ese lado.</li>
+<li>Mantener rutinas: horarios fijos para levantarse, comer y hacer los ejercicios.</li>
+<li>Cuidar el ánimo. Después de un ACV es frecuente la tristeza o la irritabilidad; si dura, coméntalo con su médico.</li>
+</ul>
+<p>Si tu familiar pasa la mayor parte del día en cama, te puede servir nuestra guía sobre <a href="/blog/kinesiologia-paciente-postrado-en-casa">kinesiología para un paciente postrado en casa</a>.</p>
 
-      <h2>Qué puede hacer la familia entre sesiones</h2>
-      <p>El kinesiólogo aporta las horas de entrenamiento supervisado, pero la mayoría de las repeticiones ocurren cuando no está. La indicación más importante para la familia suele ser contraintuitiva: no hacer las cosas por la persona. Cada vez que alguien le abotona la camisa para ir más rápido, le quita una repetición al cerebro que está tratando de reaprender.</p>
-      <p>Eso no significa dejarla sola frente a una tarea imposible. Significa graduar la ayuda: permitir que intente, asistir solo en la parte donde se traba, y retirar el apoyo a medida que mejora. Ese ajuste fino es parte de lo que entrenamos con el cuidador en las primeras sesiones.</p>
-      <p>¿Un familiar tuvo un ACV recientemente? Los primeros meses son decisivos. <a href="https://wa.me/56999679593?text=Hola,%20necesito%20rehabilitaci%C3%B3n%20post%20ACV">Escríbenos por WhatsApp</a> y evaluamos su caso en su propio hogar, sin costo.</p>
-    `
+<h2>Cómo se coordina con el equipo médico</h2>
+<p>El kinesiólogo trabaja dentro de las indicaciones del neurólogo o del médico tratante. Antes de partir revisamos el informe de alta y, si algo no está claro, te pedimos que lo consultes en el control. Durante el tratamiento te avisamos si vemos algo que el médico debería saber, como cambios en la presión, mareos nuevos o un retroceso que no se explica. Si la persona necesita fonoaudiología o terapia ocupacional, te recomendamos consultarlas.</p>
+
+<h2>Señales de un nuevo ACV: llama al SAMU 131</h2>
+<p>Llama de inmediato al <strong>SAMU 131</strong> si aparece de forma repentina cualquiera de estas señales, aunque dure poco:</p>
+<ul>
+<li>La cara se desvía hacia un lado o no puede sonreír de forma pareja.</li>
+<li>Pérdida de fuerza o adormecimiento de un brazo o una pierna, sobre todo de un solo lado.</li>
+<li>Dificultad para hablar, para encontrar las palabras o para entender lo que le dicen.</li>
+<li>Pérdida de visión de uno o ambos ojos, o visión doble.</li>
+<li>Mareo intenso, pérdida del equilibrio o dificultad para caminar que aparece de golpe.</li>
+<li>Un dolor de cabeza muy fuerte y distinto a los habituales.</li>
+</ul>
+<p>Anota la hora en que empezaron los síntomas o la última vez que la viste bien: es un dato que el equipo de urgencia va a pedir. No le des comida, bebida ni medicamentos mientras esperas.</p>
+
+<h2>Boleta y reembolso</h2>
+<p>KINEUM es un servicio particular. Después de cada sesión recibes una boleta de honorarios electrónica que puedes presentar en tu Isapre o seguro complementario. El reembolso depende de la cobertura de tu plan y casi siempre piden orden médica. El paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología en la Isapre</a>.</p>
+
+<h2>Preguntas frecuentes sobre la rehabilitación post ACV en casa</h2>
+<h3>¿Es tarde para empezar si el ACV fue hace meses?</h3>
+<p>No necesariamente. Los primeros meses suelen ser los de cambios más rápidos, pero muchas personas siguen mejorando en tareas concretas después de esa etapa si practican de forma específica. En la evaluación vemos qué objetivos son realistas.</p>
+<h3>¿La rehabilitación neurológica se puede hacer bien en la casa?</h3>
+<p>Para gran parte del trabajo, sí: en la casa se practica justo donde la persona vive, en su cama, su baño y su pasillo. Si en algún momento necesita equipos que no se pueden llevar, te lo decimos.</p>
+<h3>¿Cuántas veces a la semana conviene la sesión?</h3>
+<p>Al principio suele convenir más de una vez por semana, y la frecuencia se ajusta según cómo avanza. Lo que más pesa es la práctica diaria entre sesiones, por eso siempre queda un plan para la casa.</p>
+<h3>¿Qué hago si no quiere hacer los ejercicios?</h3>
+<p>Es frecuente, sobre todo si hay cansancio o desánimo. Ayuda partir con metas pequeñas que le importen, como ir solo al baño, y celebrar los avances. Si el desánimo dura, coméntalo con su médico.</p>
+<h3>¿Necesito orden médica?</h3>
+<p>Para atenderse de forma particular, en general no. Para pedir el reembolso en la Isapre, casi siempre sí, así que conviene pedirla en el control con el neurólogo.</p>
+<h3>¿Atienden en mi comuna?</h3>
+<p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
+
+<p>¿Un familiar tuvo un ACV y ya está en la casa? Podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su médico. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20rehabilitaci%C3%B3n%20post%20ACV%20en%20casa">escríbenos por WhatsApp</a>.</p>`
   },
   {
     slug: "ergonomia-home-office-guia-2024",
