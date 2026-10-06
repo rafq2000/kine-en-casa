@@ -126,8 +126,8 @@ export function SiteFooter() {
                         © {new Date().getFullYear()} KINEUM. Todos los derechos reservados.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0 text-xs text-slate-600">
-                        <span className="hover:text-slate-400 cursor-pointer">Privacidad</span>
-                        <span className="hover:text-slate-400 cursor-pointer">Sitemap</span>
+                        {/* "Privacidad" vuelve cuando exista /privacidad (T30, pendiente de aprobación de Ricardo) */}
+                        <a href="/sitemap.xml" className="hover:text-slate-400">Sitemap</a>
                     </div>
                 </div>
             </div>
