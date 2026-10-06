@@ -92,10 +92,10 @@ export const especialidades: Especialidad[] = [
         ],
         servicioUrl: "/servicios/geriatrica",
         articulos: [
-            { titulo: "Fractura o prótesis de cadera en el adulto mayor: cómo es la rehabilitación en casa", url: "/blog/fractura-cadera-adulto-mayor" },
-            { titulo: "Vivir sin dolor con artrosis de rodilla", url: "/blog/artrosis-rodilla-ejercicios" },
+            { titulo: "Kinesiología a domicilio para un paciente postrado: qué se puede hacer, de verdad", url: "/blog/kinesiologia-paciente-postrado-en-casa" },
             { titulo: "Adulto mayor se cayó en la casa: qué hacer en el momento y después", url: "/blog/adulto-mayor-se-cayo-en-casa-que-hacer" },
-            { titulo: "Kinesiología a domicilio para un paciente postrado", url: "/blog/kinesiologia-paciente-postrado-en-casa" },
+            { titulo: "Fractura o prótesis de cadera en el adulto mayor: cómo es la rehabilitación en casa", url: "/blog/fractura-cadera-adulto-mayor" },
+            { titulo: "Vivir sin Dolor con Artrosis de Rodilla", url: "/blog/artrosis-rodilla-ejercicios" },
         ],
     },
     {
@@ -155,9 +155,10 @@ export const especialidades: Especialidad[] = [
         ],
         servicioUrl: "/servicios/postquirurgica",
         articulos: [
-            { titulo: "Vida después de la prótesis de rodilla", url: "/blog/protesis-rodilla-recuperacion" },
-            { titulo: "Drenaje linfático post operatorio a domicilio", url: "/blog/drenaje-linfatico-post-operatorio-domicilio" },
+            { titulo: "Prótesis de rodilla: cómo es la recuperación en tu casa, paso a paso", url: "/blog/protesis-rodilla-recuperacion" },
             { titulo: "Fractura o prótesis de cadera en el adulto mayor: cómo es la rehabilitación en casa", url: "/blog/fractura-cadera-adulto-mayor" },
+            { titulo: "¿Cuántas sesiones de kinesiología necesito? Rangos orientativos según tu caso", url: "/blog/cuantas-sesiones-de-kinesiologia-necesito" },
+            { titulo: "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar", url: "/blog/drenaje-linfatico-post-operatorio-domicilio" },
         ],
     },
     {
@@ -217,7 +218,7 @@ export const especialidades: Especialidad[] = [
         ],
         servicioUrl: "/servicios/respiratoria",
         articulos: [
-            { titulo: "Kinesiología respiratoria infantil: guía para padres", url: "/blog/kinesiologia-respiratoria-infantil-domicilio" },
+            { titulo: "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres", url: "/blog/kinesiologia-respiratoria-infantil-domicilio" },
         ],
     },
     {
@@ -278,7 +279,7 @@ export const especialidades: Especialidad[] = [
         servicioUrl: "/servicios/neurologica",
         articulos: [
             { titulo: "Rehabilitación después de un ACV en casa: cuándo empezar, qué se hace y cómo ayuda la familia", url: "/blog/neuroplasticidad-recuperacion-acv" },
-            { titulo: "Parálisis facial: la importancia de las primeras 72 horas", url: "/blog/paralisis-facial-rehabilitacion" },
+            { titulo: "Parálisis Facial: La Importancia de las Primeras 72 Horas", url: "/blog/paralisis-facial-rehabilitacion" },
         ],
     },
     {
@@ -338,10 +339,13 @@ export const especialidades: Especialidad[] = [
         ],
         servicioUrl: "/servicios/traumatologica",
         articulos: [
-            { titulo: "Esguince de tobillo: protocolo de recuperación acelerada", url: "/blog/esguince-tobillo-recuperacion" },
+            { titulo: "Esguince de Tobillo: Cuánto Demora y Qué Hacer", url: "/blog/esguince-tobillo-recuperacion" },
             { titulo: "Lumbago agudo: qué hacer las primeras 48 horas y cuándo llamar al kinesiólogo", url: "/blog/lumbago-agudo-que-hacer" },
-            { titulo: "Tendinitis de hombro: salvando tu manguito rotador", url: "/blog/tendinitis-hombro-manguito-rotador" },
-            { titulo: "Ciática: cómo distinguir el dolor real de la falsa ciática", url: "/blog/ciatica-sintomas-tratamiento" },
+            { titulo: "Tendinitis de hombro: cómo recuperar el manguito rotador", url: "/blog/tendinitis-hombro-manguito-rotador" },
+            { titulo: "Ciática: cómo distinguir el dolor real de la falsa ciática y qué hacer", url: "/blog/ciatica-sintomas-tratamiento" },
+            { titulo: "Hernia Discal: ¿Cuándo se Opera y Qué Hacer Mientras Tanto?", url: "/blog/hernia-discal-operacion" },
+            { titulo: "Túnel Carpiano: Qué Puede Hacer la Kinesiología Antes del Pabellón", url: "/blog/tunel-carpiano-alivio" },
+            { titulo: "Fascitis Plantar: el Dolor del Primer Paso de la Mañana", url: "/blog/fascitis-plantar-solucion" },
         ],
     },
 ]

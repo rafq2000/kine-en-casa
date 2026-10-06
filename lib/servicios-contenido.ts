@@ -15,6 +15,8 @@ export interface SeccionServicio {
     listaTitulo?: string
     /** true para señales de urgencia: se destaca visualmente en ambar */
     alerta?: boolean
+    /** Enlace interno al final de los párrafos: "{antes} {texto}." */
+    enlace?: { texto: string; href: string; antes?: string }
 }
 
 export interface ContenidoServicio {
@@ -261,10 +263,10 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
         slug: 'traumatologica',
         url: 'https://kineum.cl/servicios/traumatologica',
         breadcrumb: 'Kinesiología traumatológica',
-        kicker: 'Lesiones y post operatorio',
+        kicker: 'Lesiones y dolor',
         h1: 'Kinesiología Traumatológica a Domicilio',
         intro:
-            'Lesiones musculares, articulares y de tendones tienen algo en común: se recuperan con carga progresiva bien dosificada, no con reposo. Esa es la diferencia entre volver a moverte sin dolor en algunas semanas y quedar con una molestia que reaparece cada tanto durante años. Y si acabas de salir de pabellón, el traslado a un centro es justamente lo que más te conviene evitar.',
+            'Lesiones musculares, articulares y de tendones tienen algo en común: se recuperan con carga progresiva bien dosificada, no con reposo. Esa es la diferencia entre volver a moverte sin dolor en algunas semanas y quedar con una molestia que reaparece cada tanto durante años.',
         secciones: [
             {
                 h2: 'Por qué el reposo prolongado es la peor receta',
@@ -273,6 +275,11 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                     'Esto no significa seguir como si nada. Significa modificar la carga en lugar de eliminarla: bajar la intensidad, cambiar el gesto, reducir el rango, pero mantener al tejido trabajando. La dosis correcta es la que genera una molestia tolerable que no aumenta al día siguiente.',
                     'El error más común que vemos no es exigirse de más, sino inmovilizar de más y volver de golpe a la actividad completa cuando el dolor cede. Ahí ocurre la recaída.',
                 ],
+                enlace: {
+                    antes: 'Si vienes saliendo de una cirugía, el plan es otro y lo explicamos en',
+                    texto: 'rehabilitación postquirúrgica a domicilio',
+                    href: '/servicios/postquirurgica',
+                },
             },
             {
                 h2: 'Lumbago: qué hacer las primeras 48 horas',
@@ -296,14 +303,6 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                     'El dolor de hombro por tendinopatía del manguito rotador es muy frecuente después de los 40. La evidencia disponible muestra que, en casos no traumáticos, un programa de ejercicio progresivo bien conducido obtiene resultados comparables a la cirugía en buena parte de los pacientes.',
                     'El tratamiento parte con ejercicios isométricos, que además tienen efecto analgésico, progresa a trabajo con resistencia y termina con fortalecimiento funcional por sobre la cabeza. Suele tomar entre 8 y 12 semanas de trabajo constante.',
                     'Los tres errores que perpetúan el dolor son conocidos: reposo total del brazo, estiramientos agresivos sobre un tendón irritado, e infiltraciones repetidas sin rehabilitar después.',
-                ],
-            },
-            {
-                h2: 'Post operatorio: la ventana que no vuelve',
-                parrafos: [
-                    'Después de una cirugía —prótesis de rodilla o cadera, artroscopia, reparación de manguito, ligamento cruzado— hay una regla que conviene no ignorar: el rango de movimiento que no se gana en las primeras semanas cuesta muchísimo más recuperar después, y a veces no se recupera.',
-                    'El tejido cicatricial se organiza rápido. Sin movilización dentro de lo que autorizó el cirujano, la articulación se rigidiza. En prótesis de rodilla, además, dormir con una almohada bajo la rodilla porque duele menos es la forma más eficiente de terminar con una extensión incompleta y una marcha coja permanente.',
-                    'Todo el trabajo se hace respetando el protocolo y las precauciones que indicó tu traumatólogo, y documentando la evolución para sus controles.',
                 ],
             },
             {
@@ -346,10 +345,6 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 q: '¿Puedo seguir entrenando durante el tratamiento?',
                 a: 'En general sí, ajustando la carga. Detener toda actividad suele retrasar la recuperación y desacondiciona el resto del cuerpo. Lo que hacemos es modificar el estímulo, no eliminarlo: cambiar el gesto, el rango o la intensidad.',
-            },
-            {
-                q: '¿Cuándo empiezo después de una cirugía?',
-                a: 'Idealmente apenas recibes el alta, coordinado con tu traumatólogo y respetando sus precauciones. Empezar tarde es la causa más común de rigidez articular persistente.',
             },
             {
                 q: '¿Trabajan coordinados con mi traumatólogo?',

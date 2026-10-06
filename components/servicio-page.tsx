@@ -214,6 +214,15 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                             {p}
                                         </p>
                                     ))}
+                                    {s.enlace && (
+                                        <p className="leading-relaxed text-slate-600">
+                                            {s.enlace.antes}{" "}
+                                            <Link href={s.enlace.href} className="text-amber-700 font-medium hover:underline">
+                                                {s.enlace.texto}
+                                            </Link>
+                                            .
+                                        </p>
+                                    )}
                                 </div>
                                 {s.lista && s.lista.length > 0 && (
                                     <div className="mt-6">

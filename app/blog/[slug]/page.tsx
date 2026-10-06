@@ -134,8 +134,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
         ...postsIndexables.filter((p) => p.slug !== post.slug && p.category === post.category),
         ...postsIndexables.filter((p) => p.slug !== post.slug && p.category !== post.category),
     ].slice(0, 3)
-    const servicioRelacionado =
-        especialidades.find((e) => e.articulos.some((a) => a.url === `/blog/${post.slug}`)) ?? especialidades[0]
+    const servicioRelacionado = especialidades.find((e) => e.articulos.some((a) => a.url === `/blog/${post.slug}`))
 
     const faqs = faqsDelPost(post.content)
     const faqSchema = faqs.length
@@ -364,9 +363,15 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     </div>
                     <p className="text-slate-600 mt-8">
                         ¿Necesitas atención?{" "}
-                        <Link href={servicioRelacionado.servicioUrl} className="text-amber-700 font-medium hover:underline">
-                            {servicioRelacionado.nombre} a domicilio
-                        </Link>
+                        {servicioRelacionado ? (
+                            <Link href={servicioRelacionado.servicioUrl} className="text-amber-700 font-medium hover:underline">
+                                {servicioRelacionado.nombre} a domicilio
+                            </Link>
+                        ) : (
+                            <Link href="/" className="text-amber-700 font-medium hover:underline">
+                                kinesiólogo a domicilio en Santiago
+                            </Link>
+                        )}
                         ,{" "}
                         <Link href="/precios" className="text-amber-700 font-medium hover:underline">
                             precios y planes

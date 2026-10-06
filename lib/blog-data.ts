@@ -13,7 +13,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "10 min lectura",
-    category: "Geriatría Activa",
+    category: "Adulto mayor",
     image: "/images/blog-paciente-postrado.jpg",
     icon: Users,
     content: `<p class="lead">Si llegaste hasta acá es probable que en tu casa haya alguien que ya no se levanta solo. Quizás fue un ACV, una fractura de cadera, una hospitalización larga o un deterioro que se fue instalando de a poco. Y probablemente estás cansado. Esta guía es para explicarte, sin promesas de más, qué puede hacer un kinesiólogo a domicilio con un paciente postrado, qué se busca prevenir y cuál es el papel real del cuidador, que es quien sostiene el plan los otros seis días de la semana.</p>
@@ -343,7 +343,7 @@ export const blogPosts = [
     dateISO: "2026-09-17",
     updatedISO: "2026-09-29",
     readTime: "7 min lectura",
-    category: "Precios y Reembolsos",
+    category: "Precios y reembolsos",
     image: "/images/blog-sin-orden-medica.jpg",
     icon: FileText,
     content: `<p class="lead">Te duele la espalda, te operaron hace poco o tu mamá quedó con poca movilidad después de una hospitalización, y aparece la pregunta: ¿puedo ir al kinesiólogo sin orden médica? En corto: puedes pedir una evaluación, pero en Chile el reglamento vigente dice que el tratamiento kinesiológico se aplica por orden médica escrita. Además, tu Isapre o tu seguro complementario habitualmente te la va a pedir para reembolsar. Aquí te explicamos qué dice la regla, qué debe decir la orden y qué hacer si todavía no la tienes.</p>
@@ -649,7 +649,7 @@ export const blogPosts = [
     dateISO: "2026-09-17",
     updatedISO: "2026-10-05",
     readTime: "6 min lectura",
-    category: "Precios y cobertura",
+    category: "Precios y reembolsos",
     image: "/images/blog-kinesiologo-particular.jpg",
     icon: CircleDollarSign,
     content: `<p class="lead">Un kinesiólogo particular cobra entre $30.000 y $38.000 por sesión en consulta en el sector oriente de Santiago, y entre $35.000 y $50.000 a domicilio, según las tarifas publicadas que revisamos en septiembre de 2026. Revisamos las tarifas que centros y plataformas de Santiago publican en sus sitios (consultadas en septiembre de 2026) para darte rangos referenciales reales, no cifras inventadas.</p>
@@ -926,7 +926,7 @@ export const blogPosts = [
     dateISO: "2026-09-17",
     updatedISO: "2026-10-05",
     readTime: "7 min lectura",
-    category: "Geriatría Activa",
+    category: "Adulto mayor",
     image: "/images/blog-caida-adulto-mayor.jpg",
     icon: Shield,
     content: `<p class="lead">Si tu papá, tu mamá o tu abuela se cayó en la casa, lo primero es no apurarse en levantarlo. Acá tienes qué hacer en el momento, cuándo llamar al SAMU (131), qué vigilar después y cómo prevenir otra caída. No reemplaza la evaluación de un médico: si tienes dudas, consulta.</p>
@@ -1043,7 +1043,7 @@ export const blogPosts = [
     dateISO: "2026-07-02",
     updatedISO: "2026-10-05",
     readTime: "8 min lectura",
-    category: "Precios y Reembolsos",
+    category: "Precios y reembolsos",
     image: "/images/blog-precios-kinesiologia-2026.jpg",
     icon: CircleDollarSign,
     content: `<p class="lead">Una sesión de kinesiología a domicilio en Santiago cuesta entre $35.000 y $50.000 según las tarifas publicadas que revisamos en septiembre y octubre de 2026, y puede subir en fines de semana o festivos. En KINEUM la sesión sale $35.000 en el plan de 10 y $40.000 en el de 4, con evaluación inicial gratuita. Abajo te explicamos de qué depende el precio y cómo pedir el reembolso en tu Isapre.</p>
@@ -1130,7 +1130,7 @@ export const blogPosts = [
     dateISO: "2026-09-17",
     updatedISO: "2026-10-05",
     readTime: "8 min lectura",
-    category: "Precios y Reembolsos",
+    category: "Precios y reembolsos",
     image: "/images/blog-isapre-kinesiologia.jpg",
     icon: Building2,
     content: `<p class="lead">Si tienes Isapre, puedes pedir el reembolso de tus sesiones de kinesiología con la boleta de honorarios electrónica que te entrega el kinesiólogo. Cuánto te devuelven depende de tu plan, no de un porcentaje fijo. Aquí te explicamos cómo es el trámite en cada isapre, qué documentos te piden y por qué conviene tener la orden médica antes de empezar.</p>
@@ -1336,7 +1336,7 @@ export const blogPosts = [
     dateISO: "2026-07-13",
     updatedISO: "2026-10-05",
     readTime: "7 min lectura",
-    category: "Salud Mujer",
+    category: "Guías",
     image: "/images/blog-piso-pelvico-post-parto.jpg",
     icon: Shield,
     content: `<p class="lead">Acabas de tener a tu bebé y entre la lactancia, las noches sin dormir y los controles del recién nacido, ir a un centro de rehabilitación es casi imposible. Por eso la kinesiología de piso pélvico <strong>a domicilio</strong> se volvió el formato preferido de las mamás en Santiago: la especialista llega a tu casa, en el horario de la siesta del bebé. Y no es solo un tema de puerperio: la incontinencia, los prolapsos y las molestias que aparecen años después también se tratan, y también se pueden tratar en casa.</p>
@@ -1418,7 +1418,7 @@ export const blogPosts = [
     dateISO: "2026-07-13",
     updatedISO: "2026-09-29",
     readTime: "6 min lectura",
-    category: "Post-Quirúrgico",
+    category: "Postquirúrgico",
     image: "/images/blog-drenaje-post-operatorio.jpg",
     icon: Heart,
     content: `<p class="lead">Después de una cirugía —plástica u ortopédica— el cuerpo se inflama: es parte normal de la cicatrización. El problema es cuando ese edema se estanca, duele, tira la piel y retrasa la recuperación. Ahí entra el drenaje linfático manual post operatorio, y hacerlo <strong>a domicilio</strong> no es un lujo: recién operado, lo último que deberías hacer es viajar por Santiago.</p>
@@ -1470,7 +1470,7 @@ export const blogPosts = [
     dateISO: "2026-01-24",
     updatedISO: "2026-10-05",
     readTime: "9 min lectura",
-    category: "Rehabilitación Neurológica",
+    category: "Neurología",
     image: "/images/neuroplasticidad_acv_hero_1769277615017.png",
     icon: Brain,
     content: `<p class="lead">La recuperación después de un accidente cerebrovascular (ACV) no termina con el alta. Para muchas familias es justo ahí donde empieza lo más difícil: llegar a la casa con alguien que ya no camina, no mueve bien un brazo o no habla como antes, y no saber por dónde partir. Esta guía explica cuándo conviene empezar la kinesiología en casa, qué se trabaja, cómo ayuda la familia y qué señales obligan a llamar al SAMU 131. No reemplaza las indicaciones del neurólogo ni del equipo que lo trató.</p>
@@ -1556,7 +1556,7 @@ export const blogPosts = [
     dateISO: "2026-06-12",
     updatedISO: "2026-10-05",
     readTime: "9 min lectura",
-    category: "Columna Vertebral",
+    category: "Traumatología y columna",
     image: "/images/exercise_glute_bridge_1769277694981.png",
     icon: Activity,
     content: `<p class="lead">Te agachaste a recoger algo, te levantaste de la cama o simplemente amaneciste así: un dolor fuerte en la parte baja de la espalda que te deja medio doblado. El lumbago es de las consultas más comunes del mundo; según la <a href="https://www.who.int/news-room/fact-sheets/detail/low-back-pain" target="_blank" rel="noopener noreferrer">Organización Mundial de la Salud</a>, el dolor lumbar es la principal causa de discapacidad a nivel mundial. La buena noticia es que la mayoría de los episodios no se deben a una lesión grave. Acá tienes qué hacer los primeros días, qué evitar y cuándo conviene que te vea un kinesiólogo.</p>
@@ -1654,7 +1654,7 @@ export const blogPosts = [
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
     readTime: "6 min lectura",
-    category: "Traumatología",
+    category: "Traumatología y columna",
     image: "/images/exercise_ankle_pumps_1769278342170.png",
     icon: Zap,
     content: `<p class="lead">Un esguince "mal curado" no existe: lo que existe es un esguince mal rehabilitado. En muchos casos el dolor cede y vuelves a caminar en pocas semanas, pero eso no significa que el tobillo haya recuperado fuerza, rango y control. Y no todo lo que duele tras una torcedura es un esguince. Acá va cuánto demora, qué hace un kinesiólogo en tu casa y cuándo consultar a un médico.</p>
@@ -1751,7 +1751,7 @@ export const blogPosts = [
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
     readTime: "7 min lectura",
-    category: "Neurología Periférica",
+    category: "Traumatología y columna",
     image: "/images/exercise_hamstring_stretch_bed_1769278314068.png",
     icon: Activity,
     content: `<p class="lead">"Tengo ciática" es una de las frases que más escuchamos. Pero no todo dolor que baja por la pierna es una hernia comprimiendo el nervio: el músculo piramidal (piriforme) produce un cuadro parecido con un tratamiento distinto. Orientar bien el caso es lo primero que hace un kinesiólogo al llegar a tu casa, y es lo que define si avanzas o das vueltas durante meses.</p>
@@ -1860,7 +1860,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "7 min lectura",
-    category: "Extremidad Superior",
+    category: "Traumatología y columna",
     image: "/images/exercise_shoulder_rotation_1769277710068.png",
     icon: Activity,
     content: `<p class="lead">Duele al levantar el brazo, al abrochar el sostén o al alcanzar el cinturón de seguridad. La tendinopatía del manguito rotador —lo que solemos llamar "tendinitis de hombro"— es una de las causas más frecuentes de dolor de hombro en adultos, y en la mayoría de los casos no traumáticos se trabaja con ejercicio progresivo y terapia manual antes de pensar en pabellón.</p>
@@ -1955,7 +1955,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "7 min lectura",
-    category: "Geriatría Activa",
+    category: "Adulto mayor",
     image: "/knee-rehabilitation.png",
     icon: Users,
     content: `<p class="lead">"Tengo desgaste, así que mejor no camino." Es la conclusión más lógica frente a una radiografía con artrosis de rodilla, y también la que más dolor termina costando. El cartílago se nutre del movimiento y el músculo que protege la rodilla solo se mantiene si lo usas. Acá va lo concreto: qué ejercicios suelen ayudar, cuáles conviene evitar, qué hace el kinesiólogo en tu casa y cuándo hay que consultar al médico.</p>
@@ -2067,7 +2067,7 @@ export const blogPosts = [
     date: "08 Mayo, 2026",
     dateISO: "2026-05-08",
     readTime: "5 min lectura",
-    category: "Rehabilitación Neurológica",
+    category: "Neurología",
     image: "/neurological-physiotherapy.png",
     icon: Brain,
     content: `<p class="lead">Despertar con medio rostro "caído" es aterrador. La causa más frecuente —la parálisis de Bell— tiene buen pronóstico: más del 70% recupera completamente. Pero ese porcentaje mejora, y las secuelas disminuyen, cuando la rehabilitación comienza temprano.</p>
@@ -2103,7 +2103,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "8 min lectura",
-    category: "Ergonomía",
+    category: "Traumatología y columna",
     image: "/images/ergonomia_home_office_hero_1769277626584.png",
     icon: TrendingUp,
     content: `<p class="lead">Despertar de madrugada con la mano dormida, sacudirla contra el borde de la cama y que en un minuto pase. Ese es el guion clásico del túnel carpiano, y en los cuadros leves y moderados el camino no parte en pabellón. Acá va lo que necesitas para decidir: cómo se reconoce, qué hace un kinesiólogo a domicilio en Santiago en la primera visita, cuántas sesiones suele tomar y cuándo sí corresponde operar.</p>
@@ -2218,7 +2218,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "7 min lectura",
-    category: "Traumatología",
+    category: "Traumatología y columna",
     image: "/images/exercise_heel_slide_1769278379698.png",
     icon: Zap,
     content: `<p class="lead">Ese puntazo en el talón al pisar recién levantado, que cede al caminar unos minutos y vuelve cuando te paras después de estar sentado: es la descripción clásica de una fascitis plantar. Es uno de los motivos más habituales de consulta por dolor de talón y habitualmente mejora con tratamiento conservador, sin infiltraciones ni cirugía. Lo que falla suele ser el plan, no el diagnóstico.</p>
@@ -2324,7 +2324,7 @@ export const blogPosts = [
     dateISO: "2026-03-25",
     updatedISO: "2026-10-05",
     readTime: "9 min lectura",
-    category: "Geriatría Activa",
+    category: "Adulto mayor",
     image: "/elderly-physio-home.png",
     icon: Users,
     content: `<p class="lead">Si tu papá, tu mamá o tu abuela se fracturó la cadera, probablemente ya pasó por una cirugía y ahora viene la pregunta que más angustia a las familias: ¿va a volver a caminar? Esta guía explica cómo es la rehabilitación en casa, qué se trabaja en cada etapa y qué puede hacer la familia. No reemplaza las indicaciones del traumatólogo: cada cirugía trae sus propias reglas, y esas mandan.</p>
@@ -2410,7 +2410,7 @@ export const blogPosts = [
     date: "11 Marzo, 2026",
     dateISO: "2026-03-11",
     readTime: "5 min lectura",
-    category: "Ergonomía",
+    category: "Traumatología y columna",
     image: "/images/exercise_wall_pushup_1769278392606.png",
     icon: Activity,
     content: `<p class="lead">El 95% de los "codos de tenista" que tratamos no juegan tenis: son oficinistas, dentistas, peluqueras y cocineros. La epicondilitis lateral es una lesión por sobreuso de los músculos que extienden la muñeca, y el mouse es su gimnasio involuntario.</p>
@@ -2445,7 +2445,7 @@ export const blogPosts = [
     date: "04 Marzo, 2026",
     dateISO: "2026-03-04",
     readTime: "5 min lectura",
-    category: "Pediatría",
+    category: "Traumatología y columna",
     image: "/images/exercise_single_leg_balance_1769278366395.png",
     icon: Smile,
     content: `<p class="lead">Un hombro más alto que otro, una escápula más prominente, el pantalón que "cae chueco". La escoliosis idiopática afecta al 2-3% de los adolescentes y su detección temprana define el pronóstico: detectada a tiempo, la mayoría se maneja sin cirugía.</p>
@@ -2485,7 +2485,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "7 min lectura",
-    category: "Columna Vertebral",
+    category: "Traumatología y columna",
     image: "/home-rehab-guidance.png",
     icon: Activity,
     content: `<p class="lead">"Tienes una hernia, hay que operar." Antes de agendar pabellón conviene saber dos cosas: habitualmente el primer camino no es el quirófano, y el propio cuerpo es capaz de reabsorber con el tiempo el fragmento de disco que se salió. Esta guía te explica cómo se reconoce una hernia, qué se hace mientras el cuadro evoluciona, cuántas sesiones suele tomar y cuáles son las señales que sí obligan a consultar rápido.</p>
@@ -2592,7 +2592,7 @@ export const blogPosts = [
     date: "18 Febrero, 2026",
     dateISO: "2026-02-18",
     readTime: "4 min lectura",
-    category: "Terapia Manual",
+    category: "Traumatología y columna",
     image: "/physiotherapist-elderly-exercise.png",
     icon: Heart,
     content: `<p class="lead">"Necesito un masaje descontracturante" es probablemente la frase con la que más pacientes nos contactan. A veces es exactamente lo que necesitan. Otras veces, el masaje solo tapa por unos días un problema que requiere tratamiento de verdad. Te ayudamos a distinguir.</p>
@@ -2627,7 +2627,7 @@ export const blogPosts = [
     dateISO: "2026-09-18",
     updatedISO: "2026-09-29",
     readTime: "8 min lectura",
-    category: "Post-Quirúrgico",
+    category: "Postquirúrgico",
     image: "/knee-rehabilitation.png",
     icon: Zap,
     content: `<p class="lead">Salir del pabellón con una rodilla nueva es la mitad del trabajo. La otra mitad se juega en tu casa, y hay una regla que ningún operado debería ignorar: <strong>el rango de movimiento que no ganas temprano cuesta muchísimo más recuperarlo después</strong>. Acá va qué es esperable y qué no, qué evalúa el kinesiólogo en la primera visita a domicilio, qué te toca entre sesiones y cuándo hay que parar y llamar al médico.</p>
@@ -2736,7 +2736,7 @@ export const blogPosts = [
     dateISO: "2026-02-04",
     updatedISO: "2026-10-05",
     readTime: "7 min lectura",
-    category: "Cabeza y Cuello",
+    category: "Traumatología y columna",
     image: "/images/exercise_neck_mobility_1769278328424.png",
     icon: Brain,
     content: `<p class="lead">El dolor de cuello, o cervicalgia, rara vez viene solo. Muchas personas lo describen junto a una sensación de inestabilidad o "cabeza pesada", o lo notan peor al despertar después de una noche apretando los dientes. Esta guía explica cómo se relacionan el cuello, los mareos y el bruxismo, y qué puede hacer un kinesiólogo. No reemplaza la evaluación médica: un mareo nuevo siempre merece que lo vea un médico.</p>
@@ -2800,7 +2800,7 @@ export const blogPosts = [
     dateISO: "2026-01-28",
     updatedISO: "2026-10-05",
     readTime: "5 min lectura",
-    category: "Dolor Crónico",
+    category: "Traumatología y columna",
     image: "/home-rehab-guidance.png",
     icon: Heart,
     content: `<p class="lead">La fibromialgia plantea una paradoja cruel: moverse duele, pero no moverse duele más. La evidencia es unánime en que el ejercicio dosificado es el tratamiento con mayor efecto sostenido sobre el dolor, el sueño y la calidad de vida. El secreto está en la dosis.</p>

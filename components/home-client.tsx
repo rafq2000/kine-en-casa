@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { BOLETA_TEXTO, HORARIO_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
+import { getPostBySlug } from "@/lib/blog-data"
+
+// Guías de la home: las que más acercan a una decisión (precio, reembolso y cuidados).
+const GUIAS_HOME = ["reembolso-isapre-kinesiologia", "cuanto-cuesta-kinesiologia-a-domicilio-santiago", "kinesiologia-paciente-postrado-en-casa"]
 import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -797,99 +801,51 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Blog Section - New for Kineum */}
+      {/* Guías del blog que más ayudan a decidir (T42) */}
       <section className="py-24 bg-white relative">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-100 text-slate-800 border-slate-200">
               <BookOpen className="h-4 w-4 mr-2" />
-              Journal Clínico
+              Guías
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
-              Ciencia y <span className="text-amber-700">Bienestar</span>
+              Guías para decidir: <span className="text-amber-700">precios, reembolso y cuidados en casa</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Insights médicos, guías de recuperación y novedades sobre tecnología aplicada a la salud.
+              Lo que más nos preguntan las familias antes de agendar, explicado paso a paso.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            <Link href="/blog/neuroplasticidad-recuperacion-acv" className="group cursor-pointer block">
-              <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
-                <Image
-                  src="/neurological-physiotherapy.png"
-                  alt="Recovery Science"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-                <div className="absolute top-4 left-4">
-                  <Badge className="bg-white/90 text-slate-900 backdrop-blur-sm shadow-sm">
-                    Rehabilitación
-                  </Badge>
+            {GUIAS_HOME.map((slug) => getPostBySlug(slug)).filter((p) => p !== undefined).map((post) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="group cursor-pointer block">
+                <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <Badge className="bg-white/90 text-slate-900 backdrop-blur-sm shadow-sm">{post.category}</Badge>
+                  </div>
                 </div>
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors font-serif">
-                Neuroplasticidad: Acelerando la recuperación post-ACV
-              </h3>
-              <p className="text-slate-600 leading-relaxed mb-4">
-                Cómo la tecnología y los ejercicios cognitivos específicos pueden potenciar la capacidad del cerebro para sanar.
-              </p>
-              <span className="text-sm font-semibold text-emerald-600 flex items-center">
-                Leer artículo <TrendingUp className="h-3 w-3 ml-2" />
-              </span>
-            </Link>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors font-serif">
+                  {post.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed mb-4">{post.subtitle}</p>
+                <span className="text-sm font-semibold text-emerald-600 flex items-center">
+                  Leer la guía <TrendingUp className="h-3 w-3 ml-2" />
+                </span>
+              </Link>
+            ))}
+          </div>
 
-            <Link href="/blog/lumbago-agudo-que-hacer" className="group cursor-pointer block">
-              <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
-                <Image
-                  src="/placeholder.jpg"
-                  alt="Ergonomics"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-                <div className="absolute top-4 left-4">
-                  <Badge className="bg-white/90 text-slate-900 backdrop-blur-sm shadow-sm">
-                    Prevención
-                  </Badge>
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors font-serif">
-                Lumbago agudo: qué hacer y cómo evitar que vuelva
-              </h3>
-              <p className="text-slate-600 leading-relaxed mb-4">
-                Las primeras 48 horas, las señales de alarma y qué ajustar si trabajas sentado.
-              </p>
-              <span className="text-sm font-semibold text-emerald-600 flex items-center">
-                Leer artículo <TrendingUp className="h-3 w-3 ml-2" />
-              </span>
-            </Link>
-
-            <Link href="/blog/adulto-mayor-se-cayo-en-casa-que-hacer" className="group cursor-pointer block">
-              <div className="relative overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-slate-100">
-                <Image
-                  src="/physiotherapist-elderly-exercise.png"
-                  alt="Kinesióloga trabajando fuerza con una adulta mayor en su casa"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-4 left-4">
-                  <Badge className="bg-white/90 text-slate-900 backdrop-blur-sm shadow-sm">
-                    Geriatría
-                  </Badge>
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors font-serif">
-                Adulto mayor se cayó en casa: qué hacer
-              </h3>
-              <p className="text-slate-600 leading-relaxed mb-4">
-                Cuándo llamar al SAMU 131, cómo ayudarlo a levantarse y cómo prevenir la próxima caída.
-              </p>
-              <span className="text-sm font-semibold text-emerald-600 flex items-center">
-                Leer artículo <TrendingUp className="h-3 w-3 ml-2" />
-              </span>
+          <div className="text-center mt-12">
+            <Link href="/blog" className="inline-flex items-center gap-2 text-amber-700 font-semibold hover:underline">
+              Ver todas las guías
             </Link>
           </div>
         </div>
