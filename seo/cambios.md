@@ -78,6 +78,7 @@ Ricardo delegó la revisión del borrador ("hazlo todo, déjalo perfecto").
 ### 7-oct-2026 — Fase 3: correcciones de los revisores de producción
 - RUT publicado era inválido; retirado hasta que Ricardo confirme el real. "76.892.102-K" no cumple el dígito verificador (módulo 11 da 4, no K). Se quitó del schema (`taxID`), footer, /privacidad, llms.txt, /blog de precios y citaciones-locales; queda "Kineum SpA" sin RUT.
 - Orden médica, una sola postura en todo el sitio (verificada el 7-oct en LeyChile, XML oficial): el Decreto 1.082 de 1958 (reglamento de la profesión de kinesiólogo, no derogado, versión única) dice en su artículo 3 que "el kinesiólogo sólo podrá aplicar estos métodos terapéuticos por indicación y orden médica escrita"; el Código Sanitario, artículo 113 inciso 2, pide "indicación y supervigilancia médica" a quienes cumplen funciones de colaboración médica. Texto del sitio: la evaluación inicial no requiere orden; el tratamiento sí, y la Isapre o el seguro habitualmente la piden para el reembolso. Fuera los "en general no" y "solo para el reembolso".
+- Posts de temas sin servicio confirmado: campo `fueraDeServicio: true` en `lib/blog-data.ts`; la página del post cambia la caja de agendar por un aviso informativo y el CTA final por "Ver todas las guías". Hoy solo piso pélvico (T04 j). El drenaje linfático queda como información general dentro de la rehabilitación postquirúrgica (el servicio ya lo nombra como complemento); el drenaje después de cirugía plástica estética no se ofrece hasta que Ricardo lo confirme.
 
 ## Deploys
 

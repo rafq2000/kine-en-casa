@@ -86,11 +86,15 @@ export default async function BlogPost({ params }: BlogPostProps) {
     }
 
     const Icon = post.icon
+    // Temas que KINEUM no ofrece como servicio confirmado (T04 j): guía informativa, sin llamados a agendar
+    const fueraDeServicio = post.fueraDeServicio === true
 
     // Mensaje de WhatsApp: dice desde qué post viene el lead
-    const waMensaje = post.category.toLowerCase().startsWith("precios")
-        ? "Hola, tengo Isapre y quiero cotizar kinesiología a domicilio. Mi comuna es: "
-        : `Hola, leí "${post.title}" y quiero agendar una evaluación gratuita. Mi comuna es: `
+    const waMensaje = fueraDeServicio
+        ? "Hola, tengo una consulta sobre KINEUM. Mi comuna es: "
+        : post.category.toLowerCase().startsWith("precios")
+          ? "Hola, tengo Isapre y quiero cotizar kinesiología a domicilio. Mi comuna es: "
+          : `Hola, leí "${post.title}" y quiero agendar una evaluación gratuita. Mi comuna es: `
     const waLink = `https://wa.me/56999679593?text=${encodeURIComponent(waMensaje)}`
 
     // La caja de contacto va antes del primer H2 del artículo (o al final si no tiene H2)
@@ -256,7 +260,17 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 <div className="max-w-3xl mx-auto">
                     <div className={PROSE} data-contenido-post dangerouslySetInnerHTML={{ __html: contenidoAntes }} />
 
-                    {/* Llamado a la acción al inicio: antes del primer H2 */}
+                    {/* Llamado a la acción al inicio: antes del primer H2 (en temas fuera de servicio, aviso informativo) */}
+                    {fueraDeServicio ? (
+                        <aside className="not-prose my-10 bg-slate-50 border border-slate-200 rounded-2xl p-6 md:p-8">
+                            <p className="text-lg font-bold text-slate-900 font-serif mb-2">Guía informativa</p>
+                            <p className="text-slate-700">
+                                KINEUM no ofrece hoy atención a domicilio de este tema. Esta guía es para que sepas qué
+                                preguntar y a quién consultar: tu médico, matrona o ginecólogo puede derivarte a una
+                                profesional con formación específica.
+                            </p>
+                        </aside>
+                    ) : (
                     <aside className="not-prose my-10 bg-emerald-50 border border-emerald-200 rounded-2xl p-6 md:p-8">
                         <p className="text-xl font-bold text-slate-900 font-serif mb-4">
                             ¿Necesitas kinesiología a domicilio en el sector oriente o centro de Santiago?
@@ -314,6 +328,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                             Si vives en otra comuna, esta guía te sirve igual con cualquier kinesiólogo que emita boleta.
                         </p>
                     </aside>
+                    )}
 
                     {contenidoDespues && (
                         <div className={PROSE} data-contenido-post dangerouslySetInnerHTML={{ __html: contenidoDespues }} />
@@ -322,18 +337,25 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     {/* CTA Footer */}
                     <div className="mt-16 bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-12 text-center">
                         <h3 className="text-2xl font-bold text-slate-900 mb-4 font-serif">
-                            ¿Quieres que un kinesiólogo vea tu caso en tu casa?
+                            {fueraDeServicio ? "¿Te sirvió esta guía?" : "¿Quieres que un kinesiólogo vea tu caso en tu casa?"}
                         </h3>
                         <p className="text-slate-600 mb-8 max-w-xl mx-auto">
-                            La evaluación inicial es gratuita y después te decimos cuántas sesiones necesitas y cuánto
-                            cuestan, antes de que decidas.
+                            {fueraDeServicio
+                                ? "Compártela con quien la pueda necesitar o revisa el resto de nuestras guías de kinesiología."
+                                : "La evaluación inicial es gratuita y después te decimos cuántas sesiones necesitas y cuánto cuestan, antes de que decidas."}
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
+                            {fueraDeServicio ? (
+                                <Button asChild size="lg" className="bg-slate-900 hover:bg-slate-800 text-white">
+                                    <Link href="/blog">Ver todas las guías</Link>
+                                </Button>
+                            ) : (
                             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white">
                                 <a href={waLink} target="_blank" rel="noopener noreferrer" data-cta="blog-final">
                                     Agendar evaluación gratuita
                                 </a>
                             </Button>
+                            )}
                             <Button asChild variant="outline" size="lg" className="border-slate-300">
                                 <a
                                     href={`https://wa.me/?text=${encodeURIComponent(`${post.title} — https://kineum.cl/blog/${post.slug}`)}`}
