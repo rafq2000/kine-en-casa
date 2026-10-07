@@ -258,6 +258,28 @@ async function main() {
         }
     }
 
+    // T37 (7-oct-2026): las 45 especialidad+comuna se consolidaron en su hub. Cada una debe
+    // responder 308 en un solo salto hacia /kinesiologo-a-domicilio-{misma comuna}.
+    const ESPECIALIDADES = ['kinesiologia-geriatrica', 'kinesiologia-respiratoria', 'kinesiologia-traumatologica', 'rehabilitacion-neurologica', 'rehabilitacion-postquirurgica']
+    const COMUNAS = ['las-condes', 'vitacura', 'providencia', 'nunoa', 'la-reina', 'lo-barnechea', 'penalolen', 'macul', 'santiago-centro']
+    const consolidadas = ESPECIALIDADES.flatMap((e) => COMUNAS.map((c) => ({ ruta: `/${e}-${c}`, hub: `/kinesiologo-a-domicilio-${c}` })))
+    const consolidadasMal = []
+    for (let i = 0; i < consolidadas.length; i += LOTE) {
+        await Promise.all(consolidadas.slice(i, i + LOTE).map(async ({ ruta, hub }) => {
+            const r = await get(BASE + ruta, 2, 'manual')
+            const destino = r.location ? new URL(r.location, BASE).pathname : null
+            if (r.status !== 308 || destino !== hub) consolidadasMal.push({ ruta, status: r.status, location: r.location ?? null })
+        }))
+    }
+    for (const m of consolidadasMal)
+        todosExtra.push({
+            url: BASE + m.ruta,
+            sev: 'alta',
+            tipo: 'consolidada-sin-308',
+            detalle: `responde ${m.status}${m.location ? ' -> ' + m.location : ''}; debe ser 308 -> /kinesiologo-a-domicilio-{misma comuna}`,
+            fix: 'Revisar la regla de T37 en next.config.mjs',
+        })
+
     // Similitud de texto entre paginas del mismo patron (ej. kinesiologia-geriatrica-*).
     // Es la señal que hace que Google marque paginas locales como duplicadas.
     const shingles = (texto) => {
@@ -323,6 +345,7 @@ async function main() {
         similitud,
         huerfanas,
         enlacesRotos: rotos,
+        consolidadas: { total: consolidadas.length, con308AlHub: consolidadas.length - consolidadasMal.length },
         problemas: todos,
         paginas: paginas.map(({ texto, ...resto }) => resto),
     }
@@ -350,7 +373,8 @@ async function main() {
     }
     if (dupTitles.length) log(`\nTitulos duplicados: ${dupTitles.length} grupos`)
     if (huerfanas.length) log(`Paginas huerfanas (sin enlaces entrantes): ${huerfanas.length}`)
-    if (rotos.length) log(`Enlaces internos rotos: ${rotos.length} -> ${rotos.map((r) => r.href).join(', ')}`)
+    log(`Especialidad+comuna con 308 a su hub (T37): ${reporte.consolidadas.con308AlHub}/${reporte.consolidadas.total}`)
+    if (rotos.length) log(`Enlaces internos rotos:${rotos.length} -> ${rotos.map((r) => r.href).join(', ')}`)
     const graves = todos.filter((p) => p.sev === 'critica' || p.sev === 'alta')
     if (graves.length) {
         log('\nCriticas y altas:')
