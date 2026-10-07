@@ -336,10 +336,9 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                                 {p}
                                             </p>
                                         ))}
-                                        {/* Solo los títulos: los detalles traen cifras sin fuente (T37) */}
                                         <p className="text-slate-600 leading-relaxed">
                                             <span className="font-semibold text-slate-900">Lo que más atendemos:</span>{" "}
-                                            {e.condiciones.map((c) => c.titulo).join(" · ")}
+                                            {e.condiciones.join(" · ")}
                                         </p>
                                         <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-5">
                                             <Link
