@@ -48,10 +48,15 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 h2: 'La pérdida de fuerza no es "cosa de la edad": tiene nombre y tratamiento',
                 parrafos: [
-                    'Se llama sarcopenia y es la pérdida progresiva de masa y fuerza muscular asociada al envejecimiento. Empieza silenciosa alrededor de los 50 años y se acelera después de los 70, sobre todo si la persona pasa mucho tiempo sentada o estuvo hospitalizada.',
-                    'Lo importante es esto: la sarcopenia responde al ejercicio de fuerza. No es un deterioro que solo se pueda acompañar. Los estudios en personas mayores de 80 años muestran ganancias de fuerza relevantes tras algunas semanas de trabajo progresivo bien dosificado. La condición es que el estímulo sea real y sostenido, no una caminata ocasional.',
+                    'Se llama sarcopenia y es la pérdida progresiva de masa y fuerza muscular asociada al envejecimiento. Avanza en silencio con los años y se acelera con la inactividad, sobre todo si la persona pasa mucho tiempo sentada o estuvo hospitalizada.',
+                    'Lo importante es esto: la sarcopenia responde al ejercicio de fuerza. No es un deterioro que solo se pueda acompañar. La condición es que el estímulo sea real y sostenido, no una caminata ocasional.',
                     'Por eso el objetivo de un plan geriátrico no es "que se mueva un poco", sino que recupere funciones concretas: levantarse solo de la cama, subir el escalón de la entrada, cargar una bolsa, ducharse sin ayuda.',
                 ],
+                enlace: {
+                    antes: 'Funciona incluso a edades muy avanzadas: en un ensayo con residentes de hogares de ancianos de alrededor de 90 años, ocho semanas de entrenamiento de fuerza aumentaron de forma importante la fuerza, la masa muscular y la movilidad, según el',
+                    texto: 'estudio de Fiatarone y colaboradores publicado en JAMA en 1990',
+                    href: 'https://pubmed.ncbi.nlm.nih.gov/2342214/',
+                },
             },
             {
                 h2: 'El círculo del miedo a caminar (y cómo se rompe)',
@@ -70,7 +75,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 h2: '"Tiene desgaste, mejor que no camine": el mito que más daño hace',
                 parrafos: [
-                    'La artrosis de rodilla y cadera es frecuente después de los 60, y la conclusión intuitiva es proteger la articulación moviéndola menos. Es exactamente al revés.',
+                    'La artrosis de rodilla y cadera es frecuente en personas mayores, y la conclusión intuitiva es proteger la articulación moviéndola menos. Es exactamente al revés.',
                     'El cartílago no tiene vasos sanguíneos: se nutre del líquido articular, que circula cuando la articulación se mueve y recibe carga. La inactividad lo desnutre. Además, la correlación entre lo que muestra la radiografía y el dolor que siente la persona es baja: hay rodillas con artrosis avanzada sin dolor y rodillas casi normales con dolor importante. Lo que mejor predice el dolor y la función es la fuerza muscular alrededor de la articulación.',
                     'El tratamiento kinesiológico apunta ahí: fortalecer cuádriceps y glúteos para que absorban la carga, y dosificar la caminata en lugar de eliminarla. Tres caminatas cortas suelen tolerarse mejor que una larga.',
                 ],
@@ -134,7 +139,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Cuántas sesiones se necesitan?',
-                a: 'Los programas geriátricos suelen tomar entre 8 y 16 semanas, con dos o tres sesiones semanales al inicio y luego un espaciado progresivo. En la evaluación gratuita te damos una estimación realista para el caso puntual antes de que decidas.',
+                a: 'La duración depende de cada persona: suele haber más sesiones al inicio y luego un espaciado progresivo. En la evaluación gratuita te damos una estimación realista para el caso puntual antes de que decidas.',
             },
             {
                 q: '¿Puede acompañar un familiar la sesión?',
@@ -239,7 +244,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Cuántas sesiones se necesitan?',
-                a: 'En cuadros agudos suelen bastar entre 3 y 8 sesiones, a veces concentradas en pocos días. En patología crónica o recurrente el trabajo es periódico y se ajusta según la temporada y la evolución.',
+                a: 'En cuadros agudos suelen bastar pocas sesiones, a veces concentradas en pocos días. En patología crónica o recurrente el trabajo es periódico y se ajusta según la temporada y la evolución.',
             },
             {
                 q: '¿Atienden adultos o solo niños?',
@@ -300,10 +305,15 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 h2: 'Hombro: la alternativa real a la cirugía',
                 parrafos: [
-                    'El dolor de hombro por tendinopatía del manguito rotador es muy frecuente después de los 40. La evidencia disponible muestra que, en casos no traumáticos, un programa de ejercicio progresivo bien conducido obtiene resultados comparables a la cirugía en buena parte de los pacientes.',
-                    'El tratamiento parte con ejercicios isométricos, que además tienen efecto analgésico, progresa a trabajo con resistencia y termina con fortalecimiento funcional por sobre la cabeza. Suele tomar entre 8 y 12 semanas de trabajo constante.',
+                    'El dolor de hombro por problemas del manguito rotador es muy frecuente en adultos. En las roturas pequeñas y no traumáticas del supraespinoso, la cirugía no ha mostrado ser mejor que el tratamiento conservador con kinesiología.',
+                    'El tratamiento parte con ejercicios isométricos, que además tienen efecto analgésico, progresa a trabajo con resistencia y termina con fortalecimiento funcional por sobre la cabeza. Suele tomar varias semanas de trabajo constante.',
                     'Los tres errores que perpetúan el dolor son conocidos: reposo total del brazo, estiramientos agresivos sobre un tendón irritado, e infiltraciones repetidas sin rehabilitar después.',
                 ],
+                enlace: {
+                    antes: 'Es lo que mostró, con más de cinco años de seguimiento en mayores de 55 años, un',
+                    texto: 'ensayo aleatorizado publicado en el Journal of Shoulder and Elbow Surgery (2021)',
+                    href: 'https://pubmed.ncbi.nlm.nih.gov/33774172/',
+                },
             },
             {
                 h2: 'Qué llega a tu casa y para qué sirve',
@@ -340,7 +350,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Cuántas sesiones voy a necesitar?',
-                a: 'Depende del tejido comprometido y de la severidad, habitualmente entre 6 y 12 sesiones. En la evaluación gratuita te damos una estimación realista antes de que decidas, y la vamos ajustando según cómo respondas.',
+                a: 'Depende del tejido comprometido y de la severidad. En la evaluación gratuita te damos una estimación realista antes de que decidas, y la vamos ajustando según cómo respondas.',
             },
             {
                 q: '¿Puedo seguir entrenando durante el tratamiento?',

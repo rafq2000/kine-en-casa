@@ -2060,36 +2060,42 @@ export const blogPosts = [
   {
     slug: "paralisis-facial-rehabilitacion",
     seoTitle: "Parálisis Facial: Las Primeras 72 Horas Son Clave | KINEUM",
-    seoDescription: "Qué hacer los primeros días de una parálisis facial, qué ejercicios recuperan la simetría y qué evitar. Rehabilitación a domicilio en Santiago.",
+    seoDescription: "Qué hacer en las primeras 72 horas de una parálisis facial, cuándo es urgencia, qué aporta la kinesiología y cuánto suele tardar la recuperación.",
     title: "Parálisis Facial: La Importancia de las Primeras 72 Horas",
-    subtitle: "Estimulación temprana para recuperar la simetría y función facial.",
+    subtitle: "Qué hacer en las primeras horas, qué puede aportar la kinesiología y cuánto suele tardar la recuperación, con fuentes.",
     author: "Equipo Clínico KINEUM",
     date: "08 Mayo, 2026",
     dateISO: "2026-05-08",
+    updatedISO: "2026-10-05",
     readTime: "5 min lectura",
     category: "Neurología",
     image: "/neurological-physiotherapy.png",
     icon: Brain,
-    content: `<p class="lead">Despertar con medio rostro "caído" es aterrador. La causa más frecuente —la parálisis de Bell— tiene buen pronóstico: más del 70% recupera completamente. Pero ese porcentaje mejora, y las secuelas disminuyen, cuando la rehabilitación comienza temprano.</p>
+    content: `<p class="lead">Despertar con medio rostro "caído" asusta. La causa más frecuente de parálisis facial periférica es la parálisis de Bell, que en general tiene buen pronóstico: en el <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, que siguió sin tratamiento a 2.570 parálisis faciales periféricas, el 71 % de los pacientes recuperó una mímica facial normal. Lo primero, eso sí, es que un médico descarte otras causas.</p>
 
       <h2>Primero: descartar lo urgente</h2>
-      <p>Una parálisis facial de inicio súbito requiere evaluación médica inmediata para descartar un ACV. Si además hay debilidad en un brazo, dificultad para hablar o asimetría al levantar los brazos, es una <strong>emergencia: llama al 131</strong>. La parálisis de Bell afecta solo la cara y suele venir con dolor detrás de la oreja.</p>
+      <p>Una parálisis facial de inicio súbito requiere evaluación médica inmediata para descartar un ACV. Si además hay debilidad en un brazo o una pierna, dificultad para hablar o se te cae algo de la mano, es una <strong>emergencia: llama al SAMU 131</strong>. La parálisis de Bell afecta solo la cara y a veces viene con dolor detrás de la oreja.</p>
+
+      <h2>Por qué importan las primeras 72 horas</h2>
+      <p>La <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">guía de práctica clínica de la Academia Americana de Otorrinolaringología</a> recomienda que el médico indique corticoides orales dentro de las 72 horas desde el inicio de los síntomas en pacientes de 16 años o más con parálisis de Bell, y que se proteja el ojo cuando no cierra bien. Por eso no conviene esperar a ver si pasa sola: consulta en las primeras horas.</p>
 
       <h2>Qué hace la kinesiología facial</h2>
+      <p>La misma guía no hace una recomendación sobre la terapia física en la parálisis de Bell, porque la evidencia no alcanza para concluir. Lo que sí puede aportar el kinesiólogo, siempre junto al médico tratante:</p>
       <ul>
-        <li><strong>Educación y protección ocular:</strong> el ojo que no cierra debe protegerse desde el día uno (lágrimas artificiales, oclusión nocturna según indicación médica).</li>
-        <li><strong>Reeducación neuromuscular frente al espejo:</strong> movimientos analíticos de cejas, párpados, mejillas y labios, en dosis suaves para no generar sincinesias (movimientos involuntarios asociados).</li>
-        <li><strong>Masaje y calor local:</strong> mantienen el trofismo muscular mientras el nervio se recupera.</li>
-        <li><strong>Progresión funcional:</strong> soplar, sonreír, pronunciar fonemas; la cara se entrena con funciones reales.</li>
+        <li><strong>Educación y cuidado del ojo:</strong> recordar las lágrimas artificiales y la oclusión nocturna que haya indicado el médico.</li>
+        <li><strong>Ejercicios suaves frente al espejo:</strong> movimientos de cejas, párpados, mejillas y labios, sin forzar, para no favorecer movimientos involuntarios asociados (sincinesias).</li>
+        <li><strong>Progresión funcional:</strong> soplar, sonreír y pronunciar, porque la cara se entrena con funciones reales.</li>
       </ul>
 
       <h2>Lo que debes evitar</h2>
-      <p>Electroestimulación agresiva en fases tempranas y ejercicios de máxima fuerza: la evidencia sugiere que pueden aumentar las sincinesias. Menos es más, pero constante.</p>
+      <p>No uses electroestimulación por tu cuenta ni hagas ejercicios de máxima fuerza. La dosis la define el profesional, junto con el médico tratante.</p>
 
       <h2>¿Cuánto tarda la recuperación?</h2>
-      <p>Los primeros signos de recuperación suelen aparecer entre las 2 y 4 semanas; la recuperación funcional completa puede tomar de 2 a 6 meses. La rehabilitación domiciliaria con frecuencia 2-3 veces por semana durante el primer mes marca la diferencia.</p>
+      <p>Varía de persona en persona. En el mismo <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, el 85 % de los pacientes empezó a recuperar la función dentro de las primeras 3 semanas y el resto, entre los 3 y los 5 meses. Si a los 3 meses la recuperación no es completa, la guía recomienda reevaluar o derivar a un especialista en nervio facial.</p>
 
-      <p>Atendemos parálisis facial a domicilio dentro de nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica</a>. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20par%C3%A1lisis%20facial">Consulta disponibilidad inmediata</a>.</p>
+      <p>Si ya te evaluó un médico y quieres apoyo con los ejercicios en tu casa, revisa nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20par%C3%A1lisis%20facial">escríbenos por WhatsApp</a>.</p>
+
+      <p><strong>Fuentes:</strong> Peitersen E. <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">Bell's palsy: the spontaneous course of 2,500 peripheral facial nerve palsies of different etiologies</a>. Acta Otolaryngol Suppl. 2002. Baugh RF y col. <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">Clinical practice guideline: Bell's palsy</a>. Otolaryngol Head Neck Surg. 2013.</p>
     `
   },
   {
@@ -2409,11 +2415,12 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "11 Marzo, 2026",
     dateISO: "2026-03-11",
+    updatedISO: "2026-10-05",
     readTime: "5 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_wall_pushup_1769278392606.png",
     icon: Activity,
-    content: `<p class="lead">El 95% de los "codos de tenista" que tratamos no juegan tenis: son oficinistas, dentistas, peluqueras y cocineros. La epicondilitis lateral es una lesión por sobreuso de los músculos que extienden la muñeca, y el mouse es su gimnasio involuntario.</p>
+    content: `<p class="lead">La mayoría de las personas con "codo de tenista" no juega tenis: es frecuente en trabajos con movimientos repetidos de muñeca y mano, como el computador, la peluquería o la cocina. La epicondilitis lateral es una lesión por sobreuso de los músculos que extienden la muñeca, y el mouse es su gimnasio involuntario.</p>
 
       <h2>¿Por qué duele la cara externa del codo?</h2>
       <p>Los músculos extensores de la muñeca y los dedos nacen todos de un mismo punto: el epicóndilo lateral. Miles de microextensiones diarias (clic, clic, clic) con la muñeca en mala posición sobrecargan ese anclaje hasta degenerarlo. Por eso el dolor aparece al tomar la taza, dar la mano o girar una llave.</p>
@@ -2421,16 +2428,18 @@ export const blogPosts = [
       <h2>El error clásico: tratar solo donde duele</h2>
       <p>Masajear el codo alivia un rato, pero la solución está en la <strong>cadena completa</strong>: la fuerza de la muñeca y el antebrazo, la estabilidad del hombro (un hombro débil delega trabajo al codo) y la ergonomía del puesto.</p>
 
-      <h2>El tratamiento con mejor evidencia</h2>
+      <h2>Qué incluye el tratamiento</h2>
       <ul>
         <li><strong>Carga progresiva excéntrica e isométrica</strong> de los extensores: el tendón degenerado se regenera con ejercicio dosificado, no con reposo.</li>
         <li><strong>Fortalecimiento de la cadena</strong> (como las flexiones de pared de la imagen, que integran muñeca, codo y hombro).</li>
         <li><strong>Terapia manual</strong> de puntos gatillo del antebrazo y movilizaciones con movimiento.</li>
         <li><strong>Ajustes ergonómicos:</strong> muñeca neutra, mouse más cerca del cuerpo, sensibilidad del clic.</li>
-        <li>Las infiltraciones de corticoides alivian a corto plazo pero empeoran los resultados a un año según la evidencia: son la excepción, no la regla.</li>
+        <li>Sobre las infiltraciones de corticoides: en un <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">ensayo aleatorizado publicado en JAMA</a> con pacientes con epicondilalgia lateral crónica, la infiltración de corticoides se asoció a peores resultados al año que una infiltración placebo. La decisión es de tu médico.</li>
       </ul>
 
-      <p>¿Dolor de codo que lleva meses? El programa de rehabilitación toma 6 a 12 semanas y lo hacemos completo en tu casa u oficina. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20epicondilitis">Escríbenos por WhatsApp</a>.</p>
+      <p>¿Dolor de codo que lleva meses? Cuánto dura el tratamiento depende de tu caso; te damos una estimación en la evaluación gratuita, en tu casa. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20epicondilitis">Escríbenos por WhatsApp</a>.</p>
+
+      <p><strong>Fuentes:</strong> Coombes BK y col. <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial</a>. JAMA. 2013.</p>
     `
   },
   {
@@ -2444,11 +2453,12 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "04 Marzo, 2026",
     dateISO: "2026-03-04",
+    updatedISO: "2026-10-05",
     readTime: "5 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_single_leg_balance_1769278366395.png",
     icon: Smile,
-    content: `<p class="lead">Un hombro más alto que otro, una escápula más prominente, el pantalón que "cae chueco". La escoliosis idiopática afecta al 2-3% de los adolescentes y su detección temprana define el pronóstico: detectada a tiempo, la mayoría se maneja sin cirugía.</p>
+    content: `<p class="lead">Un hombro más alto que otro, una escápula más prominente, el pantalón que "cae chueco". La escoliosis idiopática es relativamente frecuente en la adolescencia, y detectarla a tiempo permite controlarla durante el crecimiento.</p>
 
       <h2>El test de 30 segundos que puedes hacer en casa (test de Adams)</h2>
       <p>Pide a tu hijo que, de espaldas a ti y con las rodillas estiradas, se incline lentamente hacia adelante con los brazos colgando. Mira su espalda a contraluz: si un lado del tronco (una "giba") se ve más alto que el otro, consulta. Hazlo una vez al año desde los 8-9 años, especialmente durante el estirón puberal.</p>
@@ -2803,7 +2813,7 @@ export const blogPosts = [
     category: "Traumatología y columna",
     image: "/home-rehab-guidance.png",
     icon: Heart,
-    content: `<p class="lead">La fibromialgia plantea una paradoja cruel: moverse duele, pero no moverse duele más. La evidencia es unánime en que el ejercicio dosificado es el tratamiento con mayor efecto sostenido sobre el dolor, el sueño y la calidad de vida. El secreto está en la dosis.</p>
+    content: `<p class="lead">La fibromialgia plantea una paradoja cruel: moverse duele, pero no moverse duele más. El ejercicio dosificado es una de las herramientas más recomendadas para el dolor, el sueño y la calidad de vida. El secreto está en la dosis.</p>
 
       <h2>Entender el dolor para dejar de temerle</h2>
       <p>En la fibromialgia, el sistema nervioso central amplifica las señales: estímulos normales se procesan como dolorosos (sensibilización central). Esto significa que el dolor es real —no imaginario— pero también que <strong>dolor no equivale a daño</strong>: moverse con molestia controlada no está lesionando el cuerpo. Comprender esto, literalmente, reduce el dolor.</p>
@@ -2812,13 +2822,13 @@ export const blogPosts = [
       <p>El error clásico es el ciclo auge-caída: un día bueno → actividad excesiva → 3 días en cama. La solución es la <strong>dosificación pacing</strong>:</p>
       <ul>
         <li><strong>Partir por debajo del umbral:</strong> si puedes caminar 10 minutos, empezamos con 6.</li>
-        <li><strong>Progresión del 10% semanal,</strong> aunque el día esté bueno (esa es la parte difícil).</li>
+        <li><strong>Progresión pequeña y gradual,</strong> aunque el día esté bueno (esa es la parte difícil).</li>
         <li><strong>Combinar:</strong> ejercicio aeróbico suave (caminata, bicicleta, agua), fuerza con cargas bajas y trabajo de flexibilidad y relajación.</li>
         <li><strong>Priorizar el sueño:</strong> coordinamos horarios de ejercicio que no interfieran con el descanso, el gran modulador del dolor.</li>
       </ul>
 
       <h2>Qué logra un programa bien llevado</h2>
-      <p>En 8 a 12 semanas: reducción medible del dolor, más energía diaria, mejor sueño y —quizás lo más valioso— la confianza de volver a planificar la vida sin miedo al brote. El acompañamiento cercano evita las recaídas por sobredosis de entusiasmo.</p>
+      <p>Con constancia, el objetivo es menos dolor, más energía diaria, mejor sueño y —quizás lo más valioso— la confianza de volver a planificar la vida sin miedo al brote. El acompañamiento cercano evita las recaídas por sobredosis de entusiasmo.</p>
 
       <p>Tratamos fibromialgia a domicilio con programas individualizados y te dejamos una pauta de ejercicios para los días entre sesiones. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20fibromialgia">Escríbenos por WhatsApp</a> y conversemos tu caso.</p>
     `

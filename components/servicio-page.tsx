@@ -218,7 +218,11 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                     {s.enlace && (
                                         <p className="leading-relaxed text-slate-600">
                                             {s.enlace.antes}{" "}
-                                            <Link href={s.enlace.href} className="text-amber-700 font-medium hover:underline">
+                                            <Link
+                                                href={s.enlace.href}
+                                                {...(s.enlace.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                                                className="text-amber-700 font-medium hover:underline"
+                                            >
                                                 {s.enlace.texto}
                                             </Link>
                                             .
