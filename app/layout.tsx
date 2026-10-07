@@ -1,6 +1,5 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Manrope } from "next/font/google"
 import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import Script from "next/script"
@@ -8,17 +7,8 @@ import { MedicionLeads } from "@/components/medicion-leads"
 import { comunas } from "@/lib/comunas-data"
 import { HORARIO_SCHEMA } from "@/lib/negocio"
 
-const geist = Geist({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-geist",
-})
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-manrope",
-})
+// Sin next/font: Geist y Manrope se declaraban pero ningún estilo usaba sus variables (el sitio
+// usa las fuentes del sistema de Tailwind) y solo agregaban una hoja CSS que bloqueaba el render.
 
 const siteUrl = "https://kineum.cl"
 
@@ -185,7 +175,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es-CL" className={`${geist.variable} ${manrope.variable} antialiased`}>
+    <html lang="es-CL" className="antialiased">
       <head>
         <script
           type="application/ld+json"
