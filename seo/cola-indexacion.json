@@ -1,12 +1,6 @@
 {
   "nota": "Pedidos manuales de Ricardo; registro en seo/cambios.md",
   "pendientes": [
-    "/kinesiologo-a-domicilio-providencia",
-    "/kinesiologo-a-domicilio-nunoa",
-    "/kinesiologo-a-domicilio-la-reina",
-    "/kinesiologo-a-domicilio-santiago-centro",
-    "/precios",
-    "/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
     "/blog/reembolso-isapre-kinesiologia",
     "/",
     "/servicios/geriatrica",
@@ -14,11 +8,54 @@
     "/servicios/traumatologica",
     "/servicios/neurologica",
     "/servicios/postquirurgica",
-    "/kinesiologo-a-domicilio-las-condes",
-    "/kinesiologo-a-domicilio-vitacura",
-    "/kinesiologo-a-domicilio-lo-barnechea",
     "/kinesiologo-a-domicilio-penalolen",
     "/kinesiologo-a-domicilio-macul"
   ],
-  "hechas": []
+  "hechas": [
+    {
+      "ruta": "/kinesiologo-a-domicilio-providencia",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/kinesiologo-a-domicilio-nunoa",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/kinesiologo-a-domicilio-la-reina",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/kinesiologo-a-domicilio-santiago-centro",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/precios",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/kinesiologo-a-domicilio-las-condes",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/kinesiologo-a-domicilio-vitacura",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    },
+    {
+      "ruta": "/kinesiologo-a-domicilio-lo-barnechea",
+      "fecha": "2026-10-06",
+      "nota": "T19, después del deploy de Fase 2"
+    }
+  ]
 }
