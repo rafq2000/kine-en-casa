@@ -271,7 +271,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
         kicker: 'Lesiones y dolor',
         h1: 'Kinesiología Traumatológica a Domicilio',
         intro:
-            'Lesiones musculares, articulares y de tendones tienen algo en común: se recuperan con carga progresiva bien dosificada, no con reposo. Esa es la diferencia entre volver a moverte sin dolor en algunas semanas y quedar con una molestia que reaparece cada tanto durante años.',
+            'Lesiones musculares, articulares y de tendones tienen algo en común: se tratan con carga progresiva bien dosificada, no con reposo.',
         secciones: [
             {
                 h2: 'Por qué el reposo prolongado es la peor receta',

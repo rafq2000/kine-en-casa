@@ -15,7 +15,7 @@ const URL = "https://kineum.cl/cobertura"
 export const metadata: Metadata = {
     title: "Kinesiólogo a Domicilio: 9 Comunas de Santiago | KINEUM",
     description:
-        "Las 9 comunas del sector oriente y centro de Santiago donde KINEUM atiende kinesiología a domicilio, cada una con su propia página. Evaluación inicial gratuita.",
+        "Las 9 comunas del sector oriente y centro de Santiago donde KINEUM atiende kinesiología a domicilio, cada una con su página. Evaluación inicial gratuita.",
     keywords: [
         "kinesiología a domicilio sector oriente y centro de Santiago",
         "kinesiólogo a domicilio santiago comunas",
