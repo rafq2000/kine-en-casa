@@ -15,11 +15,11 @@ export function SiteFooter() {
                             <Link href="/">
                                 <div>
                                     <h3 className="text-xl font-bold text-white font-serif tracking-widest">KINEUM</h3>
-                                    <p className="text-xs text-slate-500 uppercase">Kinesiología a domicilio</p>
+                                    <p className="text-xs text-slate-400 uppercase">Kinesiología a domicilio</p>
                                 </div>
                             </Link>
                         </div>
-                        <p className="text-slate-500 text-sm leading-relaxed mb-6">
+                        <p className="text-slate-400 text-sm leading-relaxed mb-6">
                             Kinesiología a domicilio particular en 9 comunas del sector oriente y centro de Santiago, de lunes a domingo. Evaluación inicial gratuita.
                         </p>
                         <div className="flex space-x-3">
@@ -100,7 +100,7 @@ export function SiteFooter() {
                                     <span className="block text-white font-medium">Kineum SpA</span>
                                     <span className="text-xs block">Av. Apoquindo 4501, Las Condes</span>
                                     <span className="text-xs block">Santiago, Chile</span>
-                                    <span className="text-xs block mt-1 text-slate-500">Dirección comercial: la atención es en tu domicilio</span>
+                                    <span className="text-xs block mt-1 text-slate-400">Dirección comercial: la atención es en tu domicilio</span>
                                 </div>
                             </li>
                             <li className="flex items-start space-x-3">
@@ -121,12 +121,12 @@ export function SiteFooter() {
                     </div>
                 </div>
                 <div className="border-t border-slate-900 mt-16 pt-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-xs text-slate-600">
+                    <p className="text-xs text-slate-400">
                         © {new Date().getFullYear()} KINEUM. Todos los derechos reservados.
                     </p>
-                    <div className="flex space-x-6 mt-4 md:mt-0 text-xs text-slate-600">
-                        <Link href="/privacidad" className="hover:text-slate-400">Privacidad</Link>
-                        <a href="/sitemap.xml" className="hover:text-slate-400">Sitemap</a>
+                    <div className="flex space-x-6 mt-4 md:mt-0 text-xs text-slate-400">
+                        <Link href="/privacidad" className="hover:text-white">Privacidad</Link>
+                        <a href="/sitemap.xml" className="hover:text-white">Sitemap</a>
                     </div>
                 </div>
             </div>

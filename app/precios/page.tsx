@@ -319,7 +319,7 @@ export default function PreciosPage() {
               href="https://wa.me/56999679593?text=Hola, quiero consultar por precios"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:inline-flex items-center bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full font-medium transition-colors text-sm"
+              className="hidden md:inline-flex items-center bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 rounded-full font-medium transition-colors text-sm"
             >
               <Phone className="h-4 w-4 mr-2" />
               Cotizar Ahora
@@ -391,7 +391,7 @@ export default function PreciosPage() {
               data-cta="hero"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors"
+              className="inline-flex items-center justify-center bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               Cotizar por WhatsApp
@@ -440,7 +440,7 @@ export default function PreciosPage() {
                 }`}
               >
                 {plan.popular && (
-                  <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-amber-600 to-amber-700 text-white text-center py-2 text-sm font-bold uppercase tracking-wider">
+                  <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-amber-700 to-amber-800 text-white text-center py-2 text-sm font-bold uppercase tracking-wider">
                     Menor valor por sesión
                   </div>
                 )}
@@ -502,7 +502,7 @@ export default function PreciosPage() {
                     rel="noopener noreferrer"
                     className={`w-full flex items-center justify-center py-4 px-6 rounded-full font-bold text-white transition-all duration-300 ${
                       plan.popular
-                        ? "bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 shadow-lg shadow-amber-200"
+                        ? "bg-gradient-to-r from-amber-700 to-amber-800 hover:from-amber-800 hover:to-amber-900 shadow-lg shadow-amber-200"
                         : "bg-slate-900 hover:bg-slate-800"
                     }`}
                   >
@@ -560,7 +560,7 @@ export default function PreciosPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
-            <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-gradient-to-r from-amber-500 to-amber-700 text-white border-none shadow-lg">
+            <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-gradient-to-r from-amber-700 to-amber-800 text-white border-none shadow-lg">
               <Shield className="h-4 w-4 mr-2" />
               Reembolso Isapre
             </Badge>
@@ -608,28 +608,28 @@ export default function PreciosPage() {
               <h4 className="text-lg font-bold text-white mb-3">Cómo pedir tu reembolso:</h4>
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm">
                 <div className="flex items-center gap-2 bg-slate-700/50 px-4 py-2 rounded-full">
-                  <span className="bg-amber-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
+                  <span className="bg-amber-700 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
                     1
                   </span>
                   <span className="text-slate-200">Obtener orden médica</span>
                 </div>
                 <ArrowRight className="h-4 w-4 text-slate-500 hidden md:block" />
                 <div className="flex items-center gap-2 bg-slate-700/50 px-4 py-2 rounded-full">
-                  <span className="bg-amber-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
+                  <span className="bg-amber-700 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
                     2
                   </span>
                   <span className="text-slate-200">Recibir tu sesión</span>
                 </div>
                 <ArrowRight className="h-4 w-4 text-slate-500 hidden md:block" />
                 <div className="flex items-center gap-2 bg-slate-700/50 px-4 py-2 rounded-full">
-                  <span className="bg-amber-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
+                  <span className="bg-amber-700 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
                     3
                   </span>
                   <span className="text-slate-200">Subir boleta a tu Isapre</span>
                 </div>
                 <ArrowRight className="h-4 w-4 text-slate-500 hidden md:block" />
                 <div className="flex items-center gap-2 bg-emerald-700/50 px-4 py-2 rounded-full">
-                  <span className="bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
+                  <span className="bg-emerald-700 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
                     4
                   </span>
                   <span className="text-slate-200">Recibir reembolso</span>
@@ -669,7 +669,7 @@ export default function PreciosPage() {
                 </h3>
                 <ol className="space-y-4">
                   <li className="flex items-start">
-                    <span className="bg-amber-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
+                    <span className="bg-amber-700 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
                       1
                     </span>
                     <span className="text-slate-700">
@@ -678,7 +678,7 @@ export default function PreciosPage() {
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-amber-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
+                    <span className="bg-amber-700 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
                       2
                     </span>
                     <span className="text-slate-700">
@@ -686,7 +686,7 @@ export default function PreciosPage() {
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-amber-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
+                    <span className="bg-amber-700 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
                       3
                     </span>
                     <span className="text-slate-700">
@@ -694,7 +694,7 @@ export default function PreciosPage() {
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-emerald-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
+                    <span className="bg-emerald-700 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mr-3 mt-0.5">
                       4
                     </span>
                     <span className="text-slate-700">
@@ -761,7 +761,7 @@ export default function PreciosPage() {
               data-cta="cierre"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-5 text-lg rounded-full font-bold transition-colors shadow-lg shadow-emerald-900/30"
+              className="inline-flex items-center justify-center bg-emerald-700 hover:bg-emerald-800 text-white px-10 py-5 text-lg rounded-full font-bold transition-colors shadow-lg shadow-emerald-900/30"
             >
               <MessageCircle className="mr-3 h-6 w-6" />
               Agendar Evaluación Gratis

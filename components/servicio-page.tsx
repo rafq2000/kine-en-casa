@@ -171,7 +171,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                 data-cta="hero"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
+                                className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
                             >
                                 <MessageCircle className="h-5 w-5" />
                                 {cta.boton}
@@ -297,8 +297,8 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                     <p className="text-3xl font-bold mb-1">$160.000</p>
                                     <p className="text-slate-400">4 sesiones · $40.000 por sesión</p>
                                 </div>
-                                <div className="bg-amber-600 rounded-2xl p-6 border border-amber-500">
-                                    <p className="text-sm uppercase tracking-wider text-amber-100 mb-2">Plan Premium</p>
+                                <div className="bg-amber-700 rounded-2xl p-6 border border-amber-600">
+                                    <p className="text-sm uppercase tracking-wider text-amber-50 mb-2">Plan Premium</p>
                                     <p className="text-3xl font-bold mb-1">$350.000</p>
                                     <p className="text-amber-50">10 sesiones · $35.000 por sesión</p>
                                 </div>
@@ -329,7 +329,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 data-cta="precio"
-                                className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                                className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition-colors"
                             >
                                 <MessageCircle className="h-5 w-5" />
                                 Agendar evaluación gratuita
@@ -400,7 +400,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                             data-cta="cierre"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                            className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition-colors"
                         >
                             <MessageCircle className="h-5 w-5" />
                             WhatsApp {TEL_DISPLAY}

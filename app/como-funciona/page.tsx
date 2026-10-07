@@ -286,7 +286,7 @@ export default function ComoFuncionaPage() {
                 data-cta="hero"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 gap-2"
+                className="inline-flex items-center justify-center bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 gap-2"
               >
                 <MessageCircle className="w-5 h-5" />
                 Agendar por WhatsApp
@@ -517,7 +517,7 @@ export default function ComoFuncionaPage() {
               </a>
               <a
                 href="tel:+56999679593"
-                className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 border border-emerald-500 gap-2"
+                className="inline-flex items-center justify-center bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 border border-emerald-500 gap-2"
               >
                 <Phone className="w-5 h-5" />
                 Llamar Ahora

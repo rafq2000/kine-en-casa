@@ -198,7 +198,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 data-cta="hero"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
+                                className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
                             >
                                 <MessageCircle className="h-5 w-5" />
                                 Agendar evaluación gratuita en {data.nombre}
@@ -273,20 +273,20 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                         </h2>
                         <ol className="space-y-5 mb-8">
                             <li className="flex gap-4">
-                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">1</span>
+                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-700 text-white font-bold flex items-center justify-center">1</span>
                                 <p className="text-lg text-slate-700 leading-relaxed">
                                     Escríbenos por WhatsApp con tu dirección en {data.nombre} y, si la tienes, la orden médica o la epicrisis.
                                 </p>
                             </li>
                             <li className="flex gap-4">
-                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">2</span>
+                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-700 text-white font-bold flex items-center justify-center">2</span>
                                 <p className="text-lg text-slate-700 leading-relaxed">
                                     Evaluación inicial gratuita en tu casa ({llegada}): el kinesiólogo evalúa, revisa el espacio y te
                                     propone cuántas sesiones y qué plan.
                                 </p>
                             </li>
                             <li className="flex gap-4">
-                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">3</span>
+                                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-700 text-white font-bold flex items-center justify-center">3</span>
                                 <p className="text-lg text-slate-700 leading-relaxed">
                                     Sesiones de 60 minutos de lunes a domingo, con boleta de honorarios para pedir el reembolso.
                                 </p>
@@ -303,7 +303,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             target="_blank"
                             rel="noopener noreferrer"
                             data-cta="como-es"
-                            className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                            className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition-colors"
                         >
                             <MessageCircle className="h-5 w-5" />
                             Escribir por WhatsApp
@@ -418,8 +418,8 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                     <MessageCircle className="h-4 w-4" /> Consultar
                                 </a>
                             </div>
-                            <div className="bg-amber-600 rounded-2xl p-6 border border-amber-500">
-                                <p className="text-sm uppercase tracking-wider text-amber-100 mb-2">Plan Premium</p>
+                            <div className="bg-amber-700 rounded-2xl p-6 border border-amber-600">
+                                <p className="text-sm uppercase tracking-wider text-amber-50 mb-2">Plan Premium</p>
                                 <p className="text-3xl font-bold mb-1">$350.000</p>
                                 <p className="text-amber-50 mb-4">10 sesiones · $35.000 por sesión</p>
                                 <a
@@ -539,7 +539,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             data-cta="cierre"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                            className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition-colors"
                         >
                             <MessageCircle className="h-5 w-5" />
                             WhatsApp {TEL_DISPLAY}

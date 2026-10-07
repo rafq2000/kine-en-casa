@@ -126,7 +126,7 @@ export default function Page() {
                             data-cta="hero"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
+                            className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors"
                         >
                             <MessageCircle className="h-5 w-5" />
                             Consultar cobertura en mi comuna
@@ -210,7 +210,7 @@ export default function Page() {
                             href={`https://wa.me/56999679593?text=${encodeURIComponent("Hola, ¿atienden kinesiología a domicilio en mi comuna?")}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-colors"
+                            className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition-colors"
                         >
                             <MessageCircle className="h-5 w-5" />
                             WhatsApp {TEL_DISPLAY}

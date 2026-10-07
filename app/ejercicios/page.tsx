@@ -36,7 +36,7 @@ export default function ExercisesPage() {
             <main id="contenido">
             <header className="bg-slate-900 py-16 text-white text-center">
                 <div className="container mx-auto px-4">
-                    <Badge className="mb-4 bg-emerald-600">Biblioteca de ejercicios</Badge>
+                    <Badge className="mb-4 bg-emerald-700">Biblioteca de ejercicios</Badge>
                     <h1 className="text-4xl font-bold font-serif mb-4">Ejercicios Terapéuticos</h1>
                     <p className="text-slate-300 max-w-2xl mx-auto">
                         Guía visual de referencia para tus rutinas de rehabilitación.

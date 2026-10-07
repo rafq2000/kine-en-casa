@@ -218,7 +218,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     </Link>
 
                     <div className="max-w-4xl">
-                        <Badge className="mb-6 bg-amber-600 hover:bg-amber-700 border-none text-white px-4 py-1">
+                        <Badge className="mb-6 bg-amber-700 hover:bg-amber-800 border-none text-white px-4 py-1">
                             {post.category}
                         </Badge>
                         <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 font-serif leading-tight">
@@ -304,7 +304,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 data-cta="blog-intro"
-                                className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-xl transition-colors"
+                                className="inline-flex items-center justify-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-6 py-3 rounded-xl transition-colors"
                             >
                                 <MessageCircle className="h-5 w-5" />
                                 Escríbenos por WhatsApp
@@ -344,7 +344,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                                     <Link href="/blog">Ver todas las guías</Link>
                                 </Button>
                             ) : (
-                            <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white">
+                            <Button asChild size="lg" className="bg-emerald-700 hover:bg-emerald-800 text-white">
                                 <a href={waLink} target="_blank" rel="noopener noreferrer" data-cta="blog-final">
                                     Agendar evaluación gratuita
                                 </a>

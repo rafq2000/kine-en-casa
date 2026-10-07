@@ -167,7 +167,7 @@ export default function Page() {
                         href={WHATSAPP}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-xl shadow transition-colors mb-4"
+                        className="inline-flex items-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-6 py-3 rounded-xl shadow transition-colors mb-4"
                     >
                         <MessageCircle className="h-5 w-5" />
                         Consultar sobre mis datos por WhatsApp

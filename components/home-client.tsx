@@ -282,7 +282,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <Button
                 size="lg"
-                className="text-lg px-10 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 bg-emerald-600 hover:bg-emerald-700 text-white border border-emerald-500 transform hover:scale-105"
+                className="text-lg px-10 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 bg-emerald-700 hover:bg-emerald-800 text-white border border-emerald-500 transform hover:scale-105"
                 asChild
               >
                 <a
@@ -403,7 +403,7 @@ export default function HomePage() {
                       ))}
                     </ul>
                     <Button
-                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-all duration-300 border border-emerald-500" asChild>
+                      className="w-full bg-emerald-700 hover:bg-emerald-800 text-white transition-all duration-300 border border-emerald-500" asChild>
 <a href={wa(`Hola, quiero consultar por ${service.title} a domicilio. Mi comuna es: `)} data-cta="servicio" target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="h-4 w-4 mr-2" />
                       Consultar por WhatsApp
@@ -424,7 +424,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-20">
-            <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-gradient-to-r from-amber-500 to-amber-700 text-white border-none shadow-lg">
+            <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-gradient-to-r from-amber-700 to-amber-800 text-white border-none shadow-lg">
               <Sparkles className="h-4 w-4 mr-2" />
               Incluido en cada atención
             </Badge>
@@ -524,7 +524,7 @@ export default function HomePage() {
               >
                 {plan.popular && (
                   <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 w-full text-center">
-                    <Badge className="bg-gradient-to-r from-amber-600 to-amber-700 text-white px-8 py-2 shadow-xl border-amber-500 text-sm font-bold tracking-wider uppercase">
+                    <Badge className="bg-gradient-to-r from-amber-700 to-amber-800 text-white px-8 py-2 shadow-xl border-amber-500 text-sm font-bold tracking-wider uppercase">
                       <Crown className="h-4 w-4 mr-2" />
                       Opción Recomendada
                     </Badge>
@@ -575,7 +575,7 @@ export default function HomePage() {
 
                 <div className="p-6 pt-0 mt-auto">
                   <Button
-                    className={`w-full text-lg py-6 font-bold transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 ${plan.popular ? "bg-amber-600 hover:bg-amber-700 text-white border-amber-500" : "bg-slate-900 hover:bg-slate-800 text-white"
+                    className={`w-full text-lg py-6 font-bold transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 ${plan.popular ? "bg-amber-700 hover:bg-amber-800 text-white border-amber-600" : "bg-slate-900 hover:bg-slate-800 text-white"
                       }`} asChild>
 <a href={wa(`Hola, me interesa el ${plan.name}.`)} data-cta={`plan-${plan.name.replace("Plan ", "").toLowerCase()}`} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5 mr-2" />
@@ -676,7 +676,7 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-slate-600/20 rounded-full blur-3xl"></div>
 
         <div className="container mx-auto px-4 text-center relative z-10">
-          <Badge className="mb-8 px-6 py-2 text-sm font-medium bg-amber-600 text-white border-amber-500">
+          <Badge className="mb-8 px-6 py-2 text-sm font-medium bg-amber-700 text-white border-amber-500">
             <MessageCircle className="h-4 w-4 mr-2" />
             Contacto directo
           </Badge>
@@ -702,7 +702,7 @@ export default function HomePage() {
 </Button>
             <Button
               size="lg"
-              className="text-lg px-10 py-6 bg-emerald-600 hover:bg-emerald-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-emerald-500" asChild>
+              className="text-lg px-10 py-6 bg-emerald-700 hover:bg-emerald-800 text-white shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-emerald-500" asChild>
 <a href={wa("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")} data-cta="cierre" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-5 w-5 mr-3" />
               Enviar WhatsApp
@@ -782,7 +782,7 @@ export default function HomePage() {
 
           <div className="mt-12 text-center">
             <Button
-              className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              className="bg-emerald-700 hover:bg-emerald-800 text-white" asChild>
 <a href={wa("Hola, ¿atienden kinesiología a domicilio en mi comuna?")} data-cta="comunas" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-4 w-4 mr-2" />
               Consultar otra comuna
@@ -827,7 +827,7 @@ export default function HomePage() {
                   {post.title}
                 </h3>
                 <p className="text-slate-600 leading-relaxed mb-4">{post.subtitle}</p>
-                <span className="text-sm font-semibold text-emerald-600 flex items-center">
+                <span className="text-sm font-semibold text-emerald-700 flex items-center">
                   Leer la guía <TrendingUp className="h-3 w-3 ml-2" />
                 </span>
               </Link>

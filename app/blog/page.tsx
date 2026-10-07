@@ -91,7 +91,7 @@ export default function BlogPage() {
             <span className="text-white font-medium">Blog</span>
           </nav>
 
-          <Badge className="mb-6 bg-amber-600 hover:bg-amber-700 border-none text-white px-4 py-1">
+          <Badge className="mb-6 bg-amber-700 hover:bg-amber-800 border-none text-white px-4 py-1">
             <BookOpen className="h-4 w-4 mr-2" />
             Guías de kinesiología
           </Badge>
@@ -166,7 +166,7 @@ export default function BlogPage() {
                       <p className="text-slate-600 text-sm leading-relaxed mb-3">{post.subtitle}</p>
                       <div className="flex items-center justify-between">
                         <span className="text-xs text-slate-400">{post.author}</span>
-                        <span className="text-sm font-semibold text-emerald-600 flex items-center">
+                        <span className="text-sm font-semibold text-emerald-700 flex items-center">
                           Leer <ArrowRight className="h-3 w-3 ml-1" />
                         </span>
                       </div>
@@ -193,7 +193,7 @@ export default function BlogPage() {
             href="https://wa.me/56999679593?text=Hola, quiero agendar una evaluación kinesiológica a domicilio"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 bg-emerald-600 text-white rounded-xl font-semibold hover:bg-emerald-700 transition-colors shadow-lg text-lg"
+            className="inline-flex items-center px-8 py-4 bg-emerald-700 text-white rounded-xl font-semibold hover:bg-emerald-700 transition-colors shadow-lg text-lg"
           >
             Agendar Evaluación Gratuita
             <ArrowRight className="h-5 w-5 ml-2" />

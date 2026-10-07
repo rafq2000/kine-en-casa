@@ -194,7 +194,7 @@ export default function TestimoniosPage() {
                             href="https://wa.me/56999679593?text=Hola, quiero agendar una evaluación a domicilio"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200"
+                            className="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200"
                         >
                             <MessageCircle className="h-5 w-5" />
                             Agendar por WhatsApp
