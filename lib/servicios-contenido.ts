@@ -105,7 +105,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Por qué en la casa funciona mejor para este perfil',
                 parrafos: [
                     'En un box clínico se entrena en un entorno neutro. En la casa se entrena en el entorno donde la persona efectivamente se cae: ese escalón, ese pasillo estrecho, esa cama alta, ese baño sin barra.',
-                    'Se suma un factor práctico: para un adulto mayor con movilidad reducida, cada traslado a un centro implica esfuerzo, riesgo y a menudo depender de un familiar que pida permiso en el trabajo. Esa fricción es la razón más común por la que un tratamiento se abandona a la tercera semana.',
+                    'Se suma un factor práctico: para un adulto mayor con movilidad reducida, cada traslado a un centro implica esfuerzo, riesgo y a menudo depender de un familiar que pida permiso en el trabajo. Esa fricción puede hacer más difícil sostener el tratamiento en el tiempo.',
                     'Y hay un tercer beneficio: el cuidador aprende en el lugar. Cómo asistir una transferencia sin lastimarse la espalda, qué ejercicios supervisar entre sesiones, qué señales vigilar.',
                 ],
             },
@@ -278,7 +278,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 parrafos: [
                     'Durante décadas la indicación por defecto ante una lesión fue reposo. Hoy la evidencia apunta en otra dirección: el tejido lesionado necesita carga controlada para reorganizarse y recuperar su capacidad de soportar tensión. Sin ese estímulo, cicatriza más débil y con menor tolerancia al esfuerzo.',
                     'Esto no significa seguir como si nada. Significa modificar la carga en lugar de eliminarla: bajar la intensidad, cambiar el gesto, reducir el rango, pero mantener al tejido trabajando. La dosis correcta es la que genera una molestia tolerable que no aumenta al día siguiente.',
-                    'El error más común que vemos no es exigirse de más, sino inmovilizar de más y volver de golpe a la actividad completa cuando el dolor cede. Ahí ocurre la recaída.',
+                    'Un error que conviene evitar es inmovilizar de más y volver de golpe a la actividad completa cuando el dolor cede: ahí puede aparecer una recaída.',
                 ],
                 enlace: {
                     antes: 'Si vienes saliendo de una cirugía, el plan es otro y lo explicamos en',
@@ -426,7 +426,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Por qué la casa gana al box clínico en neurología',
                 parrafos: [
                     'El aprendizaje motor es específico del contexto: lo que se entrena en un entorno se transfiere mejor a ese mismo entorno. Practicar levantarse de una camilla estándar no es lo mismo que practicar levantarse del sillón donde la persona pasa el día.',
-                    'En la casa se entrena con los objetos reales, en el baño real, con la altura de cama real y las escaleras reales. Para un paciente neurológico, que necesita reaprender tareas concretas, esa diferencia es sustancial. Y se elimina la fricción del traslado, que en pacientes con movilidad reducida es la principal causa de abandono del tratamiento.',
+                    'En la casa se entrena con los objetos reales, en el baño real, con la altura de cama real y las escaleras reales. Para un paciente neurológico, que necesita reaprender tareas concretas, esa diferencia es sustancial. Y se elimina la fricción del traslado, que en pacientes con movilidad reducida puede ser una barrera para sostener el tratamiento.',
                 ],
             },
             {
@@ -672,7 +672,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Si algo no sale bien',
                 parrafos: [
                     'Puede pasar que un kinesiólogo no haga match con un paciente, que el horario deje de funcionar o que sientas que el tratamiento no avanza. Escríbenos por WhatsApp y lo resolvemos: cambiamos de profesional, reajustamos el plan o revisamos el enfoque.',
-                    'Lo que preferimos es que nos lo digas y no que abandones el tratamiento en silencio, porque en rehabilitación abandonar a mitad de camino suele significar perder lo ganado.',
+                    'Lo que preferimos es que nos lo digas y no que abandones el tratamiento en silencio, porque en rehabilitación abandonar a mitad de camino puede significar perder lo ganado.',
                 ],
             },
         ],
