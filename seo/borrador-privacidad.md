@@ -1,6 +1,6 @@
-# Borrador de /privacidad (T30) — PENDIENTE DE APROBACIÓN DE RICARDO
+# Borrador de /privacidad (T30) — PUBLICADO EL 7-OCT-2026
 
-Estado: **borrador, no publicado.** La página `app/privacidad/page.tsx` no se crea hasta que Ricardo (abogado) apruebe el texto. Mientras tanto, el footer no enlaza a /privacidad.
+Estado: **publicado en `app/privacidad/page.tsx`** (Ricardo delegó la revisión el 7-oct-2026). Diferencias con este borrador: el canal para ejercer derechos es el WhatsApp +56 9 9967 9593 (contacto@kineum.cl rebota: el dominio no tiene MX); no se menciona Umami (inactivo) y sí Vercel Web Analytics; el plazo de conservación quedó sin cifra; la Ley 21.719 se cita con fechas verificadas en el Diario Oficial (publicada el 13-dic-2024, vigencia el 1-dic-2026). El texto de abajo queda como historial.
 
 Antes de aprobar, Ricardo debe confirmar:
 1. **Las citas legales y las fechas de vigencia.** El borrador cita la Ley N° 19.628, sobre protección de la vida privada, y la Ley N° 21.719, que la modifica y crea la Agencia de Protección de Datos Personales. Según lo que el modelo tiene registrado, la Ley 21.719 se publicó en el Diario Oficial en diciembre de 2024 y su régimen principal entra en vigencia el 1 de diciembre de 2026. **Verificar ambas fechas, el nombre exacto de cada ley y si conviene citar artículos.**

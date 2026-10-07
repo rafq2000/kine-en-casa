@@ -66,6 +66,15 @@ Ricardo delegó la decisión ("hazlo todo, déjalo perfecto"); se ejecuta la opc
 - De `condiciones` solo se muestran los títulos: los detalles traen cifras sin fuente ("115-125 grados", "mayores de 80 años") que no pasan a los hubs.
 - Los enlaces internos apuntan a `/kinesiologo-a-domicilio-{comuna}#{especialidad}`. El sitemap pasa de 95 a 50 URLs.
 
+### 7-oct-2026 — T30: /privacidad publicada
+Ricardo delegó la revisión del borrador ("hazlo todo, déjalo perfecto").
+- Responsable: Kineum SpA, RUT 76.892.102-K, con la dirección comercial que ya muestra el footer.
+- Canal para ejercer derechos: WhatsApp +56 9 9967 9593. `contacto@kineum.cl` no se publica porque rebota (el dominio no tiene registro MX).
+- Ley 21.719: publicada en el Diario Oficial el 13-dic-2024 (edición 44.023, CVE 2583630); su artículo primero transitorio fija la vigencia el día primero del mes vigésimo cuarto posterior a la publicación, es decir, el 1-dic-2026.
+- Medición: solo Vercel Web Analytics, descrita como "medición agregada de visitas que no usa cookies de terceros" (lo que dice la documentación de Vercel). Umami no se menciona porque está inactivo; si se activa (T22), hay que agregarlo a la página.
+- Plazo de conservación: sin cifra, "mientras sean necesarios para tu atención y para cumplir obligaciones legales". Si Ricardo define un plazo, se agrega.
+- Enlace en el footer y en el sitemap (MODIFICADO 2026-10-07). El auditor acepta "privacidad" como raíz del H1 (`seo/rules.mjs`).
+
 ## Deploys
 
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |

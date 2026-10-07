@@ -21,7 +21,8 @@ export const RULES = {
         exactamente: 1,
         // El H1 no puede ser solo la marca. En paginas de servicio debe llevar la keyword;
         // en el blog basta con que refleje el tema del slug (validado aparte).
-        raicesKeyword: ['kinesi', 'rehabilitac', 'fisioterap', 'ejercicio', 'precio', 'blog', 'opinion', 'equipo'],
+        // 'privacidad': /privacidad es una página legal y su H1 es "Política de privacidad".
+        raicesKeyword: ['kinesi', 'rehabilitac', 'fisioterap', 'ejercicio', 'precio', 'blog', 'opinion', 'equipo', 'privacidad'],
     },
     contenido: {
         // Minimo de palabras de texto visible para que Google considere indexar.

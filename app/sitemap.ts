@@ -24,6 +24,7 @@ const MODIFICADO: Record<string, string> = {
     '/blog': '2026-09-17',
     '/ejercicios': '2026-09-06',
     '/cobertura': '2026-09-29',
+    '/privacidad': '2026-10-07',
     // Los 9 hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las 45 especialidad+comuna (T37)
     hubs: '2026-10-07',
 }
@@ -38,6 +39,7 @@ function prioridad(ruta: string): number {
     if (ruta.startsWith('/servicios/')) return 0.9
     if (ruta.startsWith('/kinesiologo-a-domicilio-')) return 0.9
     if (ruta === '/cobertura') return 0.9
+    if (ruta === '/privacidad') return 0.3
     if (ruta === '/precios' || ruta === '/como-funciona') return 0.8
     if (ruta.startsWith('/blog/')) return 0.6
     return 0.7
@@ -55,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/blog',
         '/ejercicios',
         '/cobertura',
+        '/privacidad',
         '/servicios/respiratoria',
         '/servicios/geriatrica',
         '/servicios/neurologica',
