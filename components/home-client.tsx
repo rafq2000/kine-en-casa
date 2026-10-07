@@ -557,9 +557,9 @@ export default function HomePage() {
                 <CardContent className="pt-0 flex-grow">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center">
+                      <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center">
                         <Shield className="h-3 w-3 mr-1" /> Lo que incluye:
-                      </h4>
+                      </h3>
                       <ul className="space-y-3">
                         {plan.features.map((feature, featureIndex) => (
                           <li key={featureIndex} className="flex items-start text-sm">

@@ -65,17 +65,17 @@ export default function ExercisesPage() {
                             </div>
 
                             <div className="p-6 flex-1 flex flex-col">
-                                <h3 className="text-xl font-bold text-slate-900 mb-2 font-serif">{exercise.title}</h3>
+                                <h2 className="text-xl font-bold text-slate-900 mb-2 font-serif">{exercise.title}</h2>
                                 <p className="text-slate-600 text-sm mb-6 flex-1">
                                     {exercise.description}
                                 </p>
 
                                 <div className="space-y-4">
                                     <div>
-                                        <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center">
+                                        <h3 className="text-sm font-bold text-slate-900 mb-2 flex items-center">
                                             <CheckCircle2 className="h-4 w-4 text-emerald-600 mr-2" />
                                             Pasos Clave
-                                        </h4>
+                                        </h3>
                                         <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5">
                                             {exercise.steps.map((step, idx) => (
                                                 <li key={idx}>{step}</li>
@@ -84,10 +84,10 @@ export default function ExercisesPage() {
                                     </div>
 
                                     <div className="bg-amber-50 p-4 rounded-xl border border-amber-100">
-                                        <h4 className="text-sm font-bold text-amber-900 mb-2 flex items-center">
+                                        <h3 className="text-sm font-bold text-amber-900 mb-2 flex items-center">
                                             <AlertCircle className="h-4 w-4 text-amber-600 mr-2" />
                                             Errores Comunes
-                                        </h4>
+                                        </h3>
                                         <ul className="text-sm text-amber-800 space-y-1 list-disc pl-5">
                                             {exercise.commonErrors.map((error, idx) => (
                                                 <li key={idx}>{error}</li>
