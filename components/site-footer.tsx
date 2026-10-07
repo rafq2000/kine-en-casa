@@ -98,7 +98,6 @@ export function SiteFooter() {
                                 <MapPin className="h-5 w-5 text-amber-500 mt-0.5" />
                                 <div>
                                     <span className="block text-white font-medium">Kineum SpA</span>
-                                    <span className="text-xs block mt-1">RUT: 76.892.102-K</span>
                                     <span className="text-xs block">Av. Apoquindo 4501, Las Condes</span>
                                     <span className="text-xs block">Santiago, Chile</span>
                                     <span className="text-xs block mt-1 text-slate-500">Dirección comercial: la atención es en tu domicilio</span>

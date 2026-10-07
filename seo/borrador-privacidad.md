@@ -25,7 +25,7 @@ Metadata propuesta:
 
 ### Quién es responsable de tus datos
 
-El responsable del tratamiento de tus datos personales es **Kineum SpA**, RUT 76.892.102-K, con dirección comercial en Av. Apoquindo 4501, Las Condes, Santiago. Para cualquier consulta sobre tus datos, escríbenos a **contacto@kineum.cl**.
+El responsable del tratamiento de tus datos personales es **Kineum SpA**, con dirección comercial en Av. Apoquindo 4501, Las Condes, Santiago. Para cualquier consulta sobre tus datos, escríbenos a **contacto@kineum.cl**.
 
 ### Qué datos recibimos
 

@@ -25,7 +25,7 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 | Teléfono | +56 9 9967 9593 |
 | Sitio | https://kineum.cl (sin www; en la ficha, con la UTM de "Enlaces de la ficha") |
 | Email | contacto@kineum.cl — **no usarlo mientras rebote** (ver T53) |
-| Razón social | Kineum SpA — RUT 76.892.102-K |
+| Razón social | Kineum SpA (RUT: pendiente; el publicado era inválido, ver cambios.md › Decisiones) |
 | Dirección | La que se decida en "ANTES DE EMPEZAR" (**ocultarla**: marcar que no se recibe público) |
 | Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro |
 | Categoría principal | Kinesiólogo |

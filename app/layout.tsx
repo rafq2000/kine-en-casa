@@ -85,7 +85,6 @@ const localBusinessSchema = {
   "@id": `${siteUrl}/#organization`,
   name: "KINEUM",
   legalName: "Kineum SpA",
-  taxID: "76.892.102-K",
   description:
     "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,

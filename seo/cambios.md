@@ -68,12 +68,15 @@ Ricardo delegó la decisión ("hazlo todo, déjalo perfecto"); se ejecuta la opc
 
 ### 7-oct-2026 — T30: /privacidad publicada
 Ricardo delegó la revisión del borrador ("hazlo todo, déjalo perfecto").
-- Responsable: Kineum SpA, RUT 76.892.102-K, con la dirección comercial que ya muestra el footer.
+- Responsable: Kineum SpA, con la dirección comercial que ya muestra el footer (el RUT se retiró el 7-oct, ver abajo).
 - Canal para ejercer derechos: WhatsApp +56 9 9967 9593. `contacto@kineum.cl` no se publica porque rebota (el dominio no tiene registro MX).
 - Ley 21.719: publicada en el Diario Oficial el 13-dic-2024 (edición 44.023, CVE 2583630); su artículo primero transitorio fija la vigencia el día primero del mes vigésimo cuarto posterior a la publicación, es decir, el 1-dic-2026.
 - Medición: solo Vercel Web Analytics, descrita como "medición agregada de visitas que no usa cookies de terceros" (lo que dice la documentación de Vercel). Umami no se menciona porque está inactivo; si se activa (T22), hay que agregarlo a la página.
 - Plazo de conservación: sin cifra, "mientras sean necesarios para tu atención y para cumplir obligaciones legales". Si Ricardo define un plazo, se agrega.
 - Enlace en el footer y en el sitemap (MODIFICADO 2026-10-07). El auditor acepta "privacidad" como raíz del H1 (`seo/rules.mjs`).
+
+### 7-oct-2026 — Fase 3: correcciones de los revisores de producción
+- RUT publicado era inválido; retirado hasta que Ricardo confirme el real. "76.892.102-K" no cumple el dígito verificador (módulo 11 da 4, no K). Se quitó del schema (`taxID`), footer, /privacidad, llms.txt, /blog de precios y citaciones-locales; queda "Kineum SpA" sin RUT.
 
 ## Deploys
 
