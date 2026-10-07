@@ -701,7 +701,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
         "centrosSalud": [
             {
                 "nombre": "Hospital Santiago Oriente Dr. Luis Tisné Brousse",
-                "tipo": "hospital publico",
+                "tipo": "hospital público",
                 "nota": "Urgencia hospitalaria 24 h para adultos, en Av. Las Torres"
             },
             {
@@ -929,17 +929,17 @@ export const comunasLocal: Record<string, ComunaLocal> = {
         "centrosSalud": [
             {
                 "nombre": "Hospital Clínico San Borja Arriarán",
-                "tipo": "hospital publico",
+                "tipo": "hospital público",
                 "nota": "Urgencia 24 h, adulto y pediátrica"
             },
             {
                 "nombre": "Hospital de Urgencia Asistencia Pública (ex Posta Central)",
-                "tipo": "hospital publico",
+                "tipo": "hospital público",
                 "nota": "Urgencia 24 h solo de adultos"
             },
             {
                 "nombre": "Hospital San Juan de Dios",
-                "tipo": "hospital publico",
+                "tipo": "hospital público",
                 "nota": "Urgencia 24 h de adultos"
             },
             {

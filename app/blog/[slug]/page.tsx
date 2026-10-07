@@ -1,4 +1,4 @@
-import { getPostBySlug, blogPosts, postsIndexables } from "@/lib/blog-data"
+import { getPostBySlug, blogPosts, postsIndexables, fechaLarga } from "@/lib/blog-data"
 import { notFound } from "next/navigation"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -214,7 +214,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                         className="inline-flex items-center text-slate-400 hover:text-white mb-8 transition-colors text-sm font-medium"
                     >
                         <ArrowLeft className="h-4 w-4 mr-2" />
-                        Volver al Journal
+                        Volver a las guías
                     </Link>
 
                     <div className="max-w-4xl">
@@ -237,14 +237,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
                             </div>
                             <div className="flex items-center">
                                 <Calendar className="h-4 w-4 mr-2" />
-                                {post.date}
-                                {post.updatedISO &&
-                                    ` · Actualizado el ${new Date(post.updatedISO).toLocaleDateString("es-CL", {
-                                        day: "numeric",
-                                        month: "long",
-                                        year: "numeric",
-                                        timeZone: "UTC",
-                                    })}`}
+                                {fechaLarga(post.dateISO)}
+                                {post.updatedISO && ` · Actualizado el ${fechaLarga(post.updatedISO)}`}
                             </div>
                             <div className="flex items-center">
                                 <Clock className="h-4 w-4 mr-2" />

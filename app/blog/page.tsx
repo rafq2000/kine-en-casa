@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { SiteFooter } from "@/components/site-footer"
-import { postsIndexables as blogPosts } from "@/lib/blog-data"
+import { postsIndexables as blogPosts, fechaLarga } from "@/lib/blog-data"
 import { BookOpen, Clock, Calendar, ArrowRight, ChevronRight, MapPin, Stethoscope } from "lucide-react"
 
 export const metadata: Metadata = {
@@ -93,7 +93,7 @@ export default function BlogPage() {
 
           <Badge className="mb-6 bg-amber-600 hover:bg-amber-700 border-none text-white px-4 py-1">
             <BookOpen className="h-4 w-4 mr-2" />
-            Journal Clínico KINEUM
+            Guías de kinesiología
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif leading-tight">
             Blog de Kinesiología
@@ -133,7 +133,7 @@ export default function BlogPage() {
                   </h3>
                   <p className="text-slate-600 text-sm mb-3 leading-relaxed">{post.subtitle}</p>
                   <div className="flex items-center gap-4 text-xs text-slate-400">
-                    <span className="flex items-center"><Calendar className="h-3 w-3 mr-1" />{post.date}</span>
+                    <span className="flex items-center"><Calendar className="h-3 w-3 mr-1" />{fechaLarga(post.dateISO)}</span>
                     <span className="flex items-center"><Clock className="h-3 w-3 mr-1" />{post.readTime}</span>
                   </div>
                 </Link>

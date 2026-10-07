@@ -2436,7 +2436,7 @@ export const blogPosts = [
 <li><strong>Osteosíntesis:</strong> el cirujano fija el hueso con clavos, placas o tornillos y el hueso propio tiene que consolidar. En algunos casos el traumatólogo limita al principio cuánto peso se puede apoyar en la pierna operada.</li>
 <li><strong>Prótesis (parcial o total):</strong> se reemplaza la parte dañada de la articulación por una pieza artificial. Muchas veces permite apoyar antes, pero trae precauciones de movimiento para proteger la prótesis mientras cicatrizan los tejidos.</li>
 </ul>
-<p>Antes de la primera sesión conviene tener a mano el epicrisis o informe de alta: ahí aparece qué cirugía se hizo, cuánto peso puede apoyar y qué movimientos están restringidos. Si no está claro, pregúntale al traumatólogo en el control. El kinesiólogo trabaja dentro de esas indicaciones, nunca por encima de ellas.</p>
+<p>Antes de la primera sesión conviene tener a mano la epicrisis o el informe de alta: ahí aparece qué cirugía se hizo, cuánto peso puede apoyar y qué movimientos están restringidos. Si no está claro, pregúntale al traumatólogo en el control. El kinesiólogo trabaja dentro de esas indicaciones, nunca por encima de ellas.</p>
 
 <h2>Cuándo empezar la kinesiología en casa</h2>
 <p>En general, la rehabilitación parte todavía en la clínica, con los primeros traslados y los primeros pasos asistidos. Lo importante es que <strong>no se corte al llegar a la casa</strong>. Los días en cama cuestan fuerza, equilibrio y confianza, y en una persona mayor esa pérdida se nota rápido.</p>
@@ -2970,6 +2970,11 @@ export const blogPosts = [
     `
   }
 ];
+
+// Fecha visible de un post ("18 de septiembre de 2026"), siempre desde dateISO/updatedISO.
+export function fechaLarga(iso: string) {
+  return new Date(iso).toLocaleDateString("es-CL", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+}
 
 export function getPostBySlug(slug: string) {
   return blogPosts.find((post) => post.slug === slug);

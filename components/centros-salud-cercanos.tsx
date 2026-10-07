@@ -14,7 +14,7 @@ export function CentrosSaludCercanos({ comuna, centros }: { comuna: string; cent
                 {centros.map((c) => (
                     <li key={c.nombre} className="text-slate-700 leading-relaxed">
                         <strong className="text-slate-900">{c.nombre}</strong>{" "}
-                        <span className="text-slate-500">({c.tipo})</span>
+                        {c.tipo !== "otro" && <span className="text-slate-500">({c.tipo})</span>}
                         {c.nota && <span className="block text-sm text-slate-600">{c.nota}</span>}
                     </li>
                 ))}
