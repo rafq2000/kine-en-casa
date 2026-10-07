@@ -59,17 +59,8 @@ const nextConfig = {
         destination: '/servicios/respiratoria',
         permanent: true,
       },
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'www.kineum.cl',
-          },
-        ],
-        destination: 'https://kineum.cl/:path*',
-        permanent: true, // 301 redirect for SEO
-      },
+      // www.kineum.cl -> kineum.cl lo hace Vercel a nivel de dominio (308) antes de llegar a Next;
+      // la regla que había aquí nunca se ejecutaba (verificado el 7-oct-2026).
       // Contenido Fonasa retirado: KINEUM es servicio particular.
       // 301 hacia las guias de reembolso/precios que si aplican.
       {
