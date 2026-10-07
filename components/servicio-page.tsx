@@ -155,7 +155,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                             <li>
                                 <Link href="/" className="hover:text-amber-700">Inicio</Link>
                             </li>
-                            <ChevronRight className="h-3.5 w-3.5" />
+                            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5" /></li>
                             <li className="text-slate-900 font-medium">{contenido.breadcrumb}</li>
                         </ol>
                     </nav>

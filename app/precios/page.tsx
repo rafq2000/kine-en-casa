@@ -342,7 +342,7 @@ export default function PreciosPage() {
                   Inicio
                 </Link>
               </li>
-              <li>
+              <li aria-hidden="true">
                 <ChevronRight className="h-4 w-4" />
               </li>
               <li className="text-slate-900 font-medium">Precios</li>

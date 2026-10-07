@@ -100,7 +100,7 @@ export default function Page() {
                                     Inicio
                                 </Link>
                             </li>
-                            <ChevronRight className="h-3.5 w-3.5" />
+                            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5" /></li>
                             <li className="text-slate-900 font-medium">Cobertura</li>
                         </ol>
                     </nav>

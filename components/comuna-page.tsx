@@ -173,11 +173,11 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             <li>
                                 <Link href="/" className="hover:text-amber-700">Inicio</Link>
                             </li>
-                            <ChevronRight className="h-3.5 w-3.5" />
+                            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5" /></li>
                             <li>
                                 <Link href="/cobertura" className="hover:text-amber-700">Cobertura</Link>
                             </li>
-                            <ChevronRight className="h-3.5 w-3.5" />
+                            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5" /></li>
                             <li className="text-slate-900 font-medium">{data.nombre}</li>
                         </ol>
                     </nav>

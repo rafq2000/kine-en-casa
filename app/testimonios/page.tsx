@@ -141,7 +141,7 @@ export default function TestimoniosPage() {
                             Inicio
                         </Link>
                     </li>
-                    <li>
+                    <li aria-hidden="true">
                         <ChevronRight className="h-3.5 w-3.5" />
                     </li>
                     <li className="text-slate-900 font-medium">Testimonios</li>
