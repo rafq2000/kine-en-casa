@@ -168,8 +168,7 @@ export default function HomePage() {
       features: [
         "4 sesiones de kinesiología de 60 minutos",
         "Evaluación inicial gratuita",
-        "Seguimiento de evolución",
-        "Boleta reembolsable en Isapre y seguros",
+        "Boleta de honorarios por sesión para pedir reembolso",
       ],
       popular: false,
       gradient: "from-emerald-600 to-emerald-800",
@@ -183,7 +182,7 @@ export default function HomePage() {
       features: [
         "10 sesiones de kinesiología de 60 minutos",
         "Evaluación inicial gratuita",
-        "Boleta reembolsable en Isapre y seguros",
+        "Boleta de honorarios por sesión para pedir reembolso",
       ],
       popular: true,
       gradient: "from-amber-600 to-amber-800",
@@ -198,7 +197,7 @@ export default function HomePage() {
         "Plan a medida para tratamientos intensivos o prolongados",
         "Sesiones de kinesiología de 60 minutos",
         "Evaluación inicial gratuita",
-        "Boleta reembolsable en Isapre y seguros",
+        "Boleta de honorarios por sesión para pedir reembolso",
       ],
       popular: false,
       gradient: "from-slate-700 to-slate-900",

@@ -26,7 +26,7 @@ import { BOLETA_TEXTO, HORARIO_TEXTO } from "@/lib/negocio"
 import { comunas } from "@/lib/comunas-data"
 
 export const metadata: Metadata = {
-  title: "Valor Kinesiólogo a Domicilio: Planes desde $35.000 | KINEUM",
+  title: "Kinesiólogo a Domicilio: desde $35.000 por sesión | KINEUM",
   description:
     "Kinesiología a domicilio en Santiago: 10 sesiones por $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Evaluación inicial gratis y boleta para Isapre.",
   keywords: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/precios",
   },
   openGraph: {
-    title: "Valor Kinesiólogo a Domicilio: Planes desde $35.000 | KINEUM",
+    title: "Kinesiólogo a Domicilio: desde $35.000 por sesión | KINEUM",
     description:
       "Kinesiología a domicilio en Santiago: 10 sesiones por $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Evaluación inicial gratis y boleta para Isapre.",
     url: "https://kineum.cl/precios",
@@ -144,8 +144,7 @@ const plans = [
     features: [
       "4 sesiones de 60 min a domicilio",
       "Evaluación inicial gratuita",
-      "Seguimiento de evolución básico",
-      "Boleta para reembolso Isapre",
+      "Boleta de honorarios por sesión para pedir reembolso",
     ],
     popular: false,
     gradient: "from-emerald-600 to-emerald-800",
@@ -157,7 +156,7 @@ const plans = [
   },
   {
     name: "Plan Premium",
-    subtitle: "Para rehabilitación completa",
+    subtitle: "Para tratamientos más largos",
     icon: Star,
     sessions: "10 Sesiones/mes",
     price: "350.000",
@@ -165,7 +164,7 @@ const plans = [
     features: [
       "10 sesiones de 60 min a domicilio",
       "Evaluación inicial gratuita",
-      "Boleta para reembolso Isapre",
+      "Boleta de honorarios por sesión para pedir reembolso",
     ],
     popular: true,
     gradient: "from-amber-600 to-amber-800",
@@ -186,7 +185,7 @@ const plans = [
       "Plan a medida para tratamientos intensivos o prolongados",
       "Sesiones de 60 min a domicilio",
       "Evaluación inicial gratuita",
-      "Boleta para reembolso Isapre",
+      "Boleta de honorarios por sesión para pedir reembolso",
     ],
     popular: false,
     gradient: "from-slate-700 to-slate-900",

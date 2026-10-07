@@ -19,7 +19,7 @@ const MODIFICADO: Record<string, string> = {
     '/servicios/neurologica': '2026-10-05',
     '/servicios/traumatologica': '2026-10-05',
     '/servicios/postquirurgica': '2026-10-05',
-    '/precios': '2026-10-05',
+    '/precios': '2026-10-07',
     '/como-funciona': '2026-10-07',
     '/blog': '2026-09-17',
     '/ejercicios': '2026-10-07',
