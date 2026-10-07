@@ -22,7 +22,7 @@ const MODIFICADO: Record<string, string> = {
     '/precios': '2026-10-05',
     '/como-funciona': '2026-10-05',
     '/blog': '2026-09-17',
-    '/ejercicios': '2026-09-06',
+    '/ejercicios': '2026-10-07',
     '/cobertura': '2026-09-29',
     '/privacidad': '2026-10-07',
     // Los 9 hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las 45 especialidad+comuna (T37)

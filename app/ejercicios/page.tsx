@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import { AlertCircle, CheckCircle2 } from "lucide-react"
+import { AlertCircle, CheckCircle2, MessageCircle } from "lucide-react"
+import { SiteFooter } from "@/components/site-footer"
 import { exercises } from "@/lib/exercises-data"
 
 export const metadata: Metadata = {
@@ -36,11 +36,11 @@ export default function ExercisesPage() {
             <main id="contenido">
             <header className="bg-slate-900 py-16 text-white text-center">
                 <div className="container mx-auto px-4">
-                    <Badge className="mb-4 bg-emerald-600">Biblioteca Privada</Badge>
+                    <Badge className="mb-4 bg-emerald-600">Biblioteca de ejercicios</Badge>
                     <h1 className="text-4xl font-bold font-serif mb-4">Ejercicios Terapéuticos</h1>
                     <p className="text-slate-300 max-w-2xl mx-auto">
-                        Guía visual de referencia para sus rutinas de rehabilitación.
-                        Recuerde realizar solo los ejercicios prescritos por su kinesiólogo.
+                        Guía visual de referencia para tus rutinas de rehabilitación.
+                        Haz solo los ejercicios que te indicó tu kinesiólogo.
                     </p>
                 </div>
             </header>
@@ -98,15 +98,23 @@ export default function ExercisesPage() {
                             </div>
 
                             <div className="p-6 pt-0 mt-auto">
-                                <Button className="w-full bg-slate-900 hover:bg-slate-800">
-                                    Ver Video Completo
-                                </Button>
+                                <a
+                                    href={`https://wa.me/56999679593?text=${encodeURIComponent(`Hola, quiero saber si el ejercicio "${exercise.title}" me sirve y agendar una evaluación gratuita a domicilio`)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    data-cta="ejercicio"
+                                    className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800 transition-colors"
+                                >
+                                    <MessageCircle className="h-4 w-4" />
+                                    ¿Es para ti? Consulta por WhatsApp
+                                </a>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
         </main>
+            <SiteFooter />
         </div>
     )
 }
