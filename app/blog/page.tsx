@@ -47,17 +47,14 @@ const blogSchema = {
   name: "Blog de Kinesiología KINEUM",
   description: "Guías escritas por kinesiólogos: rehabilitación tras cirugía, ACV, dolor lumbar, adulto mayor y kinesiología respiratoria, para hacer en casa con seguridad.",
   url: "https://kineum.cl/blog",
-  publisher: {
-    "@type": "Organization",
-    name: "KINEUM",
-    url: "https://kineum.cl",
-  },
+  // Referencia al MedicalBusiness del layout, sin redeclarar su tipo
+  publisher: { "@id": "https://kineum.cl/#organization" },
   blogPost: blogPosts.slice(0, 10).map((post) => ({
     "@type": "BlogPosting",
     headline: post.title,
     description: post.subtitle,
     url: `https://kineum.cl/blog/${post.slug}`,
-    author: { "@type": "Organization", "@id": "https://kineum.cl/#organization", name: "KINEUM", url: "https://kineum.cl" },
+    author: { "@id": "https://kineum.cl/#organization" },
     datePublished: post.dateISO,
   })),
 }

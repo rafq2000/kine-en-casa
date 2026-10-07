@@ -117,22 +117,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
         datePublished: post.dateISO,
         dateModified: post.updatedISO ?? post.dateISO,
         inLanguage: "es-CL",
-        author: {
-            "@type": "Organization",
-            "@id": "https://kineum.cl/#organization",
-            name: "KINEUM",
-            url: "https://kineum.cl",
-        },
-        publisher: {
-            "@type": "Organization",
-            "@id": "https://kineum.cl/#organization",
-            name: "KINEUM",
-            url: "https://kineum.cl",
-            logo: {
-                "@type": "ImageObject",
-                url: "https://kineum.cl/logo.png",
-            },
-        },
+        // Referencias al MedicalBusiness del layout (ahí están el nombre y el logo). Repetir aquí
+        // "@type": "Organization" con el mismo @id le daba dos tipos distintos al mismo nodo.
+        author: { "@id": "https://kineum.cl/#organization" },
+        publisher: { "@id": "https://kineum.cl/#organization" },
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id": `https://kineum.cl/blog/${post.slug}`,
