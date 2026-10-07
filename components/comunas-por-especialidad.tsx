@@ -4,8 +4,8 @@ import { comunasFull } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 
 /**
- * Bloque de cobertura: enlaza una especialidad con las comunas que tienen pagina propia.
- * Se usa en las paginas /servicios/* para conectarlas con su matriz local.
+ * Bloque de cobertura: enlaza una especialidad con su bloque (#slug) en el hub de cada comuna.
+ * Se usa en las paginas /servicios/*. Desde T37 (7-oct-2026) no hay paginas especialidad+comuna.
  */
 export function ComunasPorEspecialidad({ especialidadSlug }: { especialidadSlug: string }) {
     const esp = especialidades.find((e) => e.slug === especialidadSlug)
@@ -33,11 +33,11 @@ export function ComunasPorEspecialidad({ especialidadSlug }: { especialidadSlug:
                         {comunasFull.map((c) => (
                             <Link
                                 key={c.slug}
-                                href={`/${esp.slug}-${c.slug}`}
+                                href={`/kinesiologo-a-domicilio-${c.slug}#${esp.slug}`}
                                 className="flex items-center justify-between bg-white rounded-lg px-5 py-4 border border-slate-200 hover:border-amber-300 hover:shadow-sm transition-all group"
                             >
                                 <span className="text-slate-700 font-medium group-hover:text-amber-700 transition-colors">
-                                    {esp.corto.charAt(0).toUpperCase() + esp.corto.slice(1)} en {c.nombre}
+                                    {esp.nombre} a domicilio en {c.nombre}
                                 </span>
                                 <ChevronRight className="h-4 w-4 text-slate-400 group-hover:text-amber-600 flex-shrink-0" />
                             </Link>

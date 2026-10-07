@@ -3,7 +3,7 @@
 //
 // Regla anti-canibalizacion: estas paginas responden QUE es el tratamiento, PARA QUIEN,
 // COMO funciona y CUANDO consultar, a nivel Santiago. El DONDE (sectores, comunas)
-// vive en las 55 paginas /{especialidad}-{comuna}.
+// vive en los 9 hubs /kinesiologo-a-domicilio-{comuna}, cada uno con sus 5 especialidades (T37).
 //
 // Regla de veracidad: prohibido incluir nombres de profesionales, numeros de registro,
 // cantidad de pacientes, años de trayectoria, premios o convenios. Solo datos verificables.

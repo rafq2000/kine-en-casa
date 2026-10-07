@@ -59,6 +59,13 @@ La propiedad tiene datos desde el 4-jul-2026, que es todo su historial (no hay 1
   - noindex,follow (reversible, campo `noindex: true` en `lib/blog-data.ts`): `escoliosis-en-ninos`, `fibromialgia-ejercicio` y `masaje-descontracturante-vs-terapeutico`.
 - Piso pélvico (`kinesiologia-piso-pelvico-post-parto-domicilio`): 1 clic y 43 impresiones. Se mantiene indexado. Como T04 (j) no está confirmado, su llamado a la acción pasa a ser informativo y el post ya no afirma que KINEUM lo atiende.
 
+### 7-oct-2026 — T35/T37: opción A, consolidar las 45 páginas especialidad+comuna
+Ricardo delegó la decisión ("hazlo todo, déjalo perfecto"); se ejecuta la opción A de §4 (la recomendada por el plan), adelantada respecto del 26-oct.
+- Las 45 rutas `/{especialidad}-{comuna}` responden 308 a `/kinesiologo-a-domicilio-{comuna}` con una sola regla en `next.config.mjs` (sin `#` en el destino; `lib/rutas-retiradas.mjs` sin cambios).
+- Cada hub trae sus 5 especialidades como bloques `id={slug}` con el `introLocal` completo, tal cual está en `lib/comunas-local.ts` (sin reescribir), y todas sus preguntas locales en el FAQ visible y en el FAQPage.
+- De `condiciones` solo se muestran los títulos: los detalles traen cifras sin fuente ("115-125 grados", "mayores de 80 años") que no pasan a los hubs.
+- Los enlaces internos apuntan a `/kinesiologo-a-domicilio-{comuna}#{especialidad}`. El sitemap pasa de 95 a 50 URLs.
+
 ## Deploys
 
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |

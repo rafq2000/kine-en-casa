@@ -1,7 +1,6 @@
 import { MetadataRoute } from 'next'
 import { postsIndexables as blogPosts } from '@/lib/blog-data'
 import { comunas } from '@/lib/comunas-data'
-import { especialidades } from '@/lib/especialidades-data'
 
 const baseUrl = 'https://kineum.cl'
 
@@ -25,10 +24,8 @@ const MODIFICADO: Record<string, string> = {
     '/blog': '2026-09-17',
     '/ejercicios': '2026-09-06',
     '/cobertura': '2026-09-29',
-    // Los 9 hubs /kinesiologo-a-domicilio-*: texto de entrada, titles y descriptions (Fase 0)
-    hubs: '2026-10-05',
-    // Las 45 especialidad+comuna: ultima reescritura de contenido
-    local: '2026-09-29',
+    // Los 9 hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las 45 especialidad+comuna (T37)
+    hubs: '2026-10-07',
 }
 
 // Fecha más reciente de contenido del sitio (la usa /llms.txt).
@@ -47,12 +44,8 @@ function prioridad(ruta: string): number {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const rutasLocales: string[] = []
-    for (const c of comunas) {
-        rutasLocales.push(`/kinesiologo-a-domicilio-${c.slug}`)
-        // Solo las comunas con cobertura completa tienen pagina por especialidad
-        if (c.cobertura === 'full') for (const e of especialidades) rutasLocales.push(`/${e.slug}-${c.slug}`)
-    }
+    // Las 45 especialidad+comuna responden 308 a su hub desde el 7-oct-2026 (T37): no van en el sitemap
+    const rutasLocales = comunas.map((c) => `/kinesiologo-a-domicilio-${c.slug}`)
 
     const rutasBase = [
         '',
@@ -71,14 +64,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const estaticas = rutasBase.map((ruta) => ({
         url: `${baseUrl}${ruta}`,
-        lastModified: new Date(MODIFICADO[ruta || '/'] ?? MODIFICADO.local),
+        lastModified: new Date(MODIFICADO[ruta || '/']),
         changeFrequency: 'monthly' as const,
         priority: prioridad(ruta),
     }))
 
     const locales = rutasLocales.map((ruta) => ({
         url: `${baseUrl}${ruta}`,
-        lastModified: new Date(ruta.startsWith('/kinesiologo-a-domicilio-') ? MODIFICADO.hubs : MODIFICADO.local),
+        lastModified: new Date(MODIFICADO.hubs),
         changeFrequency: 'monthly' as const,
         priority: prioridad(ruta),
     }))

@@ -1,5 +1,5 @@
 // Datos locales por comuna. Fuente única para las páginas
-// /kinesiologo-a-domicilio-{comuna} y /{especialidad}-{comuna}.
+// /kinesiologo-a-domicilio-{comuna} (las 5 especialidades van dentro del hub desde T37).
 // Cada comuna aporta sectores y contexto propio para evitar contenido duplicado.
 
 import { PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
@@ -223,7 +223,7 @@ export function getComuna(slug: string) {
     return comunas.find((c) => c.slug === slug)
 }
 
-/** Comunas con matriz completa de paginas por especialidad. */
+/** Comunas con cobertura completa (hoy, las 9). */
 export const comunasFull = comunas.filter((c) => c.cobertura === "full")
 
 /**

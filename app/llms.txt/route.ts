@@ -46,8 +46,6 @@ export function GET() {
         .map((p) => `- ${p.title}: ${SITIO}/blog/${p.slug}`)
         .join("\n")
 
-    const conEspecialidad = comunas.filter((c) => c.cobertura === "full")
-
     const txt = `# KINEUM — Kinesiología a domicilio en el sector oriente de Santiago (Chile)
 
 > KINEUM atiende kinesiología y rehabilitación en el domicilio del paciente en 9 comunas del sector oriente de Santiago de Chile: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Es un servicio PARTICULAR: se paga directo y se emite boleta de honorarios electrónica, que el paciente puede presentar a reembolso en su Isapre o en su seguro complementario según la cobertura de su plan. No emite bonos de ningún sistema previsional ni tiene convenio con isapres, clínicas u hospitales.
@@ -97,7 +95,7 @@ ${servicios}
 ${paginasServicio}
 
 ## Cobertura (${comunas.length} comunas del sector oriente de Santiago)
-${conEspecialidad.length} comunas tienen además una página por especialidad (${especialidades.map((e) => e.nombre).join(", ")}), con el formato ${SITIO}/{especialidad}-{comuna}.
+La página de cada comuna incluye las 5 especialidades, con el detalle local y los centros de salud de referencia.
 Índice completo: ${SITIO}/cobertura
 
 ${bloqueComunas()}

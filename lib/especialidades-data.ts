@@ -1,9 +1,9 @@
 // Contenido clínico por especialidad kinésica.
-// Se combina con lib/comunas-data.ts para generar las páginas
-// /{especialidad}-{comuna} con contenido propio de cada servicio.
+// Lo usan /servicios/*, el blog y los hubs /kinesiologo-a-domicilio-{comuna}, donde cada
+// especialidad es un bloque con id={slug}. Las páginas /{slug}-{comuna} responden 308 a su hub (T37).
 
 export interface Especialidad {
-    /** Prefijo de la URL: /{slug}-{comuna} */
+    /** id del bloque en el hub (/kinesiologo-a-domicilio-{comuna}#{slug}) */
     slug: string
     /** Nombre para títulos y H1 */
     nombre: string

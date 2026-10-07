@@ -40,8 +40,6 @@ const ZONAS: { id: ZonaComuna; titulo: string; texto: string }[] = [
 ]
 
 export default function Page() {
-    const conPagina = comunas.filter((c) => c.cobertura === "full")
-
     const itemList = {
         "@context": "https://schema.org",
         "@type": "ItemList",
@@ -194,8 +192,7 @@ export default function Page() {
                             ))}
                         </div>
                         <p className="text-sm text-slate-500 mt-6">
-                            Cada una de las {conPagina.length} comunas tiene además una página por especialidad, con el
-                            detalle clínico y los centros de salud de referencia de ese sector.
+                            La página de cada comuna incluye las 5 especialidades, con el detalle local y los centros de salud de referencia.
                         </p>
                     </div>
                 </div>

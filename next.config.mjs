@@ -19,6 +19,14 @@ const nextConfig = {
       },
       // Comunas fuera de cobertura desde el 29-09-2026 (solo sector oriente)
       ...rutasRetiradas.map((r) => ({ source: r.de, destination: r.a, permanent: true })),
+      // Fase 2 (T37, opción A, 7-oct-2026): las 45 páginas especialidad+comuna se consolidaron en su hub.
+      // El destino no lleva #especialidad: Next lo codificaría como %23. Solo las 9 comunas vigentes.
+      {
+        source:
+          '/:esp(kinesiologia-geriatrica|kinesiologia-respiratoria|kinesiologia-traumatologica|rehabilitacion-neurologica|rehabilitacion-postquirurgica)-:comuna(las-condes|vitacura|providencia|nunoa|la-reina|lo-barnechea|penalolen|macul|santiago-centro)',
+        destination: '/kinesiologo-a-domicilio-:comuna',
+        permanent: true,
+      },
       {
         source: '/blog/drenaje-linfatico-manual',
         destination: '/blog/drenaje-linfatico-post-operatorio-domicilio',

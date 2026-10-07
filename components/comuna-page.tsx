@@ -31,12 +31,6 @@ function wa(texto: string) {
     return `https://wa.me/56999679593?text=${encodeURIComponent(texto)}`
 }
 
-// Primera oración de un texto: sirve de adelanto en las tarjetas de especialidad
-function primeraOracion(texto: string) {
-    const fin = texto.search(/\.\s/)
-    return fin > 40 ? texto.slice(0, fin + 1) : texto
-}
-
 interface ComunaData {
     nombre: string
     slug: string
@@ -80,13 +74,10 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             a: `No. KINEUM atiende solo a domicilio: el kinesiólogo va a tu casa en cualquier sector de ${data.nombre}. La dirección de Av. Apoquindo 4501 es comercial y no atiende público.`,
             enlace: { href: "/blog/kinesiologia-a-domicilio-o-en-centro", texto: "Kinesiología a domicilio o en un centro: cuál conviene" },
         },
-        // Preguntas propias del hub (lib/comunas-local.ts), antes de las de cada especialidad
+        // Preguntas propias del hub (lib/comunas-local.ts) y todas las locales de cada especialidad
         ...(local?.hub.faqs ?? []),
-        ...(local?.especialidades ?? [])
-            .map((e) => e.faqsLocales[0])
-            .filter(Boolean)
-            .map((f) => ({ q: f.q, a: f.a })),
-    ]
+        ...(local?.especialidades ?? []).flatMap((e) => e.faqsLocales).map((f) => ({ q: f.q, a: f.a })),
+    ].filter((f, i, todas) => todas.findIndex((x) => x.q === f.q) === i) // sin preguntas repetidas
 
     // Un solo negocio en todo el sitio (app/layout.tsx); aquí, el servicio que presta en esta comuna
     const servicioSchema = {
@@ -321,37 +312,55 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                 </div>
             </section>
 
-            {/* Especialidades en la comuna, con el adelanto de su texto local */}
+            {/* Especialidades en la comuna: el texto local de cada una, completo (T37: las 45 páginas
+                especialidad+comuna se consolidaron aquí con 308; el id de cada bloque es el slug) */}
             <section id="especialidades" className="py-16 md:py-20 bg-slate-50 border-y border-slate-200">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-5xl">
+                    <div className="max-w-3xl">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-serif mb-4">
                             Kine a domicilio en {data.nombre}: las 5 especialidades
                         </h2>
-                        <p className="text-lg text-slate-600 mb-10 max-w-3xl">
-                            Cada especialidad tiene su página con lo que tratamos, cómo es la sesión en tu casa y qué
-                            conviene saber en {data.nombre}.
+                        <p className="text-lg text-slate-600 mb-10">
+                            Qué tratamos en {data.nombre} y cómo se adapta la sesión a tu casa, especialidad por especialidad.
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div className="space-y-12">
                             {especialidades.map((e) => {
                                 const espLocal = local?.especialidades.find((x) => x.slug === e.slug)
                                 return (
-                                    <Link
-                                        key={e.slug}
-                                        href={`/${e.slug}-${data.slug}`}
-                                        className="group bg-white rounded-2xl p-6 border border-slate-200 hover:border-amber-300 hover:shadow-md transition-all"
-                                    >
-                                        <h3 className="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors mb-2">
+                                    <div key={e.slug} id={e.slug} className="scroll-mt-24">
+                                        <h3 className="text-2xl font-bold text-slate-900 font-serif mb-4">
                                             {e.nombre} a domicilio en {data.nombre}
                                         </h3>
-                                        <p className="text-slate-600 leading-relaxed mb-3">
-                                            {espLocal ? primeraOracion(espLocal.introLocal) : e.intro}
+                                        {(espLocal?.introLocal ?? e.intro).split(/\n\n+/).map((p) => (
+                                            <p key={p.slice(0, 40)} className="text-lg text-slate-700 leading-relaxed mb-4">
+                                                {p}
+                                            </p>
+                                        ))}
+                                        {/* Solo los títulos: los detalles traen cifras sin fuente (T37) */}
+                                        <p className="text-slate-600 leading-relaxed">
+                                            <span className="font-semibold text-slate-900">Lo que más atendemos:</span>{" "}
+                                            {e.condiciones.map((c) => c.titulo).join(" · ")}
                                         </p>
-                                        <span className="inline-flex items-center text-sm font-medium text-amber-700">
-                                            Ver {e.corto} en {data.nombre}
-                                            <ChevronRight className="h-4 w-4 ml-1" />
-                                        </span>
-                                    </Link>
+                                        <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-5">
+                                            <Link
+                                                href={e.servicioUrl}
+                                                className="inline-flex items-center text-amber-700 font-medium hover:underline"
+                                            >
+                                                Qué es y cómo se trata: {e.nombre.toLowerCase()} a domicilio
+                                                <ChevronRight className="h-4 w-4 ml-1" />
+                                            </Link>
+                                            <a
+                                                href={wa(`Hola, necesito ${e.corto} a domicilio en ${data.nombre}`)}
+                                                data-cta={`especialidad-${e.slug}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800"
+                                            >
+                                                <MessageCircle className="h-4 w-4" />
+                                                Consultar por WhatsApp
+                                            </a>
+                                        </div>
+                                    </div>
                                 )
                             })}
                         </div>
