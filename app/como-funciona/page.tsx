@@ -68,7 +68,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 1,
       name: "Contáctanos por WhatsApp o teléfono",
-      text: "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en el horario que te acomode.",
+      text: "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en un horario que acordamos contigo.",
       url: "https://kineum.cl/como-funciona#paso-1",
     },
     {
@@ -163,7 +163,7 @@ const steps = [
     icon: MessageCircle,
     title: "Contáctanos por WhatsApp o Teléfono",
     description:
-      "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en el horario que te acomode.",
+      "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en un horario que acordamos contigo.",
     detail: "Cuéntanos tu comuna y el motivo de consulta.",
     color: "amber",
   },
@@ -279,7 +279,7 @@ export default function ComoFuncionaPage() {
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
               En 4 pasos simples recibes kinesiología profesional en tu hogar en Santiago.
-              Sin traslados, sin esperas, con reembolso Isapre y seguros complementarios.
+              Sin traslados y con boleta para pedir reembolso en tu Isapre o seguro complementario.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -311,7 +311,7 @@ export default function ComoFuncionaPage() {
                 Proceso Paso a Paso
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                Desde tu primer mensaje hasta tu recuperación completa, te acompañamos en cada etapa.
+                Desde tu primer mensaje hasta el alta kinesiológica, así funciona cada etapa.
               </p>
             </div>
 

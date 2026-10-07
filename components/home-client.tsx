@@ -18,7 +18,6 @@ import {
   Stethoscope,
   Brain,
   Dumbbell,
-  GraduationCap,
   Star,
   Shield,
   Award,
@@ -64,7 +63,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Trabajan con Isapre?",
-        acceptedAnswer: { "@type": "Answer", text: "Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre según la cobertura de tu plan, y también en tu seguro complementario. Consulta los detalles de tu plan de salud." }
+        acceptedAnswer: { "@type": "Answer", text: "No tenemos convenio con isapres: la atención es particular. Emitimos boleta de honorarios después de cada sesión para que pidas el reembolso en tu Isapre y en tu seguro complementario, según la cobertura de tu plan." }
       },
       {
         "@type": "Question",
@@ -97,15 +96,15 @@ export default function HomePage() {
   const services = [
     {
       title: "Kinesiología Geriátrica",
-      description: "Mejoramos la movilidad y prevenimos caídas en adultos mayores",
+      description: "Movilidad, fuerza y prevención de caídas en adultos mayores",
       icon: Users,
       image: "/elderly-physio-home.png",
       href: "/servicios/geriatrica",
       features: [
         "Prevención de caídas",
-        "Rehabilitación post hospitalización",
-        "Mejora de movilidad",
-        "Fortalecimiento muscular",
+        "Rehabilitación después de una hospitalización",
+        "Fuerza, equilibrio y marcha",
+        "Entrenamiento del cuidador",
       ],
     },
     {
@@ -114,7 +113,7 @@ export default function HomePage() {
       icon: Stethoscope,
       image: "/respiratory-therapy-baby.png",
       href: "/servicios/respiratoria",
-      features: ["Recuperación post COVID", "Tratamiento EPOC", "Rehabilitación neumonía", "Técnicas de respiración"],
+      features: ["Bronquiolitis y SBO en niños", "Neumonía y EPOC en adultos", "Despeje de secreciones", "Ejercicios respiratorios"],
     },
     {
       title: "Kinesiología Traumatológica",
@@ -123,40 +122,32 @@ export default function HomePage() {
       image: "/knee-rehabilitation.png",
       href: "/servicios/traumatologica",
       features: [
-        "Recuperación de fracturas",
-        "Rehabilitación esguinces",
-        "Post prótesis rodilla/cadera",
-        "Ejercicios guiados",
-      ],
-    },
-    {
-      title: "Rehabilitación Postquirúrgica",
-      description: "Recuperación en casa después de una cirugía",
-      icon: Heart,
-      image: "/home-rehab-guidance.png",
-      href: "/servicios/postquirurgica",
-      features: [
-        "Post cirugías ortopédicas",
-        "Rehabilitación abdominal",
-        "Recuperación cardíaca",
-        "Seguimiento personalizado",
+        "Lumbago y dolor de espalda",
+        "Esguince de tobillo",
+        "Hombro doloroso",
+        "Fracturas",
       ],
     },
     {
       title: "Kinesiología Neurológica",
-      description: "Tratamiento para condiciones neurológicas",
+      description: "Rehabilitación en casa después de un ACV y en enfermedades neurológicas",
       icon: Brain,
       image: "/neurological-physiotherapy.png",
       href: "/servicios/neurologica",
-      features: ["Rehabilitación ACV", "Tratamiento Parkinson", "Terapia Alzheimer", "Esclerosis múltiple"],
+      features: ["Rehabilitación después de un ACV", "Parkinson", "Esclerosis múltiple", "Entrenamiento del cuidador"],
     },
     {
-      title: "Educación Familiar",
-      description: "Capacitamos a familiares y cuidadores",
-      icon: GraduationCap,
-      image: "/physiotherapy-elderly-care.png",
-      href: "/servicios/geriatrica", // Education is part of geriatric
-      features: ["Entrenamiento cuidadores", "Ejercicios simples", "Técnicas de movilización", "Cuidados preventivos"],
+      title: "Rehabilitación Postquirúrgica",
+      description: "Rehabilitación en casa después de una cirugía ortopédica",
+      icon: Heart,
+      image: "/home-rehab-guidance.png",
+      href: "/servicios/postquirurgica",
+      features: [
+        "Prótesis de rodilla y cadera",
+        "Artroscopia y ligamento cruzado",
+        "Cirugía de columna",
+        "Fracturas operadas",
+      ],
     },
   ]
 
@@ -277,7 +268,7 @@ export default function HomePage() {
                 <span className="text-amber-700">en Santiago</span>
                 <br />
                 <span className="text-3xl md:text-4xl text-slate-600 font-sans font-normal block mt-4">
-                  Elimina tu dolor sin salir de casa
+                  Rehabilitación en tu casa, sin traslados
                 </span>
               </h1>
             </div>
@@ -513,9 +504,9 @@ export default function HomePage() {
               Planes de Tratamiento
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif">
-              Elige el Plan Perfecto
+              Elige tu plan
               <br />
-              <span className="text-amber-700">para tu Recuperación</span>
+              <span className="text-amber-700">de sesiones a domicilio</span>
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
               Ofrecemos planes flexibles adaptados a tus necesidades específicas de rehabilitación.
@@ -813,7 +804,7 @@ export default function HomePage() {
               Guías para decidir: <span className="text-amber-700">precios, reembolso y cuidados en casa</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Lo que más nos preguntan las familias antes de agendar, explicado paso a paso.
+              Lo que conviene saber antes de agendar, explicado paso a paso.
             </p>
           </div>
 
@@ -876,7 +867,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
-              <p className="text-slate-600">Sí. Emitimos boletas de honorarios que puedes reembolsar en tu Isapre según la cobertura de tu plan, y también en tu seguro complementario. Consulta los detalles de tu plan de salud.</p>
+              <p className="text-slate-600">No tenemos convenio con isapres: la atención es particular. Emitimos boleta de honorarios después de cada sesión para que pidas el reembolso en tu Isapre y en tu seguro complementario, según la cobertura de tu plan.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Qué tipos de kinesiología ofrecen a domicilio?</h3>

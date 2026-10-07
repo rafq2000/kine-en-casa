@@ -39,7 +39,7 @@ export const especialidades: Especialidad[] = [
             { titulo: "Kinesiología a domicilio para un paciente postrado: qué se puede hacer, de verdad", url: "/blog/kinesiologia-paciente-postrado-en-casa" },
             { titulo: "Adulto mayor se cayó en la casa: qué hacer en el momento y después", url: "/blog/adulto-mayor-se-cayo-en-casa-que-hacer" },
             { titulo: "Fractura o prótesis de cadera en el adulto mayor: cómo es la rehabilitación en casa", url: "/blog/fractura-cadera-adulto-mayor" },
-            { titulo: "Vivir sin Dolor con Artrosis de Rodilla", url: "/blog/artrosis-rodilla-ejercicios" },
+            { titulo: "Artrosis de Rodilla: Ejercicios que Ayudan y Cuáles Evitar", url: "/blog/artrosis-rodilla-ejercicios" },
         ],
     },
     {
@@ -93,7 +93,6 @@ export const especialidades: Especialidad[] = [
             "Secuelas de ACV",
             "Enfermedad de Parkinson",
             "Esclerosis múltiple",
-            "Alzheimer y otras demencias",
             "Parálisis facial",
             "Neuropatías periféricas",
         ],

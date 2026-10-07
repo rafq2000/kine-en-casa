@@ -11,7 +11,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "10 min lectura",
     category: "Adulto mayor",
     image: "/images/blog-paciente-postrado.jpg",
@@ -20,7 +20,7 @@ export const blogPosts = [
 
 <h2>Qué significa estar postrado y por qué importa el grado de dependencia</h2>
 <p>"Postrado" no es un diagnóstico: es una situación funcional. Describe a una persona que permanece la mayor parte del día en cama y que no puede cambiar de posición, sentarse o trasladarse sin ayuda. Lo que sí importa, y mucho, es <strong>cuánto puede hacer todavía por sí misma</strong>, porque de eso depende todo el plan.</p>
-<p>En la práctica solemos encontrarnos con tres escenarios:</p>
+<p>En la práctica se distinguen tres escenarios:</p>
 <ul>
 <li><strong>Dependencia parcial:</strong> la persona se gira en la cama con apoyo, tolera sentarse al borde y colabora con instrucciones simples. Aquí el objetivo suele ser recuperar terreno: sedestación, bipedestación asistida y, en algunos casos, marcha con ayuda técnica.</li>
 <li><strong>Dependencia severa:</strong> necesita ayuda para casi todo, pero conserva algo de movimiento voluntario y puede participar. El trabajo mezcla movilizaciones activo-asistidas con prevención de complicaciones.</li>
@@ -156,7 +156,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "9 min lectura",
     category: "Guías",
     image: "/images/blog-kine-urgente.jpg",
@@ -178,7 +178,7 @@ export const blogPosts = [
 <p>En esos casos no nos escribas primero a nosotros: llama al 131. Si después de la atención médica queda un plan de rehabilitación, ahí sí entramos nosotros y con la indicación en la mano.</p>
 
 <h2>Qué sí se puede coordinar pronto</h2>
-<p>Dicho eso, hay situaciones muy frecuentes donde una visita rápida cambia la semana completa de una familia. Estas son las que más nos llegan por WhatsApp pidiendo atención urgente.</p>
+<p>Dicho eso, hay situaciones muy frecuentes donde una visita rápida cambia la semana completa de una familia. Estas son algunas.</p>
 
 <h3>1. Kinesiología respiratoria en un niño con secreciones</h3>
 <p>Es el clásico del invierno en Santiago: un lactante o preescolar que quedó con el pecho cargado después de un cuadro viral, que duerme mal y tose sin lograr botar nada. Cuando hay <strong>indicación médica</strong> del pediatra o broncopulmonar, o el niño acaba de salir de una consulta o del alta hospitalaria con esa indicación, la kinesiterapia respiratoria en casa se puede coordinar pronto, según la agenda.</p>
@@ -229,7 +229,7 @@ export const blogPosts = [
 <p>No lo podemos prometer: en nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda. Por eso, escríbenos con tu comuna y te confirmamos el horario real antes de que te comprometas.</p>
 
 <h3>¿Atienden kinesiología a domicilio el fin de semana?</h3>
-<p>Sí, trabajamos de lunes a domingo. Los fines de semana son justamente cuando más consultas urgentes llegan, porque los centros están cerrados y la familia está en casa. La disponibilidad depende de la agenda de ese día, así que conviene escribir apenas aparece el problema y no esperar al lunes.</p>
+<p>Sí, trabajamos de lunes a domingo. La disponibilidad depende de la agenda de ese día, así que conviene escribir apenas aparece el problema y no esperar al lunes.</p>
 
 <h3>Mi bebé necesita kine respiratorio urgente, ¿pueden ir hoy?</h3>
 <p>Si tiene indicación médica de kinesiterapia respiratoria y está estable, se puede coordinar pronto, habitualmente dentro de 24 horas y según la agenda. No esperes al kinesiólogo si está con dificultad para respirar, respiración muy rápida, hundimiento de las costillas, labios morados, decaimiento marcado o rechazo del alimento. Y si es menor de 3 meses, cualquier fiebre —aunque se vea bien— necesita evaluación médica inmediata. En esos casos llama al SAMU al 131 o ve a una urgencia pediátrica.</p>
@@ -580,7 +580,7 @@ export const blogPosts = [
 <p>La frecuencia que indique tu evaluación es lo que define qué plan mensual te acomoda. Si te interesa el formato de 10 sesiones al mes, revisa el <a href="/blog/precio-10-sesiones-kinesiologia">precio del pack de 10 sesiones de kinesiología a domicilio</a>.</p>
 
 <h2>¿Cuántas sesiones de kinesiología después de una operación?</h2>
-<p>Es la variante de la pregunta que más nos llega, y la respuesta directa es esta: el número de sesiones sale de multiplicar la frecuencia (mayor durante el primer mes y después espaciada) por la duración del protocolo que vimos arriba. Ese número lo fija la evaluación junto con las indicaciones de tu cirujano. Ten en cuenta tres cosas:</p>
+<p>La respuesta directa es esta: el número de sesiones sale de multiplicar la frecuencia (mayor durante el primer mes y después espaciada) por la duración del protocolo que vimos arriba. Ese número lo fija la evaluación junto con las indicaciones de tu cirujano. Ten en cuenta tres cosas:</p>
 <ul>
 <li><strong>Manda el protocolo del cirujano.</strong> Qué rango se autoriza, cuándo se puede cargar peso y qué movimientos evitar lo define tu traumatólogo. La kinesiología trabaja dentro de esos límites.</li>
 <li><strong>Empezar tarde alarga el proceso.</strong> Lo ideal es iniciar apenas recibes el alta, coordinado con tu médico.</li>
@@ -1816,7 +1816,7 @@ export const blogPosts = [
     category: "Traumatología y columna",
     image: "/images/exercise_hamstring_stretch_bed_1769278314068.png",
     icon: Activity,
-    content: `<p class="lead">"Tengo ciática" es una de las frases que más escuchamos. Pero no todo dolor que baja por la pierna es una hernia comprimiendo el nervio: el músculo piramidal (piriforme) produce un cuadro parecido con un tratamiento distinto. Orientar bien el caso es lo primero que hace un kinesiólogo al llegar a tu casa, y es lo que define si avanzas o das vueltas durante meses.</p>
+    content: `<p class="lead">"Tengo ciática" se usa para casi cualquier dolor que baja por la pierna. Pero no todo dolor que baja por la pierna es una hernia comprimiendo el nervio: el músculo piramidal (piriforme) produce un cuadro parecido con un tratamiento distinto. Orientar bien el caso es lo primero que hace un kinesiólogo al llegar a tu casa, y es lo que define si avanzas o das vueltas durante meses.</p>
 
 <h2>Qué es la ciática y cómo se reconoce</h2>
 <p>"Ciática" no es un diagnóstico, es un síntoma: dolor que sigue el trayecto del nervio ciático, desde la zona lumbar o el glúteo hacia la pierna. Lo que importa es la causa, porque de ella depende todo lo demás.</p>
@@ -1909,7 +1909,7 @@ export const blogPosts = [
 <h3>¿Puedo seguir haciendo deporte con ciática?</h3>
 <p>Casi siempre se puede hacer algo, aunque no sea lo mismo de antes. Ajustar la actividad es parte del tratamiento; suspenderla del todo rara vez es lo mejor.</p>
 
-<p>¿Llevas más de dos semanas con dolor en el glúteo o que baja por la pierna? La evaluación a domicilio es gratuita y de ahí sale un plan concreto. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20ci%C3%A1tico%20y%20quiero%20agendar%20mi%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu visita en el horario que te acomode, de lunes a domingo.</p>`
+<p>¿Llevas más de dos semanas con dolor en el glúteo o que baja por la pierna? La evaluación a domicilio es gratuita y de ahí sale un plan concreto. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20ci%C3%A1tico%20y%20quiero%20agendar%20mi%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu visita en un horario que acordamos contigo, de lunes a domingo.</p>`
   },
   {
     slug: "tendinitis-hombro-manguito-rotador",
@@ -2010,12 +2010,12 @@ export const blogPosts = [
     slug: "artrosis-rodilla-ejercicios",
     seoTitle: "Artrosis de Rodilla: Ejercicios en Casa | KINEUM",
     seoDescription: "Qué ejercicios alivian la artrosis de rodilla, cuáles evitar, cuántas sesiones suele tomar y cuándo consultar. Kinesiología a domicilio en Santiago.",
-    title: "Vivir sin Dolor con Artrosis de Rodilla",
+    title: "Artrosis de Rodilla: Ejercicios que Ayudan y Cuáles Evitar",
     subtitle: "Qué ejercicios ayudan, cuáles conviene evitar y qué hace el kinesiólogo en tu casa.",
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Adulto mayor",
     image: "/knee-rehabilitation.png",

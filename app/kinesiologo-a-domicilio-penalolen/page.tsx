@@ -36,7 +36,6 @@ export const metadata: Metadata = {
         `kinesiólogo adulto mayor caídas ${comunaData.nombre}`,
         `fisioterapeuta a domicilio ${comunaData.nombre}`,
         `kine post cirugía ${comunaData.nombre}`,
-        `kinesiología piso pélvico ${comunaData.nombre}`,
         `kinesiólogo urgente ${comunaData.nombre}`,
     ],
     alternates: {

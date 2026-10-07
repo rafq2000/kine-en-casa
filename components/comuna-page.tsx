@@ -337,7 +337,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                             </p>
                                         ))}
                                         <p className="text-slate-600 leading-relaxed">
-                                            <span className="font-semibold text-slate-900">Lo que más atendemos:</span>{" "}
+                                            <span className="font-semibold text-slate-900">Qué tratamos:</span>{" "}
                                             {e.condiciones.join(" · ")}
                                         </p>
                                         <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-5">
