@@ -256,7 +256,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "6 min lectura",
     category: "Guías",
     image: "/images/blog-fisioterapeuta.jpg",
@@ -330,7 +330,7 @@ export const blogPosts = [
 <h3>¿En qué comunas de Santiago atienden a domicilio?</h3>
 <p>KINEUM atiende de lunes a domingo en 9 comunas del sector oriente y centro de Santiago (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro); puedes revisar el listado actualizado en la <a href="/cobertura">página de cobertura</a>. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la atención es particular y con boleta.</p>
 
-<p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita, dura cerca de una hora y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos el día y la hora que te acomode.</p>`
+<p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos el día y la hora que te acomode.</p>`
   },
   {
     slug: "kinesiologo-sin-orden-medica",
