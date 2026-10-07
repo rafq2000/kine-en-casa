@@ -1273,56 +1273,94 @@ export const blogPosts = [
     seoTitle: "KTR Infantil: Kinesiología Respiratoria en Casa | KINEUM",
     seoDescription: "Bronquiolitis y tos de invierno: cuándo la KTR ayuda a tu guagua, cuándo es urgencia y cuándo no sirve. Guía clara para padres y atención en casa.",
     title: "Kinesiología Respiratoria Infantil a Domicilio: Guía para Padres",
-    subtitle: "Bronquiolitis, mocos que no salen y tos de invierno: cuándo sirve la KTR, cuándo es urgencia y por qué en casa funciona mejor.",
+    subtitle: "Bronquiolitis, mocos que no salen y tos de invierno: qué dice la evidencia sobre la KTR, cuándo es urgencia y cómo es una sesión en tu casa.",
     author: "Equipo Clínico KINEUM",
     date: "13 Julio, 2026",
     dateISO: "2026-07-13",
-    updatedISO: "2026-10-05",
-    readTime: "7 min lectura",
+    updatedISO: "2026-10-07",
+    readTime: "8 min lectura",
     category: "Respiratorio",
     image: "/images/blog-ktr-infantil-domicilio.jpg",
     icon: Baby,
-    content: `<p class="lead">Es invierno en Santiago, tu hijo lleva noches tosiendo, el pediatra le indicó "KTR" y lo último que quieres es llevarlo con fiebre a una sala de espera llena de otros niños enfermos. Buenas noticias: la kinesiología respiratoria infantil se puede hacer completa en tu casa, con boleta reembolsable en tu Isapre y seguro complementario.</p>
+    content: `<p class="lead">Es invierno en Santiago, tu hijo lleva noches tosiendo y el pediatra te habló de "KTR". Antes de agendar nada conviene saber qué es, en qué casos la evidencia la respalda y en cuáles no, qué señales obligan a ir a urgencia y cómo es una sesión en la casa. Esta guía no reemplaza la evaluación del pediatra: la complementa.</p>
 
-      <h2>¿Qué es la KTR (kinesiterapia respiratoria) infantil?</h2>
-      <p>Es un conjunto de técnicas manuales e instrumentales que ayudan a los niños a <strong>movilizar y eliminar las secreciones</strong> que sus vías respiratorias aún no saben expulsar solas. En menores de 2 años es especialmente útil porque no saben toser con eficacia ni sonarse. El kinesiólogo también monitorea la saturación de oxígeno y educa a los padres sobre señales de alarma.</p>
+<h2>¿Qué es la KTR (kinesiterapia respiratoria) infantil?</h2>
+<p>Es un conjunto de técnicas manuales e instrumentales que buscan ayudar a <strong>movilizar y eliminar las secreciones</strong> de la vía aérea. Los lactantes no saben sonarse ni toser con fuerza, así que buena parte del trabajo está en la nariz: el aseo nasal bien hecho es una de las cosas más útiles que un kinesiólogo le puede enseñar a una familia.</p>
 
-      <h2>¿Cuándo está indicada?</h2>
-      <ul>
-        <li><strong>Bronquiolitis</strong> (el clásico virus respiratorio sincicial del invierno) con abundantes secreciones, según indicación del pediatra.</li>
-        <li><strong>Bronquitis obstructiva</strong> ("SBO") con hipersecreción.</li>
-        <li><strong>Neumonía en recuperación,</strong> para acelerar la limpieza bronquial.</li>
-        <li><strong>Post alta hospitalaria</strong> por cuadros respiratorios.</li>
-        <li><strong>Niños con patología crónica</strong> (fibrosis quística, daño pulmonar, prematuros con displasia) como parte de su manejo habitual.</li>
-      </ul>
-      <p>La KTR se realiza <strong>con indicación médica</strong>: el pediatra define si corresponde y con qué frecuencia. Si tu hijo aún no tiene evaluación médica, ese es siempre el primer paso.</p>
+<h2>Bronquiolitis: lo que dice la evidencia</h2>
+<p>La bronquiolitis es una infección viral de las vías respiratorias pequeñas. Según la <a href="https://pubmed.ncbi.nlm.nih.gov/37010196/" target="_blank" rel="noopener noreferrer">revisión Cochrane sobre kinesiterapia respiratoria en bronquiolitis</a>, es la principal causa de consultas de urgencia en invierno en los menores de 24 meses.</p>
+<p>Esa misma revisión, actualizada en 2023, reunió 17 ensayos con 1.679 lactantes. Sus conclusiones son claras y conviene conocerlas:</p>
+<ul>
+<li><strong>Las técnicas convencionales</strong> (vibración, percusión o "golpecitos" y drenaje postural) y <strong>las técnicas de espiración forzada</strong> no cambian la gravedad de la bronquiolitis, con evidencia de certeza alta.</li>
+<li>En lactantes con bronquiolitis grave, <strong>las técnicas forzadas no mejoran su estado y pueden producir efectos adversos graves</strong>.</li>
+<li><strong>Las técnicas de espiración lenta y pasiva</strong> podrían dar una mejoría leve a moderada de la gravedad, pero con evidencia de certeza baja, que viene sobre todo de niños hospitalizados con bronquiolitis moderada.</li>
+</ul>
+<p>En la misma línea, la <a href="https://pubmed.ncbi.nlm.nih.gov/25349312/" target="_blank" rel="noopener noreferrer">guía de práctica clínica de la Academia Americana de Pediatría</a>, que se aplica a niños de 1 a 23 meses, recomienda no usar kinesiterapia torácica en la bronquiolitis.</p>
+<p>¿Qué significa en la práctica? Que la KTR <strong>no es un tratamiento de rutina para toda bronquiolitis</strong>. La decisión es del pediatra, que conoce a tu hijo y lo examinó. Si la indica, las técnicas deben ser suaves y lentas, nunca maniobras forzadas. Si alguien te ofrece "sacarle los mocos del pulmón" a la fuerza o a golpes, desconfía.</p>
 
-      <h2>Señales de URGENCIA: no llames al kine, ve a urgencias</h2>
-      <ul>
-        <li>Respiración muy rápida, quejido o hundimiento de las costillas al respirar (retracción).</li>
-        <li>Labios o piel azulada (cianosis).</li>
-        <li>Rechazo total del alimento o mamadera en lactantes.</li>
-        <li>Somnolencia excesiva o irritabilidad inconsolable.</li>
-        <li>Fiebre alta persistente en menores de 3 meses.</li>
-      </ul>
-      <p>Ante cualquiera de estos signos, acude a un servicio de urgencia de inmediato. La KTR complementa el tratamiento médico, nunca lo reemplaza.</p>
+<h2>¿En qué casos se indica la KTR en niños?</h2>
+<p>Fuera de la bronquiolitis común, hay situaciones en que el pediatra o el broncopulmonar sí puede indicarla como parte del tratamiento:</p>
+<ul>
+<li><strong>Enfermedades crónicas que producen muchas secreciones</strong>, como la fibrosis quística, donde la limpieza bronquial es parte del manejo habitual que define su equipo tratante.</li>
+<li><strong>Niños con enfermedades neuromusculares o neurológicas</strong> cuya tos es débil y no logran eliminar las secreciones por sí solos.</li>
+<li><strong>Neumonía o atelectasia</strong> (una zona del pulmón que no se llena de aire), cuando el médico considera que hay secreciones que el niño no logra expulsar.</li>
+<li><strong>Después de un alta hospitalaria</strong> por un cuadro respiratorio, para continuar las indicaciones que dejó el equipo del hospital.</li>
+<li><strong>Bronquitis obstructiva ("SBO") con muchas secreciones</strong>, cuando el pediatra lo indica.</li>
+</ul>
+<p>En todos los casos trabajamos <strong>con indicación médica</strong>: el médico define si corresponde y con qué frecuencia. Si tu hijo todavía no ha sido evaluado, ese es siempre el primer paso.</p>
 
-      <h2>¿Por qué a domicilio funciona tan bien en niños?</h2>
-      <ul>
-        <li><strong>Cero exposición cruzada:</strong> un niño con bronquiolitis en sala de espera puede contagiar y contagiarse. En casa hay menos exposición a otros virus.</li>
-        <li><strong>El niño coopera más:</strong> en su ambiente, con sus juguetes y sus padres cerca, la sesión es menos estresante y más efectiva.</li>
-        <li><strong>Educación real a los padres:</strong> el kinesiólogo enseña aseo nasal, posiciones para dormir y técnicas de apoyo con lo que tienes en tu casa.</li>
-        <li><strong>Horarios flexibles:</strong> atendemos de lunes a domingo, porque los mocos no respetan el calendario.</li>
-      </ul>
+<h2>Señales de alarma: no esperes al kinesiólogo</h2>
+<p>El <a href="https://www.minsal.cl/ministerio-de-salud-detalla-signos-de-alerta-para-reconocer-enfermedades-respiratorias/" target="_blank" rel="noopener noreferrer">Ministerio de Salud</a> describe estos signos de alerta, que son especialmente importantes en los menores de un año:</p>
+<ul>
+<li>Respiración agitada.</li>
+<li>Hundimiento de las costillas al respirar.</li>
+<li>Silbido en el pecho.</li>
+<li>Aleteo nasal: las alas de la nariz se abren con cada respiración.</li>
+<li>Color azulado o blanquecino alrededor de los labios.</li>
+<li>Además: fiebre, falta de apetito, llanto irritable o que no se calma, decaimiento y somnolencia.</li>
+</ul>
+<p>Si tu hijo tiene dificultad para respirar, se pone azulado, hace pausas en la respiración o está muy decaído y cuesta despertarlo, <strong>llama al SAMU 131 o ve de inmediato a un servicio de urgencia</strong>. Ante los demás signos, consulta pronto con su pediatra o en urgencia. La KTR complementa el tratamiento médico, nunca lo reemplaza, y no es la respuesta a una urgencia.</p>
 
-      <h2>¿Cuánto cuesta y cómo se paga?</h2>
-      <p>La sesión de KTR infantil a domicilio tiene el mismo tratamiento que cualquier atención kinesiológica: con la orden del pediatra puedes <a href="/blog/reembolso-isapre-kinesiologia">reembolsar con tu Isapre</a> la boleta que emitimos, y el copago restante en tu seguro complementario. La evaluación inicial es <strong>gratuita</strong> y los <a href="/precios">packs de sesiones</a> bajan el valor cuando el tratamiento requiere varias visitas.</p>
+<h2>Cómo es una sesión de KTR en la casa</h2>
+<p>Primero, el kinesiólogo revisa la indicación del pediatra y te pregunta cómo ha estado tu hijo: si ha tenido fiebre, cómo come, cómo duerme y si ha empeorado. Después lo observa respirar y, si corresponde, le mide la saturación. Si aparece un signo de alarma, la sesión no sigue: te explica por qué y te orienta a consultar.</p>
+<p>Si todo está en orden, la sesión suele incluir:</p>
+<ul>
+<li><strong>Aseo nasal</strong> con suero fisiológico, adaptado a la edad.</li>
+<li><strong>Técnicas espiratorias lentas</strong>, suaves y acompañando la respiración del niño, cuando están indicadas.</li>
+<li><strong>Estímulo de la tos</strong> en los niños más grandes que ya pueden colaborar, muchas veces a través del juego: soplar, inflar o hacer burbujas.</li>
+<li><strong>Educación a los padres:</strong> cómo hacer el aseo nasal, cómo acomodarlo para alimentarlo y qué señales vigilar, siempre respetando las recomendaciones de sueño seguro que te dio tu pediatra.</li>
+</ul>
+<p>Es habitual que un lactante llore durante el aseo nasal. El kinesiólogo te va explicando lo que hace para que puedas acompañarlo con tranquilidad.</p>
 
-      <h2>Cobertura en Santiago</h2>
-      <p>Atendemos KTR infantil y de adultos en <a href="/kinesiologo-a-domicilio-las-condes#kinesiologia-respiratoria">Las Condes</a>, <a href="/kinesiologo-a-domicilio-vitacura#kinesiologia-respiratoria">Vitacura</a>, <a href="/kinesiologo-a-domicilio-providencia#kinesiologia-respiratoria">Providencia</a>, <a href="/kinesiologo-a-domicilio-nunoa#kinesiologia-respiratoria">Ñuñoa</a>, <a href="/kinesiologo-a-domicilio-la-reina#kinesiologia-respiratoria">La Reina</a>, <a href="/kinesiologo-a-domicilio-lo-barnechea#kinesiologia-respiratoria">Lo Barnechea</a>, <a href="/kinesiologo-a-domicilio-penalolen#kinesiologia-respiratoria">Peñalolén</a>, <a href="/kinesiologo-a-domicilio-macul#kinesiologia-respiratoria">Macul</a> y <a href="/kinesiologo-a-domicilio-santiago-centro#kinesiologia-respiratoria">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">kinesiología respiratoria infantil a domicilio</a>.</p>
+<h2>Ventajas y límites de hacerlo en casa</h2>
+<ul>
+<li><strong>No tienes que salir con el niño enfermo</strong> ni esperar en una sala con otros niños con virus respiratorios.</li>
+<li><strong>El niño está en su ambiente</strong>, con sus padres cerca, y eso suele hacer la sesión más llevadera.</li>
+<li><strong>El kinesiólogo ve la casa:</strong> dónde duerme el niño y qué puede irritarle la vía aérea, como el humo de cigarrillo o de estufas a leña o parafina.</li>
+<li><strong>El límite:</strong> en la casa no hay oxígeno ni monitoreo continuo. Si tu hijo necesita eso, el lugar correcto es un servicio de urgencia o un hospital, no una sesión a domicilio.</li>
+</ul>
 
-      <p><strong>¿Tu pediatra indicó KTR y quieres atención hoy?</strong> <a href="https://wa.me/56999679593?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> — en invierno priorizamos los casos respiratorios infantiles y coordinamos en el día.</p>
-    `
+<h2>¿Cuánto cuesta y cómo se paga?</h2>
+<p>La sesión de KTR a domicilio cuesta lo mismo que cualquier atención kinesiológica, y los valores están en nuestra <a href="/precios">página de precios</a>. La evaluación inicial es <strong>gratuita</strong>. Recibes boleta de honorarios después de cada sesión y, con la orden del pediatra, puedes pedir el reembolso en tu Isapre y en tu seguro complementario según la cobertura de tu plan. El paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso con Isapre</a>.</p>
+
+<h2>Cobertura en Santiago</h2>
+<p>Atendemos KTR infantil y de adultos en <a href="/kinesiologo-a-domicilio-las-condes#kinesiologia-respiratoria">Las Condes</a>, <a href="/kinesiologo-a-domicilio-vitacura#kinesiologia-respiratoria">Vitacura</a>, <a href="/kinesiologo-a-domicilio-providencia#kinesiologia-respiratoria">Providencia</a>, <a href="/kinesiologo-a-domicilio-nunoa#kinesiologia-respiratoria">Ñuñoa</a>, <a href="/kinesiologo-a-domicilio-la-reina#kinesiologia-respiratoria">La Reina</a>, <a href="/kinesiologo-a-domicilio-lo-barnechea#kinesiologia-respiratoria">Lo Barnechea</a>, <a href="/kinesiologo-a-domicilio-penalolen#kinesiologia-respiratoria">Peñalolén</a>, <a href="/kinesiologo-a-domicilio-macul#kinesiologia-respiratoria">Macul</a> y <a href="/kinesiologo-a-domicilio-santiago-centro#kinesiologia-respiratoria">Santiago Centro</a>. Conoce más de nuestro servicio de <a href="/servicios/respiratoria">KTR a domicilio</a>.</p>
+
+<h2>Preguntas frecuentes sobre la KTR infantil</h2>
+<h3>¿La KTR cura la bronquiolitis?</h3>
+<p>No. La bronquiolitis es una infección viral y su tratamiento son los cuidados que indica el pediatra. Según la evidencia disponible, las técnicas convencionales y forzadas no cambian su gravedad, y las técnicas lentas podrían ayudar poco, con evidencia de certeza baja.</p>
+<h3>¿Le va a doler a mi hijo?</h3>
+<p>Las técnicas suaves no deberían doler. El aseo nasal sí incomoda y es habitual que el lactante llore, pero no debe haber maniobras bruscas ni golpes. Si algo te preocupa durante la sesión, dilo: se puede ajustar o detener.</p>
+<h3>¿Cuántas sesiones necesita?</h3>
+<p>No hay un número fijo. Lo definen la indicación del médico y la evolución del niño. En cuadros agudos se reevalúa en cada visita si sigue haciendo falta; en enfermedades crónicas el trabajo es periódico y lo coordina su equipo tratante.</p>
+<h3>¿Puedo hacerle el aseo nasal yo?</h3>
+<p>Sí, y es de lo más útil que puedes aprender. Pide que te enseñen la técnica y la cantidad de suero adecuadas para la edad de tu hijo, y cómo sostenerlo de forma segura.</p>
+<h3>¿Necesito orden médica?</h3>
+<p>Sí. Para la KTR infantil trabajamos con la indicación del pediatra, y además la necesitas para pedir el reembolso en tu Isapre o seguro complementario.</p>
+
+<p><strong>¿Tu pediatra indicó KTR?</strong> <a href="https://wa.me/56999679593?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>, cuéntanos la edad de tu hijo y qué indicó el médico, y coordinamos la visita.</p>
+
+<p><strong>Fuentes:</strong> Roqué-Figuls M y col. <a href="https://pubmed.ncbi.nlm.nih.gov/37010196/" target="_blank" rel="noopener noreferrer">Chest physiotherapy for acute bronchiolitis in paediatric patients between 0 and 24 months old</a>. Cochrane Database Syst Rev. 2023. Ralston SL y col. <a href="https://pubmed.ncbi.nlm.nih.gov/25349312/" target="_blank" rel="noopener noreferrer">Clinical practice guideline: the diagnosis, management, and prevention of bronchiolitis</a>. Pediatrics. 2014. Ministerio de Salud de Chile, <a href="https://www.minsal.cl/ministerio-de-salud-detalla-signos-de-alerta-para-reconocer-enfermedades-respiratorias/" target="_blank" rel="noopener noreferrer">signos de alerta para reconocer enfermedades respiratorias</a> (12 de junio de 2023).</p>`
   },
 
   {
@@ -1412,50 +1450,79 @@ export const blogPosts = [
     seoTitle: "Drenaje Linfático Post Operatorio a Domicilio | KINEUM",
     seoDescription: "Cuándo empezar tras la cirugía, cuántas sesiones se hacen, cuándo está contraindicado y qué logra de verdad el drenaje linfático manual en tu casa.",
     title: "Drenaje Linfático Post Operatorio a Domicilio: Qué Esperar",
-    subtitle: "Abdominoplastia, liposucción, prótesis de rodilla o cadera: cómo el drenaje acelera tu recuperación sin salir de casa.",
+    subtitle: "Liposucción, abdominoplastia o prótesis de rodilla: qué puede lograr el drenaje linfático manual, qué dice la evidencia y cuándo no se debe hacer.",
     author: "Equipo Clínico KINEUM",
     date: "13 Julio, 2026",
     dateISO: "2026-07-13",
-    updatedISO: "2026-09-29",
-    readTime: "6 min lectura",
+    updatedISO: "2026-10-07",
+    readTime: "8 min lectura",
     category: "Postquirúrgico",
     image: "/images/blog-drenaje-post-operatorio.jpg",
     icon: Heart,
-    content: `<p class="lead">Después de una cirugía —plástica u ortopédica— el cuerpo se inflama: es parte normal de la cicatrización. El problema es cuando ese edema se estanca, duele, tira la piel y retrasa la recuperación. Ahí entra el drenaje linfático manual post operatorio, y hacerlo <strong>a domicilio</strong> no es un lujo: recién operado, lo último que deberías hacer es viajar por Santiago.</p>
+    content: `<p class="lead">Después de una cirugía, plástica u ortopédica, el cuerpo se inflama: es parte normal de la cicatrización. A veces ese edema tira la piel, duele y hace más difícil moverse. Ahí suele aparecer la indicación de drenaje linfático manual. Esta guía explica qué es, qué dice la evidencia según el tipo de cirugía, cuándo no se debe hacer y por qué, recién operado, conviene que la sesión sea en tu casa.</p>
 
-      <h2>¿Para qué cirugías está indicado?</h2>
-      <ul>
-        <li><strong>Cirugía plástica:</strong> abdominoplastia, liposucción, lipoescultura, mamoplastia, BBL. Es donde el drenaje es casi protocolo estándar, indicado por el propio cirujano.</li>
-        <li><strong>Cirugía ortopédica:</strong> prótesis de rodilla y cadera, artroscopias, cirugías de tobillo. El edema post quirúrgico limita el rango de movimiento; drenarlo acelera la <a href="/blog/protesis-rodilla-recuperacion">rehabilitación de la prótesis</a>.</li>
-        <li><strong>Cirugía de mama con extracción de ganglios:</strong> aquí el drenaje es parte del manejo formal del linfedema, siempre coordinado con el equipo oncológico.</li>
-      </ul>
+<h2>Qué es el drenaje linfático manual</h2>
+<p>Es una técnica de maniobras <strong>lentas, suaves y rítmicas</strong> sobre la piel, que siguen el recorrido de los vasos linfáticos hacia los ganglios. Su objetivo es ayudar a que el líquido acumulado en los tejidos vuelva a circular. No es un masaje fuerte ni un masaje descontracturante: si duele, no está bien hecho.</p>
+<p>Casi nunca se usa solo. Funciona como parte de un conjunto que incluye la compresión que indique tu cirujano (faja, prenda o vendaje), la elevación del segmento operado, el movimiento permitido y, en cirugía ortopédica, los ejercicios de la rehabilitación.</p>
 
-      <h2>Qué hace (y qué no hace) el drenaje post operatorio</h2>
-      <p><strong>Sí:</strong> reduce el edema y la sensación de tirantez, alivia el dolor por presión, mejora la calidad de la cicatriz, ayuda a prevenir fibrosis en cirugías estéticas y devuelve movilidad antes.</p>
-      <p><strong>No:</strong> no es un masaje fuerte (la técnica correcta es suave y rítmica), no "rompe" fibrosis instaladas con dolor extremo —eso es otra técnica y otro momento—, y no reemplaza las indicaciones de tu cirujano (faja, reposo, medicamentos).</p>
+<h2>Qué dice la evidencia, según la cirugía</h2>
+<p>El drenaje linfático se indica con frecuencia, pero la evidencia sobre lo que logra no es igual en todas las cirugías. Conviene saberlo antes de empezar.</p>
+<ul>
+<li><strong>Cirugía plástica estética</strong> (liposucción, abdominoplastia y similares). Una <a href="https://pubmed.ncbi.nlm.nih.gov/42840808/" target="_blank" rel="noopener noreferrer">revisión sistemática publicada en 2026</a>, con siete estudios, concluyó que el drenaje da un beneficio moderado en la reducción de la hinchazón, con efectos inconsistentes sobre el dolor y la fibrosis, y que hacen falta ensayos de mejor calidad. En los estudios revisados, los mejores resultados se vieron al empezar temprano (entre los días 2 y 5) y con 6 a 12 sesiones, pero el momento de inicio en tu caso lo define tu cirujano.</li>
+<li><strong>Prótesis de rodilla.</strong> Un <a href="https://pubmed.ncbi.nlm.nih.gov/38086979/" target="_blank" rel="noopener noreferrer">metaanálisis de cuatro ensayos aleatorizados</a> (197 prótesis) no encontró diferencias en la flexión de la rodilla, el dolor ni el perímetro de la pierna entre quienes recibieron drenaje y quienes no. Una <a href="https://pubmed.ncbi.nlm.nih.gov/42513489/" target="_blank" rel="noopener noreferrer">revisión sistemática de 2026</a> con ocho ensayos llegó a una conclusión parecida: no respalda usarlo de rutina como intervención principal, aunque por su seguridad puede sumarse como complemento de comodidad. Lo que mueve la recuperación de una prótesis es el ejercicio y la movilidad, como explicamos en nuestra guía de <a href="/blog/protesis-rodilla-recuperacion">rehabilitación de la prótesis de rodilla</a>.</li>
+<li><strong>Linfedema después del tratamiento de un cáncer de mama.</strong> La <a href="https://pubmed.ncbi.nlm.nih.gov/25994425/" target="_blank" rel="noopener noreferrer">revisión Cochrane</a> concluyó que el drenaje es seguro y puede sumar beneficio al vendaje compresivo para reducir la hinchazón. Aquí el manejo siempre se coordina con el equipo oncológico tratante.</li>
+</ul>
 
-      <h2>¿Cuándo empezar y cuántas sesiones?</h2>
-      <ul>
-        <li><strong>Inicio:</strong> según indicación del cirujano; habitualmente entre el día 3 y 7 post operatorio en cirugía plástica, y tras el alta en ortopédica.</li>
-        <li><strong>Frecuencia típica:</strong> 2 a 3 sesiones por semana las primeras 2-3 semanas, luego se espacia.</li>
-        <li><strong>Total:</strong> entre 6 y 12 sesiones en la mayoría de los casos estéticos; en ortopedia se integra a las sesiones de rehabilitación.</li>
-      </ul>
+<h2>Qué puede hacer (y qué no)</h2>
+<p><strong>Puede:</strong> aliviar la sensación de tensión y pesadez, ayudar a bajar el edema como complemento de la compresión y el movimiento, y servir para enseñarte qué hacer entre sesiones.</p>
+<p><strong>No puede:</strong> reemplazar las indicaciones de tu cirujano (faja, reposo relativo, medicamentos), eliminar grasa ni bajar de peso, ni "romper" una fibrosis instalada a fuerza de presión. Tampoco hay una cantidad de sesiones que garantice un resultado.</p>
 
-      <h2>Seguridad primero: cuándo NO se hace</h2>
-      <p>Sospecha de trombosis venosa profunda, infección activa de la herida, fiebre o insuficiencia cardíaca descompensada son contraindicaciones. Por eso siempre evaluamos antes de tratar y trabajamos coordinados con tu cirujano. Si notas una pantorrilla hinchada, caliente y dolorosa, consulta a urgencias antes de cualquier masaje.</p>
+<h2>¿Cuándo empezar y cuántas sesiones?</h2>
+<p>No existe un protocolo único. El inicio lo define tu cirujano, según la técnica que usó, el estado de la herida y si tienes drenajes quirúrgicos puestos. En la evaluación inicial, que es gratuita, el kinesiólogo revisa esas indicaciones, mira la zona operada y te propone una frecuencia. Después se reevalúa en cada visita: si el edema baja y te mueves bien, las sesiones se espacian; si algo no evoluciona como se espera, se consulta con el cirujano.</p>
 
-      <h2>¿Por qué a domicilio?</h2>
-      <ul>
-        <li>Recién operado no deberías manejar ni andar en taxi por Santiago: cada traslado es dolor e inflamación extra.</li>
-        <li>Con faja post quirúrgica y drenajes, la comodidad de tu cama es parte del tratamiento.</li>
-        <li>Sesiones coordinadas con tus horarios de medicamentos y curaciones.</li>
-      </ul>
+<h2>Cuándo no se hace: señales de alarma</h2>
+<p>El drenaje no se hace si hay sospecha de trombosis venosa profunda, infección activa de la herida, fiebre o insuficiencia cardíaca descompensada. Por eso siempre evaluamos antes de tratar y trabajamos con las indicaciones de tu cirujano.</p>
+<ul>
+<li>Si notas <strong>una pantorrilla hinchada, caliente y dolorosa</strong>, sobre todo de un solo lado, no te hagas ningún masaje: consulta ese mismo día en un servicio de urgencia.</li>
+<li>Si aparece <strong>falta de aire de golpe, dolor en el pecho o tos con sangre</strong>, llama al <strong>SAMU 131</strong>.</li>
+<li>Si la herida se pone roja, caliente, supura o tienes fiebre, avísale a tu cirujano antes de la siguiente sesión.</li>
+</ul>
 
-      <h2>Precio y reembolso</h2>
-      <p>Emitimos boleta de honorarios <a href="/blog/reembolso-isapre-kinesiologia">reembolsable en tu Isapre</a> y en tu seguro complementario cuando hay orden médica. Los <a href="/precios">packs de sesiones</a> bajan el valor del protocolo completo. Cobertura en todo Santiago Oriente y Centro: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
+<h2>Qué puedes hacer tú entre sesiones</h2>
+<ul>
+<li><strong>Usar la compresión</strong> tal como la indicó tu cirujano, en tiempo y forma.</li>
+<li><strong>Mover los tobillos en bombeo</strong> varias veces al día y caminar lo que te hayan autorizado: el movimiento también ayuda a que el líquido circule.</li>
+<li><strong>Elevar el segmento operado</strong> cuando estés en reposo, si te lo indicaron.</li>
+<li><strong>No aplicar calor</strong> ni hacerte masajes fuertes por tu cuenta sin indicación.</li>
+</ul>
 
-      <p><strong>¿Tienes cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu protocolo desde la primera semana (lee también nuestra <a href="/blog/drenaje-linfatico-post-operatorio-domicilio">guía general de drenaje linfático</a>).</p>
-    `
+<h2>¿Por qué a domicilio?</h2>
+<ul>
+<li>Recién operado no deberías manejar, y cada traslado en auto o taxi suma dolor e incomodidad.</li>
+<li>Con faja y, a veces, drenajes quirúrgicos, tu cama es el lugar más cómodo para la sesión.</li>
+<li>La sesión se coordina con tus horarios de medicamentos y curaciones.</li>
+</ul>
+
+<h2>Precio y reembolso</h2>
+<p>Recibes boleta de honorarios después de cada sesión. Con orden médica puedes pedir el reembolso en tu Isapre y en tu seguro complementario según la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso con Isapre</a>. Los valores y los <a href="/precios">packs de sesiones</a> están en nuestra página de precios. Cuando está indicado, el drenaje se suma a nuestro servicio de <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a>.</p>
+
+<h2>Preguntas frecuentes sobre el drenaje linfático post operatorio</h2>
+<h3>¿El drenaje linfático duele?</h3>
+<p>No debería. Es una técnica suave y la zona operada se trata con cuidado. Si sientes dolor durante la sesión, dilo: la presión se ajusta o se detiene.</p>
+<h3>¿Se puede hacer si todavía tengo los drenajes quirúrgicos puestos?</h3>
+<p>Depende de lo que indique tu cirujano. Cuando lo autoriza, se trabaja alrededor de los drenajes y de la herida, sin manipularlos.</p>
+<h3>¿El drenaje reemplaza la faja?</h3>
+<p>No. La compresión la indica tu cirujano y se mantiene según sus instrucciones; el drenaje es un complemento.</p>
+<h3>¿Sirve para bajar de peso o eliminar grasa?</h3>
+<p>No. El drenaje busca mover el líquido acumulado en los tejidos; no elimina grasa ni reemplaza la cirugía, la alimentación o el ejercicio.</p>
+<h3>¿Necesito orden médica?</h3>
+<p>Para pedir el reembolso en tu Isapre o seguro complementario, sí. Además, te pedimos las indicaciones de tu cirujano para saber qué está permitido y desde cuándo.</p>
+<h3>¿Atienden en mi comuna?</h3>
+<p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
+
+<p><strong>¿Tienes una cirugía programada o ya estás operado?</strong> <a href="https://wa.me/56999679593?text=Hola,%20necesito%20drenaje%20linf%C3%A1tico%20post%20operatorio%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>, cuéntanos qué cirugía es y qué indicó tu cirujano, y coordinamos la evaluación gratuita.</p>
+
+<p><strong>Fuentes:</strong> Alsairefi S y col. <a href="https://pubmed.ncbi.nlm.nih.gov/42840808/" target="_blank" rel="noopener noreferrer">Efficacy of manual lymphatic drainage in reducing postoperative complications after cosmetic plastic surgery: a systematic review</a>. Plast Reconstr Surg Glob Open. 2026. Migliorini F y col. <a href="https://pubmed.ncbi.nlm.nih.gov/38086979/" target="_blank" rel="noopener noreferrer">Level I of evidence does not support manual lymphatic drainage for total knee arthroplasty: a meta-analysis</a>. Sci Rep. 2023. Davide P y col. <a href="https://pubmed.ncbi.nlm.nih.gov/42513489/" target="_blank" rel="noopener noreferrer">Effectiveness of manual lymphatic drainage after total knee arthroplasty: a systematic review</a>. J Clin Med. 2026. Ezzo J y col. <a href="https://pubmed.ncbi.nlm.nih.gov/25994425/" target="_blank" rel="noopener noreferrer">Manual lymphatic drainage for lymphedema following breast cancer treatment</a>. Cochrane Database Syst Rev. 2015.</p>`
   },
 
   // ── Artículos clínicos originales ──
@@ -2066,37 +2133,70 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "08 Mayo, 2026",
     dateISO: "2026-05-08",
-    updatedISO: "2026-10-05",
-    readTime: "5 min lectura",
+    updatedISO: "2026-10-07",
+    readTime: "8 min lectura",
     category: "Neurología",
     image: "/neurological-physiotherapy.png",
     icon: Brain,
-    content: `<p class="lead">Despertar con medio rostro "caído" asusta. La causa más frecuente de parálisis facial periférica es la parálisis de Bell, que en general tiene buen pronóstico: en el <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, que siguió sin tratamiento a 2.570 parálisis faciales periféricas, el 71 % de los pacientes recuperó una mímica facial normal. Lo primero, eso sí, es que un médico descarte otras causas.</p>
+    content: `<p class="lead">Despertar con medio rostro "caído" asusta. La causa más frecuente de parálisis facial periférica es la parálisis de Bell, que en general tiene buen pronóstico: en el <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, que siguió sin tratamiento a 2.570 parálisis faciales periféricas, el 71 % de los pacientes recuperó una mímica facial normal. Lo primero, eso sí, es que un médico descarte otras causas. Esta guía explica qué hacer en las primeras horas, qué puede aportar la kinesiología y qué no, y cómo cuidar el ojo mientras el nervio se recupera.</p>
 
       <h2>Primero: descartar lo urgente</h2>
       <p>Una parálisis facial de inicio súbito requiere evaluación médica inmediata para descartar un ACV. Si además hay debilidad en un brazo o una pierna, dificultad para hablar o se te cae algo de la mano, es una <strong>emergencia: llama al SAMU 131</strong>. La parálisis de Bell afecta solo la cara y a veces viene con dolor detrás de la oreja.</p>
 
-      <h2>Por qué importan las primeras 72 horas</h2>
-      <p>La <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">guía de práctica clínica de la Academia Americana de Otorrinolaringología</a> recomienda que el médico indique corticoides orales dentro de las 72 horas desde el inicio de los síntomas en pacientes de 16 años o más con parálisis de Bell, y que se proteja el ojo cuando no cierra bien. Por eso no conviene esperar a ver si pasa sola: consulta en las primeras horas.</p>
+      <h2>Qué es la parálisis de Bell y qué otras causas hay</h2>
+      <p>El nervio facial es el que mueve los músculos de la mímica: los que levantan la ceja, cierran el ojo, inflan la mejilla y mueven los labios. En la parálisis de Bell ese nervio se inflama sin una causa identificable y deja de transmitir bien las órdenes a un lado de la cara. Por eso cuesta cerrar el ojo, se escapa el líquido al tomar agua y la sonrisa queda asimétrica.</p>
+      <p>No toda parálisis facial es de Bell. La <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">guía de práctica clínica de la Academia Americana de Otorrinolaringología</a> pide justamente que el médico, con la historia y el examen, descarte causas identificables antes de llamarla así. Entre ellas están el herpes zóster en el oído, las otitis, los traumatismos y, con menor frecuencia, los tumores. Cada una tiene un manejo distinto.</p>
 
-      <h2>Qué hace la kinesiología facial</h2>
-      <p>La misma guía no hace una recomendación sobre la terapia física en la parálisis de Bell, porque la evidencia no alcanza para concluir. Lo que sí puede aportar el kinesiólogo, siempre junto al médico tratante:</p>
+      <h2>Por qué importan las primeras 72 horas</h2>
+      <p>La misma guía recomienda que el médico indique corticoides orales dentro de las 72 horas desde el inicio de los síntomas en pacientes de 16 años o más con parálisis de Bell, y que se proteja el ojo cuando no cierra bien. La <a href="https://pubmed.ncbi.nlm.nih.gov/27428352/" target="_blank" rel="noopener noreferrer">revisión Cochrane sobre corticoides en la parálisis de Bell</a>, con siete ensayos y 895 pacientes, encontró que a los seis meses o más el 17 % de los tratados con corticoides tenía una recuperación incompleta, frente al 28 % de los que no los recibieron. Por eso no conviene esperar a ver si pasa sola: consulta en las primeras horas.</p>
+
+      <h2>El ojo: lo que no puede esperar</h2>
+      <p>Si el párpado no cierra bien, la córnea se seca y puede lesionarse. El cuidado del ojo lo indica el médico, y suele incluir lágrimas artificiales durante el día y protección u oclusión durante la noche. Algunas recomendaciones prácticas mientras tanto:</p>
       <ul>
-        <li><strong>Educación y cuidado del ojo:</strong> recordar las lágrimas artificiales y la oclusión nocturna que haya indicado el médico.</li>
-        <li><strong>Ejercicios suaves frente al espejo:</strong> movimientos de cejas, párpados, mejillas y labios, sin forzar, para no favorecer movimientos involuntarios asociados (sincinesias).</li>
-        <li><strong>Progresión funcional:</strong> soplar, sonreír y pronunciar, porque la cara se entrena con funciones reales.</li>
+        <li>Usa las lágrimas o el gel exactamente como te los indicaron, también los fines de semana.</li>
+        <li>Protege el ojo del viento y del polvo con lentes cuando salgas.</li>
+        <li>Si el ojo se pone rojo, duele, ves borroso o sientes arena que no se va, consulta pronto: la guía recomienda reevaluar o derivar ante cualquier síntoma ocular nuevo.</li>
       </ul>
 
+      <h2>Qué hace la kinesiología facial</h2>
+      <p>La guía no hace una recomendación sobre la terapia física en la parálisis de Bell, porque la evidencia no alcanza para concluir. La <a href="https://pubmed.ncbi.nlm.nih.gov/22161401/" target="_blank" rel="noopener noreferrer">revisión Cochrane sobre terapia física en la parálisis facial idiopática</a> llegó a una conclusión parecida: no hay evidencia de alta calidad de que alguna terapia física dé un beneficio importante, ni de que haga daño. Sí encontró evidencia de baja calidad de que los ejercicios faciales adaptados a cada persona ayudan a mejorar la función, sobre todo en parálisis moderadas y en casos crónicos, y de que podrían reducir las secuelas en los casos recientes.</p>
+      <p>Con eso en mente, lo que puede aportar el kinesiólogo, siempre junto al médico tratante, es:</p>
+      <ul>
+        <li><strong>Educación y cuidado del ojo:</strong> recordar las lágrimas artificiales y la oclusión nocturna que haya indicado el médico.</li>
+        <li><strong>Ejercicios suaves frente al espejo:</strong> movimientos de cejas, párpados, mejillas y labios, lentos y precisos, sin forzar, para no favorecer movimientos involuntarios asociados (sincinesias).</li>
+        <li><strong>Progresión funcional:</strong> soplar, sonreír y pronunciar, porque la cara se entrena con funciones reales.</li>
+        <li><strong>Consejos para comer y beber</strong> mientras el labio no sella bien: bocados pequeños, masticar por el lado sano y revisar que no queden restos de comida en la mejilla afectada.</li>
+      </ul>
+
+      <h2>Sincinesias: el movimiento que no debería estar</h2>
+      <p>Cuando el nervio se recupera, a veces las fibras se reconectan de forma desordenada. El resultado son las sincinesias: por ejemplo, que el ojo se cierre solo al sonreír o que se mueva la comisura al parpadear. En el <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, el 16 % de los pacientes tuvo movimientos asociados. Por eso los ejercicios se hacen con control y precisión, no con la mayor fuerza posible, y si las sincinesias aparecen, se ajusta el trabajo.</p>
+
       <h2>Lo que debes evitar</h2>
-      <p>No uses electroestimulación por tu cuenta ni hagas ejercicios de máxima fuerza. La dosis la define el profesional, junto con el médico tratante.</p>
+      <p>No uses electroestimulación por tu cuenta ni hagas ejercicios de máxima fuerza. En la revisión Cochrane, la electroestimulación no mostró beneficio frente a placebo en la recuperación a seis meses. La dosis la define el profesional, junto con el médico tratante.</p>
 
       <h2>¿Cuánto tarda la recuperación?</h2>
-      <p>Varía de persona en persona. En el mismo <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, el 85 % de los pacientes empezó a recuperar la función dentro de las primeras 3 semanas y el resto, entre los 3 y los 5 meses. Si a los 3 meses la recuperación no es completa, la guía recomienda reevaluar o derivar a un especialista en nervio facial.</p>
+      <p>Varía de persona en persona. En el mismo <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">estudio de Copenhague</a>, el 85 % de los pacientes empezó a recuperar la función dentro de las primeras 3 semanas y el resto, entre los 3 y los 5 meses. Si a los 3 meses la recuperación no es completa, la guía recomienda reevaluar o derivar a un especialista en nervio facial. También hay que volver a consultar en cualquier momento si aparecen síntomas neurológicos nuevos o la parálisis empeora.</p>
+
+      <h2>Cómo es la atención a domicilio</h2>
+      <p>La evaluación inicial es gratuita. El kinesiólogo revisa el diagnóstico y las indicaciones del médico, mira cómo se mueve cada zona de tu cara y cómo cierra el ojo, y te enseña una rutina corta para hacer frente al espejo en tu casa. En las sesiones siguientes revisa cómo avanzas y ajusta los ejercicios. Las sesiones duran alrededor de 60 minutos y los valores están en nuestra <a href="/precios">página de precios</a>.</p>
+
+      <h2>Preguntas frecuentes sobre la parálisis facial</h2>
+      <h3>¿Cuándo puedo empezar con los ejercicios?</h3>
+      <p>Después de que un médico te evaluó y descartó otras causas. Los primeros días el foco es el tratamiento médico y el cuidado del ojo; los ejercicios suaves se suman según la evolución y lo que indique tu médico.</p>
+      <h3>¿Sirve la electroestimulación?</h3>
+      <p>La evidencia disponible no muestra que mejore la recuperación, así que no la usamos de rutina y no recomendamos usarla por tu cuenta.</p>
+      <h3>¿Puedo ponerme calor o hacerme masajes en la cara?</h3>
+      <p>Pregúntalo antes a tu médico o kinesiólogo. Un masaje suave puede ser cómodo, pero no reemplaza el tratamiento ni los ejercicios, y el calor no está indicado de rutina.</p>
+      <h3>¿Qué pasa si a los 3 meses todavía no me recupero?</h3>
+      <p>La guía recomienda reevaluar o derivar a un especialista en nervio facial cuando la recuperación no es completa a los 3 meses. No significa que no haya nada que hacer: significa que conviene una evaluación más especializada.</p>
+      <h3>¿Necesito orden médica?</h3>
+      <p>Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
+      <h3>¿Atienden en mi comuna?</h3>
+      <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
       <p>Si ya te evaluó un médico y quieres apoyo con los ejercicios en tu casa, revisa nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20par%C3%A1lisis%20facial">escríbenos por WhatsApp</a>.</p>
 
-      <p><strong>Fuentes:</strong> Peitersen E. <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">Bell's palsy: the spontaneous course of 2,500 peripheral facial nerve palsies of different etiologies</a>. Acta Otolaryngol Suppl. 2002. Baugh RF y col. <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">Clinical practice guideline: Bell's palsy</a>. Otolaryngol Head Neck Surg. 2013.</p>
-    `
+      <p><strong>Fuentes:</strong> Peitersen E. <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">Bell's palsy: the spontaneous course of 2,500 peripheral facial nerve palsies of different etiologies</a>. Acta Otolaryngol Suppl. 2002. Baugh RF y col. <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">Clinical practice guideline: Bell's palsy</a>. Otolaryngol Head Neck Surg. 2013. Madhok VB y col. <a href="https://pubmed.ncbi.nlm.nih.gov/27428352/" target="_blank" rel="noopener noreferrer">Corticosteroids for Bell's palsy (idiopathic facial paralysis)</a>. Cochrane Database Syst Rev. 2016. Teixeira LJ y col. <a href="https://pubmed.ncbi.nlm.nih.gov/22161401/" target="_blank" rel="noopener noreferrer">Physical therapy for Bell's palsy (idiopathic facial paralysis)</a>. Cochrane Database Syst Rev. 2011.</p>`
   },
   {
     slug: "tunel-carpiano-alivio",
@@ -2409,38 +2509,78 @@ export const blogPosts = [
   {
     slug: "epicondilitis-codo-tenista",
     seoTitle: "Codo de Tenista: Tratamiento y Recuperación | KINEUM",
-    seoDescription: "Por qué el mouse y el teclado inflaman el codo, qué ejercicios excéntricos lo recuperan y cuánto demora. Kinesiólogo a domicilio en Santiago.",
+    seoDescription: "Por qué duele el codo de tenista, qué dice la evidencia sobre ejercicio, infiltraciones y esperar, y qué hacer desde hoy. Kinesiólogo a domicilio en Santiago.",
     title: "Codo de Tenista (Epicondilitis): No Solo para Deportistas",
-    subtitle: "Cómo el uso del mouse y el teclado inflaman tu codo.",
+    subtitle: "Por qué duele, qué dice la evidencia sobre ejercicio, infiltraciones y esperar, y qué puedes hacer desde hoy.",
     author: "Equipo Clínico KINEUM",
     date: "11 Marzo, 2026",
     dateISO: "2026-03-11",
-    updatedISO: "2026-10-05",
-    readTime: "5 min lectura",
+    updatedISO: "2026-10-07",
+    readTime: "8 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_wall_pushup_1769278392606.png",
     icon: Activity,
-    content: `<p class="lead">La mayoría de las personas con "codo de tenista" no juega tenis: es frecuente en trabajos con movimientos repetidos de muñeca y mano, como el computador, la peluquería o la cocina. La epicondilitis lateral es una lesión por sobreuso de los músculos que extienden la muñeca, y el mouse es su gimnasio involuntario.</p>
+    content: `<p class="lead">La mayoría de las personas con "codo de tenista" no juega tenis. La epicondilitis lateral es una molestia por sobrecarga de los tendones que extienden la muñeca y los dedos, y aparece en trabajos y tareas que repiten el mismo gesto con fuerza: herramientas, cocina, peluquería, jardinería, cargar bolsas o muchas horas de mouse y teclado. Esta guía explica por qué duele, qué dice la evidencia sobre los tratamientos y qué puedes esperar, sin promesas.</p>
+
+      <h2>¿Qué tan frecuente es y a quién le da?</h2>
+      <p>En un <a href="https://pubmed.ncbi.nlm.nih.gov/16968862/" target="_blank" rel="noopener noreferrer">estudio poblacional en Finlandia</a> con 4.783 personas de 30 a 64 años, el 1,3 % tenía una epicondilitis lateral confirmada. Fue igual de frecuente en hombres y mujeres, y más común entre los 45 y los 54 años. Se asoció al tabaquismo y a la combinación de movimientos repetitivos de los brazos con tareas de fuerza.</p>
 
       <h2>¿Por qué duele la cara externa del codo?</h2>
-      <p>Los músculos extensores de la muñeca y los dedos nacen todos de un mismo punto: el epicóndilo lateral. Miles de microextensiones diarias (clic, clic, clic) con la muñeca en mala posición sobrecargan ese anclaje hasta degenerarlo. Por eso el dolor aparece al tomar la taza, dar la mano o girar una llave.</p>
+      <p>Los músculos que extienden la muñeca y los dedos se anclan, a través de un tendón común, en un mismo punto del codo: el epicóndilo lateral. Cuando ese tendón recibe más carga de la que tolera, por gestos repetidos con fuerza y con poco descanso, se irrita y se vuelve sensible. Por eso el dolor aparece al tomar una taza llena, dar la mano, girar una llave, levantar una olla o apretar el mouse con la muñeca doblada hacia arriba.</p>
+      <p>Aunque se llame "-itis", en los casos que duran meses suele tratarse de un tendón sobrecargado más que de una inflamación clásica. Por eso el antiinflamatorio solo, o el reposo absoluto, rara vez resuelve el problema por sí mismo.</p>
+
+      <h2>Cómo se diagnostica</h2>
+      <p>En general basta con la historia y el examen: dolor en la cara externa del codo que aumenta al extender la muñeca contra resistencia o al apretar con la mano. En la evaluación también se revisa el cuello y el hombro, porque un dolor que viene de la columna cervical puede sentirse en el codo. Si hay hormigueo en la mano, pérdida de fuerza importante o el dolor empezó con un golpe, la consulta médica va primero.</p>
+
+      <h2>Lo que dice la evidencia sobre los tratamientos</h2>
+      <p>La epicondilitis tiende a mejorar con el tiempo, aunque puede tardar meses. Los ensayos aleatorizados ayudan a poner los tratamientos en perspectiva:</p>
+      <ul>
+        <li>En un <a href="https://pubmed.ncbi.nlm.nih.gov/11879861/" target="_blank" rel="noopener noreferrer">ensayo publicado en The Lancet</a>, a las 52 semanas tuvieron un resultado exitoso el 91 % de quienes hicieron kinesiterapia, el 83 % de quienes solo esperaron con indicaciones y el 69 % de quienes recibieron infiltraciones de corticoides. La diferencia entre kinesiterapia y esperar no fue significativa.</li>
+        <li>En un <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">ensayo publicado en el BMJ</a>, la kinesiterapia con movilización y ejercicio fue mejor que esperar durante las primeras 6 semanas; a las 52 semanas no hubo diferencia y la mayoría de ambos grupos estaba bien. La infiltración alivió más al principio, pero con muchas recaídas después.</li>
+        <li>En un <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">ensayo aleatorizado publicado en JAMA</a> con pacientes con epicondilalgia lateral crónica, la infiltración de corticoides se asoció a peores resultados al año que una infiltración placebo. La kinesiterapia dio más mejoría a las 4 semanas, pero al año no hubo diferencias.</li>
+      </ul>
+      <p>En resumen: la kinesiología ayuda sobre todo a <strong>mejorar antes</strong>, a entender qué carga tolera el tendón y a ajustar las tareas que lo mantienen irritado. No acelera milagrosamente la curación ni garantiza un plazo. Las infiltraciones alivian rápido, pero se asocian a más recaídas; esa decisión es siempre de tu médico.</p>
 
       <h2>El error clásico: tratar solo donde duele</h2>
-      <p>Masajear el codo alivia un rato, pero la solución está en la <strong>cadena completa</strong>: la fuerza de la muñeca y el antebrazo, la estabilidad del hombro (un hombro débil delega trabajo al codo) y la ergonomía del puesto.</p>
+      <p>Masajear el codo puede aliviar un rato, pero lo que más influye es la carga que recibe el tendón día a día: cuánta fuerza haces con la mano, con qué posición de muñeca y cuántas veces. Por eso el tratamiento mira la tarea completa, la fuerza de la muñeca y el antebrazo, y también el hombro, que participa en casi todos los gestos de la mano.</p>
 
       <h2>Qué incluye el tratamiento</h2>
       <ul>
-        <li><strong>Carga progresiva excéntrica e isométrica</strong> de los extensores: el tendón degenerado se regenera con ejercicio dosificado, no con reposo.</li>
-        <li><strong>Fortalecimiento de la cadena</strong> (como las flexiones de pared de la imagen, que integran muñeca, codo y hombro).</li>
-        <li><strong>Terapia manual</strong> de puntos gatillo del antebrazo y movilizaciones con movimiento.</li>
-        <li><strong>Ajustes ergonómicos:</strong> muñeca neutra, mouse más cerca del cuerpo, sensibilidad del clic.</li>
-        <li>Sobre las infiltraciones de corticoides: en un <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">ensayo aleatorizado publicado en JAMA</a> con pacientes con epicondilalgia lateral crónica, la infiltración de corticoides se asoció a peores resultados al año que una infiltración placebo. La decisión es de tu médico.</li>
+        <li><strong>Ejercicio con carga progresiva</strong> de los extensores de la muñeca, con contracciones sostenidas y luego con movimiento, dosificado para que la molestia sea tolerable y no aumente al día siguiente.</li>
+        <li><strong>Fortalecimiento del antebrazo y del hombro</strong>, como las flexiones de pared de la imagen, cuando el dolor lo permite.</li>
+        <li><strong>Terapia manual</strong> y movilizaciones del codo, como complemento del ejercicio.</li>
+        <li><strong>Ajustes de la tarea:</strong> tomar los objetos con la palma hacia arriba cuando se pueda, usar mangos más gruesos, acercar el mouse al cuerpo, mantener la muñeca neutra y hacer pausas.</li>
+        <li><strong>Orientación sobre la codera o banda epicondílea:</strong> a algunas personas les alivia durante las tareas de fuerza; no reemplaza el ejercicio.</li>
       </ul>
 
-      <p>¿Dolor de codo que lleva meses? Cuánto dura el tratamiento depende de tu caso; te damos una estimación en la evaluación gratuita, en tu casa. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20epicondilitis">Escríbenos por WhatsApp</a>.</p>
+      <h2>Qué puedes hacer desde hoy</h2>
+      <ul>
+        <li>Reduce, sin eliminar, las tareas que más te duelen: cambia de mano, divide la carga o haz pausas.</li>
+        <li>Evita apretar con fuerza con la muñeca doblada hacia arriba.</li>
+        <li>Mantén el brazo en movimiento: el reposo completo no ayuda al tendón a tolerar carga.</li>
+        <li>Si fumas, este es un buen motivo más para dejarlo: en el estudio finlandés el tabaquismo se asoció a la epicondilitis.</li>
+      </ul>
 
-      <p><strong>Fuentes:</strong> Coombes BK y col. <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial</a>. JAMA. 2013.</p>
-    `
+      <h2>Cuándo consultar al médico</h2>
+      <p>Consulta con un médico si el dolor empezó después de una caída o un golpe, si el codo está hinchado, rojo o caliente, si tienes fiebre, si se te duerme la mano o pierdes fuerza, o si el dolor no te deja dormir.</p>
+
+      <h2>Preguntas frecuentes sobre el codo de tenista</h2>
+      <h3>¿Cuánto dura una epicondilitis?</h3>
+      <p>Es variable. Puede durar semanas o varios meses, y en los ensayos la mayoría de las personas estaba bien al año, con o sin tratamiento. La kinesiología busca que mejores antes y que no vuelva.</p>
+      <h3>¿Tengo que dejar de usar el brazo?</h3>
+      <p>No. Conviene bajar la carga de lo que más duele, pero el reposo completo no ayuda al tendón. El ejercicio dosificado es parte central del tratamiento.</p>
+      <h3>¿Me conviene una infiltración?</h3>
+      <p>Es una decisión de tu médico. Los ensayos muestran que alivia rápido, pero se asocia a más recaídas y a peores resultados al año que no infiltrar.</p>
+      <h3>¿Necesito una ecografía o una resonancia?</h3>
+      <p>En general no hace falta para empezar. El médico la pide si el cuadro no es típico, si hubo un traumatismo o si no evoluciona como se espera.</p>
+      <h3>¿Necesito orden médica para el kinesiólogo?</h3>
+      <p>Para atenderte de forma particular, en general no. Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
+      <h3>¿Atienden en mi comuna?</h3>
+      <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
+
+      <p>¿Dolor de codo que lleva semanas? Cuánto dura el tratamiento depende de tu caso; te damos una estimación en la evaluación gratuita, en tu casa. Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20tengo%20epicondilitis">escríbenos por WhatsApp</a>.</p>
+
+      <p><strong>Fuentes:</strong> Shiri R y col. <a href="https://pubmed.ncbi.nlm.nih.gov/16968862/" target="_blank" rel="noopener noreferrer">Prevalence and determinants of lateral and medial epicondylitis: a population study</a>. Am J Epidemiol. 2006. Smidt N y col. <a href="https://pubmed.ncbi.nlm.nih.gov/11879861/" target="_blank" rel="noopener noreferrer">Corticosteroid injections, physiotherapy, or a wait-and-see policy for lateral epicondylitis: a randomised controlled trial</a>. Lancet. 2002. Bisset L y col. <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">Mobilisation with movement and exercise, corticosteroid injection, or wait and see for tennis elbow: randomised trial</a>. BMJ. 2006. Coombes BK y col. <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial</a>. JAMA. 2013.</p>`
   },
   {
     slug: "escoliosis-en-ninos",
