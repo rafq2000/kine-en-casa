@@ -155,12 +155,12 @@ export const comunasLocal: Record<string, ComunaLocal> = {
         "centrosSalud": [
             {
                 "nombre": "Clínica Alemana de Santiago (sede Vitacura)",
-                "tipo": "clinica privada",
+                "tipo": "clínica privada",
                 "nota": "Urgencia 24 h, adulto y pediátrica"
             },
             {
                 "nombre": "Clínica RedSalud Vitacura (ex Clínica Tabancura)",
-                "tipo": "clinica privada",
+                "tipo": "clínica privada",
                 "nota": "Urgencia 24 h, adulto y pediátrica"
             },
             {
@@ -944,7 +944,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "nombre": "Hospital Clínico UC CHRISTUS",
-                "tipo": "clinica privada",
+                "tipo": "clínica privada",
                 "nota": "Urgencia 24 h, adulto y pediátrica"
             },
             {
