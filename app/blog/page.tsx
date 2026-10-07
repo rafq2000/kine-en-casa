@@ -129,7 +129,7 @@ export default function BlogPage() {
                     {post.title}
                   </h3>
                   <p className="text-slate-600 text-sm mb-3 leading-relaxed">{post.subtitle}</p>
-                  <div className="flex items-center gap-4 text-xs text-slate-400">
+                  <div className="flex items-center gap-4 text-xs text-slate-600">
                     <span className="flex items-center"><Calendar className="h-3 w-3 mr-1" />{fechaLarga(post.dateISO)}</span>
                     <span className="flex items-center"><Clock className="h-3 w-3 mr-1" />{post.readTime}</span>
                   </div>
@@ -153,7 +153,7 @@ export default function BlogPage() {
                     <CardHeader className="pb-3">
                       <div className="flex items-center gap-2 mb-2">
                         <Badge variant="outline" className="text-xs border-slate-300">{post.category}</Badge>
-                        <span className="text-xs text-slate-400">{post.readTime}</span>
+                        <span className="text-xs text-slate-600">{post.readTime}</span>
                       </div>
                       <CardTitle className="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors font-serif leading-snug">
                         {post.title}
@@ -162,7 +162,7 @@ export default function BlogPage() {
                     <CardContent>
                       <p className="text-slate-600 text-sm leading-relaxed mb-3">{post.subtitle}</p>
                       <div className="flex items-center justify-between">
-                        <span className="text-xs text-slate-400">{post.author}</span>
+                        <span className="text-xs text-slate-600">{post.author}</span>
                         <span className="text-sm font-semibold text-emerald-700 flex items-center">
                           Leer <ArrowRight className="h-3 w-3 ml-1" />
                         </span>

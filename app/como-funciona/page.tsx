@@ -337,7 +337,7 @@ export default function ComoFuncionaPage() {
                             <div className="flex items-center gap-3 mb-2">
                               <span
                                 className={`text-sm font-bold ${
-                                  isAmber ? "text-amber-500" : "text-emerald-500"
+                                  isAmber ? "text-amber-700" : "text-emerald-700"
                                 }`}
                               >
                                 PASO {step.number}
@@ -351,7 +351,7 @@ export default function ComoFuncionaPage() {
                             </p>
                             <p
                               className={`text-sm font-medium ${
-                                isAmber ? "text-amber-600" : "text-emerald-600"
+                                isAmber ? "text-amber-700" : "text-emerald-700"
                               }`}
                             >
                               {step.detail}
@@ -524,7 +524,7 @@ export default function ComoFuncionaPage() {
               </a>
             </div>
 
-            <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-emerald-200">
+            <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-emerald-50">
               <span className="flex items-center gap-2">
                 <Check className="w-4 h-4" /> Evaluación gratis
               </span>

@@ -207,7 +207,7 @@ export default function TestimoniosPage() {
                             +56 9 9967 9593
                         </a>
                     </div>
-                    <p className="text-slate-500 text-sm mt-6">
+                    <p className="text-slate-400 text-sm mt-6">
                         Evaluación gratuita - Reembolso Isapre - Sin compromiso
                     </p>
                 </div>
