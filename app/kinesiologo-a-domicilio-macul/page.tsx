@@ -31,12 +31,10 @@ export const metadata: Metadata = {
         `rehabilitación prótesis rodilla ${comunaData.nombre}`,
         `kinesiólogo post operación ${comunaData.nombre}`,
         `kine respiratorio bebé ${comunaData.nombre}`,
-        `kinesiología embarazada ${comunaData.nombre}`,
         `rehabilitación ACV ${comunaData.nombre}`,
         `kinesiólogo adulto mayor caídas ${comunaData.nombre}`,
         `fisioterapeuta a domicilio ${comunaData.nombre}`,
         `kine post cirugía ${comunaData.nombre}`,
-        `kinesiólogo urgente ${comunaData.nombre}`,
     ],
     alternates: {
         canonical: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,

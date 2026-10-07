@@ -67,7 +67,7 @@ export const comunas: Comuna[] = [
             "Tabancura",
         ],
         contexto:
-            "Vitacura tiene una alta proporción de adultos mayores viviendo en casas amplias, un entorno ideal para rehabilitar sin trasladarse.",
+            "En Vitacura atendemos en casas y departamentos de toda la comuna, para que el paciente se rehabilite sin trasladarse.",
         referencias: "cerca de Av. Vitacura, Kennedy y el Parque Bicentenario",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -88,7 +88,7 @@ export const comunas: Comuna[] = [
             "Parque Bustamante",
         ],
         contexto:
-            "En Providencia la mayoría de los pacientes vive en departamentos y trabaja en la misma comuna: subimos con camilla y equipamiento en horarios compatibles con la jornada laboral.",
+            "En Providencia atendemos en departamentos y casas de toda la comuna: subimos con camilla y equipamiento, de lunes a domingo.",
         referencias: "cerca del eje Providencia–Nueva Providencia y las estaciones Salvador, Manuel Montt y Los Leones",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -108,7 +108,7 @@ export const comunas: Comuna[] = [
             "Villa Olímpica",
         ],
         contexto:
-            "Ñuñoa mezcla casas antiguas y edificios nuevos, con muchas familias que cuidan a un adulto mayor en casa y agradecen no tener que trasladarlo.",
+            "Ñuñoa mezcla casas antiguas y edificios nuevos: atendemos en ambos, para que el paciente no tenga que trasladarse.",
         referencias: "cerca de Plaza Ñuñoa, Irarrázaval y el Estadio Nacional",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -129,7 +129,7 @@ export const comunas: Comuna[] = [
             "Talinay",
         ],
         contexto:
-            "La Reina es tranquila y arbolada, con calles y parques que aprovechamos para la fase de marcha y reacondicionamiento al aire libre.",
+            "La Reina es una comuna residencial y arbolada: atendemos en toda la comuna, sin recargo por traslado.",
         referencias: "cerca de Plaza Egaña, Av. Ossa y el Parque Padre Hurtado",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -150,7 +150,7 @@ export const comunas: Comuna[] = [
             "La Ermita",
         ],
         contexto:
-            "Lo Barnechea es la comuna más extensa de nuestra cobertura y la peor conectada con centros de rehabilitación: por eso la atención en casa marca la mayor diferencia, sin recargo por distancia.",
+            "Lo Barnechea es la comuna más extensa de nuestra cobertura, de La Dehesa y Los Trapenses hacia el camino a Farellones: llegamos a todos sus sectores sin recargo por distancia.",
         referencias: "cerca de La Dehesa, Camino a Farellones y Los Trapenses",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -171,7 +171,7 @@ export const comunas: Comuna[] = [
             "Peñalolén Nuevo",
         ],
         contexto:
-            "Peñalolén tiene poca oferta de rehabilitación propia y sus vecinos suelen bajar a Ñuñoa o La Reina: nosotros subimos con todo el equipamiento, incluida la zona precordillera, sin recargo por subir.",
+            "Peñalolén va de Avenida Grecia y Quilín hasta la zona precordillera: atendemos en toda la comuna, incluidos los sectores altos, sin recargo por traslado.",
         referencias: "cerca de Av. Grecia, Tobalaba sur y la Comunidad Ecológica",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -192,7 +192,7 @@ export const comunas: Comuna[] = [
             "Campus San Joaquín",
         ],
         contexto:
-            "Macul combina barrios residenciales consolidados con muchos adultos mayores que viven solos o con su familia: llevamos la rehabilitación completa a su living.",
+            "Macul es una comuna residencial entre Vicuña Mackenna, Quilín y Departamental: la sesión se hace completa en tu casa, sin recargo por traslado.",
         referencias: "cerca de Vicuña Mackenna, Quilín y Departamental",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -213,7 +213,7 @@ export const comunas: Comuna[] = [
             "Parque Forestal",
         ],
         contexto:
-            "En Santiago Centro la mayoría vive en departamentos y depende del metro: subimos a tu piso con todo el equipamiento y en horarios que calzan con el trabajo.",
+            "En Santiago Centro atendemos en departamentos y casas: subimos a tu piso con camilla y equipamiento, de lunes a domingo.",
         referencias: "cerca de la Alameda, el Parque Forestal y los barrios Lastarria, Brasil y Yungay",
         llegada: PRIMERA_VISITA_TEXTO,
     },

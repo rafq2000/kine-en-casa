@@ -94,7 +94,6 @@ export const especialidades: Especialidad[] = [
             "Enfermedad de Parkinson",
             "Esclerosis múltiple",
             "Parálisis facial",
-            "Neuropatías periféricas",
         ],
         servicioUrl: "/servicios/neurologica",
         articulos: [
