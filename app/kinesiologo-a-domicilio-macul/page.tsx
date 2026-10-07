@@ -32,7 +32,6 @@ export const metadata: Metadata = {
         `kinesiólogo post operación ${comunaData.nombre}`,
         `kine respiratorio bebé ${comunaData.nombre}`,
         `kinesiología embarazada ${comunaData.nombre}`,
-        `kinesiólogo deportivo ${comunaData.nombre}`,
         `rehabilitación ACV ${comunaData.nombre}`,
         `kinesiólogo adulto mayor caídas ${comunaData.nombre}`,
         `fisioterapeuta a domicilio ${comunaData.nombre}`,

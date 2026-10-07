@@ -24,7 +24,7 @@ const siteUrl = "https://kineum.cl"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Kinesiología a Domicilio Premium Santiago | KINEUM",
+  title: "Kinesiólogo a Domicilio en Santiago | KINEUM",
   description:
     "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   keywords: [
@@ -90,7 +90,7 @@ const localBusinessSchema = {
     "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,
   telephone: "+56999679593",
-  email: "contacto@kineum.cl",
+  // email: contacto@kineum.cl no recibe correo (el dominio no tiene MX, 7-oct-2026); vuelve cuando funcione
   image: `${siteUrl}/og-image.jpg`,
   logo: `${siteUrl}/logo.png`,
   priceRange: "$$",
@@ -140,7 +140,7 @@ const localBusinessSchema = {
         itemOffered: {
           "@type": "MedicalTherapy",
           name: "Kinesiología Geriátrica",
-          description: "Rehabilitación especializada para adultos mayores en su hogar",
+          description: "Rehabilitación para adultos mayores en su hogar",
         },
       },
       {
@@ -156,7 +156,7 @@ const localBusinessSchema = {
         itemOffered: {
           "@type": "MedicalTherapy",
           name: "Kinesiología Traumatológica",
-          description: "Rehabilitación de fracturas, esguinces y lesiones deportivas",
+          description: "Rehabilitación de fracturas, esguinces y lesiones musculares y de tendones",
         },
       },
       {
@@ -172,7 +172,7 @@ const localBusinessSchema = {
         itemOffered: {
           "@type": "MedicalTherapy",
           name: "Rehabilitación Postquirúrgica",
-          description: "Recuperación especializada después de cirugías ortopédicas",
+          description: "Recuperación en casa después de cirugías ortopédicas",
         },
       },
     ],

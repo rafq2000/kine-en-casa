@@ -180,7 +180,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Bronquiolitis, VRS y síndrome bronquial obstructivo',
                 parrafos: [
                     'La bronquiolitis es la infección respiratoria baja más frecuente en lactantes durante el invierno chileno, y el virus respiratorio sincicial es su causa más común. El cuadro combina inflamación de la vía aérea pequeña con secreciones, y por eso el niño respira más rápido, se cansa al comer y duerme mal.',
-                    'El manejo es principalmente médico y de soporte. La KTR se indica en casos seleccionados, típicamente cuando hay abundantes secreciones que el niño no logra movilizar, y su aporte es ayudar a despejar la vía aérea para que respire con menos esfuerzo.',
+                    'El manejo es principalmente médico y de soporte. La revisión Cochrane más reciente sobre el tema concluyó que las técnicas convencionales (vibración, percusión y drenaje postural) y las de espiración forzada no cambian la gravedad de la bronquiolitis. Por eso la KTR se indica solo en casos seleccionados, cuando el médico lo considera, y con técnicas suaves y lentas.',
                     'En el síndrome bronquial obstructivo recurrente el trabajo suele ser periódico y se acompaña de educación a los padres: aseo nasal correcto, posiciones que favorecen el descanso y, sobre todo, reconocer a tiempo cuándo el cuadro se está complicando.',
                 ],
             },
@@ -240,7 +240,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Le va a doler a mi hijo?',
-                a: 'Las técnicas no son dolorosas, aunque a los lactantes suele incomodarles el aseo nasal y es habitual que lloren durante parte de la sesión. Ese llanto, de hecho, moviliza aire y ayuda. El kinesiólogo va explicando lo que hace para que puedas acompañarlo con tranquilidad.',
+                a: 'Las técnicas no son dolorosas, aunque a los lactantes suele incomodarles el aseo nasal y es habitual que lloren durante parte de la sesión. El kinesiólogo va explicando lo que hace para que puedas acompañarlo con tranquilidad.',
             },
             {
                 q: '¿Cuántas sesiones se necesitan?',
@@ -252,7 +252,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Atienden fines de semana?',
-                a: 'Sí, atendemos de lunes a domingo. En invierno priorizamos los casos respiratorios infantiles porque suelen requerir atención en el día.',
+                a: 'Sí, atendemos de lunes a domingo, según la agenda disponible en tu comuna.',
             },
         ],
         cta: {

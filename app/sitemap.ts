@@ -12,10 +12,10 @@ const baseUrl = 'https://kineum.cl'
 // Footer, navegacion, estilos o botones flotantes no cuentan. Los posts usan
 // `updatedISO` en lib/blog-data.ts con la misma regla.
 const MODIFICADO: Record<string, string> = {
-    '/': '2026-10-05',
+    '/': '2026-10-07',
     '/nosotros': '2026-10-05',
     '/servicios/geriatrica': '2026-10-05',
-    '/servicios/respiratoria': '2026-10-05',
+    '/servicios/respiratoria': '2026-10-07',
     '/servicios/neurologica': '2026-10-05',
     '/servicios/traumatologica': '2026-10-05',
     '/servicios/postquirurgica': '2026-10-05',

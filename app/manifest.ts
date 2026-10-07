@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "KINEUM - Kinesiologia a Domicilio Santiago",
+    name: "KINEUM - Kinesiología a Domicilio Santiago",
     short_name: "KINEUM",
     description:
-      "Kinesiologia a domicilio en Santiago de Chile. Rehabilitacion traumatologica, neurologica, respiratoria y geriatrica en la comodidad de tu hogar. Kinesiologo profesional a domicilio en Las Condes, Providencia, Vitacura, Nunoa, La Reina y Lo Barnechea.",
+      "Kinesiología a domicilio en 9 comunas de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Geriátrica, respiratoria, traumatológica, neurológica y postquirúrgica.",
     start_url: "/",
     display: "standalone",
     theme_color: "#0f172a",

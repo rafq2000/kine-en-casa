@@ -53,7 +53,6 @@ export function GET() {
 ## Contacto
 - Sitio: ${SITIO}
 - Teléfono y WhatsApp: +56 9 9967 9593
-- Email: contacto@kineum.cl
 - Empresa: Kineum SpA, RUT 76.892.102-K
 - Dirección comercial: Av. Apoquindo 4501, Las Condes (la atención se realiza en el domicilio del paciente)
 - Horario: ${HORARIO_TEXTO}

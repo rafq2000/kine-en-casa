@@ -89,7 +89,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Atienden adultos mayores con movilidad reducida?",
-        acceptedAnswer: { "@type": "Answer", text: "Sí, somos especialistas en atención a adultos mayores con movilidad reducida. Llevamos todo el equipamiento necesario a tu hogar y adaptamos cada sesión a las capacidades del paciente." }
+        acceptedAnswer: { "@type": "Answer", text: "Sí, atendemos a adultos mayores con movilidad reducida. Llevamos todo el equipamiento necesario a tu hogar y adaptamos cada sesión a las capacidades del paciente." }
       }
     ]
   }
@@ -110,7 +110,7 @@ export default function HomePage() {
     },
     {
       title: "Kinesiología Respiratoria",
-      description: "Tratamiento especializado para problemas respiratorios",
+      description: "KTR para niños y adultos, con indicación médica",
       icon: Stethoscope,
       image: "/respiratory-therapy-baby.png",
       href: "/servicios/respiratoria",
@@ -131,7 +131,7 @@ export default function HomePage() {
     },
     {
       title: "Rehabilitación Postquirúrgica",
-      description: "Recuperación especializada después de cirugías",
+      description: "Recuperación en casa después de una cirugía",
       icon: Heart,
       image: "/home-rehab-guidance.png",
       href: "/servicios/postquirurgica",
@@ -355,7 +355,7 @@ export default function HomePage() {
           <div className="text-center mb-20">
             <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
               <Stethoscope className="h-4 w-4 mr-2" />
-              Servicios Especializados
+              Especialidades
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif">
               Tratamientos Profesionales
@@ -363,8 +363,8 @@ export default function HomePage() {
               <span className="text-amber-700">a Domicilio</span>
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-              Ofrecemos una amplia gama de servicios de kinesiología a domicilio, adaptados a las necesidades
-              específicas de cada paciente con equipamiento profesional y técnicas avanzadas.
+              Cinco especialidades de kinesiología a domicilio, con un plan adaptado a cada paciente y el
+              equipamiento que la sesión necesita.
             </p>
           </div>
 
@@ -386,7 +386,7 @@ export default function HomePage() {
                     <div className="absolute top-4 left-4">
                       <Badge className="bg-slate-900 text-white shadow-lg border-slate-800">
                         <service.icon className="h-4 w-4 mr-2" />
-                        Especializado
+                        A domicilio
                       </Badge>
                     </div>
                     <div className="absolute bottom-4 right-4">
@@ -616,7 +616,7 @@ export default function HomePage() {
             <div>
               <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
                 <Shield className="h-4 w-4 mr-2" />
-                Confianza y Experiencia
+                Por qué KINEUM
               </Badge>
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 font-serif leading-tight">
                 ¿Por qué elegir
@@ -624,8 +624,8 @@ export default function HomePage() {
                 <span className="text-amber-700">KINEUM?</span>
               </h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Somos un equipo de kinesiólogos profesionales especializados en atención domiciliaria. Entendemos que la
-                comodidad del hogar es fundamental para una recuperación exitosa y personalizada.
+                Somos un equipo de kinesiólogos titulados que atiende a domicilio. Trabajamos en tu casa porque ahí es
+                donde tienes que volver a moverte: el plan se arma con tu cama, tu silla y tus escaleras.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4 bg-slate-50 rounded-xl p-6 shadow-lg border border-slate-200">
@@ -897,7 +897,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Atienden adultos mayores con movilidad reducida?</h3>
-              <p className="text-slate-600">Sí, somos especialistas en atención a adultos mayores con movilidad reducida. Llevamos todo el equipamiento necesario a tu hogar y adaptamos cada sesión a las capacidades del paciente.</p>
+              <p className="text-slate-600">Sí, atendemos a adultos mayores con movilidad reducida. Llevamos todo el equipamiento necesario a tu hogar y adaptamos cada sesión a las capacidades del paciente.</p>
             </div>
           </div>
         </div>

@@ -219,7 +219,7 @@ export const blogPosts = [
 <li><strong>En qué comuna están</strong>, porque de eso depende cuán rápido podemos llegar.</li>
 <li><strong>Si hay orden o indicación médica</strong>, y si vienen saliendo de una consulta o de un alta hospitalaria.</li>
 </ul>
-<p>Con eso te decimos de inmediato dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda; no te prometemos una hora antes de revisarla. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro: revisa tu comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
+<p>Con eso te decimos dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda; no te prometemos una hora antes de revisarla. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro: revisa tu comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
 <p>Atendemos de lunes a domingo y la <strong>evaluación inicial es gratuita</strong>: el kinesiólogo llega, evalúa, te explica lo que ve y recién ahí se define si hace falta un plan de sesiones y de cuántas. Los valores por sesión y por plan están en <a href="/precios">precios y planes</a>.</p>
 <p>Sobre la orden médica: si no la tienes, escríbenos igual, pero conviene que sepas que el tratamiento kinesiológico en Chile se aplica con indicación médica escrita y que tu Isapre o seguro complementario te la va a pedir para reembolsar. Lo explicamos completo en <a href="/blog/kinesiologo-sin-orden-medica">¿puedo ir al kinesiólogo sin orden médica?</a>.</p>
 
@@ -245,7 +245,7 @@ export const blogPosts = [
 
 <h2>En resumen</h2>
 <p>Si hay señales de alarma, el número es el 131. Si lo que tienes es un niño cargado con indicación de KTR, un dolor agudo que te bloquea, un alta reciente que no puede esperar o una casa donde el cuidador ya no da abasto, eso sí lo podemos ver pronto, habitualmente dentro de 24 horas.</p>
-<p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos de inmediato qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a domingo.</p>`
+<p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a domingo.</p>`
   },
   {
     slug: "fisioterapeuta-o-kinesiologo-a-domicilio",
@@ -1368,16 +1368,16 @@ export const blogPosts = [
     seoTitle: "Piso Pélvico Post Parto e Incontinencia en Casa | KINEUM",
     seoDescription: "Incontinencia, prolapso, diástasis y recuperación post parto: cuándo evaluarte, qué incluye el tratamiento y cómo se hace en tu casa, en Santiago.",
     title: "Kinesiología de Piso Pélvico Post Parto a Domicilio: Guía 2026",
-    subtitle: "Cuándo empezar, qué se trabaja en cada etapa y por qué la rehabilitación en casa es ideal con un recién nacido.",
+    subtitle: "Cuándo empezar, qué se trabaja en cada etapa y por qué hacerla en casa puede acomodar mejor con un recién nacido.",
     author: "Equipo Clínico KINEUM",
     date: "13 Julio, 2026",
     dateISO: "2026-07-13",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Guías",
     image: "/images/blog-piso-pelvico-post-parto.jpg",
     icon: Shield,
-    content: `<p class="lead">Acabas de tener a tu bebé y entre la lactancia, las noches sin dormir y los controles del recién nacido, ir a un centro de rehabilitación es casi imposible. Por eso la kinesiología de piso pélvico <strong>a domicilio</strong> se volvió el formato preferido de las mamás en Santiago: la especialista llega a tu casa, en el horario de la siesta del bebé. Y no es solo un tema de puerperio: la incontinencia, los prolapsos y las molestias que aparecen años después también se tratan, y también se pueden tratar en casa.</p>
+    content: `<p class="lead">Acabas de tener a tu bebé y entre la lactancia, las noches sin dormir y los controles del recién nacido, ir a un centro de rehabilitación puede ser casi imposible. Por eso muchas mamás buscan que la kinesióloga de piso pélvico vaya <strong>a su casa</strong>, en el horario de la siesta del bebé. Y no es solo un tema de puerperio: la incontinencia, los prolapsos y las molestias que aparecen años después también se tratan, y también se pueden tratar en casa.</p>
 
       <h2>¿Qué es el piso pélvico y por qué se debilita?</h2>
       <p>Es el grupo de músculos que cierra la pelvis por abajo y sostiene la vejiga, el útero y el recto. Como cualquier otro músculo, se fatiga, pierde fuerza y <strong>se entrena</strong>. Lo debilitan el embarazo y el parto, pero también la menopausia, la tos crónica, el estreñimiento y los deportes de impacto sostenidos en el tiempo.</p>
@@ -1400,7 +1400,7 @@ export const blogPosts = [
       <h2>Cuando el problema no es el post parto</h2>
       <p>Muchas mujeres que consultan no vienen del puerperio. Consultan porque el síntoma apareció o se agravó mucho después, y eso también es materia de kinesiología de piso pélvico:</p>
       <ul>
-        <li><strong>Incontinencia urinaria de esfuerzo:</strong> se escapa orina al reír, toser, saltar o levantar peso. Es el motivo de consulta más común y el que mejor responde a un entrenamiento bien dirigido.</li>
+        <li><strong>Incontinencia urinaria de esfuerzo:</strong> se escapa orina al reír, toser, saltar o levantar peso. Es un motivo de consulta frecuente y suele responder bien a un entrenamiento bien dirigido.</li>
         <li><strong>Urgencia miccional:</strong> la sensación de "no alcanzo al baño". Acá el trabajo incluye reeducación de la vejiga y de hábitos, además del músculo.</li>
         <li><strong>Prolapso de órganos pélvicos:</strong> esa sensación de peso o bulto. El tratamiento conservador busca mejorar el soporte y los síntomas; la indicación de cirugía siempre la define tu ginecólogo.</li>
         <li><strong>Menopausia:</strong> los cambios hormonales afectan el tejido y muchas mujeres notan ahí síntomas que antes no tenían. No es "la edad": es un músculo que necesita trabajo.</li>
@@ -2613,15 +2613,16 @@ export const blogPosts = [
 
       <h2>Tratamiento según severidad</h2>
       <ul>
-        <li><strong>Curvas leves (10°-25°):</strong> ejercicio específico (metodologías tipo Schroth/SEAS), control periódico con radiografía y seguimiento del crecimiento.</li>
-        <li><strong>Curvas moderadas (25°-45°) en crecimiento:</strong> corsé indicado por el especialista + ejercicio específico; la combinación reduce la progresión y la necesidad de cirugía.</li>
-        <li><strong>Curvas severas (45°+):</strong> evaluación quirúrgica.</li>
+        <li><strong>Curvas leves:</strong> ejercicio específico (metodologías tipo Schroth/SEAS), control periódico con radiografía y seguimiento del crecimiento.</li>
+        <li><strong>Curvas moderadas en etapa de crecimiento:</strong> corsé si lo indica el especialista, junto con ejercicio específico.</li>
+        <li><strong>Curvas severas:</strong> evaluación quirúrgica.</li>
       </ul>
+      <p>En qué grupo está una curva lo define el traumatólogo infantil, según sus grados en la radiografía y el crecimiento que le queda al niño.</p>
 
       <h2>El rol de la kinesiología</h2>
       <p>Los ejercicios específicos de escoliosis no son abdominales genéricos: son autocorrecciones tridimensionales, respiración dirigida al lado colapsado y fuerza asimétrica (el trabajo de equilibrio unipodal de la imagen es parte del control postural). El niño aprende a "habitar" su columna corregida.</p>
 
-      <p>Evaluamos y tratamos escoliosis a domicilio, coordinados con el traumatólogo infantil. <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20escoliosis%20de%20mi%20hijo">Consulta por WhatsApp</a>.</p>
+      <p>Si tu hijo ya tiene diagnóstico y su traumatólogo indicó kinesiología, <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20escoliosis%20de%20mi%20hijo">consúltanos por WhatsApp</a> y te decimos con franqueza si podemos ayudarte.</p>
     `
   },
   {
@@ -2749,10 +2750,10 @@ export const blogPosts = [
 
       <h2>Masaje descontracturante (relajación muscular)</h2>
       <p><strong>Cuándo sirve:</strong> tensión muscular por estrés o sobrecarga puntual, sin lesión de base. La molestia es difusa ("cargado", "tenso"), va y viene según el estrés, y mejora con calor y descanso.</p>
-      <p><strong>Qué esperar:</strong> alivio inmediato de 3 a 10 días. Es mantenimiento y bienestar, no tratamiento.</p>
+      <p><strong>Qué esperar:</strong> un alivio pasajero. Es mantenimiento y bienestar, no tratamiento.</p>
 
       <h2>Terapia manual kinesiológica (tratamiento)</h2>
-      <p><strong>Cuándo la necesitas:</strong> cuando hay un patrón: el dolor vuelve siempre al mismo punto, limita movimientos específicos, despierta de noche, irradia hacia un brazo o pierna, o lleva más de 3-4 semanas. Ahí no hay solo "contractura": hay una causa mecánica que el masaje no corrige.</p>
+      <p><strong>Cuándo la necesitas:</strong> cuando hay un patrón: el dolor vuelve siempre al mismo punto, limita movimientos específicos, despierta de noche, irradia hacia un brazo o pierna, o lleva varias semanas. Ahí no hay solo "contractura": hay una causa mecánica que el masaje no corrige.</p>
       <p><strong>Qué incluye:</strong> evaluación funcional, técnicas manuales específicas (movilizaciones articulares, liberación miofascial, puntos gatillo, movilización neural) y —la parte decisiva— <strong>ejercicio terapéutico</strong> para que el alivio se mantenga.</p>
 
       <h2>La regla práctica</h2>
