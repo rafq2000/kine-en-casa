@@ -153,12 +153,13 @@ export default function TestimoniosPage() {
                 <h2 className="text-2xl font-serif font-bold text-slate-900 text-center mb-10">
                     Servicios que Atendemos a Domicilio
                 </h2>
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
                     {[
-                        { name: "Traumatológica", href: "/servicios/traumatologica", detalle: "Fracturas, esguinces y post operados" },
+                        { name: "Traumatológica", href: "/servicios/traumatologica", detalle: "Fracturas, esguinces, lumbago y hombro" },
                         { name: "Geriátrica", href: "/servicios/geriatrica", detalle: "Adulto mayor, caídas y movilidad" },
                         { name: "Respiratoria", href: "/servicios/respiratoria", detalle: "Adultos, niños y lactantes" },
                         { name: "Neurológica", href: "/servicios/neurologica", detalle: "Post ACV, Parkinson y esclerosis" },
+                        { name: "Postquirúrgica", href: "/servicios/postquirurgica", detalle: "Prótesis, artroscopia y columna" },
                     ].map((svc) => (
                         <Link
                             key={svc.name}

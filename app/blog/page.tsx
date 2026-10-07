@@ -214,6 +214,7 @@ export default function BlogPage() {
                 <li><Link href="/servicios/geriatrica" className="text-slate-600 hover:text-amber-700">Kinesiología Geriátrica</Link></li>
                 <li><Link href="/servicios/traumatologica" className="text-slate-600 hover:text-amber-700">Kinesiología Traumatológica</Link></li>
                 <li><Link href="/servicios/neurologica" className="text-slate-600 hover:text-amber-700">Rehabilitación Neurológica</Link></li>
+                <li><Link href="/servicios/postquirurgica" className="text-slate-600 hover:text-amber-700">Rehabilitación Postquirúrgica</Link></li>
               </ul>
             </div>
             <div>

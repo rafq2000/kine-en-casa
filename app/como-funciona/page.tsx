@@ -56,7 +56,6 @@ const howToSchema = {
   name: "Cómo agendar un kinesiólogo a domicilio en Santiago",
   description:
     "Kinesiólogo a domicilio en Santiago en 4 pasos: evaluación inicial gratuita, plan personalizado y sesiones en tu casa. Revisa qué equipos lleva a tu hogar.",
-  totalTime: "PT5M",
   estimatedCost: {
     "@type": "MonetaryAmount",
     currency: "CLP",
@@ -547,7 +546,7 @@ export default function ComoFuncionaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-lg font-bold text-slate-900 mb-4">Nuestros Servicios</h2>
-              <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+              <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
                 <Link
                   href="/servicios/traumatologica"
                   className="flex items-center gap-2 text-slate-600 hover:text-amber-600 transition-colors text-sm p-3 bg-white rounded-lg border border-slate-200 hover:border-amber-200"
@@ -575,6 +574,13 @@ export default function ComoFuncionaPage() {
                 >
                   <ChevronRight className="w-4 h-4" />
                   Kine Neurológica
+                </Link>
+                <Link
+                  href="/servicios/postquirurgica"
+                  className="flex items-center gap-2 text-slate-600 hover:text-amber-600 transition-colors text-sm p-3 bg-white rounded-lg border border-slate-200 hover:border-amber-200"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                  Kine Postquirúrgica
                 </Link>
               </div>
             </div>

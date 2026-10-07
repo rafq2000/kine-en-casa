@@ -238,7 +238,7 @@ export const blogPosts = [
 <p>Para la evaluación inicial puedes escribirnos sin ella. Para el tratamiento, el reglamento vigente en Chile exige indicación médica escrita, y además la vas a necesitar si piensas reembolsar en tu Isapre o en tu seguro complementario. Si vienes saliendo de una consulta o de un alta, la indicación normalmente ya viene en el documento que te entregaron.</p>
 
 <h3>¿Cuánto cuesta una visita urgente?</h3>
-<p>La evaluación inicial en tu casa es gratuita. Después, las sesiones se cobran según el plan que se defina: Essential a $160.000 mensuales por 4 sesiones ($40.000 cada una) y Premium a $350.000 mensuales por 10 sesiones ($35.000 cada una); el plan Elite es a consultar. Emitimos boleta de honorarios electrónica, reembolsable en tu Isapre y en tu seguro complementario según la cobertura de tu plan.</p>
+<p>KINEUM no atiende urgencias: ante una urgencia vital llama al SAMU (131) o ve a un servicio de urgencia. Si tu caso puede esperar a una visita coordinada, no hay una tarifa distinta por pedirla pronto: la evaluación inicial en tu casa es gratuita y después las sesiones se cobran según el plan que se defina: Essential a $160.000 mensuales por 4 sesiones ($40.000 cada una) y Premium a $350.000 mensuales por 10 sesiones ($35.000 cada una); el plan Elite es a consultar. Emitimos boleta de honorarios electrónica, reembolsable en tu Isapre y en tu seguro complementario según la cobertura de tu plan.</p>
 
 <h3>¿Qué pasa si escribo y resulta que mi caso no es de kinesiología?</h3>
 <p>Te lo decimos de frente y te orientamos a dónde ir. Preferimos perder una visita antes que atender algo que necesita un médico. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la derivación que te hagamos es por criterio clínico, no por acuerdo comercial.</p>
@@ -1128,7 +1128,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "8 min lectura",
     category: "Precios y reembolsos",
     image: "/images/blog-isapre-kinesiologia.jpg",
@@ -1220,14 +1220,14 @@ export const blogPosts = [
 <p>La Superintendencia de Salud, en su <a href="https://www.superdesalud.gob.cl/app/uploads/2021/09/articles-20346_recurso_1.pdf">Circular IF/N° 393 de 2021</a>, indica que para la cobertura de kinesiología basta con presentar la orden médica de derivación. Esta debe identificar al paciente e indicar el diagnóstico y el tratamiento. La misma circular contempla la atención kinesiológica integral a domicilio. Además del reembolso, el reglamento vigente sobre la profesión (Decreto 1.082) indica que el kinesiólogo aplica sus tratamientos por indicación y orden médica escrita.</p>
 <p>En la práctica, pide que tu orden incluya: nombre y RUT del paciente, diagnóstico, indicación de kinesiología, número de sesiones y nombre, RUT y firma o timbre del médico. Revisa con tu isapre cuánto tiempo aceptan la orden (en Colmena, por ejemplo, vale 60 días). Si todavía no la tienes, lee nuestra guía sobre <a href="/blog/kinesiologo-sin-orden-medica">si necesitas orden médica para ir al kinesiólogo</a>. La evaluación inicial gratuita de KINEUM no reemplaza la orden ni la evaluación de tu médico. La kinesiología complementa y no reemplaza al médico: si aparecen síntomas nuevos o intensos, consúltalo, y ante una emergencia llama al SAMU (131).</p>
 
-<h3>Ejemplo numérico (solo ilustrativo)</h3>
-<p>Este ejemplo usa un monto de reembolso <strong>inventado para el cálculo</strong>. No es la cobertura de ninguna isapre ni de ningún plan real:</p>
+<h3>Cómo calcular lo que pagarías</h3>
+<p>No te damos un monto de reembolso porque depende de tu plan. La cuenta es esta:</p>
 <ul>
-<li>Contratas el <a href="/precios">Plan Premium de KINEUM</a>: 10 sesiones a domicilio por $350.000 ($35.000 por sesión).</li>
-<li>Supón que tu plan te devolviera $15.000 por sesión: la isapre te reembolsaría $150.000.</li>
-<li>Tu costo después del reembolso sería $200.000. Si tienes seguro complementario, revisa en tu póliza si puedes presentar esa diferencia.</li>
+<li><strong>Lo que pagas:</strong> el valor de tus sesiones. Por ejemplo, el <a href="/precios">Plan Premium de KINEUM</a>: 10 sesiones a domicilio por $350.000 ($35.000 por sesión).</li>
+<li><strong>Lo que te devuelve la isapre:</strong> lo que tu plan cubra por cada sesión de kinesiología, multiplicado por el número de sesiones y respetando los topes de tu plan.</li>
+<li><strong>Tu costo final:</strong> lo que pagas, menos lo que te devuelve la isapre, menos lo que te devuelva el seguro complementario si tienes uno.</li>
 </ul>
-<p>Para hacer tu propio cálculo, reemplaza los $15.000 por lo que diga tu plan. Si quieres comparar valores, revisa <a href="/blog/cuanto-cobra-kinesiologo-particular">cuánto cobra un kinesiólogo particular</a>.</p>
+<p>Lo que cubre tu plan por sesión y sus topes están en tu cartilla de coberturas. Si quieres comparar valores, revisa <a href="/blog/cuanto-cobra-kinesiologo-particular">cuánto cobra un kinesiólogo particular</a>.</p>
 
 <h2 id="seguro-complementario">Reembolso de kinesiología en el seguro complementario: qué documentos piden</h2>
 <p>Con seguro complementario, individual o de tu empresa, el orden es siempre el mismo: primero la isapre y después el seguro. Al seguro le presentas:</p>
