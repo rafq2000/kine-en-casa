@@ -33,7 +33,7 @@ export interface ContenidoServicio {
     revisado: string
 }
 
-const REVISADO = '2026-09-06'
+const REVISADO = '2026-10-07'
 
 export const serviciosContenido: Record<string, ContenidoServicio> = {
     geriatrica: {
@@ -180,7 +180,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Bronquiolitis, VRS y síndrome bronquial obstructivo',
                 parrafos: [
                     'La bronquiolitis es la infección respiratoria baja más frecuente en lactantes durante el invierno chileno, y el virus respiratorio sincicial es su causa más común. El cuadro combina inflamación de la vía aérea pequeña con secreciones, y por eso el niño respira más rápido, se cansa al comer y duerme mal.',
-                    'El manejo es principalmente médico y de soporte. La revisión Cochrane más reciente sobre el tema concluyó que las técnicas convencionales (vibración, percusión y drenaje postural) y las de espiración forzada no cambian la gravedad de la bronquiolitis. Por eso la KTR se indica solo en casos seleccionados, cuando el médico lo considera, y con técnicas suaves y lentas.',
+                    'El manejo es principalmente médico y de soporte. La [revisión Cochrane de 2023](https://pubmed.ncbi.nlm.nih.gov/37010196/) concluyó que las técnicas convencionales (vibración, percusión y drenaje postural) y las de espiración forzada no cambian la gravedad de la bronquiolitis, y encontró evidencia de baja certeza de una mejoría leve a moderada con las técnicas de espiración lenta. Por eso la KTR se indica solo en casos seleccionados, cuando el médico lo considera, y con técnicas suaves y lentas.',
                     'En el síndrome bronquial obstructivo recurrente el trabajo suele ser periódico y se acompaña de educación a los padres: aseo nasal correcto, posiciones que favorecen el descanso y, sobre todo, reconocer a tiempo cuándo el cuadro se está complicando.',
                 ],
             },
@@ -289,31 +289,26 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 h2: 'Lumbago: qué hacer las primeras 48 horas',
                 parrafos: [
-                    'El dolor lumbar agudo afecta a la gran mayoría de las personas en algún momento de la vida, y la mayoría de los episodios no responde a una lesión estructural grave. Lo que más influye en cómo evoluciona es lo que se hace en los primeros días.',
-                    'La recomendación actual es mantener actividad suave dentro de lo tolerable, evitar el reposo en cama prolongado, aplicar calor local para relajar la musculatura y retomar de forma gradual las actividades habituales. El reposo absoluto por varios días se asocia a peor evolución.',
+                    'Según la [OMS](https://www.who.int/news-room/fact-sheets/detail/low-back-pain), la mayoría de las personas tiene dolor lumbar al menos una vez en la vida, y cerca del 90 % de los casos es inespecífico, es decir, sin una causa concreta identificable. Lo que más influye en cómo evoluciona es lo que se hace en los primeros días.',
+                    'La recomendación actual es mantener actividad suave dentro de lo tolerable, evitar el reposo en cama prolongado, aplicar calor local para relajar la musculatura y retomar de forma gradual las actividades habituales.',
                     'Ahora bien, hay señales que obligan a consultar antes de rehabilitar: pérdida de fuerza en las piernas, alteraciones para orinar o defecar, fiebre asociada al dolor, o dolor tras un golpe o caída importante.',
                 ],
             },
             {
                 h2: 'Esguince de tobillo: el que "se cura solo" y vuelve a fallar',
                 parrafos: [
-                    'Un esguince de tobillo mal rehabilitado es una de las causas más frecuentes de inestabilidad crónica. El ligamento cicatriza, el dolor cede y la persona vuelve a caminar normal, pero queda algo que nadie ve: los receptores de posición del tobillo quedaron alterados.',
-                    'Eso es la propiocepción, y es lo que permite corregir automáticamente cuando pisas mal en un terreno irregular. Si no se reentrena con trabajo de equilibrio y superficies inestables, el tobillo vuelve a "fallar" al primer descuido, y cada nuevo esguince deja la articulación más laxa.',
+                    'Un esguince de tobillo mal rehabilitado puede dejar un tobillo que vuelve a fallar. El ligamento cicatriza, el dolor cede y la persona vuelve a caminar normal, pero puede quedar alterado algo que no se ve: el control de la posición del tobillo.',
+                    'Eso es la propiocepción, y es lo que permite corregir automáticamente cuando pisas mal en un terreno irregular. Si no se reentrena con trabajo de equilibrio y superficies inestables, el tobillo puede volver a "fallar" al primer descuido.',
                     'Por eso el alta no debería darse cuando desaparece el dolor, sino cuando se recupera fuerza, rango y control. Son criterios distintos y llegan en momentos distintos.',
                 ],
             },
             {
                 h2: 'Hombro: la alternativa real a la cirugía',
                 parrafos: [
-                    'El dolor de hombro por problemas del manguito rotador es muy frecuente en adultos. En las roturas pequeñas y no traumáticas del supraespinoso, la cirugía no ha mostrado ser mejor que el tratamiento conservador con kinesiología.',
-                    'El tratamiento parte con ejercicios isométricos, que además tienen efecto analgésico, progresa a trabajo con resistencia y termina con fortalecimiento funcional por sobre la cabeza. Suele tomar varias semanas de trabajo constante.',
-                    'Los tres errores que perpetúan el dolor son conocidos: reposo total del brazo, estiramientos agresivos sobre un tendón irritado, e infiltraciones repetidas sin rehabilitar después.',
+                    'El dolor de hombro por problemas del manguito rotador es frecuente en adultos. En roturas pequeñas y no traumáticas del supraespinoso en mayores de 55 años, operar no fue mejor que el tratamiento conservador con kinesiología, según un [ensayo aleatorizado con más de cinco años de seguimiento publicado en el Journal of Shoulder and Elbow Surgery (2021)](https://pubmed.ncbi.nlm.nih.gov/33774172/).',
+                    'El tratamiento parte con ejercicios isométricos, progresa a trabajo con resistencia y termina con fortalecimiento funcional por sobre la cabeza. Suele tomar varias semanas de trabajo constante.',
+                    'Conviene evitar el reposo total del brazo, los estiramientos agresivos sobre un tendón irritado y las infiltraciones repetidas sin rehabilitar después.',
                 ],
-                enlace: {
-                    antes: 'Es lo que mostró, con más de cinco años de seguimiento en mayores de 55 años, un',
-                    texto: 'ensayo aleatorizado publicado en el Journal of Shoulder and Elbow Surgery (2021)',
-                    href: 'https://pubmed.ncbi.nlm.nih.gov/33774172/',
-                },
             },
             {
                 h2: 'Qué llega a tu casa y para qué sirve',
@@ -394,7 +389,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             {
                 h2: 'Después de un ACV: por qué el tiempo importa',
                 parrafos: [
-                    'Los primeros meses tras un ACV concentran la mayor capacidad de recuperación, y por eso iniciar la rehabilitación temprano tras el alta es lo recomendable. Eso no significa que después no se pueda avanzar: la neuroplasticidad se puede estimular durante toda la vida, y pacientes con años de evolución siguen ganando función, sobre todo en marcha, equilibrio y autonomía en tareas diarias.',
+                    'Conviene empezar la rehabilitación pronto tras el alta, coordinada con el equipo médico. Eso no significa que después no se pueda avanzar: con práctica específica también se puede seguir ganando función en tareas concretas, como la marcha, el equilibrio y las actividades diarias.',
                     'Lo que no se puede hacer es prometer un resultado. La recuperación depende de la extensión y ubicación de la lesión, la edad, las condiciones previas y la intensidad del trabajo. Cualquiera que te garantice un desenlace específico no está siendo honesto contigo.',
                     'El trabajo se organiza en tres frentes: recuperar la marcha y el equilibrio, reincorporar el brazo afectado a las tareas cotidianas, y prevenir las complicaciones del lado con menor movilidad, como el dolor de hombro y las contracturas.',
                 ],
@@ -411,7 +406,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 h2: 'Esclerosis múltiple y el manejo de la fatiga',
                 parrafos: [
                     'En esclerosis múltiple el desafío no es solo la fuerza o el equilibrio, sino la fatiga, que es uno de los síntomas más limitantes y peor comprendidos por el entorno.',
-                    'El principio es dosificar: trabajar por debajo del umbral que dispara el agotamiento, distribuir la actividad a lo largo del día y evitar el calor excesivo durante el ejercicio, que en muchas personas empeora los síntomas transitoriamente. Un programa mal dosificado deja a la persona en cama dos días y termina abandonándose.',
+                    'El principio es dosificar: trabajar por debajo del umbral que dispara el agotamiento, distribuir la actividad a lo largo del día y evitar el calor excesivo durante el ejercicio, que en muchas personas empeora los síntomas transitoriamente. Un programa mal dosificado puede dejar a la persona agotada y terminar abandonándose.',
                 ],
             },
             {

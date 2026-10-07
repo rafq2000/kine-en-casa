@@ -18,6 +18,26 @@ import { ComunasPorEspecialidad } from "@/components/comunas-por-especialidad"
 import { type ContenidoServicio } from "@/lib/servicios-contenido"
 import { especialidades } from "@/lib/especialidades-data"
 import { comunas } from "@/lib/comunas-data"
+
+// Párrafos con enlaces en línea "[texto](url)": la fuente queda en la misma oración que respalda.
+function conEnlaces(p: string) {
+    const partes = p.split(/\[([^\]]+)\]\(([^)\s]+)\)/)
+    return partes.map((x, i) => {
+        if (i % 3 === 2) return null
+        if (i % 3 === 0) return x
+        const href = partes[i + 1]
+        return (
+            <Link
+                key={i}
+                href={href}
+                {...(href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                className="text-amber-700 font-medium hover:underline"
+            >
+                {x}
+            </Link>
+        )
+    })
+}
 import { BOLETA_TEXTO } from "@/lib/negocio"
 
 const TEL = "+56999679593"
@@ -212,7 +232,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                                 <div className="space-y-4">
                                     {s.parrafos.map((p, i) => (
                                         <p key={i} className={`leading-relaxed ${s.alerta ? "text-amber-900/90" : "text-slate-600"}`}>
-                                            {p}
+                                            {conEnlaces(p)}
                                         </p>
                                     ))}
                                     {s.enlace && (

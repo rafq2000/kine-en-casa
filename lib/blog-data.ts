@@ -521,18 +521,18 @@ export const blogPosts = [
   {
     slug: "cuantas-sesiones-de-kinesiologia-necesito",
     seoTitle: "¿Cuántas Sesiones de Kinesiología Necesito? | KINEUM",
-    seoDescription: "Rangos orientativos de sesiones de kinesiología según lesión, lumbago, cirugía, ACV o cuadro respiratorio, cuántas veces por semana ir y cuándo reevaluar.",
-    title: "¿Cuántas sesiones de kinesiología necesito? Rangos orientativos según tu caso",
+    seoDescription: "De qué depende el número de sesiones de kinesiología según lesión, lumbago, cirugía, ACV o cuadro respiratorio, cada cuánto ir y cuándo reevaluar.",
+    title: "¿Cuántas sesiones de kinesiología necesito? De qué depende en tu caso",
     subtitle: "De qué depende el número de sesiones, cuántas veces a la semana conviene ir, cómo se espacian y qué señales indican que el plan funciona o hay que ajustarlo.",
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "8 min lectura",
     category: "Guías",
     image: "/images/blog-cuantas-sesiones.jpg",
     icon: ClipboardList,
-    content: `<p class="lead">Es la primera pregunta de casi todo paciente, y la respuesta honesta es "depende". Pero no es un "depende" vacío: el número de sesiones de kinesiología responde a factores concretos que se pueden evaluar. En esta guía te damos rangos orientativos por tipo de cuadro, te explicamos cuántas veces a la semana se suele ir y por qué la frecuencia baja con el tiempo. Tómalos como referencia, no como promesa: lo que define tu plan es la evaluación.</p>
+    content: `<p class="lead">Es la primera pregunta de casi todo paciente, y la respuesta honesta es "depende". Pero no es un "depende" vacío: el número de sesiones de kinesiología responde a factores concretos que se pueden evaluar. En esta guía te explicamos qué cambia según el tipo de cuadro, cada cuánto se suele ir y por qué la frecuencia baja con el tiempo. Es una orientación, no una promesa: lo que define tu plan es la evaluación.</p>
 
 <h2>¿De qué depende cuántas sesiones de kinesiología necesito?</h2>
 <p>Dos personas con el mismo diagnóstico pueden necesitar planes bastante distintos. Lo que más pesa es:</p>
@@ -546,31 +546,31 @@ export const blogPosts = [
 </ul>
 <p>Por eso nadie serio debería darte un número exacto sin evaluarte. Lo razonable es una estimación inicial que se revisa según cómo respondes.</p>
 
-<h2>Rangos orientativos de sesiones según el tipo de cuadro</h2>
-<p>Estos rangos reflejan lo habitual en la práctica kinesiológica. Tu caso puede quedar dentro, por debajo o por encima.</p>
+<h2>Qué cambia según el tipo de cuadro</h2>
+<p>Son orientaciones generales, sin cifras que no podamos respaldar: el número de tu caso sale de la evaluación y se revisa en el camino.</p>
 
 <h3>Lesiones musculoesqueléticas agudas (esguinces, desgarros, tendinopatías)</h3>
-<p>Habitualmente entre <strong>6 y 12 sesiones</strong>, dentro de un proceso que suele tomar de 6 a 12 semanas según el tejido y la severidad. Las sesiones se concentran al inicio y se espacian a medida que avanzas. Algunas tendinopatías, como las del manguito rotador, suelen pedir de 8 a 12 semanas de trabajo constante con carga progresiva. Más detalle en nuestra página de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a>.</p>
+<p>Dependen del tejido y de la severidad. Las sesiones se concentran al inicio y se espacian a medida que avanzas, y las tendinopatías, como las del manguito rotador, suelen pedir varias semanas de trabajo constante con carga progresiva. Más detalle en nuestra página de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a>.</p>
 
 <h3>Lumbago</h3>
-<p>El lumbago entra dentro de las lesiones musculoesqueléticas, así que el rango de referencia es el mismo: <strong>habitualmente entre 6 y 12 sesiones</strong>. Los episodios agudos simples, bien manejados desde el inicio con movimiento y sin reposo prolongado, a menudo quedan en la parte baja de ese rango; un dolor lumbar que se repite o que lleva meses suele pedir más, porque el foco pasa a ser el control motor y que vuelvas a moverte sin miedo. Si estás en plena crisis, revisa <a href="/blog/lumbago-agudo-que-hacer">qué hacer en las primeras horas de un lumbago agudo</a>.</p>
+<p>El lumbago entra dentro de las lesiones musculoesqueléticas, así que vale lo mismo: el número sale de la evaluación. Los episodios agudos simples, bien manejados desde el inicio con movimiento y sin reposo prolongado, suelen necesitar menos sesiones; un dolor lumbar que se repite o que lleva meses suele pedir más, porque el foco pasa a ser el control motor y que vuelvas a moverte sin miedo. Si estás en plena crisis, revisa <a href="/blog/lumbago-agudo-que-hacer">qué hacer en las primeras horas de un lumbago agudo</a>.</p>
 <p>Si el dolor lumbar viene con pérdida del control de la orina o las deposiciones, adormecimiento en la zona genital o entre los muslos, debilidad que avanza en las piernas, o aparece con fiebre o tras una caída fuerte, no esperes la sesión: consulta de inmediato en urgencias.</p>
 
 <h3>Post operatorio de rodilla o cadera</h3>
-<p>La mayoría de los protocolos post quirúrgicos toma de <strong>8 a 16 semanas</strong>, con mayor frecuencia de sesiones durante el primer mes. Esas primeras semanas son decisivas: el rango de movimiento que no se gana temprano cuesta mucho más recuperar después. Más abajo te explicamos cómo se traduce eso en número de sesiones.</p>
+<p>La rehabilitación después de una cirugía de rodilla o cadera suele durar varias semanas, con más sesiones al principio. Los plazos los marca el protocolo de tu cirujano. Más abajo te explicamos cómo se traduce eso en número de sesiones.</p>
 
 <h3>ACV y otros cuadros neurológicos</h3>
-<p>Aquí el horizonte cambia: la neurorehabilitación <strong>se mide en meses</strong>, con reevaluaciones periódicas para ajustar objetivos. No es un tratamiento de diez sesiones y alta, y un plan que se presente así conviene mirarlo con dudas. Los primeros meses tras el alta suelen concentrar la mayor ventana de recuperación, por eso lo recomendable es empezar pronto. Más información en <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a>.</p>
+<p>Aquí el horizonte cambia: la neurorehabilitación <strong>se mide en meses</strong>, con reevaluaciones periódicas para ajustar objetivos. No es un tratamiento de diez sesiones y alta, y un plan que se presente así conviene mirarlo con dudas. Conviene empezar pronto tras el alta, coordinado con el equipo médico. Más información en <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a>.</p>
 
 <h3>Cuadros respiratorios agudos</h3>
-<p>En cuadros agudos suelen bastar <strong>entre 3 y 8 sesiones</strong>, a veces concentradas en pocos días. La kinesiterapia respiratoria se hace con indicación del pediatra, broncopulmonar o médico tratante, que define si corresponde y con qué frecuencia. En patología crónica o recurrente el trabajo es periódico.</p>
+<p>En cuadros agudos suelen bastar <strong>pocas sesiones</strong>, a veces concentradas en pocos días. La kinesiterapia respiratoria se hace con indicación del pediatra, broncopulmonar o médico tratante, que define si corresponde y con qué frecuencia. En patología crónica o recurrente el trabajo es periódico.</p>
 <p>Si hay dificultad respiratoria marcada, labios o uñas moradas, pausas respiratorias o fiebre en un lactante menor de 3 meses, no es momento de kinesiología: acude a urgencias o llama al SAMU (131).</p>
 
 <h3>Adulto mayor (fuerza, equilibrio, prevención de caídas)</h3>
-<p>Los programas geriátricos suelen tomar <strong>entre 8 y 16 semanas</strong>, con 2 o 3 sesiones semanales al inicio y luego un espaciado progresivo. Se parte desde donde está la persona, aunque eso signifique trabajar sentado las primeras sesiones.</p>
+<p>Los programas de fuerza y equilibrio piden constancia durante varias semanas, con más sesiones al inicio y luego un espaciado progresivo. Se parte desde donde está la persona, aunque eso signifique trabajar sentado las primeras sesiones.</p>
 
 <h2>¿Cuántas veces a la semana debo ir al kinesiólogo?</h2>
-<p>Lo más habitual al inicio es <strong>2 a 3 sesiones por semana</strong>. Hay excepciones: en el post operatorio temprano o en un cuadro respiratorio agudo la frecuencia puede ser mayor por algunos días, y en etapas de mantenimiento puede bajar a una sesión semanal o menos.</p>
+<p>La frecuencia la define la evaluación: suele ser mayor al inicio y se espacia a medida que avanzas. En el post operatorio temprano o en un cuadro respiratorio agudo la frecuencia puede ser mayor por algunos días, y en etapas de mantenimiento puede bajar a una sesión semanal o menos.</p>
 <p>¿Por qué se espacia? Porque el objetivo de la kinesiología no es que dependas de las sesiones, sino que ganes autonomía:</p>
 <ul>
 <li><strong>Al principio</strong> hay más que controlar: dolor, edema, rango de movimiento, técnica de los ejercicios y seguridad al caminar o en las transferencias.</li>
@@ -1042,7 +1042,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "02 Julio, 2026",
     dateISO: "2026-07-02",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "8 min lectura",
     category: "Precios y reembolsos",
     image: "/images/blog-precios-kinesiologia-2026.jpg",
@@ -1098,8 +1098,8 @@ export const blogPosts = [
       <p>Una sesión en consulta suele costar menos, pero al comparar el costo total la diferencia se reduce:</p>
       <ul>
         <li>Te ahorras el traslado y la sala de espera.</li>
-        <li>Para adultos mayores o pacientes post-operados, evitar el traslado no es comodidad: es <strong>seguridad clínica</strong> (menos riesgo de caídas y de sobreesfuerzo).</li>
-        <li>El kinesiólogo ve tu entorno real y adapta los ejercicios a tu casa, lo que mejora la adherencia al tratamiento.</li>
+        <li>Para adultos mayores o pacientes recién operados, atenderse en casa evita el esfuerzo de salir y trasladarse.</li>
+        <li>El kinesiólogo ve tu entorno real y adapta los ejercicios a tu casa.</li>
       </ul>
       <p>Lo comparamos en detalle en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro: cuál te conviene</a>.</p>
 
@@ -1115,7 +1115,6 @@ export const blogPosts = [
       <h3>¿Cuánto valen 10 sesiones?</h3>
       <p>En KINEUM, $350.000 en el Plan Premium. Los rangos publicados en Santiago, en consulta y a domicilio, están en nuestra guía sobre el <a href="/blog/precio-10-sesiones-kinesiologia">precio de 10 sesiones de kinesiología</a>.</p>
 
-      <blockquote>"El costo real de no rehabilitarse —cronificación del dolor, nueva cirugía, pérdida de independencia— siempre es mayor que el de un buen tratamiento a tiempo."</blockquote>
 
       <p><strong>¿Quieres una cotización exacta para tu caso?</strong> Escríbenos por <a href="https://wa.me/56999679593?text=Hola,%20quiero%20cotizar%20kinesiolog%C3%ADa%20a%20domicilio">WhatsApp al +56 9 9967 9593</a> y te confirmamos precio y disponibilidad en tu comuna, o revisa <a href="/como-funciona">cómo funciona el servicio</a>.</p>
     `
@@ -1462,7 +1461,7 @@ export const blogPosts = [
 <h2>Qué dice la evidencia, según la cirugía</h2>
 <p>El drenaje linfático se indica con frecuencia, pero la evidencia sobre lo que logra no es igual en todas las cirugías. Conviene saberlo antes de empezar.</p>
 <ul>
-<li><strong>Cirugía plástica estética</strong> (liposucción, abdominoplastia y similares). Una <a href="https://pubmed.ncbi.nlm.nih.gov/42840808/" target="_blank" rel="noopener noreferrer">revisión sistemática publicada en 2026</a>, con siete estudios, concluyó que el drenaje da un beneficio moderado en la reducción de la hinchazón, con efectos inconsistentes sobre el dolor y la fibrosis, y que hacen falta ensayos de mejor calidad. En los estudios revisados, los mejores resultados se vieron al empezar temprano (entre los días 2 y 5) y con 6 a 12 sesiones, pero el momento de inicio en tu caso lo define tu cirujano.</li>
+<li><strong>Cirugía plástica estética</strong> (liposucción, abdominoplastia y similares). Una <a href="https://pubmed.ncbi.nlm.nih.gov/42840808/" target="_blank" rel="noopener noreferrer">revisión sistemática publicada en 2026</a>, con siete estudios, concluyó que el drenaje da un beneficio moderado en la reducción de la hinchazón, con efectos inconsistentes sobre el dolor y la fibrosis, y que hacen falta ensayos de mejor calidad. En los estudios que incluyó <a href="https://pubmed.ncbi.nlm.nih.gov/42840808/" target="_blank" rel="noopener noreferrer">esa revisión</a>, los mejores resultados se vieron al empezar temprano (entre los días 2 y 5) y con 6 a 12 sesiones, pero el momento de inicio en tu caso lo define tu cirujano.</li>
 <li><strong>Prótesis de rodilla.</strong> Un <a href="https://pubmed.ncbi.nlm.nih.gov/38086979/" target="_blank" rel="noopener noreferrer">metaanálisis de cuatro ensayos aleatorizados</a> (197 prótesis) no encontró diferencias en la flexión de la rodilla, el dolor ni el perímetro de la pierna entre quienes recibieron drenaje y quienes no. Una <a href="https://pubmed.ncbi.nlm.nih.gov/42513489/" target="_blank" rel="noopener noreferrer">revisión sistemática de 2026</a> con ocho ensayos llegó a una conclusión parecida: no respalda usarlo de rutina como intervención principal, aunque por su seguridad puede sumarse como complemento de comodidad. Lo que mueve la recuperación de una prótesis es el ejercicio y la movilidad, como explicamos en nuestra guía de <a href="/blog/protesis-rodilla-recuperacion">rehabilitación de la prótesis de rodilla</a>.</li>
 <li><strong>Linfedema después del tratamiento de un cáncer de mama.</strong> La <a href="https://pubmed.ncbi.nlm.nih.gov/25994425/" target="_blank" rel="noopener noreferrer">revisión Cochrane</a> concluyó que el drenaje es seguro y puede sumar beneficio al vendaje compresivo para reducir la hinchazón. Aquí el manejo siempre se coordina con el equipo oncológico tratante.</li>
 </ul>
@@ -1590,7 +1589,7 @@ export const blogPosts = [
 
 <h2>Preguntas frecuentes sobre la rehabilitación post ACV en casa</h2>
 <h3>¿Es tarde para empezar si el ACV fue hace meses?</h3>
-<p>No necesariamente. Los primeros meses suelen ser los de cambios más rápidos, pero muchas personas siguen mejorando en tareas concretas después de esa etapa si practican de forma específica. En la evaluación vemos qué objetivos son realistas.</p>
+<p>No necesariamente. Con práctica específica se puede seguir mejorando en tareas concretas. En la evaluación vemos qué objetivos son realistas.</p>
 <h3>¿La rehabilitación neurológica se puede hacer bien en la casa?</h3>
 <p>Para gran parte del trabajo, sí: en la casa se practica justo donde la persona vive, en su cama, su baño y su pasillo. Si en algún momento necesita equipos que no se pueden llevar, te lo decimos.</p>
 <h3>¿Cuántas veces a la semana conviene la sesión?</h3>
@@ -1714,6 +1713,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
+    updatedISO: "2026-10-07",
     readTime: "6 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_ankle_pumps_1769278342170.png",
@@ -1731,7 +1731,7 @@ export const blogPosts = [
 <p>Tres cuadros se confunden con el esguince. La <strong>fractura por arrancamiento</strong> duele sobre el hueso, con frecuencia en la base del quinto metatarsiano, ese bulto del borde externo del pie. La <strong>tendinopatía de los peroneos</strong> duele por detrás del hueso lateral y se instala de a poco. Y el <strong>esguince de sindesmosis</strong>, o esguince alto, duele por encima del tobillo, entre tibia y peroné, y responde más lento: si el dolor está ahí, corresponde evaluación médica antes de progresar la carga.</p>
 
 <h2>¿Cuánto demora en recuperarse un esguince de tobillo?</h2>
-<p>Para lesiones musculoesqueléticas agudas, la referencia que ya publicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a> es un proceso de <strong>6 a 12 semanas</strong> según el tejido y la severidad. Un esguince leve y reciente queda en la parte baja del rango; uno a repetición se va a la parte alta, porque ahí hay que reconstruir control y no solo bajar la hinchazón. Son rangos orientativos, no una fecha garantizada.</p>
+<p>No hay un plazo único: depende del grado del esguince y de cómo respondas. Un esguince leve y reciente suele tomar menos tiempo; uno a repetición, más, porque ahí hay que reconstruir control y no solo bajar la hinchazón. De qué depende lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>; tu estimación sale de la evaluación y no es una fecha garantizada.</p>
 
 <h2>Qué evalúa el kinesiólogo en la primera visita a domicilio</h2>
 <p>La evaluación inicial de KINEUM es gratuita y en tu casa, sin trasladarte con el pie recién lesionado. Se revisa:</p>
@@ -1759,8 +1759,8 @@ export const blogPosts = [
 <p>El kinesiólogo te ve una a tres veces por semana según el plan y la etapa; el tobillo se rehabilita todos los días. Te llevas ejercicios cortos y señales para saber cuándo subir la exigencia.</p>
 
 <h2>Cuántas sesiones suele tomar un esguince de tobillo</h2>
-<p>Lo habitual son <strong>6 a 12 sesiones</strong>, concentradas al inicio y más espaciadas a medida que avanzas. La frecuencia se define en la evaluación: cambia según el grado, hace cuánto ocurrió y a qué actividad necesitas volver.</p>
-<p>Con ese rango, el Premium ($350.000 por 10 sesiones, $35.000 cada una) suele calzar con un esguince llevado hasta el retorno a la actividad; el Essential ($160.000 por 4 sesiones, $40.000 cada una) queda para cuadros leves o para reforzar tras el alta. Detalle en <a href="/precios">planes y precios</a>.</p>
+<p>No hay un número fijo: las sesiones se concentran al inicio y se espacian a medida que avanzas. La frecuencia se define en la evaluación: cambia según el grado, hace cuánto ocurrió y a qué actividad necesitas volver.</p>
+<p>Si la evaluación indica un tratamiento hasta el retorno a la actividad, el Premium ($350.000 por 10 sesiones, $35.000 cada una) puede calzar mejor; el Essential ($160.000 por 4 sesiones, $40.000 cada una) sirve para cuadros leves o para reforzar tras el alta. Detalle en <a href="/precios">planes y precios</a>.</p>
 
 <h2>Señales de alarma: cuándo consultar al médico</h2>
 <p>La kinesiología complementa el tratamiento médico y no lo reemplaza. Hay hallazgos que obligan a evaluación médica antes de rehabilitar, los que recoge el criterio habitual conocido como <strong>reglas de Ottawa</strong>:</p>
@@ -1786,7 +1786,7 @@ export const blogPosts = [
 <h2>Preguntas frecuentes</h2>
 
 <h3>¿Cuánto demora en sanar un esguince de tobillo?</h3>
-<p>Como referencia, una lesión musculoesquelética aguda suele tomar entre 6 y 12 semanas según la severidad y tu respuesta. No es una fecha garantizada.</p>
+<p>No hay un plazo único: depende del grado del esguince, de tu respuesta y de la actividad a la que necesitas volver. En la evaluación te damos una estimación, que no es una fecha garantizada.</p>
 
 <h3>¿Puedo caminar con un esguince de tobillo?</h3>
 <p>En general apoyar dentro de lo tolerable es parte del tratamiento. Lo que se evita es forzar el apoyo con dolor intenso o volver de golpe a la actividad completa.</p>
@@ -1865,7 +1865,7 @@ export const blogPosts = [
 <p>Pesa tanto como la sesión. Solemos indicar dos o tres ejercicios cortos varias veces al día, en vez de una rutina larga una sola vez. Camina lo que toleres, cambia de posición cada 30 o 40 minutos si trabajas sentado y anota en qué momento del día duele más: ese registro ajusta la sesión siguiente.</p>
 
 <h2>Cuántas sesiones suele tomar y qué esperar</h2>
-<p>En kinesiología traumatológica trabajamos habitualmente <strong>entre 6 y 12 sesiones</strong>, según el tejido comprometido y la severidad; en la evaluación gratuita te damos una estimación realista antes de que decidas. La evolución depende del cuadro, de hace cuánto está instalado y de cuánto compromiso neurológico haya, así que se reevalúa en el camino. Lo desarrollamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>.</p>
+<p>No hay un número fijo de sesiones: depende del tejido comprometido y de la severidad, y en la evaluación gratuita te damos una estimación realista antes de que decidas. La evolución depende del cuadro, de hace cuánto está instalado y de cuánto compromiso neurológico haya, así que se reevalúa en el camino. Lo desarrollamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>.</p>
 <p>Nadie puede garantizarte un plazo ni una curación. Lo que sí comprometemos es reevaluar y decirte con franqueza si vas bien, si hay que cambiar el enfoque o si corresponde volver al médico. Una señal que solemos mirar con optimismo es la <strong>centralización</strong>: el dolor deja de bajar tanto por la pierna y se concentra cerca de la espalda. Aunque la zona lumbar moleste un poco más, que el dolor suba suele ser buena noticia.</p>
 
 <h2>Señales de alarma: cuándo consultar al médico o ir a urgencias</h2>
@@ -1925,7 +1925,7 @@ export const blogPosts = [
     category: "Traumatología y columna",
     image: "/images/exercise_shoulder_rotation_1769277710068.png",
     icon: Activity,
-    content: `<p class="lead">Duele al levantar el brazo, al abrochar el sostén o al alcanzar el cinturón de seguridad. La tendinopatía del manguito rotador —lo que solemos llamar "tendinitis de hombro"— es una de las causas más frecuentes de dolor de hombro en adultos, y en la mayoría de los casos no traumáticos se trabaja con ejercicio progresivo y terapia manual antes de pensar en pabellón.</p>
+    content: `<p class="lead">Duele al levantar el brazo, al abrochar el sostén o al alcanzar el cinturón de seguridad. La tendinopatía del manguito rotador —lo que se suele llamar "tendinitis de hombro"— es una causa frecuente de dolor de hombro en adultos, y en los casos no traumáticos el tratamiento suele partir por ejercicio progresivo y terapia manual antes de pensar en pabellón: en roturas pequeñas y no traumáticas del supraespinoso en mayores de 55 años, un <a href="https://pubmed.ncbi.nlm.nih.gov/33774172/" target="_blank" rel="noopener noreferrer">ensayo aleatorizado con más de cinco años de seguimiento</a> no encontró ventajas en operar frente al tratamiento conservador.</p>
 
       <h2>Qué es el manguito rotador y por qué se irrita</h2>
       <p>Son cuatro músculos —supraespinoso, infraespinoso, redondo menor y subescapular— cuyos tendones envuelven la cabeza del húmero y la mantienen centrada mientras mueves el brazo. Están hechos para estabilizar, no para cargar peso sobre la cabeza durante años. Cuando el tendón recibe más carga de la que tolera —pintar un cielo, trabajo repetitivo con los brazos arriba o gimnasio mal dosificado— aparece el dolor. Muchas veces no hay "inflamación" en el sentido clásico, sino un tendón que perdió capacidad, y eso se recupera cargándolo bien, no dejándolo quieto.</p>
@@ -1965,7 +1965,7 @@ export const blogPosts = [
       <p>Aquí se gana o se pierde el tratamiento: el tendón se adapta con estímulos repetidos y dos sesiones semanales no alcanzan por sí solas. Te dejamos una rutina corta —pocos ejercicios, bien hechos, casi todos los días— y la posición para dormir sin comprimir el hombro. Una molestia tolerable que se va al rato no es señal de daño; un dolor que sube y se queda horas sí indica que la carga fue demasiada.</p>
 
       <h2>Cuántas sesiones suele tomar y qué esperar</h2>
-      <p>Depende del tiempo que llevas con dolor, de tu edad, de si hubo una lesión brusca y de cuánto exige tu día a día. Como referencia, el trabajo de hombro por manguito rotador suele tomar entre 8 y 12 semanas y habitualmente entre 6 y 12 sesiones, con una o dos sesiones semanales y revisiones para ajustar la carga. No prometemos plazos: hay hombros que responden antes y otros que necesitan más tiempo.</p>
+      <p>Depende del tiempo que llevas con dolor, de tu edad, de si hubo una lesión brusca y de cuánto exige tu día a día. El trabajo de hombro por manguito rotador suele tomar varias semanas de ejercicio constante, con revisiones para ajustar la carga. No prometemos plazos: hay hombros que responden antes y otros que necesitan más tiempo.</p>
       <p>Lo que sí se puede anticipar es el orden de la mejoría: primero suele ceder el dolor nocturno, después aparece más rango sin molestia y al final vuelve la fuerza para levantar el brazo. Si a las pocas semanas nada se mueve en esos tres frentes, corresponde revisar el diagnóstico con el médico. Cómo se estima ese número lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>; los planes, en <a href="/precios">nuestra página de precios</a>.</p>
       <p>Atendemos como servicio particular, con boleta de honorarios electrónica. Ojo con un punto que confunde: para la evaluación no necesitas orden médica, pero para iniciar el tratamiento sí (el reglamento de la profesión exige indicación médica escrita), y también para pedir reembolso en tu isapre o en tu seguro complementario, así que conviene pedirla en el control médico. El detalle está en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso de kinesiología en tu isapre</a>, y lo que te devuelvan dependerá de la cobertura de tu plan.</p>
 
@@ -2202,7 +2202,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "8 min lectura",
     category: "Traumatología y columna",
     image: "/images/ergonomia_home_office_hero_1769277626584.png",
@@ -2256,7 +2256,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Cuántas sesiones suele tomar y qué esperar</h2>
-<p>Como referencia, los cuadros musculoesqueléticos que atendemos suelen tomar entre 6 y 12 sesiones dentro de un proceso de 6 a 12 semanas. El nervio responde más lento que el músculo, así que en túnel carpiano el número se ajusta según cómo evoluciones: no hay plazo garantizado, y desconfía de quien te lo prometa. Depende de hace cuánto partió, de cuán comprimido está el nervio y de si hay una condición de base en tratamiento.</p>
+<p>No hay un número fijo de sesiones. El nervio responde más lento que el músculo, así que en túnel carpiano el número se ajusta según cómo evoluciones: no hay plazo garantizado, y desconfía de quien te lo prometa. Depende de hace cuánto partió, de cuán comprimido está el nervio y de si hay una condición de base en tratamiento.</p>
 <p>La secuencia habitual:</p>
 <ul>
   <li><strong>Primeras semanas:</strong> lo que suele ceder primero es el despertar nocturno, la señal más temprana de que el plan va bien encaminado.</li>
@@ -2281,7 +2281,7 @@ export const blogPosts = [
   <li>Atrofia visible de la musculatura del pulgar (eminencia tenar).</li>
   <li>Adormecimiento fijo, ya no hormigueo intermitente.</li>
   <li><strong>Electromiografía</strong> con compromiso severo del nervio mediano.</li>
-  <li>Fracaso de unos 3 meses de tratamiento conservador bien hecho.</li>
+  <li>Un tratamiento conservador bien hecho que no da resultado en el plazo que defina tu médico.</li>
 </ul>
 <p>Llegar a pabellón con la mano móvil, con el antebrazo trabajado y sin rigidez no es tiempo perdido: es llegar en mejores condiciones a la recuperación posterior.</p>
 
@@ -2317,7 +2317,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_heel_slide_1769278379698.png",
@@ -2368,7 +2368,7 @@ export const blogPosts = [
 <p>Entre sesiones el trabajo es tuyo: la rutina en casa toma pocos minutos y se hace casi todos los días. La regla es simple: una molestia leve durante el ejercicio es aceptable si al día siguiente no estás peor; si amaneces peor, se ajusta la dosis.</p>
 
 <h2>Cuántas sesiones suele tomar y qué esperar</h2>
-<p>En cuadros traumatológicos como este habitualmente hablamos de <strong>entre 6 y 12 sesiones</strong> repartidas en varias semanas. No es una promesa: depende de cuánto llevas con dolor, de tu carga diaria y de tu constancia. Los casos de más de un año responden, pero piden más paciencia.</p>
+<p>El tratamiento suele repartirse en varias semanas, y el número de sesiones no es una promesa: depende de cuánto llevas con dolor, de tu carga diaria y de tu constancia. Los casos de más de un año responden, pero piden más paciencia.</p>
 <p>Lo primero que suele cambiar es el dolor del primer paso; después la tolerancia a estar de pie; al final, caminar largo o trotar. Cómo se estima el número de sesiones lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>, y los planes están en <a href="/precios">nuestra página de precios</a>.</p>
 
 <h2>Errores frecuentes que alargan el problema</h2>
@@ -2515,7 +2515,7 @@ export const blogPosts = [
     category: "Traumatología y columna",
     image: "/images/exercise_wall_pushup_1769278392606.png",
     icon: Activity,
-    content: `<p class="lead">La mayoría de las personas con "codo de tenista" no juega tenis. La epicondilitis lateral es una molestia por sobrecarga de los tendones que extienden la muñeca y los dedos, y aparece en trabajos y tareas que repiten el mismo gesto con fuerza: herramientas, cocina, peluquería, jardinería, cargar bolsas o muchas horas de mouse y teclado. Esta guía explica por qué duele, qué dice la evidencia sobre los tratamientos y qué puedes esperar, sin promesas.</p>
+    content: `<p class="lead">No hace falta jugar tenis para tener "codo de tenista". La epicondilitis lateral es una molestia por sobrecarga de los tendones que extienden la muñeca y los dedos, y aparece en trabajos y tareas que repiten el mismo gesto con fuerza: herramientas, cocina, peluquería, jardinería, cargar bolsas o muchas horas de mouse y teclado. Esta guía explica por qué duele, qué dice la evidencia sobre los tratamientos y qué puedes esperar, sin promesas.</p>
 
       <h2>¿Qué tan frecuente es y a quién le da?</h2>
       <p>En un <a href="https://pubmed.ncbi.nlm.nih.gov/16968862/" target="_blank" rel="noopener noreferrer">estudio poblacional en Finlandia</a> con 4.783 personas de 30 a 64 años, el 1,3 % tenía una epicondilitis lateral confirmada. Fue igual de frecuente en hombres y mujeres, y más común entre los 45 y los 54 años. Se asoció al tabaquismo y a la combinación de movimientos repetitivos de los brazos con tareas de fuerza.</p>
@@ -2534,7 +2534,7 @@ export const blogPosts = [
         <li>En un <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">ensayo publicado en el BMJ</a>, la kinesiterapia con movilización y ejercicio fue mejor que esperar durante las primeras 6 semanas; a las 52 semanas no hubo diferencia y la mayoría de ambos grupos estaba bien. La infiltración alivió más al principio, pero con muchas recaídas después.</li>
         <li>En un <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">ensayo aleatorizado publicado en JAMA</a> con pacientes con epicondilalgia lateral crónica, la infiltración de corticoides se asoció a peores resultados al año que una infiltración placebo. La kinesiterapia dio más mejoría a las 4 semanas, pero al año no hubo diferencias.</li>
       </ul>
-      <p>En resumen: la kinesiología ayuda sobre todo a <strong>mejorar antes</strong>, a entender qué carga tolera el tendón y a ajustar las tareas que lo mantienen irritado. No acelera milagrosamente la curación ni garantiza un plazo. Las infiltraciones alivian rápido, pero se asocian a más recaídas; esa decisión es siempre de tu médico.</p>
+      <p>En resumen: la kinesiología ayuda sobre todo a <strong>mejorar antes</strong>, a entender qué carga tolera el tendón y a ajustar las tareas que lo mantienen irritado. No acelera milagrosamente la curación ni garantiza un plazo. Las infiltraciones alivian rápido, pero en los ensayos <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">del BMJ</a> y <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">de JAMA</a> se asociaron a más recaídas; esa decisión es siempre de tu médico.</p>
 
       <h2>El error clásico: tratar solo donde duele</h2>
       <p>Masajear el codo puede aliviar un rato, pero lo que más influye es la carga que recibe el tendón día a día: cuánta fuerza haces con la mano, con qué posición de muñeca y cuántas veces. Por eso el tratamiento mira la tarea completa, la fuerza de la muñeca y el antebrazo, y también el hombro, que participa en casi todos los gestos de la mano.</p>
@@ -2553,7 +2553,7 @@ export const blogPosts = [
         <li>Reduce, sin eliminar, las tareas que más te duelen: cambia de mano, divide la carga o haz pausas.</li>
         <li>Evita apretar con fuerza con la muñeca doblada hacia arriba.</li>
         <li>Mantén el brazo en movimiento: el reposo completo no ayuda al tendón a tolerar carga.</li>
-        <li>Si fumas, este es un buen motivo más para dejarlo: en el estudio finlandés el tabaquismo se asoció a la epicondilitis.</li>
+        <li>Si fumas, este es un buen motivo más para dejarlo: en el <a href="https://pubmed.ncbi.nlm.nih.gov/16968862/" target="_blank" rel="noopener noreferrer">estudio finlandés</a> el tabaquismo se asoció a la epicondilitis.</li>
       </ul>
 
       <h2>Cuándo consultar al médico</h2>
@@ -2561,11 +2561,11 @@ export const blogPosts = [
 
       <h2>Preguntas frecuentes sobre el codo de tenista</h2>
       <h3>¿Cuánto dura una epicondilitis?</h3>
-      <p>Es variable. Puede durar semanas o varios meses, y en los ensayos la mayoría de las personas estaba bien al año, con o sin tratamiento. La kinesiología busca que mejores antes y que no vuelva.</p>
+      <p>Es variable. Puede durar semanas o varios meses, y en el <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">ensayo del BMJ</a> la mayoría de las personas estaba bien al año, con o sin tratamiento. La kinesiología busca que mejores antes y que no vuelva.</p>
       <h3>¿Tengo que dejar de usar el brazo?</h3>
       <p>No. Conviene bajar la carga de lo que más duele, pero el reposo completo no ayuda al tendón. El ejercicio dosificado es parte central del tratamiento.</p>
       <h3>¿Me conviene una infiltración?</h3>
-      <p>Es una decisión de tu médico. Los ensayos muestran que alivia rápido, pero se asocia a más recaídas y a peores resultados al año que no infiltrar.</p>
+      <p>Es una decisión de tu médico. En el <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">ensayo del BMJ</a> alivió más al principio, pero con muchas recaídas, y en el <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">de JAMA</a> se asoció a peores resultados al año que una infiltración placebo.</p>
       <h3>¿Necesito una ecografía o una resonancia?</h3>
       <p>En general no hace falta para empezar. El médico la pide si el cuadro no es típico, si hubo un traumatismo o si no evoluciona como se espera.</p>
       <h3>¿Necesito orden médica para el kinesiólogo?</h3>
