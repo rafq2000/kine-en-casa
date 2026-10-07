@@ -35,6 +35,10 @@ export async function generateMetadata({ params }: BlogPostProps) {
     // subtitle siguen siendo los editoriales que se ven en la pagina.
     const seoTitle = (post as any).seoTitle || `${post.title} | KINEUM`
     const seoDescription = (post as any).seoDescription || post.subtitle
+    // Las imágenes PNG pesan 300-900 KB: para compartir se usa su versión JPG 1200x630 de public/images/og/
+    const ogImage = post.image.endsWith(".png")
+        ? `https://kineum.cl/images/og/${post.image.split("/").pop()!.replace(/\.png$/, ".jpg")}`
+        : `https://kineum.cl${post.image}`
 
     return {
         title: seoTitle,
@@ -50,8 +54,10 @@ export async function generateMetadata({ params }: BlogPostProps) {
             url: `https://kineum.cl/blog/${post.slug}`,
             type: "article",
             locale: "es_CL",
-            images: [{ url: `https://kineum.cl${post.image}` }],
+            images: [{ url: ogImage }],
         },
+        // Sin esto, twitter:image heredaba /og-image.jpg del layout
+        twitter: { card: "summary_large_image", images: [ogImage] },
     }
 }
 
