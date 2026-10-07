@@ -82,7 +82,7 @@ Solo en 9 comunas de Santiago: ${comunas.map((c) => c.nombre).join(", ")}. El va
 Sí: KINEUM emite ${BOLETA_TEXTO}, y con ella y la orden médica el paciente pide el reembolso en su Isapre y luego en su seguro complementario. El monto depende de la cobertura de cada plan; el paso a paso está en ${SITIO}/blog/reembolso-isapre-kinesiologia
 
 ### ¿Hace falta orden médica?
-Para la evaluación inicial no. Para pedir el reembolso sí se necesita una orden médica vigente; más detalle en ${SITIO}/blog/kinesiologo-sin-orden-medica
+Para la evaluación inicial no. Para iniciar el tratamiento sí: el Decreto 1.082 de 1958 (reglamento de la profesión de kinesiólogo, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita. Esa orden también la piden habitualmente las isapres y seguros para el reembolso; más detalle en ${SITIO}/blog/kinesiologo-sin-orden-medica
 
 ### ¿Qué equipamiento lleva el kinesiólogo?
 Camilla portátil, TENS, ultrasonido, bandas elásticas y oxímetro según el caso.

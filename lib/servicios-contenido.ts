@@ -135,7 +135,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Necesito orden médica para empezar?',
-                a: 'Para la evaluación inicial no es necesaria. Sí la vas a necesitar si quieres reembolsar las sesiones en tu Isapre o en tu seguro complementario, y siempre es útil que el kinesiólogo conozca el diagnóstico y las indicaciones del médico tratante.',
+                a: 'Para la evaluación inicial no es necesaria. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y tu Isapre o seguro complementario habitualmente también te la pide para reembolsar.',
             },
             {
                 q: '¿Cuántas sesiones se necesitan?',

@@ -341,7 +341,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Precios y reembolsos",
     image: "/images/blog-sin-orden-medica.jpg",
@@ -349,8 +349,8 @@ export const blogPosts = [
     content: `<p class="lead">Te duele la espalda, te operaron hace poco o tu mamá quedó con poca movilidad después de una hospitalización, y aparece la pregunta: ¿puedo ir al kinesiólogo sin orden médica? En corto: puedes pedir una evaluación, pero en Chile el reglamento vigente dice que el tratamiento kinesiológico se aplica por orden médica escrita. Además, tu Isapre o tu seguro complementario habitualmente te la va a pedir para reembolsar. Aquí te explicamos qué dice la regla, qué debe decir la orden y qué hacer si todavía no la tienes.</p>
 
 <h2>¿Se puede ir al kinesiólogo sin orden médica en Chile?</h2>
-<p>La profesión se rige por el Decreto N° 1.082 de 1958 del Ministerio de Salud Pública, que en LeyChile aparece como no derogado. Su artículo 3 dice que el kinesiólogo solo puede aplicar sus métodos terapéuticos <strong>por indicación y orden médica escrita</strong>, y lo obliga a registrar y archivar esas órdenes. El artículo 4 agrega que, en los institutos de kinesiterapia, la ficha de cada paciente debe anotar el nombre del médico que indicó el tratamiento.</p>
-<p>El Código Sanitario, en su artículo 113, exige indicación y supervigilancia médica a quienes cumplen funciones de colaboración médica, aunque en la versión que revisamos no nombra expresamente a la kinesiología.</p>
+<p>La profesión se rige por el <a href="https://www.bcn.cl/leychile/navegar?idNorma=259863" rel="nofollow">Decreto N° 1.082 de 1958</a> del Ministerio de Salud Pública, que en LeyChile aparece como no derogado. Su artículo 3 dice que el kinesiólogo solo puede aplicar sus métodos terapéuticos <strong>por indicación y orden médica escrita</strong>, y lo obliga a registrar y archivar esas órdenes. El artículo 4 agrega que, en los institutos de kinesiterapia, la ficha de cada paciente debe anotar el nombre del médico que indicó el tratamiento.</p>
+<p>El <a href="https://www.bcn.cl/leychile/navegar?idNorma=5595" rel="nofollow">Código Sanitario</a>, en su artículo 113, exige indicación y supervigilancia médica a quienes cumplen funciones de colaboración médica, aunque en la versión que revisamos no nombra expresamente a la kinesiología.</p>
 <p>¿Y no hubo una ley para ir directo al kinesiólogo? Se han presentado proyectos en ese sentido, como el Boletín 9260-11, ingresado en 2014, y no encontramos que se haya convertido en ley. Hay otros proyectos que buscan modificar el Código Sanitario en lo que toca a las profesiones de la salud, pero no pudimos confirmar en qué etapa están. Lo concreto es que, según LeyChile, el reglamento de 1958 sigue vigente.</p>
 <p>En resumen:</p>
 <ul>
@@ -402,7 +402,7 @@ export const blogPosts = [
 <h2>Preguntas frecuentes sobre la orden médica y el kinesiólogo</h2>
 
 <h3>¿Necesito orden médica para ir al kinesiólogo en Chile?</h3>
-<p>El Decreto 1.082, que según LeyChile sigue vigente, dice que el kinesiólogo aplica sus tratamientos por indicación y orden médica escrita. Puedes pedir una evaluación sin ella, pero para el tratamiento y para reembolsar lo normal es que la necesites.</p>
+<p>El Decreto 1.082, que según LeyChile sigue vigente, dice que el kinesiólogo aplica sus tratamientos por indicación y orden médica escrita. Puedes pedir una evaluación sin ella, pero para el tratamiento la necesitas, y para reembolsar también.</p>
 
 <h3>¿Mi Isapre me reembolsa la kinesiología sin orden médica?</h3>
 <p>Lo más probable es que no. La Superintendencia de Salud dice que para acceder a la cobertura basta la orden médica de derivación, y varias isapres (Cruz Blanca, Nueva Masvida y Colmena) la piden expresamente para kinesiología.</p>
@@ -430,6 +430,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Guías",
     image: "/images/blog-sesion-domicilio.jpg",
@@ -441,7 +442,7 @@ export const blogPosts = [
 <p>Para aprovechar bien la primera visita, conviene tener reunido lo siguiente:</p>
 <ul>
 <li><strong>Exámenes e imágenes</strong>: radiografías, resonancias, ecografías y sus informes. El informe escrito es lo más útil.</li>
-<li><strong>Orden médica</strong>, si la tienes. Para la evaluación inicial no es obligatoria, pero sí la vas a necesitar para pedir reembolso en tu Isapre o seguro complementario. Lo explicamos en detalle en <a href="/blog/kinesiologo-sin-orden-medica">si puedes ir al kinesiólogo sin orden médica</a>.</li>
+<li><strong>Orden médica</strong>, si la tienes. Para la evaluación inicial no es obligatoria; para iniciar el tratamiento sí, porque el reglamento de la profesión exige indicación médica escrita, y también la vas a necesitar para pedir reembolso en tu Isapre o seguro complementario. Lo explicamos en detalle en <a href="/blog/kinesiologo-sin-orden-medica">si puedes ir al kinesiólogo sin orden médica</a>.</li>
 <li><strong>Lista de medicamentos</strong> actuales, con dosis. Algunos fármacos, como anticoagulantes o medicamentos para la presión, influyen en cómo se planifica el ejercicio.</li>
 <li><strong>Epicrisis o indicaciones del cirujano</strong>, si vienes de una operación, con las restricciones de carga o de movimiento que te dieron.</li>
 <li>Ropa cómoda que permita moverse y dejar a la vista la zona a tratar.</li>
@@ -509,7 +510,7 @@ export const blogPosts = [
 <h3>¿Tengo que comprar algún equipo?</h3>
 <p>No. El kinesiólogo lleva camilla, equipos de fisioterapia, bandas, pesas y elementos de medición. Si más adelante conviene tener algo en casa para tus ejercicios, se conversa, pero no es un requisito.</p>
 <h3>¿Necesito orden médica para la primera visita?</h3>
-<p>Para la evaluación inicial no. Sí la necesitas para pedir reembolso en tu Isapre o seguro complementario, así que conviene solicitarla a tu médico desde el principio.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Conviene solicitarla a tu médico desde el principio.</p>
 <h3>¿Cada cuánto son las sesiones?</h3>
 <p>Depende del diagnóstico y de tus objetivos. La frecuencia se define en la evaluación inicial y se ajusta según cómo evolucionas. Lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesitas según tu caso</a>.</p>
 <h3>¿Qué pasa si ese día amanezco con más dolor?</h3>
@@ -924,7 +925,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "17 Septiembre, 2026",
     dateISO: "2026-09-17",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Adulto mayor",
     image: "/images/blog-caida-adulto-mayor.jpg",
@@ -1025,7 +1026,7 @@ export const blogPosts = [
 <h3>¿Cuánto rato puede quedarse en el suelo esperando?</h3>
 <p>Lo menos posible. Quedarse mucho rato en el suelo también tiene riesgos, como enfriarse o deshidratarse. Si no puede levantarse, llama al 131, abrígalo y acompáñalo. No esperes a ver si mejora solo.</p>
 <h3>¿Necesito orden médica para que lo vea un kinesiólogo?</h3>
-<p>Para atención particular, en general no; te lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">cuándo puedes ir al kinesiólogo sin orden médica</a>. Eso sí, para pedir el reembolso en la Isapre la mayoría exige orden médica, así que conviene pedirla en el control. Y después de una caída, lo primero es descartar lesiones con el médico.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Te lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">cuándo puedes ir al kinesiólogo sin orden médica</a>; conviene pedirla en el control. Y después de una caída, lo primero es descartar lesiones con el médico.</p>
 <h3>¿El ejercicio realmente ayuda a prevenir caídas?</h3>
 <p>El consenso profesional es que los programas de fuerza y equilibrio, bien dosificados y sostenidos en el tiempo, suelen reducir el riesgo de caídas en personas mayores. Los resultados varían según la persona.</p>
 
@@ -1439,7 +1440,7 @@ export const blogPosts = [
       <h3>¿No basta con hacer ejercicios de Kegel por mi cuenta?</h3>
       <p>A veces basta y a veces no, y ese es justamente el punto: sin evaluación no sabes si estás contrayendo el músculo correcto, ni si tu problema es de fuerza, de coordinación o de exceso de tensión. En algunos casos apretar más es exactamente lo que no corresponde.</p>
       <h3>¿Necesito orden médica para atenderme?</h3>
-      <p>Para la atención no es indispensable, pero sí la necesitas si vas a pedir reembolso. Y si tienes síntomas que nunca has consultado —sangrado, dolor intenso, fiebre—, lo primero es tu médico: la kinesiología complementa el tratamiento médico, no lo reemplaza.</p>
+      <p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Y si tienes síntomas que nunca has consultado —sangrado, dolor intenso, fiebre—, lo primero es tu médico: la kinesiología complementa el tratamiento médico, no lo reemplaza.</p>
       <h3>¿Se puede trabajar el piso pélvico durante el embarazo?</h3>
       <p>Sí, con autorización de tu médico tratante y con otro enfoque: preparación, control de la presión abdominal y manejo de molestias, más que fortalecimiento intenso.</p>
 
@@ -1516,7 +1517,7 @@ export const blogPosts = [
 <h3>¿Sirve para bajar de peso o eliminar grasa?</h3>
 <p>No. El drenaje busca mover el líquido acumulado en los tejidos; no elimina grasa ni reemplaza la cirugía, la alimentación o el ejercicio.</p>
 <h3>¿Necesito orden médica?</h3>
-<p>Para pedir el reembolso en tu Isapre o seguro complementario, sí. Además, te pedimos las indicaciones de tu cirujano para saber qué está permitido y desde cuándo.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Además, te pedimos las indicaciones de tu cirujano para saber qué está permitido y desde cuándo.</p>
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
@@ -1535,7 +1536,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "24 Enero, 2026",
     dateISO: "2026-01-24",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "9 min lectura",
     category: "Neurología",
     image: "/images/neuroplasticidad_acv_hero_1769277615017.png",
@@ -1604,7 +1605,7 @@ export const blogPosts = [
 <h3>¿Qué hago si no quiere hacer los ejercicios?</h3>
 <p>Es frecuente, sobre todo si hay cansancio o desánimo. Ayuda partir con metas pequeñas que le importen, como ir solo al baño, y celebrar los avances. Si el desánimo dura, coméntalo con su médico.</p>
 <h3>¿Necesito orden médica?</h3>
-<p>Para atenderse de forma particular, en general no. Para pedir el reembolso en la Isapre, casi siempre sí, así que conviene pedirla en el control con el neurólogo.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Conviene pedirla en el control con el neurólogo.</p>
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
@@ -1621,7 +1622,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "12 Junio, 2026",
     dateISO: "2026-06-12",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "9 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_glute_bridge_1769277694981.png",
@@ -1703,7 +1704,7 @@ export const blogPosts = [
 <h3>¿Puedo ir a trabajar con lumbago?</h3>
 <p>Si tu trabajo lo permite, mantenerte activo suele ayudar. Si cargas peso o el dolor no te deja moverte, consulta con tu médico.</p>
 <h3>¿Necesito orden médica para el kinesiólogo?</h3>
-<p>Para atenderte de forma particular, en general no. Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
@@ -1817,6 +1818,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_hamstring_stretch_bed_1769278314068.png",
@@ -1900,7 +1902,7 @@ export const blogPosts = [
 <h2>Preguntas frecuentes</h2>
 
 <h3>¿Necesito orden médica para tratarme la ciática con un kinesiólogo?</h3>
-<p>No la necesitas para agendar con nosotros, pero sí para pedir reembolso en tu isapre o seguro complementario. Si ya la tienes, nos sirve además como antecedente clínico. Lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">atención kinesiológica sin orden médica</a>. Y si en la evaluación aparecen señales de alarma, te derivamos al médico.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Si ya la tienes, nos sirve además como antecedente clínico. Lo explicamos en <a href="/blog/kinesiologo-sin-orden-medica">atención kinesiológica sin orden médica</a>. Y si en la evaluación aparecen señales de alarma, te derivamos al médico.</p>
 
 <h3>¿Sirve la kinesiología si ya me diagnosticaron una hernia discal?</h3>
 <p>Sí. Tener una hernia en una imagen no significa que la cirugía sea el camino: buena parte de estos cuadros se maneja de forma conservadora. Lo vemos en <a href="/blog/hernia-discal-operacion">si una hernia discal se puede reabsorber sola</a>.</p>
@@ -1925,7 +1927,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "18 Septiembre, 2026",
     dateISO: "2026-09-18",
-    updatedISO: "2026-09-29",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_shoulder_rotation_1769277710068.png",
@@ -1972,7 +1974,7 @@ export const blogPosts = [
       <h2>Cuántas sesiones suele tomar y qué esperar</h2>
       <p>Depende del tiempo que llevas con dolor, de tu edad, de si hubo una lesión brusca y de cuánto exige tu día a día. Como referencia, el trabajo de hombro por manguito rotador suele tomar entre 8 y 12 semanas y habitualmente entre 6 y 12 sesiones, con una o dos sesiones semanales y revisiones para ajustar la carga. No prometemos plazos: hay hombros que responden antes y otros que necesitan más tiempo.</p>
       <p>Lo que sí se puede anticipar es el orden de la mejoría: primero suele ceder el dolor nocturno, después aparece más rango sin molestia y al final vuelve la fuerza para levantar el brazo. Si a las pocas semanas nada se mueve en esos tres frentes, corresponde revisar el diagnóstico con el médico. Cómo se estima ese número lo explicamos en <a href="/blog/cuantas-sesiones-de-kinesiologia-necesito">cuántas sesiones de kinesiología necesito</a>; los planes, en <a href="/precios">nuestra página de precios</a>.</p>
-      <p>Atendemos como servicio particular, con boleta de honorarios electrónica. Ojo con un punto que confunde: para la evaluación no necesitas orden médica, pero para pedir reembolso en tu isapre o en tu seguro complementario la mayoría sí la exige, así que conviene pedirla en el control médico. El detalle está en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso de kinesiología en tu isapre</a>, y lo que te devuelvan dependerá de la cobertura de tu plan.</p>
+      <p>Atendemos como servicio particular, con boleta de honorarios electrónica. Ojo con un punto que confunde: para la evaluación no necesitas orden médica, pero para iniciar el tratamiento sí (el reglamento de la profesión exige indicación médica escrita), y también para pedir reembolso en tu isapre o en tu seguro complementario, así que conviene pedirla en el control médico. El detalle está en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso de kinesiología en tu isapre</a>, y lo que te devuelvan dependerá de la cobertura de tu plan.</p>
 
       <h2>Señales de alarma: cuándo ver al médico</h2>
       <ul>
@@ -2190,7 +2192,7 @@ export const blogPosts = [
       <h3>¿Qué pasa si a los 3 meses todavía no me recupero?</h3>
       <p>La guía recomienda reevaluar o derivar a un especialista en nervio facial cuando la recuperación no es completa a los 3 meses. No significa que no haya nada que hacer: significa que conviene una evaluación más especializada.</p>
       <h3>¿Necesito orden médica?</h3>
-      <p>Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
+      <p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
       <h3>¿Atienden en mi comuna?</h3>
       <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
@@ -2428,7 +2430,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "25 Marzo, 2026",
     dateISO: "2026-03-25",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "9 min lectura",
     category: "Adulto mayor",
     image: "/elderly-physio-home.png",
@@ -2500,7 +2502,7 @@ export const blogPosts = [
 <h3>¿Qué hago si tiene mucho miedo de caminar?</h3>
 <p>Es muy frecuente después de una caída. Se avanza con metas pequeñas y seguras, practicando primero con apoyo y quitándolo de a poco. Retarlo u obligarlo suele empeorar el miedo.</p>
 <h3>¿Necesito orden médica?</h3>
-<p>Para atenderse de forma particular, en general no. Para pedir el reembolso en la Isapre, casi siempre sí, así que conviene pedirla en el control.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Conviene pedirla en el control con el traumatólogo.</p>
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
@@ -2574,7 +2576,7 @@ export const blogPosts = [
       <h3>¿Necesito una ecografía o una resonancia?</h3>
       <p>En general no hace falta para empezar. El médico la pide si el cuadro no es típico, si hubo un traumatismo o si no evoluciona como se espera.</p>
       <h3>¿Necesito orden médica para el kinesiólogo?</h3>
-      <p>Para atenderte de forma particular, en general no. Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
+      <p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Recibes boleta de honorarios después de cada sesión y el reembolso depende de la cobertura de tu plan; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso</a>.</p>
       <h3>¿Atienden en mi comuna?</h3>
       <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.</p>
 
@@ -2885,7 +2887,7 @@ export const blogPosts = [
     author: "Equipo Clínico KINEUM",
     date: "04 Febrero, 2026",
     dateISO: "2026-02-04",
-    updatedISO: "2026-10-05",
+    updatedISO: "2026-10-07",
     readTime: "7 min lectura",
     category: "Traumatología y columna",
     image: "/images/exercise_neck_mobility_1769278328424.png",
@@ -2934,7 +2936,7 @@ export const blogPosts = [
 <h3>¿Sirve un plano de relajación para el cuello?</h3>
 <p>El plano lo indica el dentista y protege los dientes. Puede ayudar, pero no reemplaza el trabajo sobre la musculatura y los hábitos.</p>
 <h3>¿Necesito orden médica?</h3>
-<p>Para atenderte de forma particular, en general no. Para pedir el reembolso en tu Isapre o seguro complementario, casi siempre sí, y el reembolso depende de la cobertura de tu plan.</p>
+<p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Lo que te devuelvan depende de la cobertura de tu plan.</p>
 
 <p>¿Dolor de cuello que vuelve una y otra vez? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20dolor%20de%20cuello%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita en tu casa.</p>`
   },

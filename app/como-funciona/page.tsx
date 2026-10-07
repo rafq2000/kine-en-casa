@@ -118,7 +118,7 @@ const faqSchema = {
       name: "¿Necesito orden médica para pedir kinesiólogo a domicilio?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Para la evaluación inicial no necesitas orden médica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitarás una orden médica vigente.",
+        text: "Para la evaluación inicial no necesitas orden médica. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso.",
       },
     },
     {
@@ -227,7 +227,7 @@ const faqs = [
   {
     question: "¿Necesito orden médica para pedir kinesiólogo a domicilio?",
     answer:
-      "Para la evaluación inicial no necesitas orden médica. Sin embargo, si deseas reembolso por Isapre o tu seguro complementario, necesitarás una orden médica vigente emitida por tu doctor.",
+      "Para la evaluación inicial no necesitas orden médica. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso.",
   },
   {
     question: "¿La evaluación inicial realmente es gratis?",
