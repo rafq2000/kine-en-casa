@@ -152,7 +152,7 @@ export const comunas: Comuna[] = [
         contexto:
             "Lo Barnechea es la comuna más extensa de nuestra cobertura y la peor conectada con centros de rehabilitación: por eso la atención en casa marca la mayor diferencia, sin recargo por distancia.",
         referencias: "cerca de La Dehesa, Camino a Farellones y Los Trapenses",
-        llegada: "con hora fija acordada contigo, sin recargo por distancia",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Peñalolén",
@@ -171,9 +171,9 @@ export const comunas: Comuna[] = [
             "Peñalolén Nuevo",
         ],
         contexto:
-            "Peñalolén tiene poca oferta de rehabilitación propia y sus vecinos suelen bajar a Ñuñoa o La Reina: nosotros subimos con todo el equipamiento, incluida la zona precordillera.",
+            "Peñalolén tiene poca oferta de rehabilitación propia y sus vecinos suelen bajar a Ñuñoa o La Reina: nosotros subimos con todo el equipamiento, incluida la zona precordillera, sin recargo por subir.",
         referencias: "cerca de Av. Grecia, Tobalaba sur y la Comunidad Ecológica",
-        llegada: "con hora fija acordada contigo, sin recargo por subir",
+        llegada: PRIMERA_VISITA_TEXTO,
     },
     {
         nombre: "Macul",
