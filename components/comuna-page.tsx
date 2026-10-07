@@ -449,9 +449,9 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                         </div>
                         <p className="text-slate-400 mt-8">
                             Detalle de lo que incluye cada plan en{" "}
-                            <Link href="/precios" className="text-amber-400 hover:underline">precios y planes</Link>, y
+                            <Link href="/precios" className="text-amber-400 underline underline-offset-2 hover:text-amber-300">precios y planes</Link>, y
                             cómo pedir el reembolso en la{" "}
-                            <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-400 hover:underline">
+                            <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-400 underline underline-offset-2 hover:text-amber-300">
                                 guía de reembolso en tu Isapre
                             </Link>
                             .

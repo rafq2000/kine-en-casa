@@ -315,11 +315,11 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                             </p>
                             <p className="text-slate-400 mb-8">
                                 Detalle de cada plan en{" "}
-                                <Link href="/precios" className="text-amber-400 hover:underline">
+                                <Link href="/precios" className="text-amber-400 underline underline-offset-2 hover:text-amber-300">
                                     precios y planes de kinesiología a domicilio
                                 </Link>{" "}
                                 y paso a paso en la{" "}
-                                <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-400 hover:underline">
+                                <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-400 underline underline-offset-2 hover:text-amber-300">
                                     guía de reembolso de kinesiología en tu Isapre
                                 </Link>
                                 .
