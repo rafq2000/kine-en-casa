@@ -259,7 +259,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     {/* Llamado a la acción al inicio: antes del primer H2 */}
                     <aside className="not-prose my-10 bg-emerald-50 border border-emerald-200 rounded-2xl p-6 md:p-8">
                         <p className="text-xl font-bold text-slate-900 font-serif mb-4">
-                            ¿Necesitas kinesiología a domicilio en el sector oriente?
+                            ¿Necesitas kinesiología a domicilio en el sector oriente o centro de Santiago?
                         </p>
                         <ul className="space-y-2 mb-6 text-slate-700">
                             <li className="flex items-start gap-2">

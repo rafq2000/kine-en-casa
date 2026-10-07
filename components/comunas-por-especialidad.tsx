@@ -22,7 +22,7 @@ export function ComunasPorEspecialidad({ especialidadSlug }: { especialidadSlug:
                         </h2>
                     </div>
                     <p className="text-slate-600 mb-8 max-w-3xl">
-                        Atendemos {esp.corto} en el sector oriente de Santiago. Elige tu comuna para ver los sectores
+                        Atendemos {esp.corto} en 9 comunas del sector oriente y centro de Santiago. Elige tu comuna para ver los sectores
                         que cubrimos y cómo es la sesión en tu casa, o revisa la{" "}
                         <Link href="/cobertura" className="text-amber-700 font-medium hover:underline">
                             cobertura completa por comuna

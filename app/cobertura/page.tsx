@@ -13,19 +13,19 @@ const TEL_DISPLAY = "+56 9 9967 9593"
 const URL = "https://kineum.cl/cobertura"
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio: Comunas del Oriente | KINEUM",
+    title: "Kinesiólogo a Domicilio: 9 Comunas de Santiago | KINEUM",
     description:
-        "Las 9 comunas del sector oriente de Santiago donde KINEUM atiende kinesiología a domicilio, cada una con su propia página. Evaluación inicial gratuita.",
+        "Las 9 comunas del sector oriente y centro de Santiago donde KINEUM atiende kinesiología a domicilio, cada una con su propia página. Evaluación inicial gratuita.",
     keywords: [
-        "kinesiología a domicilio sector oriente",
+        "kinesiología a domicilio sector oriente y centro de Santiago",
         "kinesiólogo a domicilio santiago comunas",
         "cobertura kinesiología a domicilio",
         "kinesiólogo a domicilio cerca de mí",
     ],
     alternates: { canonical: URL },
     openGraph: {
-        title: "Cobertura de KINEUM en el sector oriente de Santiago",
-        description: "Kinesiología a domicilio comuna por comuna en el sector oriente de Santiago.",
+        title: "Cobertura de KINEUM en el sector oriente y centro de Santiago",
+        description: "Kinesiología a domicilio comuna por comuna en el sector oriente y centro de Santiago.",
         url: URL,
         type: "website",
         locale: "es_CL",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
 }
 
 const ZONAS: { id: ZonaComuna; titulo: string; texto: string }[] = [
-    { id: "oriente", titulo: "Sector oriente", texto: "Donde partió KINEUM: la mayor demanda de rehabilitación domiciliaria de Santiago." },
-    { id: "centro", titulo: "Santiago centro", texto: "Edificios antiguos, departamentos sin ascensor y mucha población adulta mayor viviendo sola." },
+    { id: "oriente", titulo: "Sector oriente", texto: "Ocho comunas, con la misma tarifa y la misma forma de coordinar la visita." },
+    { id: "centro", titulo: "Santiago centro", texto: "Santiago Centro, con la misma tarifa y la misma forma de coordinar la visita." },
 ]
 
 export default function Page() {
@@ -107,13 +107,13 @@ export default function Page() {
                     <div className="max-w-4xl">
                         <Badge className="mb-5 bg-slate-900 text-white border-slate-800 px-4 py-1.5">
                             <MapPin className="h-3.5 w-3.5 mr-2" />
-                            Sector oriente de Santiago
+                            Sector oriente y centro de Santiago
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
-                            Kinesiólogo a Domicilio en el <span className="text-amber-700">Sector Oriente de Santiago</span>
+                            Kinesiólogo a Domicilio en el <span className="text-amber-700">Sector Oriente y Centro de Santiago</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-4 max-w-3xl">
-                            Atendemos {comunas.length} comunas del sector oriente de Santiago. Cada una tiene su
+                            Atendemos {comunas.length} comunas del sector oriente y centro de Santiago. Cada una tiene su
                             propia página con los sectores que cubrimos, los centros de salud de referencia y cómo se
                             coordina la primera visita.
                         </p>

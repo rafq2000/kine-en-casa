@@ -47,7 +47,7 @@ export const comunas: Comuna[] = [
             "Cantagallo",
         ],
         contexto:
-            "Las Condes concentra la mayor demanda de salud domiciliaria del sector oriente, con muchos pacientes que salen de clínicas cercanas y necesitan continuar su rehabilitación en casa.",
+            "En Las Condes atendemos en casa a pacientes que necesitan continuar su rehabilitación después de una hospitalización, una cirugía o una lesión.",
         referencias: "cerca de Apoquindo, Kennedy y el eje Escuela Militar–Los Dominicos",
         llegada: PRIMERA_VISITA_TEXTO,
     },

@@ -59,7 +59,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿En qué comunas de Santiago atienden a domicilio?",
-        acceptedAnswer: { "@type": "Answer", text: "Atendemos el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente; si tu comuna no está en la lista, escríbenos igual y te decimos con honestidad si podemos llegar." }
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos 9 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 9 comunas." }
       },
       {
         "@type": "Question",
@@ -270,7 +270,7 @@ export default function HomePage() {
             <div className="mb-8">
               <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
                 <MapPin className="h-4 w-4 mr-2 text-amber-400" />
-                Sector oriente de Santiago
+                Sector oriente y centro de Santiago
               </Badge>
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 font-serif leading-tight">
                 Kinesiólogo a Domicilio
@@ -491,8 +491,8 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Lunes a domingo</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
-                Sesiones de 60 minutos en el horario que te acomode, también fines de semana,
-                en las 9 comunas del sector oriente.
+                Sesiones de 60 minutos en un horario que coordinamos contigo, también fines de semana,
+                en las 9 comunas del sector oriente y centro de Santiago.
               </p>
             </div>
           </div>
@@ -759,15 +759,15 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <Badge className="mb-6 px-6 py-2 text-sm font-medium bg-slate-900 text-white border-slate-800">
               <MapPin className="h-4 w-4 mr-2" />
-              Cobertura sector oriente
+              Cobertura: sector oriente y centro
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">
               Kinesiólogo a Domicilio en
               <br />
-              <span className="text-amber-700">el Sector Oriente de Santiago</span>
+              <span className="text-amber-700">el Sector Oriente y Centro de Santiago</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Atendemos en el domicilio del paciente en 9 comunas del sector oriente de Santiago. Entra a tu comuna
+              Atendemos en el domicilio del paciente en 9 comunas del sector oriente y centro de Santiago. Entra a tu comuna
               para ver los sectores que cubrimos, o revisa la{" "}
               <a href="/cobertura" className="text-amber-700 font-medium hover:underline">
                 cobertura completa comuna por comuna
@@ -873,7 +873,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
-              <p className="text-slate-600">Atendemos el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente; si tu comuna no está en la lista, escríbenos igual y te decimos con honestidad si podemos llegar.</p>
+              <p className="text-slate-600">Atendemos 9 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 9 comunas.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
