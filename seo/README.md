@@ -20,7 +20,26 @@ node seo/autofix.mjs --dry  # muestra qué corregiría, sin tocar nada
 node seo/autofix.mjs        # aplica las correcciones
 node seo/ciclo.mjs          # ciclo completo: auditar → corregir → build → desplegar
 node seo/ciclo.mjs --dry    # ensayo completo sin modificar nada
+node seo/indexnow.mjs /precios /blog/x   # avisa a IndexNow solo esas rutas
+node seo/indexnow.mjs --recientes        # solo las URLs del sitemap con lastmod de los últimos 2 días
 ```
+
+**IndexNow en Windows (Git Bash):** Git Bash convierte los argumentos que empiezan con `/`
+en rutas de disco (`/precios` llega como `C:/Program Files/Git/precios`). Hay que anteponer
+`MSYS_NO_PATHCONV=1`:
+
+```bash
+MSYS_NO_PATHCONV=1 node seo/indexnow.mjs / /precios /blog/reembolso-isapre-kinesiologia
+```
+
+En PowerShell, en Linux y en GitHub Actions no hace falta. Nunca correr `indexnow.mjs` sin
+argumentos: envía todo el sitemap más las ~260 rutas retiradas.
+
+**Después de cada deploy (GitHub Actions):** `.github/workflows/post-deploy.yml` se dispara
+con cada `deployment_status` exitoso de Vercel cuyo environment contenga "Production". Espera
+30 segundos, corre `node seo/audit.mjs` contra producción y `node seo/indexnow.mjs --recientes`.
+Si alguno falla, abre un issue con el `GITHUB_TOKEN` (`permissions: issues: write`). Nunca hace
+commits: los reportes quedan en el runner.
 
 ## Archivos
 

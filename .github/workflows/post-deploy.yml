@@ -1,0 +1,47 @@
+# T52 (paso 1): despues de cada deploy exitoso a produccion en Vercel, audita kineum.cl
+# y avisa a IndexNow solo las URLs con lastmod de los ultimos 2 dias.
+# Nunca hace commits: los reportes quedan en el runner y se descartan.
+# Si el auditor o IndexNow fallan, abre un issue con el GITHUB_TOKEN del workflow.
+name: Post-deploy SEO
+
+on:
+  deployment_status:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  post-deploy:
+    if: github.event.deployment_status.state == 'success' && contains(github.event.deployment_status.environment, 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Esperar a que el CDN sirva el deploy nuevo
+        run: sleep 30
+
+      - name: Auditor SEO contra produccion
+        id: audit
+        run: node seo/audit.mjs
+
+      - name: IndexNow con las URLs recientes
+        id: indexnow
+        if: always()
+        run: node seo/indexnow.mjs --recientes
+
+      - name: Abrir issue si algo fallo
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SHA: ${{ github.sha }}
+        run: |
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Post-deploy SEO fallo en ${SHA:0:7}" \
+            --body "El auditor (paso audit: ${{ steps.audit.outcome }}) o IndexNow (paso indexnow: ${{ steps.indexnow.outcome }}) fallaron despues del deploy de ${SHA}. Revisa el log: ${RUN_URL}"
