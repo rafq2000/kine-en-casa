@@ -166,7 +166,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
         kicker: 'KTR infantil y adulta',
         h1: 'Kinesiología Respiratoria a Domicilio (KTR)',
         intro:
-            'Es invierno, tu hijo lleva noches con tos y secreciones que no salen, el pediatra indicó KTR y lo último que quieres es llevarlo con fiebre a una sala de espera llena de otros niños enfermos. La kinesiterapia respiratoria se puede hacer completa en tu casa, y en lactantes hay una razón clínica de peso para hacerlo así: todavía no saben toser ni sonarse con eficacia, y necesitan ayuda externa para movilizar lo que tienen.',
+            'KTR significa kinesiterapia respiratoria: técnicas manuales e instrumentales para movilizar y eliminar secreciones de la vía aérea, que se hacen con indicación médica. Es invierno, tu hijo lleva noches con tos y secreciones que no salen, el pediatra indicó KTR y lo último que quieres es llevarlo con fiebre a una sala de espera llena de otros niños enfermos. La kinesiterapia respiratoria se puede hacer completa en tu casa, y en lactantes hay una razón clínica de peso para hacerlo así: todavía no saben toser ni sonarse con eficacia, y necesitan ayuda externa para movilizar lo que tienen.',
         secciones: [
             {
                 h2: 'Qué hace realmente la kinesiterapia respiratoria',

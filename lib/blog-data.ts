@@ -334,8 +334,8 @@ export const blogPosts = [
   },
   {
     slug: "kinesiologo-sin-orden-medica",
-    seoTitle: "¿Kinesiólogo sin Orden Médica? Guía Chile 2026 | KINEUM",
-    seoDescription: "¿Puedes ir al kinesiólogo sin orden médica? Qué dice la norma en Chile, por qué tu Isapre la pide para reembolsar y qué debe decir la orden.",
+    seoTitle: "¿Kinesiólogo sin Orden Médica? Evaluación Sí, Tratamiento No",
+    seoDescription: "Puedes pedir una evaluación sin orden médica, pero en Chile el tratamiento kinesiológico exige orden escrita (Decreto 1.082 de 1958). Qué debe decir.",
     title: "¿Puedo ir al kinesiólogo sin orden médica? Lo que dice la norma y lo que pide tu Isapre",
     subtitle: "Si se puede o no, por qué conviene tenerla, qué debe decir la orden y cómo afecta al reembolso en tu Isapre y tu seguro complementario.",
     author: "Equipo Clínico KINEUM",
@@ -1035,8 +1035,8 @@ export const blogPosts = [
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
     slug: "cuanto-cuesta-kinesiologia-a-domicilio-santiago",
-    seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? $35.000-$50.000",
-    seoDescription: "Tarifas publicadas en Santiago (oct. 2026): de $35.000 a $50.000 la sesión a domicilio y sobre $60.000 en festivos. De qué depende el precio.",
+    seoTitle: "¿Cuánto Cobra un Kinesiólogo a Domicilio? $35.000 a $50.000",
+    seoDescription: "Una sesión de kinesiología a domicilio en Santiago cuesta de $35.000 a $50.000 en 2026. Tabla con tarifas publicadas, recargos en festivos y qué incluye.",
     title: "¿Cuánto Cobra un Kinesiólogo a Domicilio? Precios Santiago 2026",
     subtitle: "Sesión individual a domicilio: $35.000–$50.000 según tarifas publicadas. Pack de 10 a $35.000 por sesión. Cómo reembolsar en tu Isapre y seguro complementario.",
     author: "Equipo Clínico KINEUM",
@@ -1088,7 +1088,7 @@ export const blogPosts = [
       <tr><td>Elite</td><td>A medida</td><td>A consultar</td><td>A consultar</td></tr>
       </tbody>
       </table></div>
-      <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong>, sesiones de 60 minutos y boleta de honorarios, sin recargo por traslado en las 8 comunas que atendemos. El detalle está en nuestra <a href="/precios">página de precios</a>.</p>
+      <p>Todos los planes incluyen <strong>evaluación inicial gratuita</strong>, sesiones de 60 minutos y boleta de honorarios, sin recargo por traslado en las 8 comunas que atendemos. El detalle está en el <a href="/precios">valor de kinesiólogo a domicilio en KINEUM</a>.</p>
 
       <h2>Cuánto pagas después del reembolso</h2>
       <p>La cuenta es: <strong>lo que pagas = precio de la sesión − reembolso de tu Isapre − reembolso de tu seguro complementario</strong> (si tienes uno). Ninguno de los dos reembolsos es un monto fijo: dependen de los topes y deducibles de tu plan y de tu póliza, así que no existe un porcentaje único.</p>

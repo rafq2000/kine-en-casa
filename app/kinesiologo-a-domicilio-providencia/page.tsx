@@ -18,7 +18,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: "Kinesiología a Domicilio en Providencia | KINEUM",
-    description: "Kine a domicilio en Providencia: Pedro de Valdivia, Manuel Montt y Los Leones. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+    description: "Kinesiología a domicilio en Providencia: Pedro de Valdivia, Manuel Montt y Los Leones. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Kinesiología a Domicilio en Providencia | KINEUM",
-        description: "Kine a domicilio en Providencia: Pedro de Valdivia, Manuel Montt y Los Leones. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+        description: "Kinesiología a domicilio en Providencia: Pedro de Valdivia, Manuel Montt y Los Leones. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

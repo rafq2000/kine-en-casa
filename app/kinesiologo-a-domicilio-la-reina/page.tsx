@@ -17,7 +17,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: "Kinesiología a Domicilio en La Reina | KINEUM",
-    description: "Kine a domicilio en La Reina: La Reina Alta, Príncipe de Gales y Plaza Egaña. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+    description: "Kinesiología a domicilio en La Reina: La Reina Alta, Príncipe de Gales y Plaza Egaña. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kinesiología a domicilio ${comunaData.nombre}`,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Kinesiología a Domicilio en La Reina | KINEUM",
-        description: "Kine a domicilio en La Reina: La Reina Alta, Príncipe de Gales y Plaza Egaña. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+        description: "Kinesiología a domicilio en La Reina: La Reina Alta, Príncipe de Gales y Plaza Egaña. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

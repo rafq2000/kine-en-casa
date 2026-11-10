@@ -17,7 +17,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: "Kinesiólogo a Domicilio en Lo Barnechea y La Dehesa | KINEUM",
-    description: "Kine a domicilio en Lo Barnechea: La Dehesa, Los Trapenses y El Arrayán. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+    description: "Kinesiología a domicilio en Lo Barnechea: La Dehesa, Los Trapenses y El Arrayán. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         "kinesiologo la dehesa",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Kinesiólogo a Domicilio en Lo Barnechea y La Dehesa | KINEUM",
-        description: "Kine a domicilio en Lo Barnechea: La Dehesa, Los Trapenses y El Arrayán. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+        description: "Kinesiología a domicilio en Lo Barnechea: La Dehesa, Los Trapenses y El Arrayán. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

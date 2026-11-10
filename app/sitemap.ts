@@ -15,7 +15,7 @@ const MODIFICADO: Record<string, string> = {
     '/': '2026-11-09',
     '/nosotros': '2026-11-09',
     '/servicios/geriatrica': '2026-10-07',
-    '/servicios/respiratoria': '2026-10-07',
+    '/servicios/respiratoria': '2026-11-09',
     '/servicios/neurologica': '2026-10-07',
     '/servicios/traumatologica': '2026-10-07',
     '/servicios/postquirurgica': '2026-10-05',

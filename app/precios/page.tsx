@@ -26,9 +26,9 @@ import { BOLETA_TEXTO, HORARIO_TEXTO } from "@/lib/negocio"
 import { comunas } from "@/lib/comunas-data"
 
 export const metadata: Metadata = {
-  title: "Kinesiólogo a Domicilio: desde $35.000 por sesión | KINEUM",
+  title: "Valor Kinesiólogo a Domicilio 2026: $35.000 por 60 Minutos",
   description:
-    "Kinesiología a domicilio en Santiago: 10 sesiones por $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Evaluación inicial gratis y boleta para Isapre.",
+    "Precios KINEUM en Santiago: 10 sesiones $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Sesiones de 60 min y evaluación inicial gratis en tu casa.",
   keywords: [
     "precio kinesiólogo a domicilio",
     "cuánto cuesta kinesiólogo domicilio",
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/precios",
   },
   openGraph: {
-    title: "Kinesiólogo a Domicilio: desde $35.000 por sesión | KINEUM",
+    title: "Valor Kinesiólogo a Domicilio 2026: $35.000 por 60 Minutos",
     description:
-      "Kinesiología a domicilio en Santiago: 10 sesiones por $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Evaluación inicial gratis y boleta para Isapre.",
+      "Precios KINEUM en Santiago: 10 sesiones $350.000 ($35.000 c/u) o 4 por $160.000 ($40.000 c/u). Sesiones de 60 min y evaluación inicial gratis en tu casa.",
     url: "https://kineum.cl/precios",
     type: "website",
     locale: "es_CL",
@@ -365,6 +365,40 @@ export default function PreciosPage() {
             La <strong>evaluación inicial es gratuita</strong> y recién después te decimos cuántas sesiones necesitas.
             Boleta reembolsable en tu Isapre y en tu seguro complementario, sin costo de traslado.
           </p>
+
+          <div className="overflow-x-auto max-w-3xl mx-auto mb-8 rounded-xl border border-slate-200 bg-white shadow-sm">
+            <table className="w-full text-left text-sm sm:text-base">
+              <caption className="sr-only">Valor de la kinesiología a domicilio en KINEUM por plan</caption>
+              <thead className="bg-slate-900 text-white">
+                <tr>
+                  <th scope="col" className="px-3 sm:px-4 py-3 font-semibold">Plan</th>
+                  <th scope="col" className="px-3 sm:px-4 py-3 font-semibold">Sesiones al mes</th>
+                  <th scope="col" className="px-3 sm:px-4 py-3 font-semibold">Total</th>
+                  <th scope="col" className="px-3 sm:px-4 py-3 font-semibold">Valor por sesión</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200 text-slate-700">
+                <tr>
+                  <th scope="row" className="px-3 sm:px-4 py-3 font-semibold text-slate-900">Essential</th>
+                  <td className="px-3 sm:px-4 py-3">4</td>
+                  <td className="px-3 sm:px-4 py-3">$160.000</td>
+                  <td className="px-3 sm:px-4 py-3">$40.000</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="px-3 sm:px-4 py-3 font-semibold text-slate-900">Premium</th>
+                  <td className="px-3 sm:px-4 py-3">10</td>
+                  <td className="px-3 sm:px-4 py-3">$350.000</td>
+                  <td className="px-3 sm:px-4 py-3">$35.000</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="px-3 sm:px-4 py-3 font-semibold text-slate-900">Elite</th>
+                  <td className="px-3 sm:px-4 py-3">a medida</td>
+                  <td className="px-3 sm:px-4 py-3">a consultar</td>
+                  <td className="px-3 sm:px-4 py-3">a consultar</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <p className="text-lg text-slate-600 mb-8 max-w-3xl mx-auto">
             Compara con lo que cobran otros servicios en{" "}

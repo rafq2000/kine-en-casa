@@ -18,7 +18,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: "Kinesiología a Domicilio en Santiago Centro | KINEUM",
-    description: "Kine a domicilio en Santiago Centro: Lastarria, Barrio Brasil y Yungay. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+    description: "Kinesiología a domicilio en Santiago Centro: Lastarria, Barrio Brasil y Yungay. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         `kine a domicilio ${comunaData.nombre}`,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Kinesiología a Domicilio en Santiago Centro | KINEUM",
-        description: "Kine a domicilio en Santiago Centro: Lastarria, Barrio Brasil y Yungay. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+        description: "Kinesiología a domicilio en Santiago Centro: Lastarria, Barrio Brasil y Yungay. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

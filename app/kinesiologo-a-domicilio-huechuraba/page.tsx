@@ -18,7 +18,7 @@ const comunaData = {
 
 export const metadata: Metadata = {
     title: "Kinesiología a Domicilio en Huechuraba | KINEUM",
-    description: "Kine a domicilio en Huechuraba: Ciudad Empresarial, Pedro Fontova y El Carmen. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+    description: "Kinesiología a domicilio en Huechuraba: Ciudad Empresarial, Pedro Fontova y El Carmen. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
     keywords: [
         `kinesiólogo a domicilio ${comunaData.nombre}`,
         "kinesiologia a domicilio huechuraba",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Kinesiología a Domicilio en Huechuraba | KINEUM",
-        description: "Kine a domicilio en Huechuraba: Ciudad Empresarial, Pedro Fontova y El Carmen. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+        description: "Kinesiología a domicilio en Huechuraba: Ciudad Empresarial, Pedro Fontova y El Carmen. Desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
         url: `https://kineum.cl/kinesiologo-a-domicilio-${comunaData.slug}`,
         type: "website",
         locale: "es_CL",

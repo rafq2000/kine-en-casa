@@ -4,8 +4,8 @@ import { getServicio } from "@/lib/servicios-contenido"
 
 const contenido = getServicio("respiratoria")!
 
-const title = "Kinesiología Respiratoria (KTR) a Domicilio Santiago"
-const description = "KTR a domicilio en Santiago para niños y adultos: bronquiolitis, SBO, neumonía y EPOC, con orden médica. Evaluación inicial gratuita."
+const title = "KTR a Domicilio: Kinesiología Respiratoria Niños y Adultos"
+const description = "KTR es kinesiterapia respiratoria: técnicas para movilizar y eliminar secreciones. A domicilio en Santiago para niños y adultos, con orden médica."
 
 export const metadata: Metadata = {
     title,
