@@ -403,7 +403,7 @@ export default function PreciosPage() {
       <section className="py-8 bg-white border-b border-slate-100">
         <div className="container mx-auto px-4">
           <p className="text-center text-slate-700 max-w-4xl mx-auto leading-relaxed">
-            Mismo valor y sin recargo por traslado en las 9 comunas que atendemos: kinesiólogo a domicilio en{" "}
+            Mismo valor y sin recargo por traslado en las 8 comunas que atendemos: kinesiólogo a domicilio en{" "}
             {comunas.map((c, i) => (
               <span key={c.slug}>
                 <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-amber-700 underline hover:text-amber-800">
@@ -542,7 +542,7 @@ export default function PreciosPage() {
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
-                <span>Atendemos solo en estas 9 comunas, sin recargo de traslado.</span>
+                <span>Atendemos solo en estas 8 comunas, sin recargo de traslado.</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />

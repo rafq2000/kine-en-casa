@@ -697,229 +697,140 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             }
         ]
     },
-    "penalolen": {
+    "huechuraba": {
         "centrosSalud": [
             {
-                "nombre": "Hospital Santiago Oriente Dr. Luis Tisné Brousse",
-                "tipo": "hospital público",
-                "nota": "Urgencia hospitalaria 24 h para adultos, en Av. Las Torres"
-            },
-            {
-                "nombre": "SAR Carol Urzúa",
+                "nombre": "SAR La Pincoya (Servicio de Alta Resolutividad)",
                 "tipo": "servicio de urgencia primaria (SAPU/SAR)",
-                "nota": "Urgencia primaria con atención infantil; días hábiles de tarde-noche, 24 h fines de semana y festivos"
+                "nota": "Urgencia de atención primaria, con atención pediátrica. No funciona las 24 horas; confirma el horario antes de ir"
             },
             {
-                "nombre": "SAPU La Faena",
+                "nombre": "SAPU Los Libertadores",
                 "tipo": "servicio de urgencia primaria (SAPU/SAR)",
-                "nota": "Urgencia primaria con atención infantil; días hábiles de tarde-noche, 24 h fines de semana y festivos"
+                "nota": "Urgencia de atención primaria. No funciona las 24 horas; confirma el horario por teléfono"
             },
             {
-                "nombre": "SAPU Lo Hermida",
-                "tipo": "servicio de urgencia primaria (SAPU/SAR)",
-                "nota": "Urgencia primaria con atención infantil; días hábiles de tarde-noche, 24 h fines de semana y festivos"
+                "nombre": "CESFAM La Pincoya (Av. Recoleta 5580)",
+                "tipo": "CESFAM",
+                "nota": "Centro de salud familiar del sector La Pincoya; atención por horario, no es servicio de urgencia"
             },
             {
-                "nombre": "SAPU San Luis",
-                "tipo": "servicio de urgencia primaria (SAPU/SAR)",
-                "nota": "Urgencia primaria con atención infantil; días hábiles de tarde-noche, 24 h fines de semana y festivos"
-            }
-        ],
-        "hub": {
-            "h2": "Kinesiología a domicilio en Peñalolén: de la villa a la ladera",
-            "parrafos": [
-                "Peñalolén sube hacia la precordillera oriente, y eso se nota en la rehabilitación. En Peñalolén Alto y en los faldeos, las calles con pendiente hacen que salir a caminar después de una lesión o una operación cueste más de lo que parece. Por eso adaptamos los ejercicios al espacio que tienes: el pasillo de una casa en Lo Hermida, el living de un condominio en ladera o el patio de una villa en San Luis o La Faena.",
-                "En los blocks de pocos pisos sin ascensor, la escalera pasa a ser parte del tratamiento. Si el alta es reciente o se trata de un adulto mayor, practicamos subir y bajar con seguridad antes de exigirlo a diario, y evaluamos si conviene hacer las primeras sesiones sin salir del departamento.",
-                "La kinesiología no reemplaza la atención médica: ante una emergencia médica, llama al SAMU 131. La urgencia hospitalaria 24 horas de la comuna, para adultos, está en el Hospital Santiago Oriente, en Av. Las Torres; los SAPU y el SAR municipales, que atienden niños, funcionan de tarde-noche en días hábiles y 24 horas los fines de semana y festivos. La Municipalidad además tiene el 1461, su número de emergencias comunal, las 24 horas. Si vienes saliendo de alta de un centro cercano, ten a mano tu epicrisis y las indicaciones médicas para la evaluación inicial gratuita: las seguimos, aunque no tenemos convenio con ningún centro."
-            ],
-            "faqs": [
-                {
-                    "q": "¿Cobran más por subir a Peñalolén Alto o a la Comunidad Ecológica?",
-                    "a": "No, el valor es el mismo en toda la comuna."
-                },
-                {
-                    "q": "¿Qué es el 1461 de Peñalolén?",
-                    "a": "Es el número de emergencias comunal de la Municipalidad, que funciona las 24 horas. Ante una emergencia médica, llama al SAMU 131."
-                }
-            ]
-        },
-        "especialidades": [
-            {
-                "slug": "kinesiologia-geriatrica",
-                "introLocal": "Para un adulto mayor en Peñalolén, salir de la casa muchas veces empieza con una cuesta. En Peñalolén Alto y en los faldeos cordilleranos, la calle con pendiente frente a la puerta puede ser el motivo por el que alguien deja de salir, y quedarse adentro suele acelerar la pérdida de fuerza y equilibrio. La kinesiología geriátrica a domicilio parte justamente ahí: evaluamos cómo camina tu familiar en su propio entorno y trabajamos fuerza de piernas, equilibrio y marcha con metas concretas, como volver a llegar a la esquina con apoyo. En las casas de uno o dos pisos de Lo Hermida, San Luis o La Faena revisamos escalones de entrada, patios con desniveles y el baño; en los blocks sin ascensor, la escalera se entrena paso a paso y con pasamanos. Si hay una caída con golpe en la cabeza, dolor intenso o no puede apoyar una pierna, llama primero al SAMU 131: la sesión puede esperar.",
-                "faqsLocales": [
-                    {
-                        "q": "Mi mamá vive en Peñalolén Alto y dejó de salir por la subida. ¿Sirve atenderla en la casa?",
-                        "a": "Sí. Primero trabajamos dentro de la casa fuerza, equilibrio y marcha. Cuando el kinesiólogo lo considera seguro, practicamos tramos cortos de la calle con pendiente, acompañada y con pausas. El ritmo de avance depende de cada persona y no se puede garantizar un plazo."
-                    },
-                    {
-                        "q": "Mi papá vive en un segundo piso de un block sin ascensor. ¿Pueden ayudarlo con la escalera?",
-                        "a": "Sí. En la evaluación inicial gratuita vemos la escalera y definimos si conviene entrenarla desde el comienzo o ganar fuerza antes dentro del departamento. Si ha tenido mareos o caídas recientes, conviene que también lo evalúe su médico."
-                    }
-                ]
+                "nombre": "CESFAM El Barrero (Las Petunias 305)",
+                "tipo": "CESFAM",
+                "nota": "Centro de salud familiar del sector El Barrero; atención por horario, no es servicio de urgencia"
             },
             {
-                "slug": "rehabilitacion-postquirurgica",
-                "introLocal": "Volver a casa después de una operación en Peñalolén suele significar enfrentarse a algo que en el hospital no estaba: la escalera del block, el desnivel de la entrada o la calle en subida hasta el auto. Con la rehabilitación postquirúrgica a domicilio te evitas justamente esos traslados en las primeras semanas, cuando cada salida cuesta y un mal paso pesa más. Si te dieron de alta en el Hospital Santiago Oriente o en otro centro, tu kinesiólogo trabaja con la epicrisis y las indicaciones de tu cirujano: cargas permitidas, rangos de movimiento y fechas de control. KINEUM no tiene convenio con ningún centro, así que eres tú quien nos comparte esa información en la evaluación inicial gratuita. En condominios en ladera y casas de dos pisos definimos por dónde moverte con seguridad y si conviene dormir en el primer piso los primeros días. Fiebre, una herida que supura, dolor que aumenta o una pierna hinchada son motivo para consultar a tu médico o ir a urgencia antes de seguir.",
-                "faqsLocales": [
-                    {
-                        "q": "Me operaron de una pierna y vivo en un block sin ascensor. ¿Cómo se practica la escalera en las sesiones?",
-                        "a": "Primero ganamos control y confianza dentro del departamento con la ayuda técnica que te indicaron. Cuando tu cirujano lo permite, practicamos la escalera con pasamanos y la regla habitual: al subir va primero la pierna sana y al bajar, la operada, junto al bastón o las muletas si los usas. Si aparece mareo o un dolor que aumenta, se detiene y se reevalúa."
-                    },
-                    {
-                        "q": "Vivo en un condominio en ladera y el auto queda abajo. ¿Cómo llego a los controles con el cirujano los primeros días?",
-                        "a": "En la evaluación revisamos el camino desde tu puerta hasta el auto y practicamos el tramo con pendiente y la forma de subir y bajar del vehículo según tu cirugía. Si todavía no es seguro hacerlo solo, conviene organizar ayuda de alguien de tu familia y comentarlo con tu cirujano."
-                    }
-                ]
+                "nombre": "CESFAM Dr. Salvador Allende Gossens (Av. Recoleta 6160)",
+                "tipo": "CESFAM",
+                "nota": "Centro de salud familiar en el eje Av. Recoleta; atención por horario, no es servicio de urgencia"
             },
             {
-                "slug": "kinesiologia-respiratoria",
-                "introLocal": "En kinesiología respiratoria, lo más útil que podemos dejarte en Peñalolén, además de las sesiones, es un plan claro para cuando algo no anda bien. A domicilio trabajamos técnicas de respiración, manejo de secreciones y tolerancia al esfuerzo en adultos y niños, según indicación médica, sin sacar a la calle a quien respira con dificultad. Conviene saber a dónde ir: los SAPU La Faena, Lo Hermida y San Luis y el SAR Carol Urzúa atienden niños, pero en días hábiles funcionan de tarde-noche; fines de semana y festivos, las 24 horas. Si un niño empeora cuando están cerrados, llama al SAMU 131. Para adultos, la urgencia hospitalaria 24 horas de la comuna es el Hospital Santiago Oriente, en Av. Las Torres. Costillas que se hunden al respirar, labios morados, respiración muy rápida o decaimiento marcado son motivo para llamar al SAMU 131 sin esperar la sesión. En los sectores altos, donde la pendiente exige más a quien tiene poca capacidad pulmonar, la vuelta a caminar afuera se gradúa con pausas planificadas.",
-                "faqsLocales": [
-                    {
-                        "q": "Si mi hijo tiene una crisis respiratoria un martes en la madrugada, ¿a dónde lo llevo en Peñalolén?",
-                        "a": "En la madrugada de un día hábil, los SAPU y el SAR de la comuna suelen estar cerrados, y el Hospital Santiago Oriente no figura como urgencia pediátrica. Si tu hijo respira con dificultad, llama al SAMU 131: te orientan y, si hace falta, lo trasladan. Conviene confirmar antes con la Municipalidad (1461) el horario vigente de los SAPU. La kinesiología respiratoria no reemplaza la urgencia."
-                    },
-                    {
-                        "q": "Mi abuelo vive en la parte alta de Peñalolén y se ahoga subiendo la calle. ¿Le sirve la kinesiología respiratoria?",
-                        "a": "Puede ayudar, con indicación de su médico. En casa trabajamos la respiración y la resistencia al esfuerzo y, cuando es seguro, tramos cortos de calle con pendiente. Si la falta de aire aparece en reposo o empeora de golpe, corresponde ir a urgencia o llamar al SAMU 131."
-                    }
-                ]
+                "nombre": "CECOSF Los Libertadores",
+                "tipo": "otro",
+                "nota": "Centro comunitario de salud familiar del sector Los Libertadores; atención por horario, no es servicio de urgencia"
             },
             {
-                "slug": "rehabilitacion-neurologica",
-                "introLocal": "Después de un ACV, o con una enfermedad como el Parkinson, la rehabilitación neurológica a domicilio suele rendir más porque se practica donde la persona vive, y en Peñalolén ese lugar cambia mucho de una casa a otra. En una villa de Lo Hermida o San Luis trabajamos los traslados dentro de la casa, el paso por puertas angostas y el escalón de entrada. En un condominio en ladera, las rampas y desniveles exteriores. En un block sin ascensor, evaluamos si la escalera es viable o si por ahora conviene ejercitar dentro del departamento. Incorporamos a la familia o al cuidador en las sesiones para que las transferencias y la marcha asistida se hagan igual el resto de la semana. Los avances suelen ser graduales y dependen del diagnóstico y del tiempo de evolución. Si aparecen síntomas nuevos, como pérdida súbita de fuerza, la cara desviada o dificultad para hablar, llama de inmediato al SAMU 131: puede ser un nuevo ACV y ninguna sesión debe retrasar esa atención.",
-                "faqsLocales": [
-                    {
-                        "q": "Mi papá tuvo un ACV y salir de la casa en Peñalolén Alto es muy difícil para él. ¿Cómo empiezan las sesiones?",
-                        "a": "Con una evaluación inicial gratuita en la casa. Partimos por lo de adentro: pasar de la cama a la silla, ir al baño y caminar con ayuda. La salida a la calle con pendiente se deja para cuando haya equilibrio suficiente, siempre acompañado. Conviene tener a mano las indicaciones de su neurólogo o fisiatra."
-                    },
-                    {
-                        "q": "¿Nos enseñan a la familia a ayudarlo en la escalera del block?",
-                        "a": "Sí, cuando es seguro hacerlo. Practicamos la técnica con el cuidador presente. Si la escalera todavía no es segura para él, te lo decimos con claridad y lo conversamos con su médico tratante."
-                    }
-                ]
-            },
-            {
-                "slug": "kinesiologia-traumatologica",
-                "introLocal": "Un esguince de tobillo o una lesión de rodilla se sienten distinto en Peñalolén Alto que en terreno plano: bajar una calle con pendiente carga más la articulación y exige más control que subirla. En kinesiología traumatológica a domicilio tomamos eso en cuenta para decidir cuándo vuelves a caminar por las calles en pendiente de los sectores altos o a retomar el trote. Mientras tanto, trabajamos en tu casa o departamento con ejercicios de fuerza, movilidad y equilibrio que no necesitan gimnasio. Si vives en un block sin ascensor, la escalera se incorpora como ejercicio graduado y no como una prueba diaria que agrava la lesión; en una casa de dos pisos, ensayamos la escalera interior con la técnica que corresponde. Si la lesión es reciente y hay deformidad, no puedes apoyar o el dolor es intenso, primero hay que descartar una fractura en un servicio de urgencia; si es un niño y los SAPU están cerrados, o no sabes a dónde ir, llama al SAMU 131.",
-                "faqsLocales": [
-                    {
-                        "q": "Me torcí el tobillo y vivo en una calle en subida. ¿Cuándo puedo volver a caminar por el barrio?",
-                        "a": "Depende de la lesión. Habitualmente se avanza de caminar en plano dentro de la casa a tramos cortos con pendiente, y la bajada se deja para después porque exige más control. Tu kinesiólogo lo va definiendo con pruebas simples en cada sesión, sin plazos garantizados."
-                    },
-                    {
-                        "q": "Vivo en un block sin ascensor y tengo una lesión de rodilla. ¿Cómo hago las primeras semanas?",
-                        "a": "Según la lesión y las indicaciones de tu médico, al comienzo suele convenir reducir las subidas y bajadas innecesarias, agrupar las salidas y usar siempre el pasamanos. En las sesiones practicamos la escalera con una técnica que cuida la rodilla y sumamos carga a medida que responde. Si la rodilla se hincha mucho, se bloquea o cede, consulta a tu médico."
-                    }
-                ]
-            }
-        ]
-    },
-    "macul": {
-        "centrosSalud": [
-            {
-                "nombre": "SAPU Santa Julia",
-                "tipo": "Servicio de urgencia primaria municipal (SAPU)",
-                "nota": "Urgencia con atención pediátrica; 24 horas solo fines de semana y festivos"
-            },
-            {
-                "nombre": "Centro Médico San Joaquín UC CHRISTUS (Emergencia UC CHRISTUS)",
-                "tipo": "Clínica privada",
-                "nota": "Urgencia ambulatoria en horario diurno, con atención pediátrica; Av. Vicuña Mackenna 4686, en Macul pese a su nombre"
-            },
-            {
-                "nombre": "Centro Médico Macul del Hospital Clínico Universidad de Chile",
+                "nombre": "IntegraMédica Norte (Mallplaza Norte, Av. Américo Vespucio 1731)",
                 "tipo": "Centro médico ambulatorio",
-                "nota": "Atención ambulatoria; sin urgencia 24 horas"
+                "nota": "Centro médico ambulatorio junto a Vespucio Norte; consultas con horario acotado, sin servicio de urgencia"
+            },
+            {
+                "nombre": "Hospital San José",
+                "tipo": "hospital público",
+                "nota": "Urgencia 24 h de adultos de referencia para la comuna. Está en Independencia, no en Huechuraba"
+            },
+            {
+                "nombre": "Hospital de Niños Dr. Roberto del Río",
+                "tipo": "hospital público",
+                "nota": "Urgencia pediátrica 24 h de referencia para la comuna. Está en Independencia, no en Huechuraba"
             }
         ],
         "hub": {
-            "h2": "Kinesiología a domicilio en Macul: lo que conviene saber",
+            "h2": "Kinesiología a domicilio en Huechuraba: del pasaje al condominio, y sin hospital en la comuna",
             "parrafos": [
-                "Macul es una comuna mayormente plana y residencial, donde predominan las casas de uno o dos pisos en villas y poblaciones. En ese tipo de vivienda, por lo general se puede habilitar un espacio para los ejercicios de marcha y fuerza, y el kinesiólogo llega con el equipamiento necesario. Distinto es el caso de las villas con blocks de pocos pisos sin ascensor: ahí la escalera es la principal barrera para una persona recién operada o un adulto mayor, y atenderse en el propio departamento evita ese tramo.",
-                "La comuna tiene buena conexión por Metro, con la Línea 5 por el borde de Vicuña Mackenna y la Línea 4 por el oriente. Pero moverse con dolor, con muletas o con una secuela neurológica no es lo mismo que hacerlo sano, y la sesión en casa te ahorra ese trayecto.",
-                "Dentro de Macul no hay un hospital de urgencia 24 horas; en esta página encontrarás los servicios de urgencia de la comuna y sus horarios. Ante dolor de pecho, dificultad grave para respirar o pérdida de conciencia, llama al SAMU (131). Si vienes saliendo de un alta, ten a mano la epicrisis y las indicaciones de tu médico para la evaluación inicial gratuita."
+                "Huechuraba se atiende distinto según de qué lado vivas. En La Pincoya y El Barrero hay pasajes estrechos y blocks de pocos pisos sin ascensor: avísanos el piso y si hay escalera al coordinar, porque el kinesiólogo sube con camilla y equipamiento. En Pedro Fontova, El Carmen y Santa Marta predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería. Al pie de los cerros Punta Mocha y La Región varias calles quedan en subida, algo que se considera al planificar la marcha.",
+                "Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores, con horarios acotados que conviene confirmar por teléfono. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131: la kinesiología no reemplaza esa atención.",
+                "Si vuelves a casa tras una hospitalización, ten a mano la epicrisis y las indicaciones médicas para la evaluación inicial gratuita: con eso el kinesiólogo continúa lo que se hizo en el hospital, sin cruzar Vespucio Norte varias veces por semana. KINEUM es un servicio particular, sin convenio con hospitales ni clínicas, y entrega boleta de honorarios electrónica para reembolso en tu Isapre o seguro complementario, según tu plan."
             ],
             "faqs": [
                 {
-                    "q": "¿Hay un hospital con urgencia 24 horas en Macul?",
-                    "a": "No. Dentro de Macul no hay un hospital de urgencia 24 horas; en esta página encontrarás los servicios de urgencia de la comuna y sus horarios. Ante dolor de pecho, dificultad grave para respirar o pérdida de conciencia, llama al SAMU (131)."
+                    "q": "¿Hay hospital o urgencia hospitalaria dentro de Huechuraba?",
+                    "a": "No. Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores, con horarios acotados que conviene confirmar por teléfono. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131."
                 },
                 {
-                    "q": "Vivo cerca del Metro en Macul, ¿igual conviene la atención en casa?",
-                    "a": "Moverse con dolor, con muletas o con una secuela neurológica no es lo mismo que hacerlo sano, y la sesión en casa te ahorra ese trayecto."
+                    "q": "¿Atienden en los condominios de Pedro Fontova, El Carmen y Santa Marta y en las torres de Ciudad Empresarial?",
+                    "a": "Sí. En Pedro Fontova, El Carmen y Santa Marta predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería."
                 }
             ]
         },
         "especialidades": [
             {
                 "slug": "kinesiologia-geriatrica",
-                "introLocal": "En Macul muchos adultos mayores viven en casas de uno o dos pisos, y es en esos espacios donde se juega su autonomía: la escalera interior que lleva a los dormitorios, el escalón entre la cocina y el patio, el trayecto al baño en la noche. La kinesiología geriátrica a domicilio trabaja sobre esos recorridos reales, con ejercicios de equilibrio, fuerza de piernas y marcha adaptados a cada persona.\n\nEn la casa se ve lo que en una consulta no aparece: una alfombra suelta, un pasillo sin luz de noche, una silla demasiado baja. Cuando corresponde, el kinesiólogo sugiere ajustes simples para reducir el riesgo de caídas y, según el caso, conversa con la familia si conviene que la persona duerma en el primer piso mientras gana fuerza. Las sesiones duran cerca de 60 minutos y la familia puede estar presente para aprender a acompañar los ejercicios entre visitas. La evaluación inicial es gratuita y sirve para definir la frecuencia y los objetivos.",
+                "introLocal": "En Huechuraba, la kinesiología geriátrica a domicilio empieza por el tramo que decide si la persona sale o se queda encerrada. En la autoconstrucción de La Pincoya y El Barrero ese tramo suele ser el peldaño de la entrada, muchas veces sin baranda donde afirmarse, seguido de un pasaje angosto donde no cabe un andador de lado a lado. Ahí trabajamos fuerza de piernas y el gesto exacto de subir y bajar ese escalón, primero con apoyo del kinesiólogo y después con el punto de apoyo que existe en la casa. En los condominios de casas de Pedro Fontova, El Carmen o Santa Marta el problema es otro: la calle interior es segura y sin tráfico, pero tiene pendiente porque el sector está al pie de los cerros, así que la subida y la bajada se entrenan por separado y en distancias cortas. En Ciudad Empresarial, el hall y el ascensor sirven de circuito cuando afuera hace frío. Tras una caída con golpe en la cabeza, confusión o dolor intenso, primero va la evaluación médica.",
                 "faqsLocales": [
                     {
-                        "q": "Mi mamá vive en una casa de dos pisos en Macul y le cuesta subir al dormitorio, ¿conviene bajarla al primer piso?",
-                        "a": "Depende de su estado. En la evaluación inicial gratuita el kinesiólogo observa cómo sube y baja la escalera y te orienta: a veces basta con trabajar fuerza y equilibrio y practicar la escalera con supervisión; otras veces conviene un cambio transitorio mientras progresa. Si su médico dio una indicación al respecto, esa manda."
+                        "q": "Mi papá vive solo en El Barrero y le da miedo el escalón de la entrada. ¿Se puede trabajar eso en la sesión?",
+                        "a": "Sí, y suele ser lo primero. Evaluamos su fuerza, su equilibrio y qué tiene realmente para afirmarse en esa entrada, y practicamos el escalón tal como está, con el apoyo que exista. Si no hay ninguno seguro, te indicamos qué apoyo conviene evaluar; la instalación la resuelve la familia, nosotros no hacemos obras en la casa."
                     },
                     {
-                        "q": "Si mi papá se cae en la casa, ¿qué hago antes de llamar al kinesiólogo?",
-                        "a": "Si se golpeó la cabeza, perdió el conocimiento o no puede levantarse, no lo muevas a la fuerza y llama al SAMU (131). Si logra levantarse, igual conviene que lo evalúe un médico; en esta página tienes los servicios de urgencia de Macul. La kinesiología viene después, para recuperar confianza y prevenir nuevas caídas."
+                        "q": "Vivimos en un condominio de Santa Marta con calles internas en subida. ¿Sirven para las caminatas de mi mamá?",
+                        "a": "Suelen servir, porque son tranquilas y sin tráfico. Empezamos por los tramos planos y recién después sumamos la subida, que exige más al corazón y a las piernas, y la bajada, que carga más las rodillas. El kinesiólogo define la distancia, el ritmo y si conviene bastón o acompañante."
                     }
                 ]
             },
             {
                 "slug": "rehabilitacion-postquirurgica",
-                "introLocal": "Volver a un block sin ascensor en Macul después de una cirugía cambia la rutina: cada salida significa subir y bajar escaleras con muletas o andador, y en las primeras semanas ese esfuerzo puede pesar más que la rehabilitación misma. En la rehabilitación postquirúrgica a domicilio el kinesiólogo sube a tu departamento, así que no dependes de alguien que te ayude a bajar ni de buscar locomoción.\n\nTrabajamos según las indicaciones de tu traumatólogo o cirujano: movilidad, manejo del dolor con técnicas kinésicas, fuerza progresiva y entrenamiento de marcha con la ayuda técnica indicada. La escalera del edificio se incorpora al plan solo cuando tu médico lo autoriza. No importa en qué centro te operaron; para la evaluación inicial gratuita basta con tener el protocolo o la epicrisis. Si notas fiebre, la herida enrojecida o con secreción, o dolor e hinchazón que aumentan en la pantorrilla, consulta a tu médico sin esperar la sesión. Si además aparece falta de aire repentina o dolor en el pecho, llama de inmediato al SAMU (131).",
+                "introLocal": "El alta quirúrgica te devuelve a una comuna sin hospital propio: los controles con el cirujano quedan fuera de Huechuraba, y repetir ese viaje por Av. Recoleta o Vespucio Norte dos o tres veces por semana es justo lo que más cuesta cuando recién te operaron la cadera, la rodilla, el hombro o la columna. La rehabilitación postquirúrgica a domicilio deja esos traslados solo para los controles médicos. Lo que cambia el plan acá es la puerta de tu casa: si vives en una torre de Ciudad Empresarial, el ascensor y el estacionamiento subterráneo hacen que tus primeras salidas con muletas sean cortas y bajo techo; si vives en un block sin ascensor o en una casa con escalones en La Pincoya, ese tramo hay que practicarlo antes de que tengas que usarlo para ir al control, y conviene tenerlo resuelto con quien te acompañe. El kinesiólogo trabaja dentro de lo que autorizó tu cirujano. Fiebre, herida con secreción o dolor que aumenta de golpe son motivo de consulta médica pronta; falta de aire repentina o dolor en el pecho, SAMU 131.",
                 "faqsLocales": [
                     {
-                        "q": "¿Cuándo voy a poder bajar la escalera de mi block en Macul después de la operación?",
-                        "a": "No hay un plazo fijo: depende de la cirugía, de las indicaciones de tu médico y de cómo avances. Primero se trabaja movilidad y fuerza dentro del departamento; cuando el médico lo autoriza y la evaluación lo respalda, se practica la escalera con supervisión, de a pocos escalones."
+                        "q": "Me dan el alta en el Hospital San José y vuelvo a mi casa en Huechuraba. ¿Pueden empezar ahí?",
+                        "a": "Sí, siempre que tu equipo tratante lo indique. Lleva la epicrisis y las indicaciones escritas a la evaluación inicial gratuita y con eso se arma el plan. KINEUM no tiene convenio con hospitales ni clínicas: contratas de forma particular y recibes boleta de honorarios electrónica para pedir reembolso en tu Isapre o seguro complementario, según tu plan."
                     },
                     {
-                        "q": "Me dieron el alta en un centro cercano a Macul, ¿ustedes coordinan con ellos?",
-                        "a": "No tenemos convenio con clínicas ni centros de salud. Trabajamos con la documentación que te entregaron al alta (epicrisis, protocolo e indicaciones del cirujano) y, si surge una duda clínica, te pedimos consultarla con tu médico tratante."
+                        "q": "Vivo en una torre de Ciudad Empresarial con conserjería. ¿Cómo entra el kinesiólogo con la camilla?",
+                        "a": "Avisa en portería el día anterior y deja registrado el nombre del kinesiólogo. El equipo es portátil y sube en el ascensor sin problema; si el edificio exige entrada por el subterráneo o algún registro especial, cuéntanoslo al coordinar por WhatsApp para llegar a la hora acordada."
                     }
                 ]
             },
             {
                 "slug": "kinesiologia-respiratoria",
-                "introLocal": "Para un niño con bronquitis obstructiva o un adulto mayor con secreciones, la kinesiología respiratoria en casa evita salir con frío y esperar en una sala llena. En Macul hay un dato que conviene tener claro: dentro de la comuna no hay urgencia 24 horas todos los días. El SAPU Santa Julia atiende urgencias con atención pediátrica, pero funciona 24 horas solo fines de semana y festivos; el Centro Médico San Joaquín UC CHRISTUS, en Av. Vicuña Mackenna 4686, recibe urgencias ambulatorias en horario diurno, también pediátricas.\n\nPor eso en la primera visita repasamos contigo las señales de alarma y a dónde ir según el día y la hora: respiración muy rápida, hundimiento de costillas, labios morados, somnolencia o que el niño deje de alimentarse. Frente a esas señales, la urgencia o el SAMU (131) van primero que cualquier sesión. La kinesiología respiratoria complementa el tratamiento del pediatra o del médico, con técnicas para despejar la vía aérea y educación para la familia.",
+                "introLocal": "En Huechuraba, lo que más tranquiliza a una familia con un niño que se enferma de los bronquios no es la técnica de la sesión, sino tener anotado en el refrigerador qué hacer si el cuadro se sale de control. La puerta pediátrica dentro de la comuna es el SAR La Pincoya, que atiende urgencia de atención primaria pero no funciona las 24 horas; del SAPU Los Libertadores no hay confirmación de atención pediátrica, así que no conviene llegar ahí con una guagua sin llamar antes. Cerrada esa ventana, el trayecto real es hacia la urgencia pediátrica del Hospital Roberto del Río, en Independencia. Por eso en la primera visita dejamos anotados los teléfonos y el orden en que hay que usarlos. Si el niño respira con esfuerzo evidente, se pone morado o deja de alimentarse, eso no espera la sesión: SAMU 131. La sesión en casa evita abrigarlo y subirlo al auto con fiebre para cruzar Vespucio Norte, y en adultos que salen de una neumonía permite espaciar las salidas mientras recuperan tolerancia al esfuerzo.",
                 "faqsLocales": [
                     {
-                        "q": "Si mi hijo empeora de noche un día de semana, ¿a dónde lo llevo desde Macul?",
-                        "a": "Si tiene dificultad respiratoria importante, llama al SAMU (131) o acude al servicio de urgencia abierto más cercano. Ten presente que el SAPU Santa Julia funciona 24 horas solo fines de semana y festivos, y que la urgencia del Centro Médico San Joaquín UC CHRISTUS atiende en horario diurno; conviene que confirmes con tu pediatra cuál es tu urgencia de referencia en la noche."
+                        "q": "Es de madrugada y mi hijo respira con mucho esfuerzo. ¿A dónde lo llevo desde Huechuraba?",
+                        "a": "Llama al SAMU al 131. El SAR La Pincoya y el SAPU Los Libertadores son urgencias de atención primaria con horarios acotados, que conviene confirmar por teléfono; la urgencia pediátrica hospitalaria de referencia es la del Hospital Roberto del Río, en Independencia. La kinesiología respiratoria no reemplaza esa atención."
                     },
                     {
-                        "q": "Vivimos en Macul, ¿conviene agendar la kinesiología respiratoria de mi hijo en la mañana?",
-                        "a": "Suele ser práctico: si durante la sesión el kinesiólogo detecta señales de alarma, en horario diurno tienes disponible la urgencia ambulatoria del Centro Médico San Joaquín UC CHRISTUS, dentro de la comuna. De todas formas, si el niño está muy decaído o respira con mucha dificultad, llama al SAMU (131) a cualquier hora."
+                        "q": "El pediatra indicó kinesiología respiratoria. ¿Pueden venir un fin de semana a Huechuraba?",
+                        "a": "Sí, atendemos de lunes a domingo y coordinamos la hora por WhatsApp al +56 9 9967 9593. Eso evita sacar de la casa a un niño con fiebre. Si durante el fin de semana aparecen señales de alarma, no esperes la sesión: urgencia o SAMU 131."
                     }
                 ]
             },
             {
                 "slug": "rehabilitacion-neurologica",
-                "introLocal": "Después de un ACV o con un diagnóstico como Parkinson, lo que más importa es recuperar lo que se hace en la propia casa: levantarse de la cama, caminar hasta la cocina, sentarse y pararse con seguridad. Las casas de uno o dos pisos que predominan en las villas de Macul permiten entrenar esos recorridos tal como son, con sus pasillos, marcos de puerta y desniveles, en vez de ejercicios que después cuesta llevar a la vida diaria.\n\nLa rehabilitación neurológica a domicilio también mira a quien cuida. Le enseñamos a ayudar en el paso de la cama a la silla, a acompañar la marcha sin cargar el peso con la espalda y a repetir los ejercicios en los días sin sesión, porque la constancia suele ser clave. Cuando hace falta, sugerimos ajustes simples, como despejar un pasillo o ubicar un apoyo junto a la puerta del baño. El plan se ajusta a la evaluación y a las indicaciones del neurólogo o fisiatra. Ante síntomas nuevos y bruscos, como pérdida de fuerza en un lado del cuerpo o dificultad para hablar, llama de inmediato al SAMU (131).",
+                "introLocal": "Después de un ACV, lo que se juega en Huechuraba es la logística del día a día. El control neurológico queda cruzando hacia Independencia y dentro de la comuna el Metro solo toca el borde sur, con Vespucio Norte en la Línea 2 y Los Libertadores en la Línea 3, así que casi todo lo demás se hace en micro o en auto. Cada sesión que no obliga a mover a la persona es una salida menos que organizar. Si vives en un block de La Pincoya sin ascensor, lo primero suele ser resolver cómo se baja la escalera con ayuda, porque de eso dependen los controles médicos; si vives en una torre de Ciudad Empresarial, el ascensor y el hall permiten practicar la salida a la calle desde temprano, y en los condominios de casas de Pedro Fontova el objetivo es el desnivel de la entrada y el recorrido por la calle interior. Le enseñamos a quien cuida a asistir sin lesionarse la espalda y a repartir el esfuerzo entre dos personas cuando hace falta. Ante pérdida súbita de fuerza, dificultad para hablar o la cara desviada, SAMU 131.",
                 "faqsLocales": [
                     {
-                        "q": "Mi papá tuvo un ACV y su casa en Macul tiene pasillos angostos, ¿igual se puede hacer la rehabilitación ahí?",
-                        "a": "Por lo general sí. En la evaluación inicial gratuita el kinesiólogo revisa por dónde se mueve tu papá, si pasan la silla o el andador y qué conviene despejar o reorganizar. Los objetivos y la frecuencia se definen según su estado y las indicaciones de su médico."
+                        "q": "Mi papá volvió del hospital en silla de ruedas y vivimos en un tercer piso sin ascensor en La Pincoya. ¿Cómo lo bajamos para el control en Independencia?",
+                        "a": "Eso se planifica antes, no el día del control. Evaluamos cuánto puede colaborar él, entrenamos con ustedes la técnica de traslado tramo a tramo y el uso del descanso entre pisos, y definimos si hacen falta dos personas o un servicio de traslado. Si la escalera no es segura tal como está, te lo decimos y conviene preguntar a su equipo tratante si algún control se puede resolver de otra forma."
                     },
                     {
-                        "q": "¿Qué hago si mi familiar presenta síntomas nuevos entre sesiones?",
-                        "a": "Pérdida brusca de fuerza, cara desviada o dificultad para hablar son una emergencia: llama al SAMU (131) sin esperar. En Macul no hay urgencia hospitalaria 24 horas, por eso lo más seguro es llamar al SAMU en vez de trasladarlo por tu cuenta."
+                        "q": "No tenemos auto y el Metro nos queda en el borde de la comuna. ¿Eso complica la rehabilitación?",
+                        "a": "Para las sesiones no: el kinesiólogo llega a tu casa de lunes a domingo, con hora fija coordinada por WhatsApp al +56 9 9967 9593. Lo que sí conviene es agrupar los controles médicos fuera de la comuna y pedir las indicaciones por escrito, para que cada viaje rinda y el trabajo en casa siga la misma línea."
                     }
                 ]
             },
             {
                 "slug": "kinesiologia-traumatologica",
-                "introLocal": "Esguince de tobillo, lumbago, dolor de hombro o de rodilla: en la kinesiología traumatológica a domicilio el tratamiento parte en tu casa, sin manejar ni tomar el Metro con dolor. Macul tiene buena conexión por la Línea 5 y la Línea 4, pero con una lesión reciente incluso caminar hasta la estación y usar sus escaleras puede aumentar las molestias.\n\nEn casa el kinesiólogo trabaja con terapia manual, ejercicio terapéutico progresivo y, según el caso, otras técnicas kinésicas. En las casas de uno o dos pisos que predominan en la comuna, por lo general se puede habilitar un espacio para los ejercicios de fuerza y equilibrio, y para enseñarte una rutina que puedas repetir por tu cuenta entre sesiones. Atendemos de lunes a domingo, así la rehabilitación no choca con tu jornada. Si la lesión trae deformidad visible, no puedes apoyar el pie o el dolor es muy intenso, primero necesitas evaluación médica: en esta página encontrarás los servicios de urgencia de Macul.",
+                "introLocal": "La kinesiología traumatológica a domicilio trata esguinces, lumbago, hombro doloroso, tendinopatías y secuelas de una fractura ya consolidada. En Huechuraba conviene definir desde el comienzo para qué terreno estás entrenando, porque no es lo mismo volver a un pasaje plano de El Barrero que a una calle en cuesta al pie de los cerros Punta Mocha y La Región: si tu casa queda en subida, el alta funcional recién llega cuando esa cuesta deja de doler al día siguiente. Si trabajas en las oficinas de Ciudad Empresarial, el cuadro suele ser otro: muchas horas sentado, el auto o el bus por Vespucio Norte y una espalda que reclama al final del día, así que revisamos tu puesto, tus pausas y cómo cargas el bolso. Y si vives en un block, la escalera pasa a ser parte del entrenamiento de carga en vez de algo que evitar. Usamos terapia manual y ejercicio progresivo; los plazos dependen de tu lesión y de tu respuesta, así que no comprometemos fechas. Si tras un golpe hay deformidad o no logras apoyar, eso se descarta antes con radiografía.",
                 "faqsLocales": [
                     {
-                        "q": "Me torcí el tobillo jugando a la pelota en Macul, ¿voy primero a urgencia o llamo al kinesiólogo?",
-                        "a": "Si no puedes apoyar el pie, hay deformidad o el dolor es muy intenso, primero necesitas evaluación médica y probablemente una radiografía; revisa en esta página los servicios de urgencia de la comuna y sus horarios. Con el diagnóstico listo, la kinesiología en casa suele ser el paso siguiente."
+                        "q": "Trabajo en una oficina de Ciudad Empresarial y ando con lumbago hace dos semanas. ¿Pueden atenderme al terminar la jornada?",
+                        "a": "Sí. Atendemos de lunes a domingo y la hora se fija al coordinar por WhatsApp, así que puede ser al salir del trabajo, en tu casa. La sesión dura alrededor de 60 minutos e incluye terapia manual, ejercicio y ajustes a tu puesto y tus pausas, sin sumar otro traslado por Vespucio Norte."
                     },
                     {
-                        "q": "Me lesioné un sábado en Macul y el lunes tengo que trabajar, ¿puedo empezar la kinesiología el mismo fin de semana?",
-                        "a": "Si un médico ya te evaluó y descartó una lesión que requiera otro manejo, sí: atendemos de lunes a domingo, así que la evaluación inicial gratuita puede ser ese mismo fin de semana, según disponibilidad. Si todavía no te ha visto un médico y el dolor es intenso o no puedes apoyar, parte por un servicio de urgencia."
+                        "q": "Me caí un domingo por la tarde y la muñeca quedó hinchada. ¿Voy a un SAPU de Huechuraba?",
+                        "a": "Si hay deformidad, no puedes mover los dedos o el dolor es muy intenso, necesitas evaluación médica y probablemente una radiografía. Dentro de la comuna la urgencia es de atención primaria y con horario acotado, así que confirma por teléfono antes de salir; la urgencia hospitalaria de adultos de referencia es el Hospital San José, en Independencia. Con el diagnóstico en mano, la kinesiología parte en tu casa."
                     }
                 ]
             }

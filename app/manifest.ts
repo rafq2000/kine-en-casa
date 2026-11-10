@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "KINEUM - Kinesiología a Domicilio Santiago",
     short_name: "KINEUM",
     description:
-      "Kinesiología a domicilio en 9 comunas de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Geriátrica, respiratoria, traumatológica, neurológica y postquirúrgica.",
+      "Kinesiología a domicilio en 8 comunas de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Geriátrica, respiratoria, traumatológica, neurológica y postquirúrgica.",
     start_url: "/",
     display: "standalone",
     theme_color: "#0f172a",

@@ -17,13 +17,14 @@ const nextConfig = {
         destination: 'https://kineum.cl/:path*',
         permanent: true,
       },
-      // Comunas fuera de cobertura desde el 29-09-2026 (solo sector oriente)
+      // Comunas fuera de cobertura: las del 29-09-2026 y, desde el 9-nov-2026, Peñalolén y Macul
       ...rutasRetiradas.map((r) => ({ source: r.de, destination: r.a, permanent: true })),
-      // Fase 2 (T37, opción A, 7-oct-2026): las 45 páginas especialidad+comuna se consolidaron en su hub.
-      // El destino no lleva #especialidad: Next lo codificaría como %23. Solo las 9 comunas vigentes.
+      // Fase 2 (T37, opción A, 7-oct-2026): las páginas especialidad+comuna se consolidaron en su hub.
+      // El destino no lleva #especialidad: Next lo codificaría como %23. Solo las 8 comunas vigentes
+      // (9-nov-2026: entra huechuraba; penalolen y macul pasaron a lib/rutas-retiradas.mjs).
       {
         source:
-          '/:esp(kinesiologia-geriatrica|kinesiologia-respiratoria|kinesiologia-traumatologica|rehabilitacion-neurologica|rehabilitacion-postquirurgica)-:comuna(las-condes|vitacura|providencia|nunoa|la-reina|lo-barnechea|penalolen|macul|santiago-centro)',
+          '/:esp(kinesiologia-geriatrica|kinesiologia-respiratoria|kinesiologia-traumatologica|rehabilitacion-neurologica|rehabilitacion-postquirurgica)-:comuna(las-condes|vitacura|providencia|nunoa|la-reina|lo-barnechea|huechuraba|santiago-centro)',
         destination: '/kinesiologo-a-domicilio-:comuna',
         permanent: true,
       },

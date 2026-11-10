@@ -6,7 +6,7 @@ const contenido = getServicio("nosotros")!
 
 const title = "Quiénes Somos: Equipo de Kinesiología KINEUM"
 const description =
-    "Qué le exigimos a cada kinesiólogo de KINEUM, cómo trabajamos a domicilio en 9 comunas de Santiago y los datos de Kineum SpA para que los verifiques."
+    "Qué le exigimos a cada kinesiólogo de KINEUM, cómo trabajamos a domicilio en 8 comunas de Santiago y los datos de Kineum SpA para que los verifiques."
 
 export const metadata: Metadata = {
     title,

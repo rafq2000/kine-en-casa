@@ -155,45 +155,24 @@ export const comunas: Comuna[] = [
         llegada: PRIMERA_VISITA_TEXTO,
     },
     {
-        nombre: "Peñalolén",
-        slug: "penalolen",
+        nombre: "Huechuraba",
+        slug: "huechuraba",
         provincia: "Santiago",
-        zona: "oriente",
+        zona: "norte",
         cobertura: "full",
         sectores: [
-            "Peñalolén Alto",
-            "Comunidad Ecológica",
-            "San Luis",
-            "Lo Hermida",
-            "Consistorial",
-            "Avenida Grecia",
-            "Quilín Oriente",
-            "Peñalolén Nuevo",
+            "Ciudad Empresarial",
+            "Pedro Fontova Norte",
+            "El Carmen de Huechuraba",
+            "Santa Marta de Huechuraba",
+            "Bosques de la Pirámide",
+            "La Pincoya",
+            "El Barrero",
+            "Villa Los Libertadores",
         ],
         contexto:
-            "Peñalolén va de Avenida Grecia y Quilín hasta la zona precordillera: atendemos en toda la comuna, incluidos los sectores altos, sin recargo por traslado.",
-        referencias: "cerca de Av. Grecia, Tobalaba sur y la Comunidad Ecológica",
-        llegada: PRIMERA_VISITA_TEXTO,
-    },
-    {
-        nombre: "Macul",
-        slug: "macul",
-        provincia: "Santiago",
-        zona: "oriente",
-        cobertura: "full",
-        sectores: [
-            "Villa Macul",
-            "Quilín",
-            "Santa Julia",
-            "Rodrigo de Araya",
-            "Macul Centro",
-            "Los Presidentes",
-            "Eje Vicuña Mackenna",
-            "Campus San Joaquín",
-        ],
-        contexto:
-            "Macul es una comuna residencial entre Vicuña Mackenna, Quilín y Departamental: la sesión se hace completa en tu casa, sin recargo por traslado.",
-        referencias: "cerca de Vicuña Mackenna, Quilín y Departamental",
+            "Huechuraba va de Ciudad Empresarial, Pedro Fontova, El Carmen y Santa Marta a La Pincoya y El Barrero, al pie de los cerros del norte de Santiago: atendemos en toda la comuna, sin recargo por traslado.",
+        referencias: "cerca de Vespucio Norte, el Túnel San Cristóbal y los ejes Av. Recoleta y Av. Pedro Fontova",
         llegada: PRIMERA_VISITA_TEXTO,
     },
     {
@@ -223,7 +202,7 @@ export function getComuna(slug: string) {
     return comunas.find((c) => c.slug === slug)
 }
 
-/** Comunas con cobertura completa (hoy, las 9). */
+/** Comunas con cobertura completa (hoy, las 8). */
 export const comunasFull = comunas.filter((c) => c.cobertura === "full")
 
 /**

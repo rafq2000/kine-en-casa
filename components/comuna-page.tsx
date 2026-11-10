@@ -185,7 +185,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     <div className="max-w-4xl">
                         <Badge className="mb-5 bg-slate-900 text-white border-slate-800 px-4 py-1.5">
                             <MapPin className="h-3.5 w-3.5 mr-2" />
-                            {comuna?.zona === "centro" ? `${data.nombre}, centro de Santiago` : `${data.nombre}, sector oriente de Santiago`}
+                            {data.nombre}, {comuna?.zona === "centro" ? "centro" : comuna?.zona === "norte" ? "sector norte" : "sector oriente"} de Santiago
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
                             Kinesiólogo a Domicilio en <span className="text-amber-700">{data.nombre}</span>

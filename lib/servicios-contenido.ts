@@ -3,7 +3,7 @@
 //
 // Regla anti-canibalizacion: estas paginas responden QUE es el tratamiento, PARA QUIEN,
 // COMO funciona y CUANDO consultar, a nivel Santiago. El DONDE (sectores, comunas)
-// vive en los 9 hubs /kinesiologo-a-domicilio-{comuna}, cada uno con sus 5 especialidades (T37).
+// vive en los 8 hubs /kinesiologo-a-domicilio-{comuna}, cada uno con sus 5 especialidades (T37).
 //
 // Regla de veracidad: prohibido incluir nombres de profesionales, numeros de registro,
 // cantidad de pacientes, años de trayectoria, premios o convenios. Solo datos verificables.
@@ -660,7 +660,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                     'Razón social: Kineum SpA.',
                     'Dirección: Av. Apoquindo 4501, Las Condes, Santiago.',
                     'Teléfono y WhatsApp: +56 9 9967 9593.',
-                    'Cobertura: 9 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro.',
+                    'Cobertura: 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.',
                 ],
             },
             {

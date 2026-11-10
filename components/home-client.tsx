@@ -58,7 +58,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿En qué comunas de Santiago atienden a domicilio?",
-        acceptedAnswer: { "@type": "Answer", text: "Atendemos 9 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 9 comunas." }
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas." }
       },
       {
         "@type": "Question",
@@ -332,7 +332,7 @@ export default function HomePage() {
               </Link>
               <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                 <MapPin className="h-5 w-5 text-slate-700 mb-2" />
-                <p className="text-sm font-semibold text-slate-900">9 comunas del sector oriente y centro</p>
+                <p className="text-sm font-semibold text-slate-900">8 comunas del sector oriente y centro</p>
                 <p className="text-sm text-slate-600">Lunes a domingo</p>
               </div>
             </div>
@@ -482,7 +482,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold mb-3 text-white">Lunes a domingo</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
                 Sesiones de 60 minutos en un horario que coordinamos contigo, también fines de semana,
-                en las 9 comunas del sector oriente y centro de Santiago.
+                en las 8 comunas del sector oriente y centro de Santiago.
               </p>
             </div>
           </div>
@@ -715,7 +715,7 @@ export default function HomePage() {
               <MapPin className="h-10 w-10 mx-auto mb-4 text-amber-400" />
               <h3 className="font-bold text-xl mb-3">Cobertura Completa</h3>
               <p className="text-slate-300 leading-relaxed">
-                Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago
+                Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago
                 Centro. Cada comuna con su propia página y sus sectores.
               </p>
             </div>
@@ -757,7 +757,7 @@ export default function HomePage() {
               <span className="text-amber-700">el Sector Oriente y Centro de Santiago</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Atendemos en el domicilio del paciente en 9 comunas del sector oriente y centro de Santiago. Entra a tu comuna
+              Atendemos en el domicilio del paciente en 8 comunas del sector oriente y centro de Santiago. Entra a tu comuna
               para ver los sectores que cubrimos, o revisa la{" "}
               <a href="/cobertura" className="text-amber-700 font-medium hover:underline">
                 cobertura completa comuna por comuna
@@ -863,7 +863,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
-              <p className="text-slate-600">Atendemos 9 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 9 comunas.</p>
+              <p className="text-slate-600">Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>

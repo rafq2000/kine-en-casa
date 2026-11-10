@@ -48,7 +48,7 @@ export function GET() {
 
     const txt = `# KINEUM — Kinesiología a domicilio en el sector oriente y centro de Santiago (Chile)
 
-> KINEUM atiende kinesiología y rehabilitación en el domicilio del paciente en 9 comunas del sector oriente y centro de Santiago de Chile: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Es un servicio PARTICULAR: se paga directo y se emite boleta de honorarios electrónica, que el paciente puede presentar a reembolso en su Isapre o en su seguro complementario según la cobertura de su plan. No emite bonos de ningún sistema previsional ni tiene convenio con isapres, clínicas u hospitales.
+> KINEUM atiende kinesiología y rehabilitación en el domicilio del paciente en 8 comunas del sector oriente y centro de Santiago de Chile: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Es un servicio PARTICULAR: se paga directo y se emite boleta de honorarios electrónica, que el paciente puede presentar a reembolso en su Isapre o en su seguro complementario según la cobertura de su plan. No emite bonos de ningún sistema previsional ni tiene convenio con isapres, clínicas u hospitales.
 
 ## Contacto
 - Sitio: ${SITIO}
@@ -76,7 +76,7 @@ export function GET() {
 Plan Essential: $160.000 al mes por 4 sesiones ($40.000 por sesión). Plan Premium: $350.000 al mes por 10 sesiones ($35.000 por sesión); el Plan Elite es a consultar y la evaluación inicial es gratuita.
 
 ### ¿En qué comunas atiende KINEUM?
-Solo en 9 comunas de Santiago: ${comunas.map((c) => c.nombre).join(", ")}. El valor es el mismo en todas, sin recargo por traslado.
+Solo en 8 comunas de Santiago: ${comunas.map((c) => c.nombre).join(", ")}. El valor es el mismo en todas, sin recargo por traslado.
 
 ### ¿Se puede reembolsar en la Isapre?
 Sí: KINEUM emite ${BOLETA_TEXTO}, y con ella y la orden médica el paciente pide el reembolso en su Isapre y luego en su seguro complementario. El monto depende de la cobertura de cada plan; el paso a paso está en ${SITIO}/blog/reembolso-isapre-kinesiologia

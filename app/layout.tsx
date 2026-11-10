@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Kinesiólogo a Domicilio en Santiago | KINEUM",
   description:
-    "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
+    "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   keywords: [
     "kinesiólogo a domicilio",
     "kinesiología a domicilio",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "KINEUM: Kinesiólogo a Domicilio en Santiago Oriente",
     description:
-      "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
+      "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
     type: "website",
     locale: "es_CL",
     siteName: "KINEUM",
@@ -76,7 +76,7 @@ const localBusinessSchema = {
   name: "KINEUM",
   legalName: "Kineum SpA",
   description:
-    "Kinesiología a domicilio en 9 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
+    "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,
   telephone: "+56999679593",
   // email: contacto@kineum.cl no recibe correo (el dominio no tiene MX, 7-oct-2026); vuelve cuando funcione
@@ -93,7 +93,7 @@ const localBusinessSchema = {
     addressRegion: "Región Metropolitana",
     addressCountry: "CL",
   },
-  // Solo las 9 comunas atendidas
+  // Solo las 8 comunas atendidas
   areaServed: comunas.map((c) => ({
     "@type": "City",
     name: c.nombre,

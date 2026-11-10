@@ -20,7 +20,7 @@ export function SiteFooter() {
                             </Link>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                            Kinesiología a domicilio particular en 9 comunas del sector oriente y centro de Santiago, de lunes a domingo. Evaluación inicial gratuita.
+                            Kinesiología a domicilio particular en 8 comunas del sector oriente y centro de Santiago, de lunes a domingo. Evaluación inicial gratuita.
                         </p>
                         <div className="flex space-x-3">
                             <div className="bg-slate-900 p-2 rounded-lg border border-slate-800 hover:border-amber-900/50 transition-colors">

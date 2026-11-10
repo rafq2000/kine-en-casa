@@ -12,21 +12,23 @@ const baseUrl = 'https://kineum.cl'
 // Footer, navegacion, estilos o botones flotantes no cuentan. Los posts usan
 // `updatedISO` en lib/blog-data.ts con la misma regla.
 const MODIFICADO: Record<string, string> = {
-    '/': '2026-10-07',
-    '/nosotros': '2026-10-05',
+    '/': '2026-11-09',
+    '/nosotros': '2026-11-09',
     '/servicios/geriatrica': '2026-10-07',
     '/servicios/respiratoria': '2026-10-07',
     '/servicios/neurologica': '2026-10-07',
     '/servicios/traumatologica': '2026-10-07',
     '/servicios/postquirurgica': '2026-10-05',
-    '/precios': '2026-10-07',
-    '/como-funciona': '2026-10-07',
+    '/precios': '2026-11-09',
+    '/como-funciona': '2026-11-09',
     '/blog': '2026-09-17',
     '/ejercicios': '2026-10-07',
-    '/cobertura': '2026-10-07',
+    '/cobertura': '2026-11-09',
     '/privacidad': '2026-10-07',
-    // Los 9 hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las 45 especialidad+comuna (T37)
+    // Los hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las especialidad+comuna (T37)
     hubs: '2026-10-07',
+    // Hub nuevo del 9-nov-2026 (cobertura de 8 comunas: entra Huechuraba, salen Peñalolén y Macul)
+    '/kinesiologo-a-domicilio-huechuraba': '2026-11-09',
 }
 
 // Fecha más reciente de contenido del sitio (la usa /llms.txt).
@@ -74,7 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const locales = rutasLocales.map((ruta) => ({
         url: `${baseUrl}${ruta}`,
-        lastModified: new Date(MODIFICADO.hubs),
+        lastModified: new Date(MODIFICADO[ruta] ?? MODIFICADO.hubs),
         changeFrequency: 'monthly' as const,
         priority: prioridad(ruta),
     }))
