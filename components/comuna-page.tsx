@@ -54,12 +54,15 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     // Fecha de contenido del hub: la misma del sitemap (MODIFICADO), nunca la del build
     const modificado = fechaHub(data.slug)
     const modificadoTexto = new Date(modificado).toLocaleDateString("es-CL", { month: "long", year: "numeric", timeZone: "UTC" })
-    const entrada = `KINEUM ofrece kinesiología a domicilio en ${data.nombre}: un kinesiólogo llega a tu casa en ${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna. Evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
+    // Comunas donde solo se atienden algunos sectores (hoy, Huechuraba): ninguna frase dice "toda la comuna"
+    const solo = comuna?.soloSectores === true
+    const sectoresTexto = `${s.slice(0, -1).join(", ")} y ${s.at(-1)}`
+    const entrada = `KINEUM ofrece kinesiología a domicilio en ${data.nombre}: un kinesiólogo llega a tu casa en ${solo ? `${sectoresTexto}.` : `${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna.`} Evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
 
     const faqs: { q: string; a: string; enlace?: { href: string; texto: string } }[] = [
         {
             q: `¿Cuánto cuesta un kinesiólogo a domicilio en ${data.nombre}?`,
-            a: `El plan de 10 sesiones sale $350.000 ($35.000 por sesión) y el de 4 sesiones $160.000 ($40.000 por sesión). La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones necesitas. No cobramos recargo por traslado dentro de ${data.nombre}.`,
+            a: `El plan de 10 sesiones sale $350.000 ($35.000 por sesión) y el de 4 sesiones $160.000 ($40.000 por sesión). La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones necesitas. No cobramos recargo por traslado ${solo ? `en los sectores de ${data.nombre} donde atendemos` : `dentro de ${data.nombre}`}.`,
         },
         {
             q: `¿Cuándo puede llegar el kinesiólogo a ${data.nombre}?`,
@@ -67,7 +70,9 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
         {
             q: `¿En qué sectores de ${data.nombre} atienden?`,
-            a: `En toda la comuna, incluyendo ${data.sectores.join(", ")}. Todas las sesiones son en el domicilio del paciente.`,
+            a: solo
+                ? `Atendemos en ${sectoresTexto}. Por ahora no llegamos al resto de la comuna.`
+                : `En toda la comuna, incluyendo ${data.sectores.join(", ")}. Todas las sesiones son en el domicilio del paciente.`,
         },
         {
             q: "¿Puedo reembolsar las sesiones en mi Isapre?",
@@ -75,7 +80,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
         {
             q: `¿KINEUM tiene un centro de kinesiología en ${data.nombre}?`,
-            a: `No: la kinesiología en ${data.nombre} la hacemos en tu casa. KINEUM atiende solo a domicilio: el kinesiólogo va a tu casa en cualquier sector de ${data.nombre}. La dirección de Av. Apoquindo 4501 es comercial y no atiende público.`,
+            a: `No: la kinesiología en ${data.nombre} la hacemos en tu casa. KINEUM atiende solo a domicilio: el kinesiólogo va a tu casa en ${solo ? sectoresTexto : `cualquier sector de ${data.nombre}`}. La dirección de Av. Apoquindo 4501 es comercial y no atiende público.`,
             enlace: { href: "/blog/kinesiologia-a-domicilio-o-en-centro", texto: "Kinesiología a domicilio o en un centro: cuál conviene" },
         },
         // Preguntas propias del hub (lib/comunas-local.ts) y todas las locales de cada especialidad
@@ -403,10 +408,11 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             Sectores de {data.nombre} donde atendemos
                         </h2>
                         <p className="text-lg text-slate-600 mb-8 max-w-3xl">
-                            {comuna?.referencias
-                                ? `Llegamos a toda la comuna, ${comuna.referencias}.`
-                                : `Llegamos a toda la comuna de ${data.nombre}.`}{" "}
-                            Si tu sector no aparece, escríbenos igual.
+                            {solo
+                                ? `Atendemos en ${sectoresTexto}.`
+                                : `${comuna?.referencias
+                                      ? `Llegamos a toda la comuna, ${comuna.referencias}.`
+                                      : `Llegamos a toda la comuna de ${data.nombre}.`} Si tu sector no aparece, escríbenos igual.`}
                         </p>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                             {data.sectores.map((s) => (

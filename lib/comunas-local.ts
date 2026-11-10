@@ -710,26 +710,6 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "nota": "Urgencia de atención primaria. Confirma el horario por teléfono antes de ir; ante una urgencia vital llama al SAMU 131"
             },
             {
-                "nombre": "CESFAM La Pincoya (Av. Recoleta 5680)",
-                "tipo": "CESFAM",
-                "nota": "Centro de salud familiar del sector La Pincoya; atención por horario, no es servicio de urgencia"
-            },
-            {
-                "nombre": "CESFAM El Barrero (Las Petunias 305)",
-                "tipo": "CESFAM",
-                "nota": "Centro de salud familiar del sector El Barrero; atención por horario, no es servicio de urgencia"
-            },
-            {
-                "nombre": "CESFAM Dr. Salvador Allende Gossens (Av. Recoleta 6160)",
-                "tipo": "CESFAM",
-                "nota": "Centro de salud familiar en el eje Av. Recoleta; atención por horario, no es servicio de urgencia"
-            },
-            {
-                "nombre": "CECOSF Los Libertadores",
-                "tipo": "otro",
-                "nota": "Centro comunitario de salud familiar del sector Los Libertadores; atención por horario, no es servicio de urgencia"
-            },
-            {
                 "nombre": "IntegraMédica Norte (Mallplaza Norte, Av. Américo Vespucio 1737)",
                 "tipo": "Centro médico ambulatorio",
                 "nota": "Centro médico ambulatorio junto a Vespucio Norte; consultas con horario acotado, sin servicio de urgencia"
@@ -746,9 +726,9 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             }
         ],
         "hub": {
-            "h2": "Kinesiología a domicilio en Huechuraba: del pasaje al condominio, y sin hospital en la comuna",
+            "h2": "Kinesiología a domicilio en Huechuraba: Pedro Fontova, El Carmen y Ciudad Empresarial",
             "parrafos": [
-                "Huechuraba se atiende distinto según de qué lado vivas. En La Pincoya y El Barrero hay pasajes estrechos y blocks de pocos pisos sin ascensor: avísanos el piso y si hay escalera al coordinar, porque el kinesiólogo sube con camilla y equipamiento. En Pedro Fontova, El Carmen y Santa Marta predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería. Al pie de los cerros Punta Mocha y La Región varias calles quedan en subida, algo que se considera al planificar la marcha.",
+                "En Huechuraba atendemos en Pedro Fontova, El Carmen y Ciudad Empresarial; por ahora no llegamos al resto de la comuna. En Pedro Fontova y El Carmen predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería. Si tu condominio o tu edificio exige algún registro especial, cuéntanoslo al coordinar por WhatsApp para llegar a la hora acordada. Son sectores con acceso por Vespucio Norte y Av. Pedro Fontova, y el kinesiólogo llega con camilla y equipamiento.",
                 "Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores: confirma el horario por teléfono antes de ir. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131: la kinesiología no reemplaza esa atención.",
                 "Si vuelves a casa tras una hospitalización, ten a mano la epicrisis y las indicaciones médicas para la evaluación inicial gratuita: con eso el kinesiólogo continúa lo que se hizo en el hospital, sin cruzar Vespucio Norte varias veces por semana. KINEUM es un servicio particular, sin convenio con hospitales ni clínicas, y entrega boleta de honorarios electrónica para reembolso en tu Isapre o seguro complementario, según tu plan."
             ],
@@ -758,29 +738,33 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     "a": "No. Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores: confirma el horario por teléfono antes de ir. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131."
                 },
                 {
-                    "q": "¿Atienden en los condominios de Pedro Fontova, El Carmen y Santa Marta y en las torres de Ciudad Empresarial?",
-                    "a": "Sí. En Pedro Fontova, El Carmen y Santa Marta predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería."
+                    "q": "¿Atienden en los condominios de Pedro Fontova y El Carmen y en las torres de Ciudad Empresarial?",
+                    "a": "Sí. En Pedro Fontova y El Carmen predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería."
+                },
+                {
+                    "q": "¿Atienden en toda Huechuraba?",
+                    "a": "Por ahora solo en Pedro Fontova, El Carmen y Ciudad Empresarial."
                 }
             ]
         },
         "especialidades": [
             {
                 "slug": "kinesiologia-geriatrica",
-                "introLocal": "En Huechuraba, la kinesiología geriátrica a domicilio empieza por el tramo que decide si la persona sale o se queda encerrada. En la autoconstrucción de La Pincoya y El Barrero ese tramo suele ser el peldaño de la entrada, muchas veces sin baranda donde afirmarse, seguido de un pasaje angosto donde no cabe un andador de lado a lado. Ahí trabajamos fuerza de piernas y el gesto exacto de subir y bajar ese escalón, primero con apoyo del kinesiólogo y después con el punto de apoyo que existe en la casa. En los condominios de casas de Pedro Fontova, El Carmen o Santa Marta el problema es otro: la calle interior es segura y sin tráfico, pero tiene pendiente porque el sector está al pie de los cerros, así que la subida y la bajada se entrenan por separado y en distancias cortas. En Ciudad Empresarial, el hall y el ascensor sirven de circuito cuando afuera hace frío. Tras una caída con golpe en la cabeza, confusión o dolor intenso, primero va la evaluación médica.",
+                "introLocal": "En Huechuraba, la kinesiología geriátrica a domicilio empieza por el tramo que decide si la persona sale o se queda encerrada. En los condominios de casas de Pedro Fontova y El Carmen ese tramo suele ser la calle interior: es segura y sin tráfico, pero tiene pendiente porque el sector está al pie de los cerros, así que la subida y la bajada se entrenan por separado y en distancias cortas. Trabajamos fuerza de piernas y el desnivel de la entrada, primero con apoyo del kinesiólogo y después con el punto de apoyo que existe en la casa. En Ciudad Empresarial, el hall y el ascensor sirven de circuito cuando afuera hace frío. Tras una caída con golpe en la cabeza, confusión o dolor intenso, primero va la evaluación médica.",
                 "faqsLocales": [
                     {
-                        "q": "Mi papá vive solo en El Barrero y le da miedo el escalón de la entrada. ¿Se puede trabajar eso en la sesión?",
-                        "a": "Sí, y suele ser lo primero. Evaluamos su fuerza, su equilibrio y qué tiene realmente para afirmarse en esa entrada, y practicamos el escalón tal como está, con el apoyo que exista. Si no hay ninguno seguro, te indicamos qué apoyo conviene evaluar; la instalación la resuelve la familia, nosotros no hacemos obras en la casa."
+                        "q": "Mi papá vive solo en un condominio de Pedro Fontova y le da miedo el desnivel de la entrada. ¿Se puede trabajar eso en la sesión?",
+                        "a": "Sí, y suele ser lo primero. Evaluamos su fuerza, su equilibrio y qué tiene realmente para afirmarse en esa entrada, y practicamos el desnivel tal como está, con el apoyo que exista. Si no hay ninguno seguro, te indicamos qué apoyo conviene evaluar; la instalación la resuelve la familia, nosotros no hacemos obras en la casa."
                     },
                     {
-                        "q": "Vivimos en un condominio de Santa Marta con calles internas en subida. ¿Sirven para las caminatas de mi mamá?",
+                        "q": "Vivimos en un condominio de El Carmen con calles internas en subida. ¿Sirven para las caminatas de mi mamá?",
                         "a": "Suelen servir, porque son tranquilas y sin tráfico. Empezamos por los tramos planos y recién después sumamos la subida, que exige más al corazón y a las piernas, y la bajada, que carga más las rodillas. El kinesiólogo define la distancia, el ritmo y si conviene bastón o acompañante."
                     }
                 ]
             },
             {
                 "slug": "rehabilitacion-postquirurgica",
-                "introLocal": "El alta quirúrgica te devuelve a una comuna sin hospital propio: los controles con el cirujano quedan fuera de Huechuraba, y repetir ese viaje por Av. Recoleta o Vespucio Norte dos o tres veces por semana es justo lo que más cuesta cuando recién te operaron la cadera, la rodilla, el hombro o la columna. La rehabilitación postquirúrgica a domicilio deja esos traslados solo para los controles médicos. Lo que cambia el plan acá es la puerta de tu casa: si vives en una torre de Ciudad Empresarial, el ascensor y el estacionamiento subterráneo hacen que tus primeras salidas con muletas sean cortas y bajo techo; si vives en un block sin ascensor o en una casa con escalones en La Pincoya, ese tramo hay que practicarlo antes de que tengas que usarlo para ir al control, y conviene tenerlo resuelto con quien te acompañe. El kinesiólogo trabaja dentro de lo que autorizó tu cirujano. Fiebre, herida con secreción o dolor que aumenta de golpe son motivo de consulta médica pronta; falta de aire repentina o dolor en el pecho, SAMU 131.",
+                "introLocal": "El alta quirúrgica te devuelve a una comuna sin hospital propio: los controles con el cirujano quedan fuera de Huechuraba, y repetir ese viaje por Vespucio Norte dos o tres veces por semana es justo lo que más cuesta cuando recién te operaron la cadera, la rodilla, el hombro o la columna. La rehabilitación postquirúrgica a domicilio deja esos traslados solo para los controles médicos. Lo que cambia el plan acá es la puerta de tu casa: si vives en una torre de Ciudad Empresarial, el ascensor y el estacionamiento subterráneo hacen que tus primeras salidas con muletas sean cortas y bajo techo; si vives en un condominio de casas de Pedro Fontova o El Carmen, el desnivel de la entrada y la calle interior hay que practicarlos antes de que tengas que usarlos para ir al control, y conviene tenerlo resuelto con quien te acompañe. El kinesiólogo trabaja dentro de lo que autorizó tu cirujano. Fiebre, herida con secreción o dolor que aumenta de golpe son motivo de consulta médica pronta; falta de aire repentina o dolor en el pecho, SAMU 131.",
                 "faqsLocales": [
                     {
                         "q": "Me dan el alta en el Hospital San José y vuelvo a mi casa en Huechuraba. ¿Pueden empezar ahí?",
@@ -808,11 +792,11 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "slug": "rehabilitacion-neurologica",
-                "introLocal": "Después de un ACV, lo que se juega en Huechuraba es la logística del día a día. El control neurológico queda cruzando hacia Independencia y dentro de la comuna el Metro solo toca el borde sur, con Vespucio Norte en la Línea 2 y Los Libertadores en la Línea 3, así que casi todo lo demás se hace en micro o en auto. Cada sesión que no obliga a mover a la persona es una salida menos que organizar. Si vives en un block de La Pincoya sin ascensor, lo primero suele ser resolver cómo se baja la escalera con ayuda, porque de eso dependen los controles médicos; si vives en una torre de Ciudad Empresarial, el ascensor y el hall permiten practicar la salida a la calle desde temprano, y en los condominios de casas de Pedro Fontova el objetivo es el desnivel de la entrada y el recorrido por la calle interior. Le enseñamos a quien cuida a asistir sin lesionarse la espalda y a repartir el esfuerzo entre dos personas cuando hace falta. Ante pérdida súbita de fuerza, dificultad para hablar o la cara desviada, SAMU 131.",
+                "introLocal": "Después de un ACV, lo que se juega en Huechuraba es la logística del día a día. El control neurológico queda cruzando hacia Independencia y dentro de la comuna el Metro solo toca el borde sur, así que casi todo lo demás se hace en micro o en auto. Cada sesión que no obliga a mover a la persona es una salida menos que organizar. Si vives en una torre de Ciudad Empresarial, el ascensor y el hall permiten practicar la salida a la calle desde temprano; en los condominios de casas de Pedro Fontova y El Carmen el objetivo es el desnivel de la entrada y el recorrido por la calle interior, porque de esa salida dependen los controles médicos. Le enseñamos a quien cuida a asistir sin lesionarse la espalda y a repartir el esfuerzo entre dos personas cuando hace falta. Ante pérdida súbita de fuerza, dificultad para hablar o la cara desviada, SAMU 131.",
                 "faqsLocales": [
                     {
-                        "q": "Mi papá volvió del hospital en silla de ruedas y vivimos en un tercer piso sin ascensor en La Pincoya. ¿Cómo lo bajamos para el control en Independencia?",
-                        "a": "Eso se planifica antes, no el día del control. Evaluamos cuánto puede colaborar él, entrenamos con ustedes la técnica de traslado tramo a tramo y el uso del descanso entre pisos, y definimos si hacen falta dos personas o un servicio de traslado. Si la escalera no es segura tal como está, te lo decimos y conviene preguntar a su equipo tratante si algún control se puede resolver de otra forma."
+                        "q": "Mi papá volvió del hospital en silla de ruedas y vivimos en un condominio de El Carmen con desnivel en la entrada. ¿Cómo lo sacamos para el control en Independencia?",
+                        "a": "Eso se planifica antes, no el día del control. Evaluamos cuánto puede colaborar él, entrenamos con ustedes la técnica de traslado tramo a tramo, desde la casa hasta el auto, y definimos si hacen falta dos personas o un servicio de traslado. Si la salida no es segura tal como está, te lo decimos y conviene preguntar a su equipo tratante si algún control se puede resolver de otra forma."
                     },
                     {
                         "q": "No tenemos auto y el Metro nos queda en el borde de la comuna. ¿Eso complica la rehabilitación?",
@@ -822,7 +806,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "slug": "kinesiologia-traumatologica",
-                "introLocal": "La kinesiología traumatológica a domicilio trata esguinces, lumbago, hombro doloroso, tendinopatías y secuelas de una fractura ya consolidada. En Huechuraba conviene definir desde el comienzo para qué terreno estás entrenando, porque no es lo mismo volver a un pasaje plano de El Barrero que a una calle en cuesta al pie de los cerros Punta Mocha y La Región: si tu casa queda en subida, el alta funcional recién llega cuando esa cuesta deja de doler al día siguiente. Si trabajas en las oficinas de Ciudad Empresarial, el cuadro suele ser otro: muchas horas sentado, el auto o el bus por Vespucio Norte y una espalda que reclama al final del día, así que revisamos tu puesto, tus pausas y cómo cargas el bolso. Y si vives en un block, la escalera pasa a ser parte del entrenamiento de carga en vez de algo que evitar. Usamos terapia manual y ejercicio progresivo; los plazos dependen de tu lesión y de tu respuesta, así que no comprometemos fechas. Si tras un golpe hay deformidad o no logras apoyar, eso se descarta antes con radiografía.",
+                "introLocal": "La kinesiología traumatológica a domicilio trata esguinces, lumbago, hombro doloroso, tendinopatías y secuelas de una fractura ya consolidada. En Huechuraba conviene definir desde el comienzo para qué terreno estás entrenando, porque no es lo mismo volver a un departamento con ascensor en Ciudad Empresarial que a la calle interior en pendiente de un condominio de Pedro Fontova o El Carmen: si tu casa queda en subida, el alta funcional recién llega cuando esa cuesta deja de doler al día siguiente. Si trabajas en las oficinas de Ciudad Empresarial, el cuadro suele ser otro: muchas horas sentado, el auto o el bus por Vespucio Norte y una espalda que reclama al final del día, así que revisamos tu puesto, tus pausas y cómo cargas el bolso. Usamos terapia manual y ejercicio progresivo; los plazos dependen de tu lesión y de tu respuesta, así que no comprometemos fechas. Si tras un golpe hay deformidad o no logras apoyar, eso se descarta antes con radiografía.",
                 "faqsLocales": [
                     {
                         "q": "Trabajo en una oficina de Ciudad Empresarial y ando con lumbago hace dos semanas. ¿Pueden atenderme al terminar la jornada?",

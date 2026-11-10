@@ -12,6 +12,9 @@ export const dynamic = "force-static"
 
 const SITIO = "https://kineum.cl"
 
+// Comunas donde solo se atienden algunos sectores (hoy, Huechuraba)
+const soloEn = (c: (typeof comunas)[number]) => (c.soloSectores ? ` (solo en ${c.sectores.join(", ")})` : "")
+
 function bloqueComunas() {
     const porZona: Record<string, typeof comunas> = {}
     for (const c of comunas) (porZona[c.zona] ??= []).push(c)
@@ -25,7 +28,7 @@ function bloqueComunas() {
     return Object.entries(porZona)
         .map(([zona, lista]) => {
             const filas = lista
-                .map((c) => `- ${c.nombre}: ${SITIO}/kinesiologo-a-domicilio-${c.slug}${c.cobertura === "full" ? "" : " (visitas coordinadas según agenda)"}`)
+                .map((c) => `- ${c.nombre}${soloEn(c)}: ${SITIO}/kinesiologo-a-domicilio-${c.slug}${c.cobertura === "full" ? "" : " (visitas coordinadas según agenda)"}`)
                 .join("\n")
             return `### ${titulos[zona] ?? zona}\n${filas}`
         })
@@ -76,7 +79,7 @@ export function GET() {
 Plan Essential: $160.000 al mes por 4 sesiones ($40.000 por sesión). Plan Premium: $350.000 al mes por 10 sesiones ($35.000 por sesión); el Plan Elite es a consultar y la evaluación inicial es gratuita.
 
 ### ¿En qué comunas atiende KINEUM?
-Solo en 8 comunas de Santiago: ${comunas.map((c) => c.nombre).join(", ")}. El valor es el mismo en todas, sin recargo por traslado.
+Solo en 8 comunas de Santiago: ${comunas.map((c) => c.nombre + soloEn(c)).join(", ")}. El valor es el mismo en todas, sin recargo por traslado.
 
 ### ¿Se puede reembolsar en la Isapre?
 Sí: KINEUM emite ${BOLETA_TEXTO}, y con ella y la orden médica el paciente pide el reembolso en su Isapre y luego en su seguro complementario. El monto depende de la cobertura de cada plan; el paso a paso está en ${SITIO}/blog/reembolso-isapre-kinesiologia

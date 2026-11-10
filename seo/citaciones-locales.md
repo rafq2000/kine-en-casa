@@ -27,7 +27,7 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 | Email | contacto@kineum.cl — **no usarlo mientras rebote** (ver T53) |
 | Razón social | Kineum SpA (RUT: pendiente; el publicado era inválido, ver cambios.md › Decisiones) |
 | Dirección | La que se decida en "ANTES DE EMPEZAR" (**ocultarla**: marcar que no se recibe público) |
-| Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro |
+| Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba (Pedro Fontova, El Carmen y Ciudad Empresarial) y Santiago Centro |
 | Categoría principal | Kinesiólogo |
 | Categorías secundarias | Kinesioterapista · Servicio de asistencia sanitaria domiciliaria |
 | Horario | Lunes a viernes 08:00–20:00 · Sábado 09:00–18:00 · Domingo 10:00–16:00 (igual al del sitio y a `lib/negocio.ts`; valor seguro mientras Ricardo no responda T04b) |

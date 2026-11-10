@@ -6,13 +6,8 @@ const comunaData = {
     slug: "huechuraba",
     sectores: [
         "Ciudad Empresarial",
-        "Pedro Fontova Norte",
+        "Pedro Fontova",
         "El Carmen de Huechuraba",
-        "Santa Marta de Huechuraba",
-        "Bosques de la Pirámide",
-        "La Pincoya",
-        "El Barrero",
-        "Villa Los Libertadores",
     ],
 }
 

@@ -21,6 +21,8 @@ export interface Comuna {
     caracteristicas?: string[]
     /** Sectores/barrios reales que se listan en la página */
     sectores: string[]
+    /** true: solo se atiende en `sectores`, no en toda la comuna (Huechuraba, decisión del 9-nov-2026) */
+    soloSectores?: boolean
     /** Frase de contexto local, única por comuna */
     contexto: string
     /** Referencias geográficas que usan los vecinos para ubicarse */
@@ -162,17 +164,13 @@ export const comunas: Comuna[] = [
         cobertura: "full",
         sectores: [
             "Ciudad Empresarial",
-            "Pedro Fontova Norte",
+            "Pedro Fontova",
             "El Carmen de Huechuraba",
-            "Santa Marta de Huechuraba",
-            "Bosques de la Pirámide",
-            "La Pincoya",
-            "El Barrero",
-            "Villa Los Libertadores",
         ],
+        soloSectores: true,
         contexto:
-            "Huechuraba va de Ciudad Empresarial, Pedro Fontova, El Carmen y Santa Marta a La Pincoya y El Barrero, al pie de los cerros del norte de Santiago: atendemos en toda la comuna, sin recargo por traslado.",
-        referencias: "cerca de Vespucio Norte, el Túnel San Cristóbal y los ejes Av. Recoleta y Av. Pedro Fontova",
+            "En Huechuraba atendemos en Pedro Fontova, El Carmen y Ciudad Empresarial, sin recargo por traslado.",
+        referencias: "cerca de Vespucio Norte, el Túnel San Cristóbal y Av. Pedro Fontova",
         llegada: PRIMERA_VISITA_TEXTO,
     },
     {

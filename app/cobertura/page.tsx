@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 
 const ZONAS: { id: ZonaComuna; titulo: string; texto: string }[] = [
     { id: "oriente", titulo: "Sector oriente", texto: "Seis comunas, con la misma tarifa y la misma forma de coordinar la visita." },
-    { id: "norte", titulo: "Sector norte", texto: "Huechuraba, con la misma tarifa y la misma forma de coordinar la visita." },
+    { id: "norte", titulo: "Sector norte", texto: "Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial, con la misma tarifa y la misma forma de coordinar la visita." },
     { id: "centro", titulo: "Santiago centro", texto: "Santiago Centro, con la misma tarifa y la misma forma de coordinar la visita." },
 ]
 
@@ -166,6 +166,11 @@ export default function Page() {
                                                 <span className="block text-xs text-slate-500">
                                                     Kinesiología a domicilio en {c.nombre}
                                                 </span>
+                                                {c.soloSectores && (
+                                                    <span className="block text-xs text-slate-500">
+                                                        Solo en {c.sectores.join(", ")}
+                                                    </span>
+                                                )}
                                             </span>
                                             <ChevronRight className="h-4 w-4 text-slate-400 group-hover:text-amber-600 flex-shrink-0" />
                                         </Link>

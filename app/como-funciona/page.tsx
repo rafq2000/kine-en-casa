@@ -133,7 +133,7 @@ const faqSchema = {
       name: "¿En qué comunas de Santiago atienden?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Atendemos solo en 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.",
+        text: "Atendemos solo en 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial.",
       },
     },
     {
@@ -236,7 +236,7 @@ const faqs = [
   {
     question: "¿En qué comunas de Santiago atienden?",
     answer:
-      "Atendemos solo en 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.",
+      "Atendemos solo en 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial.",
   },
   {
     question: "¿Cómo funciona el reembolso con Isapre?",

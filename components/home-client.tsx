@@ -58,7 +58,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿En qué comunas de Santiago atienden a domicilio?",
-        acceptedAnswer: { "@type": "Answer", text: "Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas." }
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial." }
       },
       {
         "@type": "Question",
@@ -862,7 +862,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
-              <p className="text-slate-600">Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas.</p>
+              <p className="text-slate-600">Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
