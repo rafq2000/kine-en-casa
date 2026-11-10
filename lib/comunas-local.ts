@@ -702,15 +702,15 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             {
                 "nombre": "SAR La Pincoya (Servicio de Alta Resolutividad)",
                 "tipo": "servicio de urgencia primaria (SAPU/SAR)",
-                "nota": "Urgencia de atención primaria, con atención pediátrica. No funciona las 24 horas; confirma el horario antes de ir"
+                "nota": "Urgencia de atención primaria. Confirma el horario por teléfono antes de ir; ante una urgencia vital llama al SAMU 131"
             },
             {
                 "nombre": "SAPU Los Libertadores",
                 "tipo": "servicio de urgencia primaria (SAPU/SAR)",
-                "nota": "Urgencia de atención primaria. No funciona las 24 horas; confirma el horario por teléfono"
+                "nota": "Urgencia de atención primaria. Confirma el horario por teléfono antes de ir; ante una urgencia vital llama al SAMU 131"
             },
             {
-                "nombre": "CESFAM La Pincoya (Av. Recoleta 5580)",
+                "nombre": "CESFAM La Pincoya (Av. Recoleta 5680)",
                 "tipo": "CESFAM",
                 "nota": "Centro de salud familiar del sector La Pincoya; atención por horario, no es servicio de urgencia"
             },
@@ -730,7 +730,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "nota": "Centro comunitario de salud familiar del sector Los Libertadores; atención por horario, no es servicio de urgencia"
             },
             {
-                "nombre": "IntegraMédica Norte (Mallplaza Norte, Av. Américo Vespucio 1731)",
+                "nombre": "IntegraMédica Norte (Mallplaza Norte, Av. Américo Vespucio 1737)",
                 "tipo": "Centro médico ambulatorio",
                 "nota": "Centro médico ambulatorio junto a Vespucio Norte; consultas con horario acotado, sin servicio de urgencia"
             },
@@ -749,13 +749,13 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             "h2": "Kinesiología a domicilio en Huechuraba: del pasaje al condominio, y sin hospital en la comuna",
             "parrafos": [
                 "Huechuraba se atiende distinto según de qué lado vivas. En La Pincoya y El Barrero hay pasajes estrechos y blocks de pocos pisos sin ascensor: avísanos el piso y si hay escalera al coordinar, porque el kinesiólogo sube con camilla y equipamiento. En Pedro Fontova, El Carmen y Santa Marta predominan los condominios de casas con control de acceso, y en Ciudad Empresarial las torres con conserjería y ascensor, donde basta dejar el nombre del kinesiólogo en portería. Al pie de los cerros Punta Mocha y La Región varias calles quedan en subida, algo que se considera al planificar la marcha.",
-                "Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores, con horarios acotados que conviene confirmar por teléfono. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131: la kinesiología no reemplaza esa atención.",
+                "Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores: confirma el horario por teléfono antes de ir. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131: la kinesiología no reemplaza esa atención.",
                 "Si vuelves a casa tras una hospitalización, ten a mano la epicrisis y las indicaciones médicas para la evaluación inicial gratuita: con eso el kinesiólogo continúa lo que se hizo en el hospital, sin cruzar Vespucio Norte varias veces por semana. KINEUM es un servicio particular, sin convenio con hospitales ni clínicas, y entrega boleta de honorarios electrónica para reembolso en tu Isapre o seguro complementario, según tu plan."
             ],
             "faqs": [
                 {
                     "q": "¿Hay hospital o urgencia hospitalaria dentro de Huechuraba?",
-                    "a": "No. Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores, con horarios acotados que conviene confirmar por teléfono. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131."
+                    "a": "No. Dentro de la comuna no hay hospital. La urgencia local es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores: confirma el horario por teléfono antes de ir. La urgencia hospitalaria de adultos es el Hospital San José y la pediátrica el Hospital Roberto del Río, ambos en Independencia. Ante una emergencia llama al SAMU al 131."
                 },
                 {
                     "q": "¿Atienden en los condominios de Pedro Fontova, El Carmen y Santa Marta y en las torres de Ciudad Empresarial?",
@@ -794,11 +794,11 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "slug": "kinesiologia-respiratoria",
-                "introLocal": "En Huechuraba, lo que más tranquiliza a una familia con un niño que se enferma de los bronquios no es la técnica de la sesión, sino tener anotado en el refrigerador qué hacer si el cuadro se sale de control. La puerta pediátrica dentro de la comuna es el SAR La Pincoya, que atiende urgencia de atención primaria pero no funciona las 24 horas; del SAPU Los Libertadores no hay confirmación de atención pediátrica, así que no conviene llegar ahí con una guagua sin llamar antes. Cerrada esa ventana, el trayecto real es hacia la urgencia pediátrica del Hospital Roberto del Río, en Independencia. Por eso en la primera visita dejamos anotados los teléfonos y el orden en que hay que usarlos. Si el niño respira con esfuerzo evidente, se pone morado o deja de alimentarse, eso no espera la sesión: SAMU 131. La sesión en casa evita abrigarlo y subirlo al auto con fiebre para cruzar Vespucio Norte, y en adultos que salen de una neumonía permite espaciar las salidas mientras recuperan tolerancia al esfuerzo.",
+                "introLocal": "En Huechuraba, lo que más tranquiliza a una familia con un niño que se enferma de los bronquios no es la técnica de la sesión, sino tener anotado en el refrigerador qué hacer si el cuadro se sale de control. Dentro de la comuna la urgencia es de atención primaria, en el SAR La Pincoya y el SAPU Los Libertadores: confirma el horario por teléfono antes de ir y pregunta si atienden a niños, para no llegar con una guagua sin saberlo. La urgencia pediátrica hospitalaria de referencia es la del Hospital Roberto del Río, en Independencia. Por eso en la primera visita dejamos anotados los teléfonos y el orden en que hay que usarlos. Si el niño respira con esfuerzo evidente, se pone morado o deja de alimentarse, eso no espera la sesión: SAMU 131. La sesión en casa evita abrigarlo y subirlo al auto con fiebre para cruzar Vespucio Norte, y en adultos que salen de una neumonía permite espaciar las salidas mientras recuperan tolerancia al esfuerzo.",
                 "faqsLocales": [
                     {
                         "q": "Es de madrugada y mi hijo respira con mucho esfuerzo. ¿A dónde lo llevo desde Huechuraba?",
-                        "a": "Llama al SAMU al 131. El SAR La Pincoya y el SAPU Los Libertadores son urgencias de atención primaria con horarios acotados, que conviene confirmar por teléfono; la urgencia pediátrica hospitalaria de referencia es la del Hospital Roberto del Río, en Independencia. La kinesiología respiratoria no reemplaza esa atención."
+                        "a": "Llama al SAMU al 131. El SAR La Pincoya y el SAPU Los Libertadores son urgencias de atención primaria: confirma el horario por teléfono antes de ir; la urgencia pediátrica hospitalaria de referencia es la del Hospital Roberto del Río, en Independencia. La kinesiología respiratoria no reemplaza esa atención."
                     },
                     {
                         "q": "El pediatra indicó kinesiología respiratoria. ¿Pueden venir un fin de semana a Huechuraba?",
@@ -830,7 +830,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "Me caí un domingo por la tarde y la muñeca quedó hinchada. ¿Voy a un SAPU de Huechuraba?",
-                        "a": "Si hay deformidad, no puedes mover los dedos o el dolor es muy intenso, necesitas evaluación médica y probablemente una radiografía. Dentro de la comuna la urgencia es de atención primaria y con horario acotado, así que confirma por teléfono antes de salir; la urgencia hospitalaria de adultos de referencia es el Hospital San José, en Independencia. Con el diagnóstico en mano, la kinesiología parte en tu casa."
+                        "a": "Si hay deformidad, no puedes mover los dedos o el dolor es muy intenso, necesitas evaluación médica y probablemente una radiografía. Dentro de la comuna la urgencia es de atención primaria: confirma el horario por teléfono antes de ir; la urgencia hospitalaria de adultos de referencia es el Hospital San José, en Independencia. Con el diagnóstico en mano, la kinesiología parte en tu casa."
                     }
                 ]
             }
