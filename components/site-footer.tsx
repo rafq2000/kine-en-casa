@@ -77,7 +77,7 @@ export function SiteFooter() {
                         <ul className="space-y-3 text-sm">
                             {comunas.map((c) => (
                                 <li key={c.slug} className="hover:text-amber-400 transition-colors">
-                                    <Link href={`/kinesiologo-a-domicilio-${c.slug}`}>{c.nombre}</Link>
+                                    <Link href={`/kinesiologo-a-domicilio-${c.slug}`}>Kinesiología a domicilio en {c.nombre}</Link>
                                 </li>
                             ))}
                         </ul>

@@ -262,19 +262,18 @@ export default function HomePage() {
                 <MapPin className="h-4 w-4 mr-2 text-amber-400" />
                 Sector oriente y centro de Santiago
               </Badge>
-              <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 font-serif leading-tight">
-                Kinesiólogo a Domicilio
+              <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-4 font-serif leading-tight">
+                Kinesiología a Domicilio
                 <br />
                 <span className="text-amber-700">en Santiago</span>
-                <br />
-                <span className="text-3xl md:text-4xl text-slate-600 font-sans font-normal block mt-4">
-                  Rehabilitación en tu casa, sin traslados
-                </span>
               </h1>
+              <p className="text-3xl md:text-4xl text-slate-600 leading-tight mb-8">
+                Un kinesiólogo en tu casa, sin traslados
+              </p>
             </div>
 
             <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
-              Kinesiólogos titulados que llegan a tu casa con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
+              KINEUM es kinesiología a domicilio en Santiago: kinesiólogos titulados que llegan a tu casa en 8 comunas del sector oriente y centro, con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
               <br />
               Primera visita {PRIMERA_VISITA_TEXTO}.
             </p>

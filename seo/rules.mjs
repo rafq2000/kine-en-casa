@@ -22,7 +22,9 @@ export const RULES = {
         // El H1 no puede ser solo la marca. En paginas de servicio debe llevar la keyword;
         // en el blog basta con que refleje el tema del slug (validado aparte).
         // 'privacidad': /privacidad es una página legal y su H1 es "Política de privacidad".
-        raicesKeyword: ['kinesi', 'rehabilitac', 'fisioterap', 'ejercicio', 'precio', 'blog', 'opinion', 'equipo', 'privacidad'],
+        // 'comunas': /cobertura es la página de marca de la cobertura y su H1 es "Comunas donde KINEUM
+        // atiende a domicilio" (9-nov-2026: "kinesiología a domicilio en Santiago" queda para la home).
+        raicesKeyword: ['kinesi', 'rehabilitac', 'fisioterap', 'ejercicio', 'precio', 'blog', 'opinion', 'equipo', 'privacidad', 'comunas'],
     },
     contenido: {
         // Minimo de palabras de texto visible para que Google considere indexar.
@@ -66,14 +68,14 @@ export const RULES = {
 // (nadie busca "neuroplasticidad", buscan "rehabilitacion post ACV").
 const KEYWORD_DECLARADA = {
     '/blog/neuroplasticidad-recuperacion-acv': 'rehabilitación post ACV en casa',
-    '/cobertura': 'kinesiólogo a domicilio sector oriente santiago',
+    '/cobertura': 'cobertura kineum comunas kinesiología a domicilio',
 }
 
 // Keyword principal por patron de URL. Se usa para validar que title y H1 la contengan.
 export function keywordDe(url) {
     const path = url.replace(SITE, '').replace(/\/$/, '') || '/'
     if (KEYWORD_DECLARADA[path]) return KEYWORD_DECLARADA[path]
-    if (path === '/') return 'kinesiólogo a domicilio santiago'
+    if (path === '/') return 'kinesiología a domicilio santiago'
     const m = path.match(/^\/kinesiologo-a-domicilio-(.+)$/)
     if (m) return `kinesiólogo a domicilio ${m[1].replace(/-/g, ' ')}`
     const e = path.match(/^\/(kinesiologia|rehabilitacion)-([a-z]+)-(.+)$/)

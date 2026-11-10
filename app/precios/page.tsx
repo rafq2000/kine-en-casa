@@ -403,10 +403,11 @@ export default function PreciosPage() {
       <section className="py-8 bg-white border-b border-slate-100">
         <div className="container mx-auto px-4">
           <p className="text-center text-slate-700 max-w-4xl mx-auto leading-relaxed">
-            Mismo valor y sin recargo por traslado en las 8 comunas que atendemos: kinesiólogo a domicilio en{" "}
+            Mismo valor y sin recargo por traslado en las 8 comunas que atendemos:{" "}
             {comunas.map((c, i) => (
               <span key={c.slug}>
                 <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-amber-700 underline hover:text-amber-800">
+                  {i === 0 ? "kinesiólogo a domicilio en " : ""}
                   {c.nombre}
                 </Link>
                 {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : "."}

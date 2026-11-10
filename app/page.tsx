@@ -2,16 +2,16 @@ import type { Metadata } from "next"
 import HomeClient from "@/components/home-client"
 
 export const metadata: Metadata = {
-  title: "Kinesiólogo a Domicilio Santiago: Reembolso Isapre | KINEUM",
+  title: "Kinesiología a Domicilio en Santiago | Kinesiólogos KINEUM",
   description:
-    "Kinesiólogo a domicilio en Santiago oriente, de Las Condes a Santiago Centro. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+    "Kinesiología a domicilio en Santiago oriente y centro: un kinesiólogo en tu casa, sesiones de 60 min desde $35.000, evaluación inicial gratis y boleta.",
   alternates: {
     canonical: "https://kineum.cl",
   },
   openGraph: {
-    title: "Kinesiólogo a Domicilio Santiago: Reembolso Isapre | KINEUM",
+    title: "Kinesiología a Domicilio en Santiago | Kinesiólogos KINEUM",
     description:
-      "Kinesiólogo a domicilio en Santiago oriente, de Las Condes a Santiago Centro. Sesión desde $35.000, evaluación inicial gratis y boleta para tu Isapre.",
+      "Kinesiología a domicilio en Santiago oriente y centro: un kinesiólogo en tu casa, sesiones de 60 min desde $35.000, evaluación inicial gratis y boleta.",
     url: "https://kineum.cl",
     siteName: "KINEUM",
     locale: "es_CL",

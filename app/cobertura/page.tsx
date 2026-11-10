@@ -13,9 +13,9 @@ const TEL_DISPLAY = "+56 9 9967 9593"
 const URL = "https://kineum.cl/cobertura"
 
 export const metadata: Metadata = {
-    title: "Kinesiólogo a Domicilio: 8 Comunas de Santiago | KINEUM",
+    title: "Cobertura KINEUM: 8 Comunas con Kinesiología a Domicilio",
     description:
-        "Las 8 comunas del sector oriente y centro de Santiago donde KINEUM atiende kinesiología a domicilio, cada una con su página. Evaluación inicial gratuita.",
+        "Las 8 comunas donde KINEUM atiende a domicilio: Las Condes, Providencia, Ñuñoa, Lo Barnechea, Vitacura, La Reina, Huechuraba y Santiago Centro.",
     keywords: [
         "kinesiología a domicilio sector oriente y centro de Santiago",
         "kinesiólogo a domicilio santiago comunas",
@@ -24,8 +24,9 @@ export const metadata: Metadata = {
     ],
     alternates: { canonical: URL },
     openGraph: {
-        title: "Cobertura de KINEUM en el sector oriente y centro de Santiago",
-        description: "Kinesiología a domicilio comuna por comuna en el sector oriente y centro de Santiago.",
+        title: "Cobertura KINEUM: 8 Comunas con Kinesiología a Domicilio",
+        description:
+            "Las 8 comunas donde KINEUM atiende a domicilio: Las Condes, Providencia, Ñuñoa, Lo Barnechea, Vitacura, La Reina, Huechuraba y Santiago Centro.",
         url: URL,
         type: "website",
         locale: "es_CL",
@@ -111,10 +112,14 @@ export default function Page() {
                             Sector oriente y centro de Santiago
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
-                            Kinesiólogo a Domicilio en el <span className="text-amber-700">Sector Oriente y Centro de Santiago</span>
+                            Comunas donde KINEUM <span className="text-amber-700">atiende a domicilio</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-4 max-w-3xl">
-                            Atendemos {comunas.length} comunas del sector oriente y centro de Santiago. Cada una tiene su
+                            Estas son las {comunas.length} comunas donde hacemos{" "}
+                            <Link href="/" className="text-amber-700 font-medium hover:underline">
+                                kinesiología a domicilio en Santiago
+                            </Link>
+                            , en el sector oriente y centro. Cada una tiene su
                             propia página con los sectores que cubrimos, los centros de salud de referencia y cómo se
                             coordina la primera visita.
                         </p>
@@ -159,7 +164,7 @@ export default function Page() {
                                                     {c.nombre}
                                                 </span>
                                                 <span className="block text-xs text-slate-500">
-                                                    Las 5 especialidades, con sus sectores
+                                                    Kinesiología a domicilio en {c.nombre}
                                                 </span>
                                             </span>
                                             <ChevronRight className="h-4 w-4 text-slate-400 group-hover:text-amber-600 flex-shrink-0" />

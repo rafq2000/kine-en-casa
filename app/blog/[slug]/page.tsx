@@ -284,6 +284,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                                                 href={`/kinesiologo-a-domicilio-${c.slug}`}
                                                 className="text-emerald-800 font-medium underline-offset-2 hover:underline"
                                             >
+                                                {i === 0 ? "Kinesiólogo a domicilio en " : ""}
                                                 {c.nombre}
                                             </Link>
                                             {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : ""}
@@ -394,10 +395,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
                         .
                     </p>
                     <p className="text-slate-600 mt-3">
-                        Kinesiólogo a domicilio en{" "}
                         {comunas.map((c, i) => (
                             <span key={c.slug}>
                                 <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-amber-700 font-medium hover:underline">
+                                    {i === 0 ? "Kinesiólogo a domicilio en " : ""}
                                     {c.nombre}
                                 </Link>
                                 {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : "."}

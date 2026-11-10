@@ -26,9 +26,14 @@ const MODIFICADO: Record<string, string> = {
     '/cobertura': '2026-11-09',
     '/privacidad': '2026-10-07',
     // Los hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las especialidad+comuna (T37)
-    hubs: '2026-10-07',
-    // Hub nuevo del 9-nov-2026 (cobertura de 8 comunas: entra Huechuraba, salen Peñalolén y Macul)
-    '/kinesiologo-a-domicilio-huechuraba': '2026-11-09',
+    // 9-nov-2026: H1, párrafo de entrada y preguntas nuevas en los 8 (y Huechuraba nace ese día).
+    // Si un hub cambia solo, se agrega su ruta como clave propia y fechaHub la prefiere.
+    hubs: '2026-11-09',
+}
+
+// Fecha de última modificación de un hub de comuna (la muestra el hub y va en su JSON-LD).
+export function fechaHub(slug: string): string {
+    return MODIFICADO[`/kinesiologo-a-domicilio-${slug}`] ?? MODIFICADO.hubs
 }
 
 // Fecha más reciente de contenido del sitio (la usa /llms.txt).
@@ -49,7 +54,12 @@ function prioridad(ruta: string): number {
 
 export default function sitemap(): MetadataRoute.Sitemap {
     // Las 45 especialidad+comuna responden 308 a su hub desde el 7-oct-2026 (T37): no van en el sitemap
-    const rutasLocales = comunas.map((c) => `/kinesiologo-a-domicilio-${c.slug}`)
+    const locales = comunas.map((c) => ({
+        url: `${baseUrl}/kinesiologo-a-domicilio-${c.slug}`,
+        lastModified: new Date(fechaHub(c.slug)),
+        changeFrequency: 'monthly' as const,
+        priority: prioridad(`/kinesiologo-a-domicilio-${c.slug}`),
+    }))
 
     const rutasBase = [
         '',
@@ -70,13 +80,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const estaticas = rutasBase.map((ruta) => ({
         url: `${baseUrl}${ruta}`,
         lastModified: new Date(MODIFICADO[ruta || '/']),
-        changeFrequency: 'monthly' as const,
-        priority: prioridad(ruta),
-    }))
-
-    const locales = rutasLocales.map((ruta) => ({
-        url: `${baseUrl}${ruta}`,
-        lastModified: new Date(MODIFICADO[ruta] ?? MODIFICADO.hubs),
         changeFrequency: 'monthly' as const,
         priority: prioridad(ruta),
     }))

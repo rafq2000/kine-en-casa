@@ -14,7 +14,7 @@ const siteUrl = "https://kineum.cl"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Kinesiólogo a Domicilio en Santiago | KINEUM",
+  title: "Kinesiología a Domicilio en Santiago | KINEUM",
   description:
     "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   keywords: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "KINEUM: Kinesiólogo a Domicilio en Santiago Oriente",
+    title: "KINEUM: Kinesiología a Domicilio en Santiago",
     description:
       "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
     type: "website",

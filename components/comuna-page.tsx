@@ -19,6 +19,7 @@ import { comunasLocal } from "@/lib/comunas-local"
 import { BOLETA_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import { fechaHub } from "@/app/sitemap"
 
 // Hub de comuna. Componente de SERVIDOR: antes era "use client" solo por 12 botones con
 // window.open, y eso le costaba 1.690 ms de bloqueo de JavaScript (Lighthouse móvil 64).
@@ -50,7 +51,10 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const waMensaje = `Hola, necesito un kinesiólogo a domicilio en ${data.nombre}`
     const waLink = wa(waMensaje)
     const s = data.sectores
-    const entrada = `KINEUM lleva un kinesiólogo a tu casa en ${data.nombre} (${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna): evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
+    // Fecha de contenido del hub: la misma del sitemap (MODIFICADO), nunca la del build
+    const modificado = fechaHub(data.slug)
+    const modificadoTexto = new Date(modificado).toLocaleDateString("es-CL", { month: "long", year: "numeric", timeZone: "UTC" })
+    const entrada = `KINEUM ofrece kinesiología a domicilio en ${data.nombre}: un kinesiólogo llega a tu casa en ${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna. Evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
 
     const faqs: { q: string; a: string; enlace?: { href: string; texto: string } }[] = [
         {
@@ -70,8 +74,8 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             a: `Sí. Emitimos ${BOLETA_TEXTO}. Puedes presentarla a reembolso en tu Isapre y en tu seguro complementario según la cobertura de tu plan. Para reembolsar necesitas una orden médica con el diagnóstico y la indicación de kinesiología.`,
         },
         {
-            q: `¿Tienen consulta o centro en ${data.nombre}?`,
-            a: `No. KINEUM atiende solo a domicilio: el kinesiólogo va a tu casa en cualquier sector de ${data.nombre}. La dirección de Av. Apoquindo 4501 es comercial y no atiende público.`,
+            q: `¿KINEUM tiene un centro de kinesiología en ${data.nombre}?`,
+            a: `No: la kinesiología en ${data.nombre} la hacemos en tu casa. KINEUM atiende solo a domicilio: el kinesiólogo va a tu casa en cualquier sector de ${data.nombre}. La dirección de Av. Apoquindo 4501 es comercial y no atiende público.`,
             enlace: { href: "/blog/kinesiologia-a-domicilio-o-en-centro", texto: "Kinesiología a domicilio o en un centro: cuál conviene" },
         },
         // Preguntas propias del hub (lib/comunas-local.ts) y todas las locales de cada especialidad
@@ -108,6 +112,17 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
     }
 
+    const paginaSchema = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": `${url}#webpage`,
+        url,
+        name: `Kinesiología a domicilio en ${data.nombre}`,
+        inLanguage: "es-CL",
+        dateModified: modificado,
+        about: { "@id": `${url}#servicio` },
+    }
+
     const faqSchema = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -131,6 +146,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     return (
         <div className="min-h-screen bg-white">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicioSchema) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(paginaSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -188,9 +204,18 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             {data.nombre}, {comuna?.zona === "centro" ? "centro" : comuna?.zona === "norte" ? "sector norte" : "sector oriente"} de Santiago
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
-                            Kinesiólogo a Domicilio en <span className="text-amber-700">{data.nombre}</span>
+                            Kinesiología a Domicilio en <span className="text-amber-700">{data.nombre}</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-8 max-w-3xl">{entrada}</p>
+                        {data.slug === "santiago-centro" && (
+                            <p className="text-slate-600 leading-relaxed -mt-4 mb-8 max-w-3xl">
+                                Esta página es de la comuna de Santiago; la cobertura completa está en{" "}
+                                <Link href="/" className="text-amber-700 font-medium hover:underline">
+                                    kinesiología a domicilio en Santiago
+                                </Link>
+                                .
+                            </p>
+                        )}
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-10">
                             <a
@@ -237,6 +262,9 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 <p className="text-sm text-slate-600">Sesiones de 60 minutos</p>
                             </div>
                         </div>
+                        <p className="text-sm text-slate-500 mt-6">
+                            Actualizado en <time dateTime={modificado}>{modificadoTexto}</time>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -509,7 +537,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                     href={`/kinesiologo-a-domicilio-${c.slug}`}
                                     className="bg-white rounded-lg px-4 py-2 border border-slate-200 text-sm text-slate-700 hover:border-amber-300 hover:text-amber-700 transition-colors"
                                 >
-                                    {c.nombre}
+                                    Kinesiólogo a domicilio en {c.nombre}
                                 </Link>
                             ))}
                             <Link
