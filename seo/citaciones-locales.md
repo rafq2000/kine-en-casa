@@ -27,7 +27,7 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 | Email | contacto@kineum.cl — **no usarlo mientras rebote** (ver T53) |
 | Razón social | Kineum SpA (RUT: pendiente; el publicado era inválido, ver cambios.md › Decisiones) |
 | Dirección | La que se decida en "ANTES DE EMPEZAR" (**ocultarla**: marcar que no se recibe público) |
-| Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro |
+| Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro |
 | Categoría principal | Kinesiólogo |
 | Categorías secundarias | Kinesioterapista · Servicio de asistencia sanitaria domiciliaria |
 | Horario | Lunes a viernes 08:00–20:00 · Sábado 09:00–18:00 · Domingo 10:00–16:00 (igual al del sitio y a `lib/negocio.ts`; valor seguro mientras Ricardo no responda T04b) |
@@ -43,7 +43,7 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 
 1. Entrar a https://business.google.com con la cuenta que administra el sitio.
 2. Crearla como **negocio de área de servicio**: cuando pregunte por la dirección, marcar
-   que no se atiende público ahí y poner como área las 9 comunas, ni una más. Un área
+   que no se atiende público ahí y poner como área las 8 comunas, ni una más. Un área
    inflada trae consultas que no se pueden atender.
 3. Verificación: Google suele pedir un video. Tener a mano el equipamiento (camilla, TENS,
    ultrasonido), el vehículo si lo hay y documentación de Kineum SpA.
@@ -52,7 +52,7 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 
 ### Descripción del negocio (pegar tal cual, sin precios)
 
-> KINEUM es un servicio de kinesiología a domicilio en el sector oriente de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Peñalolén, Macul y Santiago Centro. Atendemos kinesiología geriátrica, respiratoria para adultos y niños, traumatológica, neurológica y rehabilitación después de una cirugía. El kinesiólogo llega a tu casa con camilla y equipamiento profesional. La evaluación inicial es gratuita y recién después te decimos cuántas sesiones necesitas y cuánto cuesta. Sesiones de 60 minutos, de lunes a domingo. Es un servicio particular: emitimos boleta de honorarios después de cada sesión, reembolsable en tu Isapre y en tu seguro complementario según tu plan.
+> KINEUM es un servicio de kinesiología a domicilio en el sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Atendemos kinesiología geriátrica, respiratoria para adultos y niños, traumatológica, neurológica y rehabilitación después de una cirugía. El kinesiólogo llega a tu casa con camilla y equipamiento profesional. La evaluación inicial es gratuita y recién después te decimos cuántas sesiones necesitas y cuánto cuesta. Sesiones de 60 minutos, de lunes a domingo. Es un servicio particular: emitimos boleta de honorarios después de cada sesión, reembolsable en tu Isapre y en tu seguro complementario según tu plan.
 
 ### Servicios (uno por especialidad)
 
@@ -186,7 +186,7 @@ entidad se llama de otra forma.
 
 ## Cómo medir si funcionó
 
-- Google Maps: buscar "kinesiólogo a domicilio" desde una de las 9 comunas y ver si la
+- Google Maps: buscar "kinesiólogo a domicilio" desde una de las 8 comunas y ver si la
   ficha aparece en el bloque de mapas.
 - Search Console → Rendimiento: clics de consultas con nombre de comuna.
 - El parte semanal de los jueves (seo/parte-semanal.md) lo mide solo.

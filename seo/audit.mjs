@@ -154,6 +154,9 @@ function analizar(url, r) {
     for (const t of RULES.terminosProhibidos) {
         if (low.includes(norm(t)) || textoNorm.includes(norm(t))) P('critica', 'termino-prohibido', `Aparece "${t}"`, 'Eliminar: el negocio no lo ofrece o no esta verificado')
     }
+    for (const c of RULES.comunasRetiradas) {
+        if (textoNorm.includes(c)) P('media', 'comuna-retirada', `Se nombra "${c}"`, 'Vale solo como hecho geografico (avenida, hospital de referencia); quitarla si se lee como zona atendida')
+    }
     for (const re of RULES.patronesProhibidos) {
         const m = textoNorm.match(re)
         if (m) P('critica', 'porcentaje-reembolso', `"${m[0]}"`, 'Quitar el porcentaje: el reembolso es siempre segun la cobertura del plan')
@@ -258,17 +261,24 @@ async function main() {
         }
     }
 
-    // T37 (7-oct-2026): las 45 especialidad+comuna se consolidaron en su hub. Cada una debe
+    // T37 (7-oct-2026): las especialidad+comuna se consolidaron en su hub. Cada una debe
     // responder 308 en un solo salto hacia /kinesiologo-a-domicilio-{misma comuna}.
+    // 9-nov-2026: 8 comunas vigentes. Peñalolén y Macul se retiraron: su hub va a /cobertura
+    // y sus especialidad+comuna a /servicios/{especialidad} (lib/rutas-retiradas.mjs).
     const ESPECIALIDADES = ['kinesiologia-geriatrica', 'kinesiologia-respiratoria', 'kinesiologia-traumatologica', 'rehabilitacion-neurologica', 'rehabilitacion-postquirurgica']
-    const COMUNAS = ['las-condes', 'vitacura', 'providencia', 'nunoa', 'la-reina', 'lo-barnechea', 'penalolen', 'macul', 'santiago-centro']
-    const consolidadas = ESPECIALIDADES.flatMap((e) => COMUNAS.map((c) => ({ ruta: `/${e}-${c}`, hub: `/kinesiologo-a-domicilio-${c}` })))
+    const COMUNAS = ['las-condes', 'vitacura', 'providencia', 'nunoa', 'la-reina', 'lo-barnechea', 'huechuraba', 'santiago-centro']
+    const RETIRADAS = ['penalolen', 'macul']
+    const consolidadas = [
+        ...ESPECIALIDADES.flatMap((e) => COMUNAS.map((c) => ({ ruta: `/${e}-${c}`, debe: `/kinesiologo-a-domicilio-${c}` }))),
+        ...ESPECIALIDADES.flatMap((e) => RETIRADAS.map((c) => ({ ruta: `/${e}-${c}`, debe: `/servicios/${e.split('-').pop()}` }))),
+        ...RETIRADAS.map((c) => ({ ruta: `/kinesiologo-a-domicilio-${c}`, debe: '/cobertura' })),
+    ]
     const consolidadasMal = []
     for (let i = 0; i < consolidadas.length; i += LOTE) {
-        await Promise.all(consolidadas.slice(i, i + LOTE).map(async ({ ruta, hub }) => {
+        await Promise.all(consolidadas.slice(i, i + LOTE).map(async ({ ruta, debe }) => {
             const r = await get(BASE + ruta, 2, 'manual')
             const destino = r.location ? new URL(r.location, BASE).pathname : null
-            if (r.status !== 308 || destino !== hub) consolidadasMal.push({ ruta, status: r.status, location: r.location ?? null })
+            if (r.status !== 308 || destino !== debe) consolidadasMal.push({ ruta, debe, status: r.status, location: r.location ?? null })
         }))
     }
     for (const m of consolidadasMal)
@@ -276,8 +286,8 @@ async function main() {
             url: BASE + m.ruta,
             sev: 'alta',
             tipo: 'consolidada-sin-308',
-            detalle: `responde ${m.status}${m.location ? ' -> ' + m.location : ''}; debe ser 308 -> /kinesiologo-a-domicilio-{misma comuna}`,
-            fix: 'Revisar la regla de T37 en next.config.mjs',
+            detalle: `responde ${m.status}${m.location ? ' -> ' + m.location : ''}; debe ser 308 -> ${m.debe}`,
+            fix: 'Revisar la regla de T37 en next.config.mjs y lib/rutas-retiradas.mjs',
         })
 
     // Similitud de texto entre paginas del mismo patron (ej. kinesiologia-geriatrica-*).
@@ -373,7 +383,7 @@ async function main() {
     }
     if (dupTitles.length) log(`\nTitulos duplicados: ${dupTitles.length} grupos`)
     if (huerfanas.length) log(`Paginas huerfanas (sin enlaces entrantes): ${huerfanas.length}`)
-    log(`Especialidad+comuna con 308 a su hub (T37): ${reporte.consolidadas.con308AlHub}/${reporte.consolidadas.total}`)
+    log(`Rutas consolidadas o retiradas con su 308 correcto (T37 + 9-nov):${reporte.consolidadas.con308AlHub}/${reporte.consolidadas.total}`)
     if (rotos.length) log(`Enlaces internos rotos:${rotos.length} -> ${rotos.map((r) => r.href).join(', ')}`)
     const graves = todos.filter((p) => p.sev === 'critica' || p.sev === 'alta')
     if (graves.length) {

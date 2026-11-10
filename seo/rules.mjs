@@ -36,7 +36,7 @@ export const RULES = {
     // Se comparan normalizados (sin tildes y en minusculas).
     terminosProhibidos: [
         'fonasa', 'bono fonasa', 'modalidad libre eleccion',
-        'mayor parte del valor', '11 comunas', 'emergencias 24/7', 'mas de 5 anos',
+        'mayor parte del valor', '11 comunas', '9 comunas', 'emergencias 24/7', 'mas de 5 anos',
         'monitoreo digital', 'garantizando puntualidad', 'soporte continuo',
         'red de especialistas', 'consultas ilimitadas', 'disponible ahora',
         'nuestro asistente', 'convenio isapres', 'reembolsamos todo',
@@ -45,6 +45,9 @@ export const RULES = {
         'kit de recuperacion', 'garantia de devolucion',
         'javiera mendez', 'maria jose perez', 'ricardo tapia',
     ],
+    // Comunas retiradas el 9-nov-2026. Solo aviso (media) y solo sobre el texto visible: pueden
+    // nombrarse como hecho geografico (una avenida, un hospital de referencia), nunca como zona atendida.
+    comunasRetiradas: ['macul', 'penalolen'],
     // Porcentajes de reembolso o copago: nunca se publican (regla dura del negocio).
     // Se aplican sobre el texto visible normalizado.
     patronesProhibidos: [
