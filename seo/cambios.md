@@ -99,6 +99,17 @@ Decisión de Ricardo. En Huechuraba KINEUM atiende solo esos tres sectores. No a
 - De los pendientes de confirmar del bloque anterior ya no aplican (el texto se retiró): direcciones de los CESFAM, cerros Punta Mocha y La Región, y estaciones de Metro. Siguen pendientes el horario del SAR y del SAPU y la dirección de IntegraMédica Norte.
 - Resto del sitio: /cobertura (zona y tarjeta), /llms.txt, la pregunta de comunas del home y de /como-funciona, y el área de servicio de `seo/citaciones-locales.md` aclaran los tres sectores; en las listas cortas de comunas queda "Huechuraba".
 
+### 23-nov-2026 — Análisis del 23-nov: Ricardo "haz todos los cambios"
+Ricardo autorizó todos los cambios en el sitio de `seo/analisis-23nov/INFORME.md` (§8, puntos 5 a 7).
+- Precios en dos páginas dueñas, más la de 10 sesiones (sin cambios):
+  - `/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago` es la dueña de "cuánto cobra un kinesiólogo particular" (Google ya la usaba: 47 de 56 apariciones, posición 7). Title, og:title, twitter:title y headline: "¿Cuánto Cobra un Kinesiólogo Particular? $35.000 a $50.000". H1: "¿Cuánto cobra un kinesiólogo particular a domicilio en Santiago? Precios 2026" (campo nuevo `h1` en `lib/blog-data.ts`; sin él, el H1 sigue siendo `title`). La entrada y el primer H2 dicen "particular"; la tabla con fuentes y el rango $35.000-$50.000 no cambian. updatedISO 2026-11-23.
+  - `/blog/cuanto-cobra-kinesiologo-particular` (nunca rastreada; 0 apariciones en 90 días) responde 308 a la de cuánto cuesta (regla en `next.config.mjs`; `lib/rutas-retiradas.mjs` sin cambios) y salió de `lib/blog-data.ts`. No se movió ningún dato: ninguno de sus precios tenía la fuente enlazada. Sus 3 enlaces internos (fisioterapeuta o kinesiólogo, guía de Isapre y la FAQ del post de cuánto cuesta) apuntan ahora al destino o se quitaron.
+  - /precios es la dueña de "cuánto cobra un kinesiólogo a domicilio" y "kinesiólogo a domicilio valor". El title no cambia. H1: "Valor del kinesiólogo a domicilio en Santiago". H2 nuevo sobre la tabla de planes: "¿Cuánto cobra un kinesiólogo a domicilio en KINEUM?". Enlaces cruzados: /precios → post con "cuánto cobra un kinesiólogo particular"; post → /precios con "valor del kinesiólogo a domicilio en KINEUM". MODIFICADO 2026-11-23.
+- Adulto mayor: en los 8 hubs, el bloque de kinesiología geriátrica tiene la línea "Guías para la familia:" con enlaces a paciente postrado, fractura de cadera y adulto mayor que se cayó. /servicios/geriatrica ya enlazaba las 3 (Guías clínicas) y la portada enlaza a /servicios/geriatrica y a paciente postrado. Títulos, H1 y fecha de los hubs sin cambios (se miden hasta el 7-dic; la línea es de enlaces, no contenido principal).
+- /blog: og:title igual al title.
+- `seo/citaciones-locales.md`: ficha como negocio de área de servicio, sin local que reciba público, con la dirección particular de Ricardo en Providencia solo para verificar y oculta. Esa dirección nunca se publica en el sitio ni en el repo.
+- Queda igual que antes, para que Ricardo decida: el rango en consulta ($30.000 a $38.000) sigue sin fuente enlazada en la FAQ del post de cuánto cuesta y en la tabla de domicilio o centro. `public/images/blog-kinesiologo-particular.jpg` quedó sin uso.
+
 ## Deploys
 
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |
