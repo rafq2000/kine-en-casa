@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: "https://kineum.cl/blog",
   },
   openGraph: {
-    title: "Blog de Kinesiología y Rehabilitación | KINEUM",
+    title: "Blog de Kinesiología y Rehabilitación en Casa | KINEUM",
     description:
       "Guías escritas por kinesiólogos: rehabilitación tras cirugía, ACV, dolor lumbar, adulto mayor y kinesiología respiratoria, para hacer en casa con seguridad.",
     url: "https://kineum.cl/blog",
