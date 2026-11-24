@@ -1,13 +1,12 @@
 # Ficha de Google y citaciones locales — lo que solo puede hacer Ricardo
 
-> **ANTES DE EMPEZAR**
+> **DIRECCIÓN: DECISIÓN DE RICARDO (23-nov-2026)**
 >
-> La dirección que se declare en la ficha tiene que ser un lugar donde KINEUM opera de
-> verdad. Si Av. Apoquindo 4501 es una oficina virtual o un domicilio tributario sin
-> personal, **no se usa**: Google no permite fichas en oficinas virtuales y puede
-> suspenderla. Se declara la dirección real (por ejemplo, desde donde salen los
-> kinesiólogos), que de todos modos queda oculta porque es un negocio de área de servicio.
-> La decisión es de Ricardo.
+> La ficha se crea como **negocio de área de servicio**: KINEUM no tiene un local que
+> reciba público. Para la verificación se usa la **dirección particular de Ricardo en
+> Providencia**, solo para verificar y **oculta**. Esa dirección **nunca** se publica en el
+> sitio, en el schema ni en este repo (el repo es público): aquí solo se anota que existe.
+> En la ficha no va Av. Apoquindo 4501, la dirección comercial del footer.
 
 En todas las búsquedas "kinesiólogo a domicilio {comuna}" aparece arriba un bloque de mapas
 con 3 fichas de Google. Hoy lo ganan KINECHI (452 reseñas), KAD (84), Merakine (50) y
@@ -26,8 +25,8 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 | Sitio | https://kineum.cl (sin www; en la ficha, con la UTM de "Enlaces de la ficha") |
 | Email | contacto@kineum.cl — **no usarlo mientras rebote** (ver T53) |
 | Razón social | Kineum SpA (RUT: pendiente; el publicado era inválido, ver cambios.md › Decisiones) |
-| Dirección | La que se decida en "ANTES DE EMPEZAR" (**ocultarla**: marcar que no se recibe público) |
-| Área de servicio | Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba (Pedro Fontova, El Carmen y Ciudad Empresarial) y Santiago Centro |
+| Dirección | La particular de Ricardo en Providencia, solo para la verificación y **oculta** (marcar que no se recibe público). No se escribe en ninguna parte |
+| Área de servicio | Las 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba (solo Pedro Fontova, El Carmen y Ciudad Empresarial) y Santiago Centro |
 | Categoría principal | Kinesiólogo |
 | Categorías secundarias | Kinesioterapista · Servicio de asistencia sanitaria domiciliaria |
 | Horario | Lunes a viernes 08:00–20:00 · Sábado 09:00–18:00 · Domingo 10:00–16:00 (igual al del sitio y a `lib/negocio.ts`; valor seguro mientras Ricardo no responda T04b) |
@@ -42,17 +41,20 @@ Orden de impacto: 1) ficha de Google, 2) reseñas reales, 3) directorios de salu
 ## 1. Crear la ficha (15 minutos + la verificación)
 
 1. Entrar a https://business.google.com con la cuenta que administra el sitio.
-2. Crearla como **negocio de área de servicio**: cuando pregunte por la dirección, marcar
-   que no se atiende público ahí y poner como área las 8 comunas, ni una más. Un área
-   inflada trae consultas que no se pueden atender.
+2. Crearla como **negocio de área de servicio**: cuando pregunte si hay un local que reciba
+   clientes, responder que no. La dirección que pida es la particular de Ricardo en
+   Providencia, solo para la verificación, y queda oculta. Poner como área las 8 comunas,
+   ni una más. En Huechuraba se atiende solo Pedro Fontova, El Carmen y Ciudad Empresarial:
+   si Google ofrece esos sectores como área, usar solo esos; si no, la comuna, y la
+   descripción lo aclara. Un área inflada trae consultas que no se pueden atender.
 3. Verificación: Google suele pedir un video. Tener a mano el equipamiento (camilla, TENS,
    ultrasonido), el vehículo si lo hay y documentación de Kineum SpA.
 4. Pegar los textos de abajo, subir fotos según la sección "Fotos" y seguir con
    "Después de verificar".
 
-### Descripción del negocio (pegar tal cual, sin precios)
+### Descripción del negocio (pegar tal cual, sin precios; usa 748 de los 750 caracteres que admite Google)
 
-> KINEUM es un servicio de kinesiología a domicilio en el sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Atendemos kinesiología geriátrica, respiratoria para adultos y niños, traumatológica, neurológica y rehabilitación después de una cirugía. El kinesiólogo llega a tu casa con camilla y equipamiento profesional. La evaluación inicial es gratuita y recién después te decimos cuántas sesiones necesitas y cuánto cuesta. Sesiones de 60 minutos, de lunes a domingo. Es un servicio particular: emitimos boleta de honorarios después de cada sesión, reembolsable en tu Isapre y en tu seguro complementario según tu plan.
+> KINEUM es un servicio de kinesiología a domicilio en el sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba (Pedro Fontova, El Carmen y Ciudad Empresarial) y Santiago Centro. Atendemos kinesiología geriátrica, respiratoria para adultos y niños, traumatológica, neurológica y rehabilitación después de una cirugía. El kinesiólogo llega a tu casa con camilla y equipamiento profesional. La evaluación inicial es gratuita y recién después te decimos cuántas sesiones necesitas y cuánto cuesta. Sesiones de 60 minutos, de lunes a domingo. Es un servicio particular: emitimos boleta de honorarios después de cada sesión, reembolsable en tu Isapre y en tu seguro complementario según tu plan.
 
 ### Servicios (uno por especialidad)
 
@@ -169,9 +171,9 @@ Reglas para todos los directorios:
 | https://cl.physiofinder.net | Directorio específico de kinesiología |
 | https://2x3.cl | Aparece en las búsquedas de kinesiología a domicilio por comuna |
 
-Opción a evaluar: el convenio **Tarjeta Vecino** de Las Condes y Providencia. Varios
-competidores aparecen en las búsquedas de esas comunas por esa vía y el municipio enlaza a
-sus prestadores. Implica ofrecer un descuento.
+Opción a evaluar: el convenio **Tarjeta Vecino** de Las Condes. La página municipal de un
+competidor sale 3.ª en "kinesiólogo a domicilio las condes" (23-nov). Falta averiguar si
+Providencia, Vitacura y Lo Barnechea tienen convenios parecidos. Implica ofrecer un descuento.
 
 ### Directorios generales (rápidos, valen por la coherencia de datos)
 
