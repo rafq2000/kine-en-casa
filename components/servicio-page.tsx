@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import {
     Phone,
     MessageCircle,
@@ -120,6 +121,21 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
             {servicioSchema && (
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicioSchema) }} />
             )}
+            {contenido.responsable && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "Person",
+                            name: contenido.responsable.nombre,
+                            jobTitle: contenido.responsable.cargo,
+                            image: `https://kineum.cl${contenido.responsable.foto}`,
+                            worksFor: { "@id": "https://kineum.cl/#organization" },
+                        }),
+                    }}
+                />
+            )}
 
             {/* Header */}
             <header className="bg-slate-950 text-white sticky top-0 z-50 border-b border-slate-800">
@@ -220,6 +236,24 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
             <article className="py-16 md:py-20">
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl space-y-14">
+                        {contenido.responsable && (
+                            <section>
+                                <h2 className="text-2xl md:text-3xl font-bold font-serif mb-5 text-slate-900">Quién dirige KINEUM</h2>
+                                <figure className="flex flex-col sm:flex-row sm:items-center gap-6">
+                                    <Image
+                                        src={contenido.responsable.foto}
+                                        alt={`${contenido.responsable.nombre}, ${contenido.responsable.cargo[0].toLowerCase()}${contenido.responsable.cargo.slice(1)}`}
+                                        width={240}
+                                        height={300}
+                                        className="rounded-2xl border border-slate-200 shadow-sm"
+                                    />
+                                    <figcaption>
+                                        <p className="text-xl font-bold text-slate-900">{contenido.responsable.nombre}</p>
+                                        <p className="text-slate-600">{contenido.responsable.cargo}</p>
+                                    </figcaption>
+                                </figure>
+                            </section>
+                        )}
                         {secciones.map((s) => (
                             <section key={s.h2} className={s.alerta ? "bg-amber-50 border border-amber-200 rounded-2xl p-7" : ""}>
                                 <h2

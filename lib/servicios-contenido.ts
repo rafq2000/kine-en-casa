@@ -7,6 +7,7 @@
 //
 // Regla de veracidad: prohibido incluir nombres de profesionales, numeros de registro,
 // cantidad de pacientes, años de trayectoria, premios o convenios. Solo datos verificables.
+// Única excepción: personas que Ricardo confirma con nombre y cargo (`responsable`), y solo eso.
 
 export interface SeccionServicio {
     h2: string
@@ -31,6 +32,8 @@ export interface ContenidoServicio {
     cta: { titulo: string; texto: string; boton: string; whatsapp: string }
     /** Fecha de ultima revision clinica del contenido (schema lastReviewed) */
     revisado: string
+    /** Persona confirmada por Ricardo; se muestra antes de las secciones */
+    responsable?: { nombre: string; cargo: string; foto: string }
 }
 
 const REVISADO = '2026-10-07'
@@ -700,6 +703,12 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             whatsapp: 'Hola, quiero consultar por kinesiología a domicilio',
         },
         revisado: REVISADO,
+        // Confirmado por Ricardo el 24-nov-2026: nombre, profesión y cargo. Nada más.
+        responsable: {
+            nombre: 'Francisca Gottschalk',
+            cargo: 'Kinesióloga y directora de KINEUM',
+            foto: '/equipo/francisca-gottschalk-kinesiologa-kineum.jpg',
+        },
     },
 }
 
