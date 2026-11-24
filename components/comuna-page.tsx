@@ -32,6 +32,13 @@ function wa(texto: string) {
     return `https://wa.me/56999679593?text=${encodeURIComponent(texto)}`
 }
 
+// 23-nov-2026: estas guías estaban sin indexar; se enlazan desde el bloque geriátrico de los 8 hubs
+const GUIAS_GERIATRIA = [
+    { href: "/blog/kinesiologia-paciente-postrado-en-casa", texto: "kinesiología para un paciente postrado" },
+    { href: "/blog/fractura-cadera-adulto-mayor", texto: "fractura de cadera en el adulto mayor" },
+    { href: "/blog/adulto-mayor-se-cayo-en-casa-que-hacer", texto: "qué hacer si un adulto mayor se cayó en casa" },
+]
+
 interface ComunaData {
     nombre: string
     slug: string
@@ -373,6 +380,19 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                             <span className="font-semibold text-slate-900">Qué tratamos:</span>{" "}
                                             {e.condiciones.join(" · ")}
                                         </p>
+                                        {e.slug === "kinesiologia-geriatrica" && (
+                                            <p className="text-slate-600 leading-relaxed mt-3">
+                                                <span className="font-semibold text-slate-900">Guías para la familia:</span>{" "}
+                                                {GUIAS_GERIATRIA.map((g, i) => (
+                                                    <span key={g.href}>
+                                                        <Link href={g.href} className="text-amber-700 underline hover:text-amber-800">
+                                                            {g.texto}
+                                                        </Link>
+                                                        {i < GUIAS_GERIATRIA.length - 2 ? ", " : i === GUIAS_GERIATRIA.length - 2 ? " y " : "."}
+                                                    </span>
+                                                ))}
+                                            </p>
+                                        )}
                                         <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-5">
                                             <Link
                                                 href={e.servicioUrl}
