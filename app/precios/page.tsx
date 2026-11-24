@@ -355,9 +355,9 @@ export default function PreciosPage() {
           </Badge>
 
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 font-serif leading-tight">
-            Precios Kinesiología
+            Valor del kinesiólogo
             <br />
-            <span className="text-amber-700">a Domicilio en Santiago</span>
+            <span className="text-amber-700">a domicilio en Santiago</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-700 mb-8 leading-relaxed max-w-4xl mx-auto">
@@ -366,6 +366,9 @@ export default function PreciosPage() {
             Boleta reembolsable en tu Isapre y en tu seguro complementario, sin costo de traslado.
           </p>
 
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4 font-serif">
+            ¿Cuánto cobra un kinesiólogo a domicilio en KINEUM?
+          </h2>
           <div className="overflow-x-auto max-w-3xl mx-auto mb-8 rounded-xl border border-slate-200 bg-white shadow-sm">
             <table className="w-full text-left text-sm sm:text-base">
               <caption className="sr-only">Valor de la kinesiología a domicilio en KINEUM por plan</caption>
@@ -401,9 +404,9 @@ export default function PreciosPage() {
           </div>
 
           <p className="text-lg text-slate-600 mb-8 max-w-3xl mx-auto">
-            Compara con lo que cobran otros servicios en{" "}
+            Compara con lo que cobran otros servicios en nuestra guía de{" "}
             <Link href="/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago" className="text-amber-700 underline hover:text-amber-800">
-              cuánto cobra un kinesiólogo a domicilio en Santiago
+              cuánto cobra un kinesiólogo particular
             </Link>{" "}
             y revisa{" "}
             <Link href="/blog/reembolso-isapre-kinesiologia" className="text-amber-700 underline hover:text-amber-800">

@@ -74,6 +74,13 @@ const nextConfig = {
         destination: '/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago',
         permanent: true,
       },
+      // 23-nov-2026: el grupo de precios queda en /precios y el post de cuánto cuesta (dueño de
+      // "cuánto cobra un kinesiólogo particular"). Este post nunca se indexó.
+      {
+        source: '/blog/cuanto-cobra-kinesiologo-particular',
+        destination: '/blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago',
+        permanent: true,
+      },
     ]
   },
 }
