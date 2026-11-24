@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { MapPin, Phone, MessageCircle, ChevronRight, Home } from "lucide-react"
@@ -8,8 +9,6 @@ import { comunas, type ZonaComuna } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 import { PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 
-const TEL = "+56999679593"
-const TEL_DISPLAY = "+56 9 9967 9593"
 const URL = "https://kineum.cl/cobertura"
 
 export const metadata: Metadata = {
@@ -128,7 +127,7 @@ export default function Page() {
                             decirte de frente si podemos llegar antes de que pierdas tiempo.
                         </p>
                         <a
-                            href={`https://wa.me/56999679593?text=${encodeURIComponent("Hola, quiero saber si atienden kinesiología a domicilio en mi comuna")}`}
+                            href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, quiero saber si atienden kinesiología a domicilio en mi comuna")}`}
                             data-cta="hero"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -218,7 +217,7 @@ export default function Page() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
-                            href={`https://wa.me/56999679593?text=${encodeURIComponent("Hola, ¿atienden kinesiología a domicilio en mi comuna?")}`}
+                            href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, ¿atienden kinesiología a domicilio en mi comuna?")}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition-colors"

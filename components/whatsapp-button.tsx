@@ -1,17 +1,17 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import { MessageCircle, Phone } from "lucide-react"
 
 // Botón flotante de contacto. Componente de servidor: es un enlace real (se puede medir y
 // funciona sin JavaScript), aparece al cargar y el mensaje dice desde qué página viene el lead.
 // Móvil: barra fija abajo con WhatsApp (2/3) y Llamar (1/3). Escritorio: píldora abajo a la derecha.
 
-const TEL = "+56999679593"
 
 export function WhatsAppButton({
     mensaje = "Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ",
 }: {
     mensaje?: string
 }) {
-    const href = `https://wa.me/56999679593?text=${encodeURIComponent(mensaje)}`
+    const href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(mensaje)}`
 
     return (
         <>
@@ -32,7 +32,7 @@ export function WhatsAppButton({
                     <a
                         href={`tel:${TEL}`}
                         data-cta="flotante"
-                        aria-label="Llamar a KINEUM al +56 9 9967 9593"
+                        aria-label={`Llamar a KINEUM al ${TEL_DISPLAY}`}
                         className="w-1/3 inline-flex items-center justify-center gap-2 bg-slate-900 text-white font-semibold py-3.5"
                     >
                         <Phone className="h-5 w-5" />

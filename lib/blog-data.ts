@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import { Brain, TrendingUp, Users, Activity, Heart, Zap, Shield, Smile, CircleDollarSign, FileText, Building2, Baby, ClipboardList } from "lucide-react";
 
 export const blogPosts = [
@@ -145,7 +146,7 @@ export const blogPosts = [
 <h3>¿Qué pasa si vivimos lejos del centro de Santiago?</h3>
 <p>Atendemos a domicilio en 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Solo atendemos en esas 8 comunas.</p>
 
-<p>Sabemos que cuidar a alguien que no se levanta cansa, y que muchas veces la familia llega a pedir ayuda cuando ya está al límite. Si quieres saber qué se puede hacer en tu caso concreto, la <strong>evaluación inicial es gratuita</strong>: vamos a la casa, vemos a la persona, revisamos el entorno y te decimos con honestidad qué es realista esperar. <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20para%20un%20paciente%20postrado%20en%20casa">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos la visita.</p>`
+<p>Sabemos que cuidar a alguien que no se levanta cansa, y que muchas veces la familia llega a pedir ayuda cuando ya está al límite. Si quieres saber qué se puede hacer en tu caso concreto, la <strong>evaluación inicial es gratuita</strong>: vamos a la casa, vemos a la persona, revisamos el entorno y te decimos con honestidad qué es realista esperar. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20para%20un%20paciente%20postrado%20en%20casa">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos la visita.</p>`
   },
   {
     slug: "kinesiologo-a-domicilio-urgente",
@@ -213,7 +214,7 @@ export const blogPosts = [
 </table>
 
 <h2>Cómo se coordina una visita urgente en KINEUM</h2>
-<p>Somos un servicio de <a href="/">kinesiólogo a domicilio en Santiago</a>, sin call center ni formularios eternos. El camino más rápido es escribirnos por WhatsApp al <strong>+56 9 9967 9593</strong> con tres datos:</p>
+<p>Somos un servicio de <a href="/">kinesiólogo a domicilio en Santiago</a>, sin call center ni formularios eternos. El camino más rápido es escribirnos por WhatsApp al <strong>${TEL_DISPLAY}</strong> con tres datos:</p>
 <ul>
 <li><strong>Qué pasa:</strong> quién es el paciente, qué edad tiene y qué está ocurriendo hoy.</li>
 <li><strong>En qué comuna están</strong>, porque de eso depende cuán rápido podemos llegar.</li>
@@ -245,7 +246,7 @@ export const blogPosts = [
 
 <h2>En resumen</h2>
 <p>Si hay señales de alarma, el número es el 131. Si lo que tienes es un niño cargado con indicación de KTR, un dolor agudo que te bloquea, un alta reciente que no puede esperar o una casa donde el cuidador ya no da abasto, eso sí lo podemos ver pronto, habitualmente dentro de 24 horas.</p>
-<p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a domingo.</p>`
+<p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a domingo.</p>`
   },
   {
     slug: "fisioterapeuta-o-kinesiologo-a-domicilio",
@@ -330,7 +331,7 @@ export const blogPosts = [
 <h3>¿En qué comunas de Santiago atienden a domicilio?</h3>
 <p>KINEUM atiende de lunes a domingo en 8 comunas del sector oriente y centro de Santiago (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro); puedes revisar el listado actualizado en la <a href="/cobertura">página de cobertura</a>. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la atención es particular y con boleta.</p>
 
-<p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos contigo el día y la hora.</p>`
+<p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos contigo el día y la hora.</p>`
   },
   {
     slug: "kinesiologo-sin-orden-medica",
@@ -419,7 +420,7 @@ export const blogPosts = [
 <h3>¿Sirve la orden para kinesiología a domicilio?</h3>
 <p>Según la Circular 393, la atención kinesiológica integral puede hacerse en el domicilio. Igual revisa con tu Isapre o tu seguro las condiciones de tu plan o póliza. Si quieres saber qué esperar, lee <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
 
-<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te orientamos.</p>`
+<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y te orientamos.</p>`
   },
   {
     slug: "como-es-una-sesion-de-kinesiologia-a-domicilio",
@@ -516,7 +517,7 @@ export const blogPosts = [
 <h3>¿Qué pasa si ese día amanezco con más dolor?</h3>
 <p>Avísale al kinesiólogo al inicio. La sesión se adapta: se baja la carga o se cambia el enfoque. Si el dolor es muy distinto al habitual o aparecen síntomas nuevos, puede ser necesario suspender y derivar al médico.</p>
 
-<p>Si quieres coordinar tu evaluación inicial gratuita en tu casa, escríbenos por <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20inicial%20a%20domicilio">WhatsApp al +56 9 9967 9593</a> y cuéntanos tu caso y tu comuna. Atendemos de lunes a domingo.</p>`
+<p>Si quieres coordinar tu evaluación inicial gratuita en tu casa, escríbenos por <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20inicial%20a%20domicilio">WhatsApp al ${TEL_DISPLAY}</a> y cuéntanos tu caso y tu comuna. Atendemos de lunes a domingo.</p>`
   },
   {
     slug: "cuantas-sesiones-de-kinesiologia-necesito",
@@ -637,7 +638,7 @@ export const blogPosts = [
 <h3>¿La kinesiología reemplaza el control con mi médico?</h3>
 <p>No. La complementa. Si tienes un diagnóstico en estudio, síntomas que empeoran o una cirugía reciente, el médico tratante sigue siendo quien define el diagnóstico y los límites del tratamiento.</p>
 
-<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. <a href="https://wa.me/56999679593?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al +56 9 9967 9593</a> y te contamos cómo seguir.</p>`
+<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y te contamos cómo seguir.</p>`
   },
   {
     slug: "precio-10-sesiones-kinesiologia",
@@ -739,7 +740,7 @@ export const blogPosts = [
 <h3>¿Necesito orden médica para las 10 sesiones?</h3>
 <p>Para pedir el reembolso, varias isapres la exigen: Cruz Blanca y Nueva Masvida para kinesiología, y Colmena para tratamientos de varias sesiones. Por eso conviene tenerla antes de la primera sesión. Si te preguntas si puedes atenderte sin ella, lo vemos en <a href="/blog/kinesiologo-sin-orden-medica">kinesiólogo sin orden médica</a>.</p>
 
-<p>Si tienes una indicación de 10 sesiones y quieres saber cómo se vería tu tratamiento en casa, escríbenos. Partimos con una evaluación inicial gratuita y te explicamos la frecuencia, el plan y la boleta para tu reembolso. <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20indicadas%2010%20sesiones%20de%20kinesiolog%C3%ADa%20y%20quiero%20cotizar%20el%20Plan%20Premium">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
+<p>Si tienes una indicación de 10 sesiones y quieres saber cómo se vería tu tratamiento en casa, escríbenos. Partimos con una evaluación inicial gratuita y te explicamos la frecuencia, el plan y la boleta para tu reembolso. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20tengo%20indicadas%2010%20sesiones%20de%20kinesiolog%C3%ADa%20y%20quiero%20cotizar%20el%20Plan%20Premium">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a>.</p>`
   },
   {
     slug: "kinesiologia-a-domicilio-o-en-centro",
@@ -827,7 +828,7 @@ export const blogPosts = [
 <h3>¿En qué comunas atiende KINEUM a domicilio?</h3>
 <p>Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-<p>Si todavía no sabes qué te conviene, conversémoslo. La evaluación inicial es gratuita y te decimos con honestidad si tu caso se beneficia de la atención en casa o si te conviene más un centro. <a href="https://wa.me/56999679593?text=Hola%2C%20quiero%20saber%20si%20me%20conviene%20la%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
+<p>Si todavía no sabes qué te conviene, conversémoslo. La evaluación inicial es gratuita y te decimos con honestidad si tu caso se beneficia de la atención en casa o si te conviene más un centro. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20quiero%20saber%20si%20me%20conviene%20la%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a>.</p>`
   },
   {
     slug: "adulto-mayor-se-cayo-en-casa-que-hacer",
@@ -943,7 +944,7 @@ export const blogPosts = [
 <h3>¿El ejercicio realmente ayuda a prevenir caídas?</h3>
 <p>El consenso profesional es que los programas de fuerza y equilibrio, bien dosificados y sostenidos en el tiempo, suelen reducir el riesgo de caídas en personas mayores. Los resultados varían según la persona.</p>
 
-<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro, y la evaluación inicial es gratuita. <a href="https://wa.me/56999679593?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
+<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro, y la evaluación inicial es gratuita. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
   },
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
@@ -1032,7 +1033,7 @@ export const blogPosts = [
       <p>En KINEUM, $350.000 en el Plan Premium. Los rangos publicados en Santiago, en consulta y a domicilio, están en nuestra guía sobre el <a href="/blog/precio-10-sesiones-kinesiologia">precio de 10 sesiones de kinesiología</a>.</p>
 
 
-      <p><strong>¿Quieres una cotización exacta para tu caso?</strong> Escríbenos por <a href="https://wa.me/56999679593?text=Hola,%20quiero%20cotizar%20kinesiolog%C3%ADa%20a%20domicilio">WhatsApp al +56 9 9967 9593</a> y te confirmamos precio y disponibilidad en tu comuna, o revisa <a href="/como-funciona">cómo funciona el servicio</a>.</p>
+      <p><strong>¿Quieres una cotización exacta para tu caso?</strong> Escríbenos por <a href="https://wa.me/${WHATSAPP}?text=Hola,%20quiero%20cotizar%20kinesiolog%C3%ADa%20a%20domicilio">WhatsApp al ${TEL_DISPLAY}</a> y te confirmamos precio y disponibilidad en tu comuna, o revisa <a href="/como-funciona">cómo funciona el servicio</a>.</p>
     `
   },
   {
@@ -1182,7 +1183,7 @@ export const blogPosts = [
 <h3>¿Qué documentos piden los seguros complementarios para reembolsar kinesiología?</h3>
 <p>Primero se pide el reembolso en la isapre. Después, al seguro se presentan la liquidación o el comprobante de la isapre, la boleta de honorarios y la orden médica. MetLife pide que la orden indique el tipo de tratamiento y el número de sesiones, y Consorcio pide la orden médica de derivación. Revisa siempre tu póliza.</p>
 
-<p>Si ya tienes tu orden médica y quieres empezar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20tengo%20Isapre%20y%20quiero%20agendar%20kinesiolog%C3%ADa%20a%20domicilio">escríbenos por WhatsApp al +56 9 9967 9593</a>. Coordinamos tu evaluación inicial gratuita, de lunes a domingo, y te entregamos la boleta de honorarios para que pidas tu reembolso.</p>`
+<p>Si ya tienes tu orden médica y quieres empezar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20Isapre%20y%20quiero%20agendar%20kinesiolog%C3%ADa%20a%20domicilio">escríbenos por WhatsApp al ${TEL_DISPLAY}</a>. Coordinamos tu evaluación inicial gratuita, de lunes a domingo, y te entregamos la boleta de honorarios para que pidas tu reembolso.</p>`
   },
   {
     slug: "kinesiologia-respiratoria-infantil-domicilio",
@@ -1274,7 +1275,7 @@ export const blogPosts = [
 <h3>¿Necesito orden médica?</h3>
 <p>Sí. Para la KTR infantil trabajamos con la indicación del pediatra, y además la necesitas para pedir el reembolso en tu Isapre o seguro complementario.</p>
 
-<p><strong>¿Tu pediatra indicó KTR?</strong> <a href="https://wa.me/56999679593?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>, cuéntanos la edad de tu hijo y qué indicó el médico, y coordinamos la visita.</p>
+<p><strong>¿Tu pediatra indicó KTR?</strong> <a href="https://wa.me/${WHATSAPP}?text=Hola,%20mi%20hijo%20necesita%20KTR%20a%20domicilio">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a>, cuéntanos la edad de tu hijo y qué indicó el médico, y coordinamos la visita.</p>
 
 <p><strong>Fuentes:</strong> Roqué-Figuls M y col. <a href="https://pubmed.ncbi.nlm.nih.gov/37010196/" target="_blank" rel="noopener noreferrer">Chest physiotherapy for acute bronchiolitis in paediatric patients between 0 and 24 months old</a>. Cochrane Database Syst Rev. 2023. Ralston SL y col. <a href="https://pubmed.ncbi.nlm.nih.gov/25349312/" target="_blank" rel="noopener noreferrer">Clinical practice guideline: the diagnosis, management, and prevention of bronchiolitis</a>. Pediatrics. 2014. Ministerio de Salud de Chile, <a href="https://www.minsal.cl/ministerio-de-salud-detalla-signos-de-alerta-para-reconocer-enfermedades-respiratorias/" target="_blank" rel="noopener noreferrer">signos de alerta para reconocer enfermedades respiratorias</a> (12 de junio de 2023).</p>`
   },
@@ -1429,7 +1430,7 @@ export const blogPosts = [
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-<p><strong>¿Te operaron de la rodilla, la cadera u otra cirugía ortopédica?</strong> <a href="https://wa.me/56999679593?text=Hola,%20me%20operaron%20y%20quiero%20consultar%20por%20rehabilitaci%C3%B3n%20postquir%C3%BArgica%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a>, cuéntanos qué cirugía es y qué indicó tu cirujano, y coordinamos la evaluación gratuita de la rehabilitación postquirúrgica.</p>
+<p><strong>¿Te operaron de la rodilla, la cadera u otra cirugía ortopédica?</strong> <a href="https://wa.me/${WHATSAPP}?text=Hola,%20me%20operaron%20y%20quiero%20consultar%20por%20rehabilitaci%C3%B3n%20postquir%C3%BArgica%20a%20domicilio">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a>, cuéntanos qué cirugía es y qué indicó tu cirujano, y coordinamos la evaluación gratuita de la rehabilitación postquirúrgica.</p>
 
 <p><strong>Fuentes:</strong> Alsairefi S y col. <a href="https://pubmed.ncbi.nlm.nih.gov/42840808/" target="_blank" rel="noopener noreferrer">Efficacy of manual lymphatic drainage in reducing postoperative complications after cosmetic plastic surgery: a systematic review</a>. Plast Reconstr Surg Glob Open. 2026. Migliorini F y col. <a href="https://pubmed.ncbi.nlm.nih.gov/38086979/" target="_blank" rel="noopener noreferrer">Level I of evidence does not support manual lymphatic drainage for total knee arthroplasty: a meta-analysis</a>. Sci Rep. 2023. Davide P y col. <a href="https://pubmed.ncbi.nlm.nih.gov/42513489/" target="_blank" rel="noopener noreferrer">Effectiveness of manual lymphatic drainage after total knee arthroplasty: a systematic review</a>. J Clin Med. 2026. Ezzo J y col. <a href="https://pubmed.ncbi.nlm.nih.gov/25994425/" target="_blank" rel="noopener noreferrer">Manual lymphatic drainage for lymphedema following breast cancer treatment</a>. Cochrane Database Syst Rev. 2015.</p>`
   },
@@ -1517,7 +1518,7 @@ export const blogPosts = [
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-<p>¿Un familiar tuvo un ACV y ya está en la casa? Podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su médico. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20necesito%20rehabilitaci%C3%B3n%20post%20ACV%20en%20casa">escríbenos por WhatsApp</a>.</p>`
+<p>¿Un familiar tuvo un ACV y ya está en la casa? Podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su médico. Conoce nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20necesito%20rehabilitaci%C3%B3n%20post%20ACV%20en%20casa">escríbenos por WhatsApp</a>.</p>`
   },
 
   // ── Biblioteca clínica SEO ──
@@ -1616,7 +1617,7 @@ export const blogPosts = [
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-<p>¿Lumbago que no cede o que se repite cada pocos meses? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20lumbago%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita.</p>
+<p>¿Lumbago que no cede o que se repite cada pocos meses? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20tengo%20lumbago%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita.</p>
 
 <p><strong>Fuentes:</strong> Organización Mundial de la Salud, <a href="https://www.who.int/news-room/fact-sheets/detail/low-back-pain" target="_blank" rel="noopener noreferrer">Low back pain (nota descriptiva, 19 de junio de 2023)</a>.</p>`
   },
@@ -1716,7 +1717,7 @@ export const blogPosts = [
 <h3>¿Atienden fines de semana en Santiago?</h3>
 <p>Sí, de lunes a domingo, en sesiones de unos 60 minutos.</p>
 
-<p>Si te acabas de torcer el tobillo, o llevas semanas con uno que no responde, la evaluación inicial es gratuita y va a tu casa en Santiago. <a href="https://wa.me/56999679593?text=Hola,%20me%20esguinc%C3%A9%20el%20tobillo%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos la visita en tu comuna.</p>`
+<p>Si te acabas de torcer el tobillo, o llevas semanas con uno que no responde, la evaluación inicial es gratuita y va a tu casa en Santiago. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20me%20esguinc%C3%A9%20el%20tobillo%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos la visita en tu comuna.</p>`
   },
   {
     slug: "ciatica-sintomas-tratamiento",
@@ -1825,7 +1826,7 @@ export const blogPosts = [
 <h3>¿Puedo seguir haciendo deporte con ciática?</h3>
 <p>Casi siempre se puede hacer algo, aunque no sea lo mismo de antes. Ajustar la actividad es parte del tratamiento; suspenderla del todo rara vez es lo mejor.</p>
 
-<p>¿Llevas más de dos semanas con dolor en el glúteo o que baja por la pierna? La evaluación a domicilio es gratuita y de ahí sale un plan concreto. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20ci%C3%A1tico%20y%20quiero%20agendar%20mi%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu visita en un horario que acordamos contigo, de lunes a domingo.</p>`
+<p>¿Llevas más de dos semanas con dolor en el glúteo o que baja por la pierna? La evaluación a domicilio es gratuita y de ahí sale un plan concreto. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20ci%C3%A1tico%20y%20quiero%20agendar%20mi%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos tu visita en un horario que acordamos contigo, de lunes a domingo.</p>`
   },
   {
     slug: "tendinitis-hombro-manguito-rotador",
@@ -1920,7 +1921,7 @@ export const blogPosts = [
       <h3>¿Siempre termina en cirugía?</h3>
       <p>No. Se plantea sobre todo en roturas por trauma en personas jóvenes y activas, o cuando una rehabilitación bien hecha durante varios meses no da resultado. Esa decisión la toma el médico traumatólogo.</p>
 
-      <p>Si tu hombro lleva más de dos o tres semanas doliendo al levantar el brazo o no te deja dormir de ese lado, no esperes a que se pase solo. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20de%20hombro%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a> y coordinamos tu evaluación inicial gratuita a domicilio, de lunes a domingo, con el equipamiento incluido.</p>`
+      <p>Si tu hombro lleva más de dos o tres semanas doliendo al levantar el brazo o no te deja dormir de ese lado, no esperes a que se pase solo. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20de%20hombro%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos tu evaluación inicial gratuita a domicilio, de lunes a domingo, con el equipamiento incluido.</p>`
   },
   {
     slug: "artrosis-rodilla-ejercicios",
@@ -2033,7 +2034,7 @@ export const blogPosts = [
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio de lunes a domingo en 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Revisa el detalle en la página de <a href="/cobertura">cobertura</a> o pregúntanos por tu sector.</p>
 
-<p>Si la rodilla lleva meses decidiendo lo que puedes hacer y lo que no, el primer paso no cuesta nada: una evaluación en tu casa y una pauta de ejercicios hecha para tu rodilla. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20artrosis%20de%20rodilla%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp y agenda tu evaluación gratuita</a>, o llámanos al +56 9 9967 9593.</p>`
+<p>Si la rodilla lleva meses decidiendo lo que puedes hacer y lo que no, el primer paso no cuesta nada: una evaluación en tu casa y una pauta de ejercicios hecha para tu rodilla. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20artrosis%20de%20rodilla%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp y agenda tu evaluación gratuita</a>, o llámanos al ${TEL_DISPLAY}.</p>`
   },
   {
     slug: "paralisis-facial-rehabilitacion",
@@ -2105,7 +2106,7 @@ export const blogPosts = [
       <h3>¿Atienden en mi comuna?</h3>
       <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-      <p>Si ya te evaluó un médico y quieres apoyo con los ejercicios en tu casa, revisa nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20par%C3%A1lisis%20facial">escríbenos por WhatsApp</a>.</p>
+      <p>Si ya te evaluó un médico y quieres apoyo con los ejercicios en tu casa, revisa nuestro servicio de <a href="/servicios/neurologica">rehabilitación neurológica a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola,%20consulto%20por%20par%C3%A1lisis%20facial">escríbenos por WhatsApp</a>.</p>
 
       <p><strong>Fuentes:</strong> Peitersen E. <a href="https://pubmed.ncbi.nlm.nih.gov/12482166/" target="_blank" rel="noopener noreferrer">Bell's palsy: the spontaneous course of 2,500 peripheral facial nerve palsies of different etiologies</a>. Acta Otolaryngol Suppl. 2002. Baugh RF y col. <a href="https://pubmed.ncbi.nlm.nih.gov/24189771/" target="_blank" rel="noopener noreferrer">Clinical practice guideline: Bell's palsy</a>. Otolaryngol Head Neck Surg. 2013. Madhok VB y col. <a href="https://pubmed.ncbi.nlm.nih.gov/27428352/" target="_blank" rel="noopener noreferrer">Corticosteroids for Bell's palsy (idiopathic facial paralysis)</a>. Cochrane Database Syst Rev. 2016. Teixeira LJ y col. <a href="https://pubmed.ncbi.nlm.nih.gov/22161401/" target="_blank" rel="noopener noreferrer">Physical therapy for Bell's palsy (idiopathic facial paralysis)</a>. Cochrane Database Syst Rev. 2011.</p>`
   },
@@ -2222,7 +2223,7 @@ export const blogPosts = [
 <h3>¿Sirve la muñequera que venden en farmacia?</h3>
 <p>Puede servir si mantiene la muñeca neutra y no en extensión. Muchas se usan apretadas o dobladas hacia atrás, y así aumentan la presión dentro del túnel en vez de reducirla. La ajustamos en la primera visita con la que ya tengas.</p>
 
-<p>Si llevas semanas despertando con la mano dormida, no lo dejes pasar: cuanto antes se aborde la compresión, mejor suele responder el nervio. Escríbenos y coordinamos tu <strong>evaluación kinesiológica gratuita a domicilio</strong> en Santiago. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20hormigueo%20en%20la%20mano%20y%20quiero%20una%20evaluaci%C3%B3n%20por%20t%C3%BAnel%20carpiano">Agendar por WhatsApp al +56 9 9967 9593</a>.</p>`
+<p>Si llevas semanas despertando con la mano dormida, no lo dejes pasar: cuanto antes se aborde la compresión, mejor suele responder el nervio. Escríbenos y coordinamos tu <strong>evaluación kinesiológica gratuita a domicilio</strong> en Santiago. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20hormigueo%20en%20la%20mano%20y%20quiero%20una%20evaluaci%C3%B3n%20por%20t%C3%BAnel%20carpiano">Agendar por WhatsApp al ${TEL_DISPLAY}</a>.</p>`
   },
   {
     slug: "fascitis-plantar-solucion",
@@ -2328,7 +2329,7 @@ export const blogPosts = [
 <h3>¿Puedo recuperar el dinero por mi isapre o seguro?</h3>
 <p>Recibes boleta de honorarios electrónica para presentarla en tu isapre o seguro complementario; el monto depende de la cobertura de tu plan. El paso a paso, isapre por isapre, está en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso de kinesiología en tu isapre</a>.</p>
 
-<p>¿Llevas meses con dolor de talón? Agenda tu evaluación inicial gratuita en tu casa: revisamos tu pie, tu calzado y tu carga diaria, y te decimos qué esperar. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20dolor%20de%20tal%C3%B3n%20(fascitis%20plantar)%20y%20quiero%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al +56 9 9967 9593</a>.</p>`
+<p>¿Llevas meses con dolor de talón? Agenda tu evaluación inicial gratuita en tu casa: revisamos tu pie, tu calzado y tu carga diaria, y te decimos qué esperar. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20de%20tal%C3%B3n%20(fascitis%20plantar)%20y%20quiero%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a>.</p>`
   },
   {
     slug: "fractura-cadera-adulto-mayor",
@@ -2415,7 +2416,7 @@ export const blogPosts = [
 <h3>¿Atienden en mi comuna?</h3>
 <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-<p>Si tu familiar se operó de la cadera y ya está en la casa, podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su traumatólogo. Conoce también nuestro servicio de <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a> y el de <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, o <a href="https://wa.me/56999679593?text=Hola%2C%20mi%20familiar%20se%20oper%C3%B3%20de%20la%20cadera%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n">escríbenos por WhatsApp</a>.</p>`
+<p>Si tu familiar se operó de la cadera y ya está en la casa, podemos ir a evaluarlo sin costo y armar el plan con las indicaciones de su traumatólogo. Conoce también nuestro servicio de <a href="/servicios/postquirurgica">rehabilitación postquirúrgica a domicilio</a> y el de <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, o <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20mi%20familiar%20se%20oper%C3%B3%20de%20la%20cadera%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n">escríbenos por WhatsApp</a>.</p>`
   },
   {
     slug: "epicondilitis-codo-tenista",
@@ -2489,7 +2490,7 @@ export const blogPosts = [
       <h3>¿Atienden en mi comuna?</h3>
       <p>Atendemos a domicilio en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>
 
-      <p>¿Dolor de codo que lleva semanas? Cuánto dura el tratamiento depende de tu caso; te damos una estimación en la evaluación gratuita, en tu casa. Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola,%20tengo%20epicondilitis">escríbenos por WhatsApp</a>.</p>
+      <p>¿Dolor de codo que lleva semanas? Cuánto dura el tratamiento depende de tu caso; te damos una estimación en la evaluación gratuita, en tu casa. Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20epicondilitis">escríbenos por WhatsApp</a>.</p>
 
       <p><strong>Fuentes:</strong> Shiri R y col. <a href="https://pubmed.ncbi.nlm.nih.gov/16968862/" target="_blank" rel="noopener noreferrer">Prevalence and determinants of lateral and medial epicondylitis: a population study</a>. Am J Epidemiol. 2006. Smidt N y col. <a href="https://pubmed.ncbi.nlm.nih.gov/11879861/" target="_blank" rel="noopener noreferrer">Corticosteroid injections, physiotherapy, or a wait-and-see policy for lateral epicondylitis: a randomised controlled trial</a>. Lancet. 2002. Bisset L y col. <a href="https://pubmed.ncbi.nlm.nih.gov/17012266/" target="_blank" rel="noopener noreferrer">Mobilisation with movement and exercise, corticosteroid injection, or wait and see for tennis elbow: randomised trial</a>. BMJ. 2006. Coombes BK y col. <a href="https://pubmed.ncbi.nlm.nih.gov/23385272/" target="_blank" rel="noopener noreferrer">Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial</a>. JAMA. 2013.</p>`
   },
@@ -2533,7 +2534,7 @@ export const blogPosts = [
       <h2>El rol de la kinesiología</h2>
       <p>Los ejercicios específicos de escoliosis no son abdominales genéricos: son autocorrecciones tridimensionales, respiración dirigida al lado colapsado y fuerza asimétrica (el trabajo de equilibrio unipodal de la imagen es parte del control postural). El niño aprende a "habitar" su columna corregida.</p>
 
-      <p>Si tu hijo ya tiene diagnóstico y su traumatólogo indicó kinesiología, <a href="https://wa.me/56999679593?text=Hola,%20consulto%20por%20escoliosis%20de%20mi%20hijo">consúltanos por WhatsApp</a> y te decimos con franqueza si podemos ayudarte.</p>
+      <p>Si tu hijo ya tiene diagnóstico y su traumatólogo indicó kinesiología, <a href="https://wa.me/${WHATSAPP}?text=Hola,%20consulto%20por%20escoliosis%20de%20mi%20hijo">consúltanos por WhatsApp</a> y te decimos con franqueza si podemos ayudarte.</p>
     `
   },
   {
@@ -2640,7 +2641,7 @@ export const blogPosts = [
 <h3>¿En qué comunas atienden?</h3>
 <p>En 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Puedes confirmar la tuya en nuestras <a href="/cobertura">comunas con cobertura en Santiago</a>.</p>
 
-<p>¿Te diagnosticaron una hernia y quieres agotar bien el camino conservador antes de decidir sobre una cirugía? <a href="https://wa.me/56999679593?text=Hola,%20tengo%20una%20hernia%20discal%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita%20a%20domicilio">Escríbenos por WhatsApp al +56 9 9967 9593</a> y agenda tu evaluación inicial gratuita a domicilio: te decimos con franqueza qué se puede hacer, cuántas sesiones estimamos y cuándo corresponde volver a tu médico.</p>`
+<p>¿Te diagnosticaron una hernia y quieres agotar bien el camino conservador antes de decidir sobre una cirugía? <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20una%20hernia%20discal%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita%20a%20domicilio">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y agenda tu evaluación inicial gratuita a domicilio: te decimos con franqueza qué se puede hacer, cuántas sesiones estimamos y cuándo corresponde volver a tu médico.</p>`
   },
   {
     slug: "masaje-descontracturante-vs-terapeutico",
@@ -2675,7 +2676,7 @@ export const blogPosts = [
 
       <blockquote>"Si llevas 3 masajes en 2 meses para el mismo dolor, no necesitas un cuarto masaje: necesitas un diagnóstico funcional."</blockquote>
 
-      <p>En KINEUM la primera evaluación es <a href="/como-funciona">gratuita y a domicilio</a>: te decimos con honestidad si tu caso es de relajación o de tratamiento. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20contracturas%20frecuentes">Escríbenos por WhatsApp</a>.</p>
+      <p>En KINEUM la primera evaluación es <a href="/como-funciona">gratuita y a domicilio</a>: te decimos con honestidad si tu caso es de relajación o de tratamiento. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20contracturas%20frecuentes">Escríbenos por WhatsApp</a>.</p>
     `
   },
   {
@@ -2785,7 +2786,7 @@ export const blogPosts = [
 <h3>¿Voy a volver a caminar sin bastón y a poder arrodillarme?</h3>
 <p>No podemos prometerte un resultado ni una fecha: depende de tu cirugía, de tu estado previo y de tu evolución. Arrodillarse, en particular, les sigue resultando incómodo a muchos aun con una prótesis que funciona bien, y conviene conversarlo con tu traumatólogo.</p>
 
-<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/56999679593?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes —con el detalle en <a href="/kinesiologo-a-domicilio-las-condes#rehabilitacion-postquirurgica">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>`
+<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes —con el detalle en <a href="/kinesiologo-a-domicilio-las-condes#rehabilitacion-postquirurgica">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.</p>`
   },
   {
     slug: "cervicalgia-mareos",
@@ -2847,7 +2848,7 @@ export const blogPosts = [
 <h3>¿Necesito orden médica?</h3>
 <p>Para la evaluación inicial no. Para iniciar el tratamiento sí: el reglamento de la profesión (Decreto 1.082 de 1958, artículo 3) dice que el kinesiólogo aplica sus terapias por indicación y orden médica escrita, y esa orden es también la que habitualmente te pide tu Isapre o seguro complementario para el reembolso. Lo que te devuelvan depende de la cobertura de tu plan.</p>
 
-<p>¿Dolor de cuello que vuelve una y otra vez? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/56999679593?text=Hola%2C%20tengo%20dolor%20de%20cuello%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita en tu casa.</p>`
+<p>¿Dolor de cuello que vuelve una y otra vez? Conoce nuestro servicio de <a href="/servicios/traumatologica">kinesiología traumatológica a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20tengo%20dolor%20de%20cuello%20y%20quiero%20una%20evaluaci%C3%B3n%20a%20domicilio">escríbenos por WhatsApp</a> para agendar la evaluación gratuita en tu casa.</p>`
   },
   {
     slug: "fibromialgia-ejercicio",
@@ -2882,7 +2883,7 @@ export const blogPosts = [
       <h2>Qué logra un programa bien llevado</h2>
       <p>Con constancia, el objetivo es menos dolor, más energía diaria, mejor sueño y —quizás lo más valioso— la confianza de volver a planificar la vida sin miedo al brote. El acompañamiento cercano evita las recaídas por sobredosis de entusiasmo.</p>
 
-      <p>Tratamos fibromialgia a domicilio con programas individualizados y te dejamos una pauta de ejercicios para los días entre sesiones. <a href="https://wa.me/56999679593?text=Hola,%20tengo%20fibromialgia">Escríbenos por WhatsApp</a> y conversemos tu caso.</p>
+      <p>Tratamos fibromialgia a domicilio con programas individualizados y te dejamos una pauta de ejercicios para los días entre sesiones. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20fibromialgia">Escríbenos por WhatsApp</a> y conversemos tu caso.</p>
     `
   }
 ];

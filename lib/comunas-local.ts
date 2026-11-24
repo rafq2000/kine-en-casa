@@ -1,3 +1,4 @@
+import { TEL_DISPLAY } from "@/lib/contacto.mjs"
 // Contenido local único por comuna (centros de salud verificados, bloque del hub
 // y texto por especialidad). Reduce el texto compartido entre /{especialidad}-{comuna}.
 
@@ -103,7 +104,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "Vivo en San Carlos de Apoquindo, lejos del Metro, ¿llegan hasta allá para las sesiones después de la operación?",
-                        "a": "Sí, Las Condes está dentro de las comunas que cubre KINEUM. Al escribir al WhatsApp +56 9 9967 9593 indica tu dirección para coordinar el horario, y ten a mano la epicrisis y las ayudas técnicas que te indicaron."
+                        "a": `Sí, Las Condes está dentro de las comunas que cubre KINEUM. Al escribir al WhatsApp ${TEL_DISPLAY} indica tu dirección para coordinar el horario, y ten a mano la epicrisis y las ayudas técnicas que te indicaron.`
                     }
                 ]
             },
@@ -208,7 +209,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "faqsLocales": [
                     {
                         "q": "Me dan de alta el viernes de una clínica de Vitacura. ¿Pueden empezar el fin de semana?",
-                        "a": "Atendemos de lunes a domingo, así que escríbenos al +56 9 9967 9593 antes del alta para coordinar la evaluación inicial. Lo ideal es tener a mano la epicrisis y las indicaciones de tu cirujano para partir según su protocolo."
+                        "a": `Atendemos de lunes a domingo, así que escríbenos al ${TEL_DISPLAY} antes del alta para coordinar la evaluación inicial. Lo ideal es tener a mano la epicrisis y las indicaciones de tu cirujano para partir según su protocolo.`
                     },
                     {
                         "q": "Vivo en una casa con escalones en la entrada; ¿qué preparo antes de volver de la clínica?",
@@ -786,7 +787,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "El pediatra indicó kinesiología respiratoria. ¿Pueden venir un fin de semana a Huechuraba?",
-                        "a": "Sí, atendemos de lunes a domingo y coordinamos la hora por WhatsApp al +56 9 9967 9593. Eso evita sacar de la casa a un niño con fiebre. Si durante el fin de semana aparecen señales de alarma, no esperes la sesión: urgencia o SAMU 131."
+                        "a": `Sí, atendemos de lunes a domingo y coordinamos la hora por WhatsApp al ${TEL_DISPLAY}. Eso evita sacar de la casa a un niño con fiebre. Si durante el fin de semana aparecen señales de alarma, no esperes la sesión: urgencia o SAMU 131.`
                     }
                 ]
             },
@@ -800,7 +801,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "No tenemos auto y el Metro nos queda en el borde de la comuna. ¿Eso complica la rehabilitación?",
-                        "a": "Para las sesiones no: el kinesiólogo llega a tu casa de lunes a domingo, con hora fija coordinada por WhatsApp al +56 9 9967 9593. Lo que sí conviene es agrupar los controles médicos fuera de la comuna y pedir las indicaciones por escrito, para que cada viaje rinda y el trabajo en casa siga la misma línea."
+                        "a": `Para las sesiones no: el kinesiólogo llega a tu casa de lunes a domingo, con hora fija coordinada por WhatsApp al ${TEL_DISPLAY}. Lo que sí conviene es agrupar los controles médicos fuera de la comuna y pedir las indicaciones por escrito, para que cada viaje rinda y el trabajo en casa siga la misma línea.`
                     }
                 ]
             },

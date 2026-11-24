@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
@@ -67,7 +68,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 1,
       name: "Contáctanos por WhatsApp o teléfono",
-      text: "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en un horario que acordamos contigo.",
+      text: `Escríbenos por WhatsApp o llama al ${TEL_DISPLAY}. Cuéntanos tu situación y coordinamos una visita en un horario que acordamos contigo.`,
       url: "https://kineum.cl/como-funciona#paso-1",
     },
     {
@@ -162,7 +163,7 @@ const steps = [
     icon: MessageCircle,
     title: "Contáctanos por WhatsApp o Teléfono",
     description:
-      "Escríbenos por WhatsApp o llama al +56 9 9967 9593. Cuéntanos tu situación y coordinamos una visita en un horario que acordamos contigo.",
+      `Escríbenos por WhatsApp o llama al ${TEL_DISPLAY}. Cuéntanos tu situación y coordinamos una visita en un horario que acordamos contigo.`,
     detail: "Cuéntanos tu comuna y el motivo de consulta.",
     color: "amber",
   },
@@ -282,7 +283,7 @@ export default function ComoFuncionaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/56999679593?text=Hola%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20a%20domicilio"
+                href={`https://wa.me/${WHATSAPP}?text=Hola%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20a%20domicilio`}
                 data-cta="hero"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -292,11 +293,11 @@ export default function ComoFuncionaPage() {
                 Agendar por WhatsApp
               </a>
               <a
-                href="tel:+56999679593"
+                href={`tel:${TEL}`}
                 className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 border border-white/20 gap-2"
               >
                 <Phone className="w-5 h-5" />
-                +56 9 9967 9593
+                {TEL_DISPLAY}
               </a>
             </div>
           </div>
@@ -506,17 +507,17 @@ export default function ComoFuncionaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/56999679593?text=Hola%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20a%20domicilio"
+                href={`https://wa.me/${WHATSAPP}?text=Hola%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20a%20domicilio`}
                 data-cta="cierre"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white text-emerald-700 hover:bg-emerald-50 px-8 py-4 text-lg rounded-full font-bold transition-colors duration-200 gap-2"
               >
                 <MessageCircle className="w-5 h-5" />
-                WhatsApp: +56 9 9967 9593
+                WhatsApp: {TEL_DISPLAY}
               </a>
               <a
-                href="tel:+56999679593"
+                href={`tel:${TEL}`}
                 className="inline-flex items-center justify-center bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 text-lg rounded-full font-medium transition-colors duration-200 border border-emerald-500 gap-2"
               >
                 <Phone className="w-5 h-5" />

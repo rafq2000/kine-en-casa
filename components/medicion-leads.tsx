@@ -1,4 +1,5 @@
 "use client"
+import { WHATSAPP } from "@/lib/contacto.mjs"
 
 import { useEffect } from "react"
 
@@ -17,7 +18,7 @@ export function MedicionLeads() {
         const alClic = (e: MouseEvent) => {
             try {
                 const a = (e.target as Element | null)?.closest?.<HTMLAnchorElement>(
-                    'a[href*="wa.me/56999679593"], a[href^="tel:"]',
+                    `a[href*="wa.me/${WHATSAPP}"], a[href^="tel:"]`,
                 )
                 if (!a) return
                 const ev = a.getAttribute("href")!.startsWith("tel:") ? "clic_telefono" : "clic_whatsapp"

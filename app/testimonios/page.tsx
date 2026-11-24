@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Star, MessageCircle, Phone, Shield, Award, Users, ChevronRight, Heart } from "lucide-react"
@@ -191,7 +192,7 @@ export default function TestimoniosPage() {
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <a
-                            href="https://wa.me/56999679593?text=Hola, quiero agendar una evaluación a domicilio"
+                            href={`https://wa.me/${WHATSAPP}?text=Hola, quiero agendar una evaluación a domicilio`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200"
@@ -200,11 +201,11 @@ export default function TestimoniosPage() {
                             Agendar por WhatsApp
                         </a>
                         <a
-                            href="tel:+56999679593"
+                            href={`tel:${TEL}`}
                             className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200"
                         >
                             <Phone className="h-5 w-5" />
-                            +56 9 9967 9593
+                            {TEL_DISPLAY}
                         </a>
                     </div>
                     <p className="text-slate-400 text-sm mt-6">

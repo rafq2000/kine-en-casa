@@ -1,3 +1,4 @@
+import { WHATSAPP } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import { comunas } from "@/lib/comunas-data"
 import Link from "next/link"
@@ -187,7 +188,7 @@ export default function BlogPage() {
             Evaluación inicial gratuita.
           </p>
           <a
-            href="https://wa.me/56999679593?text=Hola, quiero agendar una evaluación kinesiológica a domicilio"
+            href={`https://wa.me/${WHATSAPP}?text=Hola, quiero agendar una evaluación kinesiológica a domicilio`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-emerald-700 text-white rounded-xl font-semibold hover:bg-emerald-700 transition-colors shadow-lg text-lg"

@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import { Activity, Star, Shield, Phone, MapPin, MessageCircle, Home } from "lucide-react"
 import Link from "next/link"
 import { comunas } from "@/lib/comunas-data"
@@ -88,8 +89,8 @@ export function SiteFooter() {
                             <li className="flex items-start space-x-3">
                                 <Phone className="h-5 w-5 text-amber-500 mt-0.5" />
                                 <div>
-                                    <a href="tel:+56999679593" className="block text-white font-medium hover:text-amber-400 transition-colors">
-                                        +56 9 9967 9593
+                                    <a href={`tel:${TEL}`} className="block text-white font-medium hover:text-amber-400 transition-colors">
+                                        {TEL_DISPLAY}
                                     </a>
                                     <span className="text-xs">WhatsApp y teléfono</span>
                                 </div>
@@ -107,7 +108,7 @@ export function SiteFooter() {
                                 <MessageCircle className="h-5 w-5 text-amber-500 mt-0.5" />
                                 <div>
                                     <a
-                                        href={`https://wa.me/56999679593?text=${encodeURIComponent("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")}`}
+                                        href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, quiero agendar una evaluación gratuita de kinesiología a domicilio. Mi comuna es: ")}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="block text-white font-medium hover:text-amber-400 transition-colors"

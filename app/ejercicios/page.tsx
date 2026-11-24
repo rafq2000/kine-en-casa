@@ -1,3 +1,4 @@
+import { WHATSAPP } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
@@ -99,7 +100,7 @@ export default function ExercisesPage() {
 
                             <div className="p-6 pt-0 mt-auto">
                                 <a
-                                    href={`https://wa.me/56999679593?text=${encodeURIComponent(`Hola, quiero saber si el ejercicio "${exercise.title}" me sirve y agendar una evaluación gratuita a domicilio`)}`}
+                                    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Hola, quiero saber si el ejercicio "${exercise.title}" me sirve y agendar una evaluación gratuita a domicilio`)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     data-cta="ejercicio"

@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { BOLETA_TEXTO, HORARIO_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
@@ -39,10 +40,9 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 import { comunas } from "@/lib/comunas-data"
 
-const TEL = "+56999679593"
 
 function wa(texto: string) {
-  return `https://wa.me/56999679593?text=${encodeURIComponent(texto)}`
+  return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`
 }
 
 export default function HomePage() {
@@ -73,7 +73,7 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Cómo pido un kinesiólogo a domicilio en Santiago?",
-        acceptedAnswer: { "@type": "Answer", text: "Escríbenos por WhatsApp al +56 9 9967 9593 contando el motivo de consulta, la comuna y si hay orden médica. Coordinamos la evaluación inicial gratuita en tu domicilio, el kinesiólogo llega con camilla y equipamiento, y después de evaluarte te decimos cuántas sesiones necesitas y cuánto cuesta antes de que decidas." }
+        acceptedAnswer: { "@type": "Answer", text: `Escríbenos por WhatsApp al ${TEL_DISPLAY} contando el motivo de consulta, la comuna y si hay orden médica. Coordinamos la evaluación inicial gratuita en tu domicilio, el kinesiólogo llega con camilla y equipamiento, y después de evaluarte te decimos cuántas sesiones necesitas y cuánto cuesta antes de que decidas.` }
       },
       {
         "@type": "Question",
@@ -305,7 +305,7 @@ export default function HomePage() {
               >
                 <a href={`tel:${TEL}`}>
                   <Phone className="h-5 w-5 mr-3" />
-                  +56 9 9967 9593
+                  {TEL_DISPLAY}
                 </a>
               </Button>
             </div>
@@ -694,9 +694,9 @@ export default function HomePage() {
               size="lg"
               variant="secondary"
               className="text-lg px-10 py-6 bg-white text-slate-900 hover:bg-slate-100 shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold border border-slate-300" asChild>
-<a href="tel:+56999679593">
+<a href={`tel:${TEL}`}>
               <Phone className="h-5 w-5 mr-3" />
-              +56 9 9967 9593
+              {TEL_DISPLAY}
             </a>
 </Button>
             <Button
@@ -874,7 +874,7 @@ export default function HomePage() {
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cómo pido un kinesiólogo a domicilio en Santiago?</h3>
-              <p className="text-slate-600">Escríbenos por WhatsApp al +56 9 9967 9593 contando el motivo de consulta, la comuna y si hay orden médica. Coordinamos la evaluación inicial gratuita en tu domicilio, el kinesiólogo llega con camilla y equipamiento, y después de evaluarte te decimos cuántas sesiones necesitas y cuánto cuesta antes de que decidas.</p>
+              <p className="text-slate-600">Escríbenos por WhatsApp al {TEL_DISPLAY} contando el motivo de consulta, la comuna y si hay orden médica. Coordinamos la evaluación inicial gratuita en tu domicilio, el kinesiólogo llega con camilla y equipamiento, y después de evaluarte te decimos cuántas sesiones necesitas y cuánto cuesta antes de que decidas.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuándo pueden llegar a mi casa?</h3>

@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import Link from "next/link"
 import {
     Phone,
@@ -25,11 +26,9 @@ import { fechaHub } from "@/app/sitemap"
 // window.open, y eso le costaba 1.690 ms de bloqueo de JavaScript (Lighthouse móvil 64).
 // Todo el contenido específico de la comuna va arriba; lo genérico, resumido y enlazado.
 
-const TEL = "+56999679593"
-const TEL_DISPLAY = "+56 9 9967 9593"
 
 function wa(texto: string) {
-    return `https://wa.me/56999679593?text=${encodeURIComponent(texto)}`
+    return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`
 }
 
 // 23-nov-2026: estas guías estaban sin indexar; se enlazan desde el bloque geriátrico de los 8 hubs

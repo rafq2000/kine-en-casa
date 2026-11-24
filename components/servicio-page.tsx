@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import Link from "next/link"
 import Image from "next/image"
 import {
@@ -41,8 +42,6 @@ function conEnlaces(p: string) {
 }
 import { BOLETA_TEXTO } from "@/lib/negocio"
 
-const TEL = "+56999679593"
-const TEL_DISPLAY = "+56 9 9967 9593"
 
 interface Props {
     contenido: ContenidoServicio
@@ -52,7 +51,7 @@ interface Props {
 
 export default function ServicioPage({ contenido, especialidadSlug }: Props) {
     const { url, h1, kicker, intro, secciones, faqs, cta } = contenido
-    const waLink = `https://wa.me/56999679593?text=${encodeURIComponent(cta.whatsapp)}`
+    const waLink = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(cta.whatsapp)}`
     const articulos = especialidadSlug ? especialidades.find((e) => e.slug === especialidadSlug)?.articulos ?? [] : []
 
     const faqSchema = {

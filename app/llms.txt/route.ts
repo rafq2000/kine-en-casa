@@ -1,3 +1,4 @@
+import { TEL_DISPLAY } from "@/lib/contacto.mjs"
 import { comunas } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 import { postsIndexables as blogPosts } from "@/lib/blog-data"
@@ -55,7 +56,7 @@ export function GET() {
 
 ## Contacto
 - Sitio: ${SITIO}
-- Teléfono y WhatsApp: +56 9 9967 9593
+- Teléfono y WhatsApp: ${TEL_DISPLAY}
 - Empresa: Kineum SpA
 - Dirección comercial: Av. Apoquindo 4501, Las Condes (la atención se realiza en el domicilio del paciente)
 - Horario: ${HORARIO_TEXTO}

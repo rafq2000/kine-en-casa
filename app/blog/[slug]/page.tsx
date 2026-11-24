@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import { getPostBySlug, blogPosts, postsIndexables, fechaLarga } from "@/lib/blog-data"
 import { notFound } from "next/navigation"
 import { Badge } from "@/components/ui/badge"
@@ -10,8 +11,6 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { especialidades } from "@/lib/especialidades-data"
 import { comunas } from "@/lib/comunas-data"
 
-const TEL = "+56999679593"
-const TEL_DISPLAY = "+56 9 9967 9593"
 
 const PROSE =
     "prose prose-lg prose-slate max-w-none prose-headings:font-serif prose-headings:text-slate-900 prose-p:text-slate-600 prose-p:leading-relaxed prose-li:text-slate-600 prose-strong:text-slate-900 prose-strong:font-bold prose-blockquote:border-l-4 prose-blockquote:border-amber-500 prose-blockquote:bg-amber-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:not-italic prose-blockquote:font-medium prose-blockquote:text-slate-800"
@@ -101,7 +100,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
         : post.category.toLowerCase().startsWith("precios")
           ? "Hola, tengo Isapre y quiero cotizar kinesiología a domicilio. Mi comuna es: "
           : `Hola, leí "${post.title}" y quiero agendar una evaluación gratuita. Mi comuna es: `
-    const waLink = `https://wa.me/56999679593?text=${encodeURIComponent(waMensaje)}`
+    const waLink = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(waMensaje)}`
 
     // La caja de contacto va antes del primer H2 del artículo (o al final si no tiene H2)
     const corte = post.content.indexOf("<h2")

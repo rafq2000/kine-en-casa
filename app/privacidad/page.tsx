@@ -1,13 +1,12 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Home, Phone, MessageCircle } from "lucide-react"
 import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 
-const TEL = "+56999679593"
-const TEL_DISPLAY = "+56 9 9967 9593"
 const URL = "https://kineum.cl/privacidad"
-const WHATSAPP = `https://wa.me/56999679593?text=${encodeURIComponent("Hola, quiero hacer una consulta sobre mis datos personales")}`
+const ENLACE_WHATSAPP = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, quiero hacer una consulta sobre mis datos personales")}`
 
 const title = "Política de Privacidad | KINEUM"
 const description =
@@ -164,7 +163,7 @@ export default function Page() {
                         Te responderemos dentro de los plazos que fija la ley.
                     </p>
                     <a
-                        href={WHATSAPP}
+                        href={ENLACE_WHATSAPP}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-6 py-3 rounded-xl shadow transition-colors mb-4"

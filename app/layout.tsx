@@ -1,9 +1,11 @@
+import { TEL } from "@/lib/contacto.mjs"
 import type React from "react"
 import type { Metadata } from "next"
 import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import Script from "next/script"
 import { MedicionLeads } from "@/components/medicion-leads"
+import { CodigoAnuncio } from "@/components/codigo-anuncio"
 import { comunas } from "@/lib/comunas-data"
 import { HORARIO_SCHEMA } from "@/lib/negocio"
 
@@ -78,7 +80,7 @@ const localBusinessSchema = {
   description:
     "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,
-  telephone: "+56999679593",
+  telephone: `${TEL}`,
   // email: contacto@kineum.cl no recibe correo (el dominio no tiene MX, 7-oct-2026); vuelve cuando funcione
   image: `${siteUrl}/og-image.jpg`,
   logo: `${siteUrl}/logo.png`,
@@ -184,6 +186,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans">
         {children}
+        <CodigoAnuncio />
         <Analytics />
         {/* Umami (sin cookies): solo si está configurado el Website ID en Vercel */}
         {process.env.NEXT_PUBLIC_UMAMI_ID && (

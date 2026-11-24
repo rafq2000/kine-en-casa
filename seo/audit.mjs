@@ -7,6 +7,7 @@
 //   node seo/audit.mjs --local         -> audita http://localhost:3000
 //   node seo/audit.mjs --json          -> solo imprime el JSON
 
+import { WHATSAPP } from '../lib/contacto.mjs'
 import { writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -172,7 +173,7 @@ function analizar(url, r) {
 
     if (/AggregateRating|\\?"@type\\?"\s*:\s*\\?"Review\\?"/.test(html)) P('alta', 'schema-resenas', 'Hay AggregateRating o Review en el JSON-LD', 'Quitarlo: no hay resenas verificables')
 
-    if (html.includes('href="https://wa.me/56999679593"')) P('media', 'whatsapp-sin-mensaje', 'Enlace a WhatsApp sin texto prellenado', 'Agregar ?text= para saber desde que pagina llega el lead')
+    if (html.includes(`href="https://wa.me/${WHATSAPP}"`)) P('media', 'whatsapp-sin-mensaje', 'Enlace a WhatsApp sin texto prellenado', 'Agregar ?text= para saber desde que pagina llega el lead')
     if (!/<meta property="og:image"/i.test(html)) P('media', 'og-image-falta', 'Sin og:image', 'Definir openGraph.images')
     if (ogUrl && canonical && ogUrl.replace(/\/$/, '') !== canonical.replace(/\/$/, '')) P('media', 'og-url-distinto', `og:url ${ogUrl} vs canonical ${canonical}`, 'Igualar openGraph.url al canonical')
     const negocios = []

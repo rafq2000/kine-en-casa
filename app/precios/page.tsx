@@ -1,3 +1,4 @@
+import { WHATSAPP, TEL, TEL_DISPLAY } from "@/lib/contacto.mjs"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -316,7 +317,7 @@ export default function PreciosPage() {
               </Link>
             </nav>
             <a
-              href="https://wa.me/56999679593?text=Hola, quiero consultar por precios"
+              href={`https://wa.me/${WHATSAPP}?text=Hola, quiero consultar por precios`}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 rounded-full font-medium transition-colors text-sm"
@@ -424,7 +425,7 @@ export default function PreciosPage() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
             <a
-              href="https://wa.me/56999679593?text=Hola, quiero consultar por los precios de kinesiología a domicilio"
+              href={`https://wa.me/${WHATSAPP}?text=Hola, quiero consultar por los precios de kinesiología a domicilio`}
               data-cta="hero"
               target="_blank"
               rel="noopener noreferrer"
@@ -534,7 +535,7 @@ export default function PreciosPage() {
                   </ul>
 
                   <a
-                    href={`https://wa.me/56999679593?text=${encodeURIComponent(`Hola, me interesa el ${plan.name}. Quiero agendar la evaluación gratuita. Mi comuna es: `)}`}
+                    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Hola, me interesa el ${plan.name}. Quiero agendar la evaluación gratuita. Mi comuna es: `)}`}
                     data-cta={plan.cta}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -795,7 +796,7 @@ export default function PreciosPage() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-10">
             <a
-              href="https://wa.me/56999679593?text=Hola, quiero agendar mi evaluación gratuita de kinesiología a domicilio"
+              href={`https://wa.me/${WHATSAPP}?text=Hola, quiero agendar mi evaluación gratuita de kinesiología a domicilio`}
               data-cta="cierre"
               target="_blank"
               rel="noopener noreferrer"
@@ -805,11 +806,11 @@ export default function PreciosPage() {
               Agendar Evaluación Gratis
             </a>
             <a
-              href="tel:+56999679593"
+              href={`tel:${TEL}`}
               className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white px-10 py-5 text-lg rounded-full font-bold transition-colors border border-white/20"
             >
               <Phone className="mr-3 h-6 w-6" />
-              +56 9 9967 9593
+              {TEL_DISPLAY}
             </a>
           </div>
 

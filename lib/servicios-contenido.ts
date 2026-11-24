@@ -1,3 +1,4 @@
+import { TEL_DISPLAY } from "@/lib/contacto.mjs"
 // Contenido de las paginas de servicio general (/servicios/*) y /nosotros.
 // Separado del markup para poder revisarlo y ampliarlo sin tocar componentes.
 //
@@ -662,7 +663,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 lista: [
                     'Razón social: Kineum SpA.',
                     'Dirección: Av. Apoquindo 4501, Las Condes, Santiago.',
-                    'Teléfono y WhatsApp: +56 9 9967 9593.',
+                    `Teléfono y WhatsApp: ${TEL_DISPLAY}.`,
                     'Cobertura: 8 comunas: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro.',
                 ],
             },
