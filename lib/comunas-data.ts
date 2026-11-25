@@ -23,6 +23,10 @@ export interface Comuna {
     sectores: string[]
     /** true: solo se atiende en `sectores`, no en toda la comuna (Huechuraba, decisión del 9-nov-2026) */
     soloSectores?: boolean
+    /** Zona que es un sector de otra comuna y se atiende como zona propia (Chicureo, de Colina; Ricardo, 24-nov-2026) */
+    comunaOficial?: string
+    /** Valor por sesión en CUALQUIER plan cuando la zona tiene tarifa propia (Ricardo, 24-nov-2026: Lo Barnechea y Chicureo, $40.000) */
+    precioSesion?: number
     /** Frase de contexto local, única por comuna */
     contexto: string
     /** Referencias geográficas que usan los vecinos para ubicarse */
@@ -152,8 +156,9 @@ export const comunas: Comuna[] = [
             "La Ermita",
         ],
         contexto:
-            "Lo Barnechea es la comuna más extensa de nuestra cobertura, de La Dehesa y Los Trapenses hacia el camino a Farellones: llegamos a todos sus sectores sin recargo por distancia.",
+            "Lo Barnechea es la comuna más extensa de nuestra cobertura, de La Dehesa y Los Trapenses hacia el camino a Farellones: llegamos a todos sus sectores.",
         referencias: "cerca de La Dehesa, Camino a Farellones y Los Trapenses",
+        precioSesion: 40000,
         llegada: PRIMERA_VISITA_TEXTO,
     },
     {
@@ -194,6 +199,21 @@ export const comunas: Comuna[] = [
         referencias: "cerca de la Alameda, el Parque Forestal y los barrios Lastarria, Brasil y Yungay",
         llegada: PRIMERA_VISITA_TEXTO,
     },
+    {
+        // 24-nov-2026 (Ricardo): Chicureo entra a la cobertura. Es un sector de Colina, no una comuna.
+        nombre: "Chicureo",
+        slug: "chicureo",
+        provincia: "Chacabuco",
+        zona: "norte",
+        cobertura: "full",
+        sectores: ["Piedra Roja", "Chamisero", "Hacienda Chicureo", "Valle Norte", "Ayres de Chicureo"],
+        comunaOficial: "Colina",
+        precioSesion: 40000,
+        contexto:
+            "Chicureo es un sector de la comuna de Colina, al norte de Santiago: atendemos en sus barrios y condominios, de Piedra Roja y Chamisero a Valle Norte y Ayres de Chicureo.",
+        referencias: "cerca de Av. Chicureo, Av. Pie Andino y el Camino Chicureo",
+        llegada: PRIMERA_VISITA_TEXTO,
+    },
 ]
 
 export function getComuna(slug: string) {
@@ -217,3 +237,19 @@ export function comunasVecinas(slug: string, limite = 11, soloFull = true) {
     const otras = resto.filter((c) => c.zona !== actual.zona)
     return [...mismas, ...otras].slice(0, limite)
 }
+
+// Chicureo no es comuna (es un sector de Colina): los textos que cuentan comunas lo nombran aparte
+const comunasOficiales = comunas.filter((c) => !c.comunaOficial)
+const zonasExtra = comunas.filter((c) => c.comunaOficial)
+/** "8 comunas y Chicureo" */
+export const COBERTURA_CORTA = `${comunasOficiales.length} comunas${zonasExtra.length ? ` y ${zonasExtra.map((c) => c.nombre).join(" y ")}` : ""}`
+
+/** 40000 -> "$40.000" */
+export const clp = (n: number) => `$${String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`
+
+const enLista = (l: string[]) => (l.length > 1 ? `${l.slice(0, -1).join(", ")} y ${l.at(-1)}` : (l[0] ?? ""))
+/** Zonas con tarifa propia, agrupadas por valor (vacío si no hay). Hoy:
+ *  "En Lo Barnechea y Chicureo la sesión vale $40.000 en cualquier plan (10 sesiones, $400.000; 4 sesiones, $160.000)" */
+export const TARIFA_PROPIA_TEXTO = [...new Set(comunas.map((c) => c.precioSesion).filter((p): p is number => !!p))]
+    .map((p) => `En ${enLista(comunas.filter((c) => c.precioSesion === p).map((c) => c.nombre))} la sesión vale ${clp(p)} en cualquier plan (10 sesiones, ${clp(p * 10)}; 4 sesiones, ${clp(p * 4)})`)
+    .join(". ")

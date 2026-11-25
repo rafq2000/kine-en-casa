@@ -1,5 +1,5 @@
 import { TEL_DISPLAY } from "@/lib/contacto.mjs"
-import { comunas } from "@/lib/comunas-data"
+import { comunas, COBERTURA_CORTA, TARIFA_PROPIA_TEXTO } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 import { postsIndexables as blogPosts } from "@/lib/blog-data"
 import { serviciosContenido } from "@/lib/servicios-contenido"
@@ -13,8 +13,9 @@ export const dynamic = "force-static"
 
 const SITIO = "https://kineum.cl"
 
-// Comunas donde solo se atienden algunos sectores (hoy, Huechuraba)
-const soloEn = (c: (typeof comunas)[number]) => (c.soloSectores ? ` (solo en ${c.sectores.join(", ")})` : "")
+// Comunas donde solo se atienden algunos sectores (hoy, Huechuraba) y zonas que son sector de otra comuna (Chicureo)
+const soloEn = (c: (typeof comunas)[number]) =>
+    c.soloSectores ? ` (solo en ${c.sectores.join(", ")})` : c.comunaOficial ? ` (sector de ${c.comunaOficial})` : ""
 
 function bloqueComunas() {
     const porZona: Record<string, typeof comunas> = {}
@@ -52,7 +53,7 @@ export function GET() {
 
     const txt = `# KINEUM — Kinesiología a domicilio en el sector oriente y centro de Santiago (Chile)
 
-> KINEUM atiende kinesiología y rehabilitación en el domicilio del paciente en 8 comunas del sector oriente y centro de Santiago de Chile: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Es un servicio PARTICULAR: se paga directo y se emite boleta de honorarios electrónica, que el paciente puede presentar a reembolso en su Isapre o en su seguro complementario según la cobertura de su plan. No emite bonos de ningún sistema previsional ni tiene convenio con isapres, clínicas u hospitales.
+> KINEUM atiende kinesiología y rehabilitación en el domicilio del paciente en 8 comunas del sector oriente y centro de Santiago de Chile (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro) y en Chicureo, sector de la comuna de Colina. Es un servicio PARTICULAR: se paga directo y se emite boleta de honorarios electrónica, que el paciente puede presentar a reembolso en su Isapre o en su seguro complementario según la cobertura de su plan. No emite bonos de ningún sistema previsional ni tiene convenio con isapres, clínicas u hospitales.
 
 ## Contacto
 - Sitio: ${SITIO}
@@ -71,16 +72,17 @@ export function GET() {
 ## Planes (2026)
 - Essential: $160.000 al mes, 4 sesiones ($40.000 por sesión).
 - Premium: $350.000 al mes, 10 sesiones ($35.000 por sesión).
+- ${TARIFA_PROPIA_TEXTO}.
 - Elite: a consultar.
 - Evaluación inicial gratuita en todos los planes. Detalle: ${SITIO}/precios
 
 ## Preguntas frecuentes
 
 ### ¿Cuánto cuesta un kinesiólogo a domicilio en KINEUM?
-Plan Essential: $160.000 al mes por 4 sesiones ($40.000 por sesión). Plan Premium: $350.000 al mes por 10 sesiones ($35.000 por sesión); el Plan Elite es a consultar y la evaluación inicial es gratuita.
+Plan Essential: $160.000 al mes por 4 sesiones ($40.000 por sesión). Plan Premium: $350.000 al mes por 10 sesiones ($35.000 por sesión); el Plan Elite es a consultar y la evaluación inicial es gratuita. ${TARIFA_PROPIA_TEXTO}.
 
 ### ¿En qué comunas atiende KINEUM?
-Solo en 8 comunas de Santiago: ${comunas.map((c) => c.nombre + soloEn(c)).join(", ")}. El valor es el mismo en todas, sin recargo por traslado.
+Solo en ${COBERTURA_CORTA}: ${comunas.map((c) => c.nombre + soloEn(c)).join(", ")}. No se cobra traslado. ${TARIFA_PROPIA_TEXTO}.
 
 ### ¿Se puede reembolsar en la Isapre?
 Sí: KINEUM emite ${BOLETA_TEXTO}, y con ella y la orden médica el paciente pide el reembolso en su Isapre y luego en su seguro complementario. El monto depende de la cobertura de cada plan; el paso a paso está en ${SITIO}/blog/reembolso-isapre-kinesiologia
@@ -97,7 +99,7 @@ ${servicios}
 ## Páginas de servicio
 ${paginasServicio}
 
-## Cobertura (${comunas.length} comunas del sector oriente y centro de Santiago)
+## Cobertura (${COBERTURA_CORTA})
 La página de cada comuna incluye las 5 especialidades, con el detalle local y los centros de salud de referencia.
 Índice completo: ${SITIO}/cobertura
 

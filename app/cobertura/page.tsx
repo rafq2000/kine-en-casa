@@ -5,16 +5,16 @@ import { MapPin, Phone, MessageCircle, ChevronRight, Home } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
-import { comunas, type ZonaComuna } from "@/lib/comunas-data"
+import { comunas, COBERTURA_CORTA, TARIFA_PROPIA_TEXTO, type ZonaComuna } from "@/lib/comunas-data"
 import { especialidades } from "@/lib/especialidades-data"
 import { PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 
 const URL = "https://kineum.cl/cobertura"
 
 export const metadata: Metadata = {
-    title: "Cobertura KINEUM: 8 Comunas con Kinesiología a Domicilio",
+    title: "Cobertura KINEUM: Kinesiología en 8 Comunas y Chicureo",
     description:
-        "Las 8 comunas donde KINEUM atiende a domicilio: Las Condes, Providencia, Ñuñoa, Lo Barnechea, Vitacura, La Reina, Huechuraba y Santiago Centro.",
+        "KINEUM atiende a domicilio en Las Condes, Providencia, Ñuñoa, Lo Barnechea, Vitacura, La Reina, Huechuraba, Santiago Centro y Chicureo.",
     keywords: [
         "kinesiología a domicilio sector oriente y centro de Santiago",
         "kinesiólogo a domicilio santiago comunas",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     ],
     alternates: { canonical: URL },
     openGraph: {
-        title: "Cobertura KINEUM: 8 Comunas con Kinesiología a Domicilio",
+        title: "Cobertura KINEUM: Kinesiología en 8 Comunas y Chicureo",
         description:
-            "Las 8 comunas donde KINEUM atiende a domicilio: Las Condes, Providencia, Ñuñoa, Lo Barnechea, Vitacura, La Reina, Huechuraba y Santiago Centro.",
+            "KINEUM atiende a domicilio en Las Condes, Providencia, Ñuñoa, Lo Barnechea, Vitacura, La Reina, Huechuraba, Santiago Centro y Chicureo.",
         url: URL,
         type: "website",
         locale: "es_CL",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
 }
 
 const ZONAS: { id: ZonaComuna; titulo: string; texto: string }[] = [
-    { id: "oriente", titulo: "Sector oriente", texto: "Seis comunas, con la misma tarifa y la misma forma de coordinar la visita." },
-    { id: "norte", titulo: "Sector norte", texto: "Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial, con la misma tarifa y la misma forma de coordinar la visita." },
-    { id: "centro", titulo: "Santiago centro", texto: "Santiago Centro, con la misma tarifa y la misma forma de coordinar la visita." },
+    { id: "oriente", titulo: "Sector oriente", texto: "Seis comunas, con la misma forma de coordinar la visita." },
+    { id: "norte", titulo: "Sector norte", texto: "Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial, y Chicureo, sector de la comuna de Colina." },
+    { id: "centro", titulo: "Santiago centro", texto: "Santiago Centro, con la misma forma de coordinar la visita." },
 ]
 
 export default function Page() {
@@ -114,17 +114,18 @@ export default function Page() {
                             Comunas donde KINEUM <span className="text-amber-700">atiende a domicilio</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-4 max-w-3xl">
-                            Estas son las {comunas.length} comunas donde hacemos{" "}
+                            Estas son las {COBERTURA_CORTA} donde hacemos{" "}
                             <Link href="/" className="text-amber-700 font-medium hover:underline">
                                 kinesiología a domicilio en Santiago
                             </Link>
-                            , en el sector oriente y centro. Cada una tiene su
+                            : el sector oriente, el centro y, al norte, Huechuraba y Chicureo. Cada zona tiene su
                             propia página con los sectores que cubrimos, los centros de salud de referencia y cómo se
                             coordina la primera visita.
                         </p>
                         <p className="text-base text-slate-600 leading-relaxed mb-8 max-w-3xl">
                             La primera visita se coordina {PRIMERA_VISITA_TEXTO}. Si tu comuna no está en la lista, escríbenos igual: preferimos
-                            decirte de frente si podemos llegar antes de que pierdas tiempo.
+                            decirte de frente si podemos llegar antes de que pierdas tiempo. {TARIFA_PROPIA_TEXTO}; en las demás, sin
+                            recargo por traslado.
                         </p>
                         <a
                             href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola, quiero saber si atienden kinesiología a domicilio en mi comuna")}`}
@@ -165,6 +166,9 @@ export default function Page() {
                                                 <span className="block text-xs text-slate-500">
                                                     Kinesiología a domicilio en {c.nombre}
                                                 </span>
+                                                {c.comunaOficial && (
+                                                    <span className="block text-xs text-slate-500">Sector de la comuna de {c.comunaOficial}</span>
+                                                )}
                                                 {c.soloSectores && (
                                                     <span className="block text-xs text-slate-500">
                                                         Solo en {c.sectores.join(", ")}

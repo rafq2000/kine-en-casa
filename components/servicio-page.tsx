@@ -92,7 +92,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
               serviceType: contenido.breadcrumb,
               url,
               provider: { "@id": "https://kineum.cl/#organization" },
-              areaServed: comunas.map((c) => ({ "@type": "City", name: c.nombre })),
+              areaServed: comunas.map((c) => ({ "@type": c.comunaOficial ? "Place" : "City", name: c.nombre })),
               offers: {
                   "@type": "Offer",
                   price: "35000",

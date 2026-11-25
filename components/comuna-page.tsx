@@ -15,7 +15,7 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { SiteFooter } from "@/components/site-footer"
 import { especialidades } from "@/lib/especialidades-data"
-import { comunas, comunasVecinas, getComuna } from "@/lib/comunas-data"
+import { clp, comunasVecinas, getComuna } from "@/lib/comunas-data"
 import { comunasLocal } from "@/lib/comunas-local"
 import { BOLETA_TEXTO, PRIMERA_VISITA_TEXTO } from "@/lib/negocio"
 import { CentrosSaludCercanos } from "@/components/centros-salud-cercanos"
@@ -62,13 +62,20 @@ export default function ComunaPage({ data }: ComunaPageProps) {
     const modificadoTexto = new Date(modificado).toLocaleDateString("es-CL", { month: "long", year: "numeric", timeZone: "UTC" })
     // Comunas donde solo se atienden algunos sectores (hoy, Huechuraba): ninguna frase dice "toda la comuna"
     const solo = comuna?.soloSectores === true
+    // Chicureo es un sector de Colina: "toda la comuna" sería todo Colina
+    const zonaDe = comuna?.comunaOficial
+    const resto = zonaDe ? `el resto de ${data.nombre}` : "el resto de la comuna"
+    // Tarifa propia (Lo Barnechea y Chicureo: $40.000 en cualquier plan; Ricardo, 24-nov-2026)
+    const precio = comuna?.precioSesion
     const sectoresTexto = `${s.slice(0, -1).join(", ")} y ${s.at(-1)}`
-    const entrada = `KINEUM ofrece kinesiología a domicilio en ${data.nombre}: un kinesiólogo llega a tu casa en ${solo ? `${sectoresTexto}.` : `${s[0]}, ${s[1]}, ${s[2]} y el resto de la comuna.`} Evaluación inicial gratis y sesiones de 60 minutos desde $35.000, con boleta para tu Isapre.`
+    const entrada = `KINEUM ofrece kinesiología a domicilio en ${data.nombre}: un kinesiólogo llega a tu casa en ${solo ? `${sectoresTexto}.` : `${s[0]}, ${s[1]}, ${s[2]} y ${resto}.`} Evaluación inicial gratis y sesiones de 60 minutos ${precio ? `a ${clp(precio)}` : "desde $35.000"}, con boleta para tu Isapre.`
 
     const faqs: { q: string; a: string; enlace?: { href: string; texto: string } }[] = [
         {
             q: `¿Cuánto cuesta un kinesiólogo a domicilio en ${data.nombre}?`,
-            a: `El plan de 10 sesiones sale $350.000 ($35.000 por sesión) y el de 4 sesiones $160.000 ($40.000 por sesión). La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones necesitas. No cobramos recargo por traslado ${solo ? `en los sectores de ${data.nombre} donde atendemos` : `dentro de ${data.nombre}`}.`,
+            a: precio
+                ? `En ${data.nombre} la sesión vale ${clp(precio)} en cualquier plan: 10 sesiones ${clp(precio * 10)} y 4 sesiones ${clp(precio * 4)}. La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones necesitas.`
+                : `El plan de 10 sesiones sale $350.000 ($35.000 por sesión) y el de 4 sesiones $160.000 ($40.000 por sesión). La evaluación inicial en tu casa es gratuita y recién después te decimos cuántas sesiones necesitas. No cobramos recargo por traslado ${solo ? `en los sectores de ${data.nombre} donde atendemos` : `dentro de ${data.nombre}`}.`,
         },
         {
             q: `¿Cuándo puede llegar el kinesiólogo a ${data.nombre}?`,
@@ -78,7 +85,9 @@ export default function ComunaPage({ data }: ComunaPageProps) {
             q: `¿En qué sectores de ${data.nombre} atienden?`,
             a: solo
                 ? `Atendemos en ${sectoresTexto}. Por ahora no llegamos al resto de la comuna.`
-                : `En toda la comuna, incluyendo ${data.sectores.join(", ")}. Todas las sesiones son en el domicilio del paciente.`,
+                : zonaDe
+                  ? `En todo ${data.nombre}, incluyendo ${data.sectores.join(", ")}. En el resto de ${zonaDe} todavía no atendemos. Todas las sesiones son en el domicilio del paciente.`
+                  : `En toda la comuna, incluyendo ${data.sectores.join(", ")}. Todas las sesiones son en el domicilio del paciente.`,
         },
         {
             q: "¿Puedo reembolsar las sesiones en mi Isapre?",
@@ -105,15 +114,17 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         serviceType: "Kinesiología a domicilio",
         provider: { "@id": "https://kineum.cl/#organization" },
         areaServed: {
-            "@type": "City",
+            "@type": zonaDe ? "Place" : "City",
             name: data.nombre,
-            containedInPlace: { "@type": "AdministrativeArea", name: "Santiago, Región Metropolitana, Chile" },
+            containedInPlace: { "@type": "AdministrativeArea", name: `${zonaDe ?? "Santiago"}, Región Metropolitana, Chile` },
         },
         offers: {
             "@type": "Offer",
-            price: "35000",
+            price: String(precio ?? 35000),
             priceCurrency: "CLP",
-            description: "Valor por sesión en el plan de 10 sesiones. Evaluación inicial gratuita.",
+            description: precio
+                ? `Valor por sesión en cualquier plan en ${data.nombre}. Evaluación inicial gratuita.`
+                : "Valor por sesión en el plan de 10 sesiones. Evaluación inicial gratuita.",
             url: "https://kineum.cl/precios",
         },
         availableChannel: {
@@ -212,7 +223,10 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                     <div className="max-w-4xl">
                         <Badge className="mb-5 bg-slate-900 text-white border-slate-800 px-4 py-1.5">
                             <MapPin className="h-3.5 w-3.5 mr-2" />
-                            {data.nombre}, {comuna?.zona === "centro" ? "centro" : comuna?.zona === "norte" ? "sector norte" : "sector oriente"} de Santiago
+                            {data.nombre},{" "}
+                            {zonaDe
+                                ? `comuna de ${zonaDe}`
+                                : `${comuna?.zona === "centro" ? "centro" : comuna?.zona === "norte" ? "sector norte" : "sector oriente"} de Santiago`}
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif leading-tight mb-6">
                             Kinesiología a Domicilio en <span className="text-amber-700">{data.nombre}</span>
@@ -264,7 +278,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm hover:border-amber-300 transition-colors"
                             >
                                 <CircleDollarSign className="h-5 w-5 text-amber-600 mb-2" />
-                                <p className="text-sm font-semibold text-slate-900">Desde $35.000 por sesión</p>
+                                <p className="text-sm font-semibold text-slate-900">{precio ? `${clp(precio)} por sesión` : "Desde $35.000 por sesión"}</p>
                                 <p className="text-sm text-amber-700">Ver planes y reembolso</p>
                             </Link>
                             <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
@@ -430,7 +444,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             {solo
                                 ? `Atendemos en ${sectoresTexto}.`
                                 : `${comuna?.referencias
-                                      ? `Llegamos a toda la comuna, ${comuna.referencias}.`
+                                      ? `Llegamos a ${zonaDe ? `todo ${data.nombre}` : "toda la comuna"}, ${comuna.referencias}.`
                                       : `Llegamos a toda la comuna de ${data.nombre}.`} Si tu sector no aparece, escríbenos igual.`}
                         </p>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -453,14 +467,14 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             Precios de kinesiología a domicilio en {data.nombre}
                         </h2>
                         <p className="text-lg text-slate-300 mb-10 max-w-3xl">
-                            Los mismos valores en toda nuestra cobertura, sin recargo por traslado. La evaluación inicial
-                            es gratuita y emitimos {BOLETA_TEXTO}.
+                            {precio ? `En ${data.nombre} la sesión vale ${clp(precio)} en cualquier plan.` : "Sin recargo por traslado."} La
+                            evaluación inicial es gratuita y emitimos {BOLETA_TEXTO}.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                             <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800">
                                 <p className="text-sm uppercase tracking-wider text-slate-400 mb-2">Plan Essential</p>
-                                <p className="text-3xl font-bold mb-1">$160.000</p>
-                                <p className="text-slate-400 mb-4">4 sesiones · $40.000 por sesión</p>
+                                <p className="text-3xl font-bold mb-1">{clp((precio ?? 40000) * 4)}</p>
+                                <p className="text-slate-400 mb-4">4 sesiones · {clp(precio ?? 40000)} por sesión</p>
                                 <a
                                     href={wa(`Hola, me interesa el Plan Essential en ${data.nombre}`)}
                                     data-cta="plan-essential"
@@ -473,8 +487,8 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             </div>
                             <div className="bg-amber-700 rounded-2xl p-6 border border-amber-600">
                                 <p className="text-sm uppercase tracking-wider text-amber-50 mb-2">Plan Premium</p>
-                                <p className="text-3xl font-bold mb-1">$350.000</p>
-                                <p className="text-amber-50 mb-4">10 sesiones · $35.000 por sesión</p>
+                                <p className="text-3xl font-bold mb-1">{clp((precio ?? 35000) * 10)}</p>
+                                <p className="text-amber-50 mb-4">10 sesiones · {clp(precio ?? 35000)} por sesión</p>
                                 <a
                                     href={wa(`Hola, me interesa el Plan Premium de 10 sesiones en ${data.nombre}`)}
                                     data-cta="plan-premium"
@@ -569,7 +583,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                                 href="/cobertura"
                                 className="bg-slate-900 text-white rounded-lg px-4 py-2 text-sm hover:bg-slate-800 transition-colors"
                             >
-                                Ver las {comunas.length} comunas
+                                Ver toda la cobertura
                             </Link>
                         </div>
                     </div>

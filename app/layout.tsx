@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Script from "next/script"
 import { MedicionLeads } from "@/components/medicion-leads"
 import { CodigoAnuncio } from "@/components/codigo-anuncio"
-import { comunas } from "@/lib/comunas-data"
+import { comunas, TARIFA_PROPIA_TEXTO } from "@/lib/comunas-data"
 import { HORARIO_SCHEMA } from "@/lib/negocio"
 
 // Sin next/font: Geist y Manrope se declaraban pero ningún estilo usaba sus variables (el sitio
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Kinesiología a Domicilio en Santiago | KINEUM",
   description:
-    "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
+    "Kinesiología a domicilio en el oriente y centro de Santiago y en Chicureo. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   keywords: [
     "kinesiólogo a domicilio",
     "kinesiología a domicilio",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "KINEUM: Kinesiología a Domicilio en Santiago",
     description:
-      "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
+      "Kinesiología a domicilio en el oriente y centro de Santiago y en Chicureo. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
     type: "website",
     locale: "es_CL",
     siteName: "KINEUM",
@@ -78,7 +78,7 @@ const localBusinessSchema = {
   name: "KINEUM",
   legalName: "Kineum SpA",
   description:
-    "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
+    "Kinesiología a domicilio en 8 comunas del sector oriente y centro de Santiago y en Chicureo. Evaluación inicial gratuita, sesiones de 60 minutos y boleta para tu Isapre.",
   url: siteUrl,
   telephone: `${TEL}`,
   // email: contacto@kineum.cl no recibe correo (el dominio no tiene MX, 7-oct-2026); vuelve cuando funcione
@@ -95,9 +95,9 @@ const localBusinessSchema = {
     addressRegion: "Región Metropolitana",
     addressCountry: "CL",
   },
-  // Solo las 8 comunas atendidas
+  // Solo las zonas atendidas (8 comunas y Chicureo)
   areaServed: comunas.map((c) => ({
-    "@type": "City",
+    "@type": c.comunaOficial ? "Place" : "City",
     name: c.nombre,
     containedInPlace: { "@type": "AdministrativeArea", name: "Región Metropolitana, Chile" },
   })),
@@ -115,7 +115,7 @@ const localBusinessSchema = {
     {
       "@type": "Offer",
       name: "Plan Premium: 10 sesiones de kinesiología a domicilio",
-      description: "10 sesiones mensuales de 60 minutos en el domicilio del paciente (35.000 pesos por sesión), con evaluación inicial gratuita.",
+      description: `10 sesiones mensuales de 60 minutos en el domicilio del paciente (35.000 pesos por sesión), con evaluación inicial gratuita. ${TARIFA_PROPIA_TEXTO}.`,
       price: "350000",
       priceCurrency: "CLP",
       availability: "https://schema.org/InStock",

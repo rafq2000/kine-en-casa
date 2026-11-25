@@ -12,23 +12,26 @@ const baseUrl = 'https://kineum.cl'
 // Footer, navegacion, estilos o botones flotantes no cuentan. Los posts usan
 // `updatedISO` en lib/blog-data.ts con la misma regla.
 const MODIFICADO: Record<string, string> = {
-    '/': '2026-11-09',
+    '/': '2026-11-24',
     '/nosotros': '2026-11-09',
     '/servicios/geriatrica': '2026-10-07',
     '/servicios/respiratoria': '2026-11-09',
     '/servicios/neurologica': '2026-10-07',
     '/servicios/traumatologica': '2026-10-07',
     '/servicios/postquirurgica': '2026-10-05',
-    '/precios': '2026-11-23',
-    '/como-funciona': '2026-11-09',
+    '/precios': '2026-11-24',
+    '/como-funciona': '2026-11-24',
     '/blog': '2026-09-17',
     '/ejercicios': '2026-10-07',
-    '/cobertura': '2026-11-09',
+    '/cobertura': '2026-11-24',
     '/privacidad': '2026-10-07',
     // Los hubs /kinesiologo-a-domicilio-*: absorbieron el texto local de las especialidad+comuna (T37)
     // 9-nov-2026: H1, párrafo de entrada y preguntas nuevas en los 8 (y Huechuraba nace ese día).
     // Si un hub cambia solo, se agrega su ruta como clave propia y fechaHub la prefiere.
     hubs: '2026-11-09',
+    // 24-nov-2026: entra Chicureo y Lo Barnechea pasa a $40.000 por sesión en cualquier plan
+    '/kinesiologo-a-domicilio-chicureo': '2026-11-24',
+    '/kinesiologo-a-domicilio-lo-barnechea': '2026-11-24',
 }
 
 // Fecha de última modificación de un hub de comuna (la muestra el hub y va en su JSON-LD).

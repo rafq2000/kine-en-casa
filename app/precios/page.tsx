@@ -24,7 +24,7 @@ import {
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
 import { BOLETA_TEXTO, HORARIO_TEXTO } from "@/lib/negocio"
-import { comunas } from "@/lib/comunas-data"
+import { comunas, COBERTURA_CORTA, TARIFA_PROPIA_TEXTO } from "@/lib/comunas-data"
 
 export const metadata: Metadata = {
   title: "Valor Kinesiólogo a Domicilio 2026: $35.000 por 60 Minutos",
@@ -77,7 +77,7 @@ const serviceSchema = {
   name: "Kinesiología a Domicilio Santiago",
   // Un solo negocio en todo el sitio (app/layout.tsx), referenciado por @id
   provider: { "@id": "https://kineum.cl/#organization" },
-  areaServed: comunas.map((c) => ({ "@type": "City", name: c.nombre })),
+  areaServed: comunas.map((c) => ({ "@type": c.comunaOficial ? "Place" : "City", name: c.nombre })),
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Planes de Kinesiología a Domicilio",
@@ -97,7 +97,7 @@ const serviceSchema = {
         "@type": "Offer",
         name: "Plan Premium - 10 Sesiones de Kinesiología a Domicilio",
         description:
-          "10 sesiones de 60 minutos a domicilio al mes ($35.000 por sesión), con evaluación inicial gratuita.",
+          `10 sesiones de 60 minutos a domicilio al mes ($35.000 por sesión), con evaluación inicial gratuita. ${TARIFA_PROPIA_TEXTO}.`,
         price: "350000",
         priceCurrency: "CLP",
         priceValidUntil: "2026-12-31",
@@ -363,6 +363,7 @@ export default function PreciosPage() {
 
           <p className="text-xl md:text-2xl text-slate-700 mb-8 leading-relaxed max-w-4xl mx-auto">
             La sesión sale <strong>$35.000</strong> en el plan de 10 sesiones y <strong>$40.000</strong> en el de 4.
+            {TARIFA_PROPIA_TEXTO}.
             La <strong>evaluación inicial es gratuita</strong> y recién después te decimos cuántas sesiones necesitas.
             Boleta reembolsable en tu Isapre y en tu seguro complementario, sin costo de traslado.
           </p>
@@ -441,7 +442,7 @@ export default function PreciosPage() {
       <section className="py-8 bg-white border-b border-slate-100">
         <div className="container mx-auto px-4">
           <p className="text-center text-slate-700 max-w-4xl mx-auto leading-relaxed">
-            Mismo valor y sin recargo por traslado en las 8 comunas que atendemos:{" "}
+            Atendemos sin recargo por traslado en {COBERTURA_CORTA}:{" "}
             {comunas.map((c, i) => (
               <span key={c.slug}>
                 <Link href={`/kinesiologo-a-domicilio-${c.slug}`} className="text-amber-700 underline hover:text-amber-800">
@@ -450,7 +451,8 @@ export default function PreciosPage() {
                 </Link>
                 {i < comunas.length - 2 ? ", " : i === comunas.length - 2 ? " y " : "."}
               </span>
-            ))}
+            ))}{" "}
+            {TARIFA_PROPIA_TEXTO}.
           </p>
         </div>
       </section>
@@ -581,7 +583,7 @@ export default function PreciosPage() {
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />
-                <span>Atendemos solo en estas 8 comunas, sin recargo de traslado.</span>
+                <span>Atendemos solo en {COBERTURA_CORTA}, sin recargo de traslado. {TARIFA_PROPIA_TEXTO}.</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-emerald-600 mr-3 flex-shrink-0 mt-0.5" />

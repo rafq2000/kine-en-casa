@@ -617,7 +617,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             "faqs": [
                 {
                     "q": "¿Llegan al sector cordillerano de Lo Barnechea?",
-                    "a": "Sí. Como queda lejos del núcleo urbano, ahí coordinamos una hora fija con anticipación, sin recargo por distancia."
+                    "a": "Sí. Como queda lejos del núcleo urbano, ahí coordinamos una hora fija con anticipación."
                 },
                 {
                     "q": "¿Tienen convenio con Clínica Alemana de La Dehesa?",
@@ -816,6 +816,94 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     {
                         "q": "Me caí un domingo por la tarde y la muñeca quedó hinchada. ¿Voy a un SAPU de Huechuraba?",
                         "a": "Si hay deformidad, no puedes mover los dedos o el dolor es muy intenso, necesitas evaluación médica y probablemente una radiografía. Dentro de la comuna la urgencia es de atención primaria: confirma el horario por teléfono antes de ir; la urgencia hospitalaria de adultos de referencia es el Hospital San José, en Independencia. Con el diagnóstico en mano, la kinesiología parte en tu casa."
+                    }
+                ]
+            }
+        ]
+    },
+    "chicureo": {
+        "centrosSalud": [
+            {
+                "nombre": "Clínica Alemana, Centro Médico Chicureo (Camino Chicureo con Av. El Valle)",
+                "tipo": "clínica privada",
+                "nota": "Urgencia 24 h para adultos y niños"
+            },
+            {
+                "nombre": "Clínica Las Condes, Centro Médico Chicureo (Av. Chicureo 5.500, Piedra Roja)",
+                "tipo": "clínica privada",
+                "nota": "Urgencia 24 h para casos de menor complejidad; los casos complejos se trasladan a su sede Estoril"
+            }
+        ],
+        "hub": {
+            "h2": "Kinesiología a domicilio en Chicureo: condominios, trayectos largos y urgencia a mano",
+            "parrafos": [
+                "Chicureo es un sector de la comuna de Colina, al norte de Santiago, con barrios como Piedra Roja, Chamisero, Hacienda Chicureo, Valle Norte y Ayres de Chicureo. No llega el Metro y casi todo se hace en auto, así que ir a un centro de kinesiología dos o tres veces por semana suma trayectos que se notan, sobre todo para alguien recién operado o un adulto mayor. Con la kinesiología a domicilio, el kinesiólogo llega a tu casa con camilla y equipamiento.",
+                "Predominan los condominios de casas con portería: para la visita basta con dejar el nombre del kinesiólogo en el acceso. En la evaluación inicial gratuita revisamos los puntos de la casa que más pesan en el tratamiento, como la escalera al segundo piso, el paso al baño o la salida al jardín, y el plan se arma con lo que hay en tu casa.",
+                "Ante un síntoma de alarma no esperes la sesión: llama al SAMU (131) o acude a urgencia. En Chicureo hay urgencia 24 h en el centro médico de Clínica Alemana y en el de Clínica Las Condes, que traslada los casos complejos a su sede Estoril. Si te dan el alta en una clínica, ten a mano la epicrisis y las indicaciones médicas para la evaluación inicial."
+            ],
+            "faqs": [
+                {
+                    "q": "¿Atienden en todo Colina?",
+                    "a": "No. En Colina atendemos solo en Chicureo, en barrios como Piedra Roja, Chamisero, Hacienda Chicureo, Valle Norte y Ayres de Chicureo."
+                },
+                {
+                    "q": "¿Dónde hay urgencia 24 horas en Chicureo?",
+                    "a": "En el Centro Médico Chicureo de Clínica Alemana (Camino Chicureo con Av. El Valle) y en el de Clínica Las Condes (Av. Chicureo 5.500, Piedra Roja), que traslada los casos complejos a su sede Estoril. Confirma por teléfono antes de ir; ante una urgencia vital llama al SAMU (131)."
+                },
+                {
+                    "q": "¿Cómo entra el kinesiólogo a un condominio con portería?",
+                    "a": "Cuéntanos el nombre del condominio y deja registrado el nombre del kinesiólogo en la portería. El equipamiento es portátil y lo lleva él."
+                }
+            ]
+        },
+        "especialidades": [
+            {
+                "slug": "kinesiologia-geriatrica",
+                "introLocal": "Si un adulto mayor vive en una casa de dos pisos en Chicureo, la escalera hacia el dormitorio suele ser lo primero que cuesta cuando fallan la fuerza o el equilibrio, y en un sector donde casi todo se hace en auto, quedarse en la casa es fácil. La kinesiología geriátrica a domicilio trabaja la fuerza de piernas, el equilibrio y la prevención de caídas en los tramos que usa todos los días: la escalera, el baño, la salida al jardín y el camino al auto.",
+                "faqsLocales": [
+                    {
+                        "q": "Mi mamá vive con nosotros en Piedra Roja y ya le cuesta la escalera. ¿Conviene bajarle el dormitorio?",
+                        "a": "Depende de lo que veamos en la evaluación inicial gratuita. A veces conviene un cambio temporal de dormitorio y otras basta con entrenar la escalera y revisar pasamanos e iluminación. Te damos una recomendación concreta para tu casa."
+                    }
+                ]
+            },
+            {
+                "slug": "rehabilitacion-postquirurgica",
+                "introLocal": "Después de una cirugía de rodilla, cadera, hombro o columna, el primer desafío en Chicureo es el trayecto: la cirugía suele hacerse en una clínica fuera del sector, y volver dos o tres veces por semana a kinesiología cansa al operado y a quien maneja. Con la rehabilitación postquirúrgica a domicilio, el kinesiólogo llega a tu casa con camilla y equipamiento y sigue el protocolo que indicó tu cirujano.",
+                "faqsLocales": [
+                    {
+                        "q": "Me operan en una clínica de Vitacura o Las Condes y vuelvo a mi casa en Chicureo. ¿Pueden empezar ahí?",
+                        "a": "Sí, cuando tu cirujano lo indique. Lleva la epicrisis y las indicaciones escritas a la evaluación inicial gratuita y con eso se arma el plan. KINEUM no tiene convenio con clínicas: la atención es particular, con boleta de honorarios para pedir el reembolso según tu plan."
+                    }
+                ]
+            },
+            {
+                "slug": "kinesiologia-respiratoria",
+                "introLocal": "En una familia con niños que se enferman de los bronquios, lo que más tranquiliza es saber a dónde ir si el cuadro se complica: en Chicureo hay urgencia 24 h en los centros médicos de Clínica Alemana y de Clínica Las Condes. La kinesiología respiratoria a domicilio evita sacar de la casa a un niño con tos, o a un adulto que se cansa al respirar, para cada sesión que indicó el médico.",
+                "faqsLocales": [
+                    {
+                        "q": "El pediatra indicó kinesiología respiratoria para mi hijo. ¿Pueden ir un fin de semana a Chicureo?",
+                        "a": `Sí, atendemos de lunes a domingo y coordinamos la hora por WhatsApp al ${TEL_DISPLAY}. Si aparecen señales de alarma, como respiración muy rápida, costillas que se hunden o labios morados, no esperes la sesión: ve a urgencia o llama al SAMU (131).`
+                    }
+                ]
+            },
+            {
+                "slug": "rehabilitacion-neurologica",
+                "introLocal": "Después de un ACV o con una enfermedad como el Parkinson, el día a día en Chicureo depende mucho del auto: los controles médicos, las terapias y las visitas. Por eso conviene que la rehabilitación neurológica se haga en la casa, donde se entrenan los traslados de la cama a la silla, la marcha por los espacios reales y la subida al auto, y la familia aprende a ayudar sin lesionarse.",
+                "faqsLocales": [
+                    {
+                        "q": "Mi papá volvió a la casa después de un ACV y para ir a los controles hay que subirlo al auto. ¿Eso se puede entrenar?",
+                        "a": "Sí, y suele ser de lo primero. Evaluamos cuánto puede colaborar él y entrenamos con la familia la técnica para pasar de la silla al auto, paso a paso, para que ir al control no sea un riesgo."
+                    }
+                ]
+            },
+            {
+                "slug": "kinesiologia-traumatologica",
+                "introLocal": "Un esguince, un lumbago, un hombro doloroso, una tendinitis o las secuelas de una fractura ya tratada son motivos frecuentes de kinesiología traumatológica. Si te lesionaste trotando, en el jardín o en la escalera de tu casa en Chicureo, la sesión en tu casa permite trabajar justo ese gesto y ajustar la carga semana a semana, sin sumar trayectos mientras duele.",
+                "faqsLocales": [
+                    {
+                        "q": "Me torcí el tobillo trotando un domingo en Chicureo. ¿Voy primero a urgencia?",
+                        "a": "Si no puedes apoyar el pie, hay deformidad o el dolor es muy intenso, sí: necesitas evaluación médica y probablemente una radiografía. En Chicureo hay urgencia 24 h en los centros médicos de Clínica Alemana y de Clínica Las Condes. Con el diagnóstico, la kinesiología a domicilio parte según lo que indique tu médico."
                     }
                 ]
             }

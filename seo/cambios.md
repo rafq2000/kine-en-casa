@@ -110,6 +110,13 @@ Ricardo autorizó todos los cambios en el sitio de `seo/analisis-23nov/INFORME.m
 - `seo/citaciones-locales.md`: ficha como negocio de área de servicio, sin local que reciba público, con la dirección particular de Ricardo en Providencia solo para verificar y oculta. Esa dirección nunca se publica en el sitio ni en el repo.
 - Queda igual que antes, para que Ricardo decida: el rango en consulta ($30.000 a $38.000) sigue sin fuente enlazada en la FAQ del post de cuánto cuesta y en la tabla de domicilio o centro. `public/images/blog-kinesiologo-particular.jpg` quedó sin uso.
 
+### 24-nov-2026 — Chicureo entra; Lo Barnechea y Chicureo a $40.000 en cualquier plan
+- Ricardo: «agrega Chicureo a la página de kineum» y, sobre el valor, «40 mil igual que Lo Barnechea»; al confirmar eligió «$40.000 en Chicureo y Lo Barnechea» (en cualquier plan; corregir también Lo Barnechea).
+- Chicureo es un sector de Colina, no una comuna: los textos dicen «8 comunas y Chicureo» (`COBERTURA_CORTA`). «9 comunas» sigue prohibido en `seo/rules.mjs`.
+- El valor vive en `lib/comunas-data.ts` (`precioSesion`); `TARIFA_PROPIA_TEXTO` arma la frase para /precios, la portada, /cobertura y llms.txt. Los hubs de Lo Barnechea y Chicureo muestran $40.000 (10 sesiones $400.000, 4 sesiones $160.000).
+- Se quitaron las promesas de «mismo valor en todas las comunas» y «sin recargo por distancia» en Lo Barnechea.
+- Urgencias de Chicureo verificadas en las páginas oficiales: Clínica Alemana (Camino Chicureo con Av. El Valle, 24 h adultos y niños) y Clínica Las Condes (Av. Chicureo 5.500, 24 h para menor complejidad, traslada a Estoril).
+
 ## Deploys
 
 | Fecha | Commit | Tareas | Rutas cambiadas | URLs pedidas a indexación |
@@ -123,6 +130,7 @@ Ricardo autorizó todos los cambios en el sitio de `seo/analisis-23nov/INFORME.m
 | 2026-11-09 | a6a4efe | Cobertura 8 comunas (entra Huechuraba; salen Macul y Peñalolén con 308) y SEO on-page de la revisión contra competidores: H1 y primer párrafo de los hubs con "Kinesiología a domicilio en {comuna}", anclas internas con la frase, home y /cobertura sin competir entre sí, tabla y snippet de /precios, snippets de sin-orden-médica, cuánto-cuesta y KTR | /, /cobertura, /precios, /como-funciona, /nosotros, /servicios/respiratoria, 8 hubs, 23 posts; 308: hubs y 10 especialidad de macul/penalolen; 5 especialidad-huechuraba al hub | IndexNow 200. Auditor en producción 0/0/0/0; 52/52 redirecciones |
 | 2026-11-23 | d45fdc7 | SEO 23-nov: precios en 2 páginas dueñas (308 de cuánto cobra particular), guías de adulto mayor enlazadas desde los 8 hubs, og:title de /blog, kit de la ficha con la cobertura vigente | /precios, /blog/cuanto-cuesta-kinesiologia-a-domicilio-santiago, 8 hubs; 308: /blog/cuanto-cobra-kinesiologo-particular | IndexNow 200 (15 URLs). Auditor en producción 0/0/0/0. GSC: indexación pedida el 24-nov para /servicios/geriatrica, paciente postrado, fractura de cadera, adulto mayor se cayó, /precios y cuánto cuesta |
 | 2026-11-24 | (este) | Foto de Francisca Gottschalk (kinesióloga y directora, confirmado por Ricardo) en /nosotros: bloque «Quién dirige KINEUM» + schema Person. Foto retocada sin IA generativa (fondo limpio, cara SSIM 0,997) | /nosotros, /equipo/francisca-gottschalk-kinesiologa-kineum.jpg | IndexNow /nosotros |
+| 2026-11-24 | (este) | Chicureo entra a la cobertura (hub nuevo /kinesiologo-a-domicilio-chicureo, sector de Colina) y tarifa propia de $40.000 por sesión en cualquier plan en Lo Barnechea y Chicureo (decisión de Ricardo); /kinesiologo-a-domicilio-colina pasa a 308 al hub de Chicureo | /kinesiologo-a-domicilio-chicureo, /kinesiologo-a-domicilio-lo-barnechea, /, /precios, /cobertura, /como-funciona, llms.txt, blog (precios y listas de comunas) | IndexNow de las rutas cambiadas |
 | 2026-11-24 | (este) | Número de WhatsApp/teléfono centralizado en `lib/contacto.mjs` (93 apariciones en 19 archivos + el auditor; si cambia el número se edita SOLO ahí, más la ficha de Google). Código del anuncio de Meta (utm_content=k01…k39) al comienzo de todo mensaje de WhatsApp: `components/codigo-anuncio.tsx`, montado siempre (B7 del plan de Meta, orden de Ricardo) | todas (sin cambio visible) | — |
 
 ## Ficha de Google (Perfil de Empresa)

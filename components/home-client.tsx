@@ -38,7 +38,7 @@ import {
 
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { SiteFooter } from "@/components/site-footer"
-import { comunas } from "@/lib/comunas-data"
+import { comunas, TARIFA_PROPIA_TEXTO } from "@/lib/comunas-data"
 
 
 function wa(texto: string) {
@@ -53,12 +53,12 @@ export default function HomePage() {
       {
         "@type": "Question",
         name: "¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?",
-        acceptedAnswer: { "@type": "Answer", text: `Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos ${BOLETA_TEXTO} para que la reembolses en tu Isapre según la cobertura de tu plan.` }
+        acceptedAnswer: { "@type": "Answer", text: `Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. ${TARIFA_PROPIA_TEXTO}. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos ${BOLETA_TEXTO} para que la reembolses en tu Isapre según la cobertura de tu plan.` }
       },
       {
         "@type": "Question",
         name: "¿En qué comunas de Santiago atienden a domicilio?",
-        acceptedAnswer: { "@type": "Answer", text: "Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial." }
+        acceptedAnswer: { "@type": "Answer", text: "Atendemos 8 comunas del sector oriente y centro de Santiago y Chicureo: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo, en Colina. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas zonas. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial." }
       },
       {
         "@type": "Question",
@@ -273,7 +273,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-xl md:text-2xl text-slate-700 mb-12 leading-relaxed max-w-4xl mx-auto">
-              KINEUM es kinesiología a domicilio en Santiago: kinesiólogos titulados que llegan a tu casa en 8 comunas del sector oriente y centro, con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
+              KINEUM es kinesiología a domicilio en Santiago: kinesiólogos titulados que llegan a tu casa en 8 comunas del sector oriente y centro y en Chicureo, con <strong>equipamiento profesional y evaluación inicial gratuita</strong>.
               <br />
               Primera visita {PRIMERA_VISITA_TEXTO}.
             </p>
@@ -331,7 +331,7 @@ export default function HomePage() {
               </Link>
               <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                 <MapPin className="h-5 w-5 text-slate-700 mb-2" />
-                <p className="text-sm font-semibold text-slate-900">8 comunas del sector oriente y centro</p>
+                <p className="text-sm font-semibold text-slate-900">8 comunas del oriente y centro, y Chicureo</p>
                 <p className="text-sm text-slate-600">Lunes a domingo</p>
               </div>
             </div>
@@ -481,7 +481,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold mb-3 text-white">Lunes a domingo</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
                 Sesiones de 60 minutos en un horario que coordinamos contigo, también fines de semana,
-                en las 8 comunas del sector oriente y centro de Santiago.
+                en las 8 comunas del sector oriente y centro de Santiago y en Chicureo.
               </p>
             </div>
           </div>
@@ -585,6 +585,8 @@ export default function HomePage() {
               </Card>
             ))}
           </div>
+
+          <p className="text-center text-slate-600 mb-8 max-w-3xl mx-auto">{TARIFA_PROPIA_TEXTO}.</p>
 
           <div className="text-center opacity-80 hover:opacity-100 transition-opacity">
             <p className="text-slate-600 mb-2">¿Tienes una condición compleja?</p>
@@ -714,8 +716,8 @@ export default function HomePage() {
               <MapPin className="h-10 w-10 mx-auto mb-4 text-amber-400" />
               <h3 className="font-bold text-xl mb-3">Cobertura Completa</h3>
               <p className="text-slate-300 leading-relaxed">
-                Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago
-                Centro. Cada comuna con su propia página y sus sectores.
+                Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago
+                Centro y Chicureo. Cada zona con su propia página y sus sectores.
               </p>
             </div>
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-slate-800/70 transition-all duration-300 border border-slate-700">
@@ -756,7 +758,7 @@ export default function HomePage() {
               <span className="text-amber-700">el Sector Oriente y Centro de Santiago</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Atendemos en el domicilio del paciente en 8 comunas del sector oriente y centro de Santiago. Entra a tu comuna
+              Atendemos en el domicilio del paciente en 8 comunas del sector oriente y centro de Santiago y en Chicureo. Entra a tu comuna
               para ver los sectores que cubrimos, o revisa la{" "}
               <a href="/cobertura" className="text-amber-700 font-medium hover:underline">
                 cobertura completa comuna por comuna
@@ -858,11 +860,11 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Cuánto cuesta una sesión de kinesiología a domicilio en Santiago?</h3>
-              <p className="text-slate-600">Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos {BOLETA_TEXTO} para que la reembolses en tu Isapre según la cobertura de tu plan. Puedes ver el detalle en <a href="/precios" className="text-amber-700 font-medium hover:underline">precios y planes</a>.</p>
+              <p className="text-slate-600">Los planes son Essential $160.000 al mes (4 sesiones, $40.000 por sesión) y Premium $350.000 al mes (10 sesiones, $35.000 por sesión); el plan Elite es a consultar. {TARIFA_PROPIA_TEXTO}. La evaluación inicial en tu casa es gratuita y recién después se define cuántas sesiones necesitas. Emitimos {BOLETA_TEXTO} para que la reembolses en tu Isapre según la cobertura de tu plan. Puedes ver el detalle en <a href="/precios" className="text-amber-700 font-medium hover:underline">precios y planes</a>.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿En qué comunas de Santiago atienden a domicilio?</h3>
-              <p className="text-slate-600">Atendemos 8 comunas del sector oriente y centro de Santiago: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba y Santiago Centro. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas 8 comunas. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial.</p>
+              <p className="text-slate-600">Atendemos 8 comunas del sector oriente y centro de Santiago y Chicureo: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo, en Colina. Todas las sesiones se hacen en el domicilio del paciente y solo atendemos en estas zonas. En Huechuraba, solo en Pedro Fontova, El Carmen y Ciudad Empresarial.</p>
             </div>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-3">¿Trabajan con Isapre?</h3>
