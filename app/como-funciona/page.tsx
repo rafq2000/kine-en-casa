@@ -536,7 +536,7 @@ export default function ComoFuncionaPage() {
                 <Check className="w-4 h-4" /> Kinesiólogos titulados
               </span>
               <span className="flex items-center gap-2">
-                <Check className="w-4 h-4" /> Atención de lunes a domingo
+                <Check className="w-4 h-4" /> Atención de lunes a viernes
               </span>
             </div>
           </div>

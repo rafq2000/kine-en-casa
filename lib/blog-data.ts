@@ -115,7 +115,7 @@ export const blogPosts = [
 <li><strong>Los avances se miden distinto.</strong> Tolerar veinte minutos sentado, girarse solo, colaborar en el traslado, dejar de tener la piel enrojecida: eso es progreso real en este contexto.</li>
 <li><strong>Los retrocesos existen.</strong> Una infección o unos días de cama extra pueden costar semanas de avance. No es culpa de nadie.</li>
 </ul>
-<p>Nuestro trabajo con adultos mayores dependientes está descrito en <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, y los valores de los planes mensuales, que incluyen sesiones de alrededor de 60 minutos de lunes a domingo, están en <a href="/precios">nuestra página de precios</a>. Atendemos en 8 comunas del sector oriente y centro de Santiago y en Chicureo (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo); puedes revisar cada comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
+<p>Nuestro trabajo con adultos mayores dependientes está descrito en <a href="/servicios/geriatrica">kinesiología geriátrica a domicilio</a>, y los valores de los planes mensuales, que incluyen sesiones de alrededor de 60 minutos de lunes a viernes, están en <a href="/precios">nuestra página de precios</a>. Atendemos en 8 comunas del sector oriente y centro de Santiago y en Chicureo (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo); puedes revisar cada comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 
@@ -221,7 +221,7 @@ export const blogPosts = [
 <li><strong>Si hay orden o indicación médica</strong>, y si vienen saliendo de una consulta o de un alta hospitalaria.</li>
 </ul>
 <p>Con eso te decimos dos cosas: si tu caso es de kinesiología o corresponde derivarte a urgencia, y qué horario real tenemos. En nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda; no te prometemos una hora antes de revisarla. Atendemos en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo: revisa tu comuna en <a href="/cobertura">nuestra cobertura</a>.</p>
-<p>Atendemos de lunes a domingo y la <strong>evaluación inicial es gratuita</strong>: el kinesiólogo llega, evalúa, te explica lo que ve y recién ahí se define si hace falta un plan de sesiones y de cuántas. Los valores por sesión y por plan están en <a href="/precios">precios y planes</a>.</p>
+<p>Atendemos de lunes a viernes y la <strong>evaluación inicial es gratuita</strong>: el kinesiólogo llega, evalúa, te explica lo que ve y recién ahí se define si hace falta un plan de sesiones y de cuántas. Los valores por sesión y por plan están en <a href="/precios">precios y planes</a>.</p>
 <p>Sobre la orden médica: si no la tienes, escríbenos igual, pero conviene que sepas que el tratamiento kinesiológico en Chile se aplica con indicación médica escrita y que tu Isapre o seguro complementario te la va a pedir para reembolsar. Lo explicamos completo en <a href="/blog/kinesiologo-sin-orden-medica">¿puedo ir al kinesiólogo sin orden médica?</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
@@ -230,7 +230,7 @@ export const blogPosts = [
 <p>No lo podemos prometer: en nuestras comunas de cobertura la primera visita se coordina habitualmente dentro de 24 horas, según la agenda. Por eso, escríbenos con tu comuna y te confirmamos el horario real antes de que te comprometas.</p>
 
 <h3>¿Atienden kinesiología a domicilio el fin de semana?</h3>
-<p>Sí, trabajamos de lunes a domingo. La disponibilidad depende de la agenda de ese día, así que conviene escribir apenas aparece el problema y no esperar al lunes.</p>
+<p>Atendemos de lunes a viernes. Si el problema aparece el fin de semana, escríbenos igual por WhatsApp y coordinamos la primera hora disponible.</p>
 
 <h3>Mi bebé necesita kine respiratorio urgente, ¿pueden ir hoy?</h3>
 <p>Si tiene indicación médica de kinesiterapia respiratoria y está estable, se puede coordinar pronto, habitualmente dentro de 24 horas y según la agenda. No esperes al kinesiólogo si está con dificultad para respirar, respiración muy rápida, hundimiento de las costillas, labios morados, decaimiento marcado o rechazo del alimento. Y si es menor de 3 meses, cualquier fiebre —aunque se vea bien— necesita evaluación médica inmediata. En esos casos llama al SAMU al 131 o ve a una urgencia pediátrica.</p>
@@ -246,7 +246,7 @@ export const blogPosts = [
 
 <h2>En resumen</h2>
 <p>Si hay señales de alarma, el número es el 131. Si lo que tienes es un niño cargado con indicación de KTR, un dolor agudo que te bloquea, un alta reciente que no puede esperar o una casa donde el cuidador ya no da abasto, eso sí lo podemos ver pronto, habitualmente dentro de 24 horas.</p>
-<p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a domingo.</p>`
+<p>Escríbenos ahora por WhatsApp contándonos el caso y tu comuna, y te decimos qué corresponde y qué horario tenemos disponible: <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20necesito%20un%20kinesi%C3%B3logo%20a%20domicilio%20urgente.%20Les%20cuento%20el%20caso%20y%20mi%20comuna%3A">hablar con KINEUM por WhatsApp</a>. La evaluación inicial es gratuita y atendemos de lunes a viernes.</p>`
   },
   {
     slug: "fisioterapeuta-o-kinesiologo-a-domicilio",
@@ -330,7 +330,7 @@ export const blogPosts = [
 <h3>¿Necesito orden médica para una sesión a domicilio?</h3>
 <p>Puedes pedir una evaluación, pero el reglamento que en LeyChile aparece como no derogado establece que el tratamiento kinesiológico se aplica por indicación y orden médica escrita, y tu Isapre o seguro te la va a pedir para reembolsar.</p>
 <h3>¿En qué comunas de Santiago atienden a domicilio?</h3>
-<p>KINEUM atiende de lunes a domingo en 8 comunas del sector oriente y centro de Santiago y en Chicureo (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo); puedes revisar el listado actualizado en la <a href="/cobertura">página de cobertura</a>. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la atención es particular y con boleta.</p>
+<p>KINEUM atiende de lunes a viernes en 8 comunas del sector oriente y centro de Santiago y en Chicureo (Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo); puedes revisar el listado actualizado en la <a href="/cobertura">página de cobertura</a>. KINEUM no tiene convenio con clínicas, hospitales ni isapres: la atención es particular y con boleta.</p>
 
 <p>Si llegaste buscando un fisioterapeuta a domicilio, ya sabes que lo que necesitas es un kinesiólogo titulado que vaya a tu casa. La evaluación inicial es gratuita y de ahí sale una propuesta concreta de cuántas sesiones y con qué frecuencia. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20busco%20un%20fisioterapeuta%20o%20kinesi%C3%B3logo%20a%20domicilio%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos contigo el día y la hora.</p>`
   },
@@ -421,7 +421,7 @@ export const blogPosts = [
 <h3>¿Sirve la orden para kinesiología a domicilio?</h3>
 <p>Según la Circular 393, la atención kinesiológica integral puede hacerse en el domicilio. Igual revisa con tu Isapre o tu seguro las condiciones de tu plan o póliza. Si quieres saber qué esperar, lee <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
 
-<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y te orientamos.</p>`
+<p>¿Tienes dudas con tu orden médica o quieres agendar la evaluación inicial gratuita? Atendemos de lunes a viernes en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial%20gratuita%20y%20tengo%20dudas%20con%20la%20orden%20m%C3%A9dica">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y te orientamos.</p>`
   },
   {
     slug: "como-es-una-sesion-de-kinesiologia-a-domicilio",
@@ -440,7 +440,7 @@ export const blogPosts = [
     content: `<p class="lead">Si nunca has recibido a un kinesiólogo en tu casa, es normal tener dudas: qué hace exactamente, cuánto dura la sesión, qué equipos trae y si tienes que preparar algo. Aquí te contamos cómo es una sesión de kinesiología a domicilio de principio a fin, para que llegues a la primera visita sabiendo qué esperar.</p>
 
 <h2>Antes de la visita: coordinación y qué tener a mano</h2>
-<p>Todo parte con una conversación por WhatsApp o teléfono. Ahí se coordina el día y la hora (atendemos de lunes a domingo), se confirma que tu comuna esté dentro de la cobertura y se conversa brevemente el motivo de consulta: una cirugía reciente, un dolor que no cede, una caída, una enfermedad respiratoria o neurológica.</p>
+<p>Todo parte con una conversación por WhatsApp o teléfono. Ahí se coordina el día y la hora (atendemos de lunes a viernes), se confirma que tu comuna esté dentro de la cobertura y se conversa brevemente el motivo de consulta: una cirugía reciente, un dolor que no cede, una caída, una enfermedad respiratoria o neurológica.</p>
 <p>Para aprovechar bien la primera visita, conviene tener reunido lo siguiente:</p>
 <ul>
 <li><strong>Exámenes e imágenes</strong>: radiografías, resonancias, ecografías y sus informes. El informe escrito es lo más útil.</li>
@@ -518,7 +518,7 @@ export const blogPosts = [
 <h3>¿Qué pasa si ese día amanezco con más dolor?</h3>
 <p>Avísale al kinesiólogo al inicio. La sesión se adapta: se baja la carga o se cambia el enfoque. Si el dolor es muy distinto al habitual o aparecen síntomas nuevos, puede ser necesario suspender y derivar al médico.</p>
 
-<p>Si quieres coordinar tu evaluación inicial gratuita en tu casa, escríbenos por <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20inicial%20a%20domicilio">WhatsApp al ${TEL_DISPLAY}</a> y cuéntanos tu caso y tu comuna. Atendemos de lunes a domingo.</p>`
+<p>Si quieres coordinar tu evaluación inicial gratuita en tu casa, escríbenos por <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20inicial%20a%20domicilio">WhatsApp al ${TEL_DISPLAY}</a> y cuéntanos tu caso y tu comuna. Atendemos de lunes a viernes.</p>`
   },
   {
     slug: "cuantas-sesiones-de-kinesiologia-necesito",
@@ -639,7 +639,7 @@ export const blogPosts = [
 <h3>¿La kinesiología reemplaza el control con mi médico?</h3>
 <p>No. La complementa. Si tienes un diagnóstico en estudio, síntomas que empeoran o una cirugía reciente, el médico tratante sigue siendo quien define el diagnóstico y los límites del tratamiento.</p>
 
-<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y te contamos cómo seguir.</p>`
+<p>¿Quieres saber cuántas sesiones necesitarías en tu caso? Agenda tu evaluación inicial gratuita en tu casa, de lunes a viernes, en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo. <a href="https://wa.me/${WHATSAPP}?text=Hola%20KINEUM%2C%20quiero%20agendar%20una%20evaluaci%C3%B3n%20gratuita%20para%20saber%20cu%C3%A1ntas%20sesiones%20necesito">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y te contamos cómo seguir.</p>`
   },
   {
     slug: "precio-10-sesiones-kinesiologia",
@@ -717,7 +717,7 @@ export const blogPosts = [
 <ul>
 <li><strong>$350.000 al mes por 10 sesiones</strong>, es decir, $35.000 por sesión.</li>
 <li>Las 10 sesiones son dentro del mes, lo que equivale a unas 2 a 3 sesiones por semana. Si tu tratamiento necesita un ritmo más espaciado, pregúntanos por WhatsApp cómo organizarlo antes de contratar.</li>
-<li>Sesiones de aproximadamente 60 minutos en tu casa, de lunes a domingo.</li>
+<li>Sesiones de aproximadamente 60 minutos en tu casa, de lunes a viernes.</li>
 <li>Evaluación inicial gratuita antes de empezar.</li>
 <li>Boleta de honorarios electrónica, reembolsable en tu isapre y en seguros complementarios. El reembolso lo pides tú con esa boleta: KINEUM no tiene convenio con isapres.</li>
 </ul>
@@ -827,7 +827,7 @@ export const blogPosts = [
 <p>No. La kinesiología complementa la atención médica. Ante síntomas nuevos, dolor que empeora o señales de alarma, consulta a tu médico; en una emergencia, llama al SAMU (131).</p>
 
 <h3>¿En qué comunas atiende KINEUM a domicilio?</h3>
-<p>Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo.</p>
+<p>Atendemos de lunes a viernes en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo.</p>
 
 <p>Si todavía no sabes qué te conviene, conversémoslo. La evaluación inicial es gratuita y te decimos con honestidad si tu caso se beneficia de la atención en casa o si te conviene más un centro. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20quiero%20saber%20si%20me%20conviene%20la%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a>.</p>`
   },
@@ -945,7 +945,7 @@ export const blogPosts = [
 <h3>¿El ejercicio realmente ayuda a prevenir caídas?</h3>
 <p>El consenso profesional es que los programas de fuerza y equilibrio, bien dosificados y sostenidos en el tiempo, suelen reducir el riesgo de caídas en personas mayores. Los resultados varían según la persona.</p>
 
-<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a domingo en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo, y la evaluación inicial es gratuita. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
+<p>Si tu papá o tu mamá se cayó y el médico ya descartó lesiones, podemos ayudarte a trabajar su fuerza, su equilibrio y la confianza para caminar en su propia casa. Atendemos de lunes a viernes en Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo, y la evaluación inicial es gratuita. <a href="https://wa.me/${WHATSAPP}?text=Hola%2C%20mi%20familiar%20adulto%20mayor%20se%20cay%C3%B3%20y%20quiero%20agendar%20una%20evaluaci%C3%B3n%20de%20kinesiolog%C3%ADa%20geri%C3%A1trica">Escríbenos por WhatsApp</a> y coordinamos la primera visita.</p>`
   },
   // ── Artículos pilar (intención de búsqueda comercial) ──
   {
@@ -1025,7 +1025,7 @@ export const blogPosts = [
       <h3>¿La evaluación inicial tiene costo?</h3>
       <p>No. En KINEUM la evaluación kinesiológica inicial es <strong>gratuita</strong> y sin compromiso, en todas nuestras comunas de cobertura.</p>
       <h3>¿Hay recargo por atención de urgencia o fin de semana?</h3>
-      <p>Atendemos de lunes a domingo. Las sesiones de fin de semana tienen la misma tarifa; coordinamos la disponibilidad por WhatsApp.</p>
+      <p>No hay recargo por el día ni por la hora. Atendemos de lunes a viernes, con hora coordinada por WhatsApp. No es un servicio de urgencias: ante una urgencia, corresponde acudir a un servicio de urgencia.</p>
       <h3>¿El precio incluye el equipamiento?</h3>
       <p>Sí. Camilla profesional, electroestimulación (TENS), ultrasonido y bandas elásticas están incluidos cuando el tratamiento lo requiere.</p>
       <h3>¿Cuánto cobra un kinesiólogo particular en consulta?</h3>
@@ -1184,7 +1184,7 @@ export const blogPosts = [
 <h3>¿Qué documentos piden los seguros complementarios para reembolsar kinesiología?</h3>
 <p>Primero se pide el reembolso en la isapre. Después, al seguro se presentan la liquidación o el comprobante de la isapre, la boleta de honorarios y la orden médica. MetLife pide que la orden indique el tipo de tratamiento y el número de sesiones, y Consorcio pide la orden médica de derivación. Revisa siempre tu póliza.</p>
 
-<p>Si ya tienes tu orden médica y quieres empezar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20Isapre%20y%20quiero%20agendar%20kinesiolog%C3%ADa%20a%20domicilio">escríbenos por WhatsApp al ${TEL_DISPLAY}</a>. Coordinamos tu evaluación inicial gratuita, de lunes a domingo, y te entregamos la boleta de honorarios para que pidas tu reembolso.</p>`
+<p>Si ya tienes tu orden médica y quieres empezar, revisa <a href="/como-funciona">cómo funciona la atención a domicilio</a> o <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20Isapre%20y%20quiero%20agendar%20kinesiolog%C3%ADa%20a%20domicilio">escríbenos por WhatsApp al ${TEL_DISPLAY}</a>. Coordinamos tu evaluación inicial gratuita, de lunes a viernes, y te entregamos la boleta de honorarios para que pidas tu reembolso.</p>`
   },
   {
     slug: "kinesiologia-respiratoria-infantil-domicilio",
@@ -1699,7 +1699,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Cuándo conviene atenderse en casa</h2>
-<p>Con un tobillo esguinzado lo que más cuesta es trasladarse, y en casa se revisan tus escaleras reales; la comparación está en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. KINEUM llega con camilla, bandas elásticas, TENS y goniómetro a comunas de Santiago como Las Condes, Providencia y Ñuñoa, y al resto de la <a href="/cobertura">zona de cobertura</a>, de lunes a domingo. En el sector oriente, revisa <a href="/kinesiologo-a-domicilio-las-condes#kinesiologia-traumatologica">kinesiología traumatológica en Las Condes</a>.</p>
+<p>Con un tobillo esguinzado lo que más cuesta es trasladarse, y en casa se revisan tus escaleras reales; la comparación está en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. KINEUM llega con camilla, bandas elásticas, TENS y goniómetro a comunas de Santiago como Las Condes, Providencia y Ñuñoa, y al resto de la <a href="/cobertura">zona de cobertura</a>, de lunes a viernes. En el sector oriente, revisa <a href="/kinesiologo-a-domicilio-las-condes#kinesiologia-traumatologica">kinesiología traumatológica en Las Condes</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 
@@ -1716,7 +1716,7 @@ export const blogPosts = [
 <p>Entregamos boleta de honorarios electrónica. Para reembolsar en tu isapre o seguro complementario normalmente vas a necesitar además la orden médica de kinesiología, y cuánto te devuelvan depende de la cobertura de tu plan; conviene consultarlo con tu aseguradora. Lo detallamos en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso en tu isapre</a>.</p>
 
 <h3>¿Atienden fines de semana en Santiago?</h3>
-<p>Sí, de lunes a domingo, en sesiones de unos 60 minutos.</p>
+<p>Atendemos de lunes a viernes, en sesiones de unos 60 minutos; el horario se coordina por WhatsApp.</p>
 
 <p>Si te acabas de torcer el tobillo, o llevas semanas con uno que no responde, la evaluación inicial es gratuita y va a tu casa en Santiago. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20me%20esguinc%C3%A9%20el%20tobillo%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20inicial">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos la visita en tu comuna.</p>`
   },
@@ -1807,7 +1807,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Cuándo conviene atenderse en casa</h2>
-<p>Con dolor irradiado, trasladarse es justo lo que peor se tolera: sentarse en el auto o en la micro, esperar en una sala, volver. Atenderte en casa evita esos traslados, permite corregir tu silla y tu cama reales y deja los ejercicios armados con lo que tienes a mano. Atendemos de lunes a domingo.</p>
+<p>Con dolor irradiado, trasladarse es justo lo que peor se tolera: sentarse en el auto o en la micro, esperar en una sala, volver. Atenderte en casa evita esos traslados, permite corregir tu silla y tu cama reales y deja los ejercicios armados con lo que tienes a mano. Atendemos de lunes a viernes.</p>
 <p>Si estás decidiendo entre una modalidad y otra, las comparamos en <a href="/blog/kinesiologia-a-domicilio-o-en-centro">kinesiología a domicilio o en centro</a>. Revisa los valores en <a href="/precios">nuestros planes y precios</a> y confirma tu sector en <a href="/cobertura">las comunas donde llega nuestro kinesiólogo a domicilio en Santiago</a>. Emitimos boleta de honorarios electrónica; para presentarla a reembolso en tu isapre o seguro complementario vas a necesitar la orden médica, y la cobertura depende de tu plan.</p>
 
 <h2>Preguntas frecuentes</h2>
@@ -1827,7 +1827,7 @@ export const blogPosts = [
 <h3>¿Puedo seguir haciendo deporte con ciática?</h3>
 <p>Casi siempre se puede hacer algo, aunque no sea lo mismo de antes. Ajustar la actividad es parte del tratamiento; suspenderla del todo rara vez es lo mejor.</p>
 
-<p>¿Llevas más de dos semanas con dolor en el glúteo o que baja por la pierna? La evaluación a domicilio es gratuita y de ahí sale un plan concreto. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20ci%C3%A1tico%20y%20quiero%20agendar%20mi%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos tu visita en un horario que acordamos contigo, de lunes a domingo.</p>`
+<p>¿Llevas más de dos semanas con dolor en el glúteo o que baja por la pierna? La evaluación a domicilio es gratuita y de ahí sale un plan concreto. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20ci%C3%A1tico%20y%20quiero%20agendar%20mi%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos tu visita en un horario que acordamos contigo, de lunes a viernes.</p>`
   },
   {
     slug: "tendinitis-hombro-manguito-rotador",
@@ -1922,7 +1922,7 @@ export const blogPosts = [
       <h3>¿Siempre termina en cirugía?</h3>
       <p>No. Se plantea sobre todo en roturas por trauma en personas jóvenes y activas, o cuando una rehabilitación bien hecha durante varios meses no da resultado. Esa decisión la toma el médico traumatólogo.</p>
 
-      <p>Si tu hombro lleva más de dos o tres semanas doliendo al levantar el brazo o no te deja dormir de ese lado, no esperes a que se pase solo. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20de%20hombro%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos tu evaluación inicial gratuita a domicilio, de lunes a domingo, con el equipamiento incluido.</p>`
+      <p>Si tu hombro lleva más de dos o tres semanas doliendo al levantar el brazo o no te deja dormir de ese lado, no esperes a que se pase solo. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20dolor%20de%20hombro%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp al ${TEL_DISPLAY}</a> y coordinamos tu evaluación inicial gratuita a domicilio, de lunes a viernes, con el equipamiento incluido.</p>`
   },
   {
     slug: "artrosis-rodilla-ejercicios",
@@ -2033,7 +2033,7 @@ export const blogPosts = [
 <p>La evaluación inicial es gratuita; el plan Essential son $160.000 al mes por 4 sesiones y el Premium $350.000 por 10, y el Elite se cotiza según el caso. Emitimos boleta de honorarios electrónica: lo que te devuelvan depende de la cobertura de tu plan y el trámite está explicado en <a href="/blog/reembolso-isapre-kinesiologia">cómo pedir el reembolso en tu Isapre</a>.</p>
 
 <h3>¿Atienden en mi comuna?</h3>
-<p>Atendemos a domicilio de lunes a domingo en 8 comunas del sector oriente y centro de Santiago y en Chicureo: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo. Revisa el detalle en la página de <a href="/cobertura">cobertura</a> o pregúntanos por tu sector.</p>
+<p>Atendemos a domicilio de lunes a viernes en 8 comunas del sector oriente y centro de Santiago y en Chicureo: Las Condes, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo. Revisa el detalle en la página de <a href="/cobertura">cobertura</a> o pregúntanos por tu sector.</p>
 
 <p>Si la rodilla lleva meses decidiendo lo que puedes hacer y lo que no, el primer paso no cuesta nada: una evaluación en tu casa y una pauta de ejercicios hecha para tu rodilla. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20tengo%20artrosis%20de%20rodilla%20y%20quiero%20agendar%20la%20evaluaci%C3%B3n%20gratuita">Escríbenos por WhatsApp y agenda tu evaluación gratuita</a>, o llámanos al ${TEL_DISPLAY}.</p>`
   },
@@ -2212,7 +2212,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Cuándo conviene atenderse en casa</h2>
-<p>La ventaja del domicilio acá no es solo comodidad. El kinesiólogo ve el escritorio donde pasas ocho horas, la altura real de tu silla, la herramienta con la que trabajas y la posición en que duermes, que es cuando aparece el síntoma. Eso no se corrige describiéndolo de memoria en una consulta. Si estás pesando las dos opciones, revisa <a href="/blog/kinesiologia-a-domicilio-o-en-centro">cuándo conviene kinesiología a domicilio o en centro</a>. Atendemos de lunes a domingo en 8 comunas del sector oriente y centro de Santiago y en Chicureo: mira nuestra <a href="/cobertura">cobertura por comuna</a>.</p>
+<p>La ventaja del domicilio acá no es solo comodidad. El kinesiólogo ve el escritorio donde pasas ocho horas, la altura real de tu silla, la herramienta con la que trabajas y la posición en que duermes, que es cuando aparece el síntoma. Eso no se corrige describiéndolo de memoria en una consulta. Si estás pesando las dos opciones, revisa <a href="/blog/kinesiologia-a-domicilio-o-en-centro">cuándo conviene kinesiología a domicilio o en centro</a>. Atendemos de lunes a viernes en 8 comunas del sector oriente y centro de Santiago y en Chicureo: mira nuestra <a href="/cobertura">cobertura por comuna</a>.</p>
 
 <h2>Preguntas frecuentes</h2>
 <h3>¿El túnel carpiano se puede mejorar sin operación?</h3>
@@ -2276,7 +2276,7 @@ export const blogPosts = [
 <p>Con eso se arma el plan y una estimación honesta de cuánto puede tomar. El formato de la visita lo detallamos en <a href="/blog/como-es-una-sesion-de-kinesiologia-a-domicilio">cómo es una sesión de kinesiología a domicilio</a>.</p>
 
 <h2>Qué se hace en las sesiones y qué te toca a ti</h2>
-<p>Cada sesión dura alrededor de 60 minutos, de lunes a domingo según disponibilidad, y combina cuatro cosas (el kinesiólogo llega con camilla y equipamiento):</p>
+<p>Cada sesión dura alrededor de 60 minutos, de lunes a viernes según disponibilidad, y combina cuatro cosas (el kinesiólogo llega con camilla y equipamiento):</p>
 <ul>
   <li><strong>Carga progresiva de pantorrilla y fascia:</strong> elevaciones de talón lentas, del suelo al escalón, con los dedos en posición para exigir a la fascia. Es el centro del tratamiento actual.</li>
   <li><strong>Terapia manual:</strong> movilización del tobillo y tejidos blandos de la cadena posterior, para que el ejercicio se pueda hacer bien.</li>
@@ -2626,7 +2626,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Cuándo conviene tratarse en casa en vez de trasladarse</h2>
-<p>Con una hernia sintomática, el traslado es parte del problema: estar sentado en el auto o en una micro es justo una de las posturas que más carga el disco, y llegar adolorido a la sesión reduce lo que se puede hacer en ella. Atenderse en casa evita ese costo, permite ajustar tu cama, tu silla y tu puesto de trabajo en el lugar donde ocurren los síntomas, y mantiene el tratamiento andando aunque tengas un día malo. Además atendemos de lunes a domingo, así que no se pierde la continuidad.</p>
+<p>Con una hernia sintomática, el traslado es parte del problema: estar sentado en el auto o en una micro es justo una de las posturas que más carga el disco, y llegar adolorido a la sesión reduce lo que se puede hacer en ella. Atenderse en casa evita ese costo, permite ajustar tu cama, tu silla y tu puesto de trabajo en el lugar donde ocurren los síntomas, y mantiene el tratamiento andando aunque tengas un día malo. Además atendemos de lunes a viernes, así que no se pierde la continuidad.</p>
 
 <h2>Preguntas frecuentes</h2>
 <h3>¿La hernia se puede reabsorber sola?</h3>
@@ -2740,7 +2740,7 @@ export const blogPosts = [
 <tr><td>Etapa final del programa</td><td>Fuerza funcional, equilibrio y resistencia</td><td>Calle, desniveles, bicicleta estática y caminatas más largas</td></tr>
 </table>
 <p>Conviene saberlo desde el principio: la hinchazón y la sensación de rodilla distinta pueden acompañarte varios meses, incluso cuando ya caminas bien.</p>
-<p>Nuestros planes siguen esa curva: recién operado suele calzar mejor el Premium, de 10 sesiones al mes a $35.000 cada una, y más adelante puede bastar el Essential, de 4 sesiones por $160.000; el detalle está en <a href="/precios">nuestros precios</a>, y atendemos de lunes a domingo para que el tratamiento no se corte al principio. KINEUM es un servicio particular: pagas la sesión y recibes boleta de honorarios electrónica, reembolsable en tu Isapre y en tu seguro complementario según la cobertura de tu plan. El trámite lo haces tú, porque no tenemos convenio con isapres ni clínicas; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología</a>.</p>
+<p>Nuestros planes siguen esa curva: recién operado suele calzar mejor el Premium, de 10 sesiones al mes a $35.000 cada una, y más adelante puede bastar el Essential, de 4 sesiones por $160.000; el detalle está en <a href="/precios">nuestros precios</a>, y atendemos de lunes a viernes para que el tratamiento no se corte al principio. KINEUM es un servicio particular: pagas la sesión y recibes boleta de honorarios electrónica, reembolsable en tu Isapre y en tu seguro complementario según la cobertura de tu plan. El trámite lo haces tú, porque no tenemos convenio con isapres ni clínicas; el paso a paso está en nuestra <a href="/blog/reembolso-isapre-kinesiologia">guía de reembolso de kinesiología</a>.</p>
 
 <h2>Señales de alarma: cuándo llamar al médico y cuándo ir a urgencias</h2>
 <p><strong>Ve a urgencias o llama al SAMU (131) de inmediato si aparece:</strong></p>
@@ -2787,7 +2787,7 @@ export const blogPosts = [
 <h3>¿Voy a volver a caminar sin bastón y a poder arrodillarme?</h3>
 <p>No podemos prometerte un resultado ni una fecha: depende de tu cirugía, de tu estado previo y de tu evolución. Arrodillarse, en particular, les sigue resultando incómodo a muchos aun con una prótesis que funciona bien, y conviene conversarlo con tu traumatólogo.</p>
 
-<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a domingo, en Las Condes —con el detalle en <a href="/kinesiologo-a-domicilio-las-condes#rehabilitacion-postquirurgica">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo.</p>`
+<p>¿Cirugía programada o recién operado? El mejor momento para ordenar la rehabilitación es ahora, no cuando la rodilla ya se puso rígida. <a href="https://wa.me/${WHATSAPP}?text=Hola,%20me%20operar%C3%A9%20de%20pr%C3%B3tesis%20de%20rodilla%20y%20necesito%20kinesiolog%C3%ADa%20a%20domicilio">Escríbenos por WhatsApp</a> y coordinamos tu evaluación inicial gratuita en tu casa, de lunes a viernes, en Las Condes —con el detalle en <a href="/kinesiologo-a-domicilio-las-condes#rehabilitacion-postquirurgica">rehabilitación postquirúrgica a domicilio en Las Condes</a>—, Vitacura, Providencia, Ñuñoa, La Reina, Lo Barnechea, Huechuraba, Santiago Centro y Chicureo.</p>`
   },
   {
     slug: "cervicalgia-mareos",

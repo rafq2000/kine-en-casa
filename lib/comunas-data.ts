@@ -94,7 +94,7 @@ export const comunas: Comuna[] = [
             "Parque Bustamante",
         ],
         contexto:
-            "En Providencia atendemos en departamentos y casas de toda la comuna: subimos con camilla y equipamiento, de lunes a domingo.",
+            "En Providencia atendemos en departamentos y casas de toda la comuna: subimos con camilla y equipamiento, de lunes a viernes.",
         referencias: "cerca del eje Providencia–Nueva Providencia y las estaciones Salvador, Manuel Montt y Los Leones",
         llegada: PRIMERA_VISITA_TEXTO,
     },
@@ -195,7 +195,7 @@ export const comunas: Comuna[] = [
             "Parque Forestal",
         ],
         contexto:
-            "En Santiago Centro atendemos en departamentos y casas: subimos a tu piso con camilla y equipamiento, de lunes a domingo.",
+            "En Santiago Centro atendemos en departamentos y casas: subimos a tu piso con camilla y equipamiento, de lunes a viernes.",
         referencias: "cerca de la Alameda, el Parque Forestal y los barrios Lastarria, Brasil y Yungay",
         llegada: PRIMERA_VISITA_TEXTO,
     },

@@ -209,7 +209,7 @@ export default function ServicioPage({ contenido, especialidadSlug }: Props) {
                             <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                                 <Clock className="h-5 w-5 text-amber-600 mb-2" />
                                 <p className="text-sm font-semibold text-slate-900">Atención</p>
-                                <p className="text-sm text-slate-600">Lunes a domingo</p>
+                                <p className="text-sm text-slate-600">Lunes a viernes</p>
                             </div>
                             <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                                 <Check className="h-5 w-5 text-slate-700 mb-2" />

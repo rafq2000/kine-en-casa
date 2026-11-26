@@ -332,7 +332,7 @@ export default function HomePage() {
               <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                 <MapPin className="h-5 w-5 text-slate-700 mb-2" />
                 <p className="text-sm font-semibold text-slate-900">8 comunas del oriente y centro, y Chicureo</p>
-                <p className="text-sm text-slate-600">Lunes a domingo</p>
+                <p className="text-sm text-slate-600">Lunes a viernes</p>
               </div>
             </div>
           </div>
@@ -478,9 +478,9 @@ export default function HomePage() {
               <div className="bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-purple-900/20">
                 <Clock className="h-8 w-8 text-purple-400" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Lunes a domingo</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Lunes a viernes</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
-                Sesiones de 60 minutos en un horario que coordinamos contigo, también fines de semana,
+                Sesiones de 60 minutos de lunes a viernes, en el horario que coordinamos contigo,
                 en las 8 comunas del sector oriente y centro de Santiago y en Chicureo.
               </p>
             </div>

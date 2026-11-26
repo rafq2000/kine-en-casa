@@ -79,7 +79,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
         },
         {
             q: `¿Cuándo puede llegar el kinesiólogo a ${data.nombre}?`,
-            a: `Coordinamos la primera visita ${llegada}. Atendemos de lunes a domingo y te confirmamos el horario por WhatsApp antes de que decidas.`,
+            a: `Coordinamos la primera visita ${llegada}. Atendemos de lunes a viernes y te confirmamos el horario por WhatsApp antes de que decidas.`,
         },
         {
             q: `¿En qué sectores de ${data.nombre} atienden?`,
@@ -283,7 +283,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             </Link>
                             <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
                                 <CalendarCheck className="h-5 w-5 text-slate-700 mb-2" />
-                                <p className="text-sm font-semibold text-slate-900">Lunes a domingo</p>
+                                <p className="text-sm font-semibold text-slate-900">Lunes a viernes</p>
                                 <p className="text-sm text-slate-600">Sesiones de 60 minutos</p>
                             </div>
                         </div>
@@ -341,7 +341,7 @@ export default function ComunaPage({ data }: ComunaPageProps) {
                             <li className="flex gap-4">
                                 <span className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-700 text-white font-bold flex items-center justify-center">3</span>
                                 <p className="text-lg text-slate-700 leading-relaxed">
-                                    Sesiones de 60 minutos de lunes a domingo, con boleta de honorarios para pedir el reembolso.
+                                    Sesiones de 60 minutos de lunes a viernes, con boleta de honorarios para pedir el reembolso.
                                 </p>
                             </li>
                         </ol>

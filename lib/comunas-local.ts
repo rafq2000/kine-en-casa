@@ -209,7 +209,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "faqsLocales": [
                     {
                         "q": "Me dan de alta el viernes de una clínica de Vitacura. ¿Pueden empezar el fin de semana?",
-                        "a": `Atendemos de lunes a domingo, así que escríbenos al ${TEL_DISPLAY} antes del alta para coordinar la evaluación inicial. Lo ideal es tener a mano la epicrisis y las indicaciones de tu cirujano para partir según su protocolo.`
+                        "a": `El fin de semana no atendemos: trabajamos de lunes a viernes. Escríbenos al ${TEL_DISPLAY} antes del alta y dejamos coordinada la evaluación inicial para el lunes. Lo ideal es tener a mano la epicrisis y las indicaciones de tu cirujano para partir según su protocolo.`
                     },
                     {
                         "q": "Vivo en una casa con escalones en la entrada; ¿qué preparo antes de volver de la clínica?",
@@ -219,7 +219,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "slug": "kinesiologia-respiratoria",
-                "introLocal": "En kinesiología respiratoria a domicilio, saber a dónde ir si algo empeora es parte del plan. En la primera visita dejamos claras las señales de alarma: respiración muy rápida, hundimiento de las costillas al respirar, labios morados, decaimiento marcado o, en guaguas, dificultad para alimentarse. Ante cualquiera de ellas se consulta en una urgencia o se llama al 131, sin esperar al kinesiólogo. En casa trabajamos técnicas para despejar la vía aérea, ejercicios respiratorios y educación para la familia, siempre con indicación médica. Atenderse en la casa evita que un niño o una persona mayor con un cuadro respiratorio pase por salas de espera, y en una comuna que se recorre casi siempre en auto, también ahorra abrigarlo, subirlo al auto y buscar estacionamiento. Si en tu casa hay varios niños, te orientamos sobre cómo organizar la sesión para que el resto de la familia siga su rutina. Como atendemos de lunes a domingo, las sesiones indicadas por tu médico pueden continuar también el fin de semana; si el cuadro empeora, primero urgencia o 131.",
+                "introLocal": "En kinesiología respiratoria a domicilio, saber a dónde ir si algo empeora es parte del plan. En la primera visita dejamos claras las señales de alarma: respiración muy rápida, hundimiento de las costillas al respirar, labios morados, decaimiento marcado o, en guaguas, dificultad para alimentarse. Ante cualquiera de ellas se consulta en una urgencia o se llama al 131, sin esperar al kinesiólogo. En casa trabajamos técnicas para despejar la vía aérea, ejercicios respiratorios y educación para la familia, siempre con indicación médica. Atenderse en la casa evita que un niño o una persona mayor con un cuadro respiratorio pase por salas de espera, y en una comuna que se recorre casi siempre en auto, también ahorra abrigarlo, subirlo al auto y buscar estacionamiento. Si en tu casa hay varios niños, te orientamos sobre cómo organizar la sesión para que el resto de la familia siga su rutina. Las sesiones indicadas por tu médico se coordinan de lunes a viernes; si el cuadro empeora, primero urgencia o 131.",
                 "faqsLocales": [
                     {
                         "q": "Mi hijo tiene bronquitis obstructiva y de noche respira peor. ¿Lo llevo al SAPU de Vitacura?",
@@ -227,7 +227,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "¿Pueden venir un domingo si mi hijo empeora y no quiero salir de noche a la clínica?",
-                        "a": "Atendemos de lunes a domingo, así que un domingo puede haber sesión si tu médico la indicó. Pero si tu hijo empeora, la kinesiología no reemplaza la urgencia: ante respiración muy rápida, hundimiento de costillas, labios morados o mucho decaimiento, llévalo a una urgencia pediátrica o llama al 131, aunque sea de noche."
+                        "a": "Atendemos de lunes a viernes, así que un domingo no hay sesión. Y si tu hijo empeora, la kinesiología no reemplaza la urgencia: ante respiración muy rápida, hundimiento de costillas, labios morados o mucho decaimiento, llévalo a una urgencia pediátrica o llama al 131, aunque sea de noche."
                     }
                 ]
             },
@@ -327,7 +327,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "Me dieron el alta hace pocos días, ¿cuándo puede ser la primera sesión en mi departamento?",
-                        "a": "Depende de la cirugía y de lo que indique tu cirujano: algunos protocolos piden moverse desde los primeros días y otros esperan un control. La evaluación inicial es gratuita y la agendamos de lunes a domingo según esa indicación."
+                        "a": "Depende de la cirugía y de lo que indique tu cirujano: algunos protocolos piden moverse desde los primeros días y otros esperan un control. La evaluación inicial es gratuita y la agendamos de lunes a viernes según esa indicación."
                     }
                 ]
             },
@@ -466,7 +466,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "slug": "kinesiologia-traumatologica",
-                "introLocal": "Un esguince jugando fútbol, una tendinitis por el computador o un dolor lumbar que no se va son motivos habituales de consulta, y con la lesión a cuestas, un viaje en Metro por la Línea 3 o la 6, o en micro por Irarrázaval, Grecia u Ossa, puede ser lo último que quieres. La kinesiología traumatológica a domicilio te permite tratar la lesión en tu casa, coordinando el horario contigo, de lunes a domingo. Evaluamos la zona afectada y armamos un plan de ejercicio terapéutico progresivo, con educación para que sepas qué movimientos conviene evitar por ahora y cuáles ayudan. Si trabajas desde tu departamento, revisamos también la postura en tu puesto de trabajo. En etapas más avanzadas, y si el caso lo permite, te damos indicaciones claras para retomar de forma gradual tu actividad física o deportiva. Cada lesión evoluciona distinto, así que no prometemos plazos fijos. Si hubo un golpe fuerte con deformidad, no puedes apoyar el pie o el dolor es intenso, consulta primero en urgencia para descartar una fractura.",
+                "introLocal": "Un esguince jugando fútbol, una tendinitis por el computador o un dolor lumbar que no se va son motivos habituales de consulta, y con la lesión a cuestas, un viaje en Metro por la Línea 3 o la 6, o en micro por Irarrázaval, Grecia u Ossa, puede ser lo último que quieres. La kinesiología traumatológica a domicilio te permite tratar la lesión en tu casa, coordinando el horario contigo, de lunes a viernes. Evaluamos la zona afectada y armamos un plan de ejercicio terapéutico progresivo, con educación para que sepas qué movimientos conviene evitar por ahora y cuáles ayudan. Si trabajas desde tu departamento, revisamos también la postura en tu puesto de trabajo. En etapas más avanzadas, y si el caso lo permite, te damos indicaciones claras para retomar de forma gradual tu actividad física o deportiva. Cada lesión evoluciona distinto, así que no prometemos plazos fijos. Si hubo un golpe fuerte con deformidad, no puedes apoyar el pie o el dolor es intenso, consulta primero en urgencia para descartar una fractura.",
                 "faqsLocales": [
                     {
                         "q": "Me torcí el tobillo y no sé si está fracturado, ¿llamo primero a KINEUM?",
@@ -474,7 +474,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "Trabajo desde casa en Ñuñoa y tengo dolor de cuello, ¿cómo coordinamos el horario de las sesiones?",
-                        "a": "Atendemos de lunes a domingo y coordinamos contigo el horario según la disponibilidad de la agenda. Además, aprovechamos la visita para revisar cómo está armado tu puesto de trabajo."
+                        "a": "Atendemos de lunes a viernes y coordinamos contigo el horario según la disponibilidad de la agenda. Además, aprovechamos la visita para revisar cómo está armado tu puesto de trabajo."
                     }
                 ]
             }
@@ -787,7 +787,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "El pediatra indicó kinesiología respiratoria. ¿Pueden venir un fin de semana a Huechuraba?",
-                        "a": `Sí, atendemos de lunes a domingo y coordinamos la hora por WhatsApp al ${TEL_DISPLAY}. Eso evita sacar de la casa a un niño con fiebre. Si durante el fin de semana aparecen señales de alarma, no esperes la sesión: urgencia o SAMU 131.`
+                        "a": `Atendemos de lunes a viernes y coordinamos la hora por WhatsApp al ${TEL_DISPLAY}. Atenderlo en casa evita sacar a un niño con fiebre. Si durante el fin de semana aparecen señales de alarma, no esperes la sesión: urgencia o SAMU 131.`
                     }
                 ]
             },
@@ -801,7 +801,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "No tenemos auto y el Metro nos queda en el borde de la comuna. ¿Eso complica la rehabilitación?",
-                        "a": `Para las sesiones no: el kinesiólogo llega a tu casa de lunes a domingo, con hora fija coordinada por WhatsApp al ${TEL_DISPLAY}. Lo que sí conviene es agrupar los controles médicos fuera de la comuna y pedir las indicaciones por escrito, para que cada viaje rinda y el trabajo en casa siga la misma línea.`
+                        "a": `Para las sesiones no: el kinesiólogo llega a tu casa de lunes a viernes, con hora fija coordinada por WhatsApp al ${TEL_DISPLAY}. Lo que sí conviene es agrupar los controles médicos fuera de la comuna y pedir las indicaciones por escrito, para que cada viaje rinda y el trabajo en casa siga la misma línea.`
                     }
                 ]
             },
@@ -811,7 +811,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "faqsLocales": [
                     {
                         "q": "Trabajo en una oficina de Ciudad Empresarial y ando con lumbago hace dos semanas. ¿Pueden atenderme al terminar la jornada?",
-                        "a": "Sí. Atendemos de lunes a domingo y la hora se fija al coordinar por WhatsApp, así que puede ser al salir del trabajo, en tu casa. La sesión dura alrededor de 60 minutos e incluye terapia manual, ejercicio y ajustes a tu puesto y tus pausas, sin sumar otro traslado por Vespucio Norte."
+                        "a": "Sí. Atendemos de lunes a viernes y la hora se fija al coordinar por WhatsApp, así que puede ser al salir del trabajo, en tu casa. La sesión dura alrededor de 60 minutos e incluye terapia manual, ejercicio y ajustes a tu puesto y tus pausas, sin sumar otro traslado por Vespucio Norte."
                     },
                     {
                         "q": "Me caí un domingo por la tarde y la muñeca quedó hinchada. ¿Voy a un SAPU de Huechuraba?",
@@ -883,7 +883,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 "faqsLocales": [
                     {
                         "q": "El pediatra indicó kinesiología respiratoria para mi hijo. ¿Pueden ir un fin de semana a Chicureo?",
-                        "a": `Sí, atendemos de lunes a domingo y coordinamos la hora por WhatsApp al ${TEL_DISPLAY}. Si aparecen señales de alarma, como respiración muy rápida, costillas que se hunden o labios morados, no esperes la sesión: ve a urgencia o llama al SAMU (131).`
+                        "a": `Atendemos de lunes a viernes y coordinamos la hora por WhatsApp al ${TEL_DISPLAY}. Si aparecen señales de alarma, como respiración muy rápida, costillas que se hunden o labios morados, no esperes la sesión: ve a urgencia o llama al SAMU (131).`
                     }
                 ]
             },
@@ -941,7 +941,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             "h2": "Kinesiología a domicilio en Santiago Centro: cómo funciona en tu barrio",
             "parrafos": [
                 "Atenderte en Santiago Centro tiene sus particularidades. En barrios patrimoniales como Yungay o Brasil abundan los edificios antiguos de pocos pisos sin ascensor, y para alguien recién operado o un adulto mayor, bajar esas escaleras para ir a una consulta puede ser el obstáculo más grande del día. Por eso el kinesiólogo sube a tu casa con el equipamiento y la sesión se hace donde vives.",
-                "Si vives en una de las torres nuevas, en un departamento pequeño, no necesitas una sala especial: basta con despejar un par de metros junto a una pared o una silla firme, y los ejercicios se adaptan a ese espacio. El tránsito denso y lo difícil que es estacionar en el casco histórico influyen en la hora de llegada, así que el horario se coordina contigo con anticipación, de lunes a domingo.",
+                "Si vives en una de las torres nuevas, en un departamento pequeño, no necesitas una sala especial: basta con despejar un par de metros junto a una pared o una silla firme, y los ejercicios se adaptan a ese espacio. El tránsito denso y lo difícil que es estacionar en el casco histórico influyen en la hora de llegada, así que el horario se coordina contigo con anticipación, de lunes a viernes.",
                 "Si vienes saliendo de alta de un hospital o clínica del centro, ten a mano la epicrisis y las indicaciones médicas para la evaluación inicial, que es gratuita: el plan parte desde lo que indicó tu equipo tratante. KINEUM es un servicio particular e independiente, sin convenios con esos centros. Ante una urgencia no esperes la sesión: llama al SAMU (131) o acude a una urgencia 24 h, como la del Hospital Clínico San Borja Arriarán (adultos y niños) o la ex Posta Central (solo adultos)."
             ],
             "faqs": [
@@ -951,7 +951,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                 },
                 {
                     "q": "¿Cómo coordinan la hora de llegada con el tránsito del centro?",
-                    "a": "El tránsito denso y lo difícil que es estacionar en el casco histórico influyen en la hora de llegada, así que el horario se coordina contigo con anticipación, de lunes a domingo."
+                    "a": "El tránsito denso y lo difícil que es estacionar en el casco histórico influyen en la hora de llegada, así que el horario se coordina contigo con anticipación, de lunes a viernes."
                 }
             ]
         },
@@ -1014,7 +1014,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
             },
             {
                 "slug": "kinesiologia-traumatologica",
-                "introLocal": "Un esguince de tobillo, una fractura de muñeca ya tratada por el traumatólogo o un dolor lumbar que no cede son motivos frecuentes para buscar kinesiología traumatológica. En Santiago Centro, donde muchos edificios antiguos no tienen ascensor, una de las metas más concretas suele ser volver a subir y bajar la escalera del edificio sin dolor ni miedo, y después retomar de a poco la caminata diaria, por ejemplo hasta la estación de Metro. El kinesiólogo gradúa ese regreso según cómo responde la lesión. Si tu jornada es larga, atenderte en tu domicilio ayuda a no saltarte sesiones: cada una dura alrededor de 60 minutos y la hora se coordina contigo, de lunes a domingo. Hay situaciones que no esperan la sesión. Si tras una caída hay deformidad visible, no puedes apoyar el pie o el dolor es intenso, acude primero a una urgencia para descartar una fractura. Y si el dolor lumbar viene con debilidad o adormecimiento de las piernas, o con pérdida de control de la orina o las deposiciones, consulta de urgencia.",
+                "introLocal": "Un esguince de tobillo, una fractura de muñeca ya tratada por el traumatólogo o un dolor lumbar que no cede son motivos frecuentes para buscar kinesiología traumatológica. En Santiago Centro, donde muchos edificios antiguos no tienen ascensor, una de las metas más concretas suele ser volver a subir y bajar la escalera del edificio sin dolor ni miedo, y después retomar de a poco la caminata diaria, por ejemplo hasta la estación de Metro. El kinesiólogo gradúa ese regreso según cómo responde la lesión. Si tu jornada es larga, atenderte en tu domicilio ayuda a no saltarte sesiones: cada una dura alrededor de 60 minutos y la hora se coordina contigo, de lunes a viernes. Hay situaciones que no esperan la sesión. Si tras una caída hay deformidad visible, no puedes apoyar el pie o el dolor es intenso, acude primero a una urgencia para descartar una fractura. Y si el dolor lumbar viene con debilidad o adormecimiento de las piernas, o con pérdida de control de la orina o las deposiciones, consulta de urgencia.",
                 "faqsLocales": [
                     {
                         "q": "Me caí y me duele mucho la muñeca, ¿voy primero a urgencia o llamo al kinesiólogo?",
@@ -1022,7 +1022,7 @@ export const comunasLocal: Record<string, ComunaLocal> = {
                     },
                     {
                         "q": "Tengo jornadas largas, ¿pueden atenderme el fin de semana?",
-                        "a": "Sí, se atiende de lunes a domingo y la hora se coordina contigo. La sesión, de unos 60 minutos, es siempre en tu domicilio, dentro de las comunas con cobertura."
+                        "a": "Atendemos de lunes a viernes y la hora se coordina contigo, así que puede ser temprano o al final del día. La sesión, de unos 60 minutos, es siempre en tu domicilio, dentro de las comunas con cobertura."
                     }
                 ]
             }

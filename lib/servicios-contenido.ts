@@ -256,7 +256,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
             },
             {
                 q: '¿Atienden fines de semana?',
-                a: 'Sí, atendemos de lunes a domingo, según la agenda disponible en tu comuna.',
+                a: 'Atendemos de lunes a viernes, según la agenda disponible en tu comuna.',
             },
         ],
         cta: {
@@ -542,7 +542,7 @@ export const serviciosContenido: Record<string, ContenidoServicio> = {
                 "parrafos": [
                     "La primera visita es una evaluación inicial gratuita: revisamos tus indicaciones, medimos rango, fuerza y marcha, y vemos cómo te mueves en la casa. Con eso te proponemos un plan y una estimación de sesiones antes de que decidas. Para iniciar el tratamiento y para reembolsar necesitas la orden médica de kinesiología; la evaluación no la reemplaza. Las sesiones duran alrededor de 60 minutos y el kinesiólogo lleva camilla, TENS, bandas elásticas y goniómetro.",
                     "No hay un número único de sesiones. Depende de la cirugía, de tu condición previa y de cómo evolucionas. Lo habitual es una frecuencia mayor durante el primer mes, cuando más se juega el rango de movimiento, y un espaciado progresivo a medida que ganas autonomía. Por eso, en el período recién operado suele calzar mejor el plan Premium (10 sesiones al mes, $35.000 por sesión), y más adelante puede bastar el Essential (4 sesiones al mes, $160.000).",
-                    "Atendemos de lunes a domingo, lo que evita cortar el tratamiento justo en los primeros días. Cada sesión se paga con boleta de honorarios electrónica, que puedes presentar a reembolso en tu Isapre o seguro complementario según tu plan o póliza."
+                    "Atendemos de lunes a viernes, con la hora coordinada contigo. Cada sesión se paga con boleta de honorarios electrónica, que puedes presentar a reembolso en tu Isapre o seguro complementario según tu plan o póliza."
                 ]
             },
             {
