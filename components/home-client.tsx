@@ -431,12 +431,12 @@ export default function HomePage() {
               Kinesiología a domicilio
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-200">
-                sin nada que envidiarle a un centro
+                con equipamiento profesional
               </span>
             </h2>
             <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-              Llevamos a tu casa lo mismo que tendrías en un centro de rehabilitación: equipamiento
-              profesional, seguimiento de tu evolución y la boleta lista para tu reembolso.
+              Llevamos a tu casa equipamiento profesional portátil, seguimiento de tu evolución y la
+              boleta lista para tu reembolso.
             </p>
           </div>
 
@@ -448,7 +448,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold mb-3 text-white">Equipamiento en tu casa</h3>
               <p className="text-slate-400 leading-relaxed text-sm">
                 Camilla profesional, TENS, ultrasonido, bandas elásticas y lo que tu tratamiento
-                requiera. La sesión en tu living es tan completa como en un centro.
+                requiera. Lo lleva el kinesiólogo: no necesitas comprar ni preparar nada.
               </p>
             </div>
 
